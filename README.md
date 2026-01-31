@@ -117,9 +117,9 @@ When the agent receives a request involving diagrams or visualizations:
 
 - [Markdown Viewer Extension](https://xicilion.gitbook.io/markdown-viewer-extension/) - The rendering engine behind these skills
 - [Agent Skills Format](https://agentskills.io/) - Standard format for AI agent skills
-- [Chrome Extension](https://chrome.google.com/webstore/detail/markdown-viewer) - Install for Chrome/Edge
+- [Chrome Extension](https://chromewebstore.google.com/detail/markdown-viewer/jekhhoflgcfoikceikgeenibinpojaoi) - Install for Chrome/Edge
 - [Firefox Add-on](https://addons.mozilla.org/firefox/addon/markdown-viewer-extension/) - Install for Firefox
-- [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=nicepkg.markdown-viewer) - Install for VS Code
+- [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=xicilion.markdown-viewer-extension) - Install for VS Code
 
 ---
 
