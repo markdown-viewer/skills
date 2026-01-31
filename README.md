@@ -43,12 +43,12 @@ Skills are automatically detected when placed in `.github/skills/` directory.
 
 | Category | Skill | Description | Best For |
 |----------|-------|-------------|----------|
-| 📊 Charts | [vega](vega/SKILL.md) | Data-driven charts with Vega-Lite and Vega | Bar, line, scatter, heatmap, area charts, multi-series analytics |
-| 📈 Infographic | [infographic](infographic/SKILL.md) | Beautiful infographics with pre-designed templates | KPI cards, timelines, roadmaps, SWOT, funnels, comparisons |
 | 🔀 Diagrams | [mermaid](mermaid/SKILL.md) | Flowcharts, sequence diagrams, state machines, and more | Process flows, API interactions, system architecture |
-| 🕸️ Graphs | [graphviz](graphviz/SKILL.md) | Complex directed/undirected graphs with DOT language | Dependency trees, org charts, network topologies |
-| 🎨 Canvas | [canvas](canvas/SKILL.md) | Spatial node-based diagrams with free positioning | Mind maps, knowledge graphs, concept maps |
+| 📊 Charts | [vega](vega/SKILL.md) | Data-driven charts with Vega-Lite and Vega | Bar, line, scatter, heatmap, area charts, multi-series analytics |
 | 🏗️ Architecture | [drawio](drawio/SKILL.md) | Professional Draw.io diagrams with rich shape libraries | Architecture diagrams, network topologies, UML |
+| 🎨 Canvas | [canvas](canvas/SKILL.md) | Spatial node-based diagrams with free positioning | Mind maps, knowledge graphs, concept maps |
+| 📈 Infographic | [infographic](infographic/SKILL.md) | Beautiful infographics with pre-designed templates | KPI cards, timelines, roadmaps, SWOT, funnels, comparisons |
+| 🕸️ Graphs | [graphviz](graphviz/SKILL.md) | Complex directed/undirected graphs with DOT language | Dependency trees, org charts, network topologies |
 
 ### Skill Selection Guide
 
@@ -57,13 +57,13 @@ Skills are automatically detected when placed in `.github/skills/` directory.
 | Process flow / workflow | `mermaid` |
 | API sequence diagram | `mermaid` |
 | Data visualization (bar/line/scatter) | `vega` |
+| AWS/Azure architecture | `drawio` |
+| Pixel-perfect layouts | `drawio` |
+| Mind map / concept map | `canvas` |
 | Quick KPI dashboard | `infographic` |
 | Timeline / roadmap | `infographic` |
 | SWOT / comparison | `infographic` |
 | Complex dependency graph | `graphviz` |
-| Mind map / concept map | `canvas` |
-| AWS/Azure architecture | `drawio` |
-| Pixel-perfect layouts | `drawio` |
 
 ---
 
@@ -106,10 +106,10 @@ When the agent receives a request involving diagrams or visualizations:
 | Mermaid | ` ```mermaid ` |
 | Vega-Lite | ` ```vega-lite ` |
 | Vega | ` ```vega ` |
+| Draw.io | ` ```drawio ` |
+| Canvas | ` ```canvas ` |
 | Infographic | ` ```infographic ` |
 | Graphviz | ` ```dot ` |
-| Canvas | ` ```canvas ` |
-| Draw.io | ` ```drawio ` |
 
 ---
 
