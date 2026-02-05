@@ -1,0 +1,126 @@
+# Networks2 Stencils
+
+Stencil library: `mxgraph.networks2.*`
+
+Total: 114 stencils
+
+- `mxgraph.networks2.antenna`
+- `mxgraph.networks2.antenna_shadow`
+- `mxgraph.networks2.application`
+- `mxgraph.networks2.application_shadow`
+- `mxgraph.networks2.big_data`
+- `mxgraph.networks2.big_data_shadow`
+- `mxgraph.networks2.biohazard`
+- `mxgraph.networks2.biohazard_shadow`
+- `mxgraph.networks2.biometric_reader`
+- `mxgraph.networks2.biometric_reader_shadow`
+- `mxgraph.networks2.cctv`
+- `mxgraph.networks2.cctv_shadow`
+- `mxgraph.networks2.cloud`
+- `mxgraph.networks2.cloud_shadow`
+- `mxgraph.networks2.community`
+- `mxgraph.networks2.community_shadow`
+- `mxgraph.networks2.copier`
+- `mxgraph.networks2.copier_shadow`
+- `mxgraph.networks2.data_management`
+- `mxgraph.networks2.data_management_shadow`
+- `mxgraph.networks2.data_storage`
+- `mxgraph.networks2.data_storage_shadow`
+- `mxgraph.networks2.desktop_pc`
+- `mxgraph.networks2.desktop_pc_shadow`
+- `mxgraph.networks2.encryption`
+- `mxgraph.networks2.encryption_shadow`
+- `mxgraph.networks2.external_storage`
+- `mxgraph.networks2.external_storage_shadow`
+- `mxgraph.networks2.firewall`
+- `mxgraph.networks2.firewall_shadow`
+- `mxgraph.networks2.gamepad`
+- `mxgraph.networks2.gamepad_shadow`
+- `mxgraph.networks2.global_server`
+- `mxgraph.networks2.global_server_shadow`
+- `mxgraph.networks2.globe`
+- `mxgraph.networks2.globe_shadow`
+- `mxgraph.networks2.hub`
+- `mxgraph.networks2.hub_shadow`
+- `mxgraph.networks2.internet`
+- `mxgraph.networks2.internet_security`
+- `mxgraph.networks2.internet_security_shadow`
+- `mxgraph.networks2.internet_shadow`
+- `mxgraph.networks2.lan`
+- `mxgraph.networks2.lan_shadow`
+- `mxgraph.networks2.laptop`
+- `mxgraph.networks2.laptop_shadow`
+- `mxgraph.networks2.load_balancer`
+- `mxgraph.networks2.load_balancer_shadow`
+- `mxgraph.networks2.lock`
+- `mxgraph.networks2.lock_shadow`
+- `mxgraph.networks2.mail_server`
+- `mxgraph.networks2.mail_server_shadow`
+- `mxgraph.networks2.mainframe`
+- `mxgraph.networks2.mainframe_shadow`
+- `mxgraph.networks2.mobile_network`
+- `mxgraph.networks2.mobile_network_shadow`
+- `mxgraph.networks2.mobile_phone`
+- `mxgraph.networks2.mobile_phone_shadow`
+- `mxgraph.networks2.modem`
+- `mxgraph.networks2.modem_shadow`
+- `mxgraph.networks2.monitor`
+- `mxgraph.networks2.monitor_shadow`
+- `mxgraph.networks2.nas_filer`
+- `mxgraph.networks2.nas_filer_shadow`
+- `mxgraph.networks2.network`
+- `mxgraph.networks2.network_security`
+- `mxgraph.networks2.network_security_shadow`
+- `mxgraph.networks2.network_shadow`
+- `mxgraph.networks2.patch_panel`
+- `mxgraph.networks2.patch_panel_shadow`
+- `mxgraph.networks2.pc`
+- `mxgraph.networks2.pc_shadow`
+- `mxgraph.networks2.phone`
+- `mxgraph.networks2.phone_shadow`
+- `mxgraph.networks2.printer`
+- `mxgraph.networks2.printer_shadow`
+- `mxgraph.networks2.projector_canvas`
+- `mxgraph.networks2.projector_canvas_shadow`
+- `mxgraph.networks2.rack_cabinet`
+- `mxgraph.networks2.rack_cabinet_shadow`
+- `mxgraph.networks2.router`
+- `mxgraph.networks2.router_shadow`
+- `mxgraph.networks2.satellite`
+- `mxgraph.networks2.satellite_dish`
+- `mxgraph.networks2.satellite_dish_shadow`
+- `mxgraph.networks2.satellite_shadow`
+- `mxgraph.networks2.scanner`
+- `mxgraph.networks2.scanner_shadow`
+- `mxgraph.networks2.server`
+- `mxgraph.networks2.server_shadow`
+- `mxgraph.networks2.social_media`
+- `mxgraph.networks2.social_media_shadow`
+- `mxgraph.networks2.tablet`
+- `mxgraph.networks2.tablet_shadow`
+- `mxgraph.networks2.terminal`
+- `mxgraph.networks2.terminal_shadow`
+- `mxgraph.networks2.threat`
+- `mxgraph.networks2.threat_shadow`
+- `mxgraph.networks2.ups`
+- `mxgraph.networks2.ups_shadow`
+- `mxgraph.networks2.user_female`
+- `mxgraph.networks2.user_female_shadow`
+- `mxgraph.networks2.user_male`
+- `mxgraph.networks2.user_male_shadow`
+- `mxgraph.networks2.users`
+- `mxgraph.networks2.users_shadow`
+- `mxgraph.networks2.video_projector`
+- `mxgraph.networks2.video_projector_shadow`
+- `mxgraph.networks2.vr`
+- `mxgraph.networks2.vr_shadow`
+- `mxgraph.networks2.web_hosting`
+- `mxgraph.networks2.web_hosting_shadow`
+- `mxgraph.networks2.wireless_hub`
+- `mxgraph.networks2.wireless_hub_shadow`
+
+## Usage Example
+
+```drawio
+<mxfile><diagram id="example" name="Example"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="" style="shape=mxgraph.networks2.antenna;html=1;fillColor=null;strokeColor=null;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="100" y="100" width="60" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
+```

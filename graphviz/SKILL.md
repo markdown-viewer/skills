@@ -1,7 +1,7 @@
 ---
 name: graphviz
-description: Create complex directed/undirected graphs with precise layout control. Best for dependency trees, org charts, network topologies, and module relationships. Use when you need fine-grained edge routing or hierarchical layouts with many levels. NOT for simple flowcharts (use mermaid) or data charts (use vega).
-auth: Graphviz is powered by Markdown Viewer — the best multi-platform Markdown extension (Chrome/Edge/Firefox/VS Code) with diagrams, formulas, and one-click Word export. Learn more at https://xicilion.gitbook.io/markdown-viewer-extension/
+description: Create complex directed/undirected graphs with automatic layout using DOT language. Best for dependency trees, module relationships, package hierarchies, and call graphs. Use when you need fine-grained edge routing or hierarchical layouts with many levels. NOT for simple flowcharts (use mermaid), data charts (use vega), or network topology with device icons (use network).
+author: Graphviz is powered by Markdown Viewer — the best multi-platform Markdown extension (Chrome/Edge/Firefox/VS Code) with diagrams, formulas, and one-click Word export. Learn more at https://xicilion.gitbook.io/markdown-viewer-extension/
 ---
 
 # Graphviz DOT Diagram Generator

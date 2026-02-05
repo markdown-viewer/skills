@@ -43,27 +43,40 @@ Skills are automatically detected when placed in `.github/skills/` directory.
 
 | Category | Skill | Description | Best For |
 |----------|-------|-------------|----------|
-| 🔀 Diagrams | [mermaid](mermaid/SKILL.md) | Flowcharts, sequence diagrams, state machines, and more | Process flows, API interactions, system architecture |
-| 📊 Charts | [vega](vega/SKILL.md) | Data-driven charts with Vega-Lite and Vega | Bar, line, scatter, heatmap, area charts, multi-series analytics |
-| 🏗️ Architecture | [drawio](drawio/SKILL.md) | Professional Draw.io diagrams with rich shape libraries | Architecture diagrams, network topologies, UML |
-| 🎨 Canvas | [canvas](canvas/SKILL.md) | Spatial node-based diagrams with free positioning | Mind maps, knowledge graphs, concept maps |
-| 📈 Infographic | [infographic](infographic/SKILL.md) | Beautiful infographics with pre-designed templates | KPI cards, timelines, roadmaps, SWOT, funnels, comparisons |
-| 🕸️ Graphs | [graphviz](graphviz/SKILL.md) | Complex directed/undirected graphs with DOT language | Dependency trees, org charts, network topologies |
+| 🔀 Flowcharts | [mermaid](mermaid/SKILL.md) | Flowcharts, sequence diagrams, state machines, Gantt charts | Process flows, API interactions, simple architecture |
+| 📊 Data Charts | [vega](vega/SKILL.md) | Data-driven charts with Vega-Lite and Vega | Bar, line, scatter, heatmap, area charts, analytics |
+| 📈 Infographic | [infographic](infographic/SKILL.md) | Pre-designed templates for quick visual impact | KPI cards, timelines, roadmaps, SWOT, funnels |
+| 🎨 Mind Map | [canvas](canvas/SKILL.md) | Spatial node-based diagrams with free positioning | Mind maps, knowledge graphs, concept maps |
+| 🕸️ Dependency Graph | [graphviz](graphviz/SKILL.md) | Complex directed/undirected graphs with DOT language | Dependency trees, module relationships, org charts |
+| 🏛️ Layered Architecture | [architecture](architecture/SKILL.md) | HTML/CSS layered architecture with color-coded layers | System architecture, microservices, enterprise apps |
+| 🏗️ Draw.io (General) | [drawio](drawio/SKILL.md) | General-purpose Draw.io with 8900+ stencils | Custom diagrams, pixel-perfect layouts |
+| 🌐 Network Topology | [network](network/SKILL.md) | Network diagrams with Cisco/vendor icons (Draw.io based) | LAN/WAN, enterprise networks, cloud infrastructure |
+| 📐 UML Diagrams | [uml](uml/SKILL.md) | UML diagrams for software modeling (Draw.io based) | Class, sequence, activity, component diagrams |
 
 ### Skill Selection Guide
 
-| Use Case | Recommended Skill |
-|----------|-------------------|
-| Process flow / workflow | `mermaid` |
-| API sequence diagram | `mermaid` |
-| Data visualization (bar/line/scatter) | `vega` |
-| AWS/Azure architecture | `drawio` |
-| Pixel-perfect layouts | `drawio` |
-| Mind map / concept map | `canvas` |
-| Quick KPI dashboard | `infographic` |
-| Timeline / roadmap | `infographic` |
-| SWOT / comparison | `infographic` |
-| Complex dependency graph | `graphviz` |
+| Use Case | Recommended Skill | Reason |
+|----------|-------------------|--------|
+| Process flow / workflow | `mermaid` | Simple text-based syntax |
+| API sequence diagram | `mermaid` | Built-in sequence diagram support |
+| State machine | `mermaid` | Native state diagram syntax |
+| Bar / line / scatter chart | `vega` | Data-driven visualization |
+| Heatmap / multi-series | `vega` | Statistical analysis |
+| KPI dashboard / metrics | `infographic` | Pre-designed card templates |
+| Timeline / roadmap | `infographic` | Built-in timeline templates |
+| SWOT / comparison | `infographic` | Structured comparison templates |
+| Mind map / brainstorm | `canvas` | Free spatial positioning |
+| Knowledge graph | `canvas` | Node-edge with coordinates |
+| Module dependencies | `graphviz` | Complex edge routing |
+| Package relationships | `graphviz` | Hierarchical layouts |
+| System layers (User→App→Data→Infra) | `architecture` | Color-coded layer templates |
+| Microservices architecture | `architecture` | Grid-based component layout |
+| Custom diagram with icons | `drawio` | 8900+ stencils available |
+| Pixel-perfect positioning | `drawio` | Precise x/y coordinates |
+| Network topology (LAN/WAN) | `network` | Cisco/vendor device icons |
+| Cloud infrastructure | `network` | AWS/Azure/GCP shapes |
+| UML class diagram | `uml` | Standard UML notation |
+| UML sequence / activity | `uml` | UML lifeline and flow shapes |
 
 ---
 
@@ -107,9 +120,12 @@ When the agent receives a request involving diagrams or visualizations:
 | Vega-Lite | ` ```vega-lite ` |
 | Vega | ` ```vega ` |
 | Draw.io | ` ```drawio ` |
+| Architecture | (no fence, use raw HTML) |
 | Canvas | ` ```canvas ` |
 | Infographic | ` ```infographic ` |
 | Graphviz | ` ```dot ` |
+| Network | ` ```drawio ` |
+| UML | ` ```drawio ` |
 
 ---
 

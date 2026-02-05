@@ -1,0 +1,122 @@
+# Ibm Cloud Stencils
+
+Stencil library: `mxgraph.ibm_cloud.*`
+
+Total: 110 stencils
+
+- `mxgraph.ibm_cloud.application`
+- `mxgraph.ibm_cloud.application--web`
+- `mxgraph.ibm_cloud.arrows--horizontal`
+- `mxgraph.ibm_cloud.autoscaling`
+- `mxgraph.ibm_cloud.bastion-host`
+- `mxgraph.ibm_cloud.block-storage`
+- `mxgraph.ibm_cloud.cloud--monitoring`
+- `mxgraph.ibm_cloud.cloud-registry`
+- `mxgraph.ibm_cloud.cloud-satellite`
+- `mxgraph.ibm_cloud.cloud-services`
+- `mxgraph.ibm_cloud.continuous-integration`
+- `mxgraph.ibm_cloud.data--base`
+- `mxgraph.ibm_cloud.data--center`
+- `mxgraph.ibm_cloud.database--datastax`
+- `mxgraph.ibm_cloud.database--elastic`
+- `mxgraph.ibm_cloud.database--enterprisedb`
+- `mxgraph.ibm_cloud.database--etcd`
+- `mxgraph.ibm_cloud.database--mongodb`
+- `mxgraph.ibm_cloud.database--mysql`
+- `mxgraph.ibm_cloud.database--postgresql`
+- `mxgraph.ibm_cloud.database--rabbit`
+- `mxgraph.ibm_cloud.database--redis`
+- `mxgraph.ibm_cloud.dns-services`
+- `mxgraph.ibm_cloud.enterprise`
+- `mxgraph.ibm_cloud.flag`
+- `mxgraph.ibm_cloud.floating-ip`
+- `mxgraph.ibm_cloud.flow-logs-vpc`
+- `mxgraph.ibm_cloud.gateway--public`
+- `mxgraph.ibm_cloud.group`
+- `mxgraph.ibm_cloud.group--access`
+- `mxgraph.ibm_cloud.group--account`
+- `mxgraph.ibm_cloud.group--resource`
+- `mxgraph.ibm_cloud.group--security`
+- `mxgraph.ibm_cloud.group-objects`
+- `mxgraph.ibm_cloud.ibm--cloudant`
+- `mxgraph.ibm_cloud.ibm--db2`
+- `mxgraph.ibm_cloud.ibm--db2-warehouse`
+- `mxgraph.ibm_cloud.ibm--mq`
+- `mxgraph.ibm_cloud.ibm--power-vs`
+- `mxgraph.ibm_cloud.ibm--toolchain`
+- `mxgraph.ibm_cloud.ibm--vpn-for-vpc`
+- `mxgraph.ibm_cloud.ibm-cloud`
+- `mxgraph.ibm_cloud.ibm-cloud--app-id`
+- `mxgraph.ibm_cloud.ibm-cloud--bare-metal-server`
+- `mxgraph.ibm_cloud.ibm-cloud--bare-metal-servers-vpc`
+- `mxgraph.ibm_cloud.ibm-cloud--continuous-delivery`
+- `mxgraph.ibm_cloud.ibm-cloud--dedicated-host`
+- `mxgraph.ibm_cloud.ibm-cloud--direct-link-2--connect`
+- `mxgraph.ibm_cloud.ibm-cloud--direct-link-2--dedicated`
+- `mxgraph.ibm_cloud.ibm-cloud--event-streams`
+- `mxgraph.ibm_cloud.ibm-cloud--internet-services`
+- `mxgraph.ibm_cloud.ibm-cloud--key-protect`
+- `mxgraph.ibm_cloud.ibm-cloud--kubernetes-service`
+- `mxgraph.ibm_cloud.ibm-cloud--logging`
+- `mxgraph.ibm_cloud.ibm-cloud--secrets-manager`
+- `mxgraph.ibm_cloud.ibm-cloud--security-compliance-center`
+- `mxgraph.ibm_cloud.ibm-cloud--subnets`
+- `mxgraph.ibm_cloud.ibm-cloud--transit-gateway`
+- `mxgraph.ibm_cloud.ibm-cloud--virtual-server-classic`
+- `mxgraph.ibm_cloud.ibm-cloud--virtual-server-vpc`
+- `mxgraph.ibm_cloud.ibm-cloud--vpc`
+- `mxgraph.ibm_cloud.ibm-cloud--vpc-endpoints`
+- `mxgraph.ibm_cloud.ibm-cloud-pak--data`
+- `mxgraph.ibm_cloud.ibm-cloud-pak--integration`
+- `mxgraph.ibm_cloud.ibm-cloud-pak--security`
+- `mxgraph.ibm_cloud.ibm-watson--discovery`
+- `mxgraph.ibm_cloud.ibm-watson--machine-learning`
+- `mxgraph.ibm_cloud.ibm-watson--studio`
+- `mxgraph.ibm_cloud.ibm-watsonx--assistant`
+- `mxgraph.ibm_cloud.ibm-watsonx--code-assistant`
+- `mxgraph.ibm_cloud.ibm-watsonx--code-assistant-for-z`
+- `mxgraph.ibm_cloud.ibm-watsonx--code-assistant-for-z--refactor`
+- `mxgraph.ibm_cloud.ibm-watsonx--orchestrate`
+- `mxgraph.ibm_cloud.ibm-z-os--containers`
+- `mxgraph.ibm_cloud.image-service`
+- `mxgraph.ibm_cloud.infrastructure--classic`
+- `mxgraph.ibm_cloud.load-balancer--application`
+- `mxgraph.ibm_cloud.load-balancer--classic`
+- `mxgraph.ibm_cloud.load-balancer--global`
+- `mxgraph.ibm_cloud.load-balancer--network`
+- `mxgraph.ibm_cloud.load-balancer--vpc`
+- `mxgraph.ibm_cloud.location`
+- `mxgraph.ibm_cloud.logo--ansible-community`
+- `mxgraph.ibm_cloud.logo--gitlab`
+- `mxgraph.ibm_cloud.logo--openshift`
+- `mxgraph.ibm_cloud.microservices--1`
+- `mxgraph.ibm_cloud.network--enterprise`
+- `mxgraph.ibm_cloud.network--overlay`
+- `mxgraph.ibm_cloud.network--public`
+- `mxgraph.ibm_cloud.network-interface`
+- `mxgraph.ibm_cloud.object-storage`
+- `mxgraph.ibm_cloud.password`
+- `mxgraph.ibm_cloud.point-of-presence`
+- `mxgraph.ibm_cloud.repo--source-code`
+- `mxgraph.ibm_cloud.router`
+- `mxgraph.ibm_cloud.server--proxy`
+- `mxgraph.ibm_cloud.subnet-acl-rules`
+- `mxgraph.ibm_cloud.switch-layer-2`
+- `mxgraph.ibm_cloud.switch-layer-3`
+- `mxgraph.ibm_cloud.undefined`
+- `mxgraph.ibm_cloud.user`
+- `mxgraph.ibm_cloud.vlan`
+- `mxgraph.ibm_cloud.vlan--ibm`
+- `mxgraph.ibm_cloud.vpn--connection`
+- `mxgraph.ibm_cloud.watsonx`
+- `mxgraph.ibm_cloud.watsonx-ai`
+- `mxgraph.ibm_cloud.watsonx-data`
+- `mxgraph.ibm_cloud.watsonx-governance`
+- `mxgraph.ibm_cloud.wikis`
+- `mxgraph.ibm_cloud.z--systems`
+
+## Usage Example
+
+```drawio
+<mxfile><diagram id="example" name="Example"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="" style="shape=mxgraph.ibm_cloud.ibm-watson--discovery;html=1;fillColor=currentColor;strokeColor=currentColor;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="100" y="100" width="60" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
+```

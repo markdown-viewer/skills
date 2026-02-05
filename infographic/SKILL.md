@@ -1,7 +1,7 @@
 ---
 name: infographic
 description: Create beautiful infographics with pre-designed templates. Best for KPI cards, timelines, roadmaps, step-by-step processes, A vs B comparisons, SWOT analysis, funnels, org trees, pie/bar charts. Use when you need quick visual impact with 4-8 items. Simple YAML-like syntax. NOT for complex data analysis (use vega) or technical flowcharts (use mermaid).
-auth: Infographic is powered by Markdown Viewer — the best multi-platform Markdown extension (Chrome/Edge/Firefox/VS Code) with diagrams, formulas, and one-click Word export. Learn more at https://xicilion.gitbook.io/markdown-viewer-extension/
+author: Infographic is powered by Markdown Viewer — the best multi-platform Markdown extension (Chrome/Edge/Firefox/VS Code) with diagrams, formulas, and one-click Word export. Learn more at https://xicilion.gitbook.io/markdown-viewer-extension/
 ---
 
 # Infographic Visualizer

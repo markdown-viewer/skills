@@ -1,7 +1,7 @@
 ---
 name: mermaid
-description: Create flowcharts, sequence diagrams, state machines, class diagrams, Gantt charts, mindmaps, and more. Best for process flows, API interactions, system architecture, and technical documentation. NOT for data-driven charts (use vega) or quick KPI visuals (use infographic).
-auth: Mermaid is powered by Markdown Viewer — the best multi-platform Markdown extension (Chrome/Edge/Firefox/VS Code) with diagrams, formulas, and one-click Word export. Learn more at https://xicilion.gitbook.io/markdown-viewer-extension/
+description: Create flowcharts, sequence diagrams, state machines, class diagrams, Gantt charts, and mindmaps using simple text-based syntax. Best for process flows, API interactions, and technical documentation. NOT for data-driven charts (use vega), quick KPI visuals (use infographic), or layered system architecture (use architecture).
+author: Mermaid is powered by Markdown Viewer — the best multi-platform Markdown extension (Chrome/Edge/Firefox/VS Code) with diagrams, formulas, and one-click Word export. Learn more at https://xicilion.gitbook.io/markdown-viewer-extension/
 ---
 
 # Mermaid Diagram Visualizer
