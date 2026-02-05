@@ -4,306 +4,306 @@ Stencil library: `mxgraph.gcp2.*`
 
 Total: 297 stencils
 
-- `mxgraph.gcp2.a7_power`
-- `mxgraph.gcp2.admin_connected`
-- `mxgraph.gcp2.admob`
-- `mxgraph.gcp2.advanced_solutions_lab`
-- `mxgraph.gcp2.ai_hub`
-- `mxgraph.gcp2.anomaly_detection`
-- `mxgraph.gcp2.api_analytics`
-- `mxgraph.gcp2.api_monetization`
-- `mxgraph.gcp2.apigee_api_platform`
-- `mxgraph.gcp2.apigee_sense`
-- `mxgraph.gcp2.app_engine`
-- `mxgraph.gcp2.app_engine_icon`
-- `mxgraph.gcp2.application`
-- `mxgraph.gcp2.application_system`
-- `mxgraph.gcp2.arrow_cycle`
-- `mxgraph.gcp2.arrows_system`
-- `mxgraph.gcp2.aspect_ratio`
-- `mxgraph.gcp2.automl_natural_language`
-- `mxgraph.gcp2.automl_tables`
-- `mxgraph.gcp2.automl_translation`
-- `mxgraph.gcp2.automl_video_intelligence`
-- `mxgraph.gcp2.automl_vision`
-- `mxgraph.gcp2.avere`
-- `mxgraph.gcp2.beacon`
-- `mxgraph.gcp2.beyondcorp`
-- `mxgraph.gcp2.big_query`
-- `mxgraph.gcp2.bigquery`
-- `mxgraph.gcp2.biomedical_beaker`
-- `mxgraph.gcp2.biomedical_test_tube`
-- `mxgraph.gcp2.biomedical_trio`
-- `mxgraph.gcp2.blank`
-- `mxgraph.gcp2.blue_hexagon`
-- `mxgraph.gcp2.bucket`
-- `mxgraph.gcp2.bucket_scale`
-- `mxgraph.gcp2.calculator`
-- `mxgraph.gcp2.campaign_manager`
-- `mxgraph.gcp2.capabilities`
-- `mxgraph.gcp2.certified_industry_standard`
-- `mxgraph.gcp2.check`
-- `mxgraph.gcp2.check_2`
-- `mxgraph.gcp2.check_available`
-- `mxgraph.gcp2.check_scale`
-- `mxgraph.gcp2.circuit_board`
-- `mxgraph.gcp2.clock`
-- `mxgraph.gcp2.cloud`
-- `mxgraph.gcp2.cloud_apis`
-- `mxgraph.gcp2.cloud_armor`
-- `mxgraph.gcp2.cloud_automl`
-- `mxgraph.gcp2.cloud_bigtable`
-- `mxgraph.gcp2.cloud_cdn`
-- `mxgraph.gcp2.cloud_checkmark`
-- `mxgraph.gcp2.cloud_code`
-- `mxgraph.gcp2.cloud_composer`
-- `mxgraph.gcp2.cloud_computer`
-- `mxgraph.gcp2.cloud_connected_insight`
-- `mxgraph.gcp2.cloud_data_catalog`
-- `mxgraph.gcp2.cloud_data_fusion`
-- `mxgraph.gcp2.cloud_dataflow`
-- `mxgraph.gcp2.cloud_dataflow_icon`
-- `mxgraph.gcp2.cloud_datalab`
-- `mxgraph.gcp2.cloud_dataprep`
-- `mxgraph.gcp2.cloud_dataproc`
-- `mxgraph.gcp2.cloud_dataproc_icon`
-- `mxgraph.gcp2.cloud_datastore`
-- `mxgraph.gcp2.cloud_deployment_manager`
-- `mxgraph.gcp2.cloud_dns`
-- `mxgraph.gcp2.cloud_endpoints`
-- `mxgraph.gcp2.cloud_external_ip_addresses`
-- `mxgraph.gcp2.cloud_filestore`
-- `mxgraph.gcp2.cloud_firestore`
-- `mxgraph.gcp2.cloud_firewall_rules`
-- `mxgraph.gcp2.cloud_functions`
-- `mxgraph.gcp2.cloud_iam`
-- `mxgraph.gcp2.cloud_inference_api`
-- `mxgraph.gcp2.cloud_information`
-- `mxgraph.gcp2.cloud_iot_core`
-- `mxgraph.gcp2.cloud_iot_edge`
-- `mxgraph.gcp2.cloud_jobs_api`
-- `mxgraph.gcp2.cloud_load_balancing`
-- `mxgraph.gcp2.cloud_machine_learning`
-- `mxgraph.gcp2.cloud_memorystore`
-- `mxgraph.gcp2.cloud_messaging`
-- `mxgraph.gcp2.cloud_monitoring`
-- `mxgraph.gcp2.cloud_nat`
-- `mxgraph.gcp2.cloud_natural_language_api`
-- `mxgraph.gcp2.cloud_network`
-- `mxgraph.gcp2.cloud_pubsub`
-- `mxgraph.gcp2.cloud_router`
-- `mxgraph.gcp2.cloud_routes`
-- `mxgraph.gcp2.cloud_run`
-- `mxgraph.gcp2.cloud_scheduler`
-- `mxgraph.gcp2.cloud_security`
-- `mxgraph.gcp2.cloud_security_command_center`
-- `mxgraph.gcp2.cloud_security_scanner`
-- `mxgraph.gcp2.cloud_server`
-- `mxgraph.gcp2.cloud_service_mesh`
-- `mxgraph.gcp2.cloud_spanner`
-- `mxgraph.gcp2.cloud_speech_api`
-- `mxgraph.gcp2.cloud_sql`
-- `mxgraph.gcp2.cloud_storage`
-- `mxgraph.gcp2.cloud_sub_pub`
-- `mxgraph.gcp2.cloud_tasks`
-- `mxgraph.gcp2.cloud_test_lab`
-- `mxgraph.gcp2.cloud_text_to_speech`
-- `mxgraph.gcp2.cloud_tools_for_powershell`
-- `mxgraph.gcp2.cloud_tpu`
-- `mxgraph.gcp2.cloud_translation_api`
-- `mxgraph.gcp2.cloud_video_intelligence_api`
-- `mxgraph.gcp2.cloud_vision_api`
-- `mxgraph.gcp2.cloud_vpn`
-- `mxgraph.gcp2.cluster`
-- `mxgraph.gcp2.compute_engine`
-- `mxgraph.gcp2.compute_engine_2`
-- `mxgraph.gcp2.compute_engine_icon`
-- `mxgraph.gcp2.connected`
-- `mxgraph.gcp2.container_builder`
-- `mxgraph.gcp2.container_engine`
-- `mxgraph.gcp2.container_engine_icon`
-- `mxgraph.gcp2.container_optimized_os`
-- `mxgraph.gcp2.container_registry`
-- `mxgraph.gcp2.cost`
-- `mxgraph.gcp2.cost_arrows`
-- `mxgraph.gcp2.cost_savings`
-- `mxgraph.gcp2.data_access`
-- `mxgraph.gcp2.data_increase`
-- `mxgraph.gcp2.data_loss_prevention_api`
-- `mxgraph.gcp2.data_storage_cost`
-- `mxgraph.gcp2.data_studio`
-- `mxgraph.gcp2.database`
-- `mxgraph.gcp2.database_2`
-- `mxgraph.gcp2.database_3`
-- `mxgraph.gcp2.database_cycle`
-- `mxgraph.gcp2.database_speed`
-- `mxgraph.gcp2.database_uploading`
-- `mxgraph.gcp2.debugger`
-- `mxgraph.gcp2.dedicated_game_server`
-- `mxgraph.gcp2.dedicated_interconnect`
-- `mxgraph.gcp2.desktop`
-- `mxgraph.gcp2.desktop_and_mobile`
-- `mxgraph.gcp2.developer_portal`
-- `mxgraph.gcp2.dialogflow_enterprise_edition`
-- `mxgraph.gcp2.enhance_ui`
-- `mxgraph.gcp2.enhance_ui_2`
-- `mxgraph.gcp2.error_reporting`
-- `mxgraph.gcp2.external_data_center`
-- `mxgraph.gcp2.external_data_resource`
-- `mxgraph.gcp2.external_payment_form`
-- `mxgraph.gcp2.fastly`
-- `mxgraph.gcp2.files`
-- `mxgraph.gcp2.firebase`
-- `mxgraph.gcp2.folders`
-- `mxgraph.gcp2.forseti_lockup`
-- `mxgraph.gcp2.forseti_logo`
-- `mxgraph.gcp2.frontend_platform_services`
-- `mxgraph.gcp2.game`
-- `mxgraph.gcp2.gateway`
-- `mxgraph.gcp2.gateway_icon`
-- `mxgraph.gcp2.gear`
-- `mxgraph.gcp2.gear_arrow`
-- `mxgraph.gcp2.gear_chain`
-- `mxgraph.gcp2.gear_load`
-- `mxgraph.gcp2.genomics`
-- `mxgraph.gcp2.gke_on_prem`
-- `mxgraph.gcp2.globe_world`
-- `mxgraph.gcp2.google_ad_manager`
-- `mxgraph.gcp2.google_ads`
-- `mxgraph.gcp2.google_analytics`
-- `mxgraph.gcp2.google_analytics_360`
-- `mxgraph.gcp2.google_cloud_platform`
-- `mxgraph.gcp2.google_cloud_platform_lockup`
-- `mxgraph.gcp2.google_network`
-- `mxgraph.gcp2.google_network_edge_cache`
-- `mxgraph.gcp2.google_play_game_service`
-- `mxgraph.gcp2.gpu`
-- `mxgraph.gcp2.half_cloud`
-- `mxgraph.gcp2.https_load_balancer`
-- `mxgraph.gcp2.identity_aware_proxy`
-- `mxgraph.gcp2.image_services`
-- `mxgraph.gcp2.increase_cost_arrows`
-- `mxgraph.gcp2.internal_payment_authorization`
-- `mxgraph.gcp2.internet_connection`
-- `mxgraph.gcp2.istio_logo`
-- `mxgraph.gcp2.key`
-- `mxgraph.gcp2.key_management_service`
-- `mxgraph.gcp2.kubernetes_logo`
-- `mxgraph.gcp2.kubernetes_name`
-- `mxgraph.gcp2.laptop`
-- `mxgraph.gcp2.legacy_cloud`
-- `mxgraph.gcp2.legacy_cloud_2`
-- `mxgraph.gcp2.lifecycle`
-- `mxgraph.gcp2.lightbulb`
-- `mxgraph.gcp2.list`
-- `mxgraph.gcp2.live`
-- `mxgraph.gcp2.load_balancing`
-- `mxgraph.gcp2.loading`
-- `mxgraph.gcp2.loading_2`
-- `mxgraph.gcp2.loading_3`
-- `mxgraph.gcp2.lock`
-- `mxgraph.gcp2.logging`
-- `mxgraph.gcp2.logs_api`
-- `mxgraph.gcp2.management_security`
-- `mxgraph.gcp2.maps_api`
-- `mxgraph.gcp2.mem_instances`
-- `mxgraph.gcp2.memcache`
-- `mxgraph.gcp2.memory_card`
-- `mxgraph.gcp2.mobile_devices`
-- `mxgraph.gcp2.modifiers_autoscaling`
-- `mxgraph.gcp2.modifiers_custom_virtual_machine`
-- `mxgraph.gcp2.modifiers_high_cpu_machine`
-- `mxgraph.gcp2.modifiers_high_memory_machine`
-- `mxgraph.gcp2.modifiers_preemptable_vm`
-- `mxgraph.gcp2.modifiers_shared_core_machine_f1`
-- `mxgraph.gcp2.modifiers_shared_core_machine_g1`
-- `mxgraph.gcp2.modifiers_standard_machine`
-- `mxgraph.gcp2.modifiers_storage`
-- `mxgraph.gcp2.monitor`
-- `mxgraph.gcp2.monitor_2`
-- `mxgraph.gcp2.nat`
-- `mxgraph.gcp2.network`
-- `mxgraph.gcp2.network_load_balancer`
-- `mxgraph.gcp2.node`
-- `mxgraph.gcp2.outline_blank_1`
-- `mxgraph.gcp2.outline_blank_2`
-- `mxgraph.gcp2.outline_blank_3`
-- `mxgraph.gcp2.outline_highcomp`
-- `mxgraph.gcp2.outline_highmem`
-- `mxgraph.gcp2.partner_interconnect`
-- `mxgraph.gcp2.payment`
-- `mxgraph.gcp2.people_security_management`
-- `mxgraph.gcp2.persistent_disk`
-- `mxgraph.gcp2.persistent_disk_snapshot`
-- `mxgraph.gcp2.phone`
-- `mxgraph.gcp2.phone_android`
-- `mxgraph.gcp2.placeholder`
-- `mxgraph.gcp2.play_gear`
-- `mxgraph.gcp2.play_start`
-- `mxgraph.gcp2.prediction_api`
-- `mxgraph.gcp2.premium_network_tier`
-- `mxgraph.gcp2.primary`
-- `mxgraph.gcp2.process`
-- `mxgraph.gcp2.profiler`
-- `mxgraph.gcp2.push_notification_service`
-- `mxgraph.gcp2.recommendations_ai`
-- `mxgraph.gcp2.record`
-- `mxgraph.gcp2.replication_controller`
-- `mxgraph.gcp2.replication_controller_2`
-- `mxgraph.gcp2.replication_controller_3`
-- `mxgraph.gcp2.report`
-- `mxgraph.gcp2.repository`
-- `mxgraph.gcp2.repository_2`
-- `mxgraph.gcp2.repository_3`
-- `mxgraph.gcp2.repository_primary`
-- `mxgraph.gcp2.retail`
-- `mxgraph.gcp2.safety`
-- `mxgraph.gcp2.save`
-- `mxgraph.gcp2.scale`
-- `mxgraph.gcp2.scheduled_tasks`
-- `mxgraph.gcp2.search`
-- `mxgraph.gcp2.search_api`
-- `mxgraph.gcp2.security_key_enforcement`
-- `mxgraph.gcp2.segments`
-- `mxgraph.gcp2.segments_2`
-- `mxgraph.gcp2.segments_overlap`
-- `mxgraph.gcp2.servers_stacked`
-- `mxgraph.gcp2.service`
-- `mxgraph.gcp2.service_discovery`
-- `mxgraph.gcp2.social_media_time`
-- `mxgraph.gcp2.solution`
-- `mxgraph.gcp2.speaker`
-- `mxgraph.gcp2.speed`
-- `mxgraph.gcp2.squid_proxy`
-- `mxgraph.gcp2.stackdriver`
-- `mxgraph.gcp2.stacked_ownership`
-- `mxgraph.gcp2.standard_network_tier`
-- `mxgraph.gcp2.storage`
-- `mxgraph.gcp2.stream`
-- `mxgraph.gcp2.swap`
-- `mxgraph.gcp2.systems_check`
-- `mxgraph.gcp2.tape_record`
-- `mxgraph.gcp2.task_queues`
-- `mxgraph.gcp2.task_queues_2`
-- `mxgraph.gcp2.tensorflow_lockup`
-- `mxgraph.gcp2.tensorflow_logo`
-- `mxgraph.gcp2.thumbs_up`
-- `mxgraph.gcp2.time_clock`
-- `mxgraph.gcp2.trace`
-- `mxgraph.gcp2.traffic_director`
-- `mxgraph.gcp2.transfer_appliance`
-- `mxgraph.gcp2.users`
-- `mxgraph.gcp2.view_list`
-- `mxgraph.gcp2.virtual_file_system`
-- `mxgraph.gcp2.virtual_private_cloud`
-- `mxgraph.gcp2.visibility`
-- `mxgraph.gcp2.vpn`
-- `mxgraph.gcp2.vpn_gateway`
-- `mxgraph.gcp2.webcam`
-- `mxgraph.gcp2.website`
+- `mxgraph.gcp2.a7_power` (155×155)
+- `mxgraph.gcp2.admin_connected` (163×163)
+- `mxgraph.gcp2.admob` (48×48)
+- `mxgraph.gcp2.advanced_solutions_lab` (172×153)
+- `mxgraph.gcp2.ai_hub` (172×153)
+- `mxgraph.gcp2.anomaly_detection` (109×118)
+- `mxgraph.gcp2.api_analytics` (172×153)
+- `mxgraph.gcp2.api_monetization` (172×153)
+- `mxgraph.gcp2.apigee_api_platform` (172×153)
+- `mxgraph.gcp2.apigee_sense` (172×153)
+- `mxgraph.gcp2.app_engine` (172×153)
+- `mxgraph.gcp2.app_engine_icon` (21×17)
+- `mxgraph.gcp2.application` (32×25)
+- `mxgraph.gcp2.application_system` (99×99)
+- `mxgraph.gcp2.arrow_cycle` (127×120)
+- `mxgraph.gcp2.arrows_system` (129×122)
+- `mxgraph.gcp2.aspect_ratio` (112×103)
+- `mxgraph.gcp2.automl_natural_language` (172×153)
+- `mxgraph.gcp2.automl_tables` (172×153)
+- `mxgraph.gcp2.automl_translation` (172×153)
+- `mxgraph.gcp2.automl_video_intelligence` (172×153)
+- `mxgraph.gcp2.automl_vision` (172×153)
+- `mxgraph.gcp2.avere` (189×63)
+- `mxgraph.gcp2.beacon` (24×33)
+- `mxgraph.gcp2.beyondcorp` (172×153)
+- `mxgraph.gcp2.big_query` (146×147)
+- `mxgraph.gcp2.bigquery` (172×153)
+- `mxgraph.gcp2.biomedical_beaker` (105×152)
+- `mxgraph.gcp2.biomedical_test_tube` (30×98)
+- `mxgraph.gcp2.biomedical_trio` (144×98)
+- `mxgraph.gcp2.blank` (99×99)
+- `mxgraph.gcp2.blue_hexagon` (172×153)
+- `mxgraph.gcp2.bucket` (99×99)
+- `mxgraph.gcp2.bucket_scale` (178×145)
+- `mxgraph.gcp2.calculator` (178×132)
+- `mxgraph.gcp2.campaign_manager` (99×99)
+- `mxgraph.gcp2.capabilities` (239×182)
+- `mxgraph.gcp2.certified_industry_standard` (171×134)
+- `mxgraph.gcp2.check` (115×92)
+- `mxgraph.gcp2.check_2` (158×158)
+- `mxgraph.gcp2.check_available` (201×174)
+- `mxgraph.gcp2.check_scale` (207×155)
+- `mxgraph.gcp2.circuit_board` (120×108)
+- `mxgraph.gcp2.clock` (184×184)
+- `mxgraph.gcp2.cloud` (147×101)
+- `mxgraph.gcp2.cloud_apis` (172×153)
+- `mxgraph.gcp2.cloud_armor` (172×153)
+- `mxgraph.gcp2.cloud_automl` (172×153)
+- `mxgraph.gcp2.cloud_bigtable` (172×153)
+- `mxgraph.gcp2.cloud_cdn` (172×153)
+- `mxgraph.gcp2.cloud_checkmark` (139×93)
+- `mxgraph.gcp2.cloud_code` (172×153)
+- `mxgraph.gcp2.cloud_composer` (172×153)
+- `mxgraph.gcp2.cloud_computer` (136×119)
+- `mxgraph.gcp2.cloud_connected_insight` (160×145)
+- `mxgraph.gcp2.cloud_data_catalog` (172×153)
+- `mxgraph.gcp2.cloud_data_fusion` (172×153)
+- `mxgraph.gcp2.cloud_dataflow` (172×153)
+- `mxgraph.gcp2.cloud_dataflow_icon` (15×21)
+- `mxgraph.gcp2.cloud_datalab` (172×153)
+- `mxgraph.gcp2.cloud_dataprep` (172×153)
+- `mxgraph.gcp2.cloud_dataproc` (172×153)
+- `mxgraph.gcp2.cloud_dataproc_icon` (21×20)
+- `mxgraph.gcp2.cloud_datastore` (172×153)
+- `mxgraph.gcp2.cloud_deployment_manager` (172×153)
+- `mxgraph.gcp2.cloud_dns` (172×153)
+- `mxgraph.gcp2.cloud_endpoints` (172×153)
+- `mxgraph.gcp2.cloud_external_ip_addresses` (172×153)
+- `mxgraph.gcp2.cloud_filestore` (172×153)
+- `mxgraph.gcp2.cloud_firestore` (172×153)
+- `mxgraph.gcp2.cloud_firewall_rules` (172×153)
+- `mxgraph.gcp2.cloud_functions` (172×153)
+- `mxgraph.gcp2.cloud_iam` (172×153)
+- `mxgraph.gcp2.cloud_inference_api` (172×153)
+- `mxgraph.gcp2.cloud_information` (202×160)
+- `mxgraph.gcp2.cloud_iot_core` (172×153)
+- `mxgraph.gcp2.cloud_iot_edge` (172×153)
+- `mxgraph.gcp2.cloud_jobs_api` (172×153)
+- `mxgraph.gcp2.cloud_load_balancing` (172×153)
+- `mxgraph.gcp2.cloud_machine_learning` (172×153)
+- `mxgraph.gcp2.cloud_memorystore` (172×153)
+- `mxgraph.gcp2.cloud_messaging` (154×99)
+- `mxgraph.gcp2.cloud_monitoring` (79×88)
+- `mxgraph.gcp2.cloud_nat` (172×153)
+- `mxgraph.gcp2.cloud_natural_language_api` (172×153)
+- `mxgraph.gcp2.cloud_network` (172×153)
+- `mxgraph.gcp2.cloud_pubsub` (172×153)
+- `mxgraph.gcp2.cloud_router` (172×153)
+- `mxgraph.gcp2.cloud_routes` (172×153)
+- `mxgraph.gcp2.cloud_run` (172×153)
+- `mxgraph.gcp2.cloud_scheduler` (114×122)
+- `mxgraph.gcp2.cloud_security` (155×109)
+- `mxgraph.gcp2.cloud_security_command_center` (172×153)
+- `mxgraph.gcp2.cloud_security_scanner` (172×153)
+- `mxgraph.gcp2.cloud_server` (161×144)
+- `mxgraph.gcp2.cloud_service_mesh` (172×153)
+- `mxgraph.gcp2.cloud_spanner` (172×153)
+- `mxgraph.gcp2.cloud_speech_api` (172×153)
+- `mxgraph.gcp2.cloud_sql` (172×153)
+- `mxgraph.gcp2.cloud_storage` (172×153)
+- `mxgraph.gcp2.cloud_sub_pub` (172×153)
+- `mxgraph.gcp2.cloud_tasks` (172×153)
+- `mxgraph.gcp2.cloud_test_lab` (172×153)
+- `mxgraph.gcp2.cloud_text_to_speech` (172×153)
+- `mxgraph.gcp2.cloud_tools_for_powershell` (172×153)
+- `mxgraph.gcp2.cloud_tpu` (172×153)
+- `mxgraph.gcp2.cloud_translation_api` (172×153)
+- `mxgraph.gcp2.cloud_video_intelligence_api` (172×153)
+- `mxgraph.gcp2.cloud_vision_api` (172×153)
+- `mxgraph.gcp2.cloud_vpn` (172×153)
+- `mxgraph.gcp2.cluster` (99×99)
+- `mxgraph.gcp2.compute_engine` (172×153)
+- `mxgraph.gcp2.compute_engine_2` (60×111)
+- `mxgraph.gcp2.compute_engine_icon` (21×21)
+- `mxgraph.gcp2.connected` (166×118)
+- `mxgraph.gcp2.container_builder` (172×153)
+- `mxgraph.gcp2.container_engine` (172×153)
+- `mxgraph.gcp2.container_engine_icon` (19×21)
+- `mxgraph.gcp2.container_optimized_os` (172×153)
+- `mxgraph.gcp2.container_registry` (172×153)
+- `mxgraph.gcp2.cost` (115×137)
+- `mxgraph.gcp2.cost_arrows` (94×124)
+- `mxgraph.gcp2.cost_savings` (93×140)
+- `mxgraph.gcp2.data_access` (156×168)
+- `mxgraph.gcp2.data_increase` (107×138)
+- `mxgraph.gcp2.data_loss_prevention_api` (172×153)
+- `mxgraph.gcp2.data_storage_cost` (107×138)
+- `mxgraph.gcp2.data_studio` (172×153)
+- `mxgraph.gcp2.database` (32×28)
+- `mxgraph.gcp2.database_2` (107×138)
+- `mxgraph.gcp2.database_3` (100×144)
+- `mxgraph.gcp2.database_cycle` (132×128)
+- `mxgraph.gcp2.database_speed` (122×177)
+- `mxgraph.gcp2.database_uploading` (165×140)
+- `mxgraph.gcp2.debugger` (172×153)
+- `mxgraph.gcp2.dedicated_game_server` (99×99)
+- `mxgraph.gcp2.dedicated_interconnect` (172×153)
+- `mxgraph.gcp2.desktop` (35×32)
+- `mxgraph.gcp2.desktop_and_mobile` (38×25)
+- `mxgraph.gcp2.developer_portal` (172×153)
+- `mxgraph.gcp2.dialogflow_enterprise_edition` (172×153)
+- `mxgraph.gcp2.enhance_ui` (104×138)
+- `mxgraph.gcp2.enhance_ui_2` (198×181)
+- `mxgraph.gcp2.error_reporting` (172×153)
+- `mxgraph.gcp2.external_data_center` (135×176)
+- `mxgraph.gcp2.external_data_resource` (111×141)
+- `mxgraph.gcp2.external_payment_form` (99×99)
+- `mxgraph.gcp2.fastly` (135×53)
+- `mxgraph.gcp2.files` (93×90)
+- `mxgraph.gcp2.firebase` (62×86)
+- `mxgraph.gcp2.folders` (149×126)
+- `mxgraph.gcp2.forseti_lockup` (98×58)
+- `mxgraph.gcp2.forseti_logo` (68×69)
+- `mxgraph.gcp2.frontend_platform_services` (99×99)
+- `mxgraph.gcp2.game` (35×19)
+- `mxgraph.gcp2.gateway` (99×99)
+- `mxgraph.gcp2.gateway_icon` (28×13)
+- `mxgraph.gcp2.gear` (147×147)
+- `mxgraph.gcp2.gear_arrow` (199×121)
+- `mxgraph.gcp2.gear_chain` (182×181)
+- `mxgraph.gcp2.gear_load` (119×110)
+- `mxgraph.gcp2.genomics` (172×153)
+- `mxgraph.gcp2.gke_on_prem` (172×153)
+- `mxgraph.gcp2.globe_world` (163×155)
+- `mxgraph.gcp2.google_ad_manager` (102×101)
+- `mxgraph.gcp2.google_ads` (99×88)
+- `mxgraph.gcp2.google_analytics` (88×100)
+- `mxgraph.gcp2.google_analytics_360` (104×102)
+- `mxgraph.gcp2.google_cloud_platform` (483×426)
+- `mxgraph.gcp2.google_cloud_platform_lockup` (307×33)
+- `mxgraph.gcp2.google_network` (127×127)
+- `mxgraph.gcp2.google_network_edge_cache` (99×99)
+- `mxgraph.gcp2.google_play_game_service` (122×85)
+- `mxgraph.gcp2.gpu` (172×153)
+- `mxgraph.gcp2.half_cloud` (294×146)
+- `mxgraph.gcp2.https_load_balancer` (99×99)
+- `mxgraph.gcp2.identity_aware_proxy` (172×153)
+- `mxgraph.gcp2.image_services` (373×373)
+- `mxgraph.gcp2.increase_cost_arrows` (136×125)
+- `mxgraph.gcp2.internal_payment_authorization` (99×99)
+- `mxgraph.gcp2.internet_connection` (192×159)
+- `mxgraph.gcp2.istio_logo` (213×320)
+- `mxgraph.gcp2.key` (117×55)
+- `mxgraph.gcp2.key_management_service` (172×153)
+- `mxgraph.gcp2.kubernetes_logo` (947×918)
+- `mxgraph.gcp2.kubernetes_name` (769×114)
+- `mxgraph.gcp2.laptop` (38×25)
+- `mxgraph.gcp2.legacy_cloud` (163×113)
+- `mxgraph.gcp2.legacy_cloud_2` (163×113)
+- `mxgraph.gcp2.lifecycle` (450×450)
+- `mxgraph.gcp2.lightbulb` (84×120)
+- `mxgraph.gcp2.list` (25×29)
+- `mxgraph.gcp2.live` (85×114)
+- `mxgraph.gcp2.load_balancing` (184×49)
+- `mxgraph.gcp2.loading` (131×130)
+- `mxgraph.gcp2.loading_2` (148×159)
+- `mxgraph.gcp2.loading_3` (158×158)
+- `mxgraph.gcp2.lock` (108×139)
+- `mxgraph.gcp2.logging` (172×153)
+- `mxgraph.gcp2.logs_api` (99×99)
+- `mxgraph.gcp2.management_security` (158×158)
+- `mxgraph.gcp2.maps_api` (83×135)
+- `mxgraph.gcp2.mem_instances` (151×132)
+- `mxgraph.gcp2.memcache` (99×99)
+- `mxgraph.gcp2.memory_card` (127×136)
+- `mxgraph.gcp2.mobile_devices` (35×25)
+- `mxgraph.gcp2.modifiers_autoscaling` (24×24)
+- `mxgraph.gcp2.modifiers_custom_virtual_machine` (27×27)
+- `mxgraph.gcp2.modifiers_high_cpu_machine` (23×20)
+- `mxgraph.gcp2.modifiers_high_memory_machine` (27×20)
+- `mxgraph.gcp2.modifiers_preemptable_vm` (23×24)
+- `mxgraph.gcp2.modifiers_shared_core_machine_f1` (24×24)
+- `mxgraph.gcp2.modifiers_shared_core_machine_g1` (24×24)
+- `mxgraph.gcp2.modifiers_standard_machine` (24×24)
+- `mxgraph.gcp2.modifiers_storage` (27×21)
+- `mxgraph.gcp2.monitor` (183×159)
+- `mxgraph.gcp2.monitor_2` (183×159)
+- `mxgraph.gcp2.nat` (99×99)
+- `mxgraph.gcp2.network` (479×479)
+- `mxgraph.gcp2.network_load_balancer` (99×99)
+- `mxgraph.gcp2.node` (104×130)
+- `mxgraph.gcp2.outline_blank_1` (172×153)
+- `mxgraph.gcp2.outline_blank_2` (153×172)
+- `mxgraph.gcp2.outline_blank_3` (168×168)
+- `mxgraph.gcp2.outline_highcomp` (264×60)
+- `mxgraph.gcp2.outline_highmem` (264×60)
+- `mxgraph.gcp2.partner_interconnect` (172×153)
+- `mxgraph.gcp2.payment` (32×25)
+- `mxgraph.gcp2.people_security_management` (157×157)
+- `mxgraph.gcp2.persistent_disk` (172×153)
+- `mxgraph.gcp2.persistent_disk_snapshot` (99×99)
+- `mxgraph.gcp2.phone` (22×35)
+- `mxgraph.gcp2.phone_android` (96×170)
+- `mxgraph.gcp2.placeholder` (172×153)
+- `mxgraph.gcp2.play_gear` (149×149)
+- `mxgraph.gcp2.play_start` (112×112)
+- `mxgraph.gcp2.prediction_api` (172×153)
+- `mxgraph.gcp2.premium_network_tier` (172×153)
+- `mxgraph.gcp2.primary` (94×14)
+- `mxgraph.gcp2.process` (130×156)
+- `mxgraph.gcp2.profiler` (172×153)
+- `mxgraph.gcp2.push_notification_service` (99×99)
+- `mxgraph.gcp2.recommendations_ai` (172×153)
+- `mxgraph.gcp2.record` (28×19)
+- `mxgraph.gcp2.replication_controller` (113×103)
+- `mxgraph.gcp2.replication_controller_2` (113×104)
+- `mxgraph.gcp2.replication_controller_3` (141×93)
+- `mxgraph.gcp2.report` (32×32)
+- `mxgraph.gcp2.repository` (103×173)
+- `mxgraph.gcp2.repository_2` (137×146)
+- `mxgraph.gcp2.repository_3` (144×144)
+- `mxgraph.gcp2.repository_primary` (144×144)
+- `mxgraph.gcp2.retail` (28×25)
+- `mxgraph.gcp2.safety` (156×148)
+- `mxgraph.gcp2.save` (172×145)
+- `mxgraph.gcp2.scale` (87×80)
+- `mxgraph.gcp2.scheduled_tasks` (99×99)
+- `mxgraph.gcp2.search` (146×147)
+- `mxgraph.gcp2.search_api` (139×140)
+- `mxgraph.gcp2.security_key_enforcement` (172×153)
+- `mxgraph.gcp2.segments` (144×144)
+- `mxgraph.gcp2.segments_2` (157×144)
+- `mxgraph.gcp2.segments_overlap` (141×141)
+- `mxgraph.gcp2.servers_stacked` (145×145)
+- `mxgraph.gcp2.service` (101×145)
+- `mxgraph.gcp2.service_discovery` (99×99)
+- `mxgraph.gcp2.social_media_time` (143×147)
+- `mxgraph.gcp2.solution` (146×147)
+- `mxgraph.gcp2.speaker` (22×32)
+- `mxgraph.gcp2.speed` (294×168)
+- `mxgraph.gcp2.squid_proxy` (373×373)
+- `mxgraph.gcp2.stackdriver` (172×153)
+- `mxgraph.gcp2.stacked_ownership` (157×157)
+- `mxgraph.gcp2.standard_network_tier` (172×153)
+- `mxgraph.gcp2.storage` (32×25)
+- `mxgraph.gcp2.stream` (35×29)
+- `mxgraph.gcp2.swap` (235×121)
+- `mxgraph.gcp2.systems_check` (156×158)
+- `mxgraph.gcp2.tape_record` (189×134)
+- `mxgraph.gcp2.task_queues` (99×99)
+- `mxgraph.gcp2.task_queues_2` (184×111)
+- `mxgraph.gcp2.tensorflow_lockup` (1359×923)
+- `mxgraph.gcp2.tensorflow_logo` (153×163)
+- `mxgraph.gcp2.thumbs_up` (119×119)
+- `mxgraph.gcp2.time_clock` (109×122)
+- `mxgraph.gcp2.trace` (172×153)
+- `mxgraph.gcp2.traffic_director` (172×153)
+- `mxgraph.gcp2.transfer_appliance` (172×153)
+- `mxgraph.gcp2.users` (35×22)
+- `mxgraph.gcp2.view_list` (96×119)
+- `mxgraph.gcp2.virtual_file_system` (99×99)
+- `mxgraph.gcp2.virtual_private_cloud` (172×153)
+- `mxgraph.gcp2.visibility` (137×129)
+- `mxgraph.gcp2.vpn` (201×101)
+- `mxgraph.gcp2.vpn_gateway` (99×99)
+- `mxgraph.gcp2.webcam` (16×32)
+- `mxgraph.gcp2.website` (156×151)
 
 ## Usage Example
 
 ```drawio
-<mxfile><diagram id="example" name="Example"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="" style="shape=mxgraph.gcp2.admob;html=1;fillColor=#de433a;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="100" y="100" width="60" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
+<mxfile><diagram id="example" name="Example"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="" style="shape=mxgraph.gcp2.a7_power;html=1;fillColor=#CCCCCC;strokeColor=#6881B3;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="100" y="100" width="60" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
 ```

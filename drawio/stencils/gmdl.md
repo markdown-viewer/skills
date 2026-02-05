@@ -4,113 +4,113 @@ Stencil library: `mxgraph.gmdl.*`
 
 Total: 104 stencils
 
-- `mxgraph.gmdl.attachment`
-- `mxgraph.gmdl.attractions`
-- `mxgraph.gmdl.back`
-- `mxgraph.gmdl.backspace`
-- `mxgraph.gmdl.birthday`
-- `mxgraph.gmdl.bluetooth`
-- `mxgraph.gmdl.book`
-- `mxgraph.gmdl.bookmark`
-- `mxgraph.gmdl.calendar`
-- `mxgraph.gmdl.camera`
-- `mxgraph.gmdl.chat`
-- `mxgraph.gmdl.chat2`
-- `mxgraph.gmdl.check`
-- `mxgraph.gmdl.checkbox`
-- `mxgraph.gmdl.clock`
-- `mxgraph.gmdl.cloud`
-- `mxgraph.gmdl.command`
-- `mxgraph.gmdl.copy`
-- `mxgraph.gmdl.data_usage`
-- `mxgraph.gmdl.dining`
-- `mxgraph.gmdl.doc`
-- `mxgraph.gmdl.docs`
-- `mxgraph.gmdl.download`
-- `mxgraph.gmdl.edit`
-- `mxgraph.gmdl.education`
-- `mxgraph.gmdl.facebook`
-- `mxgraph.gmdl.family`
-- `mxgraph.gmdl.folder`
-- `mxgraph.gmdl.gallery`
-- `mxgraph.gmdl.gmail`
-- `mxgraph.gmdl.google`
-- `mxgraph.gmdl.google_plus`
-- `mxgraph.gmdl.gps`
-- `mxgraph.gmdl.handle`
-- `mxgraph.gmdl.handle2`
-- `mxgraph.gmdl.hangout`
-- `mxgraph.gmdl.health`
-- `mxgraph.gmdl.heart`
-- `mxgraph.gmdl.image`
-- `mxgraph.gmdl.inbox`
-- `mxgraph.gmdl.info`
-- `mxgraph.gmdl.keep`
-- `mxgraph.gmdl.left`
-- `mxgraph.gmdl.link`
-- `mxgraph.gmdl.location`
-- `mxgraph.gmdl.mail`
-- `mxgraph.gmdl.menu`
-- `mxgraph.gmdl.message`
-- `mxgraph.gmdl.messenger`
-- `mxgraph.gmdl.more`
-- `mxgraph.gmdl.more2`
-- `mxgraph.gmdl.mostly_cloudy`
-- `mxgraph.gmdl.mostly_sunny`
-- `mxgraph.gmdl.music`
-- `mxgraph.gmdl.navigate`
-- `mxgraph.gmdl.nearby`
-- `mxgraph.gmdl.office`
-- `mxgraph.gmdl.opt`
-- `mxgraph.gmdl.photos`
-- `mxgraph.gmdl.plus`
-- `mxgraph.gmdl.preferences`
-- `mxgraph.gmdl.preview`
-- `mxgraph.gmdl.print`
-- `mxgraph.gmdl.promotions`
-- `mxgraph.gmdl.radio`
-- `mxgraph.gmdl.radiobutton`
-- `mxgraph.gmdl.recents`
-- `mxgraph.gmdl.recipes`
-- `mxgraph.gmdl.rects`
-- `mxgraph.gmdl.refresh`
-- `mxgraph.gmdl.remove`
-- `mxgraph.gmdl.reply`
-- `mxgraph.gmdl.scale`
-- `mxgraph.gmdl.search`
-- `mxgraph.gmdl.send`
-- `mxgraph.gmdl.settings`
-- `mxgraph.gmdl.share`
-- `mxgraph.gmdl.share2`
-- `mxgraph.gmdl.share3`
-- `mxgraph.gmdl.sheet`
-- `mxgraph.gmdl.sheets`
-- `mxgraph.gmdl.shift`
-- `mxgraph.gmdl.slides`
-- `mxgraph.gmdl.sports`
-- `mxgraph.gmdl.spreadsheet`
-- `mxgraph.gmdl.star`
-- `mxgraph.gmdl.telephone`
-- `mxgraph.gmdl.time_picker`
-- `mxgraph.gmdl.top_bar`
-- `mxgraph.gmdl.travel`
-- `mxgraph.gmdl.triangle`
-- `mxgraph.gmdl.twitter`
-- `mxgraph.gmdl.up`
-- `mxgraph.gmdl.upload`
-- `mxgraph.gmdl.user`
-- `mxgraph.gmdl.users`
-- `mxgraph.gmdl.video`
-- `mxgraph.gmdl.video_2`
-- `mxgraph.gmdl.voice`
-- `mxgraph.gmdl.volume`
-- `mxgraph.gmdl.webpage`
-- `mxgraph.gmdl.wifi`
-- `mxgraph.gmdl.wind`
-- `mxgraph.gmdl.x`
+- `mxgraph.gmdl.attachment` (30×100)
+- `mxgraph.gmdl.attractions` (100×55)
+- `mxgraph.gmdl.back` (16×24)
+- `mxgraph.gmdl.backspace` (100×60)
+- `mxgraph.gmdl.birthday` (95×94)
+- `mxgraph.gmdl.bluetooth` (55×100)
+- `mxgraph.gmdl.book` (19×24)
+- `mxgraph.gmdl.bookmark` (14×24)
+- `mxgraph.gmdl.calendar` (100×100)
+- `mxgraph.gmdl.camera` (24×17)
+- `mxgraph.gmdl.chat` (24×24)
+- `mxgraph.gmdl.chat2` (100×80)
+- `mxgraph.gmdl.check` (100×75)
+- `mxgraph.gmdl.checkbox` (100×100)
+- `mxgraph.gmdl.clock` (100×100)
+- `mxgraph.gmdl.cloud` (22×14)
+- `mxgraph.gmdl.command` (101×101)
+- `mxgraph.gmdl.copy` (17×24)
+- `mxgraph.gmdl.data_usage` (105×105)
+- `mxgraph.gmdl.dining` (62×103)
+- `mxgraph.gmdl.doc` (24×24)
+- `mxgraph.gmdl.docs` (72×100)
+- `mxgraph.gmdl.download` (82×100)
+- `mxgraph.gmdl.edit` (24×24)
+- `mxgraph.gmdl.education` (100×60)
+- `mxgraph.gmdl.facebook` (100×100)
+- `mxgraph.gmdl.family` (100×91)
+- `mxgraph.gmdl.folder` (24×16)
+- `mxgraph.gmdl.gallery` (24×22)
+- `mxgraph.gmdl.gmail` (48×33)
+- `mxgraph.gmdl.google` (44×68)
+- `mxgraph.gmdl.google_plus` (100×100)
+- `mxgraph.gmdl.gps` (24×24)
+- `mxgraph.gmdl.handle` (100×100)
+- `mxgraph.gmdl.handle2` (86×100)
+- `mxgraph.gmdl.hangout` (20×23)
+- `mxgraph.gmdl.health` (103×90)
+- `mxgraph.gmdl.heart` (24×20)
+- `mxgraph.gmdl.image` (100×100)
+- `mxgraph.gmdl.inbox` (100×93)
+- `mxgraph.gmdl.info` (100×100)
+- `mxgraph.gmdl.keep` (100×100)
+- `mxgraph.gmdl.left` (24×24)
+- `mxgraph.gmdl.link` (100×50)
+- `mxgraph.gmdl.location` (60×100)
+- `mxgraph.gmdl.mail` (100×60)
+- `mxgraph.gmdl.menu` (100×78)
+- `mxgraph.gmdl.message` (48×43)
+- `mxgraph.gmdl.messenger` (99×91)
+- `mxgraph.gmdl.more` (16×5)
+- `mxgraph.gmdl.more2` (100×136)
+- `mxgraph.gmdl.mostly_cloudy` (84×75)
+- `mxgraph.gmdl.mostly_sunny` (100×90)
+- `mxgraph.gmdl.music` (16×24)
+- `mxgraph.gmdl.navigate` (24×24)
+- `mxgraph.gmdl.nearby` (24×24)
+- `mxgraph.gmdl.office` (84×97)
+- `mxgraph.gmdl.opt` (100×100)
+- `mxgraph.gmdl.photos` (99×99)
+- `mxgraph.gmdl.plus` (24×24)
+- `mxgraph.gmdl.preferences` (24×16)
+- `mxgraph.gmdl.preview` (100×67)
+- `mxgraph.gmdl.print` (24×21)
+- `mxgraph.gmdl.promotions` (99×99)
+- `mxgraph.gmdl.radio` (100×88)
+- `mxgraph.gmdl.radiobutton` (100×100)
+- `mxgraph.gmdl.recents` (28×28)
+- `mxgraph.gmdl.recipes` (90×93)
+- `mxgraph.gmdl.rects` (24×24)
+- `mxgraph.gmdl.refresh` (99×113)
+- `mxgraph.gmdl.remove` (78×100)
+- `mxgraph.gmdl.reply` (24×22)
+- `mxgraph.gmdl.scale` (100×15)
+- `mxgraph.gmdl.search` (24×24)
+- `mxgraph.gmdl.send` (100×100)
+- `mxgraph.gmdl.settings` (5×16)
+- `mxgraph.gmdl.share` (21×24)
+- `mxgraph.gmdl.share2` (24×24)
+- `mxgraph.gmdl.share3` (100×73)
+- `mxgraph.gmdl.sheet` (24×24)
+- `mxgraph.gmdl.sheets` (72×100)
+- `mxgraph.gmdl.shift` (100×86)
+- `mxgraph.gmdl.slides` (72×100)
+- `mxgraph.gmdl.sports` (100×107)
+- `mxgraph.gmdl.spreadsheet` (24×24)
+- `mxgraph.gmdl.star` (23×21)
+- `mxgraph.gmdl.telephone` (75×101)
+- `mxgraph.gmdl.time_picker` (148×40)
+- `mxgraph.gmdl.top_bar` (37×12)
+- `mxgraph.gmdl.travel` (98×99)
+- `mxgraph.gmdl.triangle` (10×5)
+- `mxgraph.gmdl.twitter` (100×100)
+- `mxgraph.gmdl.up` (100×50)
+- `mxgraph.gmdl.upload` (22×14)
+- `mxgraph.gmdl.user` (100×104)
+- `mxgraph.gmdl.users` (24×16)
+- `mxgraph.gmdl.video` (24×16)
+- `mxgraph.gmdl.video_2` (24×19)
+- `mxgraph.gmdl.voice` (14×24)
+- `mxgraph.gmdl.volume` (99×96)
+- `mxgraph.gmdl.webpage` (24×22)
+- `mxgraph.gmdl.wifi` (100×98)
+- `mxgraph.gmdl.wind` (100×65)
+- `mxgraph.gmdl.x` (24×24)
 
 ## Usage Example
 
 ```drawio
-<mxfile><diagram id="example" name="Example"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="" style="shape=mxgraph.gmdl.attachment;html=1;fillColor=none;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="100" y="100" width="60" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
+<mxfile><diagram id="example" name="Example"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="" style="shape=mxgraph.gmdl.attachment;html=1;fillColor=#CCCCCC;strokeColor=#6881B3;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="100" y="100" width="60" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
 ```

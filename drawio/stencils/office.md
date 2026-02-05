@@ -4,458 +4,458 @@ Stencil library: `mxgraph.office.*`
 
 Total: 449 stencils
 
-- `mxgraph.office.clouds.azure`
-- `mxgraph.office.clouds.cloud`
-- `mxgraph.office.clouds.cloud_disaster`
-- `mxgraph.office.clouds.cloud_exchange_online`
-- `mxgraph.office.clouds.cloud_service_request`
-- `mxgraph.office.clouds.cloud_sharepoint`
-- `mxgraph.office.clouds.office_365`
-- `mxgraph.office.clouds.online_backup`
-- `mxgraph.office.clouds.online_user`
-- `mxgraph.office.clouds.private_cloud`
-- `mxgraph.office.clouds.public_cloud`
-- `mxgraph.office.clouds.public_im_cloud_service`
-- `mxgraph.office.communications.3rd_party_call_center_solution`
-- `mxgraph.office.communications.3rd_party_integration`
-- `mxgraph.office.communications.3rd_party_service`
-- `mxgraph.office.communications.application_sharing_workload`
-- `mxgraph.office.communications.audio_conferencing_application`
-- `mxgraph.office.communications.central_management_service`
-- `mxgraph.office.communications.chat_room`
-- `mxgraph.office.communications.conference_announcement_service`
-- `mxgraph.office.communications.disconnected_mailbox`
-- `mxgraph.office.communications.discovery_search_mailbox`
-- `mxgraph.office.communications.dynamic_distribution_group`
-- `mxgraph.office.communications.edge_subscription`
-- `mxgraph.office.communications.email_workloaad`
-- `mxgraph.office.communications.equipment_mailbox`
-- `mxgraph.office.communications.exchange_active_sync`
-- `mxgraph.office.communications.fax_partner`
-- `mxgraph.office.communications.global_address_list`
-- `mxgraph.office.communications.hybrid_voip_gateway`
-- `mxgraph.office.communications.im_workload`
-- `mxgraph.office.communications.journaling_rule`
-- `mxgraph.office.communications.local_move_request`
-- `mxgraph.office.communications.lync_control_panel`
-- `mxgraph.office.communications.lync_phone_edition`
-- `mxgraph.office.communications.lync_room_system`
-- `mxgraph.office.communications.lync_server_management_tool`
-- `mxgraph.office.communications.lync_storage_service`
-- `mxgraph.office.communications.lync_web_app_client`
-- `mxgraph.office.communications.mail_enabled_public_folder`
-- `mxgraph.office.communications.mailbox_assistant`
-- `mxgraph.office.communications.messages_queued`
-- `mxgraph.office.communications.offline_address_book`
-- `mxgraph.office.communications.personal_archive_mailbox`
-- `mxgraph.office.communications.public_im_cloud_service`
-- `mxgraph.office.communications.push_notification_service`
-- `mxgraph.office.communications.queue_viewer`
-- `mxgraph.office.communications.remote_mailbox`
-- `mxgraph.office.communications.remote_move_request`
-- `mxgraph.office.communications.response_group`
-- `mxgraph.office.communications.response_group_service`
-- `mxgraph.office.communications.room_mailbox`
-- `mxgraph.office.communications.shared_mailbox`
-- `mxgraph.office.communications.sip_uri_um_dial_plan`
-- `mxgraph.office.communications.site_mailbox`
-- `mxgraph.office.communications.skype_for_business_control_panel`
-- `mxgraph.office.communications.skype_for_business_phone_edition`
-- `mxgraph.office.communications.skype_for_business_room_system`
-- `mxgraph.office.communications.skype_for_business_server_management_tool`
-- `mxgraph.office.communications.skype_for_business_storage_service`
-- `mxgraph.office.communications.skype_for_business_web_app_client`
-- `mxgraph.office.communications.sms_gateway`
-- `mxgraph.office.communications.smtp_connector`
-- `mxgraph.office.communications.system_mailbox`
-- `mxgraph.office.communications.tdm_pbx`
-- `mxgraph.office.communications.telephone_extension_dial_plan`
-- `mxgraph.office.communications.transport_rule`
-- `mxgraph.office.communications.ucma_application`
-- `mxgraph.office.communications.ucwa_application`
-- `mxgraph.office.communications.um_auto_attendant`
-- `mxgraph.office.communications.um_dial_plan_e164`
-- `mxgraph.office.communications.um_dial_plan_secondary`
-- `mxgraph.office.communications.um_enabled_mailbox`
-- `mxgraph.office.communications.um_hunt_group`
-- `mxgraph.office.communications.um_ip_gateway`
-- `mxgraph.office.communications.user_mailbox`
-- `mxgraph.office.communications.video_workload`
-- `mxgraph.office.communications.voice_mail_preview`
-- `mxgraph.office.communications.voice_workload`
-- `mxgraph.office.communications.voip_gateway`
-- `mxgraph.office.communications.watcher_node`
-- `mxgraph.office.communications.xmpp_service`
-- `mxgraph.office.concepts.address_book`
-- `mxgraph.office.concepts.anti_spam`
-- `mxgraph.office.concepts.app_for_office`
-- `mxgraph.office.concepts.app_for_sharepoint`
-- `mxgraph.office.concepts.app_part`
-- `mxgraph.office.concepts.application_android`
-- `mxgraph.office.concepts.application_generic`
-- `mxgraph.office.concepts.application_hybrid`
-- `mxgraph.office.concepts.application_ios`
-- `mxgraph.office.concepts.application_web`
-- `mxgraph.office.concepts.application_windows`
-- `mxgraph.office.concepts.archive`
-- `mxgraph.office.concepts.attachment`
-- `mxgraph.office.concepts.backup_local`
-- `mxgraph.office.concepts.backup_online`
-- `mxgraph.office.concepts.bandwidth`
-- `mxgraph.office.concepts.bandwidth_calculator`
-- `mxgraph.office.concepts.best_practices`
-- `mxgraph.office.concepts.book_journal`
-- `mxgraph.office.concepts.calculator`
-- `mxgraph.office.concepts.calendar`
-- `mxgraph.office.concepts.clipboard`
-- `mxgraph.office.concepts.clock`
-- `mxgraph.office.concepts.column`
-- `mxgraph.office.concepts.connector`
-- `mxgraph.office.concepts.contacts`
-- `mxgraph.office.concepts.content_type`
-- `mxgraph.office.concepts.credit_card`
-- `mxgraph.office.concepts.document`
-- `mxgraph.office.concepts.document_blank`
-- `mxgraph.office.concepts.document_shared`
-- `mxgraph.office.concepts.documents`
-- `mxgraph.office.concepts.documents_shared`
-- `mxgraph.office.concepts.download`
-- `mxgraph.office.concepts.email`
-- `mxgraph.office.concepts.email_approved`
-- `mxgraph.office.concepts.email_expired`
-- `mxgraph.office.concepts.email_rejected`
-- `mxgraph.office.concepts.file_key`
-- `mxgraph.office.concepts.firewall`
-- `mxgraph.office.concepts.folder`
-- `mxgraph.office.concepts.folder_open`
-- `mxgraph.office.concepts.folder_public`
-- `mxgraph.office.concepts.folder_shared`
-- `mxgraph.office.concepts.folders`
-- `mxgraph.office.concepts.form`
-- `mxgraph.office.concepts.get_started`
-- `mxgraph.office.concepts.globe_internet`
-- `mxgraph.office.concepts.help`
-- `mxgraph.office.concepts.home`
-- `mxgraph.office.concepts.home_page`
-- `mxgraph.office.concepts.hybrid`
-- `mxgraph.office.concepts.input_output_filter`
-- `mxgraph.office.concepts.install`
-- `mxgraph.office.concepts.integration`
-- `mxgraph.office.concepts.lab`
-- `mxgraph.office.concepts.learn`
-- `mxgraph.office.concepts.license`
-- `mxgraph.office.concepts.link`
-- `mxgraph.office.concepts.list_library`
-- `mxgraph.office.concepts.mailbox`
-- `mxgraph.office.concepts.mailbox2`
-- `mxgraph.office.concepts.maintenance`
-- `mxgraph.office.concepts.marketplace_shopping_bag`
-- `mxgraph.office.concepts.meets_requirements`
-- `mxgraph.office.concepts.migration`
-- `mxgraph.office.concepts.moes`
-- `mxgraph.office.concepts.navigation`
-- `mxgraph.office.concepts.node_generic`
-- `mxgraph.office.concepts.office_installed`
-- `mxgraph.office.concepts.on_premises`
-- `mxgraph.office.concepts.on_premises_directory`
-- `mxgraph.office.concepts.phishing`
-- `mxgraph.office.concepts.pin`
-- `mxgraph.office.concepts.platform_options`
-- `mxgraph.office.concepts.powershell`
-- `mxgraph.office.concepts.properties`
-- `mxgraph.office.concepts.publish`
-- `mxgraph.office.concepts.remote_access`
-- `mxgraph.office.concepts.script`
-- `mxgraph.office.concepts.search`
-- `mxgraph.office.concepts.service_application`
-- `mxgraph.office.concepts.settings`
-- `mxgraph.office.concepts.settings_office_365`
-- `mxgraph.office.concepts.sign_up`
-- `mxgraph.office.concepts.sound_file`
-- `mxgraph.office.concepts.tasks`
-- `mxgraph.office.concepts.technical_diagram`
-- `mxgraph.office.concepts.upgrade_application`
-- `mxgraph.office.concepts.upgrade_server`
-- `mxgraph.office.concepts.upgrade_site`
-- `mxgraph.office.concepts.upload`
-- `mxgraph.office.concepts.video_form`
-- `mxgraph.office.concepts.video_play`
-- `mxgraph.office.concepts.voicemail`
-- `mxgraph.office.concepts.voicemail_preview`
-- `mxgraph.office.concepts.walkthrough`
-- `mxgraph.office.concepts.web_conferencing`
-- `mxgraph.office.concepts.web_page`
-- `mxgraph.office.concepts.web_part`
-- `mxgraph.office.concepts.web_services`
-- `mxgraph.office.concepts.website`
-- `mxgraph.office.concepts.whats_new`
-- `mxgraph.office.concepts.writing_pen`
-- `mxgraph.office.concepts.writing_pencil`
-- `mxgraph.office.databases.address_book_store`
-- `mxgraph.office.databases.application_store`
-- `mxgraph.office.databases.database`
-- `mxgraph.office.databases.database_availability_group`
-- `mxgraph.office.databases.database_cube`
-- `mxgraph.office.databases.database_mini_1`
-- `mxgraph.office.databases.database_mini_2`
-- `mxgraph.office.databases.database_mini_3`
-- `mxgraph.office.databases.database_mirror`
-- `mxgraph.office.databases.database_mirror_witness_node`
-- `mxgraph.office.databases.database_partition_2`
-- `mxgraph.office.databases.database_partition_3`
-- `mxgraph.office.databases.database_partition_4`
-- `mxgraph.office.databases.database_partition_5`
-- `mxgraph.office.databases.database_public_folder`
-- `mxgraph.office.databases.database_server`
-- `mxgraph.office.databases.database_server_blue`
-- `mxgraph.office.databases.database_server_ghosted`
-- `mxgraph.office.databases.database_server_green`
-- `mxgraph.office.databases.database_server_orange`
-- `mxgraph.office.databases.mailbox_database`
-- `mxgraph.office.databases.monitoring_store`
-- `mxgraph.office.databases.unified_contact_store`
-- `mxgraph.office.databases.web_store`
-- `mxgraph.office.devices.bluetooth`
-- `mxgraph.office.devices.cd_dvd`
-- `mxgraph.office.devices.cell_phone_android_proportional`
-- `mxgraph.office.devices.cell_phone_android_standalone`
-- `mxgraph.office.devices.cell_phone_generic`
-- `mxgraph.office.devices.cell_phone_iphone_proportional`
-- `mxgraph.office.devices.cell_phone_iphone_standalone`
-- `mxgraph.office.devices.cell_phone_windows_phone_proportional`
-- `mxgraph.office.devices.cell_phone_windows_phone_standalone`
-- `mxgraph.office.devices.data_jack`
-- `mxgraph.office.devices.device_update_service`
-- `mxgraph.office.devices.fax`
-- `mxgraph.office.devices.hard_disk`
-- `mxgraph.office.devices.headset`
-- `mxgraph.office.devices.ip_gateway`
-- `mxgraph.office.devices.ip_pbx`
-- `mxgraph.office.devices.ipad_mini`
-- `mxgraph.office.devices.laptop`
-- `mxgraph.office.devices.lcd_monitor`
-- `mxgraph.office.devices.load_balancer`
-- `mxgraph.office.devices.mac_client`
-- `mxgraph.office.devices.management_console`
-- `mxgraph.office.devices.microphone`
-- `mxgraph.office.devices.modem`
-- `mxgraph.office.devices.nic`
-- `mxgraph.office.devices.phone_digital`
-- `mxgraph.office.devices.phone_traditional`
-- `mxgraph.office.devices.phone_usb`
-- `mxgraph.office.devices.phone_voip`
-- `mxgraph.office.devices.printer`
-- `mxgraph.office.devices.roundtable`
-- `mxgraph.office.devices.router`
-- `mxgraph.office.devices.session_border_controller`
-- `mxgraph.office.devices.shadowed_router`
-- `mxgraph.office.devices.stylus`
-- `mxgraph.office.devices.switch`
-- `mxgraph.office.devices.tablet_android`
-- `mxgraph.office.devices.tablet_ipad`
-- `mxgraph.office.devices.tablet_windows_7inch`
-- `mxgraph.office.devices.tablet_windows_8`
-- `mxgraph.office.devices.tv`
-- `mxgraph.office.devices.video_camera`
-- `mxgraph.office.devices.video_gateway`
-- `mxgraph.office.devices.webcam`
-- `mxgraph.office.devices.webcam_hd`
-- `mxgraph.office.devices.workstation`
-- `mxgraph.office.devices.workstation_pc`
-- `mxgraph.office.devices.workstation_visual_studio`
-- `mxgraph.office.security.active_directory`
-- `mxgraph.office.security.address_book_policies`
-- `mxgraph.office.security.certificate`
-- `mxgraph.office.security.credentials`
-- `mxgraph.office.security.domain`
-- `mxgraph.office.security.email_address_policy`
-- `mxgraph.office.security.federation_service`
-- `mxgraph.office.security.federation_trust`
-- `mxgraph.office.security.irm_protected_message`
-- `mxgraph.office.security.key_permissions`
-- `mxgraph.office.security.lock_protected`
-- `mxgraph.office.security.lock_unprotected`
-- `mxgraph.office.security.lock_with_key_security`
-- `mxgraph.office.security.lock_with_key_security_blue`
-- `mxgraph.office.security.lock_with_key_security_ghosted`
-- `mxgraph.office.security.lock_with_key_security_green`
-- `mxgraph.office.security.lock_with_key_security_orange`
-- `mxgraph.office.security.management_role`
-- `mxgraph.office.security.policy`
-- `mxgraph.office.security.protected_voice_mail`
-- `mxgraph.office.security.retention_policy`
-- `mxgraph.office.security.retention_policy_tag`
-- `mxgraph.office.security.role_assignment_policy`
-- `mxgraph.office.security.role_group`
-- `mxgraph.office.security.secure_messaging`
-- `mxgraph.office.security.security_access_portal`
-- `mxgraph.office.security.sharing_policy`
-- `mxgraph.office.security.split_domain_user`
-- `mxgraph.office.security.token`
-- `mxgraph.office.security.token_service`
-- `mxgraph.office.security.trusted_application_server`
-- `mxgraph.office.security.um_mailbox_policy`
-- `mxgraph.office.security.universal_security_group`
-- `mxgraph.office.servers.3rd_party_mail_server`
-- `mxgraph.office.servers.active_directory_federation_services_proxy`
-- `mxgraph.office.servers.active_directory_federation_services_server`
-- `mxgraph.office.servers.active_directory_federation_services_server_blue`
-- `mxgraph.office.servers.active_directory_federation_services_server_ghosted`
-- `mxgraph.office.servers.active_directory_federation_services_server_green`
-- `mxgraph.office.servers.active_directory_federation_services_server_orange`
-- `mxgraph.office.servers.application_server`
-- `mxgraph.office.servers.application_server_blue`
-- `mxgraph.office.servers.application_server_ghosted`
-- `mxgraph.office.servers.application_server_green`
-- `mxgraph.office.servers.application_server_orange`
-- `mxgraph.office.servers.call_admission_control_service`
-- `mxgraph.office.servers.certificate_authority`
-- `mxgraph.office.servers.cluster_server`
-- `mxgraph.office.servers.database_server`
-- `mxgraph.office.servers.database_server_blue`
-- `mxgraph.office.servers.database_server_ghosted`
-- `mxgraph.office.servers.database_server_green`
-- `mxgraph.office.servers.database_server_orange`
-- `mxgraph.office.servers.datacenter`
-- `mxgraph.office.servers.dirsync_server`
-- `mxgraph.office.servers.domain_controller`
-- `mxgraph.office.servers.excahnge_client_access_server_role`
-- `mxgraph.office.servers.exchange_client_access_server`
-- `mxgraph.office.servers.exchange_edge_transport_server`
-- `mxgraph.office.servers.exchange_edge_transport_server_role`
-- `mxgraph.office.servers.exchange_hub_transport_server_role`
-- `mxgraph.office.servers.exchange_mailbox_server`
-- `mxgraph.office.servers.exchange_mailbox_server_role`
-- `mxgraph.office.servers.exchange_server`
-- `mxgraph.office.servers.exchange_um_server_role`
-- `mxgraph.office.servers.file_server`
-- `mxgraph.office.servers.hybrid_server`
-- `mxgraph.office.servers.mainframe`
-- `mxgraph.office.servers.mainframe_host`
-- `mxgraph.office.servers.monitoring_sql_reporting_services`
-- `mxgraph.office.servers.network`
-- `mxgraph.office.servers.office_web_apps_server`
-- `mxgraph.office.servers.on_premises_server`
-- `mxgraph.office.servers.physical_host`
-- `mxgraph.office.servers.physical_host_farm`
-- `mxgraph.office.servers.reverse_proxy`
-- `mxgraph.office.servers.scom`
-- `mxgraph.office.servers.server_disaster`
-- `mxgraph.office.servers.server_farm`
-- `mxgraph.office.servers.server_generic`
-- `mxgraph.office.servers.server_side_code`
-- `mxgraph.office.servers.sharepoint_server`
-- `mxgraph.office.servers.skype_for_business_back_end_server`
-- `mxgraph.office.servers.skype_for_business_back_end_server_mirror`
-- `mxgraph.office.servers.skype_for_business_director`
-- `mxgraph.office.servers.skype_for_business_director_array`
-- `mxgraph.office.servers.skype_for_business_edge_server`
-- `mxgraph.office.servers.skype_for_business_edge_server_pool`
-- `mxgraph.office.servers.skype_for_business_front_end_pool`
-- `mxgraph.office.servers.skype_for_business_front_end_server`
-- `mxgraph.office.servers.skype_for_business_mediation_server`
-- `mxgraph.office.servers.skype_for_business_monitoring_server`
-- `mxgraph.office.servers.skype_for_business_persistent_chat_server`
-- `mxgraph.office.servers.skype_for_business_server`
-- `mxgraph.office.servers.sql_server`
-- `mxgraph.office.servers.survivable_branch_appliance`
-- `mxgraph.office.servers.survivable_branch_server`
-- `mxgraph.office.servers.topology_builder`
-- `mxgraph.office.servers.trusted_application_pool`
-- `mxgraph.office.servers.trusted_application_server`
-- `mxgraph.office.servers.tunnel_angled`
-- `mxgraph.office.servers.tunnel_straight`
-- `mxgraph.office.servers.universal_security_group`
-- `mxgraph.office.servers.video_interop_server`
-- `mxgraph.office.servers.virtual_application_server`
-- `mxgraph.office.servers.virtual_database_server`
-- `mxgraph.office.servers.virtual_server`
-- `mxgraph.office.servers.virtual_web_server`
-- `mxgraph.office.servers.vociemail_preview_partner`
-- `mxgraph.office.servers.web_server`
-- `mxgraph.office.servers.web_server_blue`
-- `mxgraph.office.servers.web_server_ghosted`
-- `mxgraph.office.servers.web_server_green`
-- `mxgraph.office.servers.web_server_orange`
-- `mxgraph.office.servers.windows_router`
-- `mxgraph.office.servers.windows_server`
-- `mxgraph.office.services.3rd_party_service`
-- `mxgraph.office.services.access_services`
-- `mxgraph.office.services.business_connectivity_services`
-- `mxgraph.office.services.call_admission_control_service`
-- `mxgraph.office.services.central_management_service`
-- `mxgraph.office.services.conference_announcement_service`
-- `mxgraph.office.services.device_update_service`
-- `mxgraph.office.services.email_service`
-- `mxgraph.office.services.excel_services`
-- `mxgraph.office.services.federation_service`
-- `mxgraph.office.services.lync_storage_service`
-- `mxgraph.office.services.lync_web_app_client`
-- `mxgraph.office.services.mobility_service`
-- `mxgraph.office.services.network_file_share_service`
-- `mxgraph.office.services.online_hosted_services`
-- `mxgraph.office.services.outlook_web_app`
-- `mxgraph.office.services.powerpoint_automation_services`
-- `mxgraph.office.services.push_notification_service`
-- `mxgraph.office.services.registrar_service`
-- `mxgraph.office.services.response_group_service`
-- `mxgraph.office.services.skype_for_business_storage_service`
-- `mxgraph.office.services.user_services`
-- `mxgraph.office.services.verification_service`
-- `mxgraph.office.services.web_services`
-- `mxgraph.office.services.word_automation_services`
-- `mxgraph.office.services.xmpp_service`
-- `mxgraph.office.sites.access_services`
-- `mxgraph.office.sites.blog_site`
-- `mxgraph.office.sites.business_connectivity_services`
-- `mxgraph.office.sites.excel_services`
-- `mxgraph.office.sites.meeting_workspace_site`
-- `mxgraph.office.sites.my_site`
-- `mxgraph.office.sites.powerpoint_automation_services`
-- `mxgraph.office.sites.publish`
-- `mxgraph.office.sites.site_collection`
-- `mxgraph.office.sites.site_shared`
-- `mxgraph.office.sites.site_team`
-- `mxgraph.office.sites.subsite`
-- `mxgraph.office.sites.upgrade_site`
-- `mxgraph.office.sites.website`
-- `mxgraph.office.sites.website_public`
-- `mxgraph.office.sites.wiki_site`
-- `mxgraph.office.sites.word_automation_services`
-- `mxgraph.office.users.administrator`
-- `mxgraph.office.users.approver`
-- `mxgraph.office.users.call_center_agent`
-- `mxgraph.office.users.communications`
-- `mxgraph.office.users.conferencing_attendant`
-- `mxgraph.office.users.credentials`
-- `mxgraph.office.users.csv_file`
-- `mxgraph.office.users.distribution_group`
-- `mxgraph.office.users.dynamic_distribution_group`
-- `mxgraph.office.users.mail_user`
-- `mxgraph.office.users.meeting`
-- `mxgraph.office.users.mobile_user`
-- `mxgraph.office.users.on_premises_user`
-- `mxgraph.office.users.online_user`
-- `mxgraph.office.users.outlook_user`
-- `mxgraph.office.users.response_group`
-- `mxgraph.office.users.response_group_service`
-- `mxgraph.office.users.role_group`
-- `mxgraph.office.users.skype_commercial_user`
-- `mxgraph.office.users.skype_for_business_user`
-- `mxgraph.office.users.tenant_admin`
-- `mxgraph.office.users.um_enabled_user`
-- `mxgraph.office.users.universal_security_group`
-- `mxgraph.office.users.user`
-- `mxgraph.office.users.user_accounts`
-- `mxgraph.office.users.user_external`
-- `mxgraph.office.users.user_services`
-- `mxgraph.office.users.user_store`
-- `mxgraph.office.users.users`
-- `mxgraph.office.users.users_two`
-- `mxgraph.office.users.writer`
+- `mxgraph.office.clouds.azure` (103×66)
+- `mxgraph.office.clouds.cloud` (94×55)
+- `mxgraph.office.clouds.cloud_disaster` (93×74)
+- `mxgraph.office.clouds.cloud_exchange_online` (100×61)
+- `mxgraph.office.clouds.cloud_service_request` (102×80)
+- `mxgraph.office.clouds.cloud_sharepoint` (101×61)
+- `mxgraph.office.clouds.office_365` (100×62)
+- `mxgraph.office.clouds.online_backup` (94×101)
+- `mxgraph.office.clouds.online_user` (93×74)
+- `mxgraph.office.clouds.private_cloud` (55×33)
+- `mxgraph.office.clouds.public_cloud` (102×81)
+- `mxgraph.office.clouds.public_im_cloud_service` (102×99)
+- `mxgraph.office.communications.3rd_party_call_center_solution` (98×101)
+- `mxgraph.office.communications.3rd_party_integration` (54×56)
+- `mxgraph.office.communications.3rd_party_service` (53×54)
+- `mxgraph.office.communications.application_sharing_workload` (56×49)
+- `mxgraph.office.communications.audio_conferencing_application` (59×46)
+- `mxgraph.office.communications.central_management_service` (52×54)
+- `mxgraph.office.communications.chat_room` (46×47)
+- `mxgraph.office.communications.conference_announcement_service` (59×59)
+- `mxgraph.office.communications.disconnected_mailbox` (59×55)
+- `mxgraph.office.communications.discovery_search_mailbox` (54×49)
+- `mxgraph.office.communications.dynamic_distribution_group` (58×59)
+- `mxgraph.office.communications.edge_subscription` (57×58)
+- `mxgraph.office.communications.email_workloaad` (57×47)
+- `mxgraph.office.communications.equipment_mailbox` (59×59)
+- `mxgraph.office.communications.exchange_active_sync` (49×49)
+- `mxgraph.office.communications.fax_partner` (45×56)
+- `mxgraph.office.communications.global_address_list` (59×52)
+- `mxgraph.office.communications.hybrid_voip_gateway` (59×38)
+- `mxgraph.office.communications.im_workload` (56×54)
+- `mxgraph.office.communications.journaling_rule` (52×58)
+- `mxgraph.office.communications.local_move_request` (57×56)
+- `mxgraph.office.communications.lync_control_panel` (69×59)
+- `mxgraph.office.communications.lync_phone_edition` (79×44)
+- `mxgraph.office.communications.lync_room_system` (79×41)
+- `mxgraph.office.communications.lync_server_management_tool` (75×47)
+- `mxgraph.office.communications.lync_storage_service` (66×59)
+- `mxgraph.office.communications.lync_web_app_client` (83×51)
+- `mxgraph.office.communications.mail_enabled_public_folder` (58×52)
+- `mxgraph.office.communications.mailbox_assistant` (59×56)
+- `mxgraph.office.communications.messages_queued` (59×57)
+- `mxgraph.office.communications.offline_address_book` (59×53)
+- `mxgraph.office.communications.personal_archive_mailbox` (59×58)
+- `mxgraph.office.communications.public_im_cloud_service` (59×58)
+- `mxgraph.office.communications.push_notification_service` (50×58)
+- `mxgraph.office.communications.queue_viewer` (59×57)
+- `mxgraph.office.communications.remote_mailbox` (59×56)
+- `mxgraph.office.communications.remote_move_request` (59×57)
+- `mxgraph.office.communications.response_group` (58×53)
+- `mxgraph.office.communications.response_group_service` (58×53)
+- `mxgraph.office.communications.room_mailbox` (59×57)
+- `mxgraph.office.communications.shared_mailbox` (59×55)
+- `mxgraph.office.communications.sip_uri_um_dial_plan` (56×56)
+- `mxgraph.office.communications.site_mailbox` (59×54)
+- `mxgraph.office.communications.skype_for_business_control_panel` (65×59)
+- `mxgraph.office.communications.skype_for_business_phone_edition` (76×45)
+- `mxgraph.office.communications.skype_for_business_room_system` (74×41)
+- `mxgraph.office.communications.skype_for_business_server_management_tool` (72×48)
+- `mxgraph.office.communications.skype_for_business_storage_service` (63×58)
+- `mxgraph.office.communications.skype_for_business_web_app_client` (80×51)
+- `mxgraph.office.communications.sms_gateway` (59×37)
+- `mxgraph.office.communications.smtp_connector` (47×49)
+- `mxgraph.office.communications.system_mailbox` (58×55)
+- `mxgraph.office.communications.tdm_pbx` (59×46)
+- `mxgraph.office.communications.telephone_extension_dial_plan` (56×56)
+- `mxgraph.office.communications.transport_rule` (56×57)
+- `mxgraph.office.communications.ucma_application` (53×41)
+- `mxgraph.office.communications.ucwa_application` (53×41)
+- `mxgraph.office.communications.um_auto_attendant` (57×57)
+- `mxgraph.office.communications.um_dial_plan_e164` (56×56)
+- `mxgraph.office.communications.um_dial_plan_secondary` (56×56)
+- `mxgraph.office.communications.um_enabled_mailbox` (59×57)
+- `mxgraph.office.communications.um_hunt_group` (59×48)
+- `mxgraph.office.communications.um_ip_gateway` (59×38)
+- `mxgraph.office.communications.user_mailbox` (59×55)
+- `mxgraph.office.communications.video_workload` (57×50)
+- `mxgraph.office.communications.voice_mail_preview` (47×56)
+- `mxgraph.office.communications.voice_workload` (58×51)
+- `mxgraph.office.communications.voip_gateway` (51×15)
+- `mxgraph.office.communications.watcher_node` (52×57)
+- `mxgraph.office.communications.xmpp_service` (58×52)
+- `mxgraph.office.concepts.address_book` (55×44)
+- `mxgraph.office.concepts.anti_spam` (55×47)
+- `mxgraph.office.concepts.app_for_office` (53×41)
+- `mxgraph.office.concepts.app_for_sharepoint` (53×41)
+- `mxgraph.office.concepts.app_part` (46×45)
+- `mxgraph.office.concepts.application_android` (59×51)
+- `mxgraph.office.concepts.application_generic` (53×41)
+- `mxgraph.office.concepts.application_hybrid` (59×44)
+- `mxgraph.office.concepts.application_ios` (59×49)
+- `mxgraph.office.concepts.application_web` (56×49)
+- `mxgraph.office.concepts.application_windows` (59×50)
+- `mxgraph.office.concepts.archive` (35×55)
+- `mxgraph.office.concepts.attachment` (22×45)
+- `mxgraph.office.concepts.backup_local` (48×44)
+- `mxgraph.office.concepts.backup_online` (55×60)
+- `mxgraph.office.concepts.bandwidth` (45×45)
+- `mxgraph.office.concepts.bandwidth_calculator` (49×52)
+- `mxgraph.office.concepts.best_practices` (53×53)
+- `mxgraph.office.concepts.book_journal` (41×49)
+- `mxgraph.office.concepts.calculator` (31×46)
+- `mxgraph.office.concepts.calendar` (53×50)
+- `mxgraph.office.concepts.clipboard` (41×53)
+- `mxgraph.office.concepts.clock` (45×45)
+- `mxgraph.office.concepts.column` (52×43)
+- `mxgraph.office.concepts.connector` (44×32)
+- `mxgraph.office.concepts.contacts` (53×39)
+- `mxgraph.office.concepts.content_type` (53×41)
+- `mxgraph.office.concepts.credit_card` (55×36)
+- `mxgraph.office.concepts.document` (40×47)
+- `mxgraph.office.concepts.document_blank` (40×47)
+- `mxgraph.office.concepts.document_shared` (52×53)
+- `mxgraph.office.concepts.documents` (47×54)
+- `mxgraph.office.concepts.documents_shared` (58×59)
+- `mxgraph.office.concepts.download` (48×56)
+- `mxgraph.office.concepts.email` (47×37)
+- `mxgraph.office.concepts.email_approved` (56×46)
+- `mxgraph.office.concepts.email_expired` (56×46)
+- `mxgraph.office.concepts.email_rejected` (55×45)
+- `mxgraph.office.concepts.file_key` (48×53)
+- `mxgraph.office.concepts.firewall` (47×43)
+- `mxgraph.office.concepts.folder` (50×45)
+- `mxgraph.office.concepts.folder_open` (56×43)
+- `mxgraph.office.concepts.folder_public` (58×52)
+- `mxgraph.office.concepts.folder_shared` (54×52)
+- `mxgraph.office.concepts.folders` (57×53)
+- `mxgraph.office.concepts.form` (56×49)
+- `mxgraph.office.concepts.get_started` (42×52)
+- `mxgraph.office.concepts.globe_internet` (49×49)
+- `mxgraph.office.concepts.help` (49×49)
+- `mxgraph.office.concepts.home` (51×50)
+- `mxgraph.office.concepts.home_page` (53×43)
+- `mxgraph.office.concepts.hybrid` (58×53)
+- `mxgraph.office.concepts.input_output_filter` (47×47)
+- `mxgraph.office.concepts.install` (45×53)
+- `mxgraph.office.concepts.integration` (44×43)
+- `mxgraph.office.concepts.lab` (47×50)
+- `mxgraph.office.concepts.learn` (56×57)
+- `mxgraph.office.concepts.license` (45×52)
+- `mxgraph.office.concepts.link` (61×21)
+- `mxgraph.office.concepts.list_library` (52×48)
+- `mxgraph.office.concepts.mailbox` (53×49)
+- `mxgraph.office.concepts.mailbox2` (53×50)
+- `mxgraph.office.concepts.maintenance` (39×56)
+- `mxgraph.office.concepts.marketplace_shopping_bag` (36×46)
+- `mxgraph.office.concepts.meets_requirements` (56×53)
+- `mxgraph.office.concepts.migration` (59×35)
+- `mxgraph.office.concepts.moes` (40×47)
+- `mxgraph.office.concepts.navigation` (53×41)
+- `mxgraph.office.concepts.node_generic` (46×52)
+- `mxgraph.office.concepts.office_installed` (58×48)
+- `mxgraph.office.concepts.on_premises` (34×55)
+- `mxgraph.office.concepts.on_premises_directory` (50×58)
+- `mxgraph.office.concepts.phishing` (59×47)
+- `mxgraph.office.concepts.pin` (24×44)
+- `mxgraph.office.concepts.platform_options` (58×53)
+- `mxgraph.office.concepts.powershell` (45×45)
+- `mxgraph.office.concepts.properties` (50×49)
+- `mxgraph.office.concepts.publish` (57×48)
+- `mxgraph.office.concepts.remote_access` (59×41)
+- `mxgraph.office.concepts.script` (53×49)
+- `mxgraph.office.concepts.search` (49×49)
+- `mxgraph.office.concepts.service_application` (59×48)
+- `mxgraph.office.concepts.settings` (48×48)
+- `mxgraph.office.concepts.settings_office_365` (48×48)
+- `mxgraph.office.concepts.sign_up` (51×47)
+- `mxgraph.office.concepts.sound_file` (40×50)
+- `mxgraph.office.concepts.tasks` (41×53)
+- `mxgraph.office.concepts.technical_diagram` (50×56)
+- `mxgraph.office.concepts.upgrade_application` (59×42)
+- `mxgraph.office.concepts.upgrade_server` (39×53)
+- `mxgraph.office.concepts.upgrade_site` (59×48)
+- `mxgraph.office.concepts.upload` (48×55)
+- `mxgraph.office.concepts.video_form` (58×50)
+- `mxgraph.office.concepts.video_play` (50×40)
+- `mxgraph.office.concepts.voicemail` (53×34)
+- `mxgraph.office.concepts.voicemail_preview` (57×52)
+- `mxgraph.office.concepts.walkthrough` (40×58)
+- `mxgraph.office.concepts.web_conferencing` (60×55)
+- `mxgraph.office.concepts.web_page` (50×54)
+- `mxgraph.office.concepts.web_part` (45×52)
+- `mxgraph.office.concepts.web_services` (60×56)
+- `mxgraph.office.concepts.website` (59×49)
+- `mxgraph.office.concepts.whats_new` (55×38)
+- `mxgraph.office.concepts.writing_pen` (54×54)
+- `mxgraph.office.concepts.writing_pencil` (50×50)
+- `mxgraph.office.databases.address_book_store` (50×54)
+- `mxgraph.office.databases.application_store` (50×53)
+- `mxgraph.office.databases.database` (35×49)
+- `mxgraph.office.databases.database_availability_group` (59×59)
+- `mxgraph.office.databases.database_cube` (47×52)
+- `mxgraph.office.databases.database_mini_1` (35×27)
+- `mxgraph.office.databases.database_mini_2` (35×42)
+- `mxgraph.office.databases.database_mini_3` (35×57)
+- `mxgraph.office.databases.database_mirror` (60×58)
+- `mxgraph.office.databases.database_mirror_witness_node` (59×58)
+- `mxgraph.office.databases.database_partition_2` (57×59)
+- `mxgraph.office.databases.database_partition_3` (57×59)
+- `mxgraph.office.databases.database_partition_4` (57×59)
+- `mxgraph.office.databases.database_partition_5` (57×59)
+- `mxgraph.office.databases.database_public_folder` (53×54)
+- `mxgraph.office.databases.database_server` (43×57)
+- `mxgraph.office.databases.database_server_blue` (43×57)
+- `mxgraph.office.databases.database_server_ghosted` (43×57)
+- `mxgraph.office.databases.database_server_green` (43×57)
+- `mxgraph.office.databases.database_server_orange` (43×57)
+- `mxgraph.office.databases.mailbox_database` (53×55)
+- `mxgraph.office.databases.monitoring_store` (58×57)
+- `mxgraph.office.databases.unified_contact_store` (54×56)
+- `mxgraph.office.databases.web_store` (50×54)
+- `mxgraph.office.devices.bluetooth` (56×57)
+- `mxgraph.office.devices.cd_dvd` (49×49)
+- `mxgraph.office.devices.cell_phone_android_proportional` (17×31)
+- `mxgraph.office.devices.cell_phone_android_standalone` (24×44)
+- `mxgraph.office.devices.cell_phone_generic` (26×47)
+- `mxgraph.office.devices.cell_phone_iphone_proportional` (17×29)
+- `mxgraph.office.devices.cell_phone_iphone_standalone` (25×42)
+- `mxgraph.office.devices.cell_phone_windows_phone_proportional` (17×29)
+- `mxgraph.office.devices.cell_phone_windows_phone_standalone` (24×42)
+- `mxgraph.office.devices.data_jack` (47×47)
+- `mxgraph.office.devices.device_update_service` (50×54)
+- `mxgraph.office.devices.fax` (57×47)
+- `mxgraph.office.devices.hard_disk` (40×54)
+- `mxgraph.office.devices.headset` (36×48)
+- `mxgraph.office.devices.ip_gateway` (59×40)
+- `mxgraph.office.devices.ip_pbx` (59×39)
+- `mxgraph.office.devices.ipad_mini` (33×47)
+- `mxgraph.office.devices.laptop` (58×35)
+- `mxgraph.office.devices.lcd_monitor` (58×48)
+- `mxgraph.office.devices.load_balancer` (59×39)
+- `mxgraph.office.devices.mac_client` (58×48)
+- `mxgraph.office.devices.management_console` (58×48)
+- `mxgraph.office.devices.microphone` (53×37)
+- `mxgraph.office.devices.modem` (54×34)
+- `mxgraph.office.devices.nic` (57×38)
+- `mxgraph.office.devices.phone_digital` (49×42)
+- `mxgraph.office.devices.phone_traditional` (48×40)
+- `mxgraph.office.devices.phone_usb` (58×51)
+- `mxgraph.office.devices.phone_voip` (57×51)
+- `mxgraph.office.devices.printer` (56×47)
+- `mxgraph.office.devices.roundtable` (50×58)
+- `mxgraph.office.devices.router` (55×56)
+- `mxgraph.office.devices.session_border_controller` (59×52)
+- `mxgraph.office.devices.shadowed_router` (59×59)
+- `mxgraph.office.devices.stylus` (57×57)
+- `mxgraph.office.devices.switch` (55×18)
+- `mxgraph.office.devices.tablet_android` (56×37)
+- `mxgraph.office.devices.tablet_ipad` (39×53)
+- `mxgraph.office.devices.tablet_windows_7inch` (34×47)
+- `mxgraph.office.devices.tablet_windows_8` (56×35)
+- `mxgraph.office.devices.tv` (59×45)
+- `mxgraph.office.devices.video_camera` (52×25)
+- `mxgraph.office.devices.video_gateway` (59×41)
+- `mxgraph.office.devices.webcam` (41×50)
+- `mxgraph.office.devices.webcam_hd` (56×59)
+- `mxgraph.office.devices.workstation` (53×56)
+- `mxgraph.office.devices.workstation_pc` (53×59)
+- `mxgraph.office.devices.workstation_visual_studio` (53×59)
+- `mxgraph.office.security.active_directory` (53×46)
+- `mxgraph.office.security.address_book_policies` (55×53)
+- `mxgraph.office.security.certificate` (58×50)
+- `mxgraph.office.security.credentials` (56×59)
+- `mxgraph.office.security.domain` (53×46)
+- `mxgraph.office.security.email_address_policy` (55×53)
+- `mxgraph.office.security.federation_service` (58×59)
+- `mxgraph.office.security.federation_trust` (58×59)
+- `mxgraph.office.security.irm_protected_message` (56×49)
+- `mxgraph.office.security.key_permissions` (25×53)
+- `mxgraph.office.security.lock_protected` (38×52)
+- `mxgraph.office.security.lock_unprotected` (38×55)
+- `mxgraph.office.security.lock_with_key_security` (47×58)
+- `mxgraph.office.security.lock_with_key_security_blue` (47×58)
+- `mxgraph.office.security.lock_with_key_security_ghosted` (47×58)
+- `mxgraph.office.security.lock_with_key_security_green` (47×58)
+- `mxgraph.office.security.lock_with_key_security_orange` (47×58)
+- `mxgraph.office.security.management_role` (45×45)
+- `mxgraph.office.security.policy` (53×49)
+- `mxgraph.office.security.protected_voice_mail` (59×51)
+- `mxgraph.office.security.retention_policy` (54×55)
+- `mxgraph.office.security.retention_policy_tag` (56×58)
+- `mxgraph.office.security.role_assignment_policy` (55×54)
+- `mxgraph.office.security.role_group` (59×56)
+- `mxgraph.office.security.secure_messaging` (55×46)
+- `mxgraph.office.security.security_access_portal` (64×55)
+- `mxgraph.office.security.sharing_policy` (56×53)
+- `mxgraph.office.security.split_domain_user` (59×55)
+- `mxgraph.office.security.token` (41×52)
+- `mxgraph.office.security.token_service` (60×56)
+- `mxgraph.office.security.trusted_application_server` (46×57)
+- `mxgraph.office.security.um_mailbox_policy` (55×53)
+- `mxgraph.office.security.universal_security_group` (57×58)
+- `mxgraph.office.servers.3rd_party_mail_server` (47×59)
+- `mxgraph.office.servers.active_directory_federation_services_proxy` (45×55)
+- `mxgraph.office.servers.active_directory_federation_services_server` (45×56)
+- `mxgraph.office.servers.active_directory_federation_services_server_blue` (45×56)
+- `mxgraph.office.servers.active_directory_federation_services_server_ghosted` (45×56)
+- `mxgraph.office.servers.active_directory_federation_services_server_green` (45×56)
+- `mxgraph.office.servers.active_directory_federation_services_server_orange` (45×56)
+- `mxgraph.office.servers.application_server` (47×56)
+- `mxgraph.office.servers.application_server_blue` (47×56)
+- `mxgraph.office.servers.application_server_ghosted` (47×56)
+- `mxgraph.office.servers.application_server_green` (47×56)
+- `mxgraph.office.servers.application_server_orange` (47×56)
+- `mxgraph.office.servers.call_admission_control_service` (50×59)
+- `mxgraph.office.servers.certificate_authority` (46×59)
+- `mxgraph.office.servers.cluster_server` (50×59)
+- `mxgraph.office.servers.database_server` (43×56)
+- `mxgraph.office.servers.database_server_blue` (43×56)
+- `mxgraph.office.servers.database_server_ghosted` (43×56)
+- `mxgraph.office.servers.database_server_green` (43×56)
+- `mxgraph.office.servers.database_server_orange` (43×56)
+- `mxgraph.office.servers.datacenter` (53×53)
+- `mxgraph.office.servers.dirsync_server` (47×56)
+- `mxgraph.office.servers.domain_controller` (45×56)
+- `mxgraph.office.servers.excahnge_client_access_server_role` (52×59)
+- `mxgraph.office.servers.exchange_client_access_server` (57×59)
+- `mxgraph.office.servers.exchange_edge_transport_server` (57×55)
+- `mxgraph.office.servers.exchange_edge_transport_server_role` (52×55)
+- `mxgraph.office.servers.exchange_hub_transport_server_role` (52×59)
+- `mxgraph.office.servers.exchange_mailbox_server` (57×59)
+- `mxgraph.office.servers.exchange_mailbox_server_role` (52×59)
+- `mxgraph.office.servers.exchange_server` (57×55)
+- `mxgraph.office.servers.exchange_um_server_role` (52×59)
+- `mxgraph.office.servers.file_server` (45×56)
+- `mxgraph.office.servers.hybrid_server` (59×53)
+- `mxgraph.office.servers.mainframe` (58×42)
+- `mxgraph.office.servers.mainframe_host` (44×42)
+- `mxgraph.office.servers.monitoring_sql_reporting_services` (50×59)
+- `mxgraph.office.servers.network` (34×57)
+- `mxgraph.office.servers.office_web_apps_server` (52×56)
+- `mxgraph.office.servers.on_premises_server` (44×58)
+- `mxgraph.office.servers.physical_host` (27×53)
+- `mxgraph.office.servers.physical_host_farm` (56×49)
+- `mxgraph.office.servers.reverse_proxy` (41×53)
+- `mxgraph.office.servers.scom` (56×53)
+- `mxgraph.office.servers.server_disaster` (46×57)
+- `mxgraph.office.servers.server_farm` (56×49)
+- `mxgraph.office.servers.server_generic` (27×53)
+- `mxgraph.office.servers.server_side_code` (49×56)
+- `mxgraph.office.servers.sharepoint_server` (56×55)
+- `mxgraph.office.servers.skype_for_business_back_end_server` (54×60)
+- `mxgraph.office.servers.skype_for_business_back_end_server_mirror` (54×60)
+- `mxgraph.office.servers.skype_for_business_director` (54×55)
+- `mxgraph.office.servers.skype_for_business_director_array` (70×60)
+- `mxgraph.office.servers.skype_for_business_edge_server` (54×55)
+- `mxgraph.office.servers.skype_for_business_edge_server_pool` (70×60)
+- `mxgraph.office.servers.skype_for_business_front_end_pool` (70×60)
+- `mxgraph.office.servers.skype_for_business_front_end_server` (54×60)
+- `mxgraph.office.servers.skype_for_business_mediation_server` (54×60)
+- `mxgraph.office.servers.skype_for_business_monitoring_server` (54×60)
+- `mxgraph.office.servers.skype_for_business_persistent_chat_server` (54×58)
+- `mxgraph.office.servers.skype_for_business_server` (54×55)
+- `mxgraph.office.servers.sql_server` (44×56)
+- `mxgraph.office.servers.survivable_branch_appliance` (37×59)
+- `mxgraph.office.servers.survivable_branch_server` (41×58)
+- `mxgraph.office.servers.topology_builder` (59×59)
+- `mxgraph.office.servers.trusted_application_pool` (59×59)
+- `mxgraph.office.servers.trusted_application_server` (43×53)
+- `mxgraph.office.servers.tunnel_angled` (55×35)
+- `mxgraph.office.servers.tunnel_straight` (59×10)
+- `mxgraph.office.servers.universal_security_group` (57×58)
+- `mxgraph.office.servers.video_interop_server` (54×60)
+- `mxgraph.office.servers.virtual_application_server` (48×56)
+- `mxgraph.office.servers.virtual_database_server` (41×56)
+- `mxgraph.office.servers.virtual_server` (28×52)
+- `mxgraph.office.servers.virtual_web_server` (44×55)
+- `mxgraph.office.servers.vociemail_preview_partner` (47×56)
+- `mxgraph.office.servers.web_server` (48×57)
+- `mxgraph.office.servers.web_server_blue` (48×57)
+- `mxgraph.office.servers.web_server_ghosted` (48×57)
+- `mxgraph.office.servers.web_server_green` (48×57)
+- `mxgraph.office.servers.web_server_orange` (48×57)
+- `mxgraph.office.servers.windows_router` (53×59)
+- `mxgraph.office.servers.windows_server` (53×56)
+- `mxgraph.office.services.3rd_party_service` (53×54)
+- `mxgraph.office.services.access_services` (59×49)
+- `mxgraph.office.services.business_connectivity_services` (34×51)
+- `mxgraph.office.services.call_admission_control_service` (50×59)
+- `mxgraph.office.services.central_management_service` (51×55)
+- `mxgraph.office.services.conference_announcement_service` (59×59)
+- `mxgraph.office.services.device_update_service` (50×54)
+- `mxgraph.office.services.email_service` (58×48)
+- `mxgraph.office.services.excel_services` (60×49)
+- `mxgraph.office.services.federation_service` (58×59)
+- `mxgraph.office.services.lync_storage_service` (65×59)
+- `mxgraph.office.services.lync_web_app_client` (83×51)
+- `mxgraph.office.services.mobility_service` (45×53)
+- `mxgraph.office.services.network_file_share_service` (56×53)
+- `mxgraph.office.services.online_hosted_services` (56×52)
+- `mxgraph.office.services.outlook_web_app` (83×51)
+- `mxgraph.office.services.powerpoint_automation_services` (59×49)
+- `mxgraph.office.services.push_notification_service` (50×58)
+- `mxgraph.office.services.registrar_service` (56×52)
+- `mxgraph.office.services.response_group_service` (58×53)
+- `mxgraph.office.services.skype_for_business_storage_service` (62×58)
+- `mxgraph.office.services.user_services` (59×59)
+- `mxgraph.office.services.verification_service` (57×59)
+- `mxgraph.office.services.web_services` (60×56)
+- `mxgraph.office.services.word_automation_services` (60×49)
+- `mxgraph.office.services.xmpp_service` (58×52)
+- `mxgraph.office.sites.access_services` (59×49)
+- `mxgraph.office.sites.blog_site` (56×49)
+- `mxgraph.office.sites.business_connectivity_services` (34×51)
+- `mxgraph.office.sites.excel_services` (60×49)
+- `mxgraph.office.sites.meeting_workspace_site` (58×50)
+- `mxgraph.office.sites.my_site` (58×49)
+- `mxgraph.office.sites.powerpoint_automation_services` (59×49)
+- `mxgraph.office.sites.publish` (57×48)
+- `mxgraph.office.sites.site_collection` (53×41)
+- `mxgraph.office.sites.site_shared` (56×50)
+- `mxgraph.office.sites.site_team` (59×49)
+- `mxgraph.office.sites.subsite` (53×41)
+- `mxgraph.office.sites.upgrade_site` (59×48)
+- `mxgraph.office.sites.website` (59×49)
+- `mxgraph.office.sites.website_public` (59×48)
+- `mxgraph.office.sites.wiki_site` (59×50)
+- `mxgraph.office.sites.word_automation_services` (60×49)
+- `mxgraph.office.users.administrator` (58×56)
+- `mxgraph.office.users.approver` (59×55)
+- `mxgraph.office.users.call_center_agent` (46×55)
+- `mxgraph.office.users.communications` (54×58)
+- `mxgraph.office.users.conferencing_attendant` (53×59)
+- `mxgraph.office.users.credentials` (56×58)
+- `mxgraph.office.users.csv_file` (59×44)
+- `mxgraph.office.users.distribution_group` (58×59)
+- `mxgraph.office.users.dynamic_distribution_group` (58×59)
+- `mxgraph.office.users.mail_user` (58×59)
+- `mxgraph.office.users.meeting` (59×38)
+- `mxgraph.office.users.mobile_user` (59×56)
+- `mxgraph.office.users.on_premises_user` (49×59)
+- `mxgraph.office.users.online_user` (54×43)
+- `mxgraph.office.users.outlook_user` (63×55)
+- `mxgraph.office.users.response_group` (58×53)
+- `mxgraph.office.users.response_group_service` (58×53)
+- `mxgraph.office.users.role_group` (59×56)
+- `mxgraph.office.users.skype_commercial_user` (60×56)
+- `mxgraph.office.users.skype_for_business_user` (59×56)
+- `mxgraph.office.users.tenant_admin` (56×58)
+- `mxgraph.office.users.um_enabled_user` (58×59)
+- `mxgraph.office.users.universal_security_group` (57×58)
+- `mxgraph.office.users.user` (46×50)
+- `mxgraph.office.users.user_accounts` (59×59)
+- `mxgraph.office.users.user_external` (59×50)
+- `mxgraph.office.users.user_services` (59×59)
+- `mxgraph.office.users.user_store` (50×55)
+- `mxgraph.office.users.users` (52×49)
+- `mxgraph.office.users.users_two` (57×44)
+- `mxgraph.office.users.writer` (54×59)
 
 ## Usage Example
 
 ```drawio
-<mxfile><diagram id="example" name="Example"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="" style="shape=mxgraph.office.clouds.cloud_exchange_online;html=1;strokeColor=none;fillColor=#2372ba;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="100" y="100" width="60" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
+<mxfile><diagram id="example" name="Example"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="" style="shape=mxgraph.office.clouds.azure;html=1;fillColor=#CCCCCC;strokeColor=#6881B3;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="100" y="100" width="60" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
 ```

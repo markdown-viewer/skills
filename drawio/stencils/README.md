@@ -1,5 +1,22 @@
 # drawio Stencil Reference
 
+## About Stencil Sizes
+
+Each stencil is listed with its **original size** in pixels, e.g., `mxgraph.gcp2.bigquery` (172×153).
+
+When using stencils in diagrams, you should **scale them proportionally** to fit your layout:
+
+```xml
+<!-- Original: 172×153, scaled to height 30 (ratio preserved) -->
+<mxCell style="shape=mxgraph.gcp2.bigquery;..." vertex="1">
+  <mxGeometry width="34" height="30" as="geometry"/>
+</mxCell>
+```
+
+**Scale formula:** If original is W×H and target height is T, then: `width = W × (T / H)`
+
+## Stencil Categories
+
 | Category | Count | File |
 |----------|-------|------|
 | Alibaba Cloud | 310 | [alibaba_cloud.md](alibaba_cloud.md) |

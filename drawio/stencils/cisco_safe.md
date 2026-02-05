@@ -4,491 +4,491 @@ Stencil library: `mxgraph.cisco_safe.*`
 
 Total: 485 stencils
 
-- `mxgraph.cisco_safe.architecture.aci_controller`
-- `mxgraph.cisco_safe.architecture.aci_leaf_switch`
-- `mxgraph.cisco_safe.architecture.aci_spine_switch`
-- `mxgraph.cisco_safe.architecture.actuator`
-- `mxgraph.cisco_safe.architecture.adaptive_security_appliance`
-- `mxgraph.cisco_safe.architecture.automated_system`
-- `mxgraph.cisco_safe.architecture.blade_server`
-- `mxgraph.cisco_safe.architecture.catalyst_switch`
-- `mxgraph.cisco_safe.architecture.cisco_appliance`
-- `mxgraph.cisco_safe.architecture.corporate_device`
-- `mxgraph.cisco_safe.architecture.corporate_device1`
-- `mxgraph.cisco_safe.architecture.ddos_protection_appliance`
-- `mxgraph.cisco_safe.architecture.email_security`
-- `mxgraph.cisco_safe.architecture.endpoint_concentrator`
-- `mxgraph.cisco_safe.architecture.fabric_switch`
-- `mxgraph.cisco_safe.architecture.firepower_appliance`
-- `mxgraph.cisco_safe.architecture.firepower_management_center`
-- `mxgraph.cisco_safe.architecture.firewall`
-- `mxgraph.cisco_safe.architecture.flow_collector`
-- `mxgraph.cisco_safe.architecture.flow_sensor`
-- `mxgraph.cisco_safe.architecture.generic_appliance`
-- `mxgraph.cisco_safe.architecture.identity_directory`
-- `mxgraph.cisco_safe.architecture.intrusion_detection`
-- `mxgraph.cisco_safe.architecture.l3_switch`
-- `mxgraph.cisco_safe.architecture.load_balancer`
-- `mxgraph.cisco_safe.architecture.log_collector`
-- `mxgraph.cisco_safe.architecture.mdm`
-- `mxgraph.cisco_safe.architecture.mgmt_console`
-- `mxgraph.cisco_safe.architecture.mobile`
-- `mxgraph.cisco_safe.architecture.monitoring`
-- `mxgraph.cisco_safe.architecture.nexus_1kv`
-- `mxgraph.cisco_safe.architecture.nexus_data_center_switch`
-- `mxgraph.cisco_safe.architecture.nexus_fabric_switch`
-- `mxgraph.cisco_safe.architecture.nexus_switch`
-- `mxgraph.cisco_safe.architecture.ntp`
-- `mxgraph.cisco_safe.architecture.phone`
-- `mxgraph.cisco_safe.architecture.policy`
-- `mxgraph.cisco_safe.architecture.radware_appliance`
-- `mxgraph.cisco_safe.architecture.router`
-- `mxgraph.cisco_safe.architecture.sandbox_appliance`
-- `mxgraph.cisco_safe.architecture.sd_wan`
-- `mxgraph.cisco_safe.architecture.sd_wan_2`
-- `mxgraph.cisco_safe.architecture.secure_dns`
-- `mxgraph.cisco_safe.architecture.secure_server`
-- `mxgraph.cisco_safe.architecture.sensor`
-- `mxgraph.cisco_safe.architecture.server`
-- `mxgraph.cisco_safe.architecture.siem`
-- `mxgraph.cisco_safe.architecture.stacked_switch`
-- `mxgraph.cisco_safe.architecture.storage`
-- `mxgraph.cisco_safe.architecture.switch`
-- `mxgraph.cisco_safe.architecture.tetration_analytics`
-- `mxgraph.cisco_safe.architecture.tls_appliance`
-- `mxgraph.cisco_safe.architecture.udp_director`
-- `mxgraph.cisco_safe.architecture.unified_access_switch`
-- `mxgraph.cisco_safe.architecture.video_endpoint`
-- `mxgraph.cisco_safe.architecture.vpn_concentrator`
-- `mxgraph.cisco_safe.architecture.vulnerability_management`
-- `mxgraph.cisco_safe.architecture.web_application_firewall`
-- `mxgraph.cisco_safe.architecture.web_application_firewall_2`
-- `mxgraph.cisco_safe.architecture.web_filtering`
-- `mxgraph.cisco_safe.architecture.web_security`
-- `mxgraph.cisco_safe.architecture.wide_area_application_engine`
-- `mxgraph.cisco_safe.architecture.wireless_access_point`
-- `mxgraph.cisco_safe.architecture.wireless_lan_controller`
-- `mxgraph.cisco_safe.business_icons.icon1`
-- `mxgraph.cisco_safe.business_icons.icon10`
-- `mxgraph.cisco_safe.business_icons.icon11`
-- `mxgraph.cisco_safe.business_icons.icon12`
-- `mxgraph.cisco_safe.business_icons.icon13`
-- `mxgraph.cisco_safe.business_icons.icon14`
-- `mxgraph.cisco_safe.business_icons.icon15`
-- `mxgraph.cisco_safe.business_icons.icon16`
-- `mxgraph.cisco_safe.business_icons.icon17`
-- `mxgraph.cisco_safe.business_icons.icon18`
-- `mxgraph.cisco_safe.business_icons.icon19`
-- `mxgraph.cisco_safe.business_icons.icon2`
-- `mxgraph.cisco_safe.business_icons.icon20`
-- `mxgraph.cisco_safe.business_icons.icon21`
-- `mxgraph.cisco_safe.business_icons.icon22`
-- `mxgraph.cisco_safe.business_icons.icon23`
-- `mxgraph.cisco_safe.business_icons.icon24`
-- `mxgraph.cisco_safe.business_icons.icon25`
-- `mxgraph.cisco_safe.business_icons.icon26`
-- `mxgraph.cisco_safe.business_icons.icon27`
-- `mxgraph.cisco_safe.business_icons.icon28`
-- `mxgraph.cisco_safe.business_icons.icon29`
-- `mxgraph.cisco_safe.business_icons.icon3`
-- `mxgraph.cisco_safe.business_icons.icon30`
-- `mxgraph.cisco_safe.business_icons.icon4`
-- `mxgraph.cisco_safe.business_icons.icon5`
-- `mxgraph.cisco_safe.business_icons.icon6`
-- `mxgraph.cisco_safe.business_icons.icon7`
-- `mxgraph.cisco_safe.business_icons.icon8`
-- `mxgraph.cisco_safe.business_icons.icon9`
-- `mxgraph.cisco_safe.capability.access_control_using_trustsec`
-- `mxgraph.cisco_safe.capability.analysis_correlation`
-- `mxgraph.cisco_safe.capability.anomaly_detection`
-- `mxgraph.cisco_safe.capability.anti_malware`
-- `mxgraph.cisco_safe.capability.anti_spam`
-- `mxgraph.cisco_safe.capability.anti_virus`
-- `mxgraph.cisco_safe.capability.application`
-- `mxgraph.cisco_safe.capability.application_optimization`
-- `mxgraph.cisco_safe.capability.application_visibility_control`
-- `mxgraph.cisco_safe.capability.block`
-- `mxgraph.cisco_safe.capability.casb`
-- `mxgraph.cisco_safe.capability.client_based_security`
-- `mxgraph.cisco_safe.capability.cloud_web_security`
-- `mxgraph.cisco_safe.capability.conference_bridge`
-- `mxgraph.cisco_safe.capability.data_loss_prevention`
-- `mxgraph.cisco_safe.capability.database`
-- `mxgraph.cisco_safe.capability.device_profiling`
-- `mxgraph.cisco_safe.capability.device_trajectory`
-- `mxgraph.cisco_safe.capability.disk_encryption`
-- `mxgraph.cisco_safe.capability.distributed_denial_of_service_protection`
-- `mxgraph.cisco_safe.capability.dns`
-- `mxgraph.cisco_safe.capability.dns_security`
-- `mxgraph.cisco_safe.capability.email_encryption`
-- `mxgraph.cisco_safe.capability.email_security`
-- `mxgraph.cisco_safe.capability.fabric_switching`
-- `mxgraph.cisco_safe.capability.file_trajectory`
-- `mxgraph.cisco_safe.capability.firewall`
-- `mxgraph.cisco_safe.capability.flow_analytics`
-- `mxgraph.cisco_safe.capability.host_context`
-- `mxgraph.cisco_safe.capability.identity_authorization`
-- `mxgraph.cisco_safe.capability.identity_authorization_alt`
-- `mxgraph.cisco_safe.capability.infrastructure_redundancy`
-- `mxgraph.cisco_safe.capability.intrusion_detection`
-- `mxgraph.cisco_safe.capability.intrusion_prevention`
-- `mxgraph.cisco_safe.capability.l2_l3_network`
-- `mxgraph.cisco_safe.capability.l2_l3_network_virtual`
-- `mxgraph.cisco_safe.capability.l2_switching`
-- `mxgraph.cisco_safe.capability.l3_switching`
-- `mxgraph.cisco_safe.capability.load_balancer`
-- `mxgraph.cisco_safe.capability.logging_reporting`
-- `mxgraph.cisco_safe.capability.malware_sandbox`
-- `mxgraph.cisco_safe.capability.micro_segmentation`
-- `mxgraph.cisco_safe.capability.mobile_device_manager`
-- `mxgraph.cisco_safe.capability.monitoring`
-- `mxgraph.cisco_safe.capability.multi_factor_identification`
-- `mxgraph.cisco_safe.capability.path_control`
-- `mxgraph.cisco_safe.capability.policy_configuration`
-- `mxgraph.cisco_safe.capability.posture_assessment`
-- `mxgraph.cisco_safe.capability.quality_of_service`
-- `mxgraph.cisco_safe.capability.quarantine`
-- `mxgraph.cisco_safe.capability.remediate`
-- `mxgraph.cisco_safe.capability.routing`
-- `mxgraph.cisco_safe.capability.secure_server`
-- `mxgraph.cisco_safe.capability.server_based_security`
-- `mxgraph.cisco_safe.capability.ssl_tls_offload`
-- `mxgraph.cisco_safe.capability.standardized_system_images`
-- `mxgraph.cisco_safe.capability.storage`
-- `mxgraph.cisco_safe.capability.tagging`
-- `mxgraph.cisco_safe.capability.threat_intelligence`
-- `mxgraph.cisco_safe.capability.time_synchronization`
-- `mxgraph.cisco_safe.capability.user`
-- `mxgraph.cisco_safe.capability.video`
-- `mxgraph.cisco_safe.capability.virtual_firewall`
-- `mxgraph.cisco_safe.capability.virtual_l2_switching`
-- `mxgraph.cisco_safe.capability.virtual_private_network`
-- `mxgraph.cisco_safe.capability.virtualized_capability`
-- `mxgraph.cisco_safe.capability.voice`
-- `mxgraph.cisco_safe.capability.vpn_concentrator`
-- `mxgraph.cisco_safe.capability.vulnerability_management`
-- `mxgraph.cisco_safe.capability.web_application_firewall`
-- `mxgraph.cisco_safe.capability.web_reputation_filtering_dcs`
-- `mxgraph.cisco_safe.capability.web_security`
-- `mxgraph.cisco_safe.capability.wireless_connection`
-- `mxgraph.cisco_safe.capability.wireless_intrusion_detection_system`
-- `mxgraph.cisco_safe.capability.wireless_intrusion_prevention_system`
-- `mxgraph.cisco_safe.capability.wireless_rogue_detection`
-- `mxgraph.cisco_safe.design.access_point`
-- `mxgraph.cisco_safe.design.access_switch_2`
-- `mxgraph.cisco_safe.design.aci_controller`
-- `mxgraph.cisco_safe.design.aci_controller_2`
-- `mxgraph.cisco_safe.design.aci_leaf_switch`
-- `mxgraph.cisco_safe.design.aci_spine_switch`
-- `mxgraph.cisco_safe.design.actor_1`
-- `mxgraph.cisco_safe.design.actor_2`
-- `mxgraph.cisco_safe.design.actuator`
-- `mxgraph.cisco_safe.design.adaptive_security_appliance`
-- `mxgraph.cisco_safe.design.adaptive_security_appliance_2`
-- `mxgraph.cisco_safe.design.automated_system`
-- `mxgraph.cisco_safe.design.blade_server`
-- `mxgraph.cisco_safe.design.blade_server_2`
-- `mxgraph.cisco_safe.design.blank_device`
-- `mxgraph.cisco_safe.design.blank_service`
-- `mxgraph.cisco_safe.design.call_manager`
-- `mxgraph.cisco_safe.design.catalyst_data_center_switch`
-- `mxgraph.cisco_safe.design.catalyst_switch_stack`
-- `mxgraph.cisco_safe.design.cisco_amp`
-- `mxgraph.cisco_safe.design.cisco_anyconnect`
-- `mxgraph.cisco_safe.design.cisco_cloud_web_security`
-- `mxgraph.cisco_safe.design.client_firewall`
-- `mxgraph.cisco_safe.design.corporate_device`
-- `mxgraph.cisco_safe.design.corporate_device_2`
-- `mxgraph.cisco_safe.design.ddos_protection`
-- `mxgraph.cisco_safe.design.ddos_protection_2`
-- `mxgraph.cisco_safe.design.distribution_switch`
-- `mxgraph.cisco_safe.design.email_security`
-- `mxgraph.cisco_safe.design.encryption_offload`
-- `mxgraph.cisco_safe.design.endpoint_concentrator`
-- `mxgraph.cisco_safe.design.endpoint_concentrator_2`
-- `mxgraph.cisco_safe.design.fabric_switch`
-- `mxgraph.cisco_safe.design.firepower_appliance`
-- `mxgraph.cisco_safe.design.firepower_appliance_2`
-- `mxgraph.cisco_safe.design.firepower_management_center`
-- `mxgraph.cisco_safe.design.firepower_management_center_2`
-- `mxgraph.cisco_safe.design.firewall`
-- `mxgraph.cisco_safe.design.firewall_2`
-- `mxgraph.cisco_safe.design.flow_collector`
-- `mxgraph.cisco_safe.design.flow_collector_2`
-- `mxgraph.cisco_safe.design.flow_sensor`
-- `mxgraph.cisco_safe.design.flow_sensor_2`
-- `mxgraph.cisco_safe.design.identity_directory`
-- `mxgraph.cisco_safe.design.intrusion_detection`
-- `mxgraph.cisco_safe.design.intrusion_prevention_2`
-- `mxgraph.cisco_safe.design.l2_switch`
-- `mxgraph.cisco_safe.design.l3_switch`
-- `mxgraph.cisco_safe.design.load_balancer`
-- `mxgraph.cisco_safe.design.load_balancer_2`
-- `mxgraph.cisco_safe.design.log_collector`
-- `mxgraph.cisco_safe.design.log_collector_2`
-- `mxgraph.cisco_safe.design.mdm`
-- `mxgraph.cisco_safe.design.mdm_2`
-- `mxgraph.cisco_safe.design.mgmt_console`
-- `mxgraph.cisco_safe.design.mgmt_console_2`
-- `mxgraph.cisco_safe.design.mobile_device`
-- `mxgraph.cisco_safe.design.monitoring`
-- `mxgraph.cisco_safe.design.monitoring_2`
-- `mxgraph.cisco_safe.design.ms_active_directory`
-- `mxgraph.cisco_safe.design.ms_active_directory_2`
-- `mxgraph.cisco_safe.design.nexus_1kv`
-- `mxgraph.cisco_safe.design.nexus_data_center_switch`
-- `mxgraph.cisco_safe.design.nexus_fabric_switch`
-- `mxgraph.cisco_safe.design.nexus_switch`
-- `mxgraph.cisco_safe.design.ntp`
-- `mxgraph.cisco_safe.design.ntp_2`
-- `mxgraph.cisco_safe.design.phone`
-- `mxgraph.cisco_safe.design.phone_2`
-- `mxgraph.cisco_safe.design.policy`
-- `mxgraph.cisco_safe.design.policy_2`
-- `mxgraph.cisco_safe.design.radware`
-- `mxgraph.cisco_safe.design.radware_2`
-- `mxgraph.cisco_safe.design.router`
-- `mxgraph.cisco_safe.design.router_2`
-- `mxgraph.cisco_safe.design.sd_wan`
-- `mxgraph.cisco_safe.design.sd_wan_2`
-- `mxgraph.cisco_safe.design.secure_dns`
-- `mxgraph.cisco_safe.design.secure_dns_2`
-- `mxgraph.cisco_safe.design.sensor`
-- `mxgraph.cisco_safe.design.server_1`
-- `mxgraph.cisco_safe.design.server_2`
-- `mxgraph.cisco_safe.design.server_3`
-- `mxgraph.cisco_safe.design.server_4`
-- `mxgraph.cisco_safe.design.siem`
-- `mxgraph.cisco_safe.design.siem_2`
-- `mxgraph.cisco_safe.design.storage`
-- `mxgraph.cisco_safe.design.storage_1`
-- `mxgraph.cisco_safe.design.switch_stack`
-- `mxgraph.cisco_safe.design.tetration_agent`
-- `mxgraph.cisco_safe.design.tls_appliance`
-- `mxgraph.cisco_safe.design.udp_director`
-- `mxgraph.cisco_safe.design.udp_director_2`
-- `mxgraph.cisco_safe.design.user`
-- `mxgraph.cisco_safe.design.users`
-- `mxgraph.cisco_safe.design.video_endpoint`
-- `mxgraph.cisco_safe.design.virtual_secure_server`
-- `mxgraph.cisco_safe.design.vload_balancer`
-- `mxgraph.cisco_safe.design.vpn_concentrator`
-- `mxgraph.cisco_safe.design.vpn_concentrator_2`
-- `mxgraph.cisco_safe.design.vulnerability_management`
-- `mxgraph.cisco_safe.design.vulnerability_management_2`
-- `mxgraph.cisco_safe.design.vwaf_security`
-- `mxgraph.cisco_safe.design.vweb_security`
-- `mxgraph.cisco_safe.design.vwlan_controller`
-- `mxgraph.cisco_safe.design.web_application_firewall`
-- `mxgraph.cisco_safe.design.web_application_firewall_2`
-- `mxgraph.cisco_safe.design.web_filtering`
-- `mxgraph.cisco_safe.design.web_filtering_2`
-- `mxgraph.cisco_safe.design.web_security`
-- `mxgraph.cisco_safe.design.wide_area_application_engine`
-- `mxgraph.cisco_safe.design.wide_area_application_engine_2`
-- `mxgraph.cisco_safe.design.wireless_corporate_device`
-- `mxgraph.cisco_safe.design.wireless_switch`
-- `mxgraph.cisco_safe.design.wlan_controller`
-- `mxgraph.cisco_safe.iot_things_icons.icon1`
-- `mxgraph.cisco_safe.iot_things_icons.icon10`
-- `mxgraph.cisco_safe.iot_things_icons.icon11`
-- `mxgraph.cisco_safe.iot_things_icons.icon12`
-- `mxgraph.cisco_safe.iot_things_icons.icon13`
-- `mxgraph.cisco_safe.iot_things_icons.icon14`
-- `mxgraph.cisco_safe.iot_things_icons.icon15`
-- `mxgraph.cisco_safe.iot_things_icons.icon16`
-- `mxgraph.cisco_safe.iot_things_icons.icon17`
-- `mxgraph.cisco_safe.iot_things_icons.icon18`
-- `mxgraph.cisco_safe.iot_things_icons.icon19`
-- `mxgraph.cisco_safe.iot_things_icons.icon2`
-- `mxgraph.cisco_safe.iot_things_icons.icon20`
-- `mxgraph.cisco_safe.iot_things_icons.icon21`
-- `mxgraph.cisco_safe.iot_things_icons.icon22`
-- `mxgraph.cisco_safe.iot_things_icons.icon23`
-- `mxgraph.cisco_safe.iot_things_icons.icon24`
-- `mxgraph.cisco_safe.iot_things_icons.icon25`
-- `mxgraph.cisco_safe.iot_things_icons.icon26`
-- `mxgraph.cisco_safe.iot_things_icons.icon27`
-- `mxgraph.cisco_safe.iot_things_icons.icon28`
-- `mxgraph.cisco_safe.iot_things_icons.icon29`
-- `mxgraph.cisco_safe.iot_things_icons.icon3`
-- `mxgraph.cisco_safe.iot_things_icons.icon30`
-- `mxgraph.cisco_safe.iot_things_icons.icon31`
-- `mxgraph.cisco_safe.iot_things_icons.icon32`
-- `mxgraph.cisco_safe.iot_things_icons.icon33`
-- `mxgraph.cisco_safe.iot_things_icons.icon34`
-- `mxgraph.cisco_safe.iot_things_icons.icon35`
-- `mxgraph.cisco_safe.iot_things_icons.icon36`
-- `mxgraph.cisco_safe.iot_things_icons.icon37`
-- `mxgraph.cisco_safe.iot_things_icons.icon38`
-- `mxgraph.cisco_safe.iot_things_icons.icon39`
-- `mxgraph.cisco_safe.iot_things_icons.icon4`
-- `mxgraph.cisco_safe.iot_things_icons.icon40`
-- `mxgraph.cisco_safe.iot_things_icons.icon41`
-- `mxgraph.cisco_safe.iot_things_icons.icon42`
-- `mxgraph.cisco_safe.iot_things_icons.icon43`
-- `mxgraph.cisco_safe.iot_things_icons.icon44`
-- `mxgraph.cisco_safe.iot_things_icons.icon45`
-- `mxgraph.cisco_safe.iot_things_icons.icon46`
-- `mxgraph.cisco_safe.iot_things_icons.icon47`
-- `mxgraph.cisco_safe.iot_things_icons.icon48`
-- `mxgraph.cisco_safe.iot_things_icons.icon5`
-- `mxgraph.cisco_safe.iot_things_icons.icon6`
-- `mxgraph.cisco_safe.iot_things_icons.icon7`
-- `mxgraph.cisco_safe.iot_things_icons.icon8`
-- `mxgraph.cisco_safe.iot_things_icons.icon9`
-- `mxgraph.cisco_safe.people_places_things_icons.icon1`
-- `mxgraph.cisco_safe.people_places_things_icons.icon10`
-- `mxgraph.cisco_safe.people_places_things_icons.icon11`
-- `mxgraph.cisco_safe.people_places_things_icons.icon2`
-- `mxgraph.cisco_safe.people_places_things_icons.icon3`
-- `mxgraph.cisco_safe.people_places_things_icons.icon4`
-- `mxgraph.cisco_safe.people_places_things_icons.icon5`
-- `mxgraph.cisco_safe.people_places_things_icons.icon6`
-- `mxgraph.cisco_safe.people_places_things_icons.icon7`
-- `mxgraph.cisco_safe.people_places_things_icons.icon8`
-- `mxgraph.cisco_safe.people_places_things_icons.icon9`
-- `mxgraph.cisco_safe.security_icons.amp`
-- `mxgraph.cisco_safe.security_icons.antivirus`
-- `mxgraph.cisco_safe.security_icons.apic`
-- `mxgraph.cisco_safe.security_icons.application_control`
-- `mxgraph.cisco_safe.security_icons.cloud_based`
-- `mxgraph.cisco_safe.security_icons.cloud_based_management`
-- `mxgraph.cisco_safe.security_icons.ddos`
-- `mxgraph.cisco_safe.security_icons.email`
-- `mxgraph.cisco_safe.security_icons.firewall`
-- `mxgraph.cisco_safe.security_icons.iam`
-- `mxgraph.cisco_safe.security_icons.icon1`
-- `mxgraph.cisco_safe.security_icons.icon10`
-- `mxgraph.cisco_safe.security_icons.icon11`
-- `mxgraph.cisco_safe.security_icons.icon12`
-- `mxgraph.cisco_safe.security_icons.icon13`
-- `mxgraph.cisco_safe.security_icons.icon14`
-- `mxgraph.cisco_safe.security_icons.icon15`
-- `mxgraph.cisco_safe.security_icons.icon16`
-- `mxgraph.cisco_safe.security_icons.icon17`
-- `mxgraph.cisco_safe.security_icons.icon18`
-- `mxgraph.cisco_safe.security_icons.icon19`
-- `mxgraph.cisco_safe.security_icons.icon2`
-- `mxgraph.cisco_safe.security_icons.icon20`
-- `mxgraph.cisco_safe.security_icons.icon21`
-- `mxgraph.cisco_safe.security_icons.icon22`
-- `mxgraph.cisco_safe.security_icons.icon23`
-- `mxgraph.cisco_safe.security_icons.icon24`
-- `mxgraph.cisco_safe.security_icons.icon25`
-- `mxgraph.cisco_safe.security_icons.icon26`
-- `mxgraph.cisco_safe.security_icons.icon27`
-- `mxgraph.cisco_safe.security_icons.icon28`
-- `mxgraph.cisco_safe.security_icons.icon29`
-- `mxgraph.cisco_safe.security_icons.icon3`
-- `mxgraph.cisco_safe.security_icons.icon30`
-- `mxgraph.cisco_safe.security_icons.icon31`
-- `mxgraph.cisco_safe.security_icons.icon32`
-- `mxgraph.cisco_safe.security_icons.icon33`
-- `mxgraph.cisco_safe.security_icons.icon34`
-- `mxgraph.cisco_safe.security_icons.icon35`
-- `mxgraph.cisco_safe.security_icons.icon36`
-- `mxgraph.cisco_safe.security_icons.icon37`
-- `mxgraph.cisco_safe.security_icons.icon38`
-- `mxgraph.cisco_safe.security_icons.icon39`
-- `mxgraph.cisco_safe.security_icons.icon4`
-- `mxgraph.cisco_safe.security_icons.icon40`
-- `mxgraph.cisco_safe.security_icons.icon5`
-- `mxgraph.cisco_safe.security_icons.icon6`
-- `mxgraph.cisco_safe.security_icons.icon7`
-- `mxgraph.cisco_safe.security_icons.icon8`
-- `mxgraph.cisco_safe.security_icons.icon9`
-- `mxgraph.cisco_safe.security_icons.ids`
-- `mxgraph.cisco_safe.security_icons.inspection_forensics`
-- `mxgraph.cisco_safe.security_icons.ise`
-- `mxgraph.cisco_safe.security_icons.log_management`
-- `mxgraph.cisco_safe.security_icons.malware_sandbox`
-- `mxgraph.cisco_safe.security_icons.nac`
-- `mxgraph.cisco_safe.security_icons.nba`
-- `mxgraph.cisco_safe.security_icons.ngfw`
-- `mxgraph.cisco_safe.security_icons.ngips`
-- `mxgraph.cisco_safe.security_icons.patch_management`
-- `mxgraph.cisco_safe.security_icons.retrospective_security`
-- `mxgraph.cisco_safe.security_icons.services`
-- `mxgraph.cisco_safe.security_icons.siem`
-- `mxgraph.cisco_safe.security_icons.talos`
-- `mxgraph.cisco_safe.security_icons.trustsec`
-- `mxgraph.cisco_safe.security_icons.utm`
-- `mxgraph.cisco_safe.security_icons.virtual`
-- `mxgraph.cisco_safe.security_icons.virtual_deployment`
-- `mxgraph.cisco_safe.security_icons.vpn`
-- `mxgraph.cisco_safe.security_icons.vulnerability_management`
-- `mxgraph.cisco_safe.security_icons.waf`
-- `mxgraph.cisco_safe.security_icons.web`
-- `mxgraph.cisco_safe.technology_icons.icon1`
-- `mxgraph.cisco_safe.technology_icons.icon10`
-- `mxgraph.cisco_safe.technology_icons.icon11`
-- `mxgraph.cisco_safe.technology_icons.icon12`
-- `mxgraph.cisco_safe.technology_icons.icon13`
-- `mxgraph.cisco_safe.technology_icons.icon14`
-- `mxgraph.cisco_safe.technology_icons.icon15`
-- `mxgraph.cisco_safe.technology_icons.icon16`
-- `mxgraph.cisco_safe.technology_icons.icon17`
-- `mxgraph.cisco_safe.technology_icons.icon18`
-- `mxgraph.cisco_safe.technology_icons.icon19`
-- `mxgraph.cisco_safe.technology_icons.icon2`
-- `mxgraph.cisco_safe.technology_icons.icon20`
-- `mxgraph.cisco_safe.technology_icons.icon21`
-- `mxgraph.cisco_safe.technology_icons.icon22`
-- `mxgraph.cisco_safe.technology_icons.icon23`
-- `mxgraph.cisco_safe.technology_icons.icon24`
-- `mxgraph.cisco_safe.technology_icons.icon25`
-- `mxgraph.cisco_safe.technology_icons.icon26`
-- `mxgraph.cisco_safe.technology_icons.icon27`
-- `mxgraph.cisco_safe.technology_icons.icon28`
-- `mxgraph.cisco_safe.technology_icons.icon29`
-- `mxgraph.cisco_safe.technology_icons.icon3`
-- `mxgraph.cisco_safe.technology_icons.icon4`
-- `mxgraph.cisco_safe.technology_icons.icon5`
-- `mxgraph.cisco_safe.technology_icons.icon6`
-- `mxgraph.cisco_safe.technology_icons.icon7`
-- `mxgraph.cisco_safe.technology_icons.icon8`
-- `mxgraph.cisco_safe.technology_icons.icon9`
-- `mxgraph.cisco_safe.threat.threat_a1`
-- `mxgraph.cisco_safe.threat.threat_a2`
-- `mxgraph.cisco_safe.threat.threat_a3`
-- `mxgraph.cisco_safe.threat.threat_a4`
-- `mxgraph.cisco_safe.threat.threat_a5`
-- `mxgraph.cisco_safe.threat.threat_a6`
-- `mxgraph.cisco_safe.threat.threat_a7`
-- `mxgraph.cisco_safe.threat.threat_a8`
-- `mxgraph.cisco_safe.threat.threat_b1`
-- `mxgraph.cisco_safe.threat.threat_b2`
-- `mxgraph.cisco_safe.threat.threat_b3`
-- `mxgraph.cisco_safe.threat.threat_b4`
-- `mxgraph.cisco_safe.threat.threat_b5`
-- `mxgraph.cisco_safe.threat.threat_b6`
-- `mxgraph.cisco_safe.threat.threat_b7`
-- `mxgraph.cisco_safe.threat.threat_b8`
-- `mxgraph.cisco_safe.threat.threat_c1`
-- `mxgraph.cisco_safe.threat.threat_c2`
-- `mxgraph.cisco_safe.threat.threat_c3`
-- `mxgraph.cisco_safe.threat.threat_c4`
-- `mxgraph.cisco_safe.threat.threat_c5`
-- `mxgraph.cisco_safe.threat.threat_c6`
-- `mxgraph.cisco_safe.threat.threat_c7`
-- `mxgraph.cisco_safe.threat.threat_c8`
-- `mxgraph.cisco_safe.threat.threat_d1`
-- `mxgraph.cisco_safe.threat.threat_d2`
-- `mxgraph.cisco_safe.threat.threat_d3`
-- `mxgraph.cisco_safe.threat.threat_d4`
-- `mxgraph.cisco_safe.threat.threat_d5`
-- `mxgraph.cisco_safe.threat.threat_d6`
-- `mxgraph.cisco_safe.threat.threat_d7`
-- `mxgraph.cisco_safe.threat.threat_d8`
-- `mxgraph.cisco_safe.threat.threat_e1`
-- `mxgraph.cisco_safe.threat.threat_e2`
-- `mxgraph.cisco_safe.threat.threat_e3`
-- `mxgraph.cisco_safe.threat.threat_e4`
-- `mxgraph.cisco_safe.threat.threat_e5`
-- `mxgraph.cisco_safe.threat.threat_e6`
-- `mxgraph.cisco_safe.threat.threat_e7`
-- `mxgraph.cisco_safe.threat.threat_e8`
+- `mxgraph.cisco_safe.architecture.aci_controller` (80×80)
+- `mxgraph.cisco_safe.architecture.aci_leaf_switch` (80×80)
+- `mxgraph.cisco_safe.architecture.aci_spine_switch` (107×107)
+- `mxgraph.cisco_safe.architecture.actuator` (107×107)
+- `mxgraph.cisco_safe.architecture.adaptive_security_appliance` (80×80)
+- `mxgraph.cisco_safe.architecture.automated_system` (80×80)
+- `mxgraph.cisco_safe.architecture.blade_server` (80×80)
+- `mxgraph.cisco_safe.architecture.catalyst_switch` (80×80)
+- `mxgraph.cisco_safe.architecture.cisco_appliance` (80×80)
+- `mxgraph.cisco_safe.architecture.corporate_device` (80×80)
+- `mxgraph.cisco_safe.architecture.corporate_device1` (80×80)
+- `mxgraph.cisco_safe.architecture.ddos_protection_appliance` (80×80)
+- `mxgraph.cisco_safe.architecture.email_security` (80×80)
+- `mxgraph.cisco_safe.architecture.endpoint_concentrator` (80×80)
+- `mxgraph.cisco_safe.architecture.fabric_switch` (80×80)
+- `mxgraph.cisco_safe.architecture.firepower_appliance` (80×80)
+- `mxgraph.cisco_safe.architecture.firepower_management_center` (107×107)
+- `mxgraph.cisco_safe.architecture.firewall` (80×80)
+- `mxgraph.cisco_safe.architecture.flow_collector` (107×107)
+- `mxgraph.cisco_safe.architecture.flow_sensor` (107×107)
+- `mxgraph.cisco_safe.architecture.generic_appliance` (80×80)
+- `mxgraph.cisco_safe.architecture.identity_directory` (80×80)
+- `mxgraph.cisco_safe.architecture.intrusion_detection` (80×80)
+- `mxgraph.cisco_safe.architecture.l3_switch` (80×80)
+- `mxgraph.cisco_safe.architecture.load_balancer` (80×80)
+- `mxgraph.cisco_safe.architecture.log_collector` (107×107)
+- `mxgraph.cisco_safe.architecture.mdm` (80×80)
+- `mxgraph.cisco_safe.architecture.mgmt_console` (80×80)
+- `mxgraph.cisco_safe.architecture.mobile` (80×80)
+- `mxgraph.cisco_safe.architecture.monitoring` (107×107)
+- `mxgraph.cisco_safe.architecture.nexus_1kv` (80×80)
+- `mxgraph.cisco_safe.architecture.nexus_data_center_switch` (80×80)
+- `mxgraph.cisco_safe.architecture.nexus_fabric_switch` (80×80)
+- `mxgraph.cisco_safe.architecture.nexus_switch` (80×80)
+- `mxgraph.cisco_safe.architecture.ntp` (80×80)
+- `mxgraph.cisco_safe.architecture.phone` (80×80)
+- `mxgraph.cisco_safe.architecture.policy` (80×80)
+- `mxgraph.cisco_safe.architecture.radware_appliance` (80×80)
+- `mxgraph.cisco_safe.architecture.router` (80×80)
+- `mxgraph.cisco_safe.architecture.sandbox_appliance` (80×80)
+- `mxgraph.cisco_safe.architecture.sd_wan` (80×80)
+- `mxgraph.cisco_safe.architecture.sd_wan_2` (80×80)
+- `mxgraph.cisco_safe.architecture.secure_dns` (80×80)
+- `mxgraph.cisco_safe.architecture.secure_server` (80×80)
+- `mxgraph.cisco_safe.architecture.sensor` (80×80)
+- `mxgraph.cisco_safe.architecture.server` (80×80)
+- `mxgraph.cisco_safe.architecture.siem` (80×80)
+- `mxgraph.cisco_safe.architecture.stacked_switch` (80×80)
+- `mxgraph.cisco_safe.architecture.storage` (80×80)
+- `mxgraph.cisco_safe.architecture.switch` (80×80)
+- `mxgraph.cisco_safe.architecture.tetration_analytics` (80×80)
+- `mxgraph.cisco_safe.architecture.tls_appliance` (80×80)
+- `mxgraph.cisco_safe.architecture.udp_director` (107×107)
+- `mxgraph.cisco_safe.architecture.unified_access_switch` (80×80)
+- `mxgraph.cisco_safe.architecture.video_endpoint` (80×80)
+- `mxgraph.cisco_safe.architecture.vpn_concentrator` (80×80)
+- `mxgraph.cisco_safe.architecture.vulnerability_management` (107×107)
+- `mxgraph.cisco_safe.architecture.web_application_firewall` (80×80)
+- `mxgraph.cisco_safe.architecture.web_application_firewall_2` (80×80)
+- `mxgraph.cisco_safe.architecture.web_filtering` (80×80)
+- `mxgraph.cisco_safe.architecture.web_security` (80×80)
+- `mxgraph.cisco_safe.architecture.wide_area_application_engine` (80×80)
+- `mxgraph.cisco_safe.architecture.wireless_access_point` (80×80)
+- `mxgraph.cisco_safe.architecture.wireless_lan_controller` (80×80)
+- `mxgraph.cisco_safe.business_icons.icon1` (99×99)
+- `mxgraph.cisco_safe.business_icons.icon10` (99×87)
+- `mxgraph.cisco_safe.business_icons.icon11` (75×63)
+- `mxgraph.cisco_safe.business_icons.icon12` (74×66)
+- `mxgraph.cisco_safe.business_icons.icon13` (99×55)
+- `mxgraph.cisco_safe.business_icons.icon14` (99×99)
+- `mxgraph.cisco_safe.business_icons.icon15` (75×99)
+- `mxgraph.cisco_safe.business_icons.icon16` (74×56)
+- `mxgraph.cisco_safe.business_icons.icon17` (99×68)
+- `mxgraph.cisco_safe.business_icons.icon18` (61×74)
+- `mxgraph.cisco_safe.business_icons.icon19` (99×99)
+- `mxgraph.cisco_safe.business_icons.icon2` (99×99)
+- `mxgraph.cisco_safe.business_icons.icon20` (67×75)
+- `mxgraph.cisco_safe.business_icons.icon21` (73×74)
+- `mxgraph.cisco_safe.business_icons.icon22` (92×99)
+- `mxgraph.cisco_safe.business_icons.icon23` (86×99)
+- `mxgraph.cisco_safe.business_icons.icon24` (99×61)
+- `mxgraph.cisco_safe.business_icons.icon25` (99×80)
+- `mxgraph.cisco_safe.business_icons.icon26` (74×53)
+- `mxgraph.cisco_safe.business_icons.icon27` (101×100)
+- `mxgraph.cisco_safe.business_icons.icon28` (93×99)
+- `mxgraph.cisco_safe.business_icons.icon29` (75×63)
+- `mxgraph.cisco_safe.business_icons.icon3` (88×98)
+- `mxgraph.cisco_safe.business_icons.icon30` (74×71)
+- `mxgraph.cisco_safe.business_icons.icon4` (74×74)
+- `mxgraph.cisco_safe.business_icons.icon5` (99×99)
+- `mxgraph.cisco_safe.business_icons.icon6` (99×99)
+- `mxgraph.cisco_safe.business_icons.icon7` (75×52)
+- `mxgraph.cisco_safe.business_icons.icon8` (77×99)
+- `mxgraph.cisco_safe.business_icons.icon9` (81×100)
+- `mxgraph.cisco_safe.capability.access_control_using_trustsec` (96×100)
+- `mxgraph.cisco_safe.capability.analysis_correlation` (77×77)
+- `mxgraph.cisco_safe.capability.anomaly_detection` (80×80)
+- `mxgraph.cisco_safe.capability.anti_malware` (80×80)
+- `mxgraph.cisco_safe.capability.anti_spam` (77×80)
+- `mxgraph.cisco_safe.capability.anti_virus` (80×80)
+- `mxgraph.cisco_safe.capability.application` (80×80)
+- `mxgraph.cisco_safe.capability.application_optimization` (80×80)
+- `mxgraph.cisco_safe.capability.application_visibility_control` (80×80)
+- `mxgraph.cisco_safe.capability.block` (80×80)
+- `mxgraph.cisco_safe.capability.casb` (107×103)
+- `mxgraph.cisco_safe.capability.client_based_security` (80×77)
+- `mxgraph.cisco_safe.capability.cloud_web_security` (80×80)
+- `mxgraph.cisco_safe.capability.conference_bridge` (96×100)
+- `mxgraph.cisco_safe.capability.data_loss_prevention` (80×80)
+- `mxgraph.cisco_safe.capability.database` (18×18)
+- `mxgraph.cisco_safe.capability.device_profiling` (133×133)
+- `mxgraph.cisco_safe.capability.device_trajectory` (100×100)
+- `mxgraph.cisco_safe.capability.disk_encryption` (100×100)
+- `mxgraph.cisco_safe.capability.distributed_denial_of_service_protection` (80×80)
+- `mxgraph.cisco_safe.capability.dns` (78×80)
+- `mxgraph.cisco_safe.capability.dns_security` (104×106)
+- `mxgraph.cisco_safe.capability.email_encryption` (80×80)
+- `mxgraph.cisco_safe.capability.email_security` (80×80)
+- `mxgraph.cisco_safe.capability.fabric_switching` (80×80)
+- `mxgraph.cisco_safe.capability.file_trajectory` (100×100)
+- `mxgraph.cisco_safe.capability.firewall` (80×80)
+- `mxgraph.cisco_safe.capability.flow_analytics` (79×80)
+- `mxgraph.cisco_safe.capability.host_context` (80×80)
+- `mxgraph.cisco_safe.capability.identity_authorization` (83×80)
+- `mxgraph.cisco_safe.capability.identity_authorization_alt` (80×77)
+- `mxgraph.cisco_safe.capability.infrastructure_redundancy` (80×80)
+- `mxgraph.cisco_safe.capability.intrusion_detection` (80×80)
+- `mxgraph.cisco_safe.capability.intrusion_prevention` (80×80)
+- `mxgraph.cisco_safe.capability.l2_l3_network` (80×80)
+- `mxgraph.cisco_safe.capability.l2_l3_network_virtual` (80×80)
+- `mxgraph.cisco_safe.capability.l2_switching` (80×80)
+- `mxgraph.cisco_safe.capability.l3_switching` (80×80)
+- `mxgraph.cisco_safe.capability.load_balancer` (80×80)
+- `mxgraph.cisco_safe.capability.logging_reporting` (80×80)
+- `mxgraph.cisco_safe.capability.malware_sandbox` (80×80)
+- `mxgraph.cisco_safe.capability.micro_segmentation` (100×100)
+- `mxgraph.cisco_safe.capability.mobile_device_manager` (80×80)
+- `mxgraph.cisco_safe.capability.monitoring` (80×80)
+- `mxgraph.cisco_safe.capability.multi_factor_identification` (107×107)
+- `mxgraph.cisco_safe.capability.path_control` (80×80)
+- `mxgraph.cisco_safe.capability.policy_configuration` (80×80)
+- `mxgraph.cisco_safe.capability.posture_assessment` (80×80)
+- `mxgraph.cisco_safe.capability.quality_of_service` (80×80)
+- `mxgraph.cisco_safe.capability.quarantine` (107×107)
+- `mxgraph.cisco_safe.capability.remediate` (107×107)
+- `mxgraph.cisco_safe.capability.routing` (80×80)
+- `mxgraph.cisco_safe.capability.secure_server` (80×80)
+- `mxgraph.cisco_safe.capability.server_based_security` (80×80)
+- `mxgraph.cisco_safe.capability.ssl_tls_offload` (80×79)
+- `mxgraph.cisco_safe.capability.standardized_system_images` (80×80)
+- `mxgraph.cisco_safe.capability.storage` (80×80)
+- `mxgraph.cisco_safe.capability.tagging` (80×80)
+- `mxgraph.cisco_safe.capability.threat_intelligence` (80×80)
+- `mxgraph.cisco_safe.capability.time_synchronization` (80×80)
+- `mxgraph.cisco_safe.capability.user` (80×80)
+- `mxgraph.cisco_safe.capability.video` (80×80)
+- `mxgraph.cisco_safe.capability.virtual_firewall` (80×80)
+- `mxgraph.cisco_safe.capability.virtual_l2_switching` (80×80)
+- `mxgraph.cisco_safe.capability.virtual_private_network` (80×80)
+- `mxgraph.cisco_safe.capability.virtualized_capability` (80×80)
+- `mxgraph.cisco_safe.capability.voice` (80×80)
+- `mxgraph.cisco_safe.capability.vpn_concentrator` (80×80)
+- `mxgraph.cisco_safe.capability.vulnerability_management` (80×80)
+- `mxgraph.cisco_safe.capability.web_application_firewall` (79×80)
+- `mxgraph.cisco_safe.capability.web_reputation_filtering_dcs` (79×80)
+- `mxgraph.cisco_safe.capability.web_security` (77×80)
+- `mxgraph.cisco_safe.capability.wireless_connection` (80×80)
+- `mxgraph.cisco_safe.capability.wireless_intrusion_detection_system` (80×80)
+- `mxgraph.cisco_safe.capability.wireless_intrusion_prevention_system` (81×80)
+- `mxgraph.cisco_safe.capability.wireless_rogue_detection` (81×80)
+- `mxgraph.cisco_safe.design.access_point` (80×70)
+- `mxgraph.cisco_safe.design.access_switch_2` (80×69)
+- `mxgraph.cisco_safe.design.aci_controller` (80×71)
+- `mxgraph.cisco_safe.design.aci_controller_2` (80×69)
+- `mxgraph.cisco_safe.design.aci_leaf_switch` (80×70)
+- `mxgraph.cisco_safe.design.aci_spine_switch` (80×71)
+- `mxgraph.cisco_safe.design.actor_1` (37×80)
+- `mxgraph.cisco_safe.design.actor_2` (31×81)
+- `mxgraph.cisco_safe.design.actuator` (80×70)
+- `mxgraph.cisco_safe.design.adaptive_security_appliance` (80×70)
+- `mxgraph.cisco_safe.design.adaptive_security_appliance_2` (107×92)
+- `mxgraph.cisco_safe.design.automated_system` (80×69)
+- `mxgraph.cisco_safe.design.blade_server` (80×69)
+- `mxgraph.cisco_safe.design.blade_server_2` (80×69)
+- `mxgraph.cisco_safe.design.blank_device` (100×86)
+- `mxgraph.cisco_safe.design.blank_service` (100×86)
+- `mxgraph.cisco_safe.design.call_manager` (80×69)
+- `mxgraph.cisco_safe.design.catalyst_data_center_switch` (80×70)
+- `mxgraph.cisco_safe.design.catalyst_switch_stack` (80×70)
+- `mxgraph.cisco_safe.design.cisco_amp` (80×69)
+- `mxgraph.cisco_safe.design.cisco_anyconnect` (80×69)
+- `mxgraph.cisco_safe.design.cisco_cloud_web_security` (80×69)
+- `mxgraph.cisco_safe.design.client_firewall` (80×69)
+- `mxgraph.cisco_safe.design.corporate_device` (80×69)
+- `mxgraph.cisco_safe.design.corporate_device_2` (80×69)
+- `mxgraph.cisco_safe.design.ddos_protection` (100×86)
+- `mxgraph.cisco_safe.design.ddos_protection_2` (100×86)
+- `mxgraph.cisco_safe.design.distribution_switch` (107×93)
+- `mxgraph.cisco_safe.design.email_security` (80×69)
+- `mxgraph.cisco_safe.design.encryption_offload` (80×69)
+- `mxgraph.cisco_safe.design.endpoint_concentrator` (100×86)
+- `mxgraph.cisco_safe.design.endpoint_concentrator_2` (100×86)
+- `mxgraph.cisco_safe.design.fabric_switch` (80×70)
+- `mxgraph.cisco_safe.design.firepower_appliance` (80×69)
+- `mxgraph.cisco_safe.design.firepower_appliance_2` (100×86)
+- `mxgraph.cisco_safe.design.firepower_management_center` (107×93)
+- `mxgraph.cisco_safe.design.firepower_management_center_2` (80×69)
+- `mxgraph.cisco_safe.design.firewall` (80×69)
+- `mxgraph.cisco_safe.design.firewall_2` (100×86)
+- `mxgraph.cisco_safe.design.flow_collector` (100×86)
+- `mxgraph.cisco_safe.design.flow_collector_2` (100×86)
+- `mxgraph.cisco_safe.design.flow_sensor` (100×86)
+- `mxgraph.cisco_safe.design.flow_sensor_2` (100×86)
+- `mxgraph.cisco_safe.design.identity_directory` (80×70)
+- `mxgraph.cisco_safe.design.intrusion_detection` (80×69)
+- `mxgraph.cisco_safe.design.intrusion_prevention_2` (80×69)
+- `mxgraph.cisco_safe.design.l2_switch` (80×70)
+- `mxgraph.cisco_safe.design.l3_switch` (80×69)
+- `mxgraph.cisco_safe.design.load_balancer` (80×70)
+- `mxgraph.cisco_safe.design.load_balancer_2` (80×69)
+- `mxgraph.cisco_safe.design.log_collector` (100×86)
+- `mxgraph.cisco_safe.design.log_collector_2` (100×86)
+- `mxgraph.cisco_safe.design.mdm` (100×86)
+- `mxgraph.cisco_safe.design.mdm_2` (100×86)
+- `mxgraph.cisco_safe.design.mgmt_console` (100×86)
+- `mxgraph.cisco_safe.design.mgmt_console_2` (100×86)
+- `mxgraph.cisco_safe.design.mobile_device` (80×69)
+- `mxgraph.cisco_safe.design.monitoring` (100×86)
+- `mxgraph.cisco_safe.design.monitoring_2` (100×86)
+- `mxgraph.cisco_safe.design.ms_active_directory` (80×70)
+- `mxgraph.cisco_safe.design.ms_active_directory_2` (80×69)
+- `mxgraph.cisco_safe.design.nexus_1kv` (50×44)
+- `mxgraph.cisco_safe.design.nexus_data_center_switch` (80×69)
+- `mxgraph.cisco_safe.design.nexus_fabric_switch` (80×69)
+- `mxgraph.cisco_safe.design.nexus_switch` (80×69)
+- `mxgraph.cisco_safe.design.ntp` (100×86)
+- `mxgraph.cisco_safe.design.ntp_2` (100×86)
+- `mxgraph.cisco_safe.design.phone` (80×69)
+- `mxgraph.cisco_safe.design.phone_2` (100×86)
+- `mxgraph.cisco_safe.design.policy` (100×86)
+- `mxgraph.cisco_safe.design.policy_2` (100×86)
+- `mxgraph.cisco_safe.design.radware` (100×86)
+- `mxgraph.cisco_safe.design.radware_2` (100×86)
+- `mxgraph.cisco_safe.design.router` (80×70)
+- `mxgraph.cisco_safe.design.router_2` (100×86)
+- `mxgraph.cisco_safe.design.sd_wan` (100×86)
+- `mxgraph.cisco_safe.design.sd_wan_2` (100×86)
+- `mxgraph.cisco_safe.design.secure_dns` (100×86)
+- `mxgraph.cisco_safe.design.secure_dns_2` (100×86)
+- `mxgraph.cisco_safe.design.sensor` (80×70)
+- `mxgraph.cisco_safe.design.server_1` (107×93)
+- `mxgraph.cisco_safe.design.server_2` (80×69)
+- `mxgraph.cisco_safe.design.server_3` (107×92)
+- `mxgraph.cisco_safe.design.server_4` (107×92)
+- `mxgraph.cisco_safe.design.siem` (100×86)
+- `mxgraph.cisco_safe.design.siem_2` (100×86)
+- `mxgraph.cisco_safe.design.storage` (80×69)
+- `mxgraph.cisco_safe.design.storage_1` (80×69)
+- `mxgraph.cisco_safe.design.switch_stack` (107×93)
+- `mxgraph.cisco_safe.design.tetration_agent` (80×69)
+- `mxgraph.cisco_safe.design.tls_appliance` (80×69)
+- `mxgraph.cisco_safe.design.udp_director` (100×86)
+- `mxgraph.cisco_safe.design.udp_director_2` (100×86)
+- `mxgraph.cisco_safe.design.user` (80×80)
+- `mxgraph.cisco_safe.design.users` (80×80)
+- `mxgraph.cisco_safe.design.video_endpoint` (80×70)
+- `mxgraph.cisco_safe.design.virtual_secure_server` (80×69)
+- `mxgraph.cisco_safe.design.vload_balancer` (80×69)
+- `mxgraph.cisco_safe.design.vpn_concentrator` (80×70)
+- `mxgraph.cisco_safe.design.vpn_concentrator_2` (100×86)
+- `mxgraph.cisco_safe.design.vulnerability_management` (100×86)
+- `mxgraph.cisco_safe.design.vulnerability_management_2` (100×86)
+- `mxgraph.cisco_safe.design.vwaf_security` (80×70)
+- `mxgraph.cisco_safe.design.vweb_security` (80×70)
+- `mxgraph.cisco_safe.design.vwlan_controller` (80×69)
+- `mxgraph.cisco_safe.design.web_application_firewall` (80×70)
+- `mxgraph.cisco_safe.design.web_application_firewall_2` (80×69)
+- `mxgraph.cisco_safe.design.web_filtering` (100×86)
+- `mxgraph.cisco_safe.design.web_filtering_2` (100×86)
+- `mxgraph.cisco_safe.design.web_security` (80×69)
+- `mxgraph.cisco_safe.design.wide_area_application_engine` (100×86)
+- `mxgraph.cisco_safe.design.wide_area_application_engine_2` (100×86)
+- `mxgraph.cisco_safe.design.wireless_corporate_device` (80×69)
+- `mxgraph.cisco_safe.design.wireless_switch` (80×71)
+- `mxgraph.cisco_safe.design.wlan_controller` (80×70)
+- `mxgraph.cisco_safe.iot_things_icons.icon1` (72×74)
+- `mxgraph.cisco_safe.iot_things_icons.icon10` (49×99)
+- `mxgraph.cisco_safe.iot_things_icons.icon11` (99×96)
+- `mxgraph.cisco_safe.iot_things_icons.icon12` (74×48)
+- `mxgraph.cisco_safe.iot_things_icons.icon13` (99×55)
+- `mxgraph.cisco_safe.iot_things_icons.icon14` (36×99)
+- `mxgraph.cisco_safe.iot_things_icons.icon15` (99×64)
+- `mxgraph.cisco_safe.iot_things_icons.icon16` (104×96)
+- `mxgraph.cisco_safe.iot_things_icons.icon17` (53×75)
+- `mxgraph.cisco_safe.iot_things_icons.icon18` (74×56)
+- `mxgraph.cisco_safe.iot_things_icons.icon19` (75×58)
+- `mxgraph.cisco_safe.iot_things_icons.icon2` (98×94)
+- `mxgraph.cisco_safe.iot_things_icons.icon20` (68×74)
+- `mxgraph.cisco_safe.iot_things_icons.icon21` (73×71)
+- `mxgraph.cisco_safe.iot_things_icons.icon22` (75×54)
+- `mxgraph.cisco_safe.iot_things_icons.icon23` (75×67)
+- `mxgraph.cisco_safe.iot_things_icons.icon24` (99×86)
+- `mxgraph.cisco_safe.iot_things_icons.icon25` (100×22)
+- `mxgraph.cisco_safe.iot_things_icons.icon26` (101×64)
+- `mxgraph.cisco_safe.iot_things_icons.icon27` (76×38)
+- `mxgraph.cisco_safe.iot_things_icons.icon28` (99×73)
+- `mxgraph.cisco_safe.iot_things_icons.icon29` (99×73)
+- `mxgraph.cisco_safe.iot_things_icons.icon3` (99×47)
+- `mxgraph.cisco_safe.iot_things_icons.icon30` (98×69)
+- `mxgraph.cisco_safe.iot_things_icons.icon31` (99×99)
+- `mxgraph.cisco_safe.iot_things_icons.icon32` (75×42)
+- `mxgraph.cisco_safe.iot_things_icons.icon33` (60×47)
+- `mxgraph.cisco_safe.iot_things_icons.icon34` (99×69)
+- `mxgraph.cisco_safe.iot_things_icons.icon35` (99×62)
+- `mxgraph.cisco_safe.iot_things_icons.icon36` (39×75)
+- `mxgraph.cisco_safe.iot_things_icons.icon37` (78×99)
+- `mxgraph.cisco_safe.iot_things_icons.icon38` (100×91)
+- `mxgraph.cisco_safe.iot_things_icons.icon39` (75×74)
+- `mxgraph.cisco_safe.iot_things_icons.icon4` (99×77)
+- `mxgraph.cisco_safe.iot_things_icons.icon40` (73×65)
+- `mxgraph.cisco_safe.iot_things_icons.icon41` (57×99)
+- `mxgraph.cisco_safe.iot_things_icons.icon42` (57×99)
+- `mxgraph.cisco_safe.iot_things_icons.icon43` (96×100)
+- `mxgraph.cisco_safe.iot_things_icons.icon44` (98×99)
+- `mxgraph.cisco_safe.iot_things_icons.icon45` (75×74)
+- `mxgraph.cisco_safe.iot_things_icons.icon46` (74×62)
+- `mxgraph.cisco_safe.iot_things_icons.icon47` (99×99)
+- `mxgraph.cisco_safe.iot_things_icons.icon48` (33×75)
+- `mxgraph.cisco_safe.iot_things_icons.icon5` (43×74)
+- `mxgraph.cisco_safe.iot_things_icons.icon6` (97×96)
+- `mxgraph.cisco_safe.iot_things_icons.icon7` (81×98)
+- `mxgraph.cisco_safe.iot_things_icons.icon8` (75×75)
+- `mxgraph.cisco_safe.iot_things_icons.icon9` (78×60)
+- `mxgraph.cisco_safe.people_places_things_icons.icon1` (69×74)
+- `mxgraph.cisco_safe.people_places_things_icons.icon10` (75×75)
+- `mxgraph.cisco_safe.people_places_things_icons.icon11` (70×74)
+- `mxgraph.cisco_safe.people_places_things_icons.icon2` (75×62)
+- `mxgraph.cisco_safe.people_places_things_icons.icon3` (99×96)
+- `mxgraph.cisco_safe.people_places_things_icons.icon4` (88×99)
+- `mxgraph.cisco_safe.people_places_things_icons.icon5` (60×74)
+- `mxgraph.cisco_safe.people_places_things_icons.icon6` (99×86)
+- `mxgraph.cisco_safe.people_places_things_icons.icon7` (98×99)
+- `mxgraph.cisco_safe.people_places_things_icons.icon8` (29×74)
+- `mxgraph.cisco_safe.people_places_things_icons.icon9` (75×67)
+- `mxgraph.cisco_safe.security_icons.amp` (100×99)
+- `mxgraph.cisco_safe.security_icons.antivirus` (75×49)
+- `mxgraph.cisco_safe.security_icons.apic` (99×81)
+- `mxgraph.cisco_safe.security_icons.application_control` (74×74)
+- `mxgraph.cisco_safe.security_icons.cloud_based` (75×47)
+- `mxgraph.cisco_safe.security_icons.cloud_based_management` (75×58)
+- `mxgraph.cisco_safe.security_icons.ddos` (99×99)
+- `mxgraph.cisco_safe.security_icons.email` (101×72)
+- `mxgraph.cisco_safe.security_icons.firewall` (99×70)
+- `mxgraph.cisco_safe.security_icons.iam` (75×94)
+- `mxgraph.cisco_safe.security_icons.icon1` (94×99)
+- `mxgraph.cisco_safe.security_icons.icon10` (99×62)
+- `mxgraph.cisco_safe.security_icons.icon11` (99×99)
+- `mxgraph.cisco_safe.security_icons.icon12` (83×99)
+- `mxgraph.cisco_safe.security_icons.icon13` (99×90)
+- `mxgraph.cisco_safe.security_icons.icon14` (100×99)
+- `mxgraph.cisco_safe.security_icons.icon15` (78×99)
+- `mxgraph.cisco_safe.security_icons.icon16` (76×36)
+- `mxgraph.cisco_safe.security_icons.icon17` (57×99)
+- `mxgraph.cisco_safe.security_icons.icon18` (73×73)
+- `mxgraph.cisco_safe.security_icons.icon19` (74×74)
+- `mxgraph.cisco_safe.security_icons.icon2` (104×94)
+- `mxgraph.cisco_safe.security_icons.icon20` (75×75)
+- `mxgraph.cisco_safe.security_icons.icon21` (67×76)
+- `mxgraph.cisco_safe.security_icons.icon22` (60×74)
+- `mxgraph.cisco_safe.security_icons.icon23` (100×100)
+- `mxgraph.cisco_safe.security_icons.icon24` (66×75)
+- `mxgraph.cisco_safe.security_icons.icon25` (99×90)
+- `mxgraph.cisco_safe.security_icons.icon26` (99×99)
+- `mxgraph.cisco_safe.security_icons.icon27` (75×53)
+- `mxgraph.cisco_safe.security_icons.icon28` (75×52)
+- `mxgraph.cisco_safe.security_icons.icon29` (67×72)
+- `mxgraph.cisco_safe.security_icons.icon3` (58×75)
+- `mxgraph.cisco_safe.security_icons.icon30` (99×69)
+- `mxgraph.cisco_safe.security_icons.icon31` (75×64)
+- `mxgraph.cisco_safe.security_icons.icon32` (75×52)
+- `mxgraph.cisco_safe.security_icons.icon33` (99×100)
+- `mxgraph.cisco_safe.security_icons.icon34` (101×91)
+- `mxgraph.cisco_safe.security_icons.icon35` (100×57)
+- `mxgraph.cisco_safe.security_icons.icon36` (99×97)
+- `mxgraph.cisco_safe.security_icons.icon37` (80×100)
+- `mxgraph.cisco_safe.security_icons.icon38` (99×99)
+- `mxgraph.cisco_safe.security_icons.icon39` (71×100)
+- `mxgraph.cisco_safe.security_icons.icon4` (99×84)
+- `mxgraph.cisco_safe.security_icons.icon40` (100×66)
+- `mxgraph.cisco_safe.security_icons.icon5` (82×99)
+- `mxgraph.cisco_safe.security_icons.icon6` (70×74)
+- `mxgraph.cisco_safe.security_icons.icon7` (100×100)
+- `mxgraph.cisco_safe.security_icons.icon8` (85×100)
+- `mxgraph.cisco_safe.security_icons.icon9` (67×99)
+- `mxgraph.cisco_safe.security_icons.ids` (92×71)
+- `mxgraph.cisco_safe.security_icons.inspection_forensics` (103×80)
+- `mxgraph.cisco_safe.security_icons.ise` (49×69)
+- `mxgraph.cisco_safe.security_icons.log_management` (60×75)
+- `mxgraph.cisco_safe.security_icons.malware_sandbox` (100×62)
+- `mxgraph.cisco_safe.security_icons.nac` (99×99)
+- `mxgraph.cisco_safe.security_icons.nba` (89×67)
+- `mxgraph.cisco_safe.security_icons.ngfw` (105×92)
+- `mxgraph.cisco_safe.security_icons.ngips` (72×85)
+- `mxgraph.cisco_safe.security_icons.patch_management` (75×59)
+- `mxgraph.cisco_safe.security_icons.retrospective_security` (75×72)
+- `mxgraph.cisco_safe.security_icons.services` (75×69)
+- `mxgraph.cisco_safe.security_icons.siem` (75×61)
+- `mxgraph.cisco_safe.security_icons.talos` (186×43)
+- `mxgraph.cisco_safe.security_icons.trustsec` (83×99)
+- `mxgraph.cisco_safe.security_icons.utm` (104×23)
+- `mxgraph.cisco_safe.security_icons.virtual` (107×107)
+- `mxgraph.cisco_safe.security_icons.virtual_deployment` (99×88)
+- `mxgraph.cisco_safe.security_icons.vpn` (86×100)
+- `mxgraph.cisco_safe.security_icons.vulnerability_management` (75×75)
+- `mxgraph.cisco_safe.security_icons.waf` (80×99)
+- `mxgraph.cisco_safe.security_icons.web` (99×99)
+- `mxgraph.cisco_safe.technology_icons.icon1` (75×48)
+- `mxgraph.cisco_safe.technology_icons.icon10` (74×61)
+- `mxgraph.cisco_safe.technology_icons.icon11` (100×75)
+- `mxgraph.cisco_safe.technology_icons.icon12` (59×74)
+- `mxgraph.cisco_safe.technology_icons.icon13` (75×67)
+- `mxgraph.cisco_safe.technology_icons.icon14` (100×77)
+- `mxgraph.cisco_safe.technology_icons.icon15` (99×88)
+- `mxgraph.cisco_safe.technology_icons.icon16` (74×74)
+- `mxgraph.cisco_safe.technology_icons.icon17` (75×64)
+- `mxgraph.cisco_safe.technology_icons.icon18` (74×63)
+- `mxgraph.cisco_safe.technology_icons.icon19` (74×63)
+- `mxgraph.cisco_safe.technology_icons.icon2` (57×100)
+- `mxgraph.cisco_safe.technology_icons.icon20` (74×63)
+- `mxgraph.cisco_safe.technology_icons.icon21` (64×75)
+- `mxgraph.cisco_safe.technology_icons.icon22` (75×42)
+- `mxgraph.cisco_safe.technology_icons.icon23` (75×35)
+- `mxgraph.cisco_safe.technology_icons.icon24` (99×99)
+- `mxgraph.cisco_safe.technology_icons.icon25` (74×51)
+- `mxgraph.cisco_safe.technology_icons.icon26` (75×60)
+- `mxgraph.cisco_safe.technology_icons.icon27` (74×52)
+- `mxgraph.cisco_safe.technology_icons.icon28` (99×43)
+- `mxgraph.cisco_safe.technology_icons.icon29` (100×100)
+- `mxgraph.cisco_safe.technology_icons.icon3` (99×85)
+- `mxgraph.cisco_safe.technology_icons.icon4` (75×74)
+- `mxgraph.cisco_safe.technology_icons.icon5` (100×75)
+- `mxgraph.cisco_safe.technology_icons.icon6` (58×99)
+- `mxgraph.cisco_safe.technology_icons.icon7` (68×99)
+- `mxgraph.cisco_safe.technology_icons.icon8` (68×75)
+- `mxgraph.cisco_safe.technology_icons.icon9` (77×99)
+- `mxgraph.cisco_safe.threat.threat_a1` (78×80)
+- `mxgraph.cisco_safe.threat.threat_a2` (78×80)
+- `mxgraph.cisco_safe.threat.threat_a3` (78×80)
+- `mxgraph.cisco_safe.threat.threat_a4` (78×80)
+- `mxgraph.cisco_safe.threat.threat_a5` (78×80)
+- `mxgraph.cisco_safe.threat.threat_a6` (78×80)
+- `mxgraph.cisco_safe.threat.threat_a7` (78×80)
+- `mxgraph.cisco_safe.threat.threat_a8` (78×80)
+- `mxgraph.cisco_safe.threat.threat_b1` (50×80)
+- `mxgraph.cisco_safe.threat.threat_b2` (50×80)
+- `mxgraph.cisco_safe.threat.threat_b3` (40×65)
+- `mxgraph.cisco_safe.threat.threat_b4` (49×80)
+- `mxgraph.cisco_safe.threat.threat_b5` (50×80)
+- `mxgraph.cisco_safe.threat.threat_b6` (40×65)
+- `mxgraph.cisco_safe.threat.threat_b7` (50×80)
+- `mxgraph.cisco_safe.threat.threat_b8` (49×80)
+- `mxgraph.cisco_safe.threat.threat_c1` (80×65)
+- `mxgraph.cisco_safe.threat.threat_c2` (80×65)
+- `mxgraph.cisco_safe.threat.threat_c3` (80×65)
+- `mxgraph.cisco_safe.threat.threat_c4` (62×50)
+- `mxgraph.cisco_safe.threat.threat_c5` (80×65)
+- `mxgraph.cisco_safe.threat.threat_c6` (80×65)
+- `mxgraph.cisco_safe.threat.threat_c7` (80×65)
+- `mxgraph.cisco_safe.threat.threat_c8` (80×65)
+- `mxgraph.cisco_safe.threat.threat_d1` (74×80)
+- `mxgraph.cisco_safe.threat.threat_d2` (74×80)
+- `mxgraph.cisco_safe.threat.threat_d3` (74×80)
+- `mxgraph.cisco_safe.threat.threat_d4` (74×80)
+- `mxgraph.cisco_safe.threat.threat_d5` (74×80)
+- `mxgraph.cisco_safe.threat.threat_d6` (74×80)
+- `mxgraph.cisco_safe.threat.threat_d7` (74×80)
+- `mxgraph.cisco_safe.threat.threat_d8` (74×80)
+- `mxgraph.cisco_safe.threat.threat_e1` (81×76)
+- `mxgraph.cisco_safe.threat.threat_e2` (81×76)
+- `mxgraph.cisco_safe.threat.threat_e3` (81×76)
+- `mxgraph.cisco_safe.threat.threat_e4` (81×76)
+- `mxgraph.cisco_safe.threat.threat_e5` (81×76)
+- `mxgraph.cisco_safe.threat.threat_e6` (81×76)
+- `mxgraph.cisco_safe.threat.threat_e7` (81×76)
+- `mxgraph.cisco_safe.threat.threat_e8` (81×76)
 
 ## Usage Example
 

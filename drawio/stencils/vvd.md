@@ -4,103 +4,103 @@ Stencil library: `mxgraph.vvd.*`
 
 Total: 94 stencils
 
-- `mxgraph.vvd.administrator`
-- `mxgraph.vvd.app`
-- `mxgraph.vvd.app_volumes_manager`
-- `mxgraph.vvd.appstack_volume`
-- `mxgraph.vvd.array_manager`
-- `mxgraph.vvd.blueprint`
-- `mxgraph.vvd.business_continuity_data_protection`
-- `mxgraph.vvd.cd`
-- `mxgraph.vvd.cloud_computing`
-- `mxgraph.vvd.collective_nsx_esg`
-- `mxgraph.vvd.consumption_plane`
-- `mxgraph.vvd.cpu`
-- `mxgraph.vvd.datacenter`
-- `mxgraph.vvd.datastore`
-- `mxgraph.vvd.disk`
-- `mxgraph.vvd.document`
-- `mxgraph.vvd.edge_gateway`
-- `mxgraph.vvd.endpoint`
-- `mxgraph.vvd.ethernet_port`
-- `mxgraph.vvd.external_networks`
-- `mxgraph.vvd.flash_drive`
-- `mxgraph.vvd.folder`
-- `mxgraph.vvd.guest_agent_customization`
-- `mxgraph.vvd.horizon`
-- `mxgraph.vvd.infrastructure`
-- `mxgraph.vvd.key`
-- `mxgraph.vvd.keyboard`
-- `mxgraph.vvd.laptop`
-- `mxgraph.vvd.log_files`
-- `mxgraph.vvd.logical_distribution`
-- `mxgraph.vvd.logical_firewall`
-- `mxgraph.vvd.machine`
-- `mxgraph.vvd.memory`
-- `mxgraph.vvd.monitor`
-- `mxgraph.vvd.mouse`
-- `mxgraph.vvd.networking`
-- `mxgraph.vvd.networks`
-- `mxgraph.vvd.nfvo`
-- `mxgraph.vvd.nsx`
-- `mxgraph.vvd.nsx_controller`
-- `mxgraph.vvd.nsx_dashboard`
-- `mxgraph.vvd.nsx_edge_and_load_balancer`
-- `mxgraph.vvd.nsx_esg`
-- `mxgraph.vvd.nsx_manager`
-- `mxgraph.vvd.nsx_public_cloud_gateway`
-- `mxgraph.vvd.on_demand_self_service`
-- `mxgraph.vvd.ovdc_networks`
-- `mxgraph.vvd.pair_sites`
-- `mxgraph.vvd.phone`
-- `mxgraph.vvd.physical_network_adapter`
-- `mxgraph.vvd.physical_storage`
-- `mxgraph.vvd.physical_upstream_router`
-- `mxgraph.vvd.platform_services_controller`
-- `mxgraph.vvd.protection_group`
-- `mxgraph.vvd.protection_group_config`
-- `mxgraph.vvd.recovery_plan`
-- `mxgraph.vvd.resource_pool`
-- `mxgraph.vvd.scsi_controller`
-- `mxgraph.vvd.security`
-- `mxgraph.vvd.server`
-- `mxgraph.vvd.service_provider_cloud_environment`
-- `mxgraph.vvd.site`
-- `mxgraph.vvd.site_container`
-- `mxgraph.vvd.site_recovery`
-- `mxgraph.vvd.site_recovery_functional_icon`
-- `mxgraph.vvd.ssd`
-- `mxgraph.vvd.storage`
-- `mxgraph.vvd.switch`
-- `mxgraph.vvd.telco_network`
-- `mxgraph.vvd.template`
-- `mxgraph.vvd.tenant_key`
-- `mxgraph.vvd.user_group`
-- `mxgraph.vvd.vapp_network`
-- `mxgraph.vvd.vcenter_server`
-- `mxgraph.vvd.vcloud_director`
-- `mxgraph.vvd.virtual_appliance`
-- `mxgraph.vvd.virtual_machine`
-- `mxgraph.vvd.virtual_switch`
-- `mxgraph.vvd.vm_group`
-- `mxgraph.vvd.vnf_m`
-- `mxgraph.vvd.volumes_agent`
-- `mxgraph.vvd.vpn`
-- `mxgraph.vvd.vrealize_automation`
-- `mxgraph.vvd.vrealize_log_insight`
-- `mxgraph.vvd.vrealize_operations`
-- `mxgraph.vvd.vrealize_orchestrator`
-- `mxgraph.vvd.vrops`
-- `mxgraph.vvd.vsan`
-- `mxgraph.vvd.vshield`
-- `mxgraph.vvd.vxlan`
-- `mxgraph.vvd.wavefront`
-- `mxgraph.vvd.web_browser`
-- `mxgraph.vvd.wi_fi`
-- `mxgraph.vvd.writable_volume`
+- `mxgraph.vvd.administrator` (57×133)
+- `mxgraph.vvd.app` (636×633)
+- `mxgraph.vvd.app_volumes_manager` (161×165)
+- `mxgraph.vvd.appstack_volume` (679×475)
+- `mxgraph.vvd.array_manager` (725×526)
+- `mxgraph.vvd.blueprint` (648×617)
+- `mxgraph.vvd.business_continuity_data_protection` (196×169)
+- `mxgraph.vvd.cd` (166×166)
+- `mxgraph.vvd.cloud_computing` (257×165)
+- `mxgraph.vvd.collective_nsx_esg` (180×171)
+- `mxgraph.vvd.consumption_plane` (191×191)
+- `mxgraph.vvd.cpu` (734×737)
+- `mxgraph.vvd.datacenter` (206×153)
+- `mxgraph.vvd.datastore` (173×138)
+- `mxgraph.vvd.disk` (510×724)
+- `mxgraph.vvd.document` (485×665)
+- `mxgraph.vvd.edge_gateway` (170×145)
+- `mxgraph.vvd.endpoint` (175×163)
+- `mxgraph.vvd.ethernet_port` (163×163)
+- `mxgraph.vvd.external_networks` (813×567)
+- `mxgraph.vvd.flash_drive` (68×164)
+- `mxgraph.vvd.folder` (197×149)
+- `mxgraph.vvd.guest_agent_customization` (180×165)
+- `mxgraph.vvd.horizon` (696×604)
+- `mxgraph.vvd.infrastructure` (615×596)
+- `mxgraph.vvd.key` (307×634)
+- `mxgraph.vvd.keyboard` (855×604)
+- `mxgraph.vvd.laptop` (216×155)
+- `mxgraph.vvd.log_files` (144×180)
+- `mxgraph.vvd.logical_distribution` (630×630)
+- `mxgraph.vvd.logical_firewall` (607×628)
+- `mxgraph.vvd.machine` (67×162)
+- `mxgraph.vvd.memory` (222×85)
+- `mxgraph.vvd.monitor` (536×500)
+- `mxgraph.vvd.mouse` (304×625)
+- `mxgraph.vvd.networking` (195×195)
+- `mxgraph.vvd.networks` (1026×626)
+- `mxgraph.vvd.nfvo` (658×659)
+- `mxgraph.vvd.nsx` (813×627)
+- `mxgraph.vvd.nsx_controller` (623×623)
+- `mxgraph.vvd.nsx_dashboard` (689×642)
+- `mxgraph.vvd.nsx_edge_and_load_balancer` (190×154)
+- `mxgraph.vvd.nsx_esg` (162×162)
+- `mxgraph.vvd.nsx_manager` (608×608)
+- `mxgraph.vvd.nsx_public_cloud_gateway` (185×175)
+- `mxgraph.vvd.on_demand_self_service` (716×609)
+- `mxgraph.vvd.ovdc_networks` (1026×626)
+- `mxgraph.vvd.pair_sites` (1280×688)
+- `mxgraph.vvd.phone` (98×167)
+- `mxgraph.vvd.physical_network_adapter` (1009×588)
+- `mxgraph.vvd.physical_storage` (221×156)
+- `mxgraph.vvd.physical_upstream_router` (194×194)
+- `mxgraph.vvd.platform_services_controller` (613×613)
+- `mxgraph.vvd.protection_group` (164×171)
+- `mxgraph.vvd.protection_group_config` (708×731)
+- `mxgraph.vvd.recovery_plan` (485×665)
+- `mxgraph.vvd.resource_pool` (629×629)
+- `mxgraph.vvd.scsi_controller` (1063×477)
+- `mxgraph.vvd.security` (486×630)
+- `mxgraph.vvd.server` (836×218)
+- `mxgraph.vvd.service_provider_cloud_environment` (755×666)
+- `mxgraph.vvd.site` (194×182)
+- `mxgraph.vvd.site_container` (600×605)
+- `mxgraph.vvd.site_recovery` (155×165)
+- `mxgraph.vvd.site_recovery_functional_icon` (507×622)
+- `mxgraph.vvd.ssd` (696×492)
+- `mxgraph.vvd.storage` (136×180)
+- `mxgraph.vvd.switch` (166×166)
+- `mxgraph.vvd.telco_network` (256×183)
+- `mxgraph.vvd.template` (508×617)
+- `mxgraph.vvd.tenant_key` (324×638)
+- `mxgraph.vvd.user_group` (376×530)
+- `mxgraph.vvd.vapp_network` (813×691)
+- `mxgraph.vvd.vcenter_server` (602×624)
+- `mxgraph.vvd.vcloud_director` (1178×501)
+- `mxgraph.vvd.virtual_appliance` (184×184)
+- `mxgraph.vvd.virtual_machine` (166×167)
+- `mxgraph.vvd.virtual_switch` (256×136)
+- `mxgraph.vvd.vm_group` (194×196)
+- `mxgraph.vvd.vnf_m` (756×657)
+- `mxgraph.vvd.volumes_agent` (175×179)
+- `mxgraph.vvd.vpn` (161×161)
+- `mxgraph.vvd.vrealize_automation` (188×188)
+- `mxgraph.vvd.vrealize_log_insight` (193×194)
+- `mxgraph.vvd.vrealize_operations` (708×724)
+- `mxgraph.vvd.vrealize_orchestrator` (185×170)
+- `mxgraph.vvd.vrops` (630×630)
+- `mxgraph.vvd.vsan` (538×620)
+- `mxgraph.vvd.vshield` (620×734)
+- `mxgraph.vvd.vxlan` (619×620)
+- `mxgraph.vvd.wavefront` (142×165)
+- `mxgraph.vvd.web_browser` (845×597)
+- `mxgraph.vvd.wi_fi` (194×194)
+- `mxgraph.vvd.writable_volume` (920×744)
 
 ## Usage Example
 
 ```drawio
-<mxfile><diagram id="example" name="Example"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="" style="shape=mxgraph.vvd.endpoint;html=1;fillColor=#079247;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="100" y="100" width="60" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
+<mxfile><diagram id="example" name="Example"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="" style="shape=mxgraph.vvd.administrator;html=1;fillColor=#CCCCCC;strokeColor=#6881B3;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="100" y="100" width="60" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
 ```

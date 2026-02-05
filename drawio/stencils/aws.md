@@ -4,108 +4,108 @@ Stencil library: `mxgraph.aws.*`
 
 Total: 99 stencils
 
-- `mxgraph.aws.compute.cloudwatch`
-- `mxgraph.aws.compute.cloudwatch_alarm`
-- `mxgraph.aws.compute.ec2`
-- `mxgraph.aws.compute.ec2_ami`
-- `mxgraph.aws.compute.ec2_db_on_instance`
-- `mxgraph.aws.compute.ec2_elastic_ip`
-- `mxgraph.aws.compute.ec2_instance`
-- `mxgraph.aws.compute.ec2_instance_with_cloudwatch`
-- `mxgraph.aws.compute.ec2_instances`
-- `mxgraph.aws.compute.elastic_mapreduce`
-- `mxgraph.aws.compute.elastic_mapreduce_auto_scaling`
-- `mxgraph.aws.compute.elastic_mapreduce_cluster`
-- `mxgraph.aws.compute.elastic_mapreduce_hdfs_cluster`
-- `mxgraph.aws.content_delivery.cloudfront`
-- `mxgraph.aws.content_delivery.cloudfront_download_distribution`
-- `mxgraph.aws.content_delivery.cloudfront_edge_location`
-- `mxgraph.aws.content_delivery.cloudfront_streaming_distribution`
-- `mxgraph.aws.database.elasticache`
-- `mxgraph.aws.database.rds`
-- `mxgraph.aws.database.rds_db_instance`
-- `mxgraph.aws.database.rds_db_instance_read_replica`
-- `mxgraph.aws.database.rds_db_instance_standby`
-- `mxgraph.aws.database.rds_mysql_db_instance`
-- `mxgraph.aws.database.rds_oracle_db_instance`
-- `mxgraph.aws.database.simpledb`
-- `mxgraph.aws.database.simpledb_attribute`
-- `mxgraph.aws.database.simpledb_attributes`
-- `mxgraph.aws.database.simpledb_domain`
-- `mxgraph.aws.database.simpledb_item`
-- `mxgraph.aws.database.simpledb_items`
-- `mxgraph.aws.deployment_management.aws_cloudformation`
-- `mxgraph.aws.deployment_management.aws_cloudformation_stack`
-- `mxgraph.aws.deployment_management.aws_cloudformation_template`
-- `mxgraph.aws.deployment_management.aws_elastic_beanstalk`
-- `mxgraph.aws.deployment_management.aws_elastic_beanstalk_applicaton`
-- `mxgraph.aws.groups.auto_scaling_group`
-- `mxgraph.aws.groups.availability_zone`
-- `mxgraph.aws.groups.aws_cloud`
-- `mxgraph.aws.groups.aws_cloud_icon`
-- `mxgraph.aws.groups.corporate_data_center`
-- `mxgraph.aws.groups.corporate_data_center_icon`
-- `mxgraph.aws.groups.ec2_instance_contents`
-- `mxgraph.aws.groups.ec2_spot_instance`
-- `mxgraph.aws.groups.elastic_beanstalk_container`
-- `mxgraph.aws.groups.elastic_beanstalk_container_icon`
-- `mxgraph.aws.groups.region`
-- `mxgraph.aws.groups.rrect`
-- `mxgraph.aws.groups.security_group`
-- `mxgraph.aws.groups.server_contents`
-- `mxgraph.aws.groups.virtual_private_cloud`
-- `mxgraph.aws.groups.virtual_private_cloud_icon`
-- `mxgraph.aws.groups.vpc_subnet`
-- `mxgraph.aws.groups.vpc_subnet_icon`
-- `mxgraph.aws.messaging.ses`
-- `mxgraph.aws.messaging.ses_email`
-- `mxgraph.aws.messaging.sns`
-- `mxgraph.aws.messaging.sns_email_notification`
-- `mxgraph.aws.messaging.sns_http_notification`
-- `mxgraph.aws.messaging.sns_topic`
-- `mxgraph.aws.messaging.sqs`
-- `mxgraph.aws.messaging.sqs_message`
-- `mxgraph.aws.messaging.sqs_queue`
-- `mxgraph.aws.misc.aws_cloud`
-- `mxgraph.aws.misc.virtual_private_cloud`
-- `mxgraph.aws.misc.vpc_subnet`
-- `mxgraph.aws.networking.aws_direct_connect`
-- `mxgraph.aws.networking.elastic_load_balancer`
-- `mxgraph.aws.networking.route_53`
-- `mxgraph.aws.networking.route_53_hostedzone`
-- `mxgraph.aws.networking.route_53_routetable`
-- `mxgraph.aws.networking.vpc`
-- `mxgraph.aws.networking.vpc_customer_gateway`
-- `mxgraph.aws.networking.vpc_internet_gateway`
-- `mxgraph.aws.networking.vpc_router`
-- `mxgraph.aws.networking.vpc_vpn_connection`
-- `mxgraph.aws.networking.vpc_vpn_gateway`
-- `mxgraph.aws.non_service_specific.aws_management_console`
-- `mxgraph.aws.non_service_specific.client`
-- `mxgraph.aws.non_service_specific.corporate_data_center`
-- `mxgraph.aws.non_service_specific.iam_add_on`
-- `mxgraph.aws.non_service_specific.internet`
-- `mxgraph.aws.non_service_specific.mobile_client`
-- `mxgraph.aws.non_service_specific.multimedia`
-- `mxgraph.aws.non_service_specific.traditional_server`
-- `mxgraph.aws.non_service_specific.user`
-- `mxgraph.aws.non_service_specific.users`
-- `mxgraph.aws.on_demand_workforce.mechanical_turk`
-- `mxgraph.aws.on_demand_workforce.mechanical_turk_assignment_task`
-- `mxgraph.aws.on_demand_workforce.mechanical_turk_hit`
-- `mxgraph.aws.on_demand_workforce.mechanical_turk_requester`
-- `mxgraph.aws.on_demand_workforce.mechanical_turk_workers`
-- `mxgraph.aws.storage.aws_import_export`
-- `mxgraph.aws.storage.ebs`
-- `mxgraph.aws.storage.ebs_snapshot`
-- `mxgraph.aws.storage.ebs_volume`
-- `mxgraph.aws.storage.s3`
-- `mxgraph.aws.storage.s3_bucket`
-- `mxgraph.aws.storage.s3_bucket_with_objects`
-- `mxgraph.aws.storage.s3_object`
+- `mxgraph.aws.compute.cloudwatch` (53×55)
+- `mxgraph.aws.compute.cloudwatch_alarm` (53×60)
+- `mxgraph.aws.compute.ec2` (56×57)
+- `mxgraph.aws.compute.ec2_ami` (56×57)
+- `mxgraph.aws.compute.ec2_db_on_instance` (62×58)
+- `mxgraph.aws.compute.ec2_elastic_ip` (37×9)
+- `mxgraph.aws.compute.ec2_instance` (56×57)
+- `mxgraph.aws.compute.ec2_instance_with_cloudwatch` (56×57)
+- `mxgraph.aws.compute.ec2_instances` (58×60)
+- `mxgraph.aws.compute.elastic_mapreduce` (57×52)
+- `mxgraph.aws.compute.elastic_mapreduce_auto_scaling` (63×63)
+- `mxgraph.aws.compute.elastic_mapreduce_cluster` (52×56)
+- `mxgraph.aws.compute.elastic_mapreduce_hdfs_cluster` (57×56)
+- `mxgraph.aws.content_delivery.cloudfront` (57×57)
+- `mxgraph.aws.content_delivery.cloudfront_download_distribution` (58×58)
+- `mxgraph.aws.content_delivery.cloudfront_edge_location` (47×47)
+- `mxgraph.aws.content_delivery.cloudfront_streaming_distribution` (58×58)
+- `mxgraph.aws.database.elasticache` (56×57)
+- `mxgraph.aws.database.rds` (49×60)
+- `mxgraph.aws.database.rds_db_instance` (62×58)
+- `mxgraph.aws.database.rds_db_instance_read_replica` (62×58)
+- `mxgraph.aws.database.rds_db_instance_standby` (62×58)
+- `mxgraph.aws.database.rds_mysql_db_instance` (62×58)
+- `mxgraph.aws.database.rds_oracle_db_instance` (62×58)
+- `mxgraph.aws.database.simpledb` (56×55)
+- `mxgraph.aws.database.simpledb_attribute` (56×55)
+- `mxgraph.aws.database.simpledb_attributes` (54×53)
+- `mxgraph.aws.database.simpledb_domain` (56×55)
+- `mxgraph.aws.database.simpledb_item` (56×55)
+- `mxgraph.aws.database.simpledb_items` (55×53)
+- `mxgraph.aws.deployment_management.aws_cloudformation` (48×54)
+- `mxgraph.aws.deployment_management.aws_cloudformation_stack` (61×42)
+- `mxgraph.aws.deployment_management.aws_cloudformation_template` (48×54)
+- `mxgraph.aws.deployment_management.aws_elastic_beanstalk` (64×51)
+- `mxgraph.aws.deployment_management.aws_elastic_beanstalk_applicaton` (31×54)
+- `mxgraph.aws.groups.auto_scaling_group` (59×60)
+- `mxgraph.aws.groups.availability_zone` (63×65)
+- `mxgraph.aws.groups.aws_cloud` (59×66)
+- `mxgraph.aws.groups.aws_cloud_icon` (17×11)
+- `mxgraph.aws.groups.corporate_data_center` (59×63)
+- `mxgraph.aws.groups.corporate_data_center_icon` (7×9)
+- `mxgraph.aws.groups.ec2_instance_contents` (54×57)
+- `mxgraph.aws.groups.ec2_spot_instance` (53×57)
+- `mxgraph.aws.groups.elastic_beanstalk_container` (61×65)
+- `mxgraph.aws.groups.elastic_beanstalk_container_icon` (13×9)
+- `mxgraph.aws.groups.region` (59×58)
+- `mxgraph.aws.groups.rrect` (63×65)
+- `mxgraph.aws.groups.security_group` (59×58)
+- `mxgraph.aws.groups.server_contents` (57×57)
+- `mxgraph.aws.groups.virtual_private_cloud` (56×63)
+- `mxgraph.aws.groups.virtual_private_cloud_icon` (17×10)
+- `mxgraph.aws.groups.vpc_subnet` (58×62)
+- `mxgraph.aws.groups.vpc_subnet_icon` (8×8)
+- `mxgraph.aws.messaging.ses` (67×47)
+- `mxgraph.aws.messaging.ses_email` (67×47)
+- `mxgraph.aws.messaging.sns` (65×44)
+- `mxgraph.aws.messaging.sns_email_notification` (67×41)
+- `mxgraph.aws.messaging.sns_http_notification` (67×41)
+- `mxgraph.aws.messaging.sns_topic` (62×37)
+- `mxgraph.aws.messaging.sqs` (59×37)
+- `mxgraph.aws.messaging.sqs_message` (36×38)
+- `mxgraph.aws.messaging.sqs_queue` (59×36)
+- `mxgraph.aws.misc.aws_cloud` (40×25)
+- `mxgraph.aws.misc.virtual_private_cloud` (40×25)
+- `mxgraph.aws.misc.vpc_subnet` (17×18)
+- `mxgraph.aws.networking.aws_direct_connect` (55×55)
+- `mxgraph.aws.networking.elastic_load_balancer` (57×57)
+- `mxgraph.aws.networking.route_53` (60×57)
+- `mxgraph.aws.networking.route_53_hostedzone` (58×55)
+- `mxgraph.aws.networking.route_53_routetable` (59×50)
+- `mxgraph.aws.networking.vpc` (68×42)
+- `mxgraph.aws.networking.vpc_customer_gateway` (36×36)
+- `mxgraph.aws.networking.vpc_internet_gateway` (36×36)
+- `mxgraph.aws.networking.vpc_router` (35×35)
+- `mxgraph.aws.networking.vpc_vpn_connection` (65×52)
+- `mxgraph.aws.networking.vpc_vpn_gateway` (36×36)
+- `mxgraph.aws.non_service_specific.aws_management_console` (57×53)
+- `mxgraph.aws.non_service_specific.client` (57×53)
+- `mxgraph.aws.non_service_specific.corporate_data_center` (41×54)
+- `mxgraph.aws.non_service_specific.iam_add_on` (32×17)
+- `mxgraph.aws.non_service_specific.internet` (66×41)
+- `mxgraph.aws.non_service_specific.mobile_client` (35×52)
+- `mxgraph.aws.non_service_specific.multimedia` (52×48)
+- `mxgraph.aws.non_service_specific.traditional_server` (41×54)
+- `mxgraph.aws.non_service_specific.user` (46×61)
+- `mxgraph.aws.non_service_specific.users` (65×57)
+- `mxgraph.aws.on_demand_workforce.mechanical_turk` (66×41)
+- `mxgraph.aws.on_demand_workforce.mechanical_turk_assignment_task` (48×54)
+- `mxgraph.aws.on_demand_workforce.mechanical_turk_hit` (60×60)
+- `mxgraph.aws.on_demand_workforce.mechanical_turk_requester` (41×54)
+- `mxgraph.aws.on_demand_workforce.mechanical_turk_workers` (65×57)
+- `mxgraph.aws.storage.aws_import_export` (58×59)
+- `mxgraph.aws.storage.ebs` (47×60)
+- `mxgraph.aws.storage.ebs_snapshot` (53×62)
+- `mxgraph.aws.storage.ebs_volume` (47×60)
+- `mxgraph.aws.storage.s3` (58×59)
+- `mxgraph.aws.storage.s3_bucket` (58×59)
+- `mxgraph.aws.storage.s3_bucket_with_objects` (58×59)
+- `mxgraph.aws.storage.s3_object` (33×33)
 
 ## Usage Example
 
 ```drawio
-<mxfile><diagram id="example" name="Example"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="" style="shape=mxgraph.aws.content_delivery.cloudfront_streaming_distribution;html=1;fillColor=#FFFFFF;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="100" y="100" width="60" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
+<mxfile><diagram id="example" name="Example"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="" style="shape=mxgraph.aws.compute.cloudwatch;html=1;fillColor=#CCCCCC;strokeColor=#6881B3;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="100" y="100" width="60" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
 ```

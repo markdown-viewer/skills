@@ -4,36 +4,36 @@ Stencil library: `mxgraph.basic.*`
 
 Total: 30 stencils
 
-- `mxgraph.basic.4_point_star`
-- `mxgraph.basic.6_point_star`
-- `mxgraph.basic.8_point_star`
-- `mxgraph.basic.banner`
-- `mxgraph.basic.cloud_callout`
-- `mxgraph.basic.cloud_rect`
-- `mxgraph.basic.cone`
-- `mxgraph.basic.cross`
-- `mxgraph.basic.document`
-- `mxgraph.basic.flash`
-- `mxgraph.basic.half_circle`
-- `mxgraph.basic.heart`
-- `mxgraph.basic.loud_callout`
-- `mxgraph.basic.moon`
-- `mxgraph.basic.no_symbol`
-- `mxgraph.basic.octagon`
-- `mxgraph.basic.orthogonal_triangle`
-- `mxgraph.basic.oval_callout`
-- `mxgraph.basic.parallelepiped`
-- `mxgraph.basic.pentagon`
-- `mxgraph.basic.pointed_oval`
-- `mxgraph.basic.rectangular_callout`
-- `mxgraph.basic.rounded_rectangular_callout`
-- `mxgraph.basic.smiley`
-- `mxgraph.basic.star`
-- `mxgraph.basic.sun`
-- `mxgraph.basic.tick`
-- `mxgraph.basic.trapezoid`
-- `mxgraph.basic.wave`
-- `mxgraph.basic.x`
+- `mxgraph.basic.4_point_star` (92×92)
+- `mxgraph.basic.6_point_star` (96×85)
+- `mxgraph.basic.8_point_star` (96×96)
+- `mxgraph.basic.banner` (96×50)
+- `mxgraph.basic.cloud_callout` (90×61)
+- `mxgraph.basic.cloud_rect` (213×175)
+- `mxgraph.basic.cone` (99×97)
+- `mxgraph.basic.cross` (98×98)
+- `mxgraph.basic.document` (99×98)
+- `mxgraph.basic.flash` (60×96)
+- `mxgraph.basic.half_circle` (98×49)
+- `mxgraph.basic.heart` (104×95)
+- `mxgraph.basic.loud_callout` (93×60)
+- `mxgraph.basic.moon` (77×103)
+- `mxgraph.basic.no_symbol` (100×100)
+- `mxgraph.basic.octagon` (98×98)
+- `mxgraph.basic.orthogonal_triangle` (97×97)
+- `mxgraph.basic.oval_callout` (109×63)
+- `mxgraph.basic.parallelepiped` (97×60)
+- `mxgraph.basic.pentagon` (97×90)
+- `mxgraph.basic.pointed_oval` (51×100)
+- `mxgraph.basic.rectangular_callout` (98×60)
+- `mxgraph.basic.rounded_rectangular_callout` (98×60)
+- `mxgraph.basic.smiley` (98×98)
+- `mxgraph.basic.star` (95×90)
+- `mxgraph.basic.sun` (95×95)
+- `mxgraph.basic.tick` (84×98)
+- `mxgraph.basic.trapezoid` (97×98)
+- `mxgraph.basic.wave` (98×57)
+- `mxgraph.basic.x` (96×98)
 
 ## Usage Example
 

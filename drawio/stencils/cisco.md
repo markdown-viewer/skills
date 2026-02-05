@@ -4,305 +4,305 @@ Stencil library: `mxgraph.cisco.*`
 
 Total: 296 stencils
 
-- `mxgraph.cisco.buildings.branch_office`
-- `mxgraph.cisco.buildings.end_office`
-- `mxgraph.cisco.buildings.generic_building`
-- `mxgraph.cisco.buildings.government_building`
-- `mxgraph.cisco.buildings.mdu`
-- `mxgraph.cisco.buildings.small_business`
-- `mxgraph.cisco.buildings.telecommuter_house`
-- `mxgraph.cisco.buildings.telecommuter_house_pc`
-- `mxgraph.cisco.buildings.university`
-- `mxgraph.cisco.computers_and_peripherals.ibm_mainframe`
-- `mxgraph.cisco.computers_and_peripherals.ibm_mini_as400`
-- `mxgraph.cisco.computers_and_peripherals.ibm_tower`
-- `mxgraph.cisco.computers_and_peripherals.laptop`
-- `mxgraph.cisco.computers_and_peripherals.macintosh`
-- `mxgraph.cisco.computers_and_peripherals.microphone`
-- `mxgraph.cisco.computers_and_peripherals.pc`
-- `mxgraph.cisco.computers_and_peripherals.pc_adapter_card`
-- `mxgraph.cisco.computers_and_peripherals.pc_routercard`
-- `mxgraph.cisco.computers_and_peripherals.printer`
-- `mxgraph.cisco.computers_and_peripherals.scanner`
-- `mxgraph.cisco.computers_and_peripherals.speaker`
-- `mxgraph.cisco.computers_and_peripherals.sun_workstation`
-- `mxgraph.cisco.computers_and_peripherals.supercomputer`
-- `mxgraph.cisco.computers_and_peripherals.tablet`
-- `mxgraph.cisco.computers_and_peripherals.terminal`
-- `mxgraph.cisco.computers_and_peripherals.upc`
-- `mxgraph.cisco.computers_and_peripherals.video_camera`
-- `mxgraph.cisco.computers_and_peripherals.web_browser`
-- `mxgraph.cisco.computers_and_peripherals.workstation`
-- `mxgraph.cisco.controllers_and_modules.10ge_fcoe`
-- `mxgraph.cisco.controllers_and_modules.3174_(desktop)_cluster_controller`
-- `mxgraph.cisco.controllers_and_modules.3x74_(floor)_cluster_controller`
-- `mxgraph.cisco.controllers_and_modules.content_switch_module`
-- `mxgraph.cisco.controllers_and_modules.firewall_service_module_(fwsm)`
-- `mxgraph.cisco.controllers_and_modules.service_module`
-- `mxgraph.cisco.controllers_and_modules.system_controller`
-- `mxgraph.cisco.controllers_and_modules.virtual_switch_controller_(vsc3000)`
-- `mxgraph.cisco.directors.content_engine_(cache_director)`
-- `mxgraph.cisco.directors.director-class_fibre_channel_director`
-- `mxgraph.cisco.directors.distributed_director`
-- `mxgraph.cisco.directors.localdirector`
-- `mxgraph.cisco.directors.workgroup_director`
-- `mxgraph.cisco.hubs_and_gateways.100baset_hub`
-- `mxgraph.cisco.hubs_and_gateways.cisco_hub`
-- `mxgraph.cisco.hubs_and_gateways.generic_gateway`
-- `mxgraph.cisco.hubs_and_gateways.hub`
-- `mxgraph.cisco.hubs_and_gateways.mas_gateway`
-- `mxgraph.cisco.hubs_and_gateways.small_hub`
-- `mxgraph.cisco.hubs_and_gateways.universal_gateway`
-- `mxgraph.cisco.hubs_and_gateways.vpn_gateway`
-- `mxgraph.cisco.misc.15200`
-- `mxgraph.cisco.misc.6700_series`
-- `mxgraph.cisco.misc.7500ars_(7513)`
-- `mxgraph.cisco.misc.access_point`
-- `mxgraph.cisco.misc.ace`
-- `mxgraph.cisco.misc.acs`
-- `mxgraph.cisco.misc.adm`
-- `mxgraph.cisco.misc.asa_5500`
-- `mxgraph.cisco.misc.asic_processor`
-- `mxgraph.cisco.misc.asr_1000_series`
-- `mxgraph.cisco.misc.ata`
-- `mxgraph.cisco.misc.atm_3800`
-- `mxgraph.cisco.misc.avs`
-- `mxgraph.cisco.misc.axp`
-- `mxgraph.cisco.misc.bbsm`
-- `mxgraph.cisco.misc.breakout_box`
-- `mxgraph.cisco.misc.bridge`
-- `mxgraph.cisco.misc.bts_10200`
-- `mxgraph.cisco.misc.call_manager`
-- `mxgraph.cisco.misc.car`
-- `mxgraph.cisco.misc.carrier_routing_system`
-- `mxgraph.cisco.misc.cddi_fddi`
-- `mxgraph.cisco.misc.cdm`
-- `mxgraph.cisco.misc.cisco_1000`
-- `mxgraph.cisco.misc.cisco_ca`
-- `mxgraph.cisco.misc.cisco_unity_express`
-- `mxgraph.cisco.misc.cisco_works`
-- `mxgraph.cisco.misc.contact_acquirer`
-- `mxgraph.cisco.misc.contact_center`
-- `mxgraph.cisco.misc.content_transformation_engine_(cte)`
-- `mxgraph.cisco.misc.cs-mars`
-- `mxgraph.cisco.misc.csm-s`
-- `mxgraph.cisco.misc.csu_dsu`
-- `mxgraph.cisco.misc.cube`
-- `mxgraph.cisco.misc.detector`
-- `mxgraph.cisco.misc.dot-dot`
-- `mxgraph.cisco.misc.dpt`
-- `mxgraph.cisco.misc.dslam`
-- `mxgraph.cisco.misc.dual_mode`
-- `mxgraph.cisco.misc.dwdm_filter`
-- `mxgraph.cisco.misc.fddi_ring`
-- `mxgraph.cisco.misc.front_end_processor`
-- `mxgraph.cisco.misc.general_appliance`
-- `mxgraph.cisco.misc.generic_processor`
-- `mxgraph.cisco.misc.h_323`
-- `mxgraph.cisco.misc.handheld`
-- `mxgraph.cisco.misc.hp_mini`
-- `mxgraph.cisco.misc.icm`
-- `mxgraph.cisco.misc.ics`
-- `mxgraph.cisco.misc.internet_streamer`
-- `mxgraph.cisco.misc.ios_slb`
-- `mxgraph.cisco.misc.ip`
-- `mxgraph.cisco.misc.ip_communicator`
-- `mxgraph.cisco.misc.ip_dsl`
-- `mxgraph.cisco.misc.iptc`
-- `mxgraph.cisco.misc.iptv_content_manager`
-- `mxgraph.cisco.misc.itp`
-- `mxgraph.cisco.misc.jbod`
-- `mxgraph.cisco.misc.key`
-- `mxgraph.cisco.misc.keys`
-- `mxgraph.cisco.misc.lan_to_lan`
-- `mxgraph.cisco.misc.lightweight_ap`
-- `mxgraph.cisco.misc.longreach_cpe`
-- `mxgraph.cisco.misc.mau`
-- `mxgraph.cisco.misc.mcu`
-- `mxgraph.cisco.misc.me1100`
-- `mxgraph.cisco.misc.mediator`
-- `mxgraph.cisco.misc.meetingplace`
-- `mxgraph.cisco.misc.mesh_ap`
-- `mxgraph.cisco.misc.metro_1500`
-- `mxgraph.cisco.misc.mini_vax`
-- `mxgraph.cisco.misc.mobile_streamer`
-- `mxgraph.cisco.misc.mse`
-- `mxgraph.cisco.misc.mux`
-- `mxgraph.cisco.misc.mxe`
-- `mxgraph.cisco.misc.nac_appliance`
-- `mxgraph.cisco.misc.nce`
-- `mxgraph.cisco.misc.netranger`
-- `mxgraph.cisco.misc.netsonar`
-- `mxgraph.cisco.misc.network_management`
-- `mxgraph.cisco.misc.nexus_1000`
-- `mxgraph.cisco.misc.nexus_2000_fabric_extender`
-- `mxgraph.cisco.misc.nexus_5000`
-- `mxgraph.cisco.misc.nexus_7000`
-- `mxgraph.cisco.misc.octel`
-- `mxgraph.cisco.misc.ons15500`
-- `mxgraph.cisco.misc.optical_amplifier`
-- `mxgraph.cisco.misc.optical_transport`
-- `mxgraph.cisco.misc.pad_1`
-- `mxgraph.cisco.misc.pad_2`
-- `mxgraph.cisco.misc.page_icon`
-- `mxgraph.cisco.misc.pbx`
-- `mxgraph.cisco.misc.pc_software`
-- `mxgraph.cisco.misc.pc_video`
-- `mxgraph.cisco.misc.pda`
-- `mxgraph.cisco.misc.pmc`
-- `mxgraph.cisco.misc.protocol_translator`
-- `mxgraph.cisco.misc.pxf`
-- `mxgraph.cisco.misc.ratemux`
-- `mxgraph.cisco.misc.repeater`
-- `mxgraph.cisco.misc.route_switch_processor`
-- `mxgraph.cisco.misc.rpsrps`
-- `mxgraph.cisco.misc.service_control`
-- `mxgraph.cisco.misc.services`
-- `mxgraph.cisco.misc.set_top_box`
-- `mxgraph.cisco.misc.ssc`
-- `mxgraph.cisco.misc.ssl_terminator`
-- `mxgraph.cisco.misc.stb`
-- `mxgraph.cisco.misc.stp`
-- `mxgraph.cisco.misc.streamer`
-- `mxgraph.cisco.misc.svx`
-- `mxgraph.cisco.misc.telecommuter_icon`
-- `mxgraph.cisco.misc.telepresence`
-- `mxgraph.cisco.misc.token`
-- `mxgraph.cisco.misc.token_2`
-- `mxgraph.cisco.misc.tp_mcu`
-- `mxgraph.cisco.misc.transpath`
-- `mxgraph.cisco.misc.truck`
-- `mxgraph.cisco.misc.turret`
-- `mxgraph.cisco.misc.tv`
-- `mxgraph.cisco.misc.ubr910`
-- `mxgraph.cisco.misc.umg_series`
-- `mxgraph.cisco.misc.ups`
-- `mxgraph.cisco.misc.vault`
-- `mxgraph.cisco.misc.vip`
-- `mxgraph.cisco.misc.vpn_concentrator`
-- `mxgraph.cisco.misc.vss`
-- `mxgraph.cisco.misc.wae`
-- `mxgraph.cisco.misc.wism`
-- `mxgraph.cisco.modems_and_phones.cable_modem`
-- `mxgraph.cisco.modems_and_phones.cell_phone`
-- `mxgraph.cisco.modems_and_phones.fax`
-- `mxgraph.cisco.modems_and_phones.hootphone`
-- `mxgraph.cisco.modems_and_phones.ip_phone`
-- `mxgraph.cisco.modems_and_phones.mobile_access_ip_phone`
-- `mxgraph.cisco.modems_and_phones.mobile_access_ip_phone_2`
-- `mxgraph.cisco.modems_and_phones.modem`
-- `mxgraph.cisco.modems_and_phones.phone`
-- `mxgraph.cisco.modems_and_phones.phone-fax`
-- `mxgraph.cisco.modems_and_phones.rf_modem`
-- `mxgraph.cisco.modems_and_phones.softphone`
-- `mxgraph.cisco.people.androgenous_person`
-- `mxgraph.cisco.people.mac_woman`
-- `mxgraph.cisco.people.man_woman`
-- `mxgraph.cisco.people.pc_man`
-- `mxgraph.cisco.people.running_man`
-- `mxgraph.cisco.people.sitting_woman`
-- `mxgraph.cisco.people.standing_man`
-- `mxgraph.cisco.people.standing_man_2`
-- `mxgraph.cisco.people.standing_woman`
-- `mxgraph.cisco.people.standing_woman_2`
-- `mxgraph.cisco.routers.10700`
-- `mxgraph.cisco.routers.atm_router`
-- `mxgraph.cisco.routers.atm_tag_switch_router`
-- `mxgraph.cisco.routers.broadcast_router`
-- `mxgraph.cisco.routers.content_service_router`
-- `mxgraph.cisco.routers.gigabit_switch_atm_tag_router`
-- `mxgraph.cisco.routers.iad_router`
-- `mxgraph.cisco.routers.ip_telephony_router`
-- `mxgraph.cisco.routers.isci_router`
-- `mxgraph.cisco.routers.mobile_access_router`
-- `mxgraph.cisco.routers.nce_router`
-- `mxgraph.cisco.routers.netflow_router`
-- `mxgraph.cisco.routers.optical_services_router`
-- `mxgraph.cisco.routers.router`
-- `mxgraph.cisco.routers.router_in_building`
-- `mxgraph.cisco.routers.router_with_silicon_switch`
-- `mxgraph.cisco.routers.service_router`
-- `mxgraph.cisco.routers.space_router`
-- `mxgraph.cisco.routers.storage_router`
-- `mxgraph.cisco.routers.tdm_router`
-- `mxgraph.cisco.routers.voice_router`
-- `mxgraph.cisco.routers.wavelength_router`
-- `mxgraph.cisco.routers.wireless_router`
-- `mxgraph.cisco.security.centri_firewall`
-- `mxgraph.cisco.security.cisco_security`
-- `mxgraph.cisco.security.firewall`
-- `mxgraph.cisco.security.gatekeeper`
-- `mxgraph.cisco.security.guard`
-- `mxgraph.cisco.security.ios_firewall`
-- `mxgraph.cisco.security.lock`
-- `mxgraph.cisco.security.network_security`
-- `mxgraph.cisco.security.network_security_2`
-- `mxgraph.cisco.security.pix_firewall`
-- `mxgraph.cisco.security.router_firewall`
-- `mxgraph.cisco.servers.cisco_unified_presence_server`
-- `mxgraph.cisco.servers.communications_server`
-- `mxgraph.cisco.servers.directory_server`
-- `mxgraph.cisco.servers.file_server`
-- `mxgraph.cisco.servers.fileserver`
-- `mxgraph.cisco.servers.host`
-- `mxgraph.cisco.servers.iptv_server`
-- `mxgraph.cisco.servers.microwebserver`
-- `mxgraph.cisco.servers.moh_server`
-- `mxgraph.cisco.servers.server_with_router`
-- `mxgraph.cisco.servers.sip_proxy_server`
-- `mxgraph.cisco.servers.software_based_server`
-- `mxgraph.cisco.servers.standard_host`
-- `mxgraph.cisco.servers.storage_server`
-- `mxgraph.cisco.servers.unity_server`
-- `mxgraph.cisco.servers.voice_commserver`
-- `mxgraph.cisco.servers.www_server`
-- `mxgraph.cisco.storage.cisco_file_engine`
-- `mxgraph.cisco.storage.cloud`
-- `mxgraph.cisco.storage.diskette`
-- `mxgraph.cisco.storage.fc_storage`
-- `mxgraph.cisco.storage.fibre_channel_disk_subsystem`
-- `mxgraph.cisco.storage.file_cabinet`
-- `mxgraph.cisco.storage.relational_database`
-- `mxgraph.cisco.storage.tape_array`
-- `mxgraph.cisco.storage.web_cluster`
-- `mxgraph.cisco.switches.atm_fast_gigabit_etherswitch`
-- `mxgraph.cisco.switches.atm_switch`
-- `mxgraph.cisco.switches.class_4_5_switch`
-- `mxgraph.cisco.switches.content_service_switch_1100`
-- `mxgraph.cisco.switches.content_switch`
-- `mxgraph.cisco.switches.fibre_channel_fabric_switch`
-- `mxgraph.cisco.switches.generic_softswitch`
-- `mxgraph.cisco.switches.intelliswitch_stack`
-- `mxgraph.cisco.switches.isdn_switch`
-- `mxgraph.cisco.switches.layer_2_remote_switch`
-- `mxgraph.cisco.switches.layer_3_switch`
-- `mxgraph.cisco.switches.mgx_8000_multiservice_switch`
-- `mxgraph.cisco.switches.multi-fabric_server_switch`
-- `mxgraph.cisco.switches.multilayer_remote_switch`
-- `mxgraph.cisco.switches.multiswitch_device`
-- `mxgraph.cisco.switches.pbx_switch`
-- `mxgraph.cisco.switches.programmable_switch`
-- `mxgraph.cisco.switches.server_switch`
-- `mxgraph.cisco.switches.simultilayer_switch`
-- `mxgraph.cisco.switches.softswitch_pgw_mgc`
-- `mxgraph.cisco.switches.virtual_layer_switch`
-- `mxgraph.cisco.switches.voice_atm_switch`
-- `mxgraph.cisco.switches.voice_switch`
-- `mxgraph.cisco.switches.workgroup_switch`
-- `mxgraph.cisco.wireless.antenna`
-- `mxgraph.cisco.wireless.ground_terminal`
-- `mxgraph.cisco.wireless.radio_tower`
-- `mxgraph.cisco.wireless.satellite`
-- `mxgraph.cisco.wireless.satellite_dish`
-- `mxgraph.cisco.wireless.wi-fi_tag`
-- `mxgraph.cisco.wireless.wireless`
-- `mxgraph.cisco.wireless.wireless_bridge`
-- `mxgraph.cisco.wireless.wireless_location_appliance`
-- `mxgraph.cisco.wireless.wireless_transport`
-- `mxgraph.cisco.wireless.wlan_controller`
+- `mxgraph.cisco.buildings.branch_office` (33×48)
+- `mxgraph.cisco.buildings.end_office` (35×35)
+- `mxgraph.cisco.buildings.generic_building` (56×85)
+- `mxgraph.cisco.buildings.government_building` (67×49)
+- `mxgraph.cisco.buildings.mdu` (41×51)
+- `mxgraph.cisco.buildings.small_business` (61×34)
+- `mxgraph.cisco.buildings.telecommuter_house` (65×55)
+- `mxgraph.cisco.buildings.telecommuter_house_pc` (65×55)
+- `mxgraph.cisco.buildings.university` (83×33)
+- `mxgraph.cisco.computers_and_peripherals.ibm_mainframe` (31×45)
+- `mxgraph.cisco.computers_and_peripherals.ibm_mini_as400` (27×39)
+- `mxgraph.cisco.computers_and_peripherals.ibm_tower` (27×48)
+- `mxgraph.cisco.computers_and_peripherals.laptop` (57×38)
+- `mxgraph.cisco.computers_and_peripherals.macintosh` (63×40)
+- `mxgraph.cisco.computers_and_peripherals.microphone` (50×60)
+- `mxgraph.cisco.computers_and_peripherals.pc` (49×44)
+- `mxgraph.cisco.computers_and_peripherals.pc_adapter_card` (40×54)
+- `mxgraph.cisco.computers_and_peripherals.pc_routercard` (49×44)
+- `mxgraph.cisco.computers_and_peripherals.printer` (57×22)
+- `mxgraph.cisco.computers_and_peripherals.scanner` (50×47)
+- `mxgraph.cisco.computers_and_peripherals.speaker` (33×59)
+- `mxgraph.cisco.computers_and_peripherals.sun_workstation` (53×43)
+- `mxgraph.cisco.computers_and_peripherals.supercomputer` (52×62)
+- `mxgraph.cisco.computers_and_peripherals.tablet` (57×31)
+- `mxgraph.cisco.computers_and_peripherals.terminal` (38×35)
+- `mxgraph.cisco.computers_and_peripherals.upc` (57×55)
+- `mxgraph.cisco.computers_and_peripherals.video_camera` (42×62)
+- `mxgraph.cisco.computers_and_peripherals.web_browser` (39×41)
+- `mxgraph.cisco.computers_and_peripherals.workstation` (53×39)
+- `mxgraph.cisco.controllers_and_modules.10ge_fcoe` (40×55)
+- `mxgraph.cisco.controllers_and_modules.3174_(desktop)_cluster_controller` (48×20)
+- `mxgraph.cisco.controllers_and_modules.3x74_(floor)_cluster_controller` (49×42)
+- `mxgraph.cisco.controllers_and_modules.content_switch_module` (54×41)
+- `mxgraph.cisco.controllers_and_modules.firewall_service_module_(fwsm)` (33×53)
+- `mxgraph.cisco.controllers_and_modules.service_module` (33×41)
+- `mxgraph.cisco.controllers_and_modules.system_controller` (39×36)
+- `mxgraph.cisco.controllers_and_modules.virtual_switch_controller_(vsc3000)` (30×59)
+- `mxgraph.cisco.directors.content_engine_(cache_director)` (57×40)
+- `mxgraph.cisco.directors.director-class_fibre_channel_director` (32×43)
+- `mxgraph.cisco.directors.distributed_director` (57×41)
+- `mxgraph.cisco.directors.localdirector` (50×32)
+- `mxgraph.cisco.directors.workgroup_director` (52×42)
+- `mxgraph.cisco.hubs_and_gateways.100baset_hub` (56×28)
+- `mxgraph.cisco.hubs_and_gateways.cisco_hub` (41×37)
+- `mxgraph.cisco.hubs_and_gateways.generic_gateway` (42×47)
+- `mxgraph.cisco.hubs_and_gateways.hub` (41×37)
+- `mxgraph.cisco.hubs_and_gateways.mas_gateway` (36×37)
+- `mxgraph.cisco.hubs_and_gateways.small_hub` (56×28)
+- `mxgraph.cisco.hubs_and_gateways.universal_gateway` (35×35)
+- `mxgraph.cisco.hubs_and_gateways.vpn_gateway` (58×30)
+- `mxgraph.cisco.misc.15200` (61×36)
+- `mxgraph.cisco.misc.6700_series` (40×41)
+- `mxgraph.cisco.misc.7500ars_(7513)` (49×49)
+- `mxgraph.cisco.misc.access_point` (48×21)
+- `mxgraph.cisco.misc.ace` (57×40)
+- `mxgraph.cisco.misc.acs` (48×34)
+- `mxgraph.cisco.misc.adm` (50×32)
+- `mxgraph.cisco.misc.asa_5500` (37×42)
+- `mxgraph.cisco.misc.asic_processor` (37×52)
+- `mxgraph.cisco.misc.asr_1000_series` (55×54)
+- `mxgraph.cisco.misc.ata` (64×31)
+- `mxgraph.cisco.misc.atm_3800` (43×48)
+- `mxgraph.cisco.misc.avs` (57×40)
+- `mxgraph.cisco.misc.axp` (49×47)
+- `mxgraph.cisco.misc.bbsm` (64×26)
+- `mxgraph.cisco.misc.breakout_box` (27×47)
+- `mxgraph.cisco.misc.bridge` (47×36)
+- `mxgraph.cisco.misc.bts_10200` (31×47)
+- `mxgraph.cisco.misc.call_manager` (39×24)
+- `mxgraph.cisco.misc.car` (44×23)
+- `mxgraph.cisco.misc.carrier_routing_system` (49×50)
+- `mxgraph.cisco.misc.cddi_fddi` (64×31)
+- `mxgraph.cisco.misc.cdm` (58×38)
+- `mxgraph.cisco.misc.cisco_1000` (33×29)
+- `mxgraph.cisco.misc.cisco_ca` (52×43)
+- `mxgraph.cisco.misc.cisco_unity_express` (48×42)
+- `mxgraph.cisco.misc.cisco_works` (53×43)
+- `mxgraph.cisco.misc.contact_acquirer` (60×41)
+- `mxgraph.cisco.misc.contact_center` (39×41)
+- `mxgraph.cisco.misc.content_transformation_engine_(cte)` (61×41)
+- `mxgraph.cisco.misc.cs-mars` (47×31)
+- `mxgraph.cisco.misc.csm-s` (40×54)
+- `mxgraph.cisco.misc.csu_dsu` (64×29)
+- `mxgraph.cisco.misc.cube` (65×34)
+- `mxgraph.cisco.misc.detector` (48×34)
+- `mxgraph.cisco.misc.dot-dot` (24×5)
+- `mxgraph.cisco.misc.dpt` (62×30)
+- `mxgraph.cisco.misc.dslam` (29×33)
+- `mxgraph.cisco.misc.dual_mode` (48×34)
+- `mxgraph.cisco.misc.dwdm_filter` (32×45)
+- `mxgraph.cisco.misc.fddi_ring` (86×30)
+- `mxgraph.cisco.misc.front_end_processor` (27×33)
+- `mxgraph.cisco.misc.general_appliance` (40×37)
+- `mxgraph.cisco.misc.generic_processor` (37×52)
+- `mxgraph.cisco.misc.h_323` (33×32)
+- `mxgraph.cisco.misc.handheld` (43×23)
+- `mxgraph.cisco.misc.hp_mini` (32×35)
+- `mxgraph.cisco.misc.icm` (23×49)
+- `mxgraph.cisco.misc.ics` (45×48)
+- `mxgraph.cisco.misc.internet_streamer` (68×47)
+- `mxgraph.cisco.misc.ios_slb` (57×28)
+- `mxgraph.cisco.misc.ip` (40×46)
+- `mxgraph.cisco.misc.ip_communicator` (86×46)
+- `mxgraph.cisco.misc.ip_dsl` (44×40)
+- `mxgraph.cisco.misc.iptc` (64×35)
+- `mxgraph.cisco.misc.iptv_content_manager` (49×32)
+- `mxgraph.cisco.misc.itp` (49×33)
+- `mxgraph.cisco.misc.jbod` (19×39)
+- `mxgraph.cisco.misc.key` (30×12)
+- `mxgraph.cisco.misc.keys` (46×63)
+- `mxgraph.cisco.misc.lan_to_lan` (38×39)
+- `mxgraph.cisco.misc.lightweight_ap` (64×35)
+- `mxgraph.cisco.misc.longreach_cpe` (39×37)
+- `mxgraph.cisco.misc.mau` (51×16)
+- `mxgraph.cisco.misc.mcu` (35×41)
+- `mxgraph.cisco.misc.me1100` (57×30)
+- `mxgraph.cisco.misc.mediator` (47×52)
+- `mxgraph.cisco.misc.meetingplace` (25×41)
+- `mxgraph.cisco.misc.mesh_ap` (64×35)
+- `mxgraph.cisco.misc.metro_1500` (41×37)
+- `mxgraph.cisco.misc.mini_vax` (31×28)
+- `mxgraph.cisco.misc.mobile_streamer` (66×45)
+- `mxgraph.cisco.misc.mse` (62×34)
+- `mxgraph.cisco.misc.mux` (44×33)
+- `mxgraph.cisco.misc.mxe` (37×39)
+- `mxgraph.cisco.misc.nac_appliance` (55×42)
+- `mxgraph.cisco.misc.nce` (57×40)
+- `mxgraph.cisco.misc.netranger` (47×32)
+- `mxgraph.cisco.misc.netsonar` (42×28)
+- `mxgraph.cisco.misc.network_management` (37×34)
+- `mxgraph.cisco.misc.nexus_1000` (57×41)
+- `mxgraph.cisco.misc.nexus_2000_fabric_extender` (64×32)
+- `mxgraph.cisco.misc.nexus_5000` (64×31)
+- `mxgraph.cisco.misc.nexus_7000` (32×44)
+- `mxgraph.cisco.misc.octel` (46×39)
+- `mxgraph.cisco.misc.ons15500` (49×46)
+- `mxgraph.cisco.misc.optical_amplifier` (43×32)
+- `mxgraph.cisco.misc.optical_transport` (48×49)
+- `mxgraph.cisco.misc.pad_1` (55×45)
+- `mxgraph.cisco.misc.pad_2` (53×31)
+- `mxgraph.cisco.misc.page_icon` (30×43)
+- `mxgraph.cisco.misc.pbx` (37×37)
+- `mxgraph.cisco.misc.pc_software` (57×54)
+- `mxgraph.cisco.misc.pc_video` (38×33)
+- `mxgraph.cisco.misc.pda` (45×63)
+- `mxgraph.cisco.misc.pmc` (76×48)
+- `mxgraph.cisco.misc.protocol_translator` (31×47)
+- `mxgraph.cisco.misc.pxf` (40×51)
+- `mxgraph.cisco.misc.ratemux` (46×35)
+- `mxgraph.cisco.misc.repeater` (40×27)
+- `mxgraph.cisco.misc.route_switch_processor` (40×55)
+- `mxgraph.cisco.misc.rpsrps` (50×32)
+- `mxgraph.cisco.misc.service_control` (46×31)
+- `mxgraph.cisco.misc.services` (35×34)
+- `mxgraph.cisco.misc.set_top_box` (72×26)
+- `mxgraph.cisco.misc.ssc` (58×42)
+- `mxgraph.cisco.misc.ssl_terminator` (41×37)
+- `mxgraph.cisco.misc.stb` (55×24)
+- `mxgraph.cisco.misc.stp` (36×37)
+- `mxgraph.cisco.misc.streamer` (58×41)
+- `mxgraph.cisco.misc.svx` (35×35)
+- `mxgraph.cisco.misc.telecommuter_icon` (39×33)
+- `mxgraph.cisco.misc.telepresence` (87×31)
+- `mxgraph.cisco.misc.token` (38×38)
+- `mxgraph.cisco.misc.token_2` (38×38)
+- `mxgraph.cisco.misc.tp_mcu` (45×54)
+- `mxgraph.cisco.misc.transpath` (44×41)
+- `mxgraph.cisco.misc.truck` (86×33)
+- `mxgraph.cisco.misc.turret` (103×41)
+- `mxgraph.cisco.misc.tv` (34×33)
+- `mxgraph.cisco.misc.ubr910` (64×31)
+- `mxgraph.cisco.misc.umg_series` (64×31)
+- `mxgraph.cisco.misc.ups` (50×32)
+- `mxgraph.cisco.misc.vault` (58×41)
+- `mxgraph.cisco.misc.vip` (40×54)
+- `mxgraph.cisco.misc.vpn_concentrator` (41×37)
+- `mxgraph.cisco.misc.vss` (40×55)
+- `mxgraph.cisco.misc.wae` (57×41)
+- `mxgraph.cisco.misc.wism` (51×60)
+- `mxgraph.cisco.modems_and_phones.cable_modem` (46×22)
+- `mxgraph.cisco.modems_and_phones.cell_phone` (21×36)
+- `mxgraph.cisco.modems_and_phones.fax` (79×38)
+- `mxgraph.cisco.modems_and_phones.hootphone` (40×29)
+- `mxgraph.cisco.modems_and_phones.ip_phone` (57×32)
+- `mxgraph.cisco.modems_and_phones.mobile_access_ip_phone` (56×50)
+- `mxgraph.cisco.modems_and_phones.mobile_access_ip_phone_2` (56×50)
+- `mxgraph.cisco.modems_and_phones.modem` (48×17)
+- `mxgraph.cisco.modems_and_phones.phone` (40×30)
+- `mxgraph.cisco.modems_and_phones.phone-fax` (67×30)
+- `mxgraph.cisco.modems_and_phones.rf_modem` (51×26)
+- `mxgraph.cisco.modems_and_phones.softphone` (38×35)
+- `mxgraph.cisco.people.androgenous_person` (44×51)
+- `mxgraph.cisco.people.mac_woman` (43×67)
+- `mxgraph.cisco.people.man_woman` (67×97)
+- `mxgraph.cisco.people.pc_man` (65×94)
+- `mxgraph.cisco.people.running_man` (52×58)
+- `mxgraph.cisco.people.sitting_woman` (35×56)
+- `mxgraph.cisco.people.standing_man` (15×40)
+- `mxgraph.cisco.people.standing_man_2` (15×40)
+- `mxgraph.cisco.people.standing_woman` (15×40)
+- `mxgraph.cisco.people.standing_woman_2` (15×40)
+- `mxgraph.cisco.routers.10700` (49×33)
+- `mxgraph.cisco.routers.atm_router` (49×33)
+- `mxgraph.cisco.routers.atm_tag_switch_router` (40×52)
+- `mxgraph.cisco.routers.broadcast_router` (49×49)
+- `mxgraph.cisco.routers.content_service_router` (49×33)
+- `mxgraph.cisco.routers.gigabit_switch_atm_tag_router` (49×49)
+- `mxgraph.cisco.routers.iad_router` (49×33)
+- `mxgraph.cisco.routers.ip_telephony_router` (49×43)
+- `mxgraph.cisco.routers.isci_router` (64×48)
+- `mxgraph.cisco.routers.mobile_access_router` (62×37)
+- `mxgraph.cisco.routers.nce_router` (49×33)
+- `mxgraph.cisco.routers.netflow_router` (48×32)
+- `mxgraph.cisco.routers.optical_services_router` (46×40)
+- `mxgraph.cisco.routers.router` (49×33)
+- `mxgraph.cisco.routers.router_in_building` (57×87)
+- `mxgraph.cisco.routers.router_with_silicon_switch` (45×30)
+- `mxgraph.cisco.routers.service_router` (49×33)
+- `mxgraph.cisco.routers.space_router` (85×44)
+- `mxgraph.cisco.routers.storage_router` (43×33)
+- `mxgraph.cisco.routers.tdm_router` (49×33)
+- `mxgraph.cisco.routers.voice_router` (49×33)
+- `mxgraph.cisco.routers.wavelength_router` (48×31)
+- `mxgraph.cisco.routers.wireless_router` (49×49)
+- `mxgraph.cisco.security.centri_firewall` (27×39)
+- `mxgraph.cisco.security.cisco_security` (49×44)
+- `mxgraph.cisco.security.firewall` (19×43)
+- `mxgraph.cisco.security.gatekeeper` (54×37)
+- `mxgraph.cisco.security.guard` (55×34)
+- `mxgraph.cisco.security.ios_firewall` (25×41)
+- `mxgraph.cisco.security.lock` (33×39)
+- `mxgraph.cisco.security.network_security` (28×37)
+- `mxgraph.cisco.security.network_security_2` (28×37)
+- `mxgraph.cisco.security.pix_firewall` (48×33)
+- `mxgraph.cisco.security.router_firewall` (49×39)
+- `mxgraph.cisco.servers.cisco_unified_presence_server` (34×42)
+- `mxgraph.cisco.servers.communications_server` (35×35)
+- `mxgraph.cisco.servers.directory_server` (45×37)
+- `mxgraph.cisco.servers.file_server` (27×36)
+- `mxgraph.cisco.servers.fileserver` (27×39)
+- `mxgraph.cisco.servers.host` (65×33)
+- `mxgraph.cisco.servers.iptv_server` (49×32)
+- `mxgraph.cisco.servers.microwebserver` (49×33)
+- `mxgraph.cisco.servers.moh_server` (27×39)
+- `mxgraph.cisco.servers.server_with_router` (25×41)
+- `mxgraph.cisco.servers.sip_proxy_server` (28×44)
+- `mxgraph.cisco.servers.software_based_server` (42×49)
+- `mxgraph.cisco.servers.standard_host` (28×39)
+- `mxgraph.cisco.servers.storage_server` (35×52)
+- `mxgraph.cisco.servers.unity_server` (31×44)
+- `mxgraph.cisco.servers.voice_commserver` (35×35)
+- `mxgraph.cisco.servers.www_server` (41×42)
+- `mxgraph.cisco.storage.cisco_file_engine` (57×40)
+- `mxgraph.cisco.storage.cloud` (116×67)
+- `mxgraph.cisco.storage.diskette` (32×31)
+- `mxgraph.cisco.storage.fc_storage` (48×27)
+- `mxgraph.cisco.storage.fibre_channel_disk_subsystem` (27×39)
+- `mxgraph.cisco.storage.file_cabinet` (32×39)
+- `mxgraph.cisco.storage.relational_database` (41×33)
+- `mxgraph.cisco.storage.tape_array` (27×39)
+- `mxgraph.cisco.storage.web_cluster` (116×67)
+- `mxgraph.cisco.switches.atm_fast_gigabit_etherswitch` (40×40)
+- `mxgraph.cisco.switches.atm_switch` (35×35)
+- `mxgraph.cisco.switches.class_4_5_switch` (43×57)
+- `mxgraph.cisco.switches.content_service_switch_1100` (59×40)
+- `mxgraph.cisco.switches.content_switch` (40×54)
+- `mxgraph.cisco.switches.fibre_channel_fabric_switch` (64×47)
+- `mxgraph.cisco.switches.generic_softswitch` (31×47)
+- `mxgraph.cisco.switches.intelliswitch_stack` (42×44)
+- `mxgraph.cisco.switches.isdn_switch` (36×37)
+- `mxgraph.cisco.switches.layer_2_remote_switch` (64×31)
+- `mxgraph.cisco.switches.layer_3_switch` (40×40)
+- `mxgraph.cisco.switches.mgx_8000_multiservice_switch` (49×49)
+- `mxgraph.cisco.switches.multi-fabric_server_switch` (35×48)
+- `mxgraph.cisco.switches.multilayer_remote_switch` (40×55)
+- `mxgraph.cisco.switches.multiswitch_device` (64×41)
+- `mxgraph.cisco.switches.pbx_switch` (37×33)
+- `mxgraph.cisco.switches.programmable_switch` (35×35)
+- `mxgraph.cisco.switches.server_switch` (35×35)
+- `mxgraph.cisco.switches.simultilayer_switch` (37×37)
+- `mxgraph.cisco.switches.softswitch_pgw_mgc` (36×41)
+- `mxgraph.cisco.switches.virtual_layer_switch` (40×55)
+- `mxgraph.cisco.switches.voice_atm_switch` (35×35)
+- `mxgraph.cisco.switches.voice_switch` (64×32)
+- `mxgraph.cisco.switches.workgroup_switch` (64×32)
+- `mxgraph.cisco.wireless.antenna` (55×65)
+- `mxgraph.cisco.wireless.ground_terminal` (62×76)
+- `mxgraph.cisco.wireless.radio_tower` (23×63)
+- `mxgraph.cisco.wireless.satellite` (85×28)
+- `mxgraph.cisco.wireless.satellite_dish` (62×46)
+- `mxgraph.cisco.wireless.wi-fi_tag` (47×40)
+- `mxgraph.cisco.wireless.wireless` (23×42)
+- `mxgraph.cisco.wireless.wireless_bridge` (48×39)
+- `mxgraph.cisco.wireless.wireless_location_appliance` (62×34)
+- `mxgraph.cisco.wireless.wireless_transport` (48×34)
+- `mxgraph.cisco.wireless.wlan_controller` (64×35)
 
 ## Usage Example
 
 ```drawio
-<mxfile><diagram id="example" name="Example"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="" style="shape=mxgraph.cisco.buildings.branch_office;html=1;strokeColor2=#ffffff;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="100" y="100" width="60" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
+<mxfile><diagram id="example" name="Example"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="" style="shape=mxgraph.cisco.buildings.branch_office;html=1;fillColor=#CCCCCC;strokeColor=#6881B3;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="100" y="100" width="60" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
 ```

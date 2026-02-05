@@ -4,24 +4,24 @@ Stencil library: `mxgraph.openstack.*`
 
 Total: 18 stencils
 
-- `mxgraph.openstack.cinder_volume`
-- `mxgraph.openstack.cinder_volumeattachment`
-- `mxgraph.openstack.designate_recordset`
-- `mxgraph.openstack.designate_zone`
-- `mxgraph.openstack.heat_autoscalinggroup`
-- `mxgraph.openstack.heat_resourcegroup`
-- `mxgraph.openstack.heat_scalingpolicy`
-- `mxgraph.openstack.neutron_floatingip`
-- `mxgraph.openstack.neutron_floatingipassociation`
-- `mxgraph.openstack.neutron_net`
-- `mxgraph.openstack.neutron_port`
-- `mxgraph.openstack.neutron_router`
-- `mxgraph.openstack.neutron_routerinterface`
-- `mxgraph.openstack.neutron_securitygroup`
-- `mxgraph.openstack.neutron_subnet`
-- `mxgraph.openstack.nova_keypair`
-- `mxgraph.openstack.nova_server`
-- `mxgraph.openstack.swift_container`
+- `mxgraph.openstack.cinder_volume` (53×53)
+- `mxgraph.openstack.cinder_volumeattachment` (53×53)
+- `mxgraph.openstack.designate_recordset` (53×53)
+- `mxgraph.openstack.designate_zone` (53×53)
+- `mxgraph.openstack.heat_autoscalinggroup` (53×53)
+- `mxgraph.openstack.heat_resourcegroup` (53×53)
+- `mxgraph.openstack.heat_scalingpolicy` (53×53)
+- `mxgraph.openstack.neutron_floatingip` (53×53)
+- `mxgraph.openstack.neutron_floatingipassociation` (53×53)
+- `mxgraph.openstack.neutron_net` (53×53)
+- `mxgraph.openstack.neutron_port` (53×53)
+- `mxgraph.openstack.neutron_router` (53×53)
+- `mxgraph.openstack.neutron_routerinterface` (53×53)
+- `mxgraph.openstack.neutron_securitygroup` (53×53)
+- `mxgraph.openstack.neutron_subnet` (53×53)
+- `mxgraph.openstack.nova_keypair` (53×53)
+- `mxgraph.openstack.nova_server` (53×53)
+- `mxgraph.openstack.swift_container` (53×53)
 
 ## Usage Example
 

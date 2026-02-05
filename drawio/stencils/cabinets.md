@@ -4,59 +4,59 @@ Stencil library: `mxgraph.cabinets.*`
 
 Total: 53 stencils
 
-- `mxgraph.cabinets.auxiliary_contact_contactor_1_32a`
-- `mxgraph.cabinets.auxiliary_contact_contactor_32_125a`
-- `mxgraph.cabinets.cb_1p`
-- `mxgraph.cabinets.cb_1p_x10`
-- `mxgraph.cabinets.cb_2p`
-- `mxgraph.cabinets.cb_2p_x10`
-- `mxgraph.cabinets.cb_3p`
-- `mxgraph.cabinets.cb_3p_x5`
-- `mxgraph.cabinets.cb_4p`
-- `mxgraph.cabinets.cb_4p_x5`
-- `mxgraph.cabinets.cb_auxiliary_contact`
-- `mxgraph.cabinets.contactor_125_400a`
-- `mxgraph.cabinets.contactor_1_32a`
-- `mxgraph.cabinets.contactor_32_125a`
-- `mxgraph.cabinets.din_rail`
-- `mxgraph.cabinets.distribution_block_4p_125a_11_connections`
-- `mxgraph.cabinets.distribution_block_4p_125a_11_connections_2`
-- `mxgraph.cabinets.mccb_25_63a_3p`
-- `mxgraph.cabinets.mccb_25_63a_4p`
-- `mxgraph.cabinets.mccb_63_250a_3p`
-- `mxgraph.cabinets.mccb_63_250a_4p`
-- `mxgraph.cabinets.motor_cb_125_400a`
-- `mxgraph.cabinets.motor_cb_1_32a`
-- `mxgraph.cabinets.motor_cb_32_125a`
-- `mxgraph.cabinets.motor_protection_cb`
-- `mxgraph.cabinets.motor_starter_125_400a`
-- `mxgraph.cabinets.motor_starter_1_32a`
-- `mxgraph.cabinets.motor_starter_32_125a`
-- `mxgraph.cabinets.motorized_switch_3p`
-- `mxgraph.cabinets.motorized_switch_4p`
-- `mxgraph.cabinets.overcurrent_relay_125_400a`
-- `mxgraph.cabinets.overcurrent_relay_1_32a`
-- `mxgraph.cabinets.overcurrent_relay_32_125a`
-- `mxgraph.cabinets.plugin_relay_1`
-- `mxgraph.cabinets.plugin_relay_2`
-- `mxgraph.cabinets.residual_current_device_2p`
-- `mxgraph.cabinets.residual_current_device_4p`
-- `mxgraph.cabinets.surge_protection_1p`
-- `mxgraph.cabinets.surge_protection_2p`
-- `mxgraph.cabinets.surge_protection_3p`
-- `mxgraph.cabinets.surge_protection_4p`
-- `mxgraph.cabinets.terminal_40mm2`
-- `mxgraph.cabinets.terminal_40mm2_x10`
-- `mxgraph.cabinets.terminal_4_6mm2`
-- `mxgraph.cabinets.terminal_4_6mm2_x10`
-- `mxgraph.cabinets.terminal_4mm2`
-- `mxgraph.cabinets.terminal_4mm2_x10`
-- `mxgraph.cabinets.terminal_50mm2`
-- `mxgraph.cabinets.terminal_50mm2_x10`
-- `mxgraph.cabinets.terminal_6_25mm2`
-- `mxgraph.cabinets.terminal_6_25mm2_x10`
-- `mxgraph.cabinets.terminal_75mm2`
-- `mxgraph.cabinets.terminal_75mm2_x10`
+- `mxgraph.cabinets.auxiliary_contact_contactor_1_32a` (9×86)
+- `mxgraph.cabinets.auxiliary_contact_contactor_32_125a` (9×100)
+- `mxgraph.cabinets.cb_1p` (18×100)
+- `mxgraph.cabinets.cb_1p_x10` (180×100)
+- `mxgraph.cabinets.cb_2p` (36×100)
+- `mxgraph.cabinets.cb_2p_x10` (360×100)
+- `mxgraph.cabinets.cb_3p` (54×100)
+- `mxgraph.cabinets.cb_3p_x5` (270×100)
+- `mxgraph.cabinets.cb_4p` (72×100)
+- `mxgraph.cabinets.cb_4p_x5` (360×100)
+- `mxgraph.cabinets.cb_auxiliary_contact` (9×100)
+- `mxgraph.cabinets.contactor_125_400a` (110×180)
+- `mxgraph.cabinets.contactor_1_32a` (54×86)
+- `mxgraph.cabinets.contactor_32_125a` (60×100)
+- `mxgraph.cabinets.din_rail` (1000×50)
+- `mxgraph.cabinets.distribution_block_4p_125a_11_connections` (200×120)
+- `mxgraph.cabinets.distribution_block_4p_125a_11_connections_2` (200×100)
+- `mxgraph.cabinets.mccb_25_63a_3p` (120×180)
+- `mxgraph.cabinets.mccb_25_63a_4p` (160×180)
+- `mxgraph.cabinets.mccb_63_250a_3p` (141×210)
+- `mxgraph.cabinets.mccb_63_250a_4p` (188×210)
+- `mxgraph.cabinets.motor_cb_125_400a` (110×180)
+- `mxgraph.cabinets.motor_cb_1_32a` (54×86)
+- `mxgraph.cabinets.motor_cb_32_125a` (60×100)
+- `mxgraph.cabinets.motor_protection_cb` (54×100)
+- `mxgraph.cabinets.motor_starter_125_400a` (110×180)
+- `mxgraph.cabinets.motor_starter_1_32a` (54×86)
+- `mxgraph.cabinets.motor_starter_32_125a` (60×100)
+- `mxgraph.cabinets.motorized_switch_3p` (170×140)
+- `mxgraph.cabinets.motorized_switch_4p` (200×140)
+- `mxgraph.cabinets.overcurrent_relay_125_400a` (109×60)
+- `mxgraph.cabinets.overcurrent_relay_1_32a` (54×30)
+- `mxgraph.cabinets.overcurrent_relay_32_125a` (60×33)
+- `mxgraph.cabinets.plugin_relay_1` (6×80)
+- `mxgraph.cabinets.plugin_relay_2` (24×80)
+- `mxgraph.cabinets.residual_current_device_2p` (36×100)
+- `mxgraph.cabinets.residual_current_device_4p` (72×100)
+- `mxgraph.cabinets.surge_protection_1p` (18×100)
+- `mxgraph.cabinets.surge_protection_2p` (36×100)
+- `mxgraph.cabinets.surge_protection_3p` (54×100)
+- `mxgraph.cabinets.surge_protection_4p` (72×100)
+- `mxgraph.cabinets.terminal_40mm2` (22×100)
+- `mxgraph.cabinets.terminal_40mm2_x10` (220×100)
+- `mxgraph.cabinets.terminal_4_6mm2` (5×60)
+- `mxgraph.cabinets.terminal_4_6mm2_x10` (50×60)
+- `mxgraph.cabinets.terminal_4mm2` (5×50)
+- `mxgraph.cabinets.terminal_4mm2_x10` (40×50)
+- `mxgraph.cabinets.terminal_50mm2` (25×110)
+- `mxgraph.cabinets.terminal_50mm2_x10` (250×110)
+- `mxgraph.cabinets.terminal_6_25mm2` (10×75)
+- `mxgraph.cabinets.terminal_6_25mm2_x10` (100×75)
+- `mxgraph.cabinets.terminal_75mm2` (30×140)
+- `mxgraph.cabinets.terminal_75mm2_x10` (300×140)
 
 ## Usage Example
 

@@ -4,46 +4,46 @@ Stencil library: `mxgraph.kubernetes.*`
 
 Total: 40 stencils
 
-- `mxgraph.kubernetes.api`
-- `mxgraph.kubernetes.c_c_m`
-- `mxgraph.kubernetes.c_m`
-- `mxgraph.kubernetes.c_role`
-- `mxgraph.kubernetes.cm`
-- `mxgraph.kubernetes.crb`
-- `mxgraph.kubernetes.crd`
-- `mxgraph.kubernetes.cronjob`
-- `mxgraph.kubernetes.deploy`
-- `mxgraph.kubernetes.ds`
-- `mxgraph.kubernetes.ep`
-- `mxgraph.kubernetes.etcd`
-- `mxgraph.kubernetes.frame`
-- `mxgraph.kubernetes.group`
-- `mxgraph.kubernetes.hpa`
-- `mxgraph.kubernetes.ing`
-- `mxgraph.kubernetes.job`
-- `mxgraph.kubernetes.k_proxy`
-- `mxgraph.kubernetes.kubelet`
-- `mxgraph.kubernetes.limits`
-- `mxgraph.kubernetes.master`
-- `mxgraph.kubernetes.netpol`
-- `mxgraph.kubernetes.node`
-- `mxgraph.kubernetes.ns`
-- `mxgraph.kubernetes.pod`
-- `mxgraph.kubernetes.psp`
-- `mxgraph.kubernetes.pv`
-- `mxgraph.kubernetes.pvc`
-- `mxgraph.kubernetes.quota`
-- `mxgraph.kubernetes.rb`
-- `mxgraph.kubernetes.role`
-- `mxgraph.kubernetes.rs`
-- `mxgraph.kubernetes.sa`
-- `mxgraph.kubernetes.sc`
-- `mxgraph.kubernetes.sched`
-- `mxgraph.kubernetes.secret`
-- `mxgraph.kubernetes.sts`
-- `mxgraph.kubernetes.svc`
-- `mxgraph.kubernetes.user`
-- `mxgraph.kubernetes.vol`
+- `mxgraph.kubernetes.api` (10×13)
+- `mxgraph.kubernetes.c_c_m` (10×12)
+- `mxgraph.kubernetes.c_m` (10×12)
+- `mxgraph.kubernetes.c_role` (6×8)
+- `mxgraph.kubernetes.cm` (8×7)
+- `mxgraph.kubernetes.crb` (8×5)
+- `mxgraph.kubernetes.crd` (10×10)
+- `mxgraph.kubernetes.cronjob` (11×11)
+- `mxgraph.kubernetes.deploy` (13×11)
+- `mxgraph.kubernetes.ds` (11×9)
+- `mxgraph.kubernetes.ep` (11×8)
+- `mxgraph.kubernetes.etcd` (10×10)
+- `mxgraph.kubernetes.frame` (18×18)
+- `mxgraph.kubernetes.group` (9×9)
+- `mxgraph.kubernetes.hpa` (14×8)
+- `mxgraph.kubernetes.ing` (12×11)
+- `mxgraph.kubernetes.job` (9×8)
+- `mxgraph.kubernetes.k_proxy` (10×13)
+- `mxgraph.kubernetes.kubelet` (10×13)
+- `mxgraph.kubernetes.limits` (11×9)
+- `mxgraph.kubernetes.master` (10×10)
+- `mxgraph.kubernetes.netpol` (9×9)
+- `mxgraph.kubernetes.node` (10×10)
+- `mxgraph.kubernetes.ns` (8×7)
+- `mxgraph.kubernetes.pod` (7×7)
+- `mxgraph.kubernetes.psp` (10×10)
+- `mxgraph.kubernetes.pv` (11×6)
+- `mxgraph.kubernetes.pvc` (10×6)
+- `mxgraph.kubernetes.quota` (10×10)
+- `mxgraph.kubernetes.rb` (10×9)
+- `mxgraph.kubernetes.role` (11×9)
+- `mxgraph.kubernetes.rs` (11×9)
+- `mxgraph.kubernetes.sa` (8×10)
+- `mxgraph.kubernetes.sc` (10×9)
+- `mxgraph.kubernetes.sched` (10×12)
+- `mxgraph.kubernetes.secret` (10×9)
+- `mxgraph.kubernetes.sts` (11×9)
+- `mxgraph.kubernetes.svc` (12×9)
+- `mxgraph.kubernetes.user` (9×9)
+- `mxgraph.kubernetes.vol` (11×6)
 
 ## Usage Example
 

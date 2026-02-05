@@ -4,259 +4,259 @@ Stencil library: `mxgraph.aws2.*`
 
 Total: 250 stencils
 
-- `mxgraph.aws2.administration_and_security.config`
-- `mxgraph.aws2.administration_and_security.directory_service`
-- `mxgraph.aws2.administration_and_security.trusted_advisor`
-- `mxgraph.aws2.analytics.data_pipeline`
-- `mxgraph.aws2.analytics.elasticsearch`
-- `mxgraph.aws2.analytics.emr`
-- `mxgraph.aws2.analytics.kinesis`
-- `mxgraph.aws2.analytics.kinesis_analytics`
-- `mxgraph.aws2.analytics.kinesis_enabledapp`
-- `mxgraph.aws2.analytics.kinesis_firehose`
-- `mxgraph.aws2.analytics.kinesis_streams`
-- `mxgraph.aws2.analytics.machine_learning`
-- `mxgraph.aws2.analytics.quicksight`
-- `mxgraph.aws2.app_services.api_gateway`
-- `mxgraph.aws2.app_services.appstream`
-- `mxgraph.aws2.app_services.cloudsearch`
-- `mxgraph.aws2.app_services.cloudsearch_sdf_metadata`
-- `mxgraph.aws2.app_services.elastic_transcoder`
-- `mxgraph.aws2.app_services.email`
-- `mxgraph.aws2.app_services.ses`
-- `mxgraph.aws2.app_services.sns`
-- `mxgraph.aws2.app_services.sns_email_notification`
-- `mxgraph.aws2.app_services.sns_http_notification`
-- `mxgraph.aws2.app_services.sns_topic`
-- `mxgraph.aws2.app_services.sqs`
-- `mxgraph.aws2.app_services.sqs_message`
-- `mxgraph.aws2.app_services.sqs_queue`
-- `mxgraph.aws2.app_services.swf`
-- `mxgraph.aws2.app_services.swf_decider`
-- `mxgraph.aws2.app_services.swf_worker`
-- `mxgraph.aws2.compute_and_networking.auto_scaling`
-- `mxgraph.aws2.compute_and_networking.aws_direct_connect`
-- `mxgraph.aws2.compute_and_networking.ec2`
-- `mxgraph.aws2.compute_and_networking.ec2_ami`
-- `mxgraph.aws2.compute_and_networking.ec2_cloudwatch`
-- `mxgraph.aws2.compute_and_networking.ec2_container_registry`
-- `mxgraph.aws2.compute_and_networking.ec2_container_service`
-- `mxgraph.aws2.compute_and_networking.ec2_db_on_instance`
-- `mxgraph.aws2.compute_and_networking.ec2_elastic_ip`
-- `mxgraph.aws2.compute_and_networking.ec2_instance`
-- `mxgraph.aws2.compute_and_networking.ec2_instances`
-- `mxgraph.aws2.compute_and_networking.ec2_optimized_instance`
-- `mxgraph.aws2.compute_and_networking.ec2_spot_instance`
-- `mxgraph.aws2.compute_and_networking.elastic_beanstalk`
-- `mxgraph.aws2.compute_and_networking.elastic_beanstalk_application`
-- `mxgraph.aws2.compute_and_networking.elastic_beanstalk_deployment`
-- `mxgraph.aws2.compute_and_networking.elastic_load_balancing`
-- `mxgraph.aws2.compute_and_networking.elastic_load_balancing_2`
-- `mxgraph.aws2.compute_and_networking.elastic_network_instance`
-- `mxgraph.aws2.compute_and_networking.emr`
-- `mxgraph.aws2.compute_and_networking.emr_cluster`
-- `mxgraph.aws2.compute_and_networking.emr_engine`
-- `mxgraph.aws2.compute_and_networking.emr_hdfs_cluster`
-- `mxgraph.aws2.compute_and_networking.emr_mapr_m3_engine`
-- `mxgraph.aws2.compute_and_networking.emr_mapr_m5_engine`
-- `mxgraph.aws2.compute_and_networking.emr_mapr_m7_engine`
-- `mxgraph.aws2.compute_and_networking.final_style_amazon_workspaces`
-- `mxgraph.aws2.compute_and_networking.kinesis_enabled_app`
-- `mxgraph.aws2.compute_and_networking.lambda`
-- `mxgraph.aws2.compute_and_networking.route_53`
-- `mxgraph.aws2.compute_and_networking.route_53_hosted_zone`
-- `mxgraph.aws2.compute_and_networking.route_53_route_table`
-- `mxgraph.aws2.compute_and_networking.vpc`
-- `mxgraph.aws2.compute_and_networking.vpc_customer_gateway`
-- `mxgraph.aws2.compute_and_networking.vpc_internet_gateway`
-- `mxgraph.aws2.compute_and_networking.vpc_peering`
-- `mxgraph.aws2.compute_and_networking.vpc_router`
-- `mxgraph.aws2.compute_and_networking.vpc_vpn_connection`
-- `mxgraph.aws2.compute_and_networking.vpc_vpn_gateway`
-- `mxgraph.aws2.database.database_migration_service`
-- `mxgraph.aws2.database.dynamodb`
-- `mxgraph.aws2.database.dynamodb_attribute`
-- `mxgraph.aws2.database.dynamodb_attributes`
-- `mxgraph.aws2.database.dynamodb_global_secondary_indexes`
-- `mxgraph.aws2.database.dynamodb_item`
-- `mxgraph.aws2.database.dynamodb_items`
-- `mxgraph.aws2.database.dynamodb_table`
-- `mxgraph.aws2.database.elasticcache`
-- `mxgraph.aws2.database.elasticcache_memcache`
-- `mxgraph.aws2.database.elasticcache_node`
-- `mxgraph.aws2.database.elasticcache_redis`
-- `mxgraph.aws2.database.rds`
-- `mxgraph.aws2.database.rds_db_instance`
-- `mxgraph.aws2.database.rds_instance_read_replica`
-- `mxgraph.aws2.database.rds_instance_standby`
-- `mxgraph.aws2.database.rds_mastersql`
-- `mxgraph.aws2.database.rds_ms_sql_instance`
-- `mxgraph.aws2.database.rds_ms_sql_instance_2`
-- `mxgraph.aws2.database.rds_mysql_db_instance`
-- `mxgraph.aws2.database.rds_mysql_db_instance_2`
-- `mxgraph.aws2.database.rds_oracle_db_instance`
-- `mxgraph.aws2.database.rds_oracle_db_instance_2`
-- `mxgraph.aws2.database.rds_postgresql`
-- `mxgraph.aws2.database.rds_replica_sets_with_piop`
-- `mxgraph.aws2.database.rds_slavesql`
-- `mxgraph.aws2.database.redshift`
-- `mxgraph.aws2.database.redshift_dense_compute_node`
-- `mxgraph.aws2.database.redshift_dense_storage_node`
-- `mxgraph.aws2.database.redshift_dw1_cluster`
-- `mxgraph.aws2.database.redshift_dw2_cluster`
-- `mxgraph.aws2.database.redshift_ssd_family_cluster`
-- `mxgraph.aws2.database.simpledb`
-- `mxgraph.aws2.database.simpledb_domain`
-- `mxgraph.aws2.deployment_and_management.cloudformation`
-- `mxgraph.aws2.deployment_and_management.cloudformation_stack`
-- `mxgraph.aws2.deployment_and_management.cloudformation_template`
-- `mxgraph.aws2.deployment_and_management.cloudtrail`
-- `mxgraph.aws2.deployment_and_management.cloudwatch`
-- `mxgraph.aws2.deployment_and_management.cloudwatch_alarm`
-- `mxgraph.aws2.deployment_and_management.codedeploy`
-- `mxgraph.aws2.deployment_and_management.data_pipeline`
-- `mxgraph.aws2.deployment_and_management.elastic_beanstalk`
-- `mxgraph.aws2.deployment_and_management.elastic_beanstalk_application`
-- `mxgraph.aws2.deployment_and_management.elastic_beanstalk_deployment`
-- `mxgraph.aws2.deployment_and_management.iam`
-- `mxgraph.aws2.deployment_and_management.iam_add-on`
-- `mxgraph.aws2.deployment_and_management.iam_credentials`
-- `mxgraph.aws2.deployment_and_management.iam_data_encryption_key`
-- `mxgraph.aws2.deployment_and_management.iam_encrypted_data`
-- `mxgraph.aws2.deployment_and_management.iam_mfa_token`
-- `mxgraph.aws2.deployment_and_management.iam_permissions`
-- `mxgraph.aws2.deployment_and_management.iam_roles`
-- `mxgraph.aws2.deployment_and_management.iam_security_token_service`
-- `mxgraph.aws2.deployment_and_management.iam_short_term_credentials`
-- `mxgraph.aws2.deployment_and_management.iam_sts`
-- `mxgraph.aws2.deployment_and_management.opsworks`
-- `mxgraph.aws2.deployment_and_management.opsworks_apps`
-- `mxgraph.aws2.deployment_and_management.opsworks_deployments`
-- `mxgraph.aws2.deployment_and_management.opsworks_instances`
-- `mxgraph.aws2.deployment_and_management.opsworks_layers`
-- `mxgraph.aws2.deployment_and_management.opsworks_monitoring`
-- `mxgraph.aws2.deployment_and_management.opsworks_permissions`
-- `mxgraph.aws2.deployment_and_management.opsworks_resources`
-- `mxgraph.aws2.deployment_and_management.opsworks_stack`
-- `mxgraph.aws2.developer_tools.code_commit`
-- `mxgraph.aws2.developer_tools.code_pipeline`
-- `mxgraph.aws2.enterprise_applications.workdocs`
-- `mxgraph.aws2.enterprise_applications.workmail`
-- `mxgraph.aws2.enterprise_applications.workspaces`
-- `mxgraph.aws2.game_development.gamelift`
-- `mxgraph.aws2.internet_of_things.action`
-- `mxgraph.aws2.internet_of_things.actuator`
-- `mxgraph.aws2.internet_of_things.aws-iot`
-- `mxgraph.aws2.internet_of_things.bank`
-- `mxgraph.aws2.internet_of_things.bicycle`
-- `mxgraph.aws2.internet_of_things.camera`
-- `mxgraph.aws2.internet_of_things.car`
-- `mxgraph.aws2.internet_of_things.cart`
-- `mxgraph.aws2.internet_of_things.certificate`
-- `mxgraph.aws2.internet_of_things.coffee_pot`
-- `mxgraph.aws2.internet_of_things.desired_state`
-- `mxgraph.aws2.internet_of_things.door_lock`
-- `mxgraph.aws2.internet_of_things.factory`
-- `mxgraph.aws2.internet_of_things.generic_iot_thing`
-- `mxgraph.aws2.internet_of_things.hardware_board`
-- `mxgraph.aws2.internet_of_things.house`
-- `mxgraph.aws2.internet_of_things.http2_protocol`
-- `mxgraph.aws2.internet_of_things.http_protocol`
-- `mxgraph.aws2.internet_of_things.lightbulb`
-- `mxgraph.aws2.internet_of_things.medical_emergency`
-- `mxgraph.aws2.internet_of_things.mqtt_protocol`
-- `mxgraph.aws2.internet_of_things.police_emergency`
-- `mxgraph.aws2.internet_of_things.policy`
-- `mxgraph.aws2.internet_of_things.reported_state`
-- `mxgraph.aws2.internet_of_things.rule`
-- `mxgraph.aws2.internet_of_things.sensor`
-- `mxgraph.aws2.internet_of_things.servo`
-- `mxgraph.aws2.internet_of_things.shadow`
-- `mxgraph.aws2.internet_of_things.simulator`
-- `mxgraph.aws2.internet_of_things.thermostat`
-- `mxgraph.aws2.internet_of_things.topic`
-- `mxgraph.aws2.internet_of_things.travel`
-- `mxgraph.aws2.internet_of_things.utility`
-- `mxgraph.aws2.internet_of_things.windfarm`
-- `mxgraph.aws2.management_tools.service_catalog`
-- `mxgraph.aws2.mobile_services.aws_mobile_hub`
-- `mxgraph.aws2.mobile_services.cognito`
-- `mxgraph.aws2.mobile_services.device_farm`
-- `mxgraph.aws2.mobile_services.mobile_analytics`
-- `mxgraph.aws2.mobile_services.sns`
-- `mxgraph.aws2.mobile_services.sns_email_notification`
-- `mxgraph.aws2.mobile_services.sns_http_notification`
-- `mxgraph.aws2.mobile_services.sns_topic`
-- `mxgraph.aws2.networking.vpc_customer_gateway`
-- `mxgraph.aws2.networking.vpc_endpoints`
-- `mxgraph.aws2.networking.vpc_flowlogs`
-- `mxgraph.aws2.networking.vpc_router`
-- `mxgraph.aws2.networking.vpcnat_gateway`
-- `mxgraph.aws2.non-service_specific.client`
-- `mxgraph.aws2.non-service_specific.cloud`
-- `mxgraph.aws2.non-service_specific.corporate_data_center`
-- `mxgraph.aws2.non-service_specific.disk`
-- `mxgraph.aws2.non-service_specific.forums`
-- `mxgraph.aws2.non-service_specific.generic_database`
-- `mxgraph.aws2.non-service_specific.internet`
-- `mxgraph.aws2.non-service_specific.management_console`
-- `mxgraph.aws2.non-service_specific.mobile_client`
-- `mxgraph.aws2.non-service_specific.multimedia`
-- `mxgraph.aws2.non-service_specific.tape_storage`
-- `mxgraph.aws2.non-service_specific.traditional_server`
-- `mxgraph.aws2.non-service_specific.user`
-- `mxgraph.aws2.non-service_specific.users`
-- `mxgraph.aws2.non-service_specific.virtual_private_cloud`
-- `mxgraph.aws2.on-demand_workforce.mechanical_turk`
-- `mxgraph.aws2.on-demand_workforce.mechanical_turk_assignment_task`
-- `mxgraph.aws2.on-demand_workforce.mechanical_turk_human_intelligence_tasks`
-- `mxgraph.aws2.on-demand_workforce.mechanical_turk_requester`
-- `mxgraph.aws2.on-demand_workforce.mechanical_turk_workers`
-- `mxgraph.aws2.sdks.android`
-- `mxgraph.aws2.sdks.aws_toolkit_for_eclipse`
-- `mxgraph.aws2.sdks.aws_toolkit_for_visual_studio`
-- `mxgraph.aws2.sdks.cli`
-- `mxgraph.aws2.sdks.ios`
-- `mxgraph.aws2.sdks.java`
-- `mxgraph.aws2.sdks.javascript`
-- `mxgraph.aws2.sdks.net`
-- `mxgraph.aws2.sdks.nodejs`
-- `mxgraph.aws2.sdks.php`
-- `mxgraph.aws2.sdks.python`
-- `mxgraph.aws2.sdks.ruby`
-- `mxgraph.aws2.sdks.tools_for_windows_powershell`
-- `mxgraph.aws2.sdks.xamarin`
-- `mxgraph.aws2.security_and_identity.acm`
-- `mxgraph.aws2.security_and_identity.acm_certificate_manager`
-- `mxgraph.aws2.security_and_identity.cloud_hsm`
-- `mxgraph.aws2.security_and_identity.directory_service`
-- `mxgraph.aws2.security_and_identity.key_management_service`
-- `mxgraph.aws2.security_and_identity.service_catalog`
-- `mxgraph.aws2.security_and_identity.webapp_firewall`
-- `mxgraph.aws2.storage_and_content_delivery.aws_import_export`
-- `mxgraph.aws2.storage_and_content_delivery.aws_storage_gateway`
-- `mxgraph.aws2.storage_and_content_delivery.cloudfront`
-- `mxgraph.aws2.storage_and_content_delivery.cloudfront_download_distribution`
-- `mxgraph.aws2.storage_and_content_delivery.cloudfront_edge_location`
-- `mxgraph.aws2.storage_and_content_delivery.cloudfront_streaming_distribution`
-- `mxgraph.aws2.storage_and_content_delivery.ebs`
-- `mxgraph.aws2.storage_and_content_delivery.ebs_snapshot`
-- `mxgraph.aws2.storage_and_content_delivery.ebs_volume`
-- `mxgraph.aws2.storage_and_content_delivery.efs`
-- `mxgraph.aws2.storage_and_content_delivery.glacier`
-- `mxgraph.aws2.storage_and_content_delivery.glacier_archive`
-- `mxgraph.aws2.storage_and_content_delivery.glacier_vault`
-- `mxgraph.aws2.storage_and_content_delivery.s3`
-- `mxgraph.aws2.storage_and_content_delivery.s3_bucket`
-- `mxgraph.aws2.storage_and_content_delivery.s3_bucket_with_objects`
-- `mxgraph.aws2.storage_and_content_delivery.s3_objects`
-- `mxgraph.aws2.storage_and_content_delivery.snowball`
-- `mxgraph.aws2.storage_and_content_delivery.storage_gateway_cached_volumn`
-- `mxgraph.aws2.storage_and_content_delivery.storage_gateway_non-cached_volumn`
-- `mxgraph.aws2.storage_and_content_delivery.storage_gateway_virtual_tape_library`
+- `mxgraph.aws2.administration_and_security.config` (60×72)
+- `mxgraph.aws2.administration_and_security.directory_service` (60×72)
+- `mxgraph.aws2.administration_and_security.trusted_advisor` (60×72)
+- `mxgraph.aws2.analytics.data_pipeline` (60×72)
+- `mxgraph.aws2.analytics.elasticsearch` (60×72)
+- `mxgraph.aws2.analytics.emr` (60×72)
+- `mxgraph.aws2.analytics.kinesis` (60×72)
+- `mxgraph.aws2.analytics.kinesis_analytics` (66×67)
+- `mxgraph.aws2.analytics.kinesis_enabledapp` (58×60)
+- `mxgraph.aws2.analytics.kinesis_firehose` (53×56)
+- `mxgraph.aws2.analytics.kinesis_streams` (53×56)
+- `mxgraph.aws2.analytics.machine_learning` (60×72)
+- `mxgraph.aws2.analytics.quicksight` (60×66)
+- `mxgraph.aws2.app_services.api_gateway` (60×72)
+- `mxgraph.aws2.app_services.appstream` (60×72)
+- `mxgraph.aws2.app_services.cloudsearch` (60×72)
+- `mxgraph.aws2.app_services.cloudsearch_sdf_metadata` (52×56)
+- `mxgraph.aws2.app_services.elastic_transcoder` (60×72)
+- `mxgraph.aws2.app_services.email` (74×54)
+- `mxgraph.aws2.app_services.ses` (62×72)
+- `mxgraph.aws2.app_services.sns` (60×60)
+- `mxgraph.aws2.app_services.sns_email_notification` (90×56)
+- `mxgraph.aws2.app_services.sns_http_notification` (90×56)
+- `mxgraph.aws2.app_services.sns_topic` (89×56)
+- `mxgraph.aws2.app_services.sqs` (60×72)
+- `mxgraph.aws2.app_services.sqs_message` (38×43)
+- `mxgraph.aws2.app_services.sqs_queue` (66×43)
+- `mxgraph.aws2.app_services.swf` (60×72)
+- `mxgraph.aws2.app_services.swf_decider` (55×57)
+- `mxgraph.aws2.app_services.swf_worker` (54×56)
+- `mxgraph.aws2.compute_and_networking.auto_scaling` (59×57)
+- `mxgraph.aws2.compute_and_networking.aws_direct_connect` (60×72)
+- `mxgraph.aws2.compute_and_networking.ec2` (60×72)
+- `mxgraph.aws2.compute_and_networking.ec2_ami` (53×57)
+- `mxgraph.aws2.compute_and_networking.ec2_cloudwatch` (53×57)
+- `mxgraph.aws2.compute_and_networking.ec2_container_registry` (61×63)
+- `mxgraph.aws2.compute_and_networking.ec2_container_service` (56×52)
+- `mxgraph.aws2.compute_and_networking.ec2_db_on_instance` (53×57)
+- `mxgraph.aws2.compute_and_networking.ec2_elastic_ip` (68×22)
+- `mxgraph.aws2.compute_and_networking.ec2_instance` (53×57)
+- `mxgraph.aws2.compute_and_networking.ec2_instances` (51×57)
+- `mxgraph.aws2.compute_and_networking.ec2_optimized_instance` (53×57)
+- `mxgraph.aws2.compute_and_networking.ec2_spot_instance` (53×57)
+- `mxgraph.aws2.compute_and_networking.elastic_beanstalk` (59×82)
+- `mxgraph.aws2.compute_and_networking.elastic_beanstalk_application` (31×57)
+- `mxgraph.aws2.compute_and_networking.elastic_beanstalk_deployment` (50×66)
+- `mxgraph.aws2.compute_and_networking.elastic_load_balancing` (56×58)
+- `mxgraph.aws2.compute_and_networking.elastic_load_balancing_2` (68×82)
+- `mxgraph.aws2.compute_and_networking.elastic_network_instance` (53×55)
+- `mxgraph.aws2.compute_and_networking.emr` (60×72)
+- `mxgraph.aws2.compute_and_networking.emr_cluster` (49×56)
+- `mxgraph.aws2.compute_and_networking.emr_engine` (74×53)
+- `mxgraph.aws2.compute_and_networking.emr_hdfs_cluster` (55×56)
+- `mxgraph.aws2.compute_and_networking.emr_mapr_m3_engine` (74×53)
+- `mxgraph.aws2.compute_and_networking.emr_mapr_m5_engine` (74×53)
+- `mxgraph.aws2.compute_and_networking.emr_mapr_m7_engine` (74×53)
+- `mxgraph.aws2.compute_and_networking.final_style_amazon_workspaces` (74×85)
+- `mxgraph.aws2.compute_and_networking.kinesis_enabled_app` (58×60)
+- `mxgraph.aws2.compute_and_networking.lambda` (60×72)
+- `mxgraph.aws2.compute_and_networking.route_53` (60×72)
+- `mxgraph.aws2.compute_and_networking.route_53_hosted_zone` (59×57)
+- `mxgraph.aws2.compute_and_networking.route_53_route_table` (67×62)
+- `mxgraph.aws2.compute_and_networking.vpc` (60×72)
+- `mxgraph.aws2.compute_and_networking.vpc_customer_gateway` (55×57)
+- `mxgraph.aws2.compute_and_networking.vpc_internet_gateway` (55×57)
+- `mxgraph.aws2.compute_and_networking.vpc_peering` (56×57)
+- `mxgraph.aws2.compute_and_networking.vpc_router` (55×57)
+- `mxgraph.aws2.compute_and_networking.vpc_vpn_connection` (52×41)
+- `mxgraph.aws2.compute_and_networking.vpc_vpn_gateway` (55×57)
+- `mxgraph.aws2.database.database_migration_service` (64×72)
+- `mxgraph.aws2.database.dynamodb` (64×72)
+- `mxgraph.aws2.database.dynamodb_attribute` (55×57)
+- `mxgraph.aws2.database.dynamodb_attributes` (52×57)
+- `mxgraph.aws2.database.dynamodb_global_secondary_indexes` (53×57)
+- `mxgraph.aws2.database.dynamodb_item` (56×57)
+- `mxgraph.aws2.database.dynamodb_items` (53×57)
+- `mxgraph.aws2.database.dynamodb_table` (61×57)
+- `mxgraph.aws2.database.elasticcache` (60×72)
+- `mxgraph.aws2.database.elasticcache_memcache` (53×56)
+- `mxgraph.aws2.database.elasticcache_node` (53×56)
+- `mxgraph.aws2.database.elasticcache_redis` (53×56)
+- `mxgraph.aws2.database.rds` (64×72)
+- `mxgraph.aws2.database.rds_db_instance` (44×57)
+- `mxgraph.aws2.database.rds_instance_read_replica` (44×57)
+- `mxgraph.aws2.database.rds_instance_standby` (44×57)
+- `mxgraph.aws2.database.rds_mastersql` (53×57)
+- `mxgraph.aws2.database.rds_ms_sql_instance` (53×56)
+- `mxgraph.aws2.database.rds_ms_sql_instance_2` (53×56)
+- `mxgraph.aws2.database.rds_mysql_db_instance` (53×56)
+- `mxgraph.aws2.database.rds_mysql_db_instance_2` (53×56)
+- `mxgraph.aws2.database.rds_oracle_db_instance` (53×56)
+- `mxgraph.aws2.database.rds_oracle_db_instance_2` (53×56)
+- `mxgraph.aws2.database.rds_postgresql` (53×56)
+- `mxgraph.aws2.database.rds_replica_sets_with_piop` (54×55)
+- `mxgraph.aws2.database.rds_slavesql` (53×57)
+- `mxgraph.aws2.database.redshift` (60×66)
+- `mxgraph.aws2.database.redshift_dense_compute_node` (49×56)
+- `mxgraph.aws2.database.redshift_dense_storage_node` (49×56)
+- `mxgraph.aws2.database.redshift_dw1_cluster` (49×56)
+- `mxgraph.aws2.database.redshift_dw2_cluster` (49×56)
+- `mxgraph.aws2.database.redshift_ssd_family_cluster` (49×56)
+- `mxgraph.aws2.database.simpledb` (39×72)
+- `mxgraph.aws2.database.simpledb_domain` (56×56)
+- `mxgraph.aws2.deployment_and_management.cloudformation` (59×72)
+- `mxgraph.aws2.deployment_and_management.cloudformation_stack` (64×49)
+- `mxgraph.aws2.deployment_and_management.cloudformation_template` (49×57)
+- `mxgraph.aws2.deployment_and_management.cloudtrail` (60×72)
+- `mxgraph.aws2.deployment_and_management.cloudwatch` (64×72)
+- `mxgraph.aws2.deployment_and_management.cloudwatch_alarm` (48×58)
+- `mxgraph.aws2.deployment_and_management.codedeploy` (60×72)
+- `mxgraph.aws2.deployment_and_management.data_pipeline` (60×72)
+- `mxgraph.aws2.deployment_and_management.elastic_beanstalk` (52×72)
+- `mxgraph.aws2.deployment_and_management.elastic_beanstalk_application` (31×57)
+- `mxgraph.aws2.deployment_and_management.elastic_beanstalk_deployment` (49×65)
+- `mxgraph.aws2.deployment_and_management.iam` (38×72)
+- `mxgraph.aws2.deployment_and_management.iam_add-on` (44×24)
+- `mxgraph.aws2.deployment_and_management.iam_credentials` (53×40)
+- `mxgraph.aws2.deployment_and_management.iam_data_encryption_key` (41×53)
+- `mxgraph.aws2.deployment_and_management.iam_encrypted_data` (38×49)
+- `mxgraph.aws2.deployment_and_management.iam_mfa_token` (53×53)
+- `mxgraph.aws2.deployment_and_management.iam_permissions` (42×57)
+- `mxgraph.aws2.deployment_and_management.iam_roles` (84×73)
+- `mxgraph.aws2.deployment_and_management.iam_security_token_service` (41×56)
+- `mxgraph.aws2.deployment_and_management.iam_short_term_credentials` (61×49)
+- `mxgraph.aws2.deployment_and_management.iam_sts` (54×31)
+- `mxgraph.aws2.deployment_and_management.opsworks` (60×72)
+- `mxgraph.aws2.deployment_and_management.opsworks_apps` (72×72)
+- `mxgraph.aws2.deployment_and_management.opsworks_deployments` (72×68)
+- `mxgraph.aws2.deployment_and_management.opsworks_instances` (72×72)
+- `mxgraph.aws2.deployment_and_management.opsworks_layers` (72×72)
+- `mxgraph.aws2.deployment_and_management.opsworks_monitoring` (72×60)
+- `mxgraph.aws2.deployment_and_management.opsworks_permissions` (60×72)
+- `mxgraph.aws2.deployment_and_management.opsworks_resources` (60×71)
+- `mxgraph.aws2.deployment_and_management.opsworks_stack` (70×72)
+- `mxgraph.aws2.developer_tools.code_commit` (68×82)
+- `mxgraph.aws2.developer_tools.code_pipeline` (60×72)
+- `mxgraph.aws2.enterprise_applications.workdocs` (126×144)
+- `mxgraph.aws2.enterprise_applications.workmail` (74×84)
+- `mxgraph.aws2.enterprise_applications.workspaces` (74×85)
+- `mxgraph.aws2.game_development.gamelift` (62×75)
+- `mxgraph.aws2.internet_of_things.action` (55×57)
+- `mxgraph.aws2.internet_of_things.actuator` (68×80)
+- `mxgraph.aws2.internet_of_things.aws-iot` (60×72)
+- `mxgraph.aws2.internet_of_things.bank` (71×71)
+- `mxgraph.aws2.internet_of_things.bicycle` (71×71)
+- `mxgraph.aws2.internet_of_things.camera` (71×71)
+- `mxgraph.aws2.internet_of_things.car` (71×71)
+- `mxgraph.aws2.internet_of_things.cart` (71×71)
+- `mxgraph.aws2.internet_of_things.certificate` (56×77)
+- `mxgraph.aws2.internet_of_things.coffee_pot` (71×71)
+- `mxgraph.aws2.internet_of_things.desired_state` (53×57)
+- `mxgraph.aws2.internet_of_things.door_lock` (71×71)
+- `mxgraph.aws2.internet_of_things.factory` (71×71)
+- `mxgraph.aws2.internet_of_things.generic_iot_thing` (71×71)
+- `mxgraph.aws2.internet_of_things.hardware_board` (75×89)
+- `mxgraph.aws2.internet_of_things.house` (71×71)
+- `mxgraph.aws2.internet_of_things.http2_protocol` (56×59)
+- `mxgraph.aws2.internet_of_things.http_protocol` (56×59)
+- `mxgraph.aws2.internet_of_things.lightbulb` (71×71)
+- `mxgraph.aws2.internet_of_things.medical_emergency` (71×71)
+- `mxgraph.aws2.internet_of_things.mqtt_protocol` (56×59)
+- `mxgraph.aws2.internet_of_things.police_emergency` (71×71)
+- `mxgraph.aws2.internet_of_things.policy` (49×79)
+- `mxgraph.aws2.internet_of_things.reported_state` (53×57)
+- `mxgraph.aws2.internet_of_things.rule` (44×87)
+- `mxgraph.aws2.internet_of_things.sensor` (68×80)
+- `mxgraph.aws2.internet_of_things.servo` (75×53)
+- `mxgraph.aws2.internet_of_things.shadow` (75×80)
+- `mxgraph.aws2.internet_of_things.simulator` (67×70)
+- `mxgraph.aws2.internet_of_things.thermostat` (71×71)
+- `mxgraph.aws2.internet_of_things.topic` (44×59)
+- `mxgraph.aws2.internet_of_things.travel` (71×71)
+- `mxgraph.aws2.internet_of_things.utility` (71×71)
+- `mxgraph.aws2.internet_of_things.windfarm` (71×71)
+- `mxgraph.aws2.management_tools.service_catalog` (60×72)
+- `mxgraph.aws2.mobile_services.aws_mobile_hub` (65×71)
+- `mxgraph.aws2.mobile_services.cognito` (60×72)
+- `mxgraph.aws2.mobile_services.device_farm` (68×82)
+- `mxgraph.aws2.mobile_services.mobile_analytics` (70×72)
+- `mxgraph.aws2.mobile_services.sns` (69×69)
+- `mxgraph.aws2.mobile_services.sns_email_notification` (90×56)
+- `mxgraph.aws2.mobile_services.sns_http_notification` (90×56)
+- `mxgraph.aws2.mobile_services.sns_topic` (89×56)
+- `mxgraph.aws2.networking.vpc_customer_gateway` (61×63)
+- `mxgraph.aws2.networking.vpc_endpoints` (61×63)
+- `mxgraph.aws2.networking.vpc_flowlogs` (61×63)
+- `mxgraph.aws2.networking.vpc_router` (61×63)
+- `mxgraph.aws2.networking.vpcnat_gateway` (61×63)
+- `mxgraph.aws2.non-service_specific.client` (56×56)
+- `mxgraph.aws2.non-service_specific.cloud` (70×46)
+- `mxgraph.aws2.non-service_specific.corporate_data_center` (41×56)
+- `mxgraph.aws2.non-service_specific.disk` (55×57)
+- `mxgraph.aws2.non-service_specific.forums` (76×74)
+- `mxgraph.aws2.non-service_specific.generic_database` (44×57)
+- `mxgraph.aws2.non-service_specific.internet` (70×46)
+- `mxgraph.aws2.non-service_specific.management_console` (57×57)
+- `mxgraph.aws2.non-service_specific.mobile_client` (37×56)
+- `mxgraph.aws2.non-service_specific.multimedia` (58×56)
+- `mxgraph.aws2.non-service_specific.tape_storage` (69×38)
+- `mxgraph.aws2.non-service_specific.traditional_server` (41×56)
+- `mxgraph.aws2.non-service_specific.user` (40×56)
+- `mxgraph.aws2.non-service_specific.users` (59×56)
+- `mxgraph.aws2.non-service_specific.virtual_private_cloud` (70×46)
+- `mxgraph.aws2.on-demand_workforce.mechanical_turk` (60×72)
+- `mxgraph.aws2.on-demand_workforce.mechanical_turk_assignment_task` (41×56)
+- `mxgraph.aws2.on-demand_workforce.mechanical_turk_human_intelligence_tasks` (46×50)
+- `mxgraph.aws2.on-demand_workforce.mechanical_turk_requester` (49×57)
+- `mxgraph.aws2.on-demand_workforce.mechanical_turk_workers` (59×56)
+- `mxgraph.aws2.sdks.android` (62×72)
+- `mxgraph.aws2.sdks.aws_toolkit_for_eclipse` (63×72)
+- `mxgraph.aws2.sdks.aws_toolkit_for_visual_studio` (63×72)
+- `mxgraph.aws2.sdks.cli` (63×72)
+- `mxgraph.aws2.sdks.ios` (62×72)
+- `mxgraph.aws2.sdks.java` (62×72)
+- `mxgraph.aws2.sdks.javascript` (62×72)
+- `mxgraph.aws2.sdks.net` (62×72)
+- `mxgraph.aws2.sdks.nodejs` (62×72)
+- `mxgraph.aws2.sdks.php` (62×72)
+- `mxgraph.aws2.sdks.python` (62×72)
+- `mxgraph.aws2.sdks.ruby` (62×72)
+- `mxgraph.aws2.sdks.tools_for_windows_powershell` (63×72)
+- `mxgraph.aws2.sdks.xamarin` (65×74)
+- `mxgraph.aws2.security_and_identity.acm` (68×55)
+- `mxgraph.aws2.security_and_identity.acm_certificate_manager` (65×56)
+- `mxgraph.aws2.security_and_identity.cloud_hsm` (60×72)
+- `mxgraph.aws2.security_and_identity.directory_service` (60×72)
+- `mxgraph.aws2.security_and_identity.key_management_service` (68×82)
+- `mxgraph.aws2.security_and_identity.service_catalog` (68×82)
+- `mxgraph.aws2.security_and_identity.webapp_firewall` (68×82)
+- `mxgraph.aws2.storage_and_content_delivery.aws_import_export` (58×57)
+- `mxgraph.aws2.storage_and_content_delivery.aws_storage_gateway` (60×72)
+- `mxgraph.aws2.storage_and_content_delivery.cloudfront` (60×72)
+- `mxgraph.aws2.storage_and_content_delivery.cloudfront_download_distribution` (55×57)
+- `mxgraph.aws2.storage_and_content_delivery.cloudfront_edge_location` (52×57)
+- `mxgraph.aws2.storage_and_content_delivery.cloudfront_streaming_distribution` (55×57)
+- `mxgraph.aws2.storage_and_content_delivery.ebs` (47×66)
+- `mxgraph.aws2.storage_and_content_delivery.ebs_snapshot` (53×65)
+- `mxgraph.aws2.storage_and_content_delivery.ebs_volume` (47×66)
+- `mxgraph.aws2.storage_and_content_delivery.efs` (60×72)
+- `mxgraph.aws2.storage_and_content_delivery.glacier` (60×72)
+- `mxgraph.aws2.storage_and_content_delivery.glacier_archive` (56×66)
+- `mxgraph.aws2.storage_and_content_delivery.glacier_vault` (47×66)
+- `mxgraph.aws2.storage_and_content_delivery.s3` (60×72)
+- `mxgraph.aws2.storage_and_content_delivery.s3_bucket` (55×56)
+- `mxgraph.aws2.storage_and_content_delivery.s3_bucket_with_objects` (55×57)
+- `mxgraph.aws2.storage_and_content_delivery.s3_objects` (38×41)
+- `mxgraph.aws2.storage_and_content_delivery.snowball` (68×82)
+- `mxgraph.aws2.storage_and_content_delivery.storage_gateway_cached_volumn` (53×66)
+- `mxgraph.aws2.storage_and_content_delivery.storage_gateway_non-cached_volumn` (53×66)
+- `mxgraph.aws2.storage_and_content_delivery.storage_gateway_virtual_tape_library` (53×66)
 
 ## Usage Example
 
 ```drawio
-<mxfile><diagram id="example" name="Example"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="" style="shape=mxgraph.aws2.administration_and_security.config;html=1;fillColor=#759C3E;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="100" y="100" width="60" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
+<mxfile><diagram id="example" name="Example"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="" style="shape=mxgraph.aws2.administration_and_security.config;html=1;fillColor=#CCCCCC;strokeColor=#6881B3;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="100" y="100" width="60" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
 ```

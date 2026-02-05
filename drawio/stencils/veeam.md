@@ -4,589 +4,589 @@ Stencil library: `mxgraph.veeam.*`
 
 Total: 580 stencils
 
-- `mxgraph.veeam.2d.1_click_failover_orchestration`
-- `mxgraph.veeam.2d.1ftvm`
-- `mxgraph.veeam.2d.1ftvm_error`
-- `mxgraph.veeam.2d.1ftvm_running`
-- `mxgraph.veeam.2d.1ftvm_unavailable`
-- `mxgraph.veeam.2d.1ftvm_warning`
-- `mxgraph.veeam.2d.2ftvm`
-- `mxgraph.veeam.2d.2ftvm_error`
-- `mxgraph.veeam.2d.2ftvm_running`
-- `mxgraph.veeam.2d.2ftvm_unavailable`
-- `mxgraph.veeam.2d.2ftvm_warning`
-- `mxgraph.veeam.2d.agent`
-- `mxgraph.veeam.2d.alarm`
-- `mxgraph.veeam.2d.alert`
-- `mxgraph.veeam.2d.assisted_failover_and_failback`
-- `mxgraph.veeam.2d.backup_browser`
-- `mxgraph.veeam.2d.backup_from_storage_snapshots`
-- `mxgraph.veeam.2d.backup_repository`
-- `mxgraph.veeam.2d.backup_repository_2`
-- `mxgraph.veeam.2d.built_in_wan_acceleration`
-- `mxgraph.veeam.2d.cd`
-- `mxgraph.veeam.2d.cloud`
-- `mxgraph.veeam.2d.cloud_gateway`
-- `mxgraph.veeam.2d.data_mover`
-- `mxgraph.veeam.2d.database`
-- `mxgraph.veeam.2d.datastore`
-- `mxgraph.veeam.2d.datastore_snapshot`
-- `mxgraph.veeam.2d.datastore_volume`
-- `mxgraph.veeam.2d.disaster_recovery`
-- `mxgraph.veeam.2d.download`
-- `mxgraph.veeam.2d.emc_data_domain_boost`
-- `mxgraph.veeam.2d.encryption_object`
-- `mxgraph.veeam.2d.end_to_end_encryption`
-- `mxgraph.veeam.2d.esx_esxi`
-- `mxgraph.veeam.2d.exagrid`
-- `mxgraph.veeam.2d.failover_protective_snapshot`
-- `mxgraph.veeam.2d.failover_protective_snapshot_locked`
-- `mxgraph.veeam.2d.failover_protective_snapshot_running`
-- `mxgraph.veeam.2d.file`
-- `mxgraph.veeam.2d.file_system_browser`
-- `mxgraph.veeam.2d.folder`
-- `mxgraph.veeam.2d.forward_incremental_backup_increment`
-- `mxgraph.veeam.2d.free_datastore`
-- `mxgraph.veeam.2d.full_datastore`
-- `mxgraph.veeam.2d.full_veeam_backup`
-- `mxgraph.veeam.2d.group`
-- `mxgraph.veeam.2d.hard_drive`
-- `mxgraph.veeam.2d.hp_storeonce`
-- `mxgraph.veeam.2d.hyper_v_host`
-- `mxgraph.veeam.2d.hyper_v_vmware_host`
-- `mxgraph.veeam.2d.letter`
-- `mxgraph.veeam.2d.license`
-- `mxgraph.veeam.2d.lost_space`
-- `mxgraph.veeam.2d.lun`
-- `mxgraph.veeam.2d.medium_datastore`
-- `mxgraph.veeam.2d.monitoring_console`
-- `mxgraph.veeam.2d.native_tape_support`
-- `mxgraph.veeam.2d.network_card`
-- `mxgraph.veeam.2d.on_demand_sandbox`
-- `mxgraph.veeam.2d.physical_storage`
-- `mxgraph.veeam.2d.powershell_extension`
-- `mxgraph.veeam.2d.private_key`
-- `mxgraph.veeam.2d.privilege`
-- `mxgraph.veeam.2d.proxy`
-- `mxgraph.veeam.2d.proxy_appliance`
-- `mxgraph.veeam.2d.quick_migration`
-- `mxgraph.veeam.2d.remote_site`
-- `mxgraph.veeam.2d.remote_storage`
-- `mxgraph.veeam.2d.replication_from_a_backup`
-- `mxgraph.veeam.2d.report`
-- `mxgraph.veeam.2d.resource_pool`
-- `mxgraph.veeam.2d.restful_apis`
-- `mxgraph.veeam.2d.restore_data_from_the_vm_backup`
-- `mxgraph.veeam.2d.reversed_incremental_backup_increment`
-- `mxgraph.veeam.2d.role`
-- `mxgraph.veeam.2d.scheduled_backups`
-- `mxgraph.veeam.2d.search`
-- `mxgraph.veeam.2d.self_service_recovery`
-- `mxgraph.veeam.2d.service`
-- `mxgraph.veeam.2d.service_console`
-- `mxgraph.veeam.2d.service_vnic`
-- `mxgraph.veeam.2d.sure_backup`
-- `mxgraph.veeam.2d.sure_replica`
-- `mxgraph.veeam.2d.switch`
-- `mxgraph.veeam.2d.tape`
-- `mxgraph.veeam.2d.tape_checked`
-- `mxgraph.veeam.2d.tape_device`
-- `mxgraph.veeam.2d.tape_ejecting`
-- `mxgraph.veeam.2d.tape_library`
-- `mxgraph.veeam.2d.tape_licensed`
-- `mxgraph.veeam.2d.tape_recording`
-- `mxgraph.veeam.2d.tape_server`
-- `mxgraph.veeam.2d.transport_service`
-- `mxgraph.veeam.2d.u_air`
-- `mxgraph.veeam.2d.user`
-- `mxgraph.veeam.2d.vapp`
-- `mxgraph.veeam.2d.vapp_started`
-- `mxgraph.veeam.2d.veeam_availability_suite`
-- `mxgraph.veeam.2d.veeam_backup_and_replication_server`
-- `mxgraph.veeam.2d.veeam_backup_enterprise_manager_server`
-- `mxgraph.veeam.2d.veeam_backup_search_server`
-- `mxgraph.veeam.2d.veeam_backup_shell`
-- `mxgraph.veeam.2d.veeam_cloud_connect`
-- `mxgraph.veeam.2d.veeam_explorer`
-- `mxgraph.veeam.2d.veeam_explorer_for_active_directory`
-- `mxgraph.veeam.2d.veeam_explorer_for_exchange`
-- `mxgraph.veeam.2d.veeam_explorer_for_sharepoint`
-- `mxgraph.veeam.2d.veeam_explorer_for_sql`
-- `mxgraph.veeam.2d.veeam_logo`
-- `mxgraph.veeam.2d.veeam_one_business_view`
-- `mxgraph.veeam.2d.veeam_one_monitor`
-- `mxgraph.veeam.2d.veeam_one_reporter`
-- `mxgraph.veeam.2d.veeam_one_server`
-- `mxgraph.veeam.2d.veeamzip`
-- `mxgraph.veeam.2d.virtual_lab`
-- `mxgraph.veeam.2d.virtual_machine`
-- `mxgraph.veeam.2d.virtual_switch`
-- `mxgraph.veeam.2d.vm_backup`
-- `mxgraph.veeam.2d.vm_failed`
-- `mxgraph.veeam.2d.vm_image_full_backup`
-- `mxgraph.veeam.2d.vm_image_incremental_backup`
-- `mxgraph.veeam.2d.vm_linux`
-- `mxgraph.veeam.2d.vm_locked`
-- `mxgraph.veeam.2d.vm_no_network`
-- `mxgraph.veeam.2d.vm_problem`
-- `mxgraph.veeam.2d.vm_running`
-- `mxgraph.veeam.2d.vm_saved_state`
-- `mxgraph.veeam.2d.vm_windows`
-- `mxgraph.veeam.2d.vmware_host`
-- `mxgraph.veeam.2d.vnic`
-- `mxgraph.veeam.2d.vsb_file`
-- `mxgraph.veeam.2d.wan_accelerator`
-- `mxgraph.veeam.2d.web_console`
-- `mxgraph.veeam.2d.web_ui`
-- `mxgraph.veeam.2d.workstation`
-- `mxgraph.veeam.3d.1ftvm`
-- `mxgraph.veeam.3d.1ftvm_error`
-- `mxgraph.veeam.3d.1ftvm_running`
-- `mxgraph.veeam.3d.1ftvm_unavailable`
-- `mxgraph.veeam.3d.1ftvm_warning`
-- `mxgraph.veeam.3d.2ftvm`
-- `mxgraph.veeam.3d.2ftvm_error`
-- `mxgraph.veeam.3d.2ftvm_running`
-- `mxgraph.veeam.3d.2ftvm_unavailable`
-- `mxgraph.veeam.3d.2ftvm_warning`
-- `mxgraph.veeam.3d.backup_repository`
-- `mxgraph.veeam.3d.backup_repository_2`
-- `mxgraph.veeam.3d.cd`
-- `mxgraph.veeam.3d.database`
-- `mxgraph.veeam.3d.datastore`
-- `mxgraph.veeam.3d.datastore_snapshot`
-- `mxgraph.veeam.3d.datastore_volume`
-- `mxgraph.veeam.3d.esx_esxi`
-- `mxgraph.veeam.3d.failover_protective_snapshot`
-- `mxgraph.veeam.3d.failover_protective_snapshot_locked`
-- `mxgraph.veeam.3d.failover_protective_snapshot_running`
-- `mxgraph.veeam.3d.free_datastore`
-- `mxgraph.veeam.3d.full_datastore`
-- `mxgraph.veeam.3d.hard_drive`
-- `mxgraph.veeam.3d.hyper_v_host`
-- `mxgraph.veeam.3d.lost_space`
-- `mxgraph.veeam.3d.lun`
-- `mxgraph.veeam.3d.medium_datastore`
-- `mxgraph.veeam.3d.network_card`
-- `mxgraph.veeam.3d.physical_storage`
-- `mxgraph.veeam.3d.proxy`
-- `mxgraph.veeam.3d.proxy_appliance`
-- `mxgraph.veeam.3d.remote_site`
-- `mxgraph.veeam.3d.remote_storage`
-- `mxgraph.veeam.3d.resource_pool`
-- `mxgraph.veeam.3d.service_vnic`
-- `mxgraph.veeam.3d.switch`
-- `mxgraph.veeam.3d.tape`
-- `mxgraph.veeam.3d.tape_checked`
-- `mxgraph.veeam.3d.tape_ejecting`
-- `mxgraph.veeam.3d.tape_library`
-- `mxgraph.veeam.3d.tape_licensed`
-- `mxgraph.veeam.3d.tape_recording`
-- `mxgraph.veeam.3d.tape_server`
-- `mxgraph.veeam.3d.vapp`
-- `mxgraph.veeam.3d.vapp_started`
-- `mxgraph.veeam.3d.veeam_availability_suite`
-- `mxgraph.veeam.3d.veeam_backup_and_replication_server`
-- `mxgraph.veeam.3d.veeam_backup_enterprise_manager_server`
-- `mxgraph.veeam.3d.veeam_backup_enterprise_manager_server_2d`
-- `mxgraph.veeam.3d.veeam_backup_search_server`
-- `mxgraph.veeam.3d.veeam_one_business_view`
-- `mxgraph.veeam.3d.veeam_one_monitor`
-- `mxgraph.veeam.3d.veeam_one_reporter`
-- `mxgraph.veeam.3d.veeam_one_server`
-- `mxgraph.veeam.3d.virtual_machine`
-- `mxgraph.veeam.3d.vm_failed`
-- `mxgraph.veeam.3d.vm_linux`
-- `mxgraph.veeam.3d.vm_no_network`
-- `mxgraph.veeam.3d.vm_problem`
-- `mxgraph.veeam.3d.vm_running`
-- `mxgraph.veeam.3d.vm_saved_state`
-- `mxgraph.veeam.3d.vm_windows`
-- `mxgraph.veeam.3d.vmware_host`
-- `mxgraph.veeam.3d.vnic`
-- `mxgraph.veeam.3d.wan_accelerator`
-- `mxgraph.veeam.3d.workstation`
-- `mxgraph.veeam.active`
-- `mxgraph.veeam.active_directory`
-- `mxgraph.veeam.advanced_refs_integration`
-- `mxgraph.veeam.agents`
-- `mxgraph.veeam.archive_tier`
-- `mxgraph.veeam.audio_file`
-- `mxgraph.veeam.automated_testing`
-- `mxgraph.veeam.availability_console`
-- `mxgraph.veeam.availability_orchestrator`
-- `mxgraph.veeam.backup_file`
-- `mxgraph.veeam.backup_for_office_365`
-- `mxgraph.veeam.backup_replication`
-- `mxgraph.veeam.building`
-- `mxgraph.veeam.built_in_management_for_agents`
-- `mxgraph.veeam.chargeback_and_billing_capabilities`
-- `mxgraph.veeam.checked`
-- `mxgraph.veeam.checked_doc`
-- `mxgraph.veeam.cluster`
-- `mxgraph.veeam.company_administrator`
-- `mxgraph.veeam.company_owner`
-- `mxgraph.veeam.company_user`
-- `mxgraph.veeam.continuous_data_protection`
-- `mxgraph.veeam.controller`
-- `mxgraph.veeam.cpu`
-- `mxgraph.veeam.cpu_socket`
-- `mxgraph.veeam.data_center`
-- `mxgraph.veeam.data_file`
-- `mxgraph.veeam.database_server`
-- `mxgraph.veeam.deduplication`
-- `mxgraph.veeam.delayed`
-- `mxgraph.veeam.direct_restore_to_ms_azure`
-- `mxgraph.veeam.disk_partition`
-- `mxgraph.veeam.dns`
-- `mxgraph.veeam.dr_site`
-- `mxgraph.veeam.draas_enhancements`
-- `mxgraph.veeam.eject`
-- `mxgraph.veeam.encryption_key`
-- `mxgraph.veeam.endpoint_backup`
-- `mxgraph.veeam.enterprise_manager`
-- `mxgraph.veeam.enterprise_scalability_enhancements`
-- `mxgraph.veeam.explorer_for_oracle`
-- `mxgraph.veeam.explorer_for_storage_snapshots`
-- `mxgraph.veeam.failed`
-- `mxgraph.veeam.failover_plan`
-- `mxgraph.veeam.file`
-- `mxgraph.veeam.flr_helper_appliance`
-- `mxgraph.veeam.full_ms_integration`
-- `mxgraph.veeam.gateway_server`
-- `mxgraph.veeam.globe`
-- `mxgraph.veeam.google_document`
-- `mxgraph.veeam.hyper_v_host`
-- `mxgraph.veeam.hyper_v_vmware_host`
-- `mxgraph.veeam.interface`
-- `mxgraph.veeam.iso`
-- `mxgraph.veeam.laptop`
-- `mxgraph.veeam.library`
-- `mxgraph.veeam.license`
-- `mxgraph.veeam.linux`
-- `mxgraph.veeam.linux_repository`
-- `mxgraph.veeam.local_disk`
-- `mxgraph.veeam.locked`
-- `mxgraph.veeam.magnifying_glass`
-- `mxgraph.veeam.media_pool`
-- `mxgraph.veeam.monitor`
-- `mxgraph.veeam.mount_server`
-- `mxgraph.veeam.ms_exchange`
-- `mxgraph.veeam.ms_exchange_items`
-- `mxgraph.veeam.ms_office`
-- `mxgraph.veeam.ms_outlook`
-- `mxgraph.veeam.ms_sharepoint`
-- `mxgraph.veeam.ms_sql`
-- `mxgraph.veeam.ms_windows`
-- `mxgraph.veeam.nas_backup`
-- `mxgraph.veeam.one_client`
-- `mxgraph.veeam.one_server`
-- `mxgraph.veeam.paused`
-- `mxgraph.veeam.portal_admin`
-- `mxgraph.veeam.powered`
-- `mxgraph.veeam.powered_network`
-- `mxgraph.veeam.primary_storage_integration`
-- `mxgraph.veeam.production_site`
-- `mxgraph.veeam.proxy_server`
-- `mxgraph.veeam.raid_controller`
-- `mxgraph.veeam.ram`
-- `mxgraph.veeam.recording`
-- `mxgraph.veeam.remote_repository`
-- `mxgraph.veeam.reporting`
-- `mxgraph.veeam.repository_server`
-- `mxgraph.veeam.restore`
-- `mxgraph.veeam.scale_out_repository`
-- `mxgraph.veeam.script`
-- `mxgraph.veeam.sd_card`
-- `mxgraph.veeam.server`
-- `mxgraph.veeam.server_stack`
-- `mxgraph.veeam.shared`
-- `mxgraph.veeam.shared_folder`
-- `mxgraph.veeam.smb`
-- `mxgraph.veeam.snapshot`
-- `mxgraph.veeam.storage_cluster`
-- `mxgraph.veeam.table`
-- `mxgraph.veeam.tape_library`
-- `mxgraph.veeam.tape_locked`
-- `mxgraph.veeam.tape_server`
-- `mxgraph.veeam.tape_writing_device`
-- `mxgraph.veeam.tasks`
-- `mxgraph.veeam.time`
-- `mxgraph.veeam.transportation`
-- `mxgraph.veeam.unavailable`
-- `mxgraph.veeam.unknown_tape`
-- `mxgraph.veeam.unlocked`
-- `mxgraph.veeam.usb`
-- `mxgraph.veeam.vcloud_director`
-- `mxgraph.veeam.vcloud_director_support`
-- `mxgraph.veeam.veeam2.1u_server`
-- `mxgraph.veeam.veeam2.agent`
-- `mxgraph.veeam.veeam2.ahv_host`
-- `mxgraph.veeam.veeam2.alarm`
-- `mxgraph.veeam.veeam2.antivirus`
-- `mxgraph.veeam.veeam2.application`
-- `mxgraph.veeam.veeam2.audio_file`
-- `mxgraph.veeam.veeam2.automation`
-- `mxgraph.veeam.veeam2.aws`
-- `mxgraph.veeam.veeam2.aws_s3`
-- `mxgraph.veeam.veeam2.azure`
-- `mxgraph.veeam.veeam2.azure_blob`
-- `mxgraph.veeam.veeam2.backup_browser`
-- `mxgraph.veeam.veeam2.backup_file`
-- `mxgraph.veeam.veeam2.backup_from_storage_snapshots`
-- `mxgraph.veeam.veeam2.calendar`
-- `mxgraph.veeam.veeam2.cd`
-- `mxgraph.veeam.veeam2.cdp`
-- `mxgraph.veeam.veeam2.cloud`
-- `mxgraph.veeam.veeam2.cloud_repository`
-- `mxgraph.veeam.veeam2.command_line`
-- `mxgraph.veeam.veeam2.controller`
-- `mxgraph.veeam.veeam2.cpu`
-- `mxgraph.veeam.veeam2.cpu_socket`
-- `mxgraph.veeam.veeam2.critical`
-- `mxgraph.veeam.veeam2.data_file`
-- `mxgraph.veeam.veeam2.data_mover`
-- `mxgraph.veeam.veeam2.data_volume`
-- `mxgraph.veeam.veeam2.data_volume_snapshot`
-- `mxgraph.veeam.veeam2.data_volume_with_snapshot`
-- `mxgraph.veeam.veeam2.database`
-- `mxgraph.veeam.veeam2.database2`
-- `mxgraph.veeam.veeam2.database_server`
-- `mxgraph.veeam.veeam2.datacenter`
-- `mxgraph.veeam.veeam2.datalabs`
-- `mxgraph.veeam.veeam2.datastore`
-- `mxgraph.veeam.veeam2.datastore_33_full`
-- `mxgraph.veeam.veeam2.datastore_66_full`
-- `mxgraph.veeam.veeam2.datastore_empty`
-- `mxgraph.veeam.veeam2.deduplicating_storage`
-- `mxgraph.veeam.veeam2.deduplication`
-- `mxgraph.veeam.veeam2.delayed`
-- `mxgraph.veeam.veeam2.dns`
-- `mxgraph.veeam.veeam2.domain_controller`
-- `mxgraph.veeam.veeam2.download`
-- `mxgraph.veeam.veeam2.dr_plan`
-- `mxgraph.veeam.veeam2.ejected`
-- `mxgraph.veeam.veeam2.encrypted`
-- `mxgraph.veeam.veeam2.encryption_key`
-- `mxgraph.veeam.veeam2.enterprise_business`
-- `mxgraph.veeam.veeam2.esxi_host`
-- `mxgraph.veeam.veeam2.esxi_hyper_v_ahv_host`
-- `mxgraph.veeam.veeam2.esxi_hyper_v_host`
-- `mxgraph.veeam.veeam2.exchange_objects`
-- `mxgraph.veeam.veeam2.exchange_server`
-- `mxgraph.veeam.veeam2.exported`
-- `mxgraph.veeam.veeam2.failed`
-- `mxgraph.veeam.veeam2.failover`
-- `mxgraph.veeam.veeam2.file`
-- `mxgraph.veeam.veeam2.file_browser`
-- `mxgraph.veeam.veeam2.firewall`
-- `mxgraph.veeam.veeam2.flr_helper_appliance`
-- `mxgraph.veeam.veeam2.folder`
-- `mxgraph.veeam.veeam2.globe`
-- `mxgraph.veeam.veeam2.hardware_controller`
-- `mxgraph.veeam.veeam2.hdd`
-- `mxgraph.veeam.veeam2.hyper_v_host`
-- `mxgraph.veeam.veeam2.ibm_object_storage`
-- `mxgraph.veeam.veeam2.inclusion`
-- `mxgraph.veeam.veeam2.instant`
-- `mxgraph.veeam.veeam2.instant_vm_recovery`
-- `mxgraph.veeam.veeam2.interface_console`
-- `mxgraph.veeam.veeam2.iso_file`
-- `mxgraph.veeam.veeam2.key`
-- `mxgraph.veeam.veeam2.laptop`
-- `mxgraph.veeam.veeam2.letter`
-- `mxgraph.veeam.veeam2.license_file`
-- `mxgraph.veeam.veeam2.linux`
-- `mxgraph.veeam.veeam2.linux_repository`
-- `mxgraph.veeam.veeam2.linux_server`
-- `mxgraph.veeam.veeam2.linux_vm`
-- `mxgraph.veeam.veeam2.locked`
-- `mxgraph.veeam.veeam2.magnifying_glass`
-- `mxgraph.veeam.veeam2.metadata_file`
-- `mxgraph.veeam.veeam2.microsoft_active_directory`
-- `mxgraph.veeam.veeam2.microsoft_exchange`
-- `mxgraph.veeam.veeam2.microsoft_office`
-- `mxgraph.veeam.veeam2.microsoft_onedrive`
-- `mxgraph.veeam.veeam2.microsoft_outlook`
-- `mxgraph.veeam.veeam2.microsoft_scom`
-- `mxgraph.veeam.veeam2.microsoft_scvmm`
-- `mxgraph.veeam.veeam2.microsoft_sharepoint`
-- `mxgraph.veeam.veeam2.microsoft_sql`
-- `mxgraph.veeam.veeam2.microsoft_sql_db`
-- `mxgraph.veeam.veeam2.microsoft_teams`
-- `mxgraph.veeam.veeam2.microsoft_windows`
-- `mxgraph.veeam.veeam2.monitor`
-- `mxgraph.veeam.veeam2.monitoring_console`
-- `mxgraph.veeam.veeam2.mount_server`
-- `mxgraph.veeam.veeam2.nas`
-- `mxgraph.veeam.veeam2.nas_backup`
-- `mxgraph.veeam.veeam2.network_card`
-- `mxgraph.veeam.veeam2.network_proxy`
-- `mxgraph.veeam.veeam2.nutanix`
-- `mxgraph.veeam.veeam2.object_storage`
-- `mxgraph.veeam.veeam2.object_storage_support`
-- `mxgraph.veeam.veeam2.on_demand_sandbox`
-- `mxgraph.veeam.veeam2.one_server`
-- `mxgraph.veeam.veeam2.open_vpn`
-- `mxgraph.veeam.veeam2.oracle_db`
-- `mxgraph.veeam.veeam2.oracle_rman`
-- `mxgraph.veeam.veeam2.paused`
-- `mxgraph.veeam.veeam2.physical_switch`
-- `mxgraph.veeam.veeam2.power_shell`
-- `mxgraph.veeam.veeam2.proxy_server`
-- `mxgraph.veeam.veeam2.ram`
-- `mxgraph.veeam.veeam2.recording`
-- `mxgraph.veeam.veeam2.report`
-- `mxgraph.veeam.veeam2.repository_server`
-- `mxgraph.veeam.veeam2.restful_api`
-- `mxgraph.veeam.veeam2.restore`
-- `mxgraph.veeam.veeam2.restored`
-- `mxgraph.veeam.veeam2.role`
-- `mxgraph.veeam.veeam2.running_playing`
-- `mxgraph.veeam.veeam2.s3_compatible`
-- `mxgraph.veeam.veeam2.sap_brtools`
-- `mxgraph.veeam.veeam2.sap_hana`
-- `mxgraph.veeam.veeam2.sap_hana_db`
-- `mxgraph.veeam.veeam2.scale_out_backup_repository`
-- `mxgraph.veeam.veeam2.scale_out_backup_repository2`
-- `mxgraph.veeam.veeam2.scheduled_backups`
-- `mxgraph.veeam.veeam2.sd_card`
-- `mxgraph.veeam.veeam2.search_server`
-- `mxgraph.veeam.veeam2.server`
-- `mxgraph.veeam.veeam2.server_cluster`
-- `mxgraph.veeam.veeam2.server_nutanix`
-- `mxgraph.veeam.veeam2.server_stack`
-- `mxgraph.veeam.veeam2.server_with_veeam_agent`
-- `mxgraph.veeam.veeam2.service_application`
-- `mxgraph.veeam.veeam2.shared_folder`
-- `mxgraph.veeam.veeam2.sharepoint_server`
-- `mxgraph.veeam.veeam2.smb_business`
-- `mxgraph.veeam.veeam2.sql_server`
-- `mxgraph.veeam.veeam2.storage`
-- `mxgraph.veeam.veeam2.storage_snapshot`
-- `mxgraph.veeam.veeam2.storage_stack`
-- `mxgraph.veeam.veeam2.storage_with_snapshot`
-- `mxgraph.veeam.veeam2.surebackup`
-- `mxgraph.veeam.veeam2.surereplica`
-- `mxgraph.veeam.veeam2.table`
-- `mxgraph.veeam.veeam2.tag`
-- `mxgraph.veeam.veeam2.tape`
-- `mxgraph.veeam.veeam2.tape_checkout`
-- `mxgraph.veeam.veeam2.tape_encrypted`
-- `mxgraph.veeam.veeam2.tape_library`
-- `mxgraph.veeam.veeam2.tape_locked`
-- `mxgraph.veeam.veeam2.tape_media_pool`
-- `mxgraph.veeam.veeam2.tape_recording`
-- `mxgraph.veeam.veeam2.tape_server`
-- `mxgraph.veeam.veeam2.tape_writing_device`
-- `mxgraph.veeam.veeam2.task_list`
-- `mxgraph.veeam.veeam2.time_clocks`
-- `mxgraph.veeam.veeam2.transport`
-- `mxgraph.veeam.veeam2.transport_service`
-- `mxgraph.veeam.veeam2.turn_on_off`
-- `mxgraph.veeam.veeam2.unavailable`
-- `mxgraph.veeam.veeam2.universal_storage_api`
-- `mxgraph.veeam.veeam2.unlocked`
-- `mxgraph.veeam.veeam2.usb_drive`
-- `mxgraph.veeam.veeam2.user`
-- `mxgraph.veeam.veeam2.user_group`
-- `mxgraph.veeam.veeam2.vao_server`
-- `mxgraph.veeam.veeam2.vapp`
-- `mxgraph.veeam.veeam2.vapp_running`
-- `mxgraph.veeam.veeam2.vas_server`
-- `mxgraph.veeam.veeam2.vbem_server`
-- `mxgraph.veeam.veeam2.vbo_repository`
-- `mxgraph.veeam.veeam2.vbo_server`
-- `mxgraph.veeam.veeam2.vbr_configuration_backup`
-- `mxgraph.veeam.veeam2.vbr_console`
-- `mxgraph.veeam.veeam2.vbr_repository`
-- `mxgraph.veeam.veeam2.vbr_server`
-- `mxgraph.veeam.veeam2.vbr_transaction_log_backup`
-- `mxgraph.veeam.veeam2.vcenter_server`
-- `mxgraph.veeam.veeam2.vcloud_director_server`
-- `mxgraph.veeam.veeam2.veeam_agent_for_ibm_aix`
-- `mxgraph.veeam.veeam2.veeam_agent_for_linux`
-- `mxgraph.veeam.veeam2.veeam_agent_for_oracle_solaris`
-- `mxgraph.veeam.veeam2.veeam_agent_for_windows`
-- `mxgraph.veeam.veeam2.veeam_agents`
-- `mxgraph.veeam.veeam2.veeam_availability_orchestrator`
-- `mxgraph.veeam.veeam2.veeam_availability_suite`
-- `mxgraph.veeam.veeam2.veeam_backup_chain_metadata`
-- `mxgraph.veeam.veeam2.veeam_backup_enterprise_manager`
-- `mxgraph.veeam.veeam2.veeam_backup_for_office_365`
-- `mxgraph.veeam.veeam2.veeam_backup_replication`
-- `mxgraph.veeam.veeam2.veeam_cloud_connect`
-- `mxgraph.veeam.veeam2.veeam_cloud_mobility`
-- `mxgraph.veeam.veeam2.veeam_explorer_for_active_directory`
-- `mxgraph.veeam.veeam2.veeam_explorer_for_exchange`
-- `mxgraph.veeam.veeam2.veeam_explorer_for_onedrive`
-- `mxgraph.veeam.veeam2.veeam_explorer_for_oracle`
-- `mxgraph.veeam.veeam2.veeam_explorer_for_sharepoint`
-- `mxgraph.veeam.veeam2.veeam_explorer_for_sql`
-- `mxgraph.veeam.veeam2.veeam_explorer_for_storage_snapshots`
-- `mxgraph.veeam.veeam2.veeam_explorers`
-- `mxgraph.veeam.veeam2.veeam_full_backup`
-- `mxgraph.veeam.veeam2.veeam_incremental_backup`
-- `mxgraph.veeam.veeam2.veeam_logo`
-- `mxgraph.veeam.veeam2.veeam_mp`
-- `mxgraph.veeam.veeam2.veeam_one`
-- `mxgraph.veeam.veeam2.veeam_one_reporter`
-- `mxgraph.veeam.veeam2.veeam_plugin_for_oracle_rman`
-- `mxgraph.veeam.veeam2.veeam_plugin_for_sap_hana`
-- `mxgraph.veeam.veeam2.veeam_plugin_for_sap_on_oracle`
-- `mxgraph.veeam.veeam2.veeam_pn`
-- `mxgraph.veeam.veeam2.veeam_proxy`
-- `mxgraph.veeam.veeam2.veeam_repository`
-- `mxgraph.veeam.veeam2.veeam_reversed_incremental_backup`
-- `mxgraph.veeam.veeam2.veeam_service_provider_console`
-- `mxgraph.veeam.veeam2.veeamzip`
-- `mxgraph.veeam.veeam2.video_file`
-- `mxgraph.veeam.veeam2.virtual_host`
-- `mxgraph.veeam.veeam2.virtual_machine`
-- `mxgraph.veeam.veeam2.vm_checked`
-- `mxgraph.veeam.veeam2.vm_failed`
-- `mxgraph.veeam.veeam2.vm_locked`
-- `mxgraph.veeam.veeam2.vm_paused_saved_state`
-- `mxgraph.veeam.veeam2.vm_running`
-- `mxgraph.veeam.veeam2.vm_snapshot`
-- `mxgraph.veeam.veeam2.vm_turn_on_off`
-- `mxgraph.veeam.veeam2.vm_with_a_snapshot`
-- `mxgraph.veeam.veeam2.vmware_vcloud_director`
-- `mxgraph.veeam.veeam2.vmware_vsan`
-- `mxgraph.veeam.veeam2.vmware_vsphere`
-- `mxgraph.veeam.veeam2.vmware_vswitch`
-- `mxgraph.veeam.veeam2.vpn`
-- `mxgraph.veeam.veeam2.vpn_server`
-- `mxgraph.veeam.veeam2.vspc_server`
-- `mxgraph.veeam.veeam2.wan_accelerator`
-- `mxgraph.veeam.veeam2.web_console`
-- `mxgraph.veeam.veeam2.windows_repository`
-- `mxgraph.veeam.veeam2.windows_server`
-- `mxgraph.veeam.veeam2.windows_vm`
-- `mxgraph.veeam.veeam2.wireguard`
-- `mxgraph.veeam.veeam2.workstation`
-- `mxgraph.veeam.veeam2.zipped`
-- `mxgraph.veeam.veeam_logo`
-- `mxgraph.veeam.video_file`
-- `mxgraph.veeam.virtual_host`
-- `mxgraph.veeam.vm_checked`
-- `mxgraph.veeam.vm_kernel`
-- `mxgraph.veeam.vm_linux`
-- `mxgraph.veeam.vm_paused`
-- `mxgraph.veeam.vm_snapshot`
-- `mxgraph.veeam.vm_windows`
-- `mxgraph.veeam.vmware_host`
-- `mxgraph.veeam.volume_shadow_copy`
-- `mxgraph.veeam.vpn`
-- `mxgraph.veeam.vsb_file`
-- `mxgraph.veeam.vsphere`
-- `mxgraph.veeam.vsphere_server`
-- `mxgraph.veeam.windows_linux_server`
-- `mxgraph.veeam.windows_repository`
-- `mxgraph.veeam.zipped`
+- `mxgraph.veeam.2d.1_click_failover_orchestration` (23×23)
+- `mxgraph.veeam.2d.1ftvm` (35×35)
+- `mxgraph.veeam.2d.1ftvm_error` (35×39)
+- `mxgraph.veeam.2d.1ftvm_running` (35×39)
+- `mxgraph.veeam.2d.1ftvm_unavailable` (35×39)
+- `mxgraph.veeam.2d.1ftvm_warning` (35×38)
+- `mxgraph.veeam.2d.2ftvm` (35×35)
+- `mxgraph.veeam.2d.2ftvm_error` (35×39)
+- `mxgraph.veeam.2d.2ftvm_running` (35×39)
+- `mxgraph.veeam.2d.2ftvm_unavailable` (35×39)
+- `mxgraph.veeam.2d.2ftvm_warning` (35×38)
+- `mxgraph.veeam.2d.agent` (19×19)
+- `mxgraph.veeam.2d.alarm` (31×23)
+- `mxgraph.veeam.2d.alert` (15×15)
+- `mxgraph.veeam.2d.assisted_failover_and_failback` (23×23)
+- `mxgraph.veeam.2d.backup_browser` (23×23)
+- `mxgraph.veeam.2d.backup_from_storage_snapshots` (23×23)
+- `mxgraph.veeam.2d.backup_repository` (26×24)
+- `mxgraph.veeam.2d.backup_repository_2` (29×25)
+- `mxgraph.veeam.2d.built_in_wan_acceleration` (23×23)
+- `mxgraph.veeam.2d.cd` (23×23)
+- `mxgraph.veeam.2d.cloud` (32×23)
+- `mxgraph.veeam.2d.cloud_gateway` (23×23)
+- `mxgraph.veeam.2d.data_mover` (19×19)
+- `mxgraph.veeam.2d.database` (29×25)
+- `mxgraph.veeam.2d.datastore` (22×22)
+- `mxgraph.veeam.2d.datastore_snapshot` (23×6)
+- `mxgraph.veeam.2d.datastore_volume` (23×6)
+- `mxgraph.veeam.2d.disaster_recovery` (23×23)
+- `mxgraph.veeam.2d.download` (23×23)
+- `mxgraph.veeam.2d.emc_data_domain_boost` (23×23)
+- `mxgraph.veeam.2d.encryption_object` (23×23)
+- `mxgraph.veeam.2d.end_to_end_encryption` (23×23)
+- `mxgraph.veeam.2d.esx_esxi` (15×23)
+- `mxgraph.veeam.2d.exagrid` (23×23)
+- `mxgraph.veeam.2d.failover_protective_snapshot` (23×23)
+- `mxgraph.veeam.2d.failover_protective_snapshot_locked` (27×25)
+- `mxgraph.veeam.2d.failover_protective_snapshot_running` (28×25)
+- `mxgraph.veeam.2d.file` (16×23)
+- `mxgraph.veeam.2d.file_system_browser` (23×23)
+- `mxgraph.veeam.2d.folder` (24×23)
+- `mxgraph.veeam.2d.forward_incremental_backup_increment` (16×11)
+- `mxgraph.veeam.2d.free_datastore` (23×23)
+- `mxgraph.veeam.2d.full_datastore` (23×23)
+- `mxgraph.veeam.2d.full_veeam_backup` (13×20)
+- `mxgraph.veeam.2d.group` (20×23)
+- `mxgraph.veeam.2d.hard_drive` (19×23)
+- `mxgraph.veeam.2d.hp_storeonce` (23×23)
+- `mxgraph.veeam.2d.hyper_v_host` (62×60)
+- `mxgraph.veeam.2d.hyper_v_vmware_host` (62×60)
+- `mxgraph.veeam.2d.letter` (23×17)
+- `mxgraph.veeam.2d.license` (23×23)
+- `mxgraph.veeam.2d.lost_space` (23×23)
+- `mxgraph.veeam.2d.lun` (29×11)
+- `mxgraph.veeam.2d.medium_datastore` (23×23)
+- `mxgraph.veeam.2d.monitoring_console` (23×23)
+- `mxgraph.veeam.2d.native_tape_support` (23×23)
+- `mxgraph.veeam.2d.network_card` (23×16)
+- `mxgraph.veeam.2d.on_demand_sandbox` (23×23)
+- `mxgraph.veeam.2d.physical_storage` (38×13)
+- `mxgraph.veeam.2d.powershell_extension` (23×23)
+- `mxgraph.veeam.2d.private_key` (28×26)
+- `mxgraph.veeam.2d.privilege` (25×24)
+- `mxgraph.veeam.2d.proxy` (23×23)
+- `mxgraph.veeam.2d.proxy_appliance` (23×23)
+- `mxgraph.veeam.2d.quick_migration` (23×23)
+- `mxgraph.veeam.2d.remote_site` (21×22)
+- `mxgraph.veeam.2d.remote_storage` (23×22)
+- `mxgraph.veeam.2d.replication_from_a_backup` (23×23)
+- `mxgraph.veeam.2d.report` (16×23)
+- `mxgraph.veeam.2d.resource_pool` (23×23)
+- `mxgraph.veeam.2d.restful_apis` (23×23)
+- `mxgraph.veeam.2d.restore_data_from_the_vm_backup` (23×22)
+- `mxgraph.veeam.2d.reversed_incremental_backup_increment` (16×11)
+- `mxgraph.veeam.2d.role` (16×23)
+- `mxgraph.veeam.2d.scheduled_backups` (23×23)
+- `mxgraph.veeam.2d.search` (23×23)
+- `mxgraph.veeam.2d.self_service_recovery` (23×23)
+- `mxgraph.veeam.2d.service` (23×23)
+- `mxgraph.veeam.2d.service_console` (23×23)
+- `mxgraph.veeam.2d.service_vnic` (30×26)
+- `mxgraph.veeam.2d.sure_backup` (23×23)
+- `mxgraph.veeam.2d.sure_replica` (23×23)
+- `mxgraph.veeam.2d.switch` (38×6)
+- `mxgraph.veeam.2d.tape` (30×16)
+- `mxgraph.veeam.2d.tape_checked` (35×21)
+- `mxgraph.veeam.2d.tape_device` (26×27)
+- `mxgraph.veeam.2d.tape_ejecting` (35×21)
+- `mxgraph.veeam.2d.tape_library` (20×23)
+- `mxgraph.veeam.2d.tape_licensed` (34×19)
+- `mxgraph.veeam.2d.tape_recording` (35×21)
+- `mxgraph.veeam.2d.tape_server` (38×36)
+- `mxgraph.veeam.2d.transport_service` (19×19)
+- `mxgraph.veeam.2d.u_air` (23×22)
+- `mxgraph.veeam.2d.user` (13×23)
+- `mxgraph.veeam.2d.vapp` (24×24)
+- `mxgraph.veeam.2d.vapp_started` (30×27)
+- `mxgraph.veeam.2d.veeam_availability_suite` (23×23)
+- `mxgraph.veeam.2d.veeam_backup_and_replication_server` (38×36)
+- `mxgraph.veeam.2d.veeam_backup_enterprise_manager_server` (38×36)
+- `mxgraph.veeam.2d.veeam_backup_search_server` (38×36)
+- `mxgraph.veeam.2d.veeam_backup_shell` (23×23)
+- `mxgraph.veeam.2d.veeam_cloud_connect` (23×23)
+- `mxgraph.veeam.2d.veeam_explorer` (23×23)
+- `mxgraph.veeam.2d.veeam_explorer_for_active_directory` (23×23)
+- `mxgraph.veeam.2d.veeam_explorer_for_exchange` (23×22)
+- `mxgraph.veeam.2d.veeam_explorer_for_sharepoint` (23×22)
+- `mxgraph.veeam.2d.veeam_explorer_for_sql` (23×23)
+- `mxgraph.veeam.2d.veeam_logo` (72×19)
+- `mxgraph.veeam.2d.veeam_one_business_view` (23×23)
+- `mxgraph.veeam.2d.veeam_one_monitor` (23×23)
+- `mxgraph.veeam.2d.veeam_one_reporter` (23×23)
+- `mxgraph.veeam.2d.veeam_one_server` (23×23)
+- `mxgraph.veeam.2d.veeamzip` (23×23)
+- `mxgraph.veeam.2d.virtual_lab` (23×23)
+- `mxgraph.veeam.2d.virtual_machine` (23×23)
+- `mxgraph.veeam.2d.virtual_switch` (23×23)
+- `mxgraph.veeam.2d.vm_backup` (24×23)
+- `mxgraph.veeam.2d.vm_failed` (28×27)
+- `mxgraph.veeam.2d.vm_image_full_backup` (19×25)
+- `mxgraph.veeam.2d.vm_image_incremental_backup` (19×25)
+- `mxgraph.veeam.2d.vm_linux` (23×42)
+- `mxgraph.veeam.2d.vm_locked` (28×26)
+- `mxgraph.veeam.2d.vm_no_network` (27×26)
+- `mxgraph.veeam.2d.vm_problem` (28×26)
+- `mxgraph.veeam.2d.vm_running` (28×27)
+- `mxgraph.veeam.2d.vm_saved_state` (28×27)
+- `mxgraph.veeam.2d.vm_windows` (23×42)
+- `mxgraph.veeam.2d.vmware_host` (62×60)
+- `mxgraph.veeam.2d.vnic` (23×23)
+- `mxgraph.veeam.2d.vsb_file` (16×23)
+- `mxgraph.veeam.2d.wan_accelerator` (23×23)
+- `mxgraph.veeam.2d.web_console` (23×23)
+- `mxgraph.veeam.2d.web_ui` (23×23)
+- `mxgraph.veeam.2d.workstation` (33×23)
+- `mxgraph.veeam.3d.1ftvm` (34×31)
+- `mxgraph.veeam.3d.1ftvm_error` (34×31)
+- `mxgraph.veeam.3d.1ftvm_running` (34×31)
+- `mxgraph.veeam.3d.1ftvm_unavailable` (34×31)
+- `mxgraph.veeam.3d.1ftvm_warning` (34×31)
+- `mxgraph.veeam.3d.2ftvm` (34×31)
+- `mxgraph.veeam.3d.2ftvm_error` (34×31)
+- `mxgraph.veeam.3d.2ftvm_running` (34×31)
+- `mxgraph.veeam.3d.2ftvm_unavailable` (34×31)
+- `mxgraph.veeam.3d.2ftvm_warning` (34×31)
+- `mxgraph.veeam.3d.backup_repository` (31×31)
+- `mxgraph.veeam.3d.backup_repository_2` (31×31)
+- `mxgraph.veeam.3d.cd` (34×13)
+- `mxgraph.veeam.3d.database` (29×32)
+- `mxgraph.veeam.3d.datastore` (22×30)
+- `mxgraph.veeam.3d.datastore_snapshot` (27×17)
+- `mxgraph.veeam.3d.datastore_volume` (27×17)
+- `mxgraph.veeam.3d.esx_esxi` (19×26)
+- `mxgraph.veeam.3d.failover_protective_snapshot` (23×23)
+- `mxgraph.veeam.3d.failover_protective_snapshot_locked` (28×24)
+- `mxgraph.veeam.3d.failover_protective_snapshot_running` (29×23)
+- `mxgraph.veeam.3d.free_datastore` (22×30)
+- `mxgraph.veeam.3d.full_datastore` (22×30)
+- `mxgraph.veeam.3d.hard_drive` (31×14)
+- `mxgraph.veeam.3d.hyper_v_host` (55×49)
+- `mxgraph.veeam.3d.lost_space` (22×30)
+- `mxgraph.veeam.3d.lun` (36×20)
+- `mxgraph.veeam.3d.medium_datastore` (22×30)
+- `mxgraph.veeam.3d.network_card` (19×19)
+- `mxgraph.veeam.3d.physical_storage` (54×30)
+- `mxgraph.veeam.3d.proxy` (23×23)
+- `mxgraph.veeam.3d.proxy_appliance` (23×23)
+- `mxgraph.veeam.3d.remote_site` (23×30)
+- `mxgraph.veeam.3d.remote_storage` (26×31)
+- `mxgraph.veeam.3d.resource_pool` (29×16)
+- `mxgraph.veeam.3d.service_vnic` (36×32)
+- `mxgraph.veeam.3d.switch` (55×28)
+- `mxgraph.veeam.3d.tape` (29×29)
+- `mxgraph.veeam.3d.tape_checked` (35×29)
+- `mxgraph.veeam.3d.tape_ejecting` (35×29)
+- `mxgraph.veeam.3d.tape_library` (31×37)
+- `mxgraph.veeam.3d.tape_licensed` (35×29)
+- `mxgraph.veeam.3d.tape_recording` (35×29)
+- `mxgraph.veeam.3d.tape_server` (23×23)
+- `mxgraph.veeam.3d.vapp` (46×31)
+- `mxgraph.veeam.3d.vapp_started` (46×31)
+- `mxgraph.veeam.3d.veeam_availability_suite` (23×23)
+- `mxgraph.veeam.3d.veeam_backup_and_replication_server` (23×23)
+- `mxgraph.veeam.3d.veeam_backup_enterprise_manager_server` (23×23)
+- `mxgraph.veeam.3d.veeam_backup_enterprise_manager_server_2d` (20×20)
+- `mxgraph.veeam.3d.veeam_backup_search_server` (23×23)
+- `mxgraph.veeam.3d.veeam_one_business_view` (23×23)
+- `mxgraph.veeam.3d.veeam_one_monitor` (23×23)
+- `mxgraph.veeam.3d.veeam_one_reporter` (23×23)
+- `mxgraph.veeam.3d.veeam_one_server` (23×23)
+- `mxgraph.veeam.3d.virtual_machine` (23×23)
+- `mxgraph.veeam.3d.vm_failed` (28×23)
+- `mxgraph.veeam.3d.vm_linux` (23×30)
+- `mxgraph.veeam.3d.vm_no_network` (29×23)
+- `mxgraph.veeam.3d.vm_problem` (28×23)
+- `mxgraph.veeam.3d.vm_running` (28×23)
+- `mxgraph.veeam.3d.vm_saved_state` (29×24)
+- `mxgraph.veeam.3d.vm_windows` (23×30)
+- `mxgraph.veeam.3d.vmware_host` (55×49)
+- `mxgraph.veeam.3d.vnic` (31×32)
+- `mxgraph.veeam.3d.wan_accelerator` (23×23)
+- `mxgraph.veeam.3d.workstation` (38×31)
+- `mxgraph.veeam.active` (100×100)
+- `mxgraph.veeam.active_directory` (283×283)
+- `mxgraph.veeam.advanced_refs_integration` (283×283)
+- `mxgraph.veeam.agents` (100×98)
+- `mxgraph.veeam.archive_tier` (283×283)
+- `mxgraph.veeam.audio_file` (73×100)
+- `mxgraph.veeam.automated_testing` (282×283)
+- `mxgraph.veeam.availability_console` (100×100)
+- `mxgraph.veeam.availability_orchestrator` (283×277)
+- `mxgraph.veeam.backup_file` (24×23)
+- `mxgraph.veeam.backup_for_office_365` (100×98)
+- `mxgraph.veeam.backup_replication` (100×100)
+- `mxgraph.veeam.building` (568×497)
+- `mxgraph.veeam.built_in_management_for_agents` (99×100)
+- `mxgraph.veeam.chargeback_and_billing_capabilities` (283×283)
+- `mxgraph.veeam.checked` (100×100)
+- `mxgraph.veeam.checked_doc` (457×555)
+- `mxgraph.veeam.cluster` (1079×515)
+- `mxgraph.veeam.company_administrator` (92×100)
+- `mxgraph.veeam.company_owner` (92×100)
+- `mxgraph.veeam.company_user` (259×283)
+- `mxgraph.veeam.continuous_data_protection` (283×281)
+- `mxgraph.veeam.controller` (548×549)
+- `mxgraph.veeam.cpu` (541×538)
+- `mxgraph.veeam.cpu_socket` (549×540)
+- `mxgraph.veeam.data_center` (799×521)
+- `mxgraph.veeam.data_file` (221×284)
+- `mxgraph.veeam.database_server` (283×268)
+- `mxgraph.veeam.deduplication` (282×283)
+- `mxgraph.veeam.delayed` (100×100)
+- `mxgraph.veeam.direct_restore_to_ms_azure` (283×281)
+- `mxgraph.veeam.disk_partition` (100×100)
+- `mxgraph.veeam.dns` (283×284)
+- `mxgraph.veeam.dr_site` (194×194)
+- `mxgraph.veeam.draas_enhancements` (99×100)
+- `mxgraph.veeam.eject` (134×134)
+- `mxgraph.veeam.encryption_key` (388×532)
+- `mxgraph.veeam.endpoint_backup` (283×283)
+- `mxgraph.veeam.enterprise_manager` (284×283)
+- `mxgraph.veeam.enterprise_scalability_enhancements` (283×282)
+- `mxgraph.veeam.explorer_for_oracle` (283×283)
+- `mxgraph.veeam.explorer_for_storage_snapshots` (99×100)
+- `mxgraph.veeam.failed` (100×100)
+- `mxgraph.veeam.failover_plan` (199×283)
+- `mxgraph.veeam.file` (388×532)
+- `mxgraph.veeam.flr_helper_appliance` (281×283)
+- `mxgraph.veeam.full_ms_integration` (283×282)
+- `mxgraph.veeam.gateway_server` (283×267)
+- `mxgraph.veeam.globe` (507×507)
+- `mxgraph.veeam.google_document` (207×283)
+- `mxgraph.veeam.hyper_v_host` (62×60)
+- `mxgraph.veeam.hyper_v_vmware_host` (62×60)
+- `mxgraph.veeam.interface` (23×23)
+- `mxgraph.veeam.iso` (388×531)
+- `mxgraph.veeam.laptop` (713×538)
+- `mxgraph.veeam.library` (672×524)
+- `mxgraph.veeam.license` (154×173)
+- `mxgraph.veeam.linux` (26×25)
+- `mxgraph.veeam.linux_repository` (283×261)
+- `mxgraph.veeam.local_disk` (282×283)
+- `mxgraph.veeam.locked` (89×100)
+- `mxgraph.veeam.magnifying_glass` (175×173)
+- `mxgraph.veeam.media_pool` (283×272)
+- `mxgraph.veeam.monitor` (454×498)
+- `mxgraph.veeam.mount_server` (100×94)
+- `mxgraph.veeam.ms_exchange` (100×100)
+- `mxgraph.veeam.ms_exchange_items` (283×241)
+- `mxgraph.veeam.ms_office` (100×94)
+- `mxgraph.veeam.ms_outlook` (283×283)
+- `mxgraph.veeam.ms_sharepoint` (100×100)
+- `mxgraph.veeam.ms_sql` (100×100)
+- `mxgraph.veeam.ms_windows` (283×282)
+- `mxgraph.veeam.nas_backup` (282×283)
+- `mxgraph.veeam.one_client` (283×191)
+- `mxgraph.veeam.one_server` (100×94)
+- `mxgraph.veeam.paused` (283×283)
+- `mxgraph.veeam.portal_admin` (92×100)
+- `mxgraph.veeam.powered` (283×283)
+- `mxgraph.veeam.powered_network` (100×100)
+- `mxgraph.veeam.primary_storage_integration` (280×283)
+- `mxgraph.veeam.production_site` (630×632)
+- `mxgraph.veeam.proxy_server` (100×94)
+- `mxgraph.veeam.raid_controller` (590×412)
+- `mxgraph.veeam.ram` (997×516)
+- `mxgraph.veeam.recording` (100×100)
+- `mxgraph.veeam.remote_repository` (283×274)
+- `mxgraph.veeam.reporting` (280×283)
+- `mxgraph.veeam.repository_server` (282×272)
+- `mxgraph.veeam.restore` (175×173)
+- `mxgraph.veeam.scale_out_repository` (283×249)
+- `mxgraph.veeam.script` (172×172)
+- `mxgraph.veeam.sd_card` (455×544)
+- `mxgraph.veeam.server` (100×26)
+- `mxgraph.veeam.server_stack` (598×519)
+- `mxgraph.veeam.shared` (100×49)
+- `mxgraph.veeam.shared_folder` (88×101)
+- `mxgraph.veeam.smb` (283×200)
+- `mxgraph.veeam.snapshot` (283×249)
+- `mxgraph.veeam.storage_cluster` (282×283)
+- `mxgraph.veeam.table` (283×283)
+- `mxgraph.veeam.tape_library` (280×283)
+- `mxgraph.veeam.tape_locked` (283×161)
+- `mxgraph.veeam.tape_server` (283×264)
+- `mxgraph.veeam.tape_writing_device` (283×150)
+- `mxgraph.veeam.tasks` (388×530)
+- `mxgraph.veeam.time` (163×163)
+- `mxgraph.veeam.transportation` (283×198)
+- `mxgraph.veeam.unavailable` (100×100)
+- `mxgraph.veeam.unknown_tape` (283×262)
+- `mxgraph.veeam.unlocked` (100×84)
+- `mxgraph.veeam.usb` (283×98)
+- `mxgraph.veeam.vcloud_director` (100×100)
+- `mxgraph.veeam.vcloud_director_support` (100×100)
+- `mxgraph.veeam.veeam2.1u_server` (40×11)
+- `mxgraph.veeam.veeam2.agent` (21×21)
+- `mxgraph.veeam.veeam2.ahv_host` (82×79)
+- `mxgraph.veeam.veeam2.alarm` (28×28)
+- `mxgraph.veeam.veeam2.antivirus` (34×34)
+- `mxgraph.veeam.veeam2.application` (34×34)
+- `mxgraph.veeam.veeam2.audio_file` (28×39)
+- `mxgraph.veeam.veeam2.automation` (28×28)
+- `mxgraph.veeam.veeam2.aws` (34×34)
+- `mxgraph.veeam.veeam2.aws_s3` (34×34)
+- `mxgraph.veeam.veeam2.azure` (34×34)
+- `mxgraph.veeam.veeam2.azure_blob` (34×34)
+- `mxgraph.veeam.veeam2.backup_browser` (28×28)
+- `mxgraph.veeam.veeam2.backup_file` (28×39)
+- `mxgraph.veeam.veeam2.backup_from_storage_snapshots` (34×34)
+- `mxgraph.veeam.veeam2.calendar` (28×28)
+- `mxgraph.veeam.veeam2.cd` (28×28)
+- `mxgraph.veeam.veeam2.cdp` (34×34)
+- `mxgraph.veeam.veeam2.cloud` (40×25)
+- `mxgraph.veeam.veeam2.cloud_repository` (36×36)
+- `mxgraph.veeam.veeam2.command_line` (28×28)
+- `mxgraph.veeam.veeam2.controller` (28×28)
+- `mxgraph.veeam.veeam2.cpu` (28×28)
+- `mxgraph.veeam.veeam2.cpu_socket` (28×28)
+- `mxgraph.veeam.veeam2.critical` (21×21)
+- `mxgraph.veeam.veeam2.data_file` (28×39)
+- `mxgraph.veeam.veeam2.data_mover` (21×21)
+- `mxgraph.veeam.veeam2.data_volume` (40×11)
+- `mxgraph.veeam.veeam2.data_volume_snapshot` (40×11)
+- `mxgraph.veeam.veeam2.data_volume_with_snapshot` (43×15)
+- `mxgraph.veeam.veeam2.database` (23×28)
+- `mxgraph.veeam.veeam2.database2` (34×34)
+- `mxgraph.veeam.veeam2.database_server` (40×52)
+- `mxgraph.veeam.veeam2.datacenter` (83×53)
+- `mxgraph.veeam.veeam2.datalabs` (34×34)
+- `mxgraph.veeam.veeam2.datastore` (28×35)
+- `mxgraph.veeam.veeam2.datastore_33_full` (28×35)
+- `mxgraph.veeam.veeam2.datastore_66_full` (28×35)
+- `mxgraph.veeam.veeam2.datastore_empty` (28×35)
+- `mxgraph.veeam.veeam2.deduplicating_storage` (40×11)
+- `mxgraph.veeam.veeam2.deduplication` (28×28)
+- `mxgraph.veeam.veeam2.delayed` (21×21)
+- `mxgraph.veeam.veeam2.dns` (28×28)
+- `mxgraph.veeam.veeam2.domain_controller` (40×52)
+- `mxgraph.veeam.veeam2.download` (28×28)
+- `mxgraph.veeam.veeam2.dr_plan` (28×42)
+- `mxgraph.veeam.veeam2.ejected` (21×21)
+- `mxgraph.veeam.veeam2.encrypted` (21×21)
+- `mxgraph.veeam.veeam2.encryption_key` (36×36)
+- `mxgraph.veeam.veeam2.enterprise_business` (38×33)
+- `mxgraph.veeam.veeam2.esxi_host` (82×79)
+- `mxgraph.veeam.veeam2.esxi_hyper_v_ahv_host` (82×79)
+- `mxgraph.veeam.veeam2.esxi_hyper_v_host` (82×79)
+- `mxgraph.veeam.veeam2.exchange_objects` (28×28)
+- `mxgraph.veeam.veeam2.exchange_server` (40×52)
+- `mxgraph.veeam.veeam2.exported` (21×21)
+- `mxgraph.veeam.veeam2.failed` (21×21)
+- `mxgraph.veeam.veeam2.failover` (34×34)
+- `mxgraph.veeam.veeam2.file` (28×39)
+- `mxgraph.veeam.veeam2.file_browser` (28×28)
+- `mxgraph.veeam.veeam2.firewall` (34×34)
+- `mxgraph.veeam.veeam2.flr_helper_appliance` (28×28)
+- `mxgraph.veeam.veeam2.folder` (28×25)
+- `mxgraph.veeam.veeam2.globe` (28×28)
+- `mxgraph.veeam.veeam2.hardware_controller` (38×28)
+- `mxgraph.veeam.veeam2.hdd` (28×35)
+- `mxgraph.veeam.veeam2.hyper_v_host` (82×79)
+- `mxgraph.veeam.veeam2.ibm_object_storage` (34×34)
+- `mxgraph.veeam.veeam2.inclusion` (27×138)
+- `mxgraph.veeam.veeam2.instant` (21×21)
+- `mxgraph.veeam.veeam2.instant_vm_recovery` (34×34)
+- `mxgraph.veeam.veeam2.interface_console` (28×28)
+- `mxgraph.veeam.veeam2.iso_file` (28×39)
+- `mxgraph.veeam.veeam2.key` (28×28)
+- `mxgraph.veeam.veeam2.laptop` (48×28)
+- `mxgraph.veeam.veeam2.letter` (28×21)
+- `mxgraph.veeam.veeam2.license_file` (28×39)
+- `mxgraph.veeam.veeam2.linux` (34×34)
+- `mxgraph.veeam.veeam2.linux_repository` (37×39)
+- `mxgraph.veeam.veeam2.linux_server` (40×52)
+- `mxgraph.veeam.veeam2.linux_vm` (36×35)
+- `mxgraph.veeam.veeam2.locked` (21×21)
+- `mxgraph.veeam.veeam2.magnifying_glass` (28×28)
+- `mxgraph.veeam.veeam2.metadata_file` (28×39)
+- `mxgraph.veeam.veeam2.microsoft_active_directory` (34×34)
+- `mxgraph.veeam.veeam2.microsoft_exchange` (34×34)
+- `mxgraph.veeam.veeam2.microsoft_office` (34×34)
+- `mxgraph.veeam.veeam2.microsoft_onedrive` (34×34)
+- `mxgraph.veeam.veeam2.microsoft_outlook` (34×34)
+- `mxgraph.veeam.veeam2.microsoft_scom` (34×34)
+- `mxgraph.veeam.veeam2.microsoft_scvmm` (34×34)
+- `mxgraph.veeam.veeam2.microsoft_sharepoint` (34×34)
+- `mxgraph.veeam.veeam2.microsoft_sql` (34×34)
+- `mxgraph.veeam.veeam2.microsoft_sql_db` (34×34)
+- `mxgraph.veeam.veeam2.microsoft_teams` (34×34)
+- `mxgraph.veeam.veeam2.microsoft_windows` (34×34)
+- `mxgraph.veeam.veeam2.monitor` (51×40)
+- `mxgraph.veeam.veeam2.monitoring_console` (28×28)
+- `mxgraph.veeam.veeam2.mount_server` (40×52)
+- `mxgraph.veeam.veeam2.nas` (28×28)
+- `mxgraph.veeam.veeam2.nas_backup` (34×34)
+- `mxgraph.veeam.veeam2.network_card` (38×27)
+- `mxgraph.veeam.veeam2.network_proxy` (28×28)
+- `mxgraph.veeam.veeam2.nutanix` (34×34)
+- `mxgraph.veeam.veeam2.object_storage` (28×28)
+- `mxgraph.veeam.veeam2.object_storage_support` (34×34)
+- `mxgraph.veeam.veeam2.on_demand_sandbox` (34×34)
+- `mxgraph.veeam.veeam2.one_server` (40×52)
+- `mxgraph.veeam.veeam2.open_vpn` (34×34)
+- `mxgraph.veeam.veeam2.oracle_db` (34×34)
+- `mxgraph.veeam.veeam2.oracle_rman` (34×34)
+- `mxgraph.veeam.veeam2.paused` (21×21)
+- `mxgraph.veeam.veeam2.physical_switch` (53×15)
+- `mxgraph.veeam.veeam2.power_shell` (34×34)
+- `mxgraph.veeam.veeam2.proxy_server` (40×52)
+- `mxgraph.veeam.veeam2.ram` (40×19)
+- `mxgraph.veeam.veeam2.recording` (21×21)
+- `mxgraph.veeam.veeam2.report` (28×39)
+- `mxgraph.veeam.veeam2.repository_server` (40×52)
+- `mxgraph.veeam.veeam2.restful_api` (34×34)
+- `mxgraph.veeam.veeam2.restore` (28×28)
+- `mxgraph.veeam.veeam2.restored` (21×21)
+- `mxgraph.veeam.veeam2.role` (28×39)
+- `mxgraph.veeam.veeam2.running_playing` (21×21)
+- `mxgraph.veeam.veeam2.s3_compatible` (28×28)
+- `mxgraph.veeam.veeam2.sap_brtools` (34×34)
+- `mxgraph.veeam.veeam2.sap_hana` (34×34)
+- `mxgraph.veeam.veeam2.sap_hana_db` (34×34)
+- `mxgraph.veeam.veeam2.scale_out_backup_repository` (37×44)
+- `mxgraph.veeam.veeam2.scale_out_backup_repository2` (17×17)
+- `mxgraph.veeam.veeam2.scheduled_backups` (34×34)
+- `mxgraph.veeam.veeam2.sd_card` (24×28)
+- `mxgraph.veeam.veeam2.search_server` (40×52)
+- `mxgraph.veeam.veeam2.server` (23×39)
+- `mxgraph.veeam.veeam2.server_cluster` (56×28)
+- `mxgraph.veeam.veeam2.server_nutanix` (40×52)
+- `mxgraph.veeam.veeam2.server_stack` (40×40)
+- `mxgraph.veeam.veeam2.server_with_veeam_agent` (40×52)
+- `mxgraph.veeam.veeam2.service_application` (28×28)
+- `mxgraph.veeam.veeam2.shared_folder` (28×25)
+- `mxgraph.veeam.veeam2.sharepoint_server` (40×52)
+- `mxgraph.veeam.veeam2.smb_business` (38×27)
+- `mxgraph.veeam.veeam2.sql_server` (40×52)
+- `mxgraph.veeam.veeam2.storage` (40×11)
+- `mxgraph.veeam.veeam2.storage_snapshot` (40×11)
+- `mxgraph.veeam.veeam2.storage_stack` (40×40)
+- `mxgraph.veeam.veeam2.storage_with_snapshot` (43×15)
+- `mxgraph.veeam.veeam2.surebackup` (34×34)
+- `mxgraph.veeam.veeam2.surereplica` (34×34)
+- `mxgraph.veeam.veeam2.table` (28×28)
+- `mxgraph.veeam.veeam2.tag` (28×28)
+- `mxgraph.veeam.veeam2.tape` (38×22)
+- `mxgraph.veeam.veeam2.tape_checkout` (46×30)
+- `mxgraph.veeam.veeam2.tape_encrypted` (46×30)
+- `mxgraph.veeam.veeam2.tape_library` (28×35)
+- `mxgraph.veeam.veeam2.tape_locked` (46×30)
+- `mxgraph.veeam.veeam2.tape_media_pool` (28×25)
+- `mxgraph.veeam.veeam2.tape_recording` (46×30)
+- `mxgraph.veeam.veeam2.tape_server` (40×52)
+- `mxgraph.veeam.veeam2.tape_writing_device` (38×14)
+- `mxgraph.veeam.veeam2.task_list` (28×39)
+- `mxgraph.veeam.veeam2.time_clocks` (28×28)
+- `mxgraph.veeam.veeam2.transport` (38×23)
+- `mxgraph.veeam.veeam2.transport_service` (21×21)
+- `mxgraph.veeam.veeam2.turn_on_off` (21×21)
+- `mxgraph.veeam.veeam2.unavailable` (21×21)
+- `mxgraph.veeam.veeam2.universal_storage_api` (34×34)
+- `mxgraph.veeam.veeam2.unlocked` (21×21)
+- `mxgraph.veeam.veeam2.usb_drive` (40×17)
+- `mxgraph.veeam.veeam2.user` (28×28)
+- `mxgraph.veeam.veeam2.user_group` (28×28)
+- `mxgraph.veeam.veeam2.vao_server` (40×52)
+- `mxgraph.veeam.veeam2.vapp` (28×28)
+- `mxgraph.veeam.veeam2.vapp_running` (35×35)
+- `mxgraph.veeam.veeam2.vas_server` (40×52)
+- `mxgraph.veeam.veeam2.vbem_server` (40×52)
+- `mxgraph.veeam.veeam2.vbo_repository` (36×39)
+- `mxgraph.veeam.veeam2.vbo_server` (40×52)
+- `mxgraph.veeam.veeam2.vbr_configuration_backup` (28×39)
+- `mxgraph.veeam.veeam2.vbr_console` (34×34)
+- `mxgraph.veeam.veeam2.vbr_repository` (36×39)
+- `mxgraph.veeam.veeam2.vbr_server` (40×52)
+- `mxgraph.veeam.veeam2.vbr_transaction_log_backup` (28×39)
+- `mxgraph.veeam.veeam2.vcenter_server` (40×52)
+- `mxgraph.veeam.veeam2.vcloud_director_server` (40×52)
+- `mxgraph.veeam.veeam2.veeam_agent_for_ibm_aix` (34×34)
+- `mxgraph.veeam.veeam2.veeam_agent_for_linux` (34×34)
+- `mxgraph.veeam.veeam2.veeam_agent_for_oracle_solaris` (34×34)
+- `mxgraph.veeam.veeam2.veeam_agent_for_windows` (34×34)
+- `mxgraph.veeam.veeam2.veeam_agents` (34×34)
+- `mxgraph.veeam.veeam2.veeam_availability_orchestrator` (34×34)
+- `mxgraph.veeam.veeam2.veeam_availability_suite` (34×34)
+- `mxgraph.veeam.veeam2.veeam_backup_chain_metadata` (28×39)
+- `mxgraph.veeam.veeam2.veeam_backup_enterprise_manager` (34×34)
+- `mxgraph.veeam.veeam2.veeam_backup_for_office_365` (34×34)
+- `mxgraph.veeam.veeam2.veeam_backup_replication` (34×34)
+- `mxgraph.veeam.veeam2.veeam_cloud_connect` (34×34)
+- `mxgraph.veeam.veeam2.veeam_cloud_mobility` (34×34)
+- `mxgraph.veeam.veeam2.veeam_explorer_for_active_directory` (34×34)
+- `mxgraph.veeam.veeam2.veeam_explorer_for_exchange` (34×34)
+- `mxgraph.veeam.veeam2.veeam_explorer_for_onedrive` (34×34)
+- `mxgraph.veeam.veeam2.veeam_explorer_for_oracle` (34×34)
+- `mxgraph.veeam.veeam2.veeam_explorer_for_sharepoint` (34×34)
+- `mxgraph.veeam.veeam2.veeam_explorer_for_sql` (34×34)
+- `mxgraph.veeam.veeam2.veeam_explorer_for_storage_snapshots` (34×34)
+- `mxgraph.veeam.veeam2.veeam_explorers` (34×34)
+- `mxgraph.veeam.veeam2.veeam_full_backup` (28×39)
+- `mxgraph.veeam.veeam2.veeam_incremental_backup` (18×25)
+- `mxgraph.veeam.veeam2.veeam_logo` (136×24)
+- `mxgraph.veeam.veeam2.veeam_mp` (34×34)
+- `mxgraph.veeam.veeam2.veeam_one` (34×34)
+- `mxgraph.veeam.veeam2.veeam_one_reporter` (34×34)
+- `mxgraph.veeam.veeam2.veeam_plugin_for_oracle_rman` (34×34)
+- `mxgraph.veeam.veeam2.veeam_plugin_for_sap_hana` (34×34)
+- `mxgraph.veeam.veeam2.veeam_plugin_for_sap_on_oracle` (34×34)
+- `mxgraph.veeam.veeam2.veeam_pn` (34×34)
+- `mxgraph.veeam.veeam2.veeam_proxy` (28×28)
+- `mxgraph.veeam.veeam2.veeam_repository` (36×39)
+- `mxgraph.veeam.veeam2.veeam_reversed_incremental_backup` (18×25)
+- `mxgraph.veeam.veeam2.veeam_service_provider_console` (34×34)
+- `mxgraph.veeam.veeam2.veeamzip` (34×34)
+- `mxgraph.veeam.veeam2.video_file` (28×39)
+- `mxgraph.veeam.veeam2.virtual_host` (82×79)
+- `mxgraph.veeam.veeam2.virtual_machine` (28×28)
+- `mxgraph.veeam.veeam2.vm_checked` (36×36)
+- `mxgraph.veeam.veeam2.vm_failed` (36×36)
+- `mxgraph.veeam.veeam2.vm_locked` (36×36)
+- `mxgraph.veeam.veeam2.vm_paused_saved_state` (36×36)
+- `mxgraph.veeam.veeam2.vm_running` (36×36)
+- `mxgraph.veeam.veeam2.vm_snapshot` (38×38)
+- `mxgraph.veeam.veeam2.vm_turn_on_off` (36×36)
+- `mxgraph.veeam.veeam2.vm_with_a_snapshot` (42×42)
+- `mxgraph.veeam.veeam2.vmware_vcloud_director` (34×34)
+- `mxgraph.veeam.veeam2.vmware_vsan` (34×34)
+- `mxgraph.veeam.veeam2.vmware_vsphere` (34×34)
+- `mxgraph.veeam.veeam2.vmware_vswitch` (40×11)
+- `mxgraph.veeam.veeam2.vpn` (28×28)
+- `mxgraph.veeam.veeam2.vpn_server` (40×52)
+- `mxgraph.veeam.veeam2.vspc_server` (40×52)
+- `mxgraph.veeam.veeam2.wan_accelerator` (28×28)
+- `mxgraph.veeam.veeam2.web_console` (28×28)
+- `mxgraph.veeam.veeam2.windows_repository` (36×39)
+- `mxgraph.veeam.veeam2.windows_server` (40×52)
+- `mxgraph.veeam.veeam2.windows_vm` (36×35)
+- `mxgraph.veeam.veeam2.wireguard` (34×34)
+- `mxgraph.veeam.veeam2.workstation` (38×28)
+- `mxgraph.veeam.veeam2.zipped` (21×21)
+- `mxgraph.veeam.veeam_logo` (985×174)
+- `mxgraph.veeam.video_file` (207×283)
+- `mxgraph.veeam.virtual_host` (303×294)
+- `mxgraph.veeam.vm_checked` (100×97)
+- `mxgraph.veeam.vm_kernel` (100×97)
+- `mxgraph.veeam.vm_linux` (100×96)
+- `mxgraph.veeam.vm_paused` (283×273)
+- `mxgraph.veeam.vm_snapshot` (100×96)
+- `mxgraph.veeam.vm_windows` (100×96)
+- `mxgraph.veeam.vmware_host` (62×60)
+- `mxgraph.veeam.volume_shadow_copy` (100×100)
+- `mxgraph.veeam.vpn` (102×72)
+- `mxgraph.veeam.vsb_file` (206×283)
+- `mxgraph.veeam.vsphere` (284×283)
+- `mxgraph.veeam.vsphere_server` (284×268)
+- `mxgraph.veeam.windows_linux_server` (283×248)
+- `mxgraph.veeam.windows_repository` (283×261)
+- `mxgraph.veeam.zipped` (33×283)
 
 ## Usage Example
 
 ```drawio
-<mxfile><diagram id="example" name="Example"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="" style="shape=mxgraph.veeam.2d.1_click_failover_orchestration;html=1;strokeColor=none;fillColor=#ffffff;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="100" y="100" width="60" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
+<mxfile><diagram id="example" name="Example"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="" style="shape=mxgraph.veeam.2d.1_click_failover_orchestration;html=1;fillColor=#CCCCCC;strokeColor=#6881B3;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="100" y="100" width="60" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
 ```

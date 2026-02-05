@@ -4,1040 +4,1040 @@ Stencil library: `mxgraph.aws4.*`
 
 Total: 1031 stencils
 
-- `mxgraph.aws4.a1_instance`
-- `mxgraph.aws4.access_analyzer`
-- `mxgraph.aws4.action`
-- `mxgraph.aws4.activate`
-- `mxgraph.aws4.actuator`
-- `mxgraph.aws4.ad_connector`
-- `mxgraph.aws4.addon`
-- `mxgraph.aws4.agent`
-- `mxgraph.aws4.agent2`
-- `mxgraph.aws4.alarm`
-- `mxgraph.aws4.alert`
-- `mxgraph.aws4.alexa_enabled_device`
-- `mxgraph.aws4.alexa_for_business`
-- `mxgraph.aws4.alexa_skill`
-- `mxgraph.aws4.alexa_smart_home_skill`
-- `mxgraph.aws4.alexa_voice_service`
-- `mxgraph.aws4.all_products`
-- `mxgraph.aws4.ami`
-- `mxgraph.aws4.amplify`
-- `mxgraph.aws4.amplify_aws_amplify_studio`
-- `mxgraph.aws4.analytics`
-- `mxgraph.aws4.apache_mxnet_on_aws`
-- `mxgraph.aws4.api_gateway`
-- `mxgraph.aws4.app_config`
-- `mxgraph.aws4.app_mesh`
-- `mxgraph.aws4.app_runner`
-- `mxgraph.aws4.app_studio`
-- `mxgraph.aws4.app_wizard`
-- `mxgraph.aws4.appfabric`
-- `mxgraph.aws4.appflow`
-- `mxgraph.aws4.application`
-- `mxgraph.aws4.application_auto_scaling`
-- `mxgraph.aws4.application_composer`
-- `mxgraph.aws4.application_cost_profiler`
-- `mxgraph.aws4.application_discovery_service`
-- `mxgraph.aws4.application_discovery_service_aws_agentless_collector`
-- `mxgraph.aws4.application_discovery_service_aws_discovery_agent`
-- `mxgraph.aws4.application_discovery_service_migration_evaluator_collector`
-- `mxgraph.aws4.application_integration`
-- `mxgraph.aws4.application_load_balancer`
-- `mxgraph.aws4.application_recovery_controller`
-- `mxgraph.aws4.apps`
-- `mxgraph.aws4.appstream_20`
-- `mxgraph.aws4.appsync`
-- `mxgraph.aws4.ar_vr`
-- `mxgraph.aws4.archive`
-- `mxgraph.aws4.artifact`
-- `mxgraph.aws4.athena`
-- `mxgraph.aws4.athena_data_source_connectors`
-- `mxgraph.aws4.attribute`
-- `mxgraph.aws4.attributes`
-- `mxgraph.aws4.audit_manager`
-- `mxgraph.aws4.augmented_ai`
-- `mxgraph.aws4.aurora`
-- `mxgraph.aws4.aurora_instance`
-- `mxgraph.aws4.aurora_instance_alt`
-- `mxgraph.aws4.authenticated_user`
-- `mxgraph.aws4.auto_scaling`
-- `mxgraph.aws4.auto_scaling2`
-- `mxgraph.aws4.auto_scaling3`
-- `mxgraph.aws4.automation`
-- `mxgraph.aws4.autoscaling`
-- `mxgraph.aws4.aws_backup_for_aws_cloudformation`
-- `mxgraph.aws4.aws_backup_legal_hold`
-- `mxgraph.aws4.aws_backup_support_for_amazon_fsx_for_netapp_ontap`
-- `mxgraph.aws4.aws_backup_vault_lock`
-- `mxgraph.aws4.aws_backup_virtual_machine_monitor`
-- `mxgraph.aws4.aws_cloud`
-- `mxgraph.aws4.aws_glue_data_quality`
-- `mxgraph.aws4.aws_glue_for_ray`
-- `mxgraph.aws4.aws_user_notifications`
-- `mxgraph.aws4.b2b_data_interchange`
-- `mxgraph.aws4.backint_agent`
-- `mxgraph.aws4.backup`
-- `mxgraph.aws4.backup_audit_manager`
-- `mxgraph.aws4.backup_aws_backup_support_for_amazon_s3`
-- `mxgraph.aws4.backup_aws_backup_support_for_vmware_workloads`
-- `mxgraph.aws4.backup_backup_plan`
-- `mxgraph.aws4.backup_backup_restore`
-- `mxgraph.aws4.backup_compliance_reporting`
-- `mxgraph.aws4.backup_compute`
-- `mxgraph.aws4.backup_database`
-- `mxgraph.aws4.backup_gateway`
-- `mxgraph.aws4.backup_plan`
-- `mxgraph.aws4.backup_recovery_point_objective`
-- `mxgraph.aws4.backup_recovery_time_objective`
-- `mxgraph.aws4.backup_restore`
-- `mxgraph.aws4.backup_storage`
-- `mxgraph.aws4.backup_vault`
-- `mxgraph.aws4.backup_virtual_machine`
-- `mxgraph.aws4.backup_virtual_machine_monitor`
-- `mxgraph.aws4.bank`
-- `mxgraph.aws4.batch`
-- `mxgraph.aws4.bedrock`
-- `mxgraph.aws4.blockchain`
-- `mxgraph.aws4.blockchain_resource`
-- `mxgraph.aws4.bottlerocket`
-- `mxgraph.aws4.braket`
-- `mxgraph.aws4.braket_chandelier`
-- `mxgraph.aws4.braket_chip`
-- `mxgraph.aws4.braket_embedded_simulator`
-- `mxgraph.aws4.braket_managed_simulator`
-- `mxgraph.aws4.braket_noise_simulator`
-- `mxgraph.aws4.braket_qpu`
-- `mxgraph.aws4.braket_simulator`
-- `mxgraph.aws4.braket_simulator_1`
-- `mxgraph.aws4.braket_simulator_2`
-- `mxgraph.aws4.braket_simulator_3`
-- `mxgraph.aws4.braket_simulator_4`
-- `mxgraph.aws4.braket_state_vector`
-- `mxgraph.aws4.braket_tensor_network`
-- `mxgraph.aws4.bucket`
-- `mxgraph.aws4.bucket_with_objects`
-- `mxgraph.aws4.budgets`
-- `mxgraph.aws4.budgets_2`
-- `mxgraph.aws4.business_application`
-- `mxgraph.aws4.bycicle`
-- `mxgraph.aws4.c4_instance`
-- `mxgraph.aws4.c5_instance`
-- `mxgraph.aws4.c5a`
-- `mxgraph.aws4.c5ad`
-- `mxgraph.aws4.c5d`
-- `mxgraph.aws4.c5n_instance`
-- `mxgraph.aws4.c6g_instance`
-- `mxgraph.aws4.c6gd`
-- `mxgraph.aws4.cache_node`
-- `mxgraph.aws4.cached_volume`
-- `mxgraph.aws4.camera`
-- `mxgraph.aws4.camera2`
-- `mxgraph.aws4.car`
-- `mxgraph.aws4.cart`
-- `mxgraph.aws4.certificate_manager`
-- `mxgraph.aws4.certificate_manager_2`
-- `mxgraph.aws4.certificate_manager_3`
-- `mxgraph.aws4.change_set`
-- `mxgraph.aws4.chat`
-- `mxgraph.aws4.chatbot`
-- `mxgraph.aws4.checklist`
-- `mxgraph.aws4.checklist_cost`
-- `mxgraph.aws4.checklist_fault_tolerant`
-- `mxgraph.aws4.checklist_performance`
-- `mxgraph.aws4.checklist_security`
-- `mxgraph.aws4.chime`
-- `mxgraph.aws4.chime_sdk`
-- `mxgraph.aws4.classic_load_balancer`
-- `mxgraph.aws4.clean_rooms`
-- `mxgraph.aws4.client`
-- `mxgraph.aws4.client_vpn`
-- `mxgraph.aws4.cloud9`
-- `mxgraph.aws4.cloud_control_api`
-- `mxgraph.aws4.cloud_development_kit`
-- `mxgraph.aws4.cloud_digital_interface`
-- `mxgraph.aws4.cloud_directory`
-- `mxgraph.aws4.cloud_extension_ros`
-- `mxgraph.aws4.cloud_map`
-- `mxgraph.aws4.cloud_map_resource`
-- `mxgraph.aws4.cloud_wan`
-- `mxgraph.aws4.cloud_wan_segment_network`
-- `mxgraph.aws4.cloud_wan_transit_gateway_route_table_attachment`
-- `mxgraph.aws4.cloud_wan_virtual_pop`
-- `mxgraph.aws4.cloudendure_disaster_recovery`
-- `mxgraph.aws4.cloudendure_migration`
-- `mxgraph.aws4.cloudformation`
-- `mxgraph.aws4.cloudfront`
-- `mxgraph.aws4.cloudfront_functions`
-- `mxgraph.aws4.cloudhsm`
-- `mxgraph.aws4.cloudsearch`
-- `mxgraph.aws4.cloudsearch2`
-- `mxgraph.aws4.cloudshell`
-- `mxgraph.aws4.cloudtrail`
-- `mxgraph.aws4.cloudtrail_cloudtrail_lake`
-- `mxgraph.aws4.cloudwatch`
-- `mxgraph.aws4.cloudwatch_2`
-- `mxgraph.aws4.cloudwatch_cross_account_observability`
-- `mxgraph.aws4.cloudwatch_data_protection`
-- `mxgraph.aws4.cloudwatch_evidently`
-- `mxgraph.aws4.cloudwatch_logs`
-- `mxgraph.aws4.cloudwatch_metrics_insights`
-- `mxgraph.aws4.cloudwatch_rum`
-- `mxgraph.aws4.cloudwatch_synthetics`
-- `mxgraph.aws4.cluster`
-- `mxgraph.aws4.codeartifact`
-- `mxgraph.aws4.codebuild`
-- `mxgraph.aws4.codecatalyst`
-- `mxgraph.aws4.codecommit`
-- `mxgraph.aws4.codedeploy`
-- `mxgraph.aws4.codeguru`
-- `mxgraph.aws4.codeguru_2`
-- `mxgraph.aws4.codepipeline`
-- `mxgraph.aws4.codestar`
-- `mxgraph.aws4.codewhisperer`
-- `mxgraph.aws4.coffee_pot`
-- `mxgraph.aws4.cognito`
-- `mxgraph.aws4.cold_storage`
-- `mxgraph.aws4.command_line_interface`
-- `mxgraph.aws4.comprehend`
-- `mxgraph.aws4.comprehend_medical`
-- `mxgraph.aws4.compute`
-- `mxgraph.aws4.compute_optimizer`
-- `mxgraph.aws4.config`
-- `mxgraph.aws4.connect`
-- `mxgraph.aws4.connector`
-- `mxgraph.aws4.contact_center`
-- `mxgraph.aws4.container_1`
-- `mxgraph.aws4.container_2`
-- `mxgraph.aws4.container_3`
-- `mxgraph.aws4.container_registry_image`
-- `mxgraph.aws4.containers`
-- `mxgraph.aws4.control_tower`
-- `mxgraph.aws4.corporate_data_center`
-- `mxgraph.aws4.corporate_data_center2`
-- `mxgraph.aws4.corretto`
-- `mxgraph.aws4.cost_and_usage_report`
-- `mxgraph.aws4.cost_explorer`
-- `mxgraph.aws4.cost_management`
-- `mxgraph.aws4.credentials`
-- `mxgraph.aws4.custom_billing_manager`
-- `mxgraph.aws4.custom_event_bus_resource`
-- `mxgraph.aws4.customer_enablement`
-- `mxgraph.aws4.customer_engagement`
-- `mxgraph.aws4.customer_gateway`
-- `mxgraph.aws4.d2_instance`
-- `mxgraph.aws4.d3_instance`
-- `mxgraph.aws4.d3en_instance`
-- `mxgraph.aws4.data_encryption_key`
-- `mxgraph.aws4.data_exchange`
-- `mxgraph.aws4.data_exchange_for_apis`
-- `mxgraph.aws4.data_lake_resource_icon`
-- `mxgraph.aws4.data_pipeline`
-- `mxgraph.aws4.data_set`
-- `mxgraph.aws4.data_stream`
-- `mxgraph.aws4.data_table`
-- `mxgraph.aws4.data_transfer_terminal`
-- `mxgraph.aws4.database`
-- `mxgraph.aws4.database_migration_service`
-- `mxgraph.aws4.database_migration_workflow_job`
-- `mxgraph.aws4.datasync`
-- `mxgraph.aws4.datasync_discovery`
-- `mxgraph.aws4.datazone`
-- `mxgraph.aws4.datazone_business_data_catalog`
-- `mxgraph.aws4.datazone_data_portal`
-- `mxgraph.aws4.datazone_data_projects`
-- `mxgraph.aws4.db_instance`
-- `mxgraph.aws4.db_instance_read_replica`
-- `mxgraph.aws4.db_instance_standby`
-- `mxgraph.aws4.db_on_instance`
-- `mxgraph.aws4.db_on_instance2`
-- `mxgraph.aws4.deadline_cloud`
-- `mxgraph.aws4.deep_learning_amis`
-- `mxgraph.aws4.deep_learning_containers`
-- `mxgraph.aws4.deepcomposer`
-- `mxgraph.aws4.deeplens`
-- `mxgraph.aws4.deepracer`
-- `mxgraph.aws4.default_event_bus_resource`
-- `mxgraph.aws4.dense_compute_node`
-- `mxgraph.aws4.dense_storage_node`
-- `mxgraph.aws4.deployment`
-- `mxgraph.aws4.deployments`
-- `mxgraph.aws4.desired_state`
-- `mxgraph.aws4.desktop_and_app_streaming`
-- `mxgraph.aws4.detective`
-- `mxgraph.aws4.developer_tools`
-- `mxgraph.aws4.development_environment`
-- `mxgraph.aws4.device_farm`
-- `mxgraph.aws4.devops_guru`
-- `mxgraph.aws4.devops_guru_insights`
-- `mxgraph.aws4.direct_connect`
-- `mxgraph.aws4.directory_service`
-- `mxgraph.aws4.disk`
-- `mxgraph.aws4.distro_for_opentelemetry`
-- `mxgraph.aws4.document`
-- `mxgraph.aws4.documentdb_elastic_clusters`
-- `mxgraph.aws4.documentdb_with_mongodb_compatibility`
-- `mxgraph.aws4.documents`
-- `mxgraph.aws4.documents2`
-- `mxgraph.aws4.documents3`
-- `mxgraph.aws4.door_lock`
-- `mxgraph.aws4.download_distribution`
-- `mxgraph.aws4.dynamodb`
-- `mxgraph.aws4.dynamodb_dax`
-- `mxgraph.aws4.dynamodb_standard_access_table_class`
-- `mxgraph.aws4.dynamodb_standard_infrequent_access_table_class`
-- `mxgraph.aws4.dynamodb_stream`
-- `mxgraph.aws4.ec2`
-- `mxgraph.aws4.ec2_aws_microservice_extractor_for_net`
-- `mxgraph.aws4.ec2_c6a_instance`
-- `mxgraph.aws4.ec2_c6gn_instance`
-- `mxgraph.aws4.ec2_c6i_instance`
-- `mxgraph.aws4.ec2_c6in_instance`
-- `mxgraph.aws4.ec2_c7g_instance`
-- `mxgraph.aws4.ec2_c7gn_instance`
-- `mxgraph.aws4.ec2_dl1_instance`
-- `mxgraph.aws4.ec2_g5_instance`
-- `mxgraph.aws4.ec2_g5g_instance`
-- `mxgraph.aws4.ec2_hpc6a_instance`
-- `mxgraph.aws4.ec2_hpc6id_instance`
-- `mxgraph.aws4.ec2_i4i_instance`
-- `mxgraph.aws4.ec2_im4gn_instance`
-- `mxgraph.aws4.ec2_image_builder`
-- `mxgraph.aws4.ec2_inf2_instance`
-- `mxgraph.aws4.ec2_instance_contents`
-- `mxgraph.aws4.ec2_is4gen_instance`
-- `mxgraph.aws4.ec2_m1_mac_instance`
-- `mxgraph.aws4.ec2_m6a_instance`
-- `mxgraph.aws4.ec2_m6i_instance`
-- `mxgraph.aws4.ec2_m6idn_instance`
-- `mxgraph.aws4.ec2_m6in_instance`
-- `mxgraph.aws4.ec2_p4de_instance`
-- `mxgraph.aws4.ec2_r6a_instance`
-- `mxgraph.aws4.ec2_r6i_instance`
-- `mxgraph.aws4.ec2_r6idn_instance`
-- `mxgraph.aws4.ec2_r6in_instance`
-- `mxgraph.aws4.ec2_r7iz_instance`
-- `mxgraph.aws4.ec2_trn1_instance`
-- `mxgraph.aws4.ec2_vt1_instance`
-- `mxgraph.aws4.ec2_x2gd_instance`
-- `mxgraph.aws4.ec2_x2idn_instance`
-- `mxgraph.aws4.ec2_x2iedn_instance`
-- `mxgraph.aws4.ec2_x2iezn_instance`
-- `mxgraph.aws4.echo`
-- `mxgraph.aws4.ecr`
-- `mxgraph.aws4.ecs`
-- `mxgraph.aws4.ecs_anywhere`
-- `mxgraph.aws4.ecs_copilot_cli`
-- `mxgraph.aws4.ecs_service`
-- `mxgraph.aws4.ecs_service_connect`
-- `mxgraph.aws4.ecs_task`
-- `mxgraph.aws4.edge_location`
-- `mxgraph.aws4.efs_infrequentaccess`
-- `mxgraph.aws4.efs_standard`
-- `mxgraph.aws4.eks`
-- `mxgraph.aws4.eks_anywhere`
-- `mxgraph.aws4.eks_cloud`
-- `mxgraph.aws4.eks_distro`
-- `mxgraph.aws4.eks_on_outposts`
-- `mxgraph.aws4.elastic_beanstalk`
-- `mxgraph.aws4.elastic_block_store`
-- `mxgraph.aws4.elastic_block_store_amazon_data_lifecycle_manager`
-- `mxgraph.aws4.elastic_block_store_volume_gp3`
-- `mxgraph.aws4.elastic_fabric_adapter`
-- `mxgraph.aws4.elastic_file_system`
-- `mxgraph.aws4.elastic_file_system_elastic_throughput`
-- `mxgraph.aws4.elastic_file_system_infrequent_access`
-- `mxgraph.aws4.elastic_file_system_intelligent_tiering`
-- `mxgraph.aws4.elastic_file_system_one_zone`
-- `mxgraph.aws4.elastic_file_system_one_zone_infrequent_access`
-- `mxgraph.aws4.elastic_file_system_one_zone_standard`
-- `mxgraph.aws4.elastic_file_system_standard`
-- `mxgraph.aws4.elastic_file_system_standard_infrequent_access`
-- `mxgraph.aws4.elastic_inference`
-- `mxgraph.aws4.elastic_inference_2`
-- `mxgraph.aws4.elastic_ip_address`
-- `mxgraph.aws4.elastic_load_balancing`
-- `mxgraph.aws4.elastic_network_adapter`
-- `mxgraph.aws4.elastic_network_interface`
-- `mxgraph.aws4.elastic_transcoder`
-- `mxgraph.aws4.elastic_vmware_service`
-- `mxgraph.aws4.elasticache`
-- `mxgraph.aws4.elasticache_for_memcached`
-- `mxgraph.aws4.elasticache_for_redis`
-- `mxgraph.aws4.elasticache_for_valkey`
-- `mxgraph.aws4.elasticsearch_service`
-- `mxgraph.aws4.elemental`
-- `mxgraph.aws4.elemental_link`
-- `mxgraph.aws4.elemental_mediaconnect`
-- `mxgraph.aws4.elemental_mediaconvert`
-- `mxgraph.aws4.elemental_medialive`
-- `mxgraph.aws4.elemental_mediapackage`
-- `mxgraph.aws4.elemental_mediastore`
-- `mxgraph.aws4.elemental_mediatailor`
-- `mxgraph.aws4.email`
-- `mxgraph.aws4.email_2`
-- `mxgraph.aws4.email_notification`
-- `mxgraph.aws4.emr`
-- `mxgraph.aws4.emr_engine`
-- `mxgraph.aws4.emr_engine_mapr_m3`
-- `mxgraph.aws4.emr_engine_mapr_m5`
-- `mxgraph.aws4.emr_engine_mapr_m7`
-- `mxgraph.aws4.encrypted_data`
-- `mxgraph.aws4.end_user_messaging`
-- `mxgraph.aws4.endpoint`
-- `mxgraph.aws4.endpoints`
-- `mxgraph.aws4.entity_resolution`
-- `mxgraph.aws4.event`
-- `mxgraph.aws4.event_event_based`
-- `mxgraph.aws4.event_resource`
-- `mxgraph.aws4.event_time_based`
-- `mxgraph.aws4.eventbridge`
-- `mxgraph.aws4.eventbridge_custom_event_bus_resource`
-- `mxgraph.aws4.eventbridge_default_event_bus_resource`
-- `mxgraph.aws4.eventbridge_pipes`
-- `mxgraph.aws4.eventbridge_saas_partner_event_bus_resource`
-- `mxgraph.aws4.eventbridge_scheduler`
-- `mxgraph.aws4.eventbridge_schema`
-- `mxgraph.aws4.eventbridge_schema_registry`
-- `mxgraph.aws4.express_workflow`
-- `mxgraph.aws4.external_sdk`
-- `mxgraph.aws4.external_toolkit`
-- `mxgraph.aws4.f1_instance`
-- `mxgraph.aws4.factory`
-- `mxgraph.aws4.fargate`
-- `mxgraph.aws4.fault_injection_simulator`
-- `mxgraph.aws4.file_cache`
-- `mxgraph.aws4.file_cache_hybrid_nfs_linked_datasets`
-- `mxgraph.aws4.file_cache_on_premises_nfs_linked_datasets`
-- `mxgraph.aws4.file_cache_s3_linked_datasets`
-- `mxgraph.aws4.file_gateway`
-- `mxgraph.aws4.file_system`
-- `mxgraph.aws4.filtering_rule`
-- `mxgraph.aws4.finding`
-- `mxgraph.aws4.finspace`
-- `mxgraph.aws4.firetv`
-- `mxgraph.aws4.firetv_stick`
-- `mxgraph.aws4.firewall_manager`
-- `mxgraph.aws4.fleet_management`
-- `mxgraph.aws4.flow_logs`
-- `mxgraph.aws4.folder`
-- `mxgraph.aws4.folders`
-- `mxgraph.aws4.forecast`
-- `mxgraph.aws4.forums`
-- `mxgraph.aws4.fraud_detector`
-- `mxgraph.aws4.freertos`
-- `mxgraph.aws4.fsx`
-- `mxgraph.aws4.fsx_file_gateway`
-- `mxgraph.aws4.fsx_for_lustre`
-- `mxgraph.aws4.fsx_for_netapp_ontap`
-- `mxgraph.aws4.fsx_for_openzfs`
-- `mxgraph.aws4.fsx_for_windows_file_server`
-- `mxgraph.aws4.g3_instance`
-- `mxgraph.aws4.g4ad_instance`
-- `mxgraph.aws4.g4dn`
-- `mxgraph.aws4.game_tech`
-- `mxgraph.aws4.game_tech2`
-- `mxgraph.aws4.gamekit`
-- `mxgraph.aws4.gamelift`
-- `mxgraph.aws4.gamelift_2`
-- `mxgraph.aws4.gamelift_streams`
-- `mxgraph.aws4.games`
-- `mxgraph.aws4.gamesparks`
-- `mxgraph.aws4.gateway`
-- `mxgraph.aws4.gateway_load_balancer`
-- `mxgraph.aws4.gear`
-- `mxgraph.aws4.general`
-- `mxgraph.aws4.general_access_points`
-- `mxgraph.aws4.generic`
-- `mxgraph.aws4.generic_application`
-- `mxgraph.aws4.generic_database`
-- `mxgraph.aws4.generic_firewall`
-- `mxgraph.aws4.genomics_cli`
-- `mxgraph.aws4.git_repository`
-- `mxgraph.aws4.glacier`
-- `mxgraph.aws4.glacier_deep_archive`
-- `mxgraph.aws4.global_accelerator`
-- `mxgraph.aws4.global_secondary_index`
-- `mxgraph.aws4.globe`
-- `mxgraph.aws4.glue`
-- `mxgraph.aws4.glue_crawlers`
-- `mxgraph.aws4.glue_data_catalog`
-- `mxgraph.aws4.glue_databrew`
-- `mxgraph.aws4.glue_elastic_views`
-- `mxgraph.aws4.greengrass`
-- `mxgraph.aws4.ground_station`
-- `mxgraph.aws4.group_account`
-- `mxgraph.aws4.group_auto_scaling_group`
-- `mxgraph.aws4.group_availability_zone`
-- `mxgraph.aws4.group_aws_cloud`
-- `mxgraph.aws4.group_aws_cloud_alt`
-- `mxgraph.aws4.group_aws_step_functions_workflow`
-- `mxgraph.aws4.group_corporate_data_center`
-- `mxgraph.aws4.group_ec2_instance_contents`
-- `mxgraph.aws4.group_elastic_beanstalk`
-- `mxgraph.aws4.group_elastic_load_balancing`
-- `mxgraph.aws4.group_iot_greengrass`
-- `mxgraph.aws4.group_iot_greengrass_deployment`
-- `mxgraph.aws4.group_on_premise`
-- `mxgraph.aws4.group_region`
-- `mxgraph.aws4.group_security_group`
-- `mxgraph.aws4.group_spot_fleet`
-- `mxgraph.aws4.group_subnet`
-- `mxgraph.aws4.group_vpc`
-- `mxgraph.aws4.group_vpc2`
-- `mxgraph.aws4.guardduty`
-- `mxgraph.aws4.h1_instance`
-- `mxgraph.aws4.habana_gaudi`
-- `mxgraph.aws4.hardware_board`
-- `mxgraph.aws4.hdfs_cluster`
-- `mxgraph.aws4.healthimaging`
-- `mxgraph.aws4.healthlake`
-- `mxgraph.aws4.healthscribe`
-- `mxgraph.aws4.high_memory_instance`
-- `mxgraph.aws4.honeycode`
-- `mxgraph.aws4.hosted_zone`
-- `mxgraph.aws4.house`
-- `mxgraph.aws4.http2_protocol`
-- `mxgraph.aws4.http_notification`
-- `mxgraph.aws4.http_protocol`
-- `mxgraph.aws4.i2`
-- `mxgraph.aws4.i3_instance`
-- `mxgraph.aws4.i3en`
-- `mxgraph.aws4.identity_access_management_iam_roles_anywhere`
-- `mxgraph.aws4.identity_and_access_management`
-- `mxgraph.aws4.illustration_desktop`
-- `mxgraph.aws4.illustration_devices`
-- `mxgraph.aws4.illustration_notification`
-- `mxgraph.aws4.illustration_office_building`
-- `mxgraph.aws4.illustration_users`
-- `mxgraph.aws4.import_export`
-- `mxgraph.aws4.inf1`
-- `mxgraph.aws4.inferentia`
-- `mxgraph.aws4.infrequent_access_storage_class`
-- `mxgraph.aws4.inspector`
-- `mxgraph.aws4.instance`
-- `mxgraph.aws4.instance2`
-- `mxgraph.aws4.instance_with_cloudwatch`
-- `mxgraph.aws4.instance_with_cloudwatch2`
-- `mxgraph.aws4.instances`
-- `mxgraph.aws4.instances_2`
-- `mxgraph.aws4.intelligent_tiering`
-- `mxgraph.aws4.interactive_video`
-- `mxgraph.aws4.internet`
-- `mxgraph.aws4.internet_alt1`
-- `mxgraph.aws4.internet_alt2`
-- `mxgraph.aws4.internet_alt22`
-- `mxgraph.aws4.internet_gateway`
-- `mxgraph.aws4.internet_of_things`
-- `mxgraph.aws4.inventory`
-- `mxgraph.aws4.iot_1click`
-- `mxgraph.aws4.iot_analytics`
-- `mxgraph.aws4.iot_analytics_channel`
-- `mxgraph.aws4.iot_analytics_data_store`
-- `mxgraph.aws4.iot_analytics_dataset`
-- `mxgraph.aws4.iot_analytics_pipeline`
-- `mxgraph.aws4.iot_button`
-- `mxgraph.aws4.iot_core`
-- `mxgraph.aws4.iot_core_device_advisor`
-- `mxgraph.aws4.iot_core_device_location`
-- `mxgraph.aws4.iot_device_defender`
-- `mxgraph.aws4.iot_device_defender_iot_device_jobs`
-- `mxgraph.aws4.iot_device_gateway`
-- `mxgraph.aws4.iot_device_jobs_resource`
-- `mxgraph.aws4.iot_device_management`
-- `mxgraph.aws4.iot_device_management_fleet`
-- `mxgraph.aws4.iot_device_tester`
-- `mxgraph.aws4.iot_edukit`
-- `mxgraph.aws4.iot_events`
-- `mxgraph.aws4.iot_expresslink`
-- `mxgraph.aws4.iot_fleetwise`
-- `mxgraph.aws4.iot_greengrass_artifact`
-- `mxgraph.aws4.iot_greengrass_component`
-- `mxgraph.aws4.iot_greengrass_component_machine_learning`
-- `mxgraph.aws4.iot_greengrass_component_nucleus`
-- `mxgraph.aws4.iot_greengrass_component_private`
-- `mxgraph.aws4.iot_greengrass_component_public`
-- `mxgraph.aws4.iot_greengrass_interprocess_communication`
-- `mxgraph.aws4.iot_greengrass_protocol`
-- `mxgraph.aws4.iot_greengrass_recipe`
-- `mxgraph.aws4.iot_greengrass_stream_manager`
-- `mxgraph.aws4.iot_lorawan_protocol`
-- `mxgraph.aws4.iot_over_the_air_update`
-- `mxgraph.aws4.iot_roborunner`
-- `mxgraph.aws4.iot_sailboat`
-- `mxgraph.aws4.iot_sitewise`
-- `mxgraph.aws4.iot_sitewise_asset`
-- `mxgraph.aws4.iot_sitewise_asset_hierarchy`
-- `mxgraph.aws4.iot_sitewise_asset_model`
-- `mxgraph.aws4.iot_sitewise_asset_properties`
-- `mxgraph.aws4.iot_sitewise_data_streams`
-- `mxgraph.aws4.iot_thing_freertos_device`
-- `mxgraph.aws4.iot_thing_humidity_sensor`
-- `mxgraph.aws4.iot_thing_industrial_pc`
-- `mxgraph.aws4.iot_thing_plc`
-- `mxgraph.aws4.iot_thing_relay`
-- `mxgraph.aws4.iot_thing_stacklight`
-- `mxgraph.aws4.iot_thing_temperature_humidity_sensor`
-- `mxgraph.aws4.iot_thing_temperature_sensor`
-- `mxgraph.aws4.iot_thing_temperature_vibration_sensor`
-- `mxgraph.aws4.iot_thing_vibration_sensor`
-- `mxgraph.aws4.iot_things_graph`
-- `mxgraph.aws4.iot_twinmaker`
-- `mxgraph.aws4.iq`
-- `mxgraph.aws4.item`
-- `mxgraph.aws4.items`
-- `mxgraph.aws4.json_script`
-- `mxgraph.aws4.kendra`
-- `mxgraph.aws4.key_management_service`
-- `mxgraph.aws4.key_management_service_external_key_store`
-- `mxgraph.aws4.keyspaces`
-- `mxgraph.aws4.kinesis`
-- `mxgraph.aws4.kinesis_data_analytics`
-- `mxgraph.aws4.kinesis_data_firehose`
-- `mxgraph.aws4.kinesis_data_streams`
-- `mxgraph.aws4.kinesis_video_streams`
-- `mxgraph.aws4.lake_formation`
-- `mxgraph.aws4.lambda`
-- `mxgraph.aws4.lambda_function`
-- `mxgraph.aws4.layers`
-- `mxgraph.aws4.lex`
-- `mxgraph.aws4.license_manager`
-- `mxgraph.aws4.license_manager_application_discovery`
-- `mxgraph.aws4.license_manager_license_blending`
-- `mxgraph.aws4.lightbulb`
-- `mxgraph.aws4.lightsail`
-- `mxgraph.aws4.lightsail_for_research`
-- `mxgraph.aws4.local_zones`
-- `mxgraph.aws4.location_service`
-- `mxgraph.aws4.location_service_geofence`
-- `mxgraph.aws4.location_service_map`
-- `mxgraph.aws4.location_service_place`
-- `mxgraph.aws4.location_service_routes`
-- `mxgraph.aws4.location_service_track`
-- `mxgraph.aws4.logs`
-- `mxgraph.aws4.long_term_security_credential`
-- `mxgraph.aws4.lookout_for_equipment`
-- `mxgraph.aws4.lookout_for_metrics`
-- `mxgraph.aws4.lookout_for_vision`
-- `mxgraph.aws4.lumberyard`
-- `mxgraph.aws4.m4_instance`
-- `mxgraph.aws4.m5_instance`
-- `mxgraph.aws4.m5a_instance`
-- `mxgraph.aws4.m5d_instance`
-- `mxgraph.aws4.m5dn_instance`
-- `mxgraph.aws4.m5n`
-- `mxgraph.aws4.m5n_instance`
-- `mxgraph.aws4.m5zn_instance`
-- `mxgraph.aws4.m6g_instance`
-- `mxgraph.aws4.m6gd_instance`
-- `mxgraph.aws4.mac_instance`
-- `mxgraph.aws4.machine_learning`
-- `mxgraph.aws4.macie`
-- `mxgraph.aws4.magnifying_glass`
-- `mxgraph.aws4.magnifying_glass_2`
-- `mxgraph.aws4.mainframe_modernization`
-- `mxgraph.aws4.mainframe_modernization_analyzer`
-- `mxgraph.aws4.mainframe_modernization_compiler`
-- `mxgraph.aws4.mainframe_modernization_converter`
-- `mxgraph.aws4.mainframe_modernization_developer`
-- `mxgraph.aws4.mainframe_modernization_runtime`
-- `mxgraph.aws4.maintenance_windows`
-- `mxgraph.aws4.managed_apache_cassandra_service`
-- `mxgraph.aws4.managed_blockchain`
-- `mxgraph.aws4.managed_ms_ad`
-- `mxgraph.aws4.managed_service_for_apache_flink`
-- `mxgraph.aws4.managed_service_for_grafana`
-- `mxgraph.aws4.managed_service_for_prometheus`
-- `mxgraph.aws4.managed_services`
-- `mxgraph.aws4.managed_streaming_for_kafka`
-- `mxgraph.aws4.managed_workflows_for_apache_airflow`
-- `mxgraph.aws4.management_and_governance`
-- `mxgraph.aws4.management_console`
-- `mxgraph.aws4.management_console2`
-- `mxgraph.aws4.marketplace`
-- `mxgraph.aws4.media_services`
-- `mxgraph.aws4.mediaconnect_gateway`
-- `mxgraph.aws4.medical_emergency`
-- `mxgraph.aws4.memorydb_for_redis`
-- `mxgraph.aws4.mesh`
-- `mxgraph.aws4.message`
-- `mxgraph.aws4.metrics`
-- `mxgraph.aws4.mfa_token`
-- `mxgraph.aws4.migration_and_transfer`
-- `mxgraph.aws4.migration_evaluator`
-- `mxgraph.aws4.migration_hub`
-- `mxgraph.aws4.migration_hub_refactor_spaces_applications`
-- `mxgraph.aws4.migration_hub_refactor_spaces_environments`
-- `mxgraph.aws4.migration_hub_refactor_spaces_services`
-- `mxgraph.aws4.mobile`
-- `mxgraph.aws4.mobile_application`
-- `mxgraph.aws4.mobile_client`
-- `mxgraph.aws4.mobile_hub`
-- `mxgraph.aws4.monitoring`
-- `mxgraph.aws4.monitron`
-- `mxgraph.aws4.mq`
-- `mxgraph.aws4.mq_broker`
-- `mxgraph.aws4.mqtt_protocol`
-- `mxgraph.aws4.ms_sql_instance`
-- `mxgraph.aws4.ms_sql_instance_alternate`
-- `mxgraph.aws4.msk_amazon_msk_connect`
-- `mxgraph.aws4.multimedia`
-- `mxgraph.aws4.multiple_volumes_resource`
-- `mxgraph.aws4.mysql_db_instance`
-- `mxgraph.aws4.mysql_db_instance_alternate`
-- `mxgraph.aws4.namespace`
-- `mxgraph.aws4.nat_gateway`
-- `mxgraph.aws4.neptune`
-- `mxgraph.aws4.network_access_control_list`
-- `mxgraph.aws4.network_firewall`
-- `mxgraph.aws4.network_firewall_endpoints`
-- `mxgraph.aws4.network_load_balancer`
-- `mxgraph.aws4.networking_and_content_delivery`
-- `mxgraph.aws4.neuron_ml_sdk`
-- `mxgraph.aws4.nice_dcv`
-- `mxgraph.aws4.nice_enginframe`
-- `mxgraph.aws4.nimble_studio`
-- `mxgraph.aws4.nitro_enclaves`
-- `mxgraph.aws4.non_cached_volume`
-- `mxgraph.aws4.notebook`
-- `mxgraph.aws4.nova`
-- `mxgraph.aws4.nova2`
-- `mxgraph.aws4.object`
-- `mxgraph.aws4.office_building`
-- `mxgraph.aws4.omics`
-- `mxgraph.aws4.one_zone_ia`
-- `mxgraph.aws4.open_3d_engine`
-- `mxgraph.aws4.open_3d_engine_2`
-- `mxgraph.aws4.opensearch_dashboards`
-- `mxgraph.aws4.opensearch_ingestion`
-- `mxgraph.aws4.opensearch_observability`
-- `mxgraph.aws4.opensearch_service_cluster_administrator_node`
-- `mxgraph.aws4.opensearch_service_data_node`
-- `mxgraph.aws4.opensearch_service_index`
-- `mxgraph.aws4.opensearch_service_traces`
-- `mxgraph.aws4.opensearch_service_ultrawarm_node`
-- `mxgraph.aws4.opsworks`
-- `mxgraph.aws4.opsworks_apps`
-- `mxgraph.aws4.opsworks_permissions`
-- `mxgraph.aws4.optimized_instance`
-- `mxgraph.aws4.oracle_database_at_aws`
-- `mxgraph.aws4.oracle_db_instance`
-- `mxgraph.aws4.oracle_db_instance_alternate`
-- `mxgraph.aws4.organizations`
-- `mxgraph.aws4.organizations_account`
-- `mxgraph.aws4.organizations_account2`
-- `mxgraph.aws4.organizations_management_account`
-- `mxgraph.aws4.organizations_management_account2`
-- `mxgraph.aws4.organizations_organizational_unit`
-- `mxgraph.aws4.organizations_organizational_unit2`
-- `mxgraph.aws4.outposts`
-- `mxgraph.aws4.outposts_1u_and_2u_servers`
-- `mxgraph.aws4.outposts_family`
-- `mxgraph.aws4.p2_instance`
-- `mxgraph.aws4.p3_instance`
-- `mxgraph.aws4.p3dn_instance`
-- `mxgraph.aws4.p4_instance`
-- `mxgraph.aws4.p4d_instance`
-- `mxgraph.aws4.panorama`
-- `mxgraph.aws4.parallel_cluster`
-- `mxgraph.aws4.parallel_computing_service`
-- `mxgraph.aws4.parameter_store`
-- `mxgraph.aws4.patch_manager`
-- `mxgraph.aws4.payment_cryptography`
-- `mxgraph.aws4.peering`
-- `mxgraph.aws4.permissions`
-- `mxgraph.aws4.permissions_2`
-- `mxgraph.aws4.personal_health_dashboard`
-- `mxgraph.aws4.personalize`
-- `mxgraph.aws4.pinpoint`
-- `mxgraph.aws4.pinpoint_journey`
-- `mxgraph.aws4.police_emergency`
-- `mxgraph.aws4.policy`
-- `mxgraph.aws4.polly`
-- `mxgraph.aws4.postgresql_instance`
-- `mxgraph.aws4.private_5g`
-- `mxgraph.aws4.private_certificate_authority`
-- `mxgraph.aws4.privatelink`
-- `mxgraph.aws4.professional_services`
-- `mxgraph.aws4.programming_language`
-- `mxgraph.aws4.proton`
-- `mxgraph.aws4.q`
-- `mxgraph.aws4.quantum_ledger_database`
-- `mxgraph.aws4.quantum_technologies`
-- `mxgraph.aws4.question`
-- `mxgraph.aws4.queue`
-- `mxgraph.aws4.quicksight`
-- `mxgraph.aws4.quicksight_paginated_reports`
-- `mxgraph.aws4.r4_instance`
-- `mxgraph.aws4.r5_instance`
-- `mxgraph.aws4.r5a_instance`
-- `mxgraph.aws4.r5ad_instance`
-- `mxgraph.aws4.r5b_instance`
-- `mxgraph.aws4.r5d_instance`
-- `mxgraph.aws4.r5gd_instance`
-- `mxgraph.aws4.r5n`
-- `mxgraph.aws4.r5n_instance`
-- `mxgraph.aws4.r6g_instance`
-- `mxgraph.aws4.rdn_instance`
-- `mxgraph.aws4.rds`
-- `mxgraph.aws4.rds_blue_green_deployments`
-- `mxgraph.aws4.rds_instance`
-- `mxgraph.aws4.rds_instance_alt`
-- `mxgraph.aws4.rds_mariadb_instance`
-- `mxgraph.aws4.rds_mariadb_instance_alt`
-- `mxgraph.aws4.rds_multi_az`
-- `mxgraph.aws4.rds_multi_az_db_cluster`
-- `mxgraph.aws4.rds_mysql_instance`
-- `mxgraph.aws4.rds_mysql_instance_alt`
-- `mxgraph.aws4.rds_on_vmware`
-- `mxgraph.aws4.rds_optimized_writes`
-- `mxgraph.aws4.rds_oracle_instance`
-- `mxgraph.aws4.rds_oracle_instance_alt`
-- `mxgraph.aws4.rds_piop`
-- `mxgraph.aws4.rds_piops`
-- `mxgraph.aws4.rds_postgresql_instance`
-- `mxgraph.aws4.rds_postgresql_instance_alt`
-- `mxgraph.aws4.rds_proxy`
-- `mxgraph.aws4.rds_proxy_alt`
-- `mxgraph.aws4.rds_sql_server_instance`
-- `mxgraph.aws4.rds_sql_server_instance_alt`
-- `mxgraph.aws4.rds_trusted_language_extensions_for_postgresql`
-- `mxgraph.aws4.recover`
-- `mxgraph.aws4.red_hat_openshift`
-- `mxgraph.aws4.redshift`
-- `mxgraph.aws4.redshift_auto_copy`
-- `mxgraph.aws4.redshift_data_sharing_governance`
-- `mxgraph.aws4.redshift_ml`
-- `mxgraph.aws4.redshift_query_editor_v20_light`
-- `mxgraph.aws4.redshift_ra3`
-- `mxgraph.aws4.redshift_streaming_ingestion`
-- `mxgraph.aws4.registry`
-- `mxgraph.aws4.rekognition`
-- `mxgraph.aws4.rekognition_2`
-- `mxgraph.aws4.rekognition_image`
-- `mxgraph.aws4.rekognition_video`
-- `mxgraph.aws4.replication`
-- `mxgraph.aws4.replication_time_control`
-- `mxgraph.aws4.reported_state`
-- `mxgraph.aws4.repost`
-- `mxgraph.aws4.repost_private`
-- `mxgraph.aws4.rescue`
-- `mxgraph.aws4.reserved_instance_reporting`
-- `mxgraph.aws4.resilience_hub`
-- `mxgraph.aws4.resource`
-- `mxgraph.aws4.resource_access_manager`
-- `mxgraph.aws4.resource_explorer`
-- `mxgraph.aws4.resources`
-- `mxgraph.aws4.robomaker`
-- `mxgraph.aws4.robotics`
-- `mxgraph.aws4.role`
-- `mxgraph.aws4.route_53`
-- `mxgraph.aws4.route_53_application_recovery_controller`
-- `mxgraph.aws4.route_53_readiness_checks`
-- `mxgraph.aws4.route_53_resolver`
-- `mxgraph.aws4.route_53_resolver_dns_firewall`
-- `mxgraph.aws4.route_53_resolver_query_logging`
-- `mxgraph.aws4.route_53_routing_controls`
-- `mxgraph.aws4.route_table`
-- `mxgraph.aws4.router`
-- `mxgraph.aws4.rule`
-- `mxgraph.aws4.rule_2`
-- `mxgraph.aws4.rule_3`
-- `mxgraph.aws4.run_command`
-- `mxgraph.aws4.s3`
-- `mxgraph.aws4.s3_batch_operations`
-- `mxgraph.aws4.s3_express_one_zone`
-- `mxgraph.aws4.s3_file_gateway`
-- `mxgraph.aws4.s3_multi_region_access_points`
-- `mxgraph.aws4.s3_object_lambda`
-- `mxgraph.aws4.s3_object_lambda_access_points`
-- `mxgraph.aws4.s3_object_lock`
-- `mxgraph.aws4.s3_on_outposts`
-- `mxgraph.aws4.s3_on_outposts_storage`
-- `mxgraph.aws4.s3_replication_time_control`
-- `mxgraph.aws4.s3_select`
-- `mxgraph.aws4.s3_storage_lens`
-- `mxgraph.aws4.s3_tables`
-- `mxgraph.aws4.s3_vectors`
-- `mxgraph.aws4.saas_event_bus_resource`
-- `mxgraph.aws4.sagemaker`
-- `mxgraph.aws4.sagemaker_2`
-- `mxgraph.aws4.sagemaker_canvas`
-- `mxgraph.aws4.sagemaker_geospatial_ml`
-- `mxgraph.aws4.sagemaker_ground_truth`
-- `mxgraph.aws4.sagemaker_model`
-- `mxgraph.aws4.sagemaker_notebook`
-- `mxgraph.aws4.sagemaker_shadow_testing`
-- `mxgraph.aws4.sagemaker_studio_lab`
-- `mxgraph.aws4.sagemaker_train`
-- `mxgraph.aws4.saml_token`
-- `mxgraph.aws4.satellite`
-- `mxgraph.aws4.savings_plans`
-- `mxgraph.aws4.search_documents`
-- `mxgraph.aws4.secrets_manager`
-- `mxgraph.aws4.security_group`
-- `mxgraph.aws4.security_hub`
-- `mxgraph.aws4.security_hub_finding`
-- `mxgraph.aws4.security_identity_and_compliance`
-- `mxgraph.aws4.security_incident_response`
-- `mxgraph.aws4.security_lake`
-- `mxgraph.aws4.sensor`
-- `mxgraph.aws4.server_migration_service`
-- `mxgraph.aws4.serverless`
-- `mxgraph.aws4.serverless_application_repository`
-- `mxgraph.aws4.servers`
-- `mxgraph.aws4.service`
-- `mxgraph.aws4.service_catalog`
-- `mxgraph.aws4.service_management_connector`
-- `mxgraph.aws4.servo`
-- `mxgraph.aws4.shadow`
-- `mxgraph.aws4.shield`
-- `mxgraph.aws4.shield2`
-- `mxgraph.aws4.shield_shield_advanced`
-- `mxgraph.aws4.signer`
-- `mxgraph.aws4.simple_ad`
-- `mxgraph.aws4.simple_email_service`
-- `mxgraph.aws4.simple_storage_service_directory_bucket`
-- `mxgraph.aws4.simple_storage_service_s3_glacier_instant_retrieval`
-- `mxgraph.aws4.simspace_weaver`
-- `mxgraph.aws4.simulation`
-- `mxgraph.aws4.simulator`
-- `mxgraph.aws4.single_sign_on`
-- `mxgraph.aws4.site_to_site_vpn`
-- `mxgraph.aws4.snapshot`
-- `mxgraph.aws4.snowball`
-- `mxgraph.aws4.snowball_edge`
-- `mxgraph.aws4.snowcone`
-- `mxgraph.aws4.snowmobile`
-- `mxgraph.aws4.sns`
-- `mxgraph.aws4.source_code`
-- `mxgraph.aws4.spot_instance`
-- `mxgraph.aws4.sql_primary`
-- `mxgraph.aws4.sql_replica`
-- `mxgraph.aws4.sql_workbench`
-- `mxgraph.aws4.sqs`
-- `mxgraph.aws4.ssl_padlock`
-- `mxgraph.aws4.stack`
-- `mxgraph.aws4.stack2`
-- `mxgraph.aws4.standard_ia`
-- `mxgraph.aws4.state_manager`
-- `mxgraph.aws4.step_functions`
-- `mxgraph.aws4.storage`
-- `mxgraph.aws4.storage_gateway`
-- `mxgraph.aws4.streaming_distribution`
-- `mxgraph.aws4.sts`
-- `mxgraph.aws4.sts_alternate`
-- `mxgraph.aws4.sumerian`
-- `mxgraph.aws4.supply_chain`
-- `mxgraph.aws4.support`
-- `mxgraph.aws4.systems_manager`
-- `mxgraph.aws4.systems_manager_application_manager`
-- `mxgraph.aws4.systems_manager_change_calendar`
-- `mxgraph.aws4.systems_manager_change_manager`
-- `mxgraph.aws4.systems_manager_compliance`
-- `mxgraph.aws4.systems_manager_distributor`
-- `mxgraph.aws4.systems_manager_incident_manager`
-- `mxgraph.aws4.systems_manager_opscenter`
-- `mxgraph.aws4.systems_manager_session_manager`
-- `mxgraph.aws4.t2_instance`
-- `mxgraph.aws4.t3_instance`
-- `mxgraph.aws4.t3a_instance`
-- `mxgraph.aws4.t4g_instance`
-- `mxgraph.aws4.table`
-- `mxgraph.aws4.tape_gateway`
-- `mxgraph.aws4.tape_storage`
-- `mxgraph.aws4.telco_network_builder`
-- `mxgraph.aws4.template`
-- `mxgraph.aws4.temporary_security_credential`
-- `mxgraph.aws4.tensorflow_on_aws`
-- `mxgraph.aws4.textract`
-- `mxgraph.aws4.textract_analyze_lending`
-- `mxgraph.aws4.thermostat`
-- `mxgraph.aws4.thinkbox_deadline`
-- `mxgraph.aws4.thinkbox_draft`
-- `mxgraph.aws4.thinkbox_frost`
-- `mxgraph.aws4.thinkbox_krakatoa`
-- `mxgraph.aws4.thinkbox_sequoia`
-- `mxgraph.aws4.thinkbox_stoke`
-- `mxgraph.aws4.thinkbox_xmesh`
-- `mxgraph.aws4.timestream`
-- `mxgraph.aws4.tools_and_sdks`
-- `mxgraph.aws4.topic`
-- `mxgraph.aws4.topic_2`
-- `mxgraph.aws4.torchserve`
-- `mxgraph.aws4.traditional_server`
-- `mxgraph.aws4.training_certification`
-- `mxgraph.aws4.trainium_instance`
-- `mxgraph.aws4.transcribe`
-- `mxgraph.aws4.transfer_family`
-- `mxgraph.aws4.transfer_family_aws_as2`
-- `mxgraph.aws4.transfer_for_ftp_resource`
-- `mxgraph.aws4.transfer_for_ftps_resource`
-- `mxgraph.aws4.transfer_for_sftp`
-- `mxgraph.aws4.transfer_for_sftp_resource`
-- `mxgraph.aws4.transform`
-- `mxgraph.aws4.transit_gateway`
-- `mxgraph.aws4.transit_gateway_attachment`
-- `mxgraph.aws4.translate`
-- `mxgraph.aws4.travel`
-- `mxgraph.aws4.trusted_advisor`
-- `mxgraph.aws4.user`
-- `mxgraph.aws4.user_notifications`
-- `mxgraph.aws4.users`
-- `mxgraph.aws4.utility`
-- `mxgraph.aws4.vault`
-- `mxgraph.aws4.verified_access`
-- `mxgraph.aws4.verified_permissions`
-- `mxgraph.aws4.virtual_gateway`
-- `mxgraph.aws4.virtual_node`
-- `mxgraph.aws4.virtual_private_cloud`
-- `mxgraph.aws4.virtual_router`
-- `mxgraph.aws4.virtual_service`
-- `mxgraph.aws4.virtual_tape_library`
-- `mxgraph.aws4.vmware_cloud_on_aws`
-- `mxgraph.aws4.volume`
-- `mxgraph.aws4.volume_gateway`
-- `mxgraph.aws4.vpc`
-- `mxgraph.aws4.vpc_access_points`
-- `mxgraph.aws4.vpc_carrier_gateway`
-- `mxgraph.aws4.vpc_lattice`
-- `mxgraph.aws4.vpc_network_access_analyzer`
-- `mxgraph.aws4.vpc_privatelink`
-- `mxgraph.aws4.vpc_reachability_analyzer`
-- `mxgraph.aws4.vpc_traffic_mirroring`
-- `mxgraph.aws4.vpc_virtual_private_cloud_vpc`
-- `mxgraph.aws4.vpn_connection`
-- `mxgraph.aws4.vpn_gateway`
-- `mxgraph.aws4.waf`
-- `mxgraph.aws4.waf_bad_bot`
-- `mxgraph.aws4.waf_bot`
-- `mxgraph.aws4.waf_bot_control`
-- `mxgraph.aws4.waf_labels`
-- `mxgraph.aws4.waf_managed_rule`
-- `mxgraph.aws4.waf_rule`
-- `mxgraph.aws4.wavelength`
-- `mxgraph.aws4.well_architect_tool`
-- `mxgraph.aws4.well_architected_tool`
-- `mxgraph.aws4.wickr`
-- `mxgraph.aws4.windfarm`
-- `mxgraph.aws4.work_package`
-- `mxgraph.aws4.workdocs`
-- `mxgraph.aws4.worklink`
-- `mxgraph.aws4.workmail`
-- `mxgraph.aws4.workspaces`
-- `mxgraph.aws4.workspaces_family`
-- `mxgraph.aws4.workspaces_family_amazon_workspaces`
-- `mxgraph.aws4.workspaces_family_amazon_workspaces_core`
-- `mxgraph.aws4.workspaces_thin_client`
-- `mxgraph.aws4.workspaces_workspaces_web`
-- `mxgraph.aws4.x1_instance`
-- `mxgraph.aws4.x1_instance2`
-- `mxgraph.aws4.x1e_instance`
-- `mxgraph.aws4.xray`
-- `mxgraph.aws4.z1d_instance`
+- `mxgraph.aws4.a1_instance` (44×44)
+- `mxgraph.aws4.access_analyzer` (44×44)
+- `mxgraph.aws4.action` (44×44)
+- `mxgraph.aws4.activate` (53×56)
+- `mxgraph.aws4.actuator` (40×45)
+- `mxgraph.aws4.ad_connector` (44×41)
+- `mxgraph.aws4.addon` (44×23)
+- `mxgraph.aws4.agent` (45×42)
+- `mxgraph.aws4.agent2` (44×44)
+- `mxgraph.aws4.alarm` (44×44)
+- `mxgraph.aws4.alert` (43×38)
+- `mxgraph.aws4.alexa_enabled_device` (44×44)
+- `mxgraph.aws4.alexa_for_business` (46×55)
+- `mxgraph.aws4.alexa_skill` (44×44)
+- `mxgraph.aws4.alexa_smart_home_skill` (78×78)
+- `mxgraph.aws4.alexa_voice_service` (78×78)
+- `mxgraph.aws4.all_products` (56×56)
+- `mxgraph.aws4.ami` (44×44)
+- `mxgraph.aws4.amplify` (56×43)
+- `mxgraph.aws4.amplify_aws_amplify_studio` (44×40)
+- `mxgraph.aws4.analytics` (56×44)
+- `mxgraph.aws4.apache_mxnet_on_aws` (56×56)
+- `mxgraph.aws4.api_gateway` (56×56)
+- `mxgraph.aws4.app_config` (56×56)
+- `mxgraph.aws4.app_mesh` (46×54)
+- `mxgraph.aws4.app_runner` (56×56)
+- `mxgraph.aws4.app_studio` (48×57)
+- `mxgraph.aws4.app_wizard` (53×54)
+- `mxgraph.aws4.appfabric` (57×56)
+- `mxgraph.aws4.appflow` (56×42)
+- `mxgraph.aws4.application` (29×45)
+- `mxgraph.aws4.application_auto_scaling` (56×56)
+- `mxgraph.aws4.application_composer` (56×56)
+- `mxgraph.aws4.application_cost_profiler` (56×56)
+- `mxgraph.aws4.application_discovery_service` (56×56)
+- `mxgraph.aws4.application_discovery_service_aws_agentless_collector` (44×44)
+- `mxgraph.aws4.application_discovery_service_aws_discovery_agent` (44×36)
+- `mxgraph.aws4.application_discovery_service_migration_evaluator_collector` (44×44)
+- `mxgraph.aws4.application_integration` (56×56)
+- `mxgraph.aws4.application_load_balancer` (44×44)
+- `mxgraph.aws4.application_recovery_controller` (56×53)
+- `mxgraph.aws4.apps` (78×78)
+- `mxgraph.aws4.appstream_20` (56×56)
+- `mxgraph.aws4.appsync` (54×53)
+- `mxgraph.aws4.ar_vr` (56×32)
+- `mxgraph.aws4.archive` (35×44)
+- `mxgraph.aws4.artifact` (56×56)
+- `mxgraph.aws4.athena` (59×57)
+- `mxgraph.aws4.athena_data_source_connectors` (44×44)
+- `mxgraph.aws4.attribute` (44×44)
+- `mxgraph.aws4.attributes` (44×43)
+- `mxgraph.aws4.audit_manager` (56×56)
+- `mxgraph.aws4.augmented_ai` (56×57)
+- `mxgraph.aws4.aurora` (58×54)
+- `mxgraph.aws4.aurora_instance` (44×44)
+- `mxgraph.aws4.aurora_instance_alt` (44×44)
+- `mxgraph.aws4.authenticated_user` (44×44)
+- `mxgraph.aws4.auto_scaling` (55×56)
+- `mxgraph.aws4.auto_scaling2` (44×44)
+- `mxgraph.aws4.auto_scaling3` (50×50)
+- `mxgraph.aws4.automation` (44×44)
+- `mxgraph.aws4.autoscaling` (56×56)
+- `mxgraph.aws4.aws_backup_for_aws_cloudformation` (44×36)
+- `mxgraph.aws4.aws_backup_legal_hold` (44×44)
+- `mxgraph.aws4.aws_backup_support_for_amazon_fsx_for_netapp_ontap` (45×37)
+- `mxgraph.aws4.aws_backup_vault_lock` (44×44)
+- `mxgraph.aws4.aws_backup_virtual_machine_monitor` (39×44)
+- `mxgraph.aws4.aws_cloud` (78×78)
+- `mxgraph.aws4.aws_glue_data_quality` (44×44)
+- `mxgraph.aws4.aws_glue_for_ray` (44×44)
+- `mxgraph.aws4.aws_user_notifications` (55×48)
+- `mxgraph.aws4.b2b_data_interchange` (56×56)
+- `mxgraph.aws4.backint_agent` (55×55)
+- `mxgraph.aws4.backup` (56×56)
+- `mxgraph.aws4.backup_audit_manager` (44×44)
+- `mxgraph.aws4.backup_aws_backup_support_for_amazon_s3` (44×44)
+- `mxgraph.aws4.backup_aws_backup_support_for_vmware_workloads` (44×44)
+- `mxgraph.aws4.backup_backup_plan` (34×44)
+- `mxgraph.aws4.backup_backup_restore` (46×46)
+- `mxgraph.aws4.backup_compliance_reporting` (36×44)
+- `mxgraph.aws4.backup_compute` (44×43)
+- `mxgraph.aws4.backup_database` (44×43)
+- `mxgraph.aws4.backup_gateway` (44×43)
+- `mxgraph.aws4.backup_plan` (34×44)
+- `mxgraph.aws4.backup_recovery_point_objective` (44×44)
+- `mxgraph.aws4.backup_recovery_time_objective` (46×44)
+- `mxgraph.aws4.backup_restore` (46×46)
+- `mxgraph.aws4.backup_storage` (44×43)
+- `mxgraph.aws4.backup_vault` (44×44)
+- `mxgraph.aws4.backup_virtual_machine` (44×44)
+- `mxgraph.aws4.backup_virtual_machine_monitor` (39×44)
+- `mxgraph.aws4.bank` (44×44)
+- `mxgraph.aws4.batch` (56×55)
+- `mxgraph.aws4.bedrock` (56×56)
+- `mxgraph.aws4.blockchain` (55×17)
+- `mxgraph.aws4.blockchain_resource` (44×14)
+- `mxgraph.aws4.bottlerocket` (35×56)
+- `mxgraph.aws4.braket` (58×56)
+- `mxgraph.aws4.braket_chandelier` (30×44)
+- `mxgraph.aws4.braket_chip` (44×44)
+- `mxgraph.aws4.braket_embedded_simulator` (44×44)
+- `mxgraph.aws4.braket_managed_simulator` (44×44)
+- `mxgraph.aws4.braket_noise_simulator` (45×44)
+- `mxgraph.aws4.braket_qpu` (44×44)
+- `mxgraph.aws4.braket_simulator` (45×40)
+- `mxgraph.aws4.braket_simulator_1` (44×44)
+- `mxgraph.aws4.braket_simulator_2` (44×44)
+- `mxgraph.aws4.braket_simulator_3` (44×44)
+- `mxgraph.aws4.braket_simulator_4` (44×44)
+- `mxgraph.aws4.braket_state_vector` (44×40)
+- `mxgraph.aws4.braket_tensor_network` (44×44)
+- `mxgraph.aws4.bucket` (42×44)
+- `mxgraph.aws4.bucket_with_objects` (42×44)
+- `mxgraph.aws4.budgets` (59×62)
+- `mxgraph.aws4.budgets_2` (54×56)
+- `mxgraph.aws4.business_application` (56×56)
+- `mxgraph.aws4.bycicle` (44×44)
+- `mxgraph.aws4.c4_instance` (44×44)
+- `mxgraph.aws4.c5_instance` (44×44)
+- `mxgraph.aws4.c5a` (44×44)
+- `mxgraph.aws4.c5ad` (44×44)
+- `mxgraph.aws4.c5d` (44×44)
+- `mxgraph.aws4.c5n_instance` (44×44)
+- `mxgraph.aws4.c6g_instance` (44×44)
+- `mxgraph.aws4.c6gd` (44×44)
+- `mxgraph.aws4.cache_node` (44×44)
+- `mxgraph.aws4.cached_volume` (35×44)
+- `mxgraph.aws4.camera` (44×44)
+- `mxgraph.aws4.camera2` (44×35)
+- `mxgraph.aws4.car` (44×44)
+- `mxgraph.aws4.cart` (44×44)
+- `mxgraph.aws4.certificate_manager` (34×44)
+- `mxgraph.aws4.certificate_manager_2` (44×40)
+- `mxgraph.aws4.certificate_manager_3` (56×52)
+- `mxgraph.aws4.change_set` (37×44)
+- `mxgraph.aws4.chat` (44×39)
+- `mxgraph.aws4.chatbot` (56×57)
+- `mxgraph.aws4.checklist` (37×44)
+- `mxgraph.aws4.checklist_cost` (44×44)
+- `mxgraph.aws4.checklist_fault_tolerant` (44×44)
+- `mxgraph.aws4.checklist_performance` (44×44)
+- `mxgraph.aws4.checklist_security` (44×44)
+- `mxgraph.aws4.chime` (56×56)
+- `mxgraph.aws4.chime_sdk` (56×56)
+- `mxgraph.aws4.classic_load_balancer` (44×44)
+- `mxgraph.aws4.clean_rooms` (57×56)
+- `mxgraph.aws4.client` (44×43)
+- `mxgraph.aws4.client_vpn` (56×47)
+- `mxgraph.aws4.cloud9` (44×30)
+- `mxgraph.aws4.cloud_control_api` (56×45)
+- `mxgraph.aws4.cloud_development_kit` (56×56)
+- `mxgraph.aws4.cloud_digital_interface` (44×44)
+- `mxgraph.aws4.cloud_directory` (38×54)
+- `mxgraph.aws4.cloud_extension_ros` (44×44)
+- `mxgraph.aws4.cloud_map` (56×39)
+- `mxgraph.aws4.cloud_map_resource` (44×45)
+- `mxgraph.aws4.cloud_wan` (56×56)
+- `mxgraph.aws4.cloud_wan_segment_network` (44×44)
+- `mxgraph.aws4.cloud_wan_transit_gateway_route_table_attachment` (44×44)
+- `mxgraph.aws4.cloud_wan_virtual_pop` (44×44)
+- `mxgraph.aws4.cloudendure_disaster_recovery` (56×49)
+- `mxgraph.aws4.cloudendure_migration` (58×43)
+- `mxgraph.aws4.cloudformation` (56×49)
+- `mxgraph.aws4.cloudfront` (56×56)
+- `mxgraph.aws4.cloudfront_functions` (44×44)
+- `mxgraph.aws4.cloudhsm` (56×55)
+- `mxgraph.aws4.cloudsearch` (65×63)
+- `mxgraph.aws4.cloudsearch2` (65×63)
+- `mxgraph.aws4.cloudshell` (56×56)
+- `mxgraph.aws4.cloudtrail` (56×34)
+- `mxgraph.aws4.cloudtrail_cloudtrail_lake` (43×44)
+- `mxgraph.aws4.cloudwatch` (65×57)
+- `mxgraph.aws4.cloudwatch_2` (56×51)
+- `mxgraph.aws4.cloudwatch_cross_account_observability` (44×44)
+- `mxgraph.aws4.cloudwatch_data_protection` (44×39)
+- `mxgraph.aws4.cloudwatch_evidently` (44×44)
+- `mxgraph.aws4.cloudwatch_logs` (45×33)
+- `mxgraph.aws4.cloudwatch_metrics_insights` (43×44)
+- `mxgraph.aws4.cloudwatch_rum` (44×44)
+- `mxgraph.aws4.cloudwatch_synthetics` (44×43)
+- `mxgraph.aws4.cluster` (44×44)
+- `mxgraph.aws4.codeartifact` (55×56)
+- `mxgraph.aws4.codebuild` (58×56)
+- `mxgraph.aws4.codecatalyst` (56×56)
+- `mxgraph.aws4.codecommit` (57×56)
+- `mxgraph.aws4.codedeploy` (57×57)
+- `mxgraph.aws4.codeguru` (44×50)
+- `mxgraph.aws4.codeguru_2` (50×56)
+- `mxgraph.aws4.codepipeline` (55×55)
+- `mxgraph.aws4.codestar` (55×56)
+- `mxgraph.aws4.codewhisperer` (56×56)
+- `mxgraph.aws4.coffee_pot` (44×44)
+- `mxgraph.aws4.cognito` (56×52)
+- `mxgraph.aws4.cold_storage` (40×44)
+- `mxgraph.aws4.command_line_interface` (56×54)
+- `mxgraph.aws4.comprehend` (58×56)
+- `mxgraph.aws4.comprehend_medical` (56×56)
+- `mxgraph.aws4.compute` (55×55)
+- `mxgraph.aws4.compute_optimizer` (56×56)
+- `mxgraph.aws4.config` (54×54)
+- `mxgraph.aws4.connect` (57×51)
+- `mxgraph.aws4.connector` (44×16)
+- `mxgraph.aws4.contact_center` (52×56)
+- `mxgraph.aws4.container_1` (44×28)
+- `mxgraph.aws4.container_2` (44×28)
+- `mxgraph.aws4.container_3` (44×28)
+- `mxgraph.aws4.container_registry_image` (44×44)
+- `mxgraph.aws4.containers` (56×56)
+- `mxgraph.aws4.control_tower` (55×55)
+- `mxgraph.aws4.corporate_data_center` (53×78)
+- `mxgraph.aws4.corporate_data_center2` (17×25)
+- `mxgraph.aws4.corretto` (56×56)
+- `mxgraph.aws4.cost_and_usage_report` (54×52)
+- `mxgraph.aws4.cost_explorer` (55×53)
+- `mxgraph.aws4.cost_management` (46×56)
+- `mxgraph.aws4.credentials` (32×44)
+- `mxgraph.aws4.custom_billing_manager` (50×56)
+- `mxgraph.aws4.custom_event_bus_resource` (56×55)
+- `mxgraph.aws4.customer_enablement` (54×58)
+- `mxgraph.aws4.customer_engagement` (56×56)
+- `mxgraph.aws4.customer_gateway` (44×44)
+- `mxgraph.aws4.d2_instance` (44×44)
+- `mxgraph.aws4.d3_instance` (44×44)
+- `mxgraph.aws4.d3en_instance` (44×44)
+- `mxgraph.aws4.data_encryption_key` (35×44)
+- `mxgraph.aws4.data_exchange` (56×48)
+- `mxgraph.aws4.data_exchange_for_apis` (44×43)
+- `mxgraph.aws4.data_lake_resource_icon` (44×44)
+- `mxgraph.aws4.data_pipeline` (54×48)
+- `mxgraph.aws4.data_set` (35×44)
+- `mxgraph.aws4.data_stream` (44×44)
+- `mxgraph.aws4.data_table` (44×33)
+- `mxgraph.aws4.data_transfer_terminal` (56×56)
+- `mxgraph.aws4.database` (38×56)
+- `mxgraph.aws4.database_migration_service` (29×53)
+- `mxgraph.aws4.database_migration_workflow_job` (28×44)
+- `mxgraph.aws4.datasync` (56×47)
+- `mxgraph.aws4.datasync_discovery` (45×44)
+- `mxgraph.aws4.datazone` (56×56)
+- `mxgraph.aws4.datazone_business_data_catalog` (40×44)
+- `mxgraph.aws4.datazone_data_portal` (44×44)
+- `mxgraph.aws4.datazone_data_projects` (44×44)
+- `mxgraph.aws4.db_instance` (58×78)
+- `mxgraph.aws4.db_instance_read_replica` (58×78)
+- `mxgraph.aws4.db_instance_standby` (58×78)
+- `mxgraph.aws4.db_on_instance` (78×78)
+- `mxgraph.aws4.db_on_instance2` (43×44)
+- `mxgraph.aws4.deadline_cloud` (50×56)
+- `mxgraph.aws4.deep_learning_amis` (57×57)
+- `mxgraph.aws4.deep_learning_containers` (56×46)
+- `mxgraph.aws4.deepcomposer` (56×56)
+- `mxgraph.aws4.deeplens` (25×54)
+- `mxgraph.aws4.deepracer` (57×37)
+- `mxgraph.aws4.default_event_bus_resource` (56×45)
+- `mxgraph.aws4.dense_compute_node` (44×44)
+- `mxgraph.aws4.dense_storage_node` (44×44)
+- `mxgraph.aws4.deployment` (45×45)
+- `mxgraph.aws4.deployments` (37×44)
+- `mxgraph.aws4.desired_state` (44×44)
+- `mxgraph.aws4.desktop_and_app_streaming` (57×56)
+- `mxgraph.aws4.detective` (55×56)
+- `mxgraph.aws4.developer_tools` (57×57)
+- `mxgraph.aws4.development_environment` (44×40)
+- `mxgraph.aws4.device_farm` (48×56)
+- `mxgraph.aws4.devops_guru` (56×56)
+- `mxgraph.aws4.devops_guru_insights` (44×44)
+- `mxgraph.aws4.direct_connect` (56×57)
+- `mxgraph.aws4.directory_service` (53×40)
+- `mxgraph.aws4.disk` (44×44)
+- `mxgraph.aws4.distro_for_opentelemetry` (56×49)
+- `mxgraph.aws4.document` (32×44)
+- `mxgraph.aws4.documentdb_elastic_clusters` (44×44)
+- `mxgraph.aws4.documentdb_with_mongodb_compatibility` (51×57)
+- `mxgraph.aws4.documents` (36×44)
+- `mxgraph.aws4.documents2` (38×44)
+- `mxgraph.aws4.documents3` (34×44)
+- `mxgraph.aws4.door_lock` (44×44)
+- `mxgraph.aws4.download_distribution` (44×44)
+- `mxgraph.aws4.dynamodb` (48×56)
+- `mxgraph.aws4.dynamodb_dax` (44×43)
+- `mxgraph.aws4.dynamodb_standard_access_table_class` (43×44)
+- `mxgraph.aws4.dynamodb_standard_infrequent_access_table_class` (41×44)
+- `mxgraph.aws4.dynamodb_stream` (44×44)
+- `mxgraph.aws4.ec2` (56×56)
+- `mxgraph.aws4.ec2_aws_microservice_extractor_for_net` (44×44)
+- `mxgraph.aws4.ec2_c6a_instance` (44×44)
+- `mxgraph.aws4.ec2_c6gn_instance` (44×44)
+- `mxgraph.aws4.ec2_c6i_instance` (44×44)
+- `mxgraph.aws4.ec2_c6in_instance` (44×44)
+- `mxgraph.aws4.ec2_c7g_instance` (44×44)
+- `mxgraph.aws4.ec2_c7gn_instance` (44×44)
+- `mxgraph.aws4.ec2_dl1_instance` (44×44)
+- `mxgraph.aws4.ec2_g5_instance` (44×44)
+- `mxgraph.aws4.ec2_g5g_instance` (44×44)
+- `mxgraph.aws4.ec2_hpc6a_instance` (44×44)
+- `mxgraph.aws4.ec2_hpc6id_instance` (44×44)
+- `mxgraph.aws4.ec2_i4i_instance` (44×44)
+- `mxgraph.aws4.ec2_im4gn_instance` (44×44)
+- `mxgraph.aws4.ec2_image_builder` (57×52)
+- `mxgraph.aws4.ec2_inf2_instance` (44×44)
+- `mxgraph.aws4.ec2_instance_contents` (24×24)
+- `mxgraph.aws4.ec2_is4gen_instance` (44×44)
+- `mxgraph.aws4.ec2_m1_mac_instance` (44×44)
+- `mxgraph.aws4.ec2_m6a_instance` (44×44)
+- `mxgraph.aws4.ec2_m6i_instance` (44×44)
+- `mxgraph.aws4.ec2_m6idn_instance` (44×44)
+- `mxgraph.aws4.ec2_m6in_instance` (44×44)
+- `mxgraph.aws4.ec2_p4de_instance` (44×44)
+- `mxgraph.aws4.ec2_r6a_instance` (44×44)
+- `mxgraph.aws4.ec2_r6i_instance` (44×44)
+- `mxgraph.aws4.ec2_r6idn_instance` (44×44)
+- `mxgraph.aws4.ec2_r6in_instance` (44×44)
+- `mxgraph.aws4.ec2_r7iz_instance` (44×44)
+- `mxgraph.aws4.ec2_trn1_instance` (44×44)
+- `mxgraph.aws4.ec2_vt1_instance` (44×44)
+- `mxgraph.aws4.ec2_x2gd_instance` (44×44)
+- `mxgraph.aws4.ec2_x2idn_instance` (44×44)
+- `mxgraph.aws4.ec2_x2iedn_instance` (44×44)
+- `mxgraph.aws4.ec2_x2iezn_instance` (44×44)
+- `mxgraph.aws4.echo` (23×44)
+- `mxgraph.aws4.ecr` (51×57)
+- `mxgraph.aws4.ecs` (51×57)
+- `mxgraph.aws4.ecs_anywhere` (40×44)
+- `mxgraph.aws4.ecs_copilot_cli` (44×41)
+- `mxgraph.aws4.ecs_service` (36×44)
+- `mxgraph.aws4.ecs_service_connect` (44×40)
+- `mxgraph.aws4.ecs_task` (34×44)
+- `mxgraph.aws4.edge_location` (44×44)
+- `mxgraph.aws4.efs_infrequentaccess` (48×50)
+- `mxgraph.aws4.efs_standard` (50×51)
+- `mxgraph.aws4.eks` (51×57)
+- `mxgraph.aws4.eks_anywhere` (56×56)
+- `mxgraph.aws4.eks_cloud` (56×56)
+- `mxgraph.aws4.eks_distro` (56×56)
+- `mxgraph.aws4.eks_on_outposts` (44×44)
+- `mxgraph.aws4.elastic_beanstalk` (53×48)
+- `mxgraph.aws4.elastic_block_store` (56×56)
+- `mxgraph.aws4.elastic_block_store_amazon_data_lifecycle_manager` (42×44)
+- `mxgraph.aws4.elastic_block_store_volume_gp3` (36×44)
+- `mxgraph.aws4.elastic_fabric_adapter` (56×46)
+- `mxgraph.aws4.elastic_file_system` (56×56)
+- `mxgraph.aws4.elastic_file_system_elastic_throughput` (44×43)
+- `mxgraph.aws4.elastic_file_system_infrequent_access` (44×43)
+- `mxgraph.aws4.elastic_file_system_intelligent_tiering` (44×43)
+- `mxgraph.aws4.elastic_file_system_one_zone` (44×44)
+- `mxgraph.aws4.elastic_file_system_one_zone_infrequent_access` (44×44)
+- `mxgraph.aws4.elastic_file_system_one_zone_standard` (44×44)
+- `mxgraph.aws4.elastic_file_system_standard` (44×44)
+- `mxgraph.aws4.elastic_file_system_standard_infrequent_access` (44×43)
+- `mxgraph.aws4.elastic_inference` (49×47)
+- `mxgraph.aws4.elastic_inference_2` (56×55)
+- `mxgraph.aws4.elastic_ip_address` (44×18)
+- `mxgraph.aws4.elastic_load_balancing` (50×50)
+- `mxgraph.aws4.elastic_network_adapter` (44×44)
+- `mxgraph.aws4.elastic_network_interface` (44×44)
+- `mxgraph.aws4.elastic_transcoder` (56×59)
+- `mxgraph.aws4.elastic_vmware_service` (56×56)
+- `mxgraph.aws4.elasticache` (56×53)
+- `mxgraph.aws4.elasticache_for_memcached` (44×41)
+- `mxgraph.aws4.elasticache_for_redis` (44×41)
+- `mxgraph.aws4.elasticache_for_valkey` (44×41)
+- `mxgraph.aws4.elasticsearch_service` (54×54)
+- `mxgraph.aws4.elemental` (56×48)
+- `mxgraph.aws4.elemental_link` (50×56)
+- `mxgraph.aws4.elemental_mediaconnect` (46×54)
+- `mxgraph.aws4.elemental_mediaconvert` (48×54)
+- `mxgraph.aws4.elemental_medialive` (48×55)
+- `mxgraph.aws4.elemental_mediapackage` (48×55)
+- `mxgraph.aws4.elemental_mediastore` (48×54)
+- `mxgraph.aws4.elemental_mediatailor` (46×51)
+- `mxgraph.aws4.email` (44×39)
+- `mxgraph.aws4.email_2` (44×27)
+- `mxgraph.aws4.email_notification` (44×44)
+- `mxgraph.aws4.emr` (57×56)
+- `mxgraph.aws4.emr_engine` (44×34)
+- `mxgraph.aws4.emr_engine_mapr_m3` (78×59)
+- `mxgraph.aws4.emr_engine_mapr_m5` (78×59)
+- `mxgraph.aws4.emr_engine_mapr_m7` (78×59)
+- `mxgraph.aws4.encrypted_data` (35×44)
+- `mxgraph.aws4.end_user_messaging` (56×54)
+- `mxgraph.aws4.endpoint` (44×44)
+- `mxgraph.aws4.endpoints` (44×44)
+- `mxgraph.aws4.entity_resolution` (56×56)
+- `mxgraph.aws4.event` (44×43)
+- `mxgraph.aws4.event_event_based` (44×44)
+- `mxgraph.aws4.event_resource` (49×48)
+- `mxgraph.aws4.event_time_based` (44×44)
+- `mxgraph.aws4.eventbridge` (54×56)
+- `mxgraph.aws4.eventbridge_custom_event_bus_resource` (44×39)
+- `mxgraph.aws4.eventbridge_default_event_bus_resource` (44×30)
+- `mxgraph.aws4.eventbridge_pipes` (44×44)
+- `mxgraph.aws4.eventbridge_saas_partner_event_bus_resource` (43×43)
+- `mxgraph.aws4.eventbridge_scheduler` (44×43)
+- `mxgraph.aws4.eventbridge_schema` (44×44)
+- `mxgraph.aws4.eventbridge_schema_registry` (44×44)
+- `mxgraph.aws4.express_workflow` (58×56)
+- `mxgraph.aws4.external_sdk` (38×44)
+- `mxgraph.aws4.external_toolkit` (38×44)
+- `mxgraph.aws4.f1_instance` (44×44)
+- `mxgraph.aws4.factory` (44×44)
+- `mxgraph.aws4.fargate` (50×51)
+- `mxgraph.aws4.fault_injection_simulator` (56×57)
+- `mxgraph.aws4.file_cache` (56×56)
+- `mxgraph.aws4.file_cache_hybrid_nfs_linked_datasets` (44×44)
+- `mxgraph.aws4.file_cache_on_premises_nfs_linked_datasets` (44×44)
+- `mxgraph.aws4.file_cache_s3_linked_datasets` (44×44)
+- `mxgraph.aws4.file_gateway` (39×44)
+- `mxgraph.aws4.file_system` (44×41)
+- `mxgraph.aws4.filtering_rule` (44×44)
+- `mxgraph.aws4.finding` (41×44)
+- `mxgraph.aws4.finspace` (56×55)
+- `mxgraph.aws4.firetv` (44×31)
+- `mxgraph.aws4.firetv_stick` (44×19)
+- `mxgraph.aws4.firewall_manager` (56×53)
+- `mxgraph.aws4.fleet_management` (43×44)
+- `mxgraph.aws4.flow_logs` (44×44)
+- `mxgraph.aws4.folder` (44×40)
+- `mxgraph.aws4.folders` (44×40)
+- `mxgraph.aws4.forecast` (56×51)
+- `mxgraph.aws4.forums` (44×43)
+- `mxgraph.aws4.fraud_detector` (56×56)
+- `mxgraph.aws4.freertos` (56×53)
+- `mxgraph.aws4.fsx` (54×29)
+- `mxgraph.aws4.fsx_file_gateway` (44×44)
+- `mxgraph.aws4.fsx_for_lustre` (53×19)
+- `mxgraph.aws4.fsx_for_netapp_ontap` (56×33)
+- `mxgraph.aws4.fsx_for_openzfs` (56×30)
+- `mxgraph.aws4.fsx_for_windows_file_server` (56×28)
+- `mxgraph.aws4.g3_instance` (44×44)
+- `mxgraph.aws4.g4ad_instance` (44×44)
+- `mxgraph.aws4.g4dn` (44×44)
+- `mxgraph.aws4.game_tech` (51×48)
+- `mxgraph.aws4.game_tech2` (56×39)
+- `mxgraph.aws4.gamekit` (55×51)
+- `mxgraph.aws4.gamelift` (56×56)
+- `mxgraph.aws4.gamelift_2` (56×56)
+- `mxgraph.aws4.gamelift_streams` (56×56)
+- `mxgraph.aws4.games` (56×39)
+- `mxgraph.aws4.gamesparks` (56×56)
+- `mxgraph.aws4.gateway` (43×44)
+- `mxgraph.aws4.gateway_load_balancer` (44×44)
+- `mxgraph.aws4.gear` (44×44)
+- `mxgraph.aws4.general` (45×52)
+- `mxgraph.aws4.general_access_points` (36×44)
+- `mxgraph.aws4.generic` (44×44)
+- `mxgraph.aws4.generic_application` (44×44)
+- `mxgraph.aws4.generic_database` (35×44)
+- `mxgraph.aws4.generic_firewall` (45×38)
+- `mxgraph.aws4.genomics_cli` (56×56)
+- `mxgraph.aws4.git_repository` (34×44)
+- `mxgraph.aws4.glacier` (42×44)
+- `mxgraph.aws4.glacier_deep_archive` (42×44)
+- `mxgraph.aws4.global_accelerator` (45×56)
+- `mxgraph.aws4.global_secondary_index` (44×44)
+- `mxgraph.aws4.globe` (43×43)
+- `mxgraph.aws4.glue` (32×54)
+- `mxgraph.aws4.glue_crawlers` (44×44)
+- `mxgraph.aws4.glue_data_catalog` (40×44)
+- `mxgraph.aws4.glue_databrew` (56×56)
+- `mxgraph.aws4.glue_elastic_views` (56×56)
+- `mxgraph.aws4.greengrass` (50×50)
+- `mxgraph.aws4.ground_station` (42×54)
+- `mxgraph.aws4.group_account` (100×100)
+- `mxgraph.aws4.group_auto_scaling_group` (100×100)
+- `mxgraph.aws4.group_availability_zone` (100×100)
+- `mxgraph.aws4.group_aws_cloud` (100×100)
+- `mxgraph.aws4.group_aws_cloud_alt` (35×35)
+- `mxgraph.aws4.group_aws_step_functions_workflow` (378×378)
+- `mxgraph.aws4.group_corporate_data_center` (35×35)
+- `mxgraph.aws4.group_ec2_instance_contents` (35×35)
+- `mxgraph.aws4.group_elastic_beanstalk` (100×100)
+- `mxgraph.aws4.group_elastic_load_balancing` (378×378)
+- `mxgraph.aws4.group_iot_greengrass` (378×378)
+- `mxgraph.aws4.group_iot_greengrass_deployment` (378×378)
+- `mxgraph.aws4.group_on_premise` (100×100)
+- `mxgraph.aws4.group_region` (378×378)
+- `mxgraph.aws4.group_security_group` (35×35)
+- `mxgraph.aws4.group_spot_fleet` (100×100)
+- `mxgraph.aws4.group_subnet` (378×378)
+- `mxgraph.aws4.group_vpc` (378×378)
+- `mxgraph.aws4.group_vpc2` (400×400)
+- `mxgraph.aws4.guardduty` (56×56)
+- `mxgraph.aws4.h1_instance` (44×44)
+- `mxgraph.aws4.habana_gaudi` (44×44)
+- `mxgraph.aws4.hardware_board` (44×44)
+- `mxgraph.aws4.hdfs_cluster` (44×44)
+- `mxgraph.aws4.healthimaging` (55×57)
+- `mxgraph.aws4.healthlake` (56×56)
+- `mxgraph.aws4.healthscribe` (55×56)
+- `mxgraph.aws4.high_memory_instance` (44×44)
+- `mxgraph.aws4.honeycode` (48×56)
+- `mxgraph.aws4.hosted_zone` (43×44)
+- `mxgraph.aws4.house` (44×44)
+- `mxgraph.aws4.http2_protocol` (44×44)
+- `mxgraph.aws4.http_notification` (44×44)
+- `mxgraph.aws4.http_protocol` (44×44)
+- `mxgraph.aws4.i2` (44×44)
+- `mxgraph.aws4.i3_instance` (44×44)
+- `mxgraph.aws4.i3en` (44×44)
+- `mxgraph.aws4.identity_access_management_iam_roles_anywhere` (44×44)
+- `mxgraph.aws4.identity_and_access_management` (56×42)
+- `mxgraph.aws4.illustration_desktop` (100×91)
+- `mxgraph.aws4.illustration_devices` (100×73)
+- `mxgraph.aws4.illustration_notification` (257×209)
+- `mxgraph.aws4.illustration_office_building` (100×71)
+- `mxgraph.aws4.illustration_users` (100×100)
+- `mxgraph.aws4.import_export` (44×34)
+- `mxgraph.aws4.inf1` (44×44)
+- `mxgraph.aws4.inferentia` (44×44)
+- `mxgraph.aws4.infrequent_access_storage_class` (54×56)
+- `mxgraph.aws4.inspector` (57×53)
+- `mxgraph.aws4.instance` (78×78)
+- `mxgraph.aws4.instance2` (44×44)
+- `mxgraph.aws4.instance_with_cloudwatch` (78×78)
+- `mxgraph.aws4.instance_with_cloudwatch2` (48×48)
+- `mxgraph.aws4.instances` (44×44)
+- `mxgraph.aws4.instances_2` (44×44)
+- `mxgraph.aws4.intelligent_tiering` (42×44)
+- `mxgraph.aws4.interactive_video` (56×57)
+- `mxgraph.aws4.internet` (44×28)
+- `mxgraph.aws4.internet_alt1` (44×28)
+- `mxgraph.aws4.internet_alt2` (79×76)
+- `mxgraph.aws4.internet_alt22` (44×44)
+- `mxgraph.aws4.internet_gateway` (44×44)
+- `mxgraph.aws4.internet_of_things` (56×56)
+- `mxgraph.aws4.inventory` (44×44)
+- `mxgraph.aws4.iot_1click` (50×50)
+- `mxgraph.aws4.iot_analytics` (50×50)
+- `mxgraph.aws4.iot_analytics_channel` (37×44)
+- `mxgraph.aws4.iot_analytics_data_store` (29×44)
+- `mxgraph.aws4.iot_analytics_dataset` (35×44)
+- `mxgraph.aws4.iot_analytics_pipeline` (44×24)
+- `mxgraph.aws4.iot_button` (54×50)
+- `mxgraph.aws4.iot_core` (50×48)
+- `mxgraph.aws4.iot_core_device_advisor` (44×45)
+- `mxgraph.aws4.iot_core_device_location` (44×44)
+- `mxgraph.aws4.iot_device_defender` (46×54)
+- `mxgraph.aws4.iot_device_defender_iot_device_jobs` (36×44)
+- `mxgraph.aws4.iot_device_gateway` (44×41)
+- `mxgraph.aws4.iot_device_jobs_resource` (36×44)
+- `mxgraph.aws4.iot_device_management` (49×56)
+- `mxgraph.aws4.iot_device_management_fleet` (44×44)
+- `mxgraph.aws4.iot_device_tester` (44×44)
+- `mxgraph.aws4.iot_edukit` (56×56)
+- `mxgraph.aws4.iot_events` (54×42)
+- `mxgraph.aws4.iot_expresslink` (56×57)
+- `mxgraph.aws4.iot_fleetwise` (56×57)
+- `mxgraph.aws4.iot_greengrass_artifact` (39×44)
+- `mxgraph.aws4.iot_greengrass_component` (44×44)
+- `mxgraph.aws4.iot_greengrass_component_machine_learning` (44×44)
+- `mxgraph.aws4.iot_greengrass_component_nucleus` (44×44)
+- `mxgraph.aws4.iot_greengrass_component_private` (44×44)
+- `mxgraph.aws4.iot_greengrass_component_public` (44×44)
+- `mxgraph.aws4.iot_greengrass_interprocess_communication` (44×44)
+- `mxgraph.aws4.iot_greengrass_protocol` (44×44)
+- `mxgraph.aws4.iot_greengrass_recipe` (31×44)
+- `mxgraph.aws4.iot_greengrass_stream_manager` (44×34)
+- `mxgraph.aws4.iot_lorawan_protocol` (44×44)
+- `mxgraph.aws4.iot_over_the_air_update` (44×36)
+- `mxgraph.aws4.iot_roborunner` (56×56)
+- `mxgraph.aws4.iot_sailboat` (44×44)
+- `mxgraph.aws4.iot_sitewise` (52×41)
+- `mxgraph.aws4.iot_sitewise_asset` (43×44)
+- `mxgraph.aws4.iot_sitewise_asset_hierarchy` (44×44)
+- `mxgraph.aws4.iot_sitewise_asset_model` (43×43)
+- `mxgraph.aws4.iot_sitewise_asset_properties` (44×44)
+- `mxgraph.aws4.iot_sitewise_data_streams` (44×44)
+- `mxgraph.aws4.iot_thing_freertos_device` (44×44)
+- `mxgraph.aws4.iot_thing_humidity_sensor` (44×44)
+- `mxgraph.aws4.iot_thing_industrial_pc` (44×44)
+- `mxgraph.aws4.iot_thing_plc` (44×44)
+- `mxgraph.aws4.iot_thing_relay` (44×44)
+- `mxgraph.aws4.iot_thing_stacklight` (44×44)
+- `mxgraph.aws4.iot_thing_temperature_humidity_sensor` (44×44)
+- `mxgraph.aws4.iot_thing_temperature_sensor` (44×44)
+- `mxgraph.aws4.iot_thing_temperature_vibration_sensor` (44×44)
+- `mxgraph.aws4.iot_thing_vibration_sensor` (44×44)
+- `mxgraph.aws4.iot_things_graph` (55×52)
+- `mxgraph.aws4.iot_twinmaker` (56×57)
+- `mxgraph.aws4.iq` (56×55)
+- `mxgraph.aws4.item` (44×44)
+- `mxgraph.aws4.items` (44×43)
+- `mxgraph.aws4.json_script` (32×44)
+- `mxgraph.aws4.kendra` (64×63)
+- `mxgraph.aws4.key_management_service` (52×50)
+- `mxgraph.aws4.key_management_service_external_key_store` (44×45)
+- `mxgraph.aws4.keyspaces` (56×59)
+- `mxgraph.aws4.kinesis` (54×56)
+- `mxgraph.aws4.kinesis_data_analytics` (54×56)
+- `mxgraph.aws4.kinesis_data_firehose` (53×50)
+- `mxgraph.aws4.kinesis_data_streams` (54×56)
+- `mxgraph.aws4.kinesis_video_streams` (54×56)
+- `mxgraph.aws4.lake_formation` (48×54)
+- `mxgraph.aws4.lambda` (54×56)
+- `mxgraph.aws4.lambda_function` (44×44)
+- `mxgraph.aws4.layers` (44×44)
+- `mxgraph.aws4.lex` (53×52)
+- `mxgraph.aws4.license_manager` (38×54)
+- `mxgraph.aws4.license_manager_application_discovery` (44×44)
+- `mxgraph.aws4.license_manager_license_blending` (44×44)
+- `mxgraph.aws4.lightbulb` (44×44)
+- `mxgraph.aws4.lightsail` (53×46)
+- `mxgraph.aws4.lightsail_for_research` (56×57)
+- `mxgraph.aws4.local_zones` (42×57)
+- `mxgraph.aws4.location_service` (56×56)
+- `mxgraph.aws4.location_service_geofence` (44×44)
+- `mxgraph.aws4.location_service_map` (44×44)
+- `mxgraph.aws4.location_service_place` (34×44)
+- `mxgraph.aws4.location_service_routes` (44×44)
+- `mxgraph.aws4.location_service_track` (44×44)
+- `mxgraph.aws4.logs` (32×44)
+- `mxgraph.aws4.long_term_security_credential` (44×39)
+- `mxgraph.aws4.lookout_for_equipment` (56×56)
+- `mxgraph.aws4.lookout_for_metrics` (56×56)
+- `mxgraph.aws4.lookout_for_vision` (56×55)
+- `mxgraph.aws4.lumberyard` (56×38)
+- `mxgraph.aws4.m4_instance` (44×44)
+- `mxgraph.aws4.m5_instance` (44×44)
+- `mxgraph.aws4.m5a_instance` (44×44)
+- `mxgraph.aws4.m5d_instance` (44×44)
+- `mxgraph.aws4.m5dn_instance` (44×44)
+- `mxgraph.aws4.m5n` (56×56)
+- `mxgraph.aws4.m5n_instance` (44×44)
+- `mxgraph.aws4.m5zn_instance` (44×44)
+- `mxgraph.aws4.m6g_instance` (44×44)
+- `mxgraph.aws4.m6gd_instance` (44×44)
+- `mxgraph.aws4.mac_instance` (44×44)
+- `mxgraph.aws4.machine_learning` (56×56)
+- `mxgraph.aws4.macie` (57×24)
+- `mxgraph.aws4.magnifying_glass` (45×44)
+- `mxgraph.aws4.magnifying_glass_2` (44×44)
+- `mxgraph.aws4.mainframe_modernization` (56×56)
+- `mxgraph.aws4.mainframe_modernization_analyzer` (44×44)
+- `mxgraph.aws4.mainframe_modernization_compiler` (44×44)
+- `mxgraph.aws4.mainframe_modernization_converter` (44×44)
+- `mxgraph.aws4.mainframe_modernization_developer` (43×42)
+- `mxgraph.aws4.mainframe_modernization_runtime` (44×25)
+- `mxgraph.aws4.maintenance_windows` (44×44)
+- `mxgraph.aws4.managed_apache_cassandra_service` (56×59)
+- `mxgraph.aws4.managed_blockchain` (55×36)
+- `mxgraph.aws4.managed_ms_ad` (44×43)
+- `mxgraph.aws4.managed_service_for_apache_flink` (52×51)
+- `mxgraph.aws4.managed_service_for_grafana` (56×56)
+- `mxgraph.aws4.managed_service_for_prometheus` (38×56)
+- `mxgraph.aws4.managed_services` (52×49)
+- `mxgraph.aws4.managed_streaming_for_kafka` (52×51)
+- `mxgraph.aws4.managed_workflows_for_apache_airflow` (56×56)
+- `mxgraph.aws4.management_and_governance` (56×56)
+- `mxgraph.aws4.management_console` (56×56)
+- `mxgraph.aws4.management_console2` (44×39)
+- `mxgraph.aws4.marketplace` (49×50)
+- `mxgraph.aws4.media_services` (56×44)
+- `mxgraph.aws4.mediaconnect_gateway` (44×45)
+- `mxgraph.aws4.medical_emergency` (44×44)
+- `mxgraph.aws4.memorydb_for_redis` (56×56)
+- `mxgraph.aws4.mesh` (43×44)
+- `mxgraph.aws4.message` (38×44)
+- `mxgraph.aws4.metrics` (43×39)
+- `mxgraph.aws4.mfa_token` (44×44)
+- `mxgraph.aws4.migration_and_transfer` (56×55)
+- `mxgraph.aws4.migration_evaluator` (55×55)
+- `mxgraph.aws4.migration_hub` (49×52)
+- `mxgraph.aws4.migration_hub_refactor_spaces_applications` (44×44)
+- `mxgraph.aws4.migration_hub_refactor_spaces_environments` (44×44)
+- `mxgraph.aws4.migration_hub_refactor_spaces_services` (44×44)
+- `mxgraph.aws4.mobile` (56×56)
+- `mxgraph.aws4.mobile_application` (53×56)
+- `mxgraph.aws4.mobile_client` (24×44)
+- `mxgraph.aws4.mobile_hub` (63×66)
+- `mxgraph.aws4.monitoring` (44×33)
+- `mxgraph.aws4.monitron` (56×56)
+- `mxgraph.aws4.mq` (53×46)
+- `mxgraph.aws4.mq_broker` (44×39)
+- `mxgraph.aws4.mqtt_protocol` (44×44)
+- `mxgraph.aws4.ms_sql_instance` (78×78)
+- `mxgraph.aws4.ms_sql_instance_alternate` (78×78)
+- `mxgraph.aws4.msk_amazon_msk_connect` (44×43)
+- `mxgraph.aws4.multimedia` (44×41)
+- `mxgraph.aws4.multiple_volumes_resource` (44×34)
+- `mxgraph.aws4.mysql_db_instance` (78×78)
+- `mxgraph.aws4.mysql_db_instance_alternate` (78×78)
+- `mxgraph.aws4.namespace` (44×44)
+- `mxgraph.aws4.nat_gateway` (44×44)
+- `mxgraph.aws4.neptune` (55×55)
+- `mxgraph.aws4.network_access_control_list` (44×44)
+- `mxgraph.aws4.network_firewall` (56×57)
+- `mxgraph.aws4.network_firewall_endpoints` (44×44)
+- `mxgraph.aws4.network_load_balancer` (44×44)
+- `mxgraph.aws4.networking_and_content_delivery` (52×56)
+- `mxgraph.aws4.neuron_ml_sdk` (48×56)
+- `mxgraph.aws4.nice_dcv` (57×57)
+- `mxgraph.aws4.nice_enginframe` (56×48)
+- `mxgraph.aws4.nimble_studio` (56×55)
+- `mxgraph.aws4.nitro_enclaves` (48×56)
+- `mxgraph.aws4.non_cached_volume` (35×44)
+- `mxgraph.aws4.notebook` (39×44)
+- `mxgraph.aws4.nova` (56×56)
+- `mxgraph.aws4.nova2` (56×56)
+- `mxgraph.aws4.object` (44×44)
+- `mxgraph.aws4.office_building` (28×45)
+- `mxgraph.aws4.omics` (56×56)
+- `mxgraph.aws4.one_zone_ia` (42×44)
+- `mxgraph.aws4.open_3d_engine` (56×55)
+- `mxgraph.aws4.open_3d_engine_2` (56×56)
+- `mxgraph.aws4.opensearch_dashboards` (44×33)
+- `mxgraph.aws4.opensearch_ingestion` (44×44)
+- `mxgraph.aws4.opensearch_observability` (44×44)
+- `mxgraph.aws4.opensearch_service_cluster_administrator_node` (44×44)
+- `mxgraph.aws4.opensearch_service_data_node` (44×44)
+- `mxgraph.aws4.opensearch_service_index` (44×44)
+- `mxgraph.aws4.opensearch_service_traces` (44×44)
+- `mxgraph.aws4.opensearch_service_ultrawarm_node` (44×44)
+- `mxgraph.aws4.opsworks` (48×53)
+- `mxgraph.aws4.opsworks_apps` (44×44)
+- `mxgraph.aws4.opsworks_permissions` (31×44)
+- `mxgraph.aws4.optimized_instance` (78×78)
+- `mxgraph.aws4.oracle_database_at_aws` (52×56)
+- `mxgraph.aws4.oracle_db_instance` (78×78)
+- `mxgraph.aws4.oracle_db_instance_alternate` (78×78)
+- `mxgraph.aws4.organizations` (50×50)
+- `mxgraph.aws4.organizations_account` (43×46)
+- `mxgraph.aws4.organizations_account2` (44×44)
+- `mxgraph.aws4.organizations_management_account` (44×44)
+- `mxgraph.aws4.organizations_management_account2` (44×44)
+- `mxgraph.aws4.organizations_organizational_unit` (48×41)
+- `mxgraph.aws4.organizations_organizational_unit2` (44×44)
+- `mxgraph.aws4.outposts` (31×51)
+- `mxgraph.aws4.outposts_1u_and_2u_servers` (56×37)
+- `mxgraph.aws4.outposts_family` (56×56)
+- `mxgraph.aws4.p2_instance` (44×44)
+- `mxgraph.aws4.p3_instance` (44×44)
+- `mxgraph.aws4.p3dn_instance` (44×44)
+- `mxgraph.aws4.p4_instance` (44×44)
+- `mxgraph.aws4.p4d_instance` (44×44)
+- `mxgraph.aws4.panorama` (56×56)
+- `mxgraph.aws4.parallel_cluster` (57×48)
+- `mxgraph.aws4.parallel_computing_service` (56×48)
+- `mxgraph.aws4.parameter_store` (42×44)
+- `mxgraph.aws4.patch_manager` (44×44)
+- `mxgraph.aws4.payment_cryptography` (56×56)
+- `mxgraph.aws4.peering` (44×44)
+- `mxgraph.aws4.permissions` (35×44)
+- `mxgraph.aws4.permissions_2` (53×76)
+- `mxgraph.aws4.personal_health_dashboard` (54×52)
+- `mxgraph.aws4.personalize` (51×52)
+- `mxgraph.aws4.pinpoint` (48×48)
+- `mxgraph.aws4.pinpoint_journey` (42×41)
+- `mxgraph.aws4.police_emergency` (44×44)
+- `mxgraph.aws4.policy` (44×38)
+- `mxgraph.aws4.polly` (54×54)
+- `mxgraph.aws4.postgresql_instance` (78×78)
+- `mxgraph.aws4.private_5g` (56×56)
+- `mxgraph.aws4.private_certificate_authority` (56×56)
+- `mxgraph.aws4.privatelink` (66×41)
+- `mxgraph.aws4.professional_services` (58×55)
+- `mxgraph.aws4.programming_language` (44×29)
+- `mxgraph.aws4.proton` (56×56)
+- `mxgraph.aws4.q` (48×55)
+- `mxgraph.aws4.quantum_ledger_database` (56×53)
+- `mxgraph.aws4.quantum_technologies` (52×56)
+- `mxgraph.aws4.question` (23×44)
+- `mxgraph.aws4.queue` (78×47)
+- `mxgraph.aws4.quicksight` (54×50)
+- `mxgraph.aws4.quicksight_paginated_reports` (35×44)
+- `mxgraph.aws4.r4_instance` (44×44)
+- `mxgraph.aws4.r5_instance` (44×44)
+- `mxgraph.aws4.r5a_instance` (44×44)
+- `mxgraph.aws4.r5ad_instance` (44×44)
+- `mxgraph.aws4.r5b_instance` (44×44)
+- `mxgraph.aws4.r5d_instance` (44×44)
+- `mxgraph.aws4.r5gd_instance` (44×44)
+- `mxgraph.aws4.r5n` (56×56)
+- `mxgraph.aws4.r5n_instance` (44×44)
+- `mxgraph.aws4.r6g_instance` (44×44)
+- `mxgraph.aws4.rdn_instance` (44×44)
+- `mxgraph.aws4.rds` (56×56)
+- `mxgraph.aws4.rds_blue_green_deployments` (44×33)
+- `mxgraph.aws4.rds_instance` (44×44)
+- `mxgraph.aws4.rds_instance_alt` (44×44)
+- `mxgraph.aws4.rds_mariadb_instance` (44×44)
+- `mxgraph.aws4.rds_mariadb_instance_alt` (44×44)
+- `mxgraph.aws4.rds_multi_az` (44×33)
+- `mxgraph.aws4.rds_multi_az_db_cluster` (44×44)
+- `mxgraph.aws4.rds_mysql_instance` (44×44)
+- `mxgraph.aws4.rds_mysql_instance_alt` (44×44)
+- `mxgraph.aws4.rds_on_vmware` (56×54)
+- `mxgraph.aws4.rds_optimized_writes` (44×44)
+- `mxgraph.aws4.rds_oracle_instance` (44×44)
+- `mxgraph.aws4.rds_oracle_instance_alt` (44×44)
+- `mxgraph.aws4.rds_piop` (50×50)
+- `mxgraph.aws4.rds_piops` (44×44)
+- `mxgraph.aws4.rds_postgresql_instance` (44×44)
+- `mxgraph.aws4.rds_postgresql_instance_alt` (44×44)
+- `mxgraph.aws4.rds_proxy` (44×44)
+- `mxgraph.aws4.rds_proxy_alt` (44×44)
+- `mxgraph.aws4.rds_sql_server_instance` (44×44)
+- `mxgraph.aws4.rds_sql_server_instance_alt` (44×44)
+- `mxgraph.aws4.rds_trusted_language_extensions_for_postgresql` (33×44)
+- `mxgraph.aws4.recover` (42×42)
+- `mxgraph.aws4.red_hat_openshift` (57×58)
+- `mxgraph.aws4.redshift` (38×56)
+- `mxgraph.aws4.redshift_auto_copy` (44×44)
+- `mxgraph.aws4.redshift_data_sharing_governance` (44×44)
+- `mxgraph.aws4.redshift_ml` (44×44)
+- `mxgraph.aws4.redshift_query_editor_v20_light` (44×44)
+- `mxgraph.aws4.redshift_ra3` (44×44)
+- `mxgraph.aws4.redshift_streaming_ingestion` (40×44)
+- `mxgraph.aws4.registry` (44×44)
+- `mxgraph.aws4.rekognition` (65×65)
+- `mxgraph.aws4.rekognition_2` (56×56)
+- `mxgraph.aws4.rekognition_image` (44×44)
+- `mxgraph.aws4.rekognition_video` (44×44)
+- `mxgraph.aws4.replication` (44×43)
+- `mxgraph.aws4.replication_time_control` (44×43)
+- `mxgraph.aws4.reported_state` (44×44)
+- `mxgraph.aws4.repost` (58×56)
+- `mxgraph.aws4.repost_private` (100×100)
+- `mxgraph.aws4.rescue` (44×44)
+- `mxgraph.aws4.reserved_instance_reporting` (56×56)
+- `mxgraph.aws4.resilience_hub` (56×50)
+- `mxgraph.aws4.resource` (44×45)
+- `mxgraph.aws4.resource_access_manager` (56×56)
+- `mxgraph.aws4.resource_explorer` (52×56)
+- `mxgraph.aws4.resources` (38×44)
+- `mxgraph.aws4.robomaker` (56×56)
+- `mxgraph.aws4.robotics` (56×56)
+- `mxgraph.aws4.role` (44×25)
+- `mxgraph.aws4.route_53` (56×56)
+- `mxgraph.aws4.route_53_application_recovery_controller` (44×44)
+- `mxgraph.aws4.route_53_readiness_checks` (44×44)
+- `mxgraph.aws4.route_53_resolver` (44×44)
+- `mxgraph.aws4.route_53_resolver_dns_firewall` (44×43)
+- `mxgraph.aws4.route_53_resolver_query_logging` (44×44)
+- `mxgraph.aws4.route_53_routing_controls` (44×44)
+- `mxgraph.aws4.route_table` (44×43)
+- `mxgraph.aws4.router` (44×44)
+- `mxgraph.aws4.rule` (27×44)
+- `mxgraph.aws4.rule_2` (44×43)
+- `mxgraph.aws4.rule_3` (44×38)
+- `mxgraph.aws4.run_command` (44×31)
+- `mxgraph.aws4.s3` (54×56)
+- `mxgraph.aws4.s3_batch_operations` (44×44)
+- `mxgraph.aws4.s3_express_one_zone` (44×44)
+- `mxgraph.aws4.s3_file_gateway` (42×44)
+- `mxgraph.aws4.s3_multi_region_access_points` (43×44)
+- `mxgraph.aws4.s3_object_lambda` (29×44)
+- `mxgraph.aws4.s3_object_lambda_access_points` (44×44)
+- `mxgraph.aws4.s3_object_lock` (40×44)
+- `mxgraph.aws4.s3_on_outposts` (44×44)
+- `mxgraph.aws4.s3_on_outposts_storage` (56×56)
+- `mxgraph.aws4.s3_replication_time_control` (44×43)
+- `mxgraph.aws4.s3_select` (44×44)
+- `mxgraph.aws4.s3_storage_lens` (44×44)
+- `mxgraph.aws4.s3_tables` (44×44)
+- `mxgraph.aws4.s3_vectors` (42×44)
+- `mxgraph.aws4.saas_event_bus_resource` (44×43)
+- `mxgraph.aws4.sagemaker` (54×55)
+- `mxgraph.aws4.sagemaker_2` (52×52)
+- `mxgraph.aws4.sagemaker_canvas` (44×44)
+- `mxgraph.aws4.sagemaker_geospatial_ml` (44×44)
+- `mxgraph.aws4.sagemaker_ground_truth` (54×54)
+- `mxgraph.aws4.sagemaker_model` (44×44)
+- `mxgraph.aws4.sagemaker_notebook` (39×44)
+- `mxgraph.aws4.sagemaker_shadow_testing` (44×44)
+- `mxgraph.aws4.sagemaker_studio_lab` (56×55)
+- `mxgraph.aws4.sagemaker_train` (44×36)
+- `mxgraph.aws4.saml_token` (44×44)
+- `mxgraph.aws4.satellite` (55×48)
+- `mxgraph.aws4.savings_plans` (55×54)
+- `mxgraph.aws4.search_documents` (39×44)
+- `mxgraph.aws4.secrets_manager` (56×56)
+- `mxgraph.aws4.security_group` (20×26)
+- `mxgraph.aws4.security_hub` (48×55)
+- `mxgraph.aws4.security_hub_finding` (41×44)
+- `mxgraph.aws4.security_identity_and_compliance` (42×56)
+- `mxgraph.aws4.security_incident_response` (55×54)
+- `mxgraph.aws4.security_lake` (56×56)
+- `mxgraph.aws4.sensor` (40×45)
+- `mxgraph.aws4.server_migration_service` (55×56)
+- `mxgraph.aws4.serverless` (56×37)
+- `mxgraph.aws4.serverless_application_repository` (56×37)
+- `mxgraph.aws4.servers` (44×43)
+- `mxgraph.aws4.service` (44×43)
+- `mxgraph.aws4.service_catalog` (56×56)
+- `mxgraph.aws4.service_management_connector` (57×56)
+- `mxgraph.aws4.servo` (44×32)
+- `mxgraph.aws4.shadow` (44×45)
+- `mxgraph.aws4.shield` (47×54)
+- `mxgraph.aws4.shield2` (45×43)
+- `mxgraph.aws4.shield_shield_advanced` (39×44)
+- `mxgraph.aws4.signer` (56×56)
+- `mxgraph.aws4.simple_ad` (44×43)
+- `mxgraph.aws4.simple_email_service` (56×56)
+- `mxgraph.aws4.simple_storage_service_directory_bucket` (42×44)
+- `mxgraph.aws4.simple_storage_service_s3_glacier_instant_retrieval` (44×44)
+- `mxgraph.aws4.simspace_weaver` (56×56)
+- `mxgraph.aws4.simulation` (44×36)
+- `mxgraph.aws4.simulator` (39×45)
+- `mxgraph.aws4.single_sign_on` (58×57)
+- `mxgraph.aws4.site_to_site_vpn` (51×57)
+- `mxgraph.aws4.snapshot` (32×44)
+- `mxgraph.aws4.snowball` (56×44)
+- `mxgraph.aws4.snowball_edge` (56×53)
+- `mxgraph.aws4.snowcone` (56×44)
+- `mxgraph.aws4.snowmobile` (56×54)
+- `mxgraph.aws4.sns` (55×52)
+- `mxgraph.aws4.source_code` (32×44)
+- `mxgraph.aws4.spot_instance` (44×44)
+- `mxgraph.aws4.sql_primary` (78×78)
+- `mxgraph.aws4.sql_replica` (78×78)
+- `mxgraph.aws4.sql_workbench` (57×56)
+- `mxgraph.aws4.sqs` (57×46)
+- `mxgraph.aws4.ssl_padlock` (44×44)
+- `mxgraph.aws4.stack` (44×43)
+- `mxgraph.aws4.stack2` (44×44)
+- `mxgraph.aws4.standard_ia` (42×44)
+- `mxgraph.aws4.state_manager` (44×44)
+- `mxgraph.aws4.step_functions` (56×56)
+- `mxgraph.aws4.storage` (52×56)
+- `mxgraph.aws4.storage_gateway` (56×57)
+- `mxgraph.aws4.streaming_distribution` (44×44)
+- `mxgraph.aws4.sts` (44×28)
+- `mxgraph.aws4.sts_alternate` (35×44)
+- `mxgraph.aws4.sumerian` (53×55)
+- `mxgraph.aws4.supply_chain` (48×56)
+- `mxgraph.aws4.support` (57×56)
+- `mxgraph.aws4.systems_manager` (56×57)
+- `mxgraph.aws4.systems_manager_application_manager` (44×41)
+- `mxgraph.aws4.systems_manager_change_calendar` (44×40)
+- `mxgraph.aws4.systems_manager_change_manager` (44×40)
+- `mxgraph.aws4.systems_manager_compliance` (38×44)
+- `mxgraph.aws4.systems_manager_distributor` (44×44)
+- `mxgraph.aws4.systems_manager_incident_manager` (56×57)
+- `mxgraph.aws4.systems_manager_opscenter` (45×45)
+- `mxgraph.aws4.systems_manager_session_manager` (44×44)
+- `mxgraph.aws4.t2_instance` (44×44)
+- `mxgraph.aws4.t3_instance` (44×44)
+- `mxgraph.aws4.t3a_instance` (44×44)
+- `mxgraph.aws4.t4g_instance` (44×44)
+- `mxgraph.aws4.table` (44×44)
+- `mxgraph.aws4.tape_gateway` (42×44)
+- `mxgraph.aws4.tape_storage` (44×21)
+- `mxgraph.aws4.telco_network_builder` (56×56)
+- `mxgraph.aws4.template` (37×44)
+- `mxgraph.aws4.temporary_security_credential` (44×43)
+- `mxgraph.aws4.tensorflow_on_aws` (56×56)
+- `mxgraph.aws4.textract` (56×48)
+- `mxgraph.aws4.textract_analyze_lending` (44×44)
+- `mxgraph.aws4.thermostat` (44×44)
+- `mxgraph.aws4.thinkbox_deadline` (49×56)
+- `mxgraph.aws4.thinkbox_draft` (48×55)
+- `mxgraph.aws4.thinkbox_frost` (50×56)
+- `mxgraph.aws4.thinkbox_krakatoa` (50×56)
+- `mxgraph.aws4.thinkbox_sequoia` (49×56)
+- `mxgraph.aws4.thinkbox_stoke` (50×56)
+- `mxgraph.aws4.thinkbox_xmesh` (49×56)
+- `mxgraph.aws4.timestream` (52×56)
+- `mxgraph.aws4.tools_and_sdks` (48×56)
+- `mxgraph.aws4.topic` (44×38)
+- `mxgraph.aws4.topic_2` (30×44)
+- `mxgraph.aws4.torchserve` (47×55)
+- `mxgraph.aws4.traditional_server` (25×44)
+- `mxgraph.aws4.training_certification` (51×56)
+- `mxgraph.aws4.trainium_instance` (44×44)
+- `mxgraph.aws4.transcribe` (56×56)
+- `mxgraph.aws4.transfer_family` (46×51)
+- `mxgraph.aws4.transfer_family_aws_as2` (43×44)
+- `mxgraph.aws4.transfer_for_ftp_resource` (43×44)
+- `mxgraph.aws4.transfer_for_ftps_resource` (43×44)
+- `mxgraph.aws4.transfer_for_sftp` (44×50)
+- `mxgraph.aws4.transfer_for_sftp_resource` (43×44)
+- `mxgraph.aws4.transform` (48×56)
+- `mxgraph.aws4.transit_gateway` (54×54)
+- `mxgraph.aws4.transit_gateway_attachment` (44×44)
+- `mxgraph.aws4.translate` (49×56)
+- `mxgraph.aws4.travel` (44×44)
+- `mxgraph.aws4.trusted_advisor` (52×54)
+- `mxgraph.aws4.user` (40×44)
+- `mxgraph.aws4.user_notifications` (55×48)
+- `mxgraph.aws4.users` (44×44)
+- `mxgraph.aws4.utility` (44×44)
+- `mxgraph.aws4.vault` (36×44)
+- `mxgraph.aws4.verified_access` (57×56)
+- `mxgraph.aws4.verified_permissions` (56×56)
+- `mxgraph.aws4.virtual_gateway` (44×44)
+- `mxgraph.aws4.virtual_node` (44×44)
+- `mxgraph.aws4.virtual_private_cloud` (79×50)
+- `mxgraph.aws4.virtual_router` (44×44)
+- `mxgraph.aws4.virtual_service` (44×42)
+- `mxgraph.aws4.virtual_tape_library` (35×44)
+- `mxgraph.aws4.vmware_cloud_on_aws` (56×43)
+- `mxgraph.aws4.volume` (35×44)
+- `mxgraph.aws4.volume_gateway` (37×44)
+- `mxgraph.aws4.vpc` (56×54)
+- `mxgraph.aws4.vpc_access_points` (30×44)
+- `mxgraph.aws4.vpc_carrier_gateway` (44×44)
+- `mxgraph.aws4.vpc_lattice` (56×56)
+- `mxgraph.aws4.vpc_network_access_analyzer` (44×45)
+- `mxgraph.aws4.vpc_privatelink` (56×37)
+- `mxgraph.aws4.vpc_reachability_analyzer` (44×44)
+- `mxgraph.aws4.vpc_traffic_mirroring` (44×44)
+- `mxgraph.aws4.vpc_virtual_private_cloud_vpc` (44×43)
+- `mxgraph.aws4.vpn_connection` (40×44)
+- `mxgraph.aws4.vpn_gateway` (44×44)
+- `mxgraph.aws4.waf` (56×56)
+- `mxgraph.aws4.waf_bad_bot` (44×40)
+- `mxgraph.aws4.waf_bot` (44×44)
+- `mxgraph.aws4.waf_bot_control` (44×44)
+- `mxgraph.aws4.waf_labels` (44×44)
+- `mxgraph.aws4.waf_managed_rule` (44×44)
+- `mxgraph.aws4.waf_rule` (44×44)
+- `mxgraph.aws4.wavelength` (50×56)
+- `mxgraph.aws4.well_architect_tool` (54×59)
+- `mxgraph.aws4.well_architected_tool` (54×59)
+- `mxgraph.aws4.wickr` (52×56)
+- `mxgraph.aws4.windfarm` (44×44)
+- `mxgraph.aws4.work_package` (16×14)
+- `mxgraph.aws4.workdocs` (56×56)
+- `mxgraph.aws4.worklink` (56×56)
+- `mxgraph.aws4.workmail` (56×56)
+- `mxgraph.aws4.workspaces` (56×52)
+- `mxgraph.aws4.workspaces_family` (56×56)
+- `mxgraph.aws4.workspaces_family_amazon_workspaces` (44×41)
+- `mxgraph.aws4.workspaces_family_amazon_workspaces_core` (44×45)
+- `mxgraph.aws4.workspaces_thin_client` (56×56)
+- `mxgraph.aws4.workspaces_workspaces_web` (44×42)
+- `mxgraph.aws4.x1_instance` (78×78)
+- `mxgraph.aws4.x1_instance2` (44×44)
+- `mxgraph.aws4.x1e_instance` (44×44)
+- `mxgraph.aws4.xray` (55×53)
+- `mxgraph.aws4.z1d_instance` (44×44)
 
 ## Usage Example
 
 ```drawio
-<mxfile><diagram id="example" name="Example"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="" style="shape=mxgraph.aws4.authenticated_user;html=1;fillColor=#232F3D;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="100" y="100" width="60" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
+<mxfile><diagram id="example" name="Example"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="" style="shape=mxgraph.aws4.a1_instance;html=1;fillColor=#CCCCCC;strokeColor=#6881B3;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="100" y="100" width="60" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
 ```

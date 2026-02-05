@@ -4,377 +4,377 @@ Stencil library: `mxgraph.mscae.*`
 
 Total: 368 stencils
 
-- `mxgraph.mscae.cloud.active_directory`
-- `mxgraph.mscae.cloud.active_directory_b2b`
-- `mxgraph.mscae.cloud.active_directory_b2c`
-- `mxgraph.mscae.cloud.active_directory_domain_services`
-- `mxgraph.mscae.cloud.active_directory_health_monitoring`
-- `mxgraph.mscae.cloud.advisor`
-- `mxgraph.mscae.cloud.analysis_service`
-- `mxgraph.mscae.cloud.api_app`
-- `mxgraph.mscae.cloud.api_management`
-- `mxgraph.mscae.cloud.app_service`
-- `mxgraph.mscae.cloud.application_gateway`
-- `mxgraph.mscae.cloud.application_insights`
-- `mxgraph.mscae.cloud.azure`
-- `mxgraph.mscae.cloud.azure_automatic_load_balancer`
-- `mxgraph.mscae.cloud.azure_batch`
-- `mxgraph.mscae.cloud.azure_dns`
-- `mxgraph.mscae.cloud.azure_files_service`
-- `mxgraph.mscae.cloud.azure_load_balancer_feature`
-- `mxgraph.mscae.cloud.azure_logo`
-- `mxgraph.mscae.cloud.azure_rights_management_rms`
-- `mxgraph.mscae.cloud.azure_search`
-- `mxgraph.mscae.cloud.azure_storage`
-- `mxgraph.mscae.cloud.batch`
-- `mxgraph.mscae.cloud.blockchain`
-- `mxgraph.mscae.cloud.bot_services`
-- `mxgraph.mscae.cloud.building_block`
-- `mxgraph.mscae.cloud.c_series`
-- `mxgraph.mscae.cloud.central`
-- `mxgraph.mscae.cloud.cloud_office_365`
-- `mxgraph.mscae.cloud.cloud_service`
-- `mxgraph.mscae.cloud.cognitive_services`
-- `mxgraph.mscae.cloud.container_registry`
-- `mxgraph.mscae.cloud.container_service`
-- `mxgraph.mscae.cloud.content_delivery_network`
-- `mxgraph.mscae.cloud.content_delivery_network2`
-- `mxgraph.mscae.cloud.cortona_management_suite`
-- `mxgraph.mscae.cloud.cosmos_db`
-- `mxgraph.mscae.cloud.customer_insights`
-- `mxgraph.mscae.cloud.data_bricks`
-- `mxgraph.mscae.cloud.data_catalog`
-- `mxgraph.mscae.cloud.data_factory`
-- `mxgraph.mscae.cloud.data_lake`
-- `mxgraph.mscae.cloud.data_lake_analytics`
-- `mxgraph.mscae.cloud.data_lake_store`
-- `mxgraph.mscae.cloud.data_warehouse`
-- `mxgraph.mscae.cloud.devtest_labs`
-- `mxgraph.mscae.cloud.docdb_account`
-- `mxgraph.mscae.cloud.docdb_collections`
-- `mxgraph.mscae.cloud.document`
-- `mxgraph.mscae.cloud.documentdb`
-- `mxgraph.mscae.cloud.dps`
-- `mxgraph.mscae.cloud.event_grid`
-- `mxgraph.mscae.cloud.event_hubs`
-- `mxgraph.mscae.cloud.expressroute`
-- `mxgraph.mscae.cloud.functions`
-- `mxgraph.mscae.cloud.gateway`
-- `mxgraph.mscae.cloud.hdinsight`
-- `mxgraph.mscae.cloud.health_monitoring`
-- `mxgraph.mscae.cloud.hockeyapp`
-- `mxgraph.mscae.cloud.hybrid_connection_manager`
-- `mxgraph.mscae.cloud.hybrid_connections`
-- `mxgraph.mscae.cloud.iot`
-- `mxgraph.mscae.cloud.iot_edge`
-- `mxgraph.mscae.cloud.key_vault`
-- `mxgraph.mscae.cloud.logic_app`
-- `mxgraph.mscae.cloud.logic_apps`
-- `mxgraph.mscae.cloud.machine_learning`
-- `mxgraph.mscae.cloud.machine_learning2`
-- `mxgraph.mscae.cloud.machine_learning_service_plans`
-- `mxgraph.mscae.cloud.machine_learning_web_services`
-- `mxgraph.mscae.cloud.machine_learning_work_spaces`
-- `mxgraph.mscae.cloud.managed_applications`
-- `mxgraph.mscae.cloud.managed_discs`
-- `mxgraph.mscae.cloud.management_portal`
-- `mxgraph.mscae.cloud.microsoft_account`
-- `mxgraph.mscae.cloud.microsoft_azure`
-- `mxgraph.mscae.cloud.mobile_app`
-- `mxgraph.mscae.cloud.mobile_engagement`
-- `mxgraph.mscae.cloud.monitor`
-- `mxgraph.mscae.cloud.network_watcher`
-- `mxgraph.mscae.cloud.nsg`
-- `mxgraph.mscae.cloud.office_365`
-- `mxgraph.mscae.cloud.office_365_subscription`
-- `mxgraph.mscae.cloud.oms_log_analytics`
-- `mxgraph.mscae.cloud.operational_insights`
-- `mxgraph.mscae.cloud.power_bi_embedded`
-- `mxgraph.mscae.cloud.recovery_vault`
-- `mxgraph.mscae.cloud.remoteapp`
-- `mxgraph.mscae.cloud.resource_group`
-- `mxgraph.mscae.cloud.route_filters`
-- `mxgraph.mscae.cloud.runbooks`
-- `mxgraph.mscae.cloud.security_center`
-- `mxgraph.mscae.cloud.service_bus`
-- `mxgraph.mscae.cloud.service_bus2`
-- `mxgraph.mscae.cloud.service_bus_queues`
-- `mxgraph.mscae.cloud.service_bus_relay`
-- `mxgraph.mscae.cloud.service_bus_relay2`
-- `mxgraph.mscae.cloud.service_bus_topics`
-- `mxgraph.mscae.cloud.service_endpoint`
-- `mxgraph.mscae.cloud.service_endpoint2`
-- `mxgraph.mscae.cloud.service_fabric`
-- `mxgraph.mscae.cloud.service_package`
-- `mxgraph.mscae.cloud.site_recovery`
-- `mxgraph.mscae.cloud.snapshot`
-- `mxgraph.mscae.cloud.sql_database_premium`
-- `mxgraph.mscae.cloud.sql_datawarehouse`
-- `mxgraph.mscae.cloud.sql_elastic_database_pools`
-- `mxgraph.mscae.cloud.sql_stretch_database`
-- `mxgraph.mscae.cloud.stack`
-- `mxgraph.mscae.cloud.storage`
-- `mxgraph.mscae.cloud.storage_cs`
-- `mxgraph.mscae.cloud.storage_files`
-- `mxgraph.mscae.cloud.storage_sync_services`
-- `mxgraph.mscae.cloud.stream_analytics`
-- `mxgraph.mscae.cloud.tags`
-- `mxgraph.mscae.cloud.time_series_insights`
-- `mxgraph.mscae.cloud.vhd`
-- `mxgraph.mscae.cloud.virtual_machine_container`
-- `mxgraph.mscae.cloud.virtual_machines_availability_set`
-- `mxgraph.mscae.cloud.vm_scale_set`
-- `mxgraph.mscae.cloud.vpn_gateway`
-- `mxgraph.mscae.cloud.vpn_gateway2`
-- `mxgraph.mscae.cloud.webhooks`
-- `mxgraph.mscae.cloud.webjobs`
-- `mxgraph.mscae.cloud.work_account`
-- `mxgraph.mscae.cloud.worker_pools`
-- `mxgraph.mscae.deprecated.application`
-- `mxgraph.mscae.deprecated.application_gateway`
-- `mxgraph.mscae.deprecated.azure`
-- `mxgraph.mscae.deprecated.batch`
-- `mxgraph.mscae.deprecated.bot`
-- `mxgraph.mscae.deprecated.compute`
-- `mxgraph.mscae.deprecated.data_lake`
-- `mxgraph.mscae.deprecated.data_lake_analytics`
-- `mxgraph.mscae.deprecated.data_lake_store`
-- `mxgraph.mscae.deprecated.data_services`
-- `mxgraph.mscae.deprecated.poster_arrow`
-- `mxgraph.mscae.deprecated.sql_data_warehouse`
-- `mxgraph.mscae.deprecated.sql_server_stretch_db`
-- `mxgraph.mscae.enterprise.ad_fs`
-- `mxgraph.mscae.enterprise.android_phone`
-- `mxgraph.mscae.enterprise.app_generic`
-- `mxgraph.mscae.enterprise.application`
-- `mxgraph.mscae.enterprise.application_blank`
-- `mxgraph.mscae.enterprise.application_server`
-- `mxgraph.mscae.enterprise.application_server2`
-- `mxgraph.mscae.enterprise.backup_local`
-- `mxgraph.mscae.enterprise.backup_online`
-- `mxgraph.mscae.enterprise.calendar`
-- `mxgraph.mscae.enterprise.client_application`
-- `mxgraph.mscae.enterprise.cluster_server`
-- `mxgraph.mscae.enterprise.code_file`
-- `mxgraph.mscae.enterprise.connectors`
-- `mxgraph.mscae.enterprise.d`
-- `mxgraph.mscae.enterprise.database_generic`
-- `mxgraph.mscae.enterprise.database_server`
-- `mxgraph.mscae.enterprise.database_synchronization`
-- `mxgraph.mscae.enterprise.device`
-- `mxgraph.mscae.enterprise.direct_access_feature`
-- `mxgraph.mscae.enterprise.document`
-- `mxgraph.mscae.enterprise.domain_controller`
-- `mxgraph.mscae.enterprise.enterprise_building`
-- `mxgraph.mscae.enterprise.filter`
-- `mxgraph.mscae.enterprise.firewall`
-- `mxgraph.mscae.enterprise.folder`
-- `mxgraph.mscae.enterprise.gateway`
-- `mxgraph.mscae.enterprise.generic_app`
-- `mxgraph.mscae.enterprise.import_generic`
-- `mxgraph.mscae.enterprise.internet`
-- `mxgraph.mscae.enterprise.internet_hollow`
-- `mxgraph.mscae.enterprise.iphone`
-- `mxgraph.mscae.enterprise.key_permissions`
-- `mxgraph.mscae.enterprise.keyboard`
-- `mxgraph.mscae.enterprise.load_testing`
-- `mxgraph.mscae.enterprise.lock`
-- `mxgraph.mscae.enterprise.lock_unlocked`
-- `mxgraph.mscae.enterprise.maintenance`
-- `mxgraph.mscae.enterprise.management_console`
-- `mxgraph.mscae.enterprise.monitor_running_apps`
-- `mxgraph.mscae.enterprise.mouse`
-- `mxgraph.mscae.enterprise.network_card`
-- `mxgraph.mscae.enterprise.not_allowed`
-- `mxgraph.mscae.enterprise.pack`
-- `mxgraph.mscae.enterprise.performance`
-- `mxgraph.mscae.enterprise.performance_monitor`
-- `mxgraph.mscae.enterprise.plug_and_play`
-- `mxgraph.mscae.enterprise.protocol_stack`
-- `mxgraph.mscae.enterprise.rms_connector`
-- `mxgraph.mscae.enterprise.router`
-- `mxgraph.mscae.enterprise.secondary_site`
-- `mxgraph.mscae.enterprise.secure_virtual_machine`
-- `mxgraph.mscae.enterprise.server_directory`
-- `mxgraph.mscae.enterprise.server_farm`
-- `mxgraph.mscae.enterprise.server_generic`
-- `mxgraph.mscae.enterprise.settings`
-- `mxgraph.mscae.enterprise.shared_folder`
-- `mxgraph.mscae.enterprise.smartcard`
-- `mxgraph.mscae.enterprise.storage`
-- `mxgraph.mscae.enterprise.stored_procedures`
-- `mxgraph.mscae.enterprise.table`
-- `mxgraph.mscae.enterprise.tool`
-- `mxgraph.mscae.enterprise.triggers`
-- `mxgraph.mscae.enterprise.udf_function`
-- `mxgraph.mscae.enterprise.unhealthy`
-- `mxgraph.mscae.enterprise.usb`
-- `mxgraph.mscae.enterprise.user_permissions`
-- `mxgraph.mscae.enterprise.web`
-- `mxgraph.mscae.enterprise.web_server`
-- `mxgraph.mscae.enterprise.website_generic`
-- `mxgraph.mscae.enterprise.windows_server`
-- `mxgraph.mscae.enterprise.wireless_connection`
-- `mxgraph.mscae.enterprise.workstation_client`
-- `mxgraph.mscae.enterprise.xml_web_service`
-- `mxgraph.mscae.general.audio`
-- `mxgraph.mscae.general.bug`
-- `mxgraph.mscae.general.cable_settop_tv_box`
-- `mxgraph.mscae.general.calendar`
-- `mxgraph.mscae.general.chart`
-- `mxgraph.mscae.general.checkmark`
-- `mxgraph.mscae.general.continuous_cycle`
-- `mxgraph.mscae.general.crossout`
-- `mxgraph.mscae.general.cut_and_paste`
-- `mxgraph.mscae.general.game_controller`
-- `mxgraph.mscae.general.gears`
-- `mxgraph.mscae.general.graph`
-- `mxgraph.mscae.general.like`
-- `mxgraph.mscae.general.not_allowed`
-- `mxgraph.mscae.general.pointer`
-- `mxgraph.mscae.general.slider_bar_horizontal`
-- `mxgraph.mscae.general.slider_bar_vertical`
-- `mxgraph.mscae.general.task_list`
-- `mxgraph.mscae.general.tasks`
-- `mxgraph.mscae.general.tunnel`
-- `mxgraph.mscae.general.video`
-- `mxgraph.mscae.general_symbols.attachments`
-- `mxgraph.mscae.general_symbols.clock_time`
-- `mxgraph.mscae.general_symbols.ellipses`
-- `mxgraph.mscae.general_symbols.favorite`
-- `mxgraph.mscae.general_symbols.gears`
-- `mxgraph.mscae.general_symbols.num_label_rotate`
-- `mxgraph.mscae.general_symbols.premium_star`
-- `mxgraph.mscae.general_symbols.slider_bar_horz`
-- `mxgraph.mscae.general_symbols.slider_bar_vert`
-- `mxgraph.mscae.general_symbols.waiting`
-- `mxgraph.mscae.intune.account_portal`
-- `mxgraph.mscae.intune.administration`
-- `mxgraph.mscae.intune.alerts`
-- `mxgraph.mscae.intune.apps`
-- `mxgraph.mscae.intune.certificate`
-- `mxgraph.mscae.intune.client_software`
-- `mxgraph.mscae.intune.company_portal`
-- `mxgraph.mscae.intune.computer_inventory`
-- `mxgraph.mscae.intune.conditional_access_exchange`
-- `mxgraph.mscae.intune.conditional_access_sharepoint`
-- `mxgraph.mscae.intune.connector`
-- `mxgraph.mscae.intune.dashboard`
-- `mxgraph.mscae.intune.data_migration_wizard`
-- `mxgraph.mscae.intune.detected_software`
-- `mxgraph.mscae.intune.device_group`
-- `mxgraph.mscae.intune.device_health`
-- `mxgraph.mscae.intune.device_history`
-- `mxgraph.mscae.intune.device_os`
-- `mxgraph.mscae.intune.end_protection`
-- `mxgraph.mscae.intune.exchange_connector`
-- `mxgraph.mscae.intune.groups`
-- `mxgraph.mscae.intune.hybrid`
-- `mxgraph.mscae.intune.intune_certificate_profiles`
-- `mxgraph.mscae.intune.intune_connector`
-- `mxgraph.mscae.intune.intune_email_profiles`
-- `mxgraph.mscae.intune.intune_managed_app`
-- `mxgraph.mscae.intune.intune_mobile_application_management`
-- `mxgraph.mscae.intune.intune_vpn_profiles`
-- `mxgraph.mscae.intune.intune_wifi_profiles`
-- `mxgraph.mscae.intune.inventory_license`
-- `mxgraph.mscae.intune.inventory_software`
-- `mxgraph.mscae.intune.license_group`
-- `mxgraph.mscae.intune.license_installation`
-- `mxgraph.mscae.intune.microsoft_intune`
-- `mxgraph.mscae.intune.mobile_inventory`
-- `mxgraph.mscae.intune.noncompliant_apps`
-- `mxgraph.mscae.intune.policy`
-- `mxgraph.mscae.intune.protection`
-- `mxgraph.mscae.intune.reports`
-- `mxgraph.mscae.intune.subscription_portal`
-- `mxgraph.mscae.intune.terms_and_conditions`
-- `mxgraph.mscae.intune.update`
-- `mxgraph.mscae.intune.user_group`
-- `mxgraph.mscae.intune.user_management`
-- `mxgraph.mscae.oms.alerts`
-- `mxgraph.mscae.oms.app_with_changes`
-- `mxgraph.mscae.oms.assessments`
-- `mxgraph.mscae.oms.capacity`
-- `mxgraph.mscae.oms.config_assessment`
-- `mxgraph.mscae.oms.dashboard`
-- `mxgraph.mscae.oms.dependency_monitor`
-- `mxgraph.mscae.oms.diagnostics`
-- `mxgraph.mscae.oms.jobs`
-- `mxgraph.mscae.oms.log_management`
-- `mxgraph.mscae.oms.log_search`
-- `mxgraph.mscae.oms.malware_assessment`
-- `mxgraph.mscae.oms.overview`
-- `mxgraph.mscae.oms.security`
-- `mxgraph.mscae.oms.server_width_changes`
-- `mxgraph.mscae.oms.services`
-- `mxgraph.mscae.oms.solutions`
-- `mxgraph.mscae.oms.system_update`
-- `mxgraph.mscae.oms.track_changes`
-- `mxgraph.mscae.oms.wire_data`
-- `mxgraph.mscae.opsmanager.advanced_group_policy_management`
-- `mxgraph.mscae.opsmanager.app_controller`
-- `mxgraph.mscae.opsmanager.application_virtualization`
-- `mxgraph.mscae.opsmanager.applications`
-- `mxgraph.mscae.opsmanager.configuration_manager`
-- `mxgraph.mscae.opsmanager.data_protection_manager`
-- `mxgraph.mscae.opsmanager.middleware`
-- `mxgraph.mscae.opsmanager.ms_bitlocker_administration_and_management`
-- `mxgraph.mscae.opsmanager.ms_diagnostics_and_recovery_toolset`
-- `mxgraph.mscae.opsmanager.ms_enterprise_desktop_virtualization`
-- `mxgraph.mscae.opsmanager.ms_user_experience_virtualization`
-- `mxgraph.mscae.opsmanager.operations_manager`
-- `mxgraph.mscae.opsmanager.orchestrator`
-- `mxgraph.mscae.opsmanager.pack`
-- `mxgraph.mscae.opsmanager.runtime`
-- `mxgraph.mscae.opsmanager.service_manager`
-- `mxgraph.mscae.opsmanager.ssd`
-- `mxgraph.mscae.opsmanager.virtual_machine_manager`
-- `mxgraph.mscae.other.access`
-- `mxgraph.mscae.other.bi_product_icon`
-- `mxgraph.mscae.other.cortana`
-- `mxgraph.mscae.other.excel`
-- `mxgraph.mscae.other.exchange`
-- `mxgraph.mscae.other.lync`
-- `mxgraph.mscae.other.microsoft`
-- `mxgraph.mscae.other.outlook`
-- `mxgraph.mscae.other.powerappsicon`
-- `mxgraph.mscae.other.powerpoint`
-- `mxgraph.mscae.other.sharepoint`
-- `mxgraph.mscae.other.skype`
-- `mxgraph.mscae.other.windows`
-- `mxgraph.mscae.other.word`
-- `mxgraph.mscae.other.xbox`
-- `mxgraph.mscae.other.xbox_one`
-- `mxgraph.mscae.system_center.admin_console`
-- `mxgraph.mscae.system_center.central_administration_site_sql`
-- `mxgraph.mscae.system_center.cloud_distribution_point`
-- `mxgraph.mscae.system_center.distribution_point`
-- `mxgraph.mscae.system_center.management_point`
-- `mxgraph.mscae.system_center.primary_site`
-- `mxgraph.mscae.system_center.roles`
-- `mxgraph.mscae.system_center.secondary_site`
-- `mxgraph.mscae.system_center.software_update_point`
-- `mxgraph.mscae.vm.active_directory`
-- `mxgraph.mscae.vm.active_directory_multi`
-- `mxgraph.mscae.vm.application_server`
-- `mxgraph.mscae.vm.application_server_multi`
-- `mxgraph.mscae.vm.database_server`
-- `mxgraph.mscae.vm.database_server_multi`
-- `mxgraph.mscae.vm.directory_server`
-- `mxgraph.mscae.vm.directory_server_multi`
-- `mxgraph.mscae.vm.domain_server`
-- `mxgraph.mscae.vm.domain_server_multi`
-- `mxgraph.mscae.vm.file_server`
-- `mxgraph.mscae.vm.file_server2`
-- `mxgraph.mscae.vm.file_server_multi`
-- `mxgraph.mscae.vm.web_server`
-- `mxgraph.mscae.vm.web_server_multi`
-- `mxgraph.mscae.vm.windows_server`
-- `mxgraph.mscae.vm.windows_server_multi`
+- `mxgraph.mscae.cloud.active_directory` (40×40)
+- `mxgraph.mscae.cloud.active_directory_b2b` (624×623)
+- `mxgraph.mscae.cloud.active_directory_b2c` (625×625)
+- `mxgraph.mscae.cloud.active_directory_domain_services` (622×623)
+- `mxgraph.mscae.cloud.active_directory_health_monitoring` (712×686)
+- `mxgraph.mscae.cloud.advisor` (50×50)
+- `mxgraph.mscae.cloud.analysis_service` (50×40)
+- `mxgraph.mscae.cloud.api_app` (90×101)
+- `mxgraph.mscae.cloud.api_management` (102×90)
+- `mxgraph.mscae.cloud.app_service` (100×100)
+- `mxgraph.mscae.cloud.application_gateway` (33×33)
+- `mxgraph.mscae.cloud.application_insights` (66×102)
+- `mxgraph.mscae.cloud.azure` (77×50)
+- `mxgraph.mscae.cloud.azure_automatic_load_balancer` (100×66)
+- `mxgraph.mscae.cloud.azure_batch` (94×91)
+- `mxgraph.mscae.cloud.azure_dns` (100×100)
+- `mxgraph.mscae.cloud.azure_files_service` (99×86)
+- `mxgraph.mscae.cloud.azure_load_balancer_feature` (100×101)
+- `mxgraph.mscae.cloud.azure_logo` (50×39)
+- `mxgraph.mscae.cloud.azure_rights_management_rms` (81×100)
+- `mxgraph.mscae.cloud.azure_search` (101×69)
+- `mxgraph.mscae.cloud.azure_storage` (100×86)
+- `mxgraph.mscae.cloud.batch` (49×46)
+- `mxgraph.mscae.cloud.blockchain` (101×76)
+- `mxgraph.mscae.cloud.bot_services` (48×48)
+- `mxgraph.mscae.cloud.building_block` (100×89)
+- `mxgraph.mscae.cloud.c_series` (99×102)
+- `mxgraph.mscae.cloud.central` (42×48)
+- `mxgraph.mscae.cloud.cloud_office_365` (100×61)
+- `mxgraph.mscae.cloud.cloud_service` (43×36)
+- `mxgraph.mscae.cloud.cognitive_services` (50×30)
+- `mxgraph.mscae.cloud.container_registry` (45×39)
+- `mxgraph.mscae.cloud.container_service` (33×24)
+- `mxgraph.mscae.cloud.content_delivery_network` (24×11)
+- `mxgraph.mscae.cloud.content_delivery_network2` (484×226)
+- `mxgraph.mscae.cloud.cortona_management_suite` (76×76)
+- `mxgraph.mscae.cloud.cosmos_db` (102×103)
+- `mxgraph.mscae.cloud.customer_insights` (100×104)
+- `mxgraph.mscae.cloud.data_bricks` (96×100)
+- `mxgraph.mscae.cloud.data_catalog` (32×38)
+- `mxgraph.mscae.cloud.data_factory` (95×95)
+- `mxgraph.mscae.cloud.data_lake` (41×67)
+- `mxgraph.mscae.cloud.data_lake_analytics` (65×65)
+- `mxgraph.mscae.cloud.data_lake_store` (129×101)
+- `mxgraph.mscae.cloud.data_warehouse` (72×70)
+- `mxgraph.mscae.cloud.devtest_labs` (66×66)
+- `mxgraph.mscae.cloud.docdb_account` (14×15)
+- `mxgraph.mscae.cloud.docdb_collections` (14×15)
+- `mxgraph.mscae.cloud.document` (13×15)
+- `mxgraph.mscae.cloud.documentdb` (77×99)
+- `mxgraph.mscae.cloud.dps` (324×338)
+- `mxgraph.mscae.cloud.event_grid` (100×100)
+- `mxgraph.mscae.cloud.event_hubs` (92×95)
+- `mxgraph.mscae.cloud.expressroute` (51×31)
+- `mxgraph.mscae.cloud.functions` (64×59)
+- `mxgraph.mscae.cloud.gateway` (87×100)
+- `mxgraph.mscae.cloud.hdinsight` (100×73)
+- `mxgraph.mscae.cloud.health_monitoring` (90×81)
+- `mxgraph.mscae.cloud.hockeyapp` (38×21)
+- `mxgraph.mscae.cloud.hybrid_connection_manager` (100×70)
+- `mxgraph.mscae.cloud.hybrid_connections` (95×103)
+- `mxgraph.mscae.cloud.iot` (94×93)
+- `mxgraph.mscae.cloud.iot_edge` (99×100)
+- `mxgraph.mscae.cloud.key_vault` (97×100)
+- `mxgraph.mscae.cloud.logic_app` (100×100)
+- `mxgraph.mscae.cloud.logic_apps` (38×29)
+- `mxgraph.mscae.cloud.machine_learning` (94×100)
+- `mxgraph.mscae.cloud.machine_learning2` (25×25)
+- `mxgraph.mscae.cloud.machine_learning_service_plans` (99×100)
+- `mxgraph.mscae.cloud.machine_learning_web_services` (99×100)
+- `mxgraph.mscae.cloud.machine_learning_work_spaces` (98×100)
+- `mxgraph.mscae.cloud.managed_applications` (88×100)
+- `mxgraph.mscae.cloud.managed_discs` (102×94)
+- `mxgraph.mscae.cloud.management_portal` (24×20)
+- `mxgraph.mscae.cloud.microsoft_account` (100×100)
+- `mxgraph.mscae.cloud.microsoft_azure` (100×65)
+- `mxgraph.mscae.cloud.mobile_app` (59×99)
+- `mxgraph.mscae.cloud.mobile_engagement` (61×100)
+- `mxgraph.mscae.cloud.monitor` (50×50)
+- `mxgraph.mscae.cloud.network_watcher` (101×101)
+- `mxgraph.mscae.cloud.nsg` (36×50)
+- `mxgraph.mscae.cloud.office_365` (82×98)
+- `mxgraph.mscae.cloud.office_365_subscription` (100×68)
+- `mxgraph.mscae.cloud.oms_log_analytics` (37×37)
+- `mxgraph.mscae.cloud.operational_insights` (100×100)
+- `mxgraph.mscae.cloud.power_bi_embedded` (53×56)
+- `mxgraph.mscae.cloud.recovery_vault` (35×35)
+- `mxgraph.mscae.cloud.remoteapp` (100×100)
+- `mxgraph.mscae.cloud.resource_group` (100×82)
+- `mxgraph.mscae.cloud.route_filters` (100×84)
+- `mxgraph.mscae.cloud.runbooks` (35×37)
+- `mxgraph.mscae.cloud.security_center` (37×50)
+- `mxgraph.mscae.cloud.service_bus` (38×38)
+- `mxgraph.mscae.cloud.service_bus2` (46×46)
+- `mxgraph.mscae.cloud.service_bus_queues` (38×38)
+- `mxgraph.mscae.cloud.service_bus_relay` (38×38)
+- `mxgraph.mscae.cloud.service_bus_relay2` (448×447)
+- `mxgraph.mscae.cloud.service_bus_topics` (38×38)
+- `mxgraph.mscae.cloud.service_endpoint` (99×18)
+- `mxgraph.mscae.cloud.service_endpoint2` (32×12)
+- `mxgraph.mscae.cloud.service_fabric` (102×100)
+- `mxgraph.mscae.cloud.service_package` (88×99)
+- `mxgraph.mscae.cloud.site_recovery` (37×31)
+- `mxgraph.mscae.cloud.snapshot` (130×111)
+- `mxgraph.mscae.cloud.sql_database_premium` (28×38)
+- `mxgraph.mscae.cloud.sql_datawarehouse` (72×70)
+- `mxgraph.mscae.cloud.sql_elastic_database_pools` (74×74)
+- `mxgraph.mscae.cloud.sql_stretch_database` (78×57)
+- `mxgraph.mscae.cloud.stack` (50×50)
+- `mxgraph.mscae.cloud.storage` (50×43)
+- `mxgraph.mscae.cloud.storage_cs` (50×45)
+- `mxgraph.mscae.cloud.storage_files` (202×175)
+- `mxgraph.mscae.cloud.storage_sync_services` (100×100)
+- `mxgraph.mscae.cloud.stream_analytics` (96×74)
+- `mxgraph.mscae.cloud.tags` (97×100)
+- `mxgraph.mscae.cloud.time_series_insights` (100×100)
+- `mxgraph.mscae.cloud.vhd` (82×100)
+- `mxgraph.mscae.cloud.virtual_machine_container` (97×86)
+- `mxgraph.mscae.cloud.virtual_machines_availability_set` (38×38)
+- `mxgraph.mscae.cloud.vm_scale_set` (37×38)
+- `mxgraph.mscae.cloud.vpn_gateway` (65×100)
+- `mxgraph.mscae.cloud.vpn_gateway2` (45×50)
+- `mxgraph.mscae.cloud.webhooks` (28×26)
+- `mxgraph.mscae.cloud.webjobs` (103×102)
+- `mxgraph.mscae.cloud.work_account` (100×100)
+- `mxgraph.mscae.cloud.worker_pools` (38×38)
+- `mxgraph.mscae.deprecated.application` (100×66)
+- `mxgraph.mscae.deprecated.application_gateway` (50×50)
+- `mxgraph.mscae.deprecated.azure` (131×81)
+- `mxgraph.mscae.deprecated.batch` (43×41)
+- `mxgraph.mscae.deprecated.bot` (31×31)
+- `mxgraph.mscae.deprecated.compute` (33×24)
+- `mxgraph.mscae.deprecated.data_lake` (25×32)
+- `mxgraph.mscae.deprecated.data_lake_analytics` (24×24)
+- `mxgraph.mscae.deprecated.data_lake_store` (24×24)
+- `mxgraph.mscae.deprecated.data_services` (27×35)
+- `mxgraph.mscae.deprecated.poster_arrow` (49×123)
+- `mxgraph.mscae.deprecated.sql_data_warehouse` (28×32)
+- `mxgraph.mscae.deprecated.sql_server_stretch_db` (32×32)
+- `mxgraph.mscae.enterprise.ad_fs` (80×100)
+- `mxgraph.mscae.enterprise.android_phone` (61×100)
+- `mxgraph.mscae.enterprise.app_generic` (100×67)
+- `mxgraph.mscae.enterprise.application` (395×266)
+- `mxgraph.mscae.enterprise.application_blank` (91×79)
+- `mxgraph.mscae.enterprise.application_server` (76×88)
+- `mxgraph.mscae.enterprise.application_server2` (304×352)
+- `mxgraph.mscae.enterprise.backup_local` (98×100)
+- `mxgraph.mscae.enterprise.backup_online` (102×82)
+- `mxgraph.mscae.enterprise.calendar` (412×335)
+- `mxgraph.mscae.enterprise.client_application` (100×63)
+- `mxgraph.mscae.enterprise.cluster_server` (80×100)
+- `mxgraph.mscae.enterprise.code_file` (258×268)
+- `mxgraph.mscae.enterprise.connectors` (100×67)
+- `mxgraph.mscae.enterprise.d` (81×100)
+- `mxgraph.mscae.enterprise.database_generic` (76×103)
+- `mxgraph.mscae.enterprise.database_server` (75×100)
+- `mxgraph.mscae.enterprise.database_synchronization` (78×100)
+- `mxgraph.mscae.enterprise.device` (100×51)
+- `mxgraph.mscae.enterprise.direct_access_feature` (99×89)
+- `mxgraph.mscae.enterprise.document` (80×100)
+- `mxgraph.mscae.enterprise.domain_controller` (73×100)
+- `mxgraph.mscae.enterprise.enterprise_building` (255×405)
+- `mxgraph.mscae.enterprise.filter` (100×90)
+- `mxgraph.mscae.enterprise.firewall` (100×87)
+- `mxgraph.mscae.enterprise.folder` (100×85)
+- `mxgraph.mscae.enterprise.gateway` (100×100)
+- `mxgraph.mscae.enterprise.generic_app` (395×266)
+- `mxgraph.mscae.enterprise.import_generic` (80×100)
+- `mxgraph.mscae.enterprise.internet` (101×62)
+- `mxgraph.mscae.enterprise.internet_hollow` (101×62)
+- `mxgraph.mscae.enterprise.iphone` (28×45)
+- `mxgraph.mscae.enterprise.key_permissions` (52×100)
+- `mxgraph.mscae.enterprise.keyboard` (100×60)
+- `mxgraph.mscae.enterprise.load_testing` (96×100)
+- `mxgraph.mscae.enterprise.lock` (77×101)
+- `mxgraph.mscae.enterprise.lock_unlocked` (74×100)
+- `mxgraph.mscae.enterprise.maintenance` (69×100)
+- `mxgraph.mscae.enterprise.management_console` (100×67)
+- `mxgraph.mscae.enterprise.monitor_running_apps` (100×79)
+- `mxgraph.mscae.enterprise.mouse` (59×101)
+- `mxgraph.mscae.enterprise.network_card` (100×71)
+- `mxgraph.mscae.enterprise.not_allowed` (35×35)
+- `mxgraph.mscae.enterprise.pack` (64×57)
+- `mxgraph.mscae.enterprise.performance` (100×100)
+- `mxgraph.mscae.enterprise.performance_monitor` (100×72)
+- `mxgraph.mscae.enterprise.plug_and_play` (80×100)
+- `mxgraph.mscae.enterprise.protocol_stack` (100×68)
+- `mxgraph.mscae.enterprise.rms_connector` (60×79)
+- `mxgraph.mscae.enterprise.router` (99×76)
+- `mxgraph.mscae.enterprise.secondary_site` (83×100)
+- `mxgraph.mscae.enterprise.secure_virtual_machine` (100×77)
+- `mxgraph.mscae.enterprise.server_directory` (78×100)
+- `mxgraph.mscae.enterprise.server_farm` (100×63)
+- `mxgraph.mscae.enterprise.server_generic` (49×100)
+- `mxgraph.mscae.enterprise.settings` (100×100)
+- `mxgraph.mscae.enterprise.shared_folder` (86×100)
+- `mxgraph.mscae.enterprise.smartcard` (100×64)
+- `mxgraph.mscae.enterprise.storage` (100×83)
+- `mxgraph.mscae.enterprise.stored_procedures` (14×15)
+- `mxgraph.mscae.enterprise.table` (100×100)
+- `mxgraph.mscae.enterprise.tool` (101×94)
+- `mxgraph.mscae.enterprise.triggers` (14×15)
+- `mxgraph.mscae.enterprise.udf_function` (14×15)
+- `mxgraph.mscae.enterprise.unhealthy` (105×86)
+- `mxgraph.mscae.enterprise.usb` (100×46)
+- `mxgraph.mscae.enterprise.user_permissions` (14×15)
+- `mxgraph.mscae.enterprise.web` (100×100)
+- `mxgraph.mscae.enterprise.web_server` (76×100)
+- `mxgraph.mscae.enterprise.website_generic` (95×83)
+- `mxgraph.mscae.enterprise.windows_server` (77×100)
+- `mxgraph.mscae.enterprise.wireless_connection` (83×100)
+- `mxgraph.mscae.enterprise.workstation_client` (100×100)
+- `mxgraph.mscae.enterprise.xml_web_service` (100×99)
+- `mxgraph.mscae.general.audio` (97×99)
+- `mxgraph.mscae.general.bug` (100×100)
+- `mxgraph.mscae.general.cable_settop_tv_box` (97×47)
+- `mxgraph.mscae.general.calendar` (100×81)
+- `mxgraph.mscae.general.chart` (100×96)
+- `mxgraph.mscae.general.checkmark` (92×100)
+- `mxgraph.mscae.general.continuous_cycle` (97×101)
+- `mxgraph.mscae.general.crossout` (79×99)
+- `mxgraph.mscae.general.cut_and_paste` (101×68)
+- `mxgraph.mscae.general.game_controller` (100×70)
+- `mxgraph.mscae.general.gears` (99×84)
+- `mxgraph.mscae.general.graph` (100×98)
+- `mxgraph.mscae.general.like` (100×94)
+- `mxgraph.mscae.general.not_allowed` (100×100)
+- `mxgraph.mscae.general.pointer` (100×100)
+- `mxgraph.mscae.general.slider_bar_horizontal` (96×36)
+- `mxgraph.mscae.general.slider_bar_vertical` (44×100)
+- `mxgraph.mscae.general.task_list` (76×95)
+- `mxgraph.mscae.general.tasks` (76×100)
+- `mxgraph.mscae.general.tunnel` (100×18)
+- `mxgraph.mscae.general.video` (97×100)
+- `mxgraph.mscae.general_symbols.attachments` (7×12)
+- `mxgraph.mscae.general_symbols.clock_time` (100×100)
+- `mxgraph.mscae.general_symbols.ellipses` (100×13)
+- `mxgraph.mscae.general_symbols.favorite` (14×20)
+- `mxgraph.mscae.general_symbols.gears` (53×45)
+- `mxgraph.mscae.general_symbols.num_label_rotate` (100×100)
+- `mxgraph.mscae.general_symbols.premium_star` (12×11)
+- `mxgraph.mscae.general_symbols.slider_bar_horz` (81×30)
+- `mxgraph.mscae.general_symbols.slider_bar_vert` (35×80)
+- `mxgraph.mscae.general_symbols.waiting` (92×100)
+- `mxgraph.mscae.intune.account_portal` (80×92)
+- `mxgraph.mscae.intune.administration` (59×100)
+- `mxgraph.mscae.intune.alerts` (100×100)
+- `mxgraph.mscae.intune.apps` (100×100)
+- `mxgraph.mscae.intune.certificate` (100×89)
+- `mxgraph.mscae.intune.client_software` (105×93)
+- `mxgraph.mscae.intune.company_portal` (94×72)
+- `mxgraph.mscae.intune.computer_inventory` (100×90)
+- `mxgraph.mscae.intune.conditional_access_exchange` (89×100)
+- `mxgraph.mscae.intune.conditional_access_sharepoint` (87×99)
+- `mxgraph.mscae.intune.connector` (93×32)
+- `mxgraph.mscae.intune.dashboard` (100×79)
+- `mxgraph.mscae.intune.data_migration_wizard` (101×98)
+- `mxgraph.mscae.intune.detected_software` (100×88)
+- `mxgraph.mscae.intune.device_group` (100×100)
+- `mxgraph.mscae.intune.device_health` (100×63)
+- `mxgraph.mscae.intune.device_history` (90×100)
+- `mxgraph.mscae.intune.device_os` (98×100)
+- `mxgraph.mscae.intune.end_protection` (96×100)
+- `mxgraph.mscae.intune.exchange_connector` (100×99)
+- `mxgraph.mscae.intune.groups` (100×96)
+- `mxgraph.mscae.intune.hybrid` (100×67)
+- `mxgraph.mscae.intune.intune_certificate_profiles` (80×100)
+- `mxgraph.mscae.intune.intune_connector` (82×59)
+- `mxgraph.mscae.intune.intune_email_profiles` (99×100)
+- `mxgraph.mscae.intune.intune_managed_app` (100×76)
+- `mxgraph.mscae.intune.intune_mobile_application_management` (98×100)
+- `mxgraph.mscae.intune.intune_vpn_profiles` (84×100)
+- `mxgraph.mscae.intune.intune_wifi_profiles` (87×101)
+- `mxgraph.mscae.intune.inventory_license` (100×98)
+- `mxgraph.mscae.intune.inventory_software` (100×98)
+- `mxgraph.mscae.intune.license_group` (100×98)
+- `mxgraph.mscae.intune.license_installation` (100×86)
+- `mxgraph.mscae.intune.microsoft_intune` (96×77)
+- `mxgraph.mscae.intune.mobile_inventory` (88×100)
+- `mxgraph.mscae.intune.noncompliant_apps` (96×99)
+- `mxgraph.mscae.intune.policy` (100×101)
+- `mxgraph.mscae.intune.protection` (96×100)
+- `mxgraph.mscae.intune.reports` (93×100)
+- `mxgraph.mscae.intune.subscription_portal` (90×90)
+- `mxgraph.mscae.intune.terms_and_conditions` (75×100)
+- `mxgraph.mscae.intune.update` (100×104)
+- `mxgraph.mscae.intune.user_group` (99×75)
+- `mxgraph.mscae.intune.user_management` (100×93)
+- `mxgraph.mscae.oms.alerts` (61×74)
+- `mxgraph.mscae.oms.app_with_changes` (73×47)
+- `mxgraph.mscae.oms.assessments` (69×73)
+- `mxgraph.mscae.oms.capacity` (73×58)
+- `mxgraph.mscae.oms.config_assessment` (73×66)
+- `mxgraph.mscae.oms.dashboard` (73×61)
+- `mxgraph.mscae.oms.dependency_monitor` (73×72)
+- `mxgraph.mscae.oms.diagnostics` (73×49)
+- `mxgraph.mscae.oms.jobs` (73×73)
+- `mxgraph.mscae.oms.log_management` (59×73)
+- `mxgraph.mscae.oms.log_search` (75×75)
+- `mxgraph.mscae.oms.malware_assessment` (71×73)
+- `mxgraph.mscae.oms.overview` (73×61)
+- `mxgraph.mscae.oms.security` (72×73)
+- `mxgraph.mscae.oms.server_width_changes` (69×73)
+- `mxgraph.mscae.oms.services` (72×73)
+- `mxgraph.mscae.oms.solutions` (74×73)
+- `mxgraph.mscae.oms.system_update` (72×73)
+- `mxgraph.mscae.oms.track_changes` (61×73)
+- `mxgraph.mscae.oms.wire_data` (74×74)
+- `mxgraph.mscae.opsmanager.advanced_group_policy_management` (95×100)
+- `mxgraph.mscae.opsmanager.app_controller` (100×86)
+- `mxgraph.mscae.opsmanager.application_virtualization` (99×100)
+- `mxgraph.mscae.opsmanager.applications` (98×100)
+- `mxgraph.mscae.opsmanager.configuration_manager` (92×100)
+- `mxgraph.mscae.opsmanager.data_protection_manager` (87×100)
+- `mxgraph.mscae.opsmanager.middleware` (100×69)
+- `mxgraph.mscae.opsmanager.ms_bitlocker_administration_and_management` (93×100)
+- `mxgraph.mscae.opsmanager.ms_diagnostics_and_recovery_toolset` (100×95)
+- `mxgraph.mscae.opsmanager.ms_enterprise_desktop_virtualization` (100×99)
+- `mxgraph.mscae.opsmanager.ms_user_experience_virtualization` (100×96)
+- `mxgraph.mscae.opsmanager.operations_manager` (97×100)
+- `mxgraph.mscae.opsmanager.orchestrator` (100×68)
+- `mxgraph.mscae.opsmanager.pack` (89×100)
+- `mxgraph.mscae.opsmanager.runtime` (100×70)
+- `mxgraph.mscae.opsmanager.service_manager` (100×72)
+- `mxgraph.mscae.opsmanager.ssd` (100×81)
+- `mxgraph.mscae.opsmanager.virtual_machine_manager` (102×79)
+- `mxgraph.mscae.other.access` (100×99)
+- `mxgraph.mscae.other.bi_product_icon` (50×53)
+- `mxgraph.mscae.other.cortana` (76×76)
+- `mxgraph.mscae.other.excel` (89×89)
+- `mxgraph.mscae.other.exchange` (100×95)
+- `mxgraph.mscae.other.lync` (101×96)
+- `mxgraph.mscae.other.microsoft` (100×100)
+- `mxgraph.mscae.other.outlook` (100×100)
+- `mxgraph.mscae.other.powerappsicon` (32×32)
+- `mxgraph.mscae.other.powerpoint` (100×100)
+- `mxgraph.mscae.other.sharepoint` (100×98)
+- `mxgraph.mscae.other.skype` (90×90)
+- `mxgraph.mscae.other.windows` (96×100)
+- `mxgraph.mscae.other.word` (100×100)
+- `mxgraph.mscae.other.xbox` (109×106)
+- `mxgraph.mscae.other.xbox_one` (99×32)
+- `mxgraph.mscae.system_center.admin_console` (100×72)
+- `mxgraph.mscae.system_center.central_administration_site_sql` (76×100)
+- `mxgraph.mscae.system_center.cloud_distribution_point` (93×100)
+- `mxgraph.mscae.system_center.distribution_point` (88×100)
+- `mxgraph.mscae.system_center.management_point` (97×100)
+- `mxgraph.mscae.system_center.primary_site` (75×100)
+- `mxgraph.mscae.system_center.roles` (85×100)
+- `mxgraph.mscae.system_center.secondary_site` (83×100)
+- `mxgraph.mscae.system_center.software_update_point` (100×87)
+- `mxgraph.mscae.vm.active_directory` (38×30)
+- `mxgraph.mscae.vm.active_directory_multi` (42×36)
+- `mxgraph.mscae.vm.application_server` (38×30)
+- `mxgraph.mscae.vm.application_server_multi` (42×36)
+- `mxgraph.mscae.vm.database_server` (38×30)
+- `mxgraph.mscae.vm.database_server_multi` (42×36)
+- `mxgraph.mscae.vm.directory_server` (38×30)
+- `mxgraph.mscae.vm.directory_server_multi` (42×36)
+- `mxgraph.mscae.vm.domain_server` (38×30)
+- `mxgraph.mscae.vm.domain_server_multi` (43×36)
+- `mxgraph.mscae.vm.file_server` (38×30)
+- `mxgraph.mscae.vm.file_server2` (38×30)
+- `mxgraph.mscae.vm.file_server_multi` (42×36)
+- `mxgraph.mscae.vm.web_server` (38×30)
+- `mxgraph.mscae.vm.web_server_multi` (42×35)
+- `mxgraph.mscae.vm.windows_server` (38×30)
+- `mxgraph.mscae.vm.windows_server_multi` (42×36)
 
 ## Usage Example
 
 ```drawio
-<mxfile><diagram id="example" name="Example"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="" style="shape=mxgraph.mscae.general.cable_settop_tv_box;html=1;fillColor=#bebebe;strokeColor=none;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="100" y="100" width="60" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
+<mxfile><diagram id="example" name="Example"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="" style="shape=mxgraph.mscae.cloud.active_directory;html=1;fillColor=#CCCCCC;strokeColor=#6881B3;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="100" y="100" width="60" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
 ```

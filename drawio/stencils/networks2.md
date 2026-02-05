@@ -4,123 +4,123 @@ Stencil library: `mxgraph.networks2.*`
 
 Total: 114 stencils
 
-- `mxgraph.networks2.antenna`
-- `mxgraph.networks2.antenna_shadow`
-- `mxgraph.networks2.application`
-- `mxgraph.networks2.application_shadow`
-- `mxgraph.networks2.big_data`
-- `mxgraph.networks2.big_data_shadow`
-- `mxgraph.networks2.biohazard`
-- `mxgraph.networks2.biohazard_shadow`
-- `mxgraph.networks2.biometric_reader`
-- `mxgraph.networks2.biometric_reader_shadow`
-- `mxgraph.networks2.cctv`
-- `mxgraph.networks2.cctv_shadow`
-- `mxgraph.networks2.cloud`
-- `mxgraph.networks2.cloud_shadow`
-- `mxgraph.networks2.community`
-- `mxgraph.networks2.community_shadow`
-- `mxgraph.networks2.copier`
-- `mxgraph.networks2.copier_shadow`
-- `mxgraph.networks2.data_management`
-- `mxgraph.networks2.data_management_shadow`
-- `mxgraph.networks2.data_storage`
-- `mxgraph.networks2.data_storage_shadow`
-- `mxgraph.networks2.desktop_pc`
-- `mxgraph.networks2.desktop_pc_shadow`
-- `mxgraph.networks2.encryption`
-- `mxgraph.networks2.encryption_shadow`
-- `mxgraph.networks2.external_storage`
-- `mxgraph.networks2.external_storage_shadow`
-- `mxgraph.networks2.firewall`
-- `mxgraph.networks2.firewall_shadow`
-- `mxgraph.networks2.gamepad`
-- `mxgraph.networks2.gamepad_shadow`
-- `mxgraph.networks2.global_server`
-- `mxgraph.networks2.global_server_shadow`
-- `mxgraph.networks2.globe`
-- `mxgraph.networks2.globe_shadow`
-- `mxgraph.networks2.hub`
-- `mxgraph.networks2.hub_shadow`
-- `mxgraph.networks2.internet`
-- `mxgraph.networks2.internet_security`
-- `mxgraph.networks2.internet_security_shadow`
-- `mxgraph.networks2.internet_shadow`
-- `mxgraph.networks2.lan`
-- `mxgraph.networks2.lan_shadow`
-- `mxgraph.networks2.laptop`
-- `mxgraph.networks2.laptop_shadow`
-- `mxgraph.networks2.load_balancer`
-- `mxgraph.networks2.load_balancer_shadow`
-- `mxgraph.networks2.lock`
-- `mxgraph.networks2.lock_shadow`
-- `mxgraph.networks2.mail_server`
-- `mxgraph.networks2.mail_server_shadow`
-- `mxgraph.networks2.mainframe`
-- `mxgraph.networks2.mainframe_shadow`
-- `mxgraph.networks2.mobile_network`
-- `mxgraph.networks2.mobile_network_shadow`
-- `mxgraph.networks2.mobile_phone`
-- `mxgraph.networks2.mobile_phone_shadow`
-- `mxgraph.networks2.modem`
-- `mxgraph.networks2.modem_shadow`
-- `mxgraph.networks2.monitor`
-- `mxgraph.networks2.monitor_shadow`
-- `mxgraph.networks2.nas_filer`
-- `mxgraph.networks2.nas_filer_shadow`
-- `mxgraph.networks2.network`
-- `mxgraph.networks2.network_security`
-- `mxgraph.networks2.network_security_shadow`
-- `mxgraph.networks2.network_shadow`
-- `mxgraph.networks2.patch_panel`
-- `mxgraph.networks2.patch_panel_shadow`
-- `mxgraph.networks2.pc`
-- `mxgraph.networks2.pc_shadow`
-- `mxgraph.networks2.phone`
-- `mxgraph.networks2.phone_shadow`
-- `mxgraph.networks2.printer`
-- `mxgraph.networks2.printer_shadow`
-- `mxgraph.networks2.projector_canvas`
-- `mxgraph.networks2.projector_canvas_shadow`
-- `mxgraph.networks2.rack_cabinet`
-- `mxgraph.networks2.rack_cabinet_shadow`
-- `mxgraph.networks2.router`
-- `mxgraph.networks2.router_shadow`
-- `mxgraph.networks2.satellite`
-- `mxgraph.networks2.satellite_dish`
-- `mxgraph.networks2.satellite_dish_shadow`
-- `mxgraph.networks2.satellite_shadow`
-- `mxgraph.networks2.scanner`
-- `mxgraph.networks2.scanner_shadow`
-- `mxgraph.networks2.server`
-- `mxgraph.networks2.server_shadow`
-- `mxgraph.networks2.social_media`
-- `mxgraph.networks2.social_media_shadow`
-- `mxgraph.networks2.tablet`
-- `mxgraph.networks2.tablet_shadow`
-- `mxgraph.networks2.terminal`
-- `mxgraph.networks2.terminal_shadow`
-- `mxgraph.networks2.threat`
-- `mxgraph.networks2.threat_shadow`
-- `mxgraph.networks2.ups`
-- `mxgraph.networks2.ups_shadow`
-- `mxgraph.networks2.user_female`
-- `mxgraph.networks2.user_female_shadow`
-- `mxgraph.networks2.user_male`
-- `mxgraph.networks2.user_male_shadow`
-- `mxgraph.networks2.users`
-- `mxgraph.networks2.users_shadow`
-- `mxgraph.networks2.video_projector`
-- `mxgraph.networks2.video_projector_shadow`
-- `mxgraph.networks2.vr`
-- `mxgraph.networks2.vr_shadow`
-- `mxgraph.networks2.web_hosting`
-- `mxgraph.networks2.web_hosting_shadow`
-- `mxgraph.networks2.wireless_hub`
-- `mxgraph.networks2.wireless_hub_shadow`
+- `mxgraph.networks2.antenna` (51×100)
+- `mxgraph.networks2.antenna_shadow` (140×140)
+- `mxgraph.networks2.application` (53×102)
+- `mxgraph.networks2.application_shadow` (140×140)
+- `mxgraph.networks2.big_data` (100×100)
+- `mxgraph.networks2.big_data_shadow` (140×140)
+- `mxgraph.networks2.biohazard` (101×93)
+- `mxgraph.networks2.biohazard_shadow` (140×140)
+- `mxgraph.networks2.biometric_reader` (84×100)
+- `mxgraph.networks2.biometric_reader_shadow` (140×140)
+- `mxgraph.networks2.cctv` (100×73)
+- `mxgraph.networks2.cctv_shadow` (140×140)
+- `mxgraph.networks2.cloud` (100×72)
+- `mxgraph.networks2.cloud_shadow` (140×140)
+- `mxgraph.networks2.community` (88×100)
+- `mxgraph.networks2.community_shadow` (140×140)
+- `mxgraph.networks2.copier` (89×100)
+- `mxgraph.networks2.copier_shadow` (140×140)
+- `mxgraph.networks2.data_management` (83×100)
+- `mxgraph.networks2.data_management_shadow` (140×140)
+- `mxgraph.networks2.data_storage` (83×100)
+- `mxgraph.networks2.data_storage_shadow` (140×140)
+- `mxgraph.networks2.desktop_pc` (45×100)
+- `mxgraph.networks2.desktop_pc_shadow` (140×140)
+- `mxgraph.networks2.encryption` (100×70)
+- `mxgraph.networks2.encryption_shadow` (140×140)
+- `mxgraph.networks2.external_storage` (100×80)
+- `mxgraph.networks2.external_storage_shadow` (140×140)
+- `mxgraph.networks2.firewall` (100×61)
+- `mxgraph.networks2.firewall_shadow` (140×140)
+- `mxgraph.networks2.gamepad` (100×74)
+- `mxgraph.networks2.gamepad_shadow` (140×140)
+- `mxgraph.networks2.global_server` (100×100)
+- `mxgraph.networks2.global_server_shadow` (140×140)
+- `mxgraph.networks2.globe` (100×100)
+- `mxgraph.networks2.globe_shadow` (140×140)
+- `mxgraph.networks2.hub` (100×29)
+- `mxgraph.networks2.hub_shadow` (140×140)
+- `mxgraph.networks2.internet` (97×77)
+- `mxgraph.networks2.internet_security` (100×100)
+- `mxgraph.networks2.internet_security_shadow` (140×140)
+- `mxgraph.networks2.internet_shadow` (140×140)
+- `mxgraph.networks2.lan` (108×76)
+- `mxgraph.networks2.lan_shadow` (140×140)
+- `mxgraph.networks2.laptop` (100×57)
+- `mxgraph.networks2.laptop_shadow` (140×140)
+- `mxgraph.networks2.load_balancer` (86×76)
+- `mxgraph.networks2.load_balancer_shadow` (140×140)
+- `mxgraph.networks2.lock` (80×100)
+- `mxgraph.networks2.lock_shadow` (140×140)
+- `mxgraph.networks2.mail_server` (100×79)
+- `mxgraph.networks2.mail_server_shadow` (140×140)
+- `mxgraph.networks2.mainframe` (47×100)
+- `mxgraph.networks2.mainframe_shadow` (140×140)
+- `mxgraph.networks2.mobile_network` (53×102)
+- `mxgraph.networks2.mobile_network_shadow` (140×140)
+- `mxgraph.networks2.mobile_phone` (53×102)
+- `mxgraph.networks2.mobile_phone_shadow` (140×140)
+- `mxgraph.networks2.modem` (100×29)
+- `mxgraph.networks2.modem_shadow` (140×140)
+- `mxgraph.networks2.monitor` (100×74)
+- `mxgraph.networks2.monitor_shadow` (140×140)
+- `mxgraph.networks2.nas_filer` (100×62)
+- `mxgraph.networks2.nas_filer_shadow` (140×140)
+- `mxgraph.networks2.network` (100×86)
+- `mxgraph.networks2.network_security` (100×86)
+- `mxgraph.networks2.network_security_shadow` (140×140)
+- `mxgraph.networks2.network_shadow` (140×140)
+- `mxgraph.networks2.patch_panel` (100×34)
+- `mxgraph.networks2.patch_panel_shadow` (140×140)
+- `mxgraph.networks2.pc` (100×71)
+- `mxgraph.networks2.pc_shadow` (140×140)
+- `mxgraph.networks2.phone` (99×79)
+- `mxgraph.networks2.phone_shadow` (140×140)
+- `mxgraph.networks2.printer` (100×100)
+- `mxgraph.networks2.printer_shadow` (140×140)
+- `mxgraph.networks2.projector_canvas` (100×104)
+- `mxgraph.networks2.projector_canvas_shadow` (140×140)
+- `mxgraph.networks2.rack_cabinet` (47×100)
+- `mxgraph.networks2.rack_cabinet_shadow` (140×140)
+- `mxgraph.networks2.router` (100×55)
+- `mxgraph.networks2.router_shadow` (140×140)
+- `mxgraph.networks2.satellite` (116×97)
+- `mxgraph.networks2.satellite_dish` (101×100)
+- `mxgraph.networks2.satellite_dish_shadow` (140×140)
+- `mxgraph.networks2.satellite_shadow` (140×140)
+- `mxgraph.networks2.scanner` (100×60)
+- `mxgraph.networks2.scanner_shadow` (140×140)
+- `mxgraph.networks2.server` (100×58)
+- `mxgraph.networks2.server_shadow` (140×140)
+- `mxgraph.networks2.social_media` (102×93)
+- `mxgraph.networks2.social_media_shadow` (140×140)
+- `mxgraph.networks2.tablet` (100×66)
+- `mxgraph.networks2.tablet_shadow` (140×140)
+- `mxgraph.networks2.terminal` (86×100)
+- `mxgraph.networks2.terminal_shadow` (140×140)
+- `mxgraph.networks2.threat` (106×96)
+- `mxgraph.networks2.threat_shadow` (140×140)
+- `mxgraph.networks2.ups` (62×100)
+- `mxgraph.networks2.ups_shadow` (140×140)
+- `mxgraph.networks2.user_female` (81×99)
+- `mxgraph.networks2.user_female_shadow` (140×140)
+- `mxgraph.networks2.user_male` (89×100)
+- `mxgraph.networks2.user_male_shadow` (140×140)
+- `mxgraph.networks2.users` (104×66)
+- `mxgraph.networks2.users_shadow` (140×140)
+- `mxgraph.networks2.video_projector` (100×29)
+- `mxgraph.networks2.video_projector_shadow` (140×140)
+- `mxgraph.networks2.vr` (100×45)
+- `mxgraph.networks2.vr_shadow` (140×140)
+- `mxgraph.networks2.web_hosting` (100×91)
+- `mxgraph.networks2.web_hosting_shadow` (140×140)
+- `mxgraph.networks2.wireless_hub` (100×55)
+- `mxgraph.networks2.wireless_hub_shadow` (140×140)
 
 ## Usage Example
 
 ```drawio
-<mxfile><diagram id="example" name="Example"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="" style="shape=mxgraph.networks2.antenna;html=1;fillColor=null;strokeColor=null;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="100" y="100" width="60" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
+<mxfile><diagram id="example" name="Example"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="" style="shape=mxgraph.networks2.antenna;html=1;fillColor=#CCCCCC;strokeColor=#6881B3;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="100" y="100" width="60" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
 ```

@@ -4,177 +4,177 @@ Stencil library: `mxgraph.ios7.*`
 
 Total: 168 stencils
 
-- `mxgraph.ios7.icons.add`
-- `mxgraph.ios7.icons.alarm_clock`
-- `mxgraph.ios7.icons.back`
-- `mxgraph.ios7.icons.backward`
-- `mxgraph.ios7.icons.bag`
-- `mxgraph.ios7.icons.basket_cancel`
-- `mxgraph.ios7.icons.basketball`
-- `mxgraph.ios7.icons.battery`
-- `mxgraph.ios7.icons.bell`
-- `mxgraph.ios7.icons.bluetooth`
-- `mxgraph.ios7.icons.book`
-- `mxgraph.ios7.icons.bookmark`
-- `mxgraph.ios7.icons.box`
-- `mxgraph.ios7.icons.briefcase`
-- `mxgraph.ios7.icons.calculator`
-- `mxgraph.ios7.icons.calendar`
-- `mxgraph.ios7.icons.calendar2`
-- `mxgraph.ios7.icons.camera`
-- `mxgraph.ios7.icons.chat`
-- `mxgraph.ios7.icons.clock`
-- `mxgraph.ios7.icons.cloud`
-- `mxgraph.ios7.icons.compose`
-- `mxgraph.ios7.icons.controls`
-- `mxgraph.ios7.icons.controls2`
-- `mxgraph.ios7.icons.credit_card`
-- `mxgraph.ios7.icons.crop`
-- `mxgraph.ios7.icons.cube`
-- `mxgraph.ios7.icons.cup`
-- `mxgraph.ios7.icons.data`
-- `mxgraph.ios7.icons.delete`
-- `mxgraph.ios7.icons.document`
-- `mxgraph.ios7.icons.documents`
-- `mxgraph.ios7.icons.down`
-- `mxgraph.ios7.icons.edit`
-- `mxgraph.ios7.icons.envelope_(empty)`
-- `mxgraph.ios7.icons.envelope_(message)`
-- `mxgraph.ios7.icons.eye`
-- `mxgraph.ios7.icons.flag`
-- `mxgraph.ios7.icons.flash`
-- `mxgraph.ios7.icons.flashlight`
-- `mxgraph.ios7.icons.folder`
-- `mxgraph.ios7.icons.folders`
-- `mxgraph.ios7.icons.folders_2`
-- `mxgraph.ios7.icons.forward`
-- `mxgraph.ios7.icons.gauge`
-- `mxgraph.ios7.icons.glasses`
-- `mxgraph.ios7.icons.globe`
-- `mxgraph.ios7.icons.heart`
-- `mxgraph.ios7.icons.help`
-- `mxgraph.ios7.icons.home`
-- `mxgraph.ios7.icons.info`
-- `mxgraph.ios7.icons.keypad`
-- `mxgraph.ios7.icons.lightbulb`
-- `mxgraph.ios7.icons.link`
-- `mxgraph.ios7.icons.location`
-- `mxgraph.ios7.icons.location_2`
-- `mxgraph.ios7.icons.location_22`
-- `mxgraph.ios7.icons.locked`
-- `mxgraph.ios7.icons.looking_glass`
-- `mxgraph.ios7.icons.loud`
-- `mxgraph.ios7.icons.magnet`
-- `mxgraph.ios7.icons.mail`
-- `mxgraph.ios7.icons.map`
-- `mxgraph.ios7.icons.message`
-- `mxgraph.ios7.icons.messages`
-- `mxgraph.ios7.icons.microphone`
-- `mxgraph.ios7.icons.monitor`
-- `mxgraph.ios7.icons.moon`
-- `mxgraph.ios7.icons.most_viewed`
-- `mxgraph.ios7.icons.move_to_folder`
-- `mxgraph.ios7.icons.note`
-- `mxgraph.ios7.icons.options`
-- `mxgraph.ios7.icons.orientation_lock`
-- `mxgraph.ios7.icons.orientation_lock2`
-- `mxgraph.ios7.icons.page_navigation`
-- `mxgraph.ios7.icons.paint`
-- `mxgraph.ios7.icons.pause`
-- `mxgraph.ios7.icons.pen`
-- `mxgraph.ios7.icons.phone`
-- `mxgraph.ios7.icons.pie_chart`
-- `mxgraph.ios7.icons.play`
-- `mxgraph.ios7.icons.pointer`
-- `mxgraph.ios7.icons.preferences`
-- `mxgraph.ios7.icons.printer`
-- `mxgraph.ios7.icons.privacy`
-- `mxgraph.ios7.icons.radio`
-- `mxgraph.ios7.icons.reload`
-- `mxgraph.ios7.icons.repeat`
-- `mxgraph.ios7.icons.retry`
-- `mxgraph.ios7.icons.select`
-- `mxgraph.ios7.icons.settings`
-- `mxgraph.ios7.icons.share`
-- `mxgraph.ios7.icons.shopping_cart`
-- `mxgraph.ios7.icons.shuffle`
-- `mxgraph.ios7.icons.silent`
-- `mxgraph.ios7.icons.smartphone`
-- `mxgraph.ios7.icons.star`
-- `mxgraph.ios7.icons.stopwatch`
-- `mxgraph.ios7.icons.storage`
-- `mxgraph.ios7.icons.sun`
-- `mxgraph.ios7.icons.tape`
-- `mxgraph.ios7.icons.tools`
-- `mxgraph.ios7.icons.trashcan`
-- `mxgraph.ios7.icons.trophy`
-- `mxgraph.ios7.icons.typing`
-- `mxgraph.ios7.icons.umbrella`
-- `mxgraph.ios7.icons.unlocked`
-- `mxgraph.ios7.icons.up`
-- `mxgraph.ios7.icons.user`
-- `mxgraph.ios7.icons.video_conversation`
-- `mxgraph.ios7.icons.volume`
-- `mxgraph.ios7.icons.volume_2`
-- `mxgraph.ios7.icons.wallet`
-- `mxgraph.ios7.icons.wifi`
-- `mxgraph.ios7.icons.window`
-- `mxgraph.ios7.misc.add`
-- `mxgraph.ios7.misc.adjust`
-- `mxgraph.ios7.misc.bluetooth`
-- `mxgraph.ios7.misc.broadcast`
-- `mxgraph.ios7.misc.call_pad`
-- `mxgraph.ios7.misc.check`
-- `mxgraph.ios7.misc.circle`
-- `mxgraph.ios7.misc.contacts_bar`
-- `mxgraph.ios7.misc.current_location`
-- `mxgraph.ios7.misc.delete`
-- `mxgraph.ios7.misc.down`
-- `mxgraph.ios7.misc.dunno5`
-- `mxgraph.ios7.misc.dunno6`
-- `mxgraph.ios7.misc.edit_bar`
-- `mxgraph.ios7.misc.expand`
-- `mxgraph.ios7.misc.flagged`
-- `mxgraph.ios7.misc.increase`
-- `mxgraph.ios7.misc.info`
-- `mxgraph.ios7.misc.ipad10inch`
-- `mxgraph.ios7.misc.ipad13inch`
-- `mxgraph.ios7.misc.ipad7inch`
-- `mxgraph.ios7.misc.iphone`
-- `mxgraph.ios7.misc.keyboard_(letters)`
-- `mxgraph.ios7.misc.left`
-- `mxgraph.ios7.misc.link`
-- `mxgraph.ios7.misc.loading_circle`
-- `mxgraph.ios7.misc.message_bar`
-- `mxgraph.ios7.misc.misc_bar`
-- `mxgraph.ios7.misc.more`
-- `mxgraph.ios7.misc.more_2`
-- `mxgraph.ios7.misc.night`
-- `mxgraph.ios7.misc.notification`
-- `mxgraph.ios7.misc.number_pad`
-- `mxgraph.ios7.misc.options`
-- `mxgraph.ios7.misc.pause`
-- `mxgraph.ios7.misc.picker`
-- `mxgraph.ios7.misc.remove`
-- `mxgraph.ios7.misc.right`
-- `mxgraph.ios7.misc.scroll_(horizontal)`
-- `mxgraph.ios7.misc.scroll_(vertical)`
-- `mxgraph.ios7.misc.select`
-- `mxgraph.ios7.misc.select_bar_1`
-- `mxgraph.ios7.misc.select_bar_2`
-- `mxgraph.ios7.misc.settings`
-- `mxgraph.ios7.misc.star`
-- `mxgraph.ios7.misc.switch`
-- `mxgraph.ios7.misc.text_size`
-- `mxgraph.ios7.misc.travel`
-- `mxgraph.ios7.misc.up`
-- `mxgraph.ios7.misc.volume_down`
-- `mxgraph.ios7.misc.volume_up`
-- `mxgraph.ios7.misc.vpn`
-- `mxgraph.ios7.misc.wifi`
+- `mxgraph.ios7.icons.add` (100×100)
+- `mxgraph.ios7.icons.alarm_clock` (90×101)
+- `mxgraph.ios7.icons.back` (100×85)
+- `mxgraph.ios7.icons.backward` (100×56)
+- `mxgraph.ios7.icons.bag` (70×70)
+- `mxgraph.ios7.icons.basket_cancel` (100×40)
+- `mxgraph.ios7.icons.basketball` (100×100)
+- `mxgraph.ios7.icons.battery` (100×40)
+- `mxgraph.ios7.icons.bell` (80×77)
+- `mxgraph.ios7.icons.bluetooth` (50×96)
+- `mxgraph.ios7.icons.book` (100×85)
+- `mxgraph.ios7.icons.bookmark` (60×80)
+- `mxgraph.ios7.icons.box` (100×90)
+- `mxgraph.ios7.icons.briefcase` (100×67)
+- `mxgraph.ios7.icons.calculator` (80×100)
+- `mxgraph.ios7.icons.calendar` (100×100)
+- `mxgraph.ios7.icons.calendar2` (100×100)
+- `mxgraph.ios7.icons.camera` (100×58)
+- `mxgraph.ios7.icons.chat` (100×60)
+- `mxgraph.ios7.icons.clock` (100×100)
+- `mxgraph.ios7.icons.cloud` (92×49)
+- `mxgraph.ios7.icons.compose` (97×97)
+- `mxgraph.ios7.icons.controls` (90×80)
+- `mxgraph.ios7.icons.controls2` (90×80)
+- `mxgraph.ios7.icons.credit_card` (100×50)
+- `mxgraph.ios7.icons.crop` (100×100)
+- `mxgraph.ios7.icons.cube` (100×100)
+- `mxgraph.ios7.icons.cup` (80×85)
+- `mxgraph.ios7.icons.data` (80×97)
+- `mxgraph.ios7.icons.delete` (100×100)
+- `mxgraph.ios7.icons.document` (70×100)
+- `mxgraph.ios7.icons.documents` (75×100)
+- `mxgraph.ios7.icons.down` (70×85)
+- `mxgraph.ios7.icons.edit` (98×98)
+- `mxgraph.ios7.icons.envelope_(empty)` (100×100)
+- `mxgraph.ios7.icons.envelope_(message)` (100×100)
+- `mxgraph.ios7.icons.eye` (100×47)
+- `mxgraph.ios7.icons.flag` (100×101)
+- `mxgraph.ios7.icons.flash` (60×100)
+- `mxgraph.ios7.icons.flashlight` (50×100)
+- `mxgraph.ios7.icons.folder` (100×65)
+- `mxgraph.ios7.icons.folders` (100×85)
+- `mxgraph.ios7.icons.folders_2` (100×75)
+- `mxgraph.ios7.icons.forward` (100×56)
+- `mxgraph.ios7.icons.gauge` (109×105)
+- `mxgraph.ios7.icons.glasses` (100×40)
+- `mxgraph.ios7.icons.globe` (100×100)
+- `mxgraph.ios7.icons.heart` (102×91)
+- `mxgraph.ios7.icons.help` (100×100)
+- `mxgraph.ios7.icons.home` (80×85)
+- `mxgraph.ios7.icons.info` (100×100)
+- `mxgraph.ios7.icons.keypad` (100×100)
+- `mxgraph.ios7.icons.lightbulb` (76×99)
+- `mxgraph.ios7.icons.link` (100×101)
+- `mxgraph.ios7.icons.location` (80×101)
+- `mxgraph.ios7.icons.location_2` (100×100)
+- `mxgraph.ios7.icons.location_22` (100×100)
+- `mxgraph.ios7.icons.locked` (80×100)
+- `mxgraph.ios7.icons.looking_glass` (100×100)
+- `mxgraph.ios7.icons.loud` (102×109)
+- `mxgraph.ios7.icons.magnet` (80×100)
+- `mxgraph.ios7.icons.mail` (100×55)
+- `mxgraph.ios7.icons.map` (100×100)
+- `mxgraph.ios7.icons.message` (100×65)
+- `mxgraph.ios7.icons.messages` (100×85)
+- `mxgraph.ios7.icons.microphone` (40×100)
+- `mxgraph.ios7.icons.monitor` (100×65)
+- `mxgraph.ios7.icons.moon` (98×98)
+- `mxgraph.ios7.icons.most_viewed` (94×76)
+- `mxgraph.ios7.icons.move_to_folder` (100×75)
+- `mxgraph.ios7.icons.note` (99×99)
+- `mxgraph.ios7.icons.options` (100×50)
+- `mxgraph.ios7.icons.orientation_lock` (77×70)
+- `mxgraph.ios7.icons.orientation_lock2` (77×70)
+- `mxgraph.ios7.icons.page_navigation` (100×16)
+- `mxgraph.ios7.icons.paint` (100×85)
+- `mxgraph.ios7.icons.pause` (50×80)
+- `mxgraph.ios7.icons.pen` (98×99)
+- `mxgraph.ios7.icons.phone` (75×101)
+- `mxgraph.ios7.icons.pie_chart` (100×100)
+- `mxgraph.ios7.icons.play` (70×80)
+- `mxgraph.ios7.icons.pointer` (100×100)
+- `mxgraph.ios7.icons.preferences` (100×80)
+- `mxgraph.ios7.icons.printer` (100×85)
+- `mxgraph.ios7.icons.privacy` (56×95)
+- `mxgraph.ios7.icons.radio` (100×75)
+- `mxgraph.ios7.icons.reload` (80×90)
+- `mxgraph.ios7.icons.repeat` (100×80)
+- `mxgraph.ios7.icons.retry` (92×49)
+- `mxgraph.ios7.icons.select` (100×100)
+- `mxgraph.ios7.icons.settings` (100×100)
+- `mxgraph.ios7.icons.share` (70×95)
+- `mxgraph.ios7.icons.shopping_cart` (100×85)
+- `mxgraph.ios7.icons.shuffle` (100×70)
+- `mxgraph.ios7.icons.silent` (100×100)
+- `mxgraph.ios7.icons.smartphone` (60×100)
+- `mxgraph.ios7.icons.star` (100×90)
+- `mxgraph.ios7.icons.stopwatch` (90×94)
+- `mxgraph.ios7.icons.storage` (100×35)
+- `mxgraph.ios7.icons.sun` (100×100)
+- `mxgraph.ios7.icons.tape` (100×40)
+- `mxgraph.ios7.icons.tools` (99×99)
+- `mxgraph.ios7.icons.trashcan` (80×100)
+- `mxgraph.ios7.icons.trophy` (95×100)
+- `mxgraph.ios7.icons.typing` (100×70)
+- `mxgraph.ios7.icons.umbrella` (100×100)
+- `mxgraph.ios7.icons.unlocked` (80×100)
+- `mxgraph.ios7.icons.up` (70×85)
+- `mxgraph.ios7.icons.user` (100×100)
+- `mxgraph.ios7.icons.video_conversation` (100×50)
+- `mxgraph.ios7.icons.volume` (100×100)
+- `mxgraph.ios7.icons.volume_2` (101×94)
+- `mxgraph.ios7.icons.wallet` (100×80)
+- `mxgraph.ios7.icons.wifi` (99×70)
+- `mxgraph.ios7.icons.window` (100×100)
+- `mxgraph.ios7.misc.add` (100×100)
+- `mxgraph.ios7.misc.adjust` (50×15)
+- `mxgraph.ios7.misc.bluetooth` (100×100)
+- `mxgraph.ios7.misc.broadcast` (100×100)
+- `mxgraph.ios7.misc.call_pad` (146×157)
+- `mxgraph.ios7.misc.check` (70×60)
+- `mxgraph.ios7.misc.circle` (100×100)
+- `mxgraph.ios7.misc.contacts_bar` (174×30)
+- `mxgraph.ios7.misc.current_location` (100×100)
+- `mxgraph.ios7.misc.delete` (100×100)
+- `mxgraph.ios7.misc.down` (100×60)
+- `mxgraph.ios7.misc.dunno5` (100×100)
+- `mxgraph.ios7.misc.dunno6` (100×95)
+- `mxgraph.ios7.misc.edit_bar` (174×30)
+- `mxgraph.ios7.misc.expand` (99×18)
+- `mxgraph.ios7.misc.flagged` (100×100)
+- `mxgraph.ios7.misc.increase` (100×100)
+- `mxgraph.ios7.misc.info` (100×100)
+- `mxgraph.ios7.misc.ipad10inch` (488×693)
+- `mxgraph.ios7.misc.ipad13inch` (572×813)
+- `mxgraph.ios7.misc.ipad7inch` (366×549)
+- `mxgraph.ios7.misc.iphone` (200×400)
+- `mxgraph.ios7.misc.keyboard_(letters)` (174×100)
+- `mxgraph.ios7.misc.left` (60×100)
+- `mxgraph.ios7.misc.link` (100×100)
+- `mxgraph.ios7.misc.loading_circle` (100×100)
+- `mxgraph.ios7.misc.message_bar` (174×30)
+- `mxgraph.ios7.misc.misc_bar` (174×30)
+- `mxgraph.ios7.misc.more` (30×50)
+- `mxgraph.ios7.misc.more_2` (40×50)
+- `mxgraph.ios7.misc.night` (100×100)
+- `mxgraph.ios7.misc.notification` (100×100)
+- `mxgraph.ios7.misc.number_pad` (174×132)
+- `mxgraph.ios7.misc.options` (100×50)
+- `mxgraph.ios7.misc.pause` (100×100)
+- `mxgraph.ios7.misc.picker` (174×71)
+- `mxgraph.ios7.misc.remove` (121×100)
+- `mxgraph.ios7.misc.right` (60×100)
+- `mxgraph.ios7.misc.scroll_(horizontal)` (100×10)
+- `mxgraph.ios7.misc.scroll_(vertical)` (10×100)
+- `mxgraph.ios7.misc.select` (100×100)
+- `mxgraph.ios7.misc.select_bar_1` (165×30)
+- `mxgraph.ios7.misc.select_bar_2` (165×30)
+- `mxgraph.ios7.misc.settings` (100×100)
+- `mxgraph.ios7.misc.star` (100×90)
+- `mxgraph.ios7.misc.switch` (100×100)
+- `mxgraph.ios7.misc.text_size` (100×100)
+- `mxgraph.ios7.misc.travel` (100×100)
+- `mxgraph.ios7.misc.up` (100×60)
+- `mxgraph.ios7.misc.volume_down` (64×100)
+- `mxgraph.ios7.misc.volume_up` (97×100)
+- `mxgraph.ios7.misc.vpn` (100×100)
+- `mxgraph.ios7.misc.wifi` (100×100)
 
 ## Usage Example
 
 ```drawio
-<mxfile><diagram id="example" name="Example"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="" style="shape=mxgraph.ios7.icons.battery;html=1;strokeColor=none;fillColor=none;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="100" y="100" width="60" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
+<mxfile><diagram id="example" name="Example"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="" style="shape=mxgraph.ios7.icons.add;html=1;fillColor=#CCCCCC;strokeColor=#6881B3;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="100" y="100" width="60" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
 ```

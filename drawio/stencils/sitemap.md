@@ -4,59 +4,59 @@ Stencil library: `mxgraph.sitemap.*`
 
 Total: 50 stencils
 
-- `mxgraph.sitemap.about_us`
-- `mxgraph.sitemap.audio`
-- `mxgraph.sitemap.biography`
-- `mxgraph.sitemap.blog`
-- `mxgraph.sitemap.calendar`
-- `mxgraph.sitemap.chart`
-- `mxgraph.sitemap.chat`
-- `mxgraph.sitemap.cloud`
-- `mxgraph.sitemap.contact`
-- `mxgraph.sitemap.contact_us`
-- `mxgraph.sitemap.document`
-- `mxgraph.sitemap.download`
-- `mxgraph.sitemap.error`
-- `mxgraph.sitemap.faq`
-- `mxgraph.sitemap.form`
-- `mxgraph.sitemap.gallery`
-- `mxgraph.sitemap.game`
-- `mxgraph.sitemap.home`
-- `mxgraph.sitemap.info`
-- `mxgraph.sitemap.jobs`
-- `mxgraph.sitemap.log`
-- `mxgraph.sitemap.login`
-- `mxgraph.sitemap.mail`
-- `mxgraph.sitemap.map`
-- `mxgraph.sitemap.news`
-- `mxgraph.sitemap.page`
-- `mxgraph.sitemap.payment`
-- `mxgraph.sitemap.photo`
-- `mxgraph.sitemap.portfolio`
-- `mxgraph.sitemap.post`
-- `mxgraph.sitemap.pricing`
-- `mxgraph.sitemap.print`
-- `mxgraph.sitemap.products`
-- `mxgraph.sitemap.profile`
-- `mxgraph.sitemap.references`
-- `mxgraph.sitemap.script`
-- `mxgraph.sitemap.search`
-- `mxgraph.sitemap.security`
-- `mxgraph.sitemap.services`
-- `mxgraph.sitemap.settings`
-- `mxgraph.sitemap.shopping`
-- `mxgraph.sitemap.sitemap`
-- `mxgraph.sitemap.slideshow`
-- `mxgraph.sitemap.sports`
-- `mxgraph.sitemap.success`
-- `mxgraph.sitemap.text`
-- `mxgraph.sitemap.upload`
-- `mxgraph.sitemap.user`
-- `mxgraph.sitemap.video`
-- `mxgraph.sitemap.warning`
+- `mxgraph.sitemap.about_us` (600×350)
+- `mxgraph.sitemap.audio` (600×350)
+- `mxgraph.sitemap.biography` (600×350)
+- `mxgraph.sitemap.blog` (600×350)
+- `mxgraph.sitemap.calendar` (600×350)
+- `mxgraph.sitemap.chart` (600×350)
+- `mxgraph.sitemap.chat` (600×350)
+- `mxgraph.sitemap.cloud` (600×350)
+- `mxgraph.sitemap.contact` (600×350)
+- `mxgraph.sitemap.contact_us` (600×350)
+- `mxgraph.sitemap.document` (600×350)
+- `mxgraph.sitemap.download` (600×350)
+- `mxgraph.sitemap.error` (600×350)
+- `mxgraph.sitemap.faq` (600×350)
+- `mxgraph.sitemap.form` (600×350)
+- `mxgraph.sitemap.gallery` (600×350)
+- `mxgraph.sitemap.game` (600×350)
+- `mxgraph.sitemap.home` (600×350)
+- `mxgraph.sitemap.info` (600×350)
+- `mxgraph.sitemap.jobs` (600×350)
+- `mxgraph.sitemap.log` (600×350)
+- `mxgraph.sitemap.login` (600×350)
+- `mxgraph.sitemap.mail` (600×350)
+- `mxgraph.sitemap.map` (600×350)
+- `mxgraph.sitemap.news` (600×350)
+- `mxgraph.sitemap.page` (600×350)
+- `mxgraph.sitemap.payment` (600×350)
+- `mxgraph.sitemap.photo` (600×350)
+- `mxgraph.sitemap.portfolio` (600×350)
+- `mxgraph.sitemap.post` (600×350)
+- `mxgraph.sitemap.pricing` (600×350)
+- `mxgraph.sitemap.print` (600×350)
+- `mxgraph.sitemap.products` (600×350)
+- `mxgraph.sitemap.profile` (600×350)
+- `mxgraph.sitemap.references` (600×350)
+- `mxgraph.sitemap.script` (600×350)
+- `mxgraph.sitemap.search` (600×350)
+- `mxgraph.sitemap.security` (600×350)
+- `mxgraph.sitemap.services` (600×350)
+- `mxgraph.sitemap.settings` (600×350)
+- `mxgraph.sitemap.shopping` (600×350)
+- `mxgraph.sitemap.sitemap` (600×350)
+- `mxgraph.sitemap.slideshow` (600×350)
+- `mxgraph.sitemap.sports` (600×350)
+- `mxgraph.sitemap.success` (600×350)
+- `mxgraph.sitemap.text` (600×350)
+- `mxgraph.sitemap.upload` (600×350)
+- `mxgraph.sitemap.user` (600×350)
+- `mxgraph.sitemap.video` (600×350)
+- `mxgraph.sitemap.warning` (600×350)
 
 ## Usage Example
 
 ```drawio
-<mxfile><diagram id="example" name="Example"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="" style="shape=mxgraph.sitemap.about_us;html=1;fillColor=#ffffff;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="100" y="100" width="60" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
+<mxfile><diagram id="example" name="Example"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="" style="shape=mxgraph.sitemap.about_us;html=1;fillColor=#CCCCCC;strokeColor=#6881B3;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="100" y="100" width="60" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
 ```

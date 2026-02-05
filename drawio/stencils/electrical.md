@@ -4,536 +4,536 @@ Stencil library: `mxgraph.electrical.*`
 
 Total: 527 stencils
 
-- `mxgraph.electrical.abstract.amplifier`
-- `mxgraph.electrical.abstract.controlled_amplifier`
-- `mxgraph.electrical.abstract.dac`
-- `mxgraph.electrical.abstract.delta`
-- `mxgraph.electrical.abstract.demux`
-- `mxgraph.electrical.abstract.filter`
-- `mxgraph.electrical.abstract.function`
-- `mxgraph.electrical.abstract.integrator`
-- `mxgraph.electrical.abstract.multiplier`
-- `mxgraph.electrical.abstract.mux`
-- `mxgraph.electrical.abstract.mux-demux`
-- `mxgraph.electrical.abstract.operational_amp_1`
-- `mxgraph.electrical.abstract.operational_amp_2`
-- `mxgraph.electrical.abstract.ota_1`
-- `mxgraph.electrical.abstract.ota_2`
-- `mxgraph.electrical.abstract.ota_3`
-- `mxgraph.electrical.abstract.quantizer`
-- `mxgraph.electrical.abstract.sum`
-- `mxgraph.electrical.abstract.summation_point`
-- `mxgraph.electrical.abstract.thermistor_with_independent_integral_heater`
-- `mxgraph.electrical.abstract.voltage_regulator`
-- `mxgraph.electrical.capacitors.capacitor_1`
-- `mxgraph.electrical.capacitors.capacitor_2`
-- `mxgraph.electrical.capacitors.capacitor_3`
-- `mxgraph.electrical.capacitors.capacitor_4`
-- `mxgraph.electrical.capacitors.capacitor_5`
-- `mxgraph.electrical.capacitors.capacitor_6`
-- `mxgraph.electrical.capacitors.differential_capacitor`
-- `mxgraph.electrical.capacitors.feed_through_capacitor`
-- `mxgraph.electrical.capacitors.ganged_capacitor`
-- `mxgraph.electrical.capacitors.multiple_capacitor`
-- `mxgraph.electrical.capacitors.multiple_electrolytic_capacitor_comm_neg`
-- `mxgraph.electrical.capacitors.multiple_electrolytic_capacitor_comm_pos`
-- `mxgraph.electrical.capacitors.trimmer_capacitor_1`
-- `mxgraph.electrical.capacitors.trimmer_capacitor_2`
-- `mxgraph.electrical.capacitors.variable_capacitor_1`
-- `mxgraph.electrical.capacitors.variable_capacitor_2`
-- `mxgraph.electrical.diodes.diode`
-- `mxgraph.electrical.diodes.field_effect_diode`
-- `mxgraph.electrical.diodes.four_layer_diode`
-- `mxgraph.electrical.diodes.gunn_diode`
-- `mxgraph.electrical.diodes.schottky_diode`
-- `mxgraph.electrical.diodes.transorb_1`
-- `mxgraph.electrical.diodes.transorb_2`
-- `mxgraph.electrical.diodes.tunnel_diode`
-- `mxgraph.electrical.diodes.tunnel_diode_2`
-- `mxgraph.electrical.diodes.varactor_-_varicap`
-- `mxgraph.electrical.diodes.zener_diode_1`
-- `mxgraph.electrical.diodes.zener_diode_2`
-- `mxgraph.electrical.diodes.zener_diode_3`
-- `mxgraph.electrical.electro-mechanical.2-way_switch`
-- `mxgraph.electrical.electro-mechanical.2_position_switch`
-- `mxgraph.electrical.electro-mechanical.3_position_switch`
-- `mxgraph.electrical.electro-mechanical.4_position_switch`
-- `mxgraph.electrical.electro-mechanical.bell`
-- `mxgraph.electrical.electro-mechanical.break_contact`
-- `mxgraph.electrical.electro-mechanical.buzzer`
-- `mxgraph.electrical.electro-mechanical.changeover_contact`
-- `mxgraph.electrical.electro-mechanical.circuit_breaker`
-- `mxgraph.electrical.electro-mechanical.dpdt`
-- `mxgraph.electrical.electro-mechanical.dpdt2`
-- `mxgraph.electrical.electro-mechanical.dpst`
-- `mxgraph.electrical.electro-mechanical.flow_actuated`
-- `mxgraph.electrical.electro-mechanical.fuse`
-- `mxgraph.electrical.electro-mechanical.gas_flow_actuated`
-- `mxgraph.electrical.electro-mechanical.inertia_switch`
-- `mxgraph.electrical.electro-mechanical.isolator`
-- `mxgraph.electrical.electro-mechanical.limit_switch`
-- `mxgraph.electrical.electro-mechanical.limit_switch_nc`
-- `mxgraph.electrical.electro-mechanical.limit_switch_no`
-- `mxgraph.electrical.electro-mechanical.liquid_level_actuated`
-- `mxgraph.electrical.electro-mechanical.liquid_level_actuated_2`
-- `mxgraph.electrical.electro-mechanical.loudspeaker`
-- `mxgraph.electrical.electro-mechanical.make_contact`
-- `mxgraph.electrical.electro-mechanical.manual_switch`
-- `mxgraph.electrical.electro-mechanical.mercury_switch`
-- `mxgraph.electrical.electro-mechanical.mercury_switch_2`
-- `mxgraph.electrical.electro-mechanical.motor_1`
-- `mxgraph.electrical.electro-mechanical.motor_2`
-- `mxgraph.electrical.electro-mechanical.passing_make_contact`
-- `mxgraph.electrical.electro-mechanical.piezo_sounder`
-- `mxgraph.electrical.electro-mechanical.pilot_light`
-- `mxgraph.electrical.electro-mechanical.pressure_actuated`
-- `mxgraph.electrical.electro-mechanical.proximity_limit_switch`
-- `mxgraph.electrical.electro-mechanical.push_switch_nc`
-- `mxgraph.electrical.electro-mechanical.push_switch_no`
-- `mxgraph.electrical.electro-mechanical.pushbutton_2_circuit`
-- `mxgraph.electrical.electro-mechanical.pushbutton_break`
-- `mxgraph.electrical.electro-mechanical.pushbutton_make`
-- `mxgraph.electrical.electro-mechanical.reed_switch`
-- `mxgraph.electrical.electro-mechanical.relay`
-- `mxgraph.electrical.electro-mechanical.relay_changeover_contact`
-- `mxgraph.electrical.electro-mechanical.relay_coil`
-- `mxgraph.electrical.electro-mechanical.relay_coil_2`
-- `mxgraph.electrical.electro-mechanical.relay_contact_nc`
-- `mxgraph.electrical.electro-mechanical.relay_contact_no`
-- `mxgraph.electrical.electro-mechanical.relay_contacts`
-- `mxgraph.electrical.electro-mechanical.relay_pole`
-- `mxgraph.electrical.electro-mechanical.resonator`
-- `mxgraph.electrical.electro-mechanical.safety_interlock`
-- `mxgraph.electrical.electro-mechanical.selector_switch`
-- `mxgraph.electrical.electro-mechanical.selector_switch_3_position`
-- `mxgraph.electrical.electro-mechanical.selector_switch_6_position`
-- `mxgraph.electrical.electro-mechanical.shorting_selector`
-- `mxgraph.electrical.electro-mechanical.simple_switch`
-- `mxgraph.electrical.electro-mechanical.spring_return`
-- `mxgraph.electrical.electro-mechanical.spring_return_2`
-- `mxgraph.electrical.electro-mechanical.stay_put`
-- `mxgraph.electrical.electro-mechanical.switch_contact`
-- `mxgraph.electrical.electro-mechanical.switch_disconnector`
-- `mxgraph.electrical.electro-mechanical.temperature_actuated`
-- `mxgraph.electrical.electro-mechanical.temperature_switch`
-- `mxgraph.electrical.electro-mechanical.thermostat`
-- `mxgraph.electrical.electro-mechanical.time_delay_break`
-- `mxgraph.electrical.electro-mechanical.time_delay_break_2`
-- `mxgraph.electrical.electro-mechanical.time_delay_make`
-- `mxgraph.electrical.electro-mechanical.time_delay_make_2`
-- `mxgraph.electrical.electro-mechanical.two_way_contact`
-- `mxgraph.electrical.iec417.ac-ac_converter`
-- `mxgraph.electrical.iec417.ac-dc_converter`
-- `mxgraph.electrical.iec417.ad_converter`
-- `mxgraph.electrical.iec417.amp`
-- `mxgraph.electrical.iec417.amp_bidirectional`
-- `mxgraph.electrical.iec417.att`
-- `mxgraph.electrical.iec417.bandpass`
-- `mxgraph.electrical.iec417.bandstop`
-- `mxgraph.electrical.iec417.block`
-- `mxgraph.electrical.iec417.block_convert`
-- `mxgraph.electrical.iec417.circulator`
-- `mxgraph.electrical.iec417.combine`
-- `mxgraph.electrical.iec417.corrector`
-- `mxgraph.electrical.iec417.da_converter`
-- `mxgraph.electrical.iec417.dc-ac_converter`
-- `mxgraph.electrical.iec417.dc-dc_converter`
-- `mxgraph.electrical.iec417.decrypt`
-- `mxgraph.electrical.iec417.delay`
-- `mxgraph.electrical.iec417.demodulator`
-- `mxgraph.electrical.iec417.detector`
-- `mxgraph.electrical.iec417.differential_amp`
-- `mxgraph.electrical.iec417.diplexer`
-- `mxgraph.electrical.iec417.divide_by_n`
-- `mxgraph.electrical.iec417.down_converter`
-- `mxgraph.electrical.iec417.encrypt`
-- `mxgraph.electrical.iec417.hipass`
-- `mxgraph.electrical.iec417.hybrid`
-- `mxgraph.electrical.iec417.limiter`
-- `mxgraph.electrical.iec417.lopass`
-- `mxgraph.electrical.iec417.mixer_1`
-- `mxgraph.electrical.iec417.mixer_2`
-- `mxgraph.electrical.iec417.modem`
-- `mxgraph.electrical.iec417.modulator`
-- `mxgraph.electrical.iec417.oscilloscope`
-- `mxgraph.electrical.iec417.phase_detector`
-- `mxgraph.electrical.iec417.process`
-- `mxgraph.electrical.iec417.pulse`
-- `mxgraph.electrical.iec417.sampler`
-- `mxgraph.electrical.iec417.splitter`
-- `mxgraph.electrical.iec417.square-up`
-- `mxgraph.electrical.iec417.step`
-- `mxgraph.electrical.iec417.transformer`
-- `mxgraph.electrical.iec417.trim`
-- `mxgraph.electrical.iec417.up_converter`
-- `mxgraph.electrical.iec417.var`
-- `mxgraph.electrical.iec_logic_gates.and`
-- `mxgraph.electrical.iec_logic_gates.nand`
-- `mxgraph.electrical.iec_logic_gates.nand_2`
-- `mxgraph.electrical.iec_logic_gates.nor`
-- `mxgraph.electrical.iec_logic_gates.nor_2`
-- `mxgraph.electrical.iec_logic_gates.not`
-- `mxgraph.electrical.iec_logic_gates.not_2`
-- `mxgraph.electrical.iec_logic_gates.or`
-- `mxgraph.electrical.iec_logic_gates.xor`
-- `mxgraph.electrical.inductors.1_phase_induction_volt_reg`
-- `mxgraph.electrical.inductors.adjustable_transformer`
-- `mxgraph.electrical.inductors.choke`
-- `mxgraph.electrical.inductors.coaxial_choke`
-- `mxgraph.electrical.inductors.compensation_inductor_1`
-- `mxgraph.electrical.inductors.compensation_inductor_2`
-- `mxgraph.electrical.inductors.current_transformer_1`
-- `mxgraph.electrical.inductors.current_transformer_2`
-- `mxgraph.electrical.inductors.current_transformer_3`
-- `mxgraph.electrical.inductors.ferrite_core`
-- `mxgraph.electrical.inductors.half_inductor`
-- `mxgraph.electrical.inductors.induction_voltage_regulator`
-- `mxgraph.electrical.inductors.inductor`
-- `mxgraph.electrical.inductors.inductor_1`
-- `mxgraph.electrical.inductors.inductor_10`
-- `mxgraph.electrical.inductors.inductor_11`
-- `mxgraph.electrical.inductors.inductor_2`
-- `mxgraph.electrical.inductors.inductor_3`
-- `mxgraph.electrical.inductors.inductor_4`
-- `mxgraph.electrical.inductors.inductor_5`
-- `mxgraph.electrical.inductors.inductor_6`
-- `mxgraph.electrical.inductors.inductor_7`
-- `mxgraph.electrical.inductors.inductor_8`
-- `mxgraph.electrical.inductors.inductor_9`
-- `mxgraph.electrical.inductors.iron_core`
-- `mxgraph.electrical.inductors.linear_coupler`
-- `mxgraph.electrical.inductors.magnetic_core`
-- `mxgraph.electrical.inductors.outdoor_metering_device`
-- `mxgraph.electrical.inductors.pot_trans_3_windings`
-- `mxgraph.electrical.inductors.potential_transformer`
-- `mxgraph.electrical.inductors.potential_transformer_2`
-- `mxgraph.electrical.inductors.saturating_transformer`
-- `mxgraph.electrical.inductors.transductor`
-- `mxgraph.electrical.inductors.transformer`
-- `mxgraph.electrical.inductors.transformer_1`
-- `mxgraph.electrical.inductors.transformer_2`
-- `mxgraph.electrical.inductors.triplex_induction_volt_reg`
-- `mxgraph.electrical.inductors.variable_inductor`
-- `mxgraph.electrical.inductors.variometer`
-- `mxgraph.electrical.instruments.ampermeter`
-- `mxgraph.electrical.instruments.galvanometer`
-- `mxgraph.electrical.instruments.oscilloscope`
-- `mxgraph.electrical.instruments.signal_generator`
-- `mxgraph.electrical.instruments.voltmeter`
-- `mxgraph.electrical.logic_gates.and`
-- `mxgraph.electrical.logic_gates.bandpass_filter`
-- `mxgraph.electrical.logic_gates.buffer`
-- `mxgraph.electrical.logic_gates.d_type_flip-flop`
-- `mxgraph.electrical.logic_gates.d_type_flip-flop_with_clear`
-- `mxgraph.electrical.logic_gates.d_type_flip-flop_with_clear_2`
-- `mxgraph.electrical.logic_gates.d_type_rs_flip-flop`
-- `mxgraph.electrical.logic_gates.highpass_filter`
-- `mxgraph.electrical.logic_gates.inverter`
-- `mxgraph.electrical.logic_gates.inverter_2`
-- `mxgraph.electrical.logic_gates.inverting_contact`
-- `mxgraph.electrical.logic_gates.jk_flip-flop`
-- `mxgraph.electrical.logic_gates.jk_flip-flop_with_clear`
-- `mxgraph.electrical.logic_gates.jk_flip-flop_with_clear_2`
-- `mxgraph.electrical.logic_gates.jk_flip-flop_with_sr`
-- `mxgraph.electrical.logic_gates.lowpass_filter`
-- `mxgraph.electrical.logic_gates.nand`
-- `mxgraph.electrical.logic_gates.nor`
-- `mxgraph.electrical.logic_gates.or`
-- `mxgraph.electrical.logic_gates.rs_latch`
-- `mxgraph.electrical.logic_gates.schmitt_trigger`
-- `mxgraph.electrical.logic_gates.synchronous_rs_latch`
-- `mxgraph.electrical.logic_gates.t_type_flip-flop`
-- `mxgraph.electrical.logic_gates.xnor`
-- `mxgraph.electrical.logic_gates.xor`
-- `mxgraph.electrical.miscellaneous.2_conductor_jack`
-- `mxgraph.electrical.miscellaneous.2_conductor_plug`
-- `mxgraph.electrical.miscellaneous.3_conductor_jack`
-- `mxgraph.electrical.miscellaneous.3_conductor_plug`
-- `mxgraph.electrical.miscellaneous.ac_out`
-- `mxgraph.electrical.miscellaneous.adapter`
-- `mxgraph.electrical.miscellaneous.c_header_connector`
-- `mxgraph.electrical.miscellaneous.cable_termination`
-- `mxgraph.electrical.miscellaneous.chassis`
-- `mxgraph.electrical.miscellaneous.circuit_breaker`
-- `mxgraph.electrical.miscellaneous.co-ax`
-- `mxgraph.electrical.miscellaneous.coaxial_center_conductor`
-- `mxgraph.electrical.miscellaneous.coaxial_jack_plug`
-- `mxgraph.electrical.miscellaneous.coaxial_outside_conductor`
-- `mxgraph.electrical.miscellaneous.crystal_1`
-- `mxgraph.electrical.miscellaneous.crystal_2`
-- `mxgraph.electrical.miscellaneous.delay_element`
-- `mxgraph.electrical.miscellaneous.f_m_2_conductor_1`
-- `mxgraph.electrical.miscellaneous.f_m_2_conductor_2`
-- `mxgraph.electrical.miscellaneous.f_m_2_conductor_3`
-- `mxgraph.electrical.miscellaneous.f_m_3_conductor_1`
-- `mxgraph.electrical.miscellaneous.f_m_3_conductor_2`
-- `mxgraph.electrical.miscellaneous.f_m_3_conductor_3`
-- `mxgraph.electrical.miscellaneous.f_m_3_conductor_4`
-- `mxgraph.electrical.miscellaneous.f_m_3_conductor_5`
-- `mxgraph.electrical.miscellaneous.flourescent_lamp`
-- `mxgraph.electrical.miscellaneous.fusable_resistor`
-- `mxgraph.electrical.miscellaneous.fuse_1`
-- `mxgraph.electrical.miscellaneous.fuse_2`
-- `mxgraph.electrical.miscellaneous.fuse_3`
-- `mxgraph.electrical.miscellaneous.fuse_4`
-- `mxgraph.electrical.miscellaneous.generic_component`
-- `mxgraph.electrical.miscellaneous.igniter_plug`
-- `mxgraph.electrical.miscellaneous.igniter_plug2`
-- `mxgraph.electrical.miscellaneous.illuminating_bulb`
-- `mxgraph.electrical.miscellaneous.indicator`
-- `mxgraph.electrical.miscellaneous.lamp_1`
-- `mxgraph.electrical.miscellaneous.lamp_2`
-- `mxgraph.electrical.miscellaneous.large_d_connector`
-- `mxgraph.electrical.miscellaneous.light_bulb`
-- `mxgraph.electrical.miscellaneous.loop_antenna`
-- `mxgraph.electrical.miscellaneous.mf_contact_2`
-- `mxgraph.electrical.miscellaneous.monocell_battery`
-- `mxgraph.electrical.miscellaneous.multicell_battery`
-- `mxgraph.electrical.miscellaneous.multicell_battery_tapped`
-- `mxgraph.electrical.miscellaneous.neon_lamp`
-- `mxgraph.electrical.miscellaneous.neon_lamp_2`
-- `mxgraph.electrical.miscellaneous.normalled_jack`
-- `mxgraph.electrical.miscellaneous.normalled_jack2`
-- `mxgraph.electrical.miscellaneous.normalled_jacks`
-- `mxgraph.electrical.miscellaneous.normalled_jacks2`
-- `mxgraph.electrical.miscellaneous.permanent_magnet`
-- `mxgraph.electrical.miscellaneous.plug_socket_connection`
-- `mxgraph.electrical.miscellaneous.sensing_link_squib`
-- `mxgraph.electrical.miscellaneous.shielded_jack_plug`
-- `mxgraph.electrical.miscellaneous.small_d_connector`
-- `mxgraph.electrical.miscellaneous.squib_ignitor`
-- `mxgraph.electrical.miscellaneous.surge_protector`
-- `mxgraph.electrical.miscellaneous.surge_protector_2`
-- `mxgraph.electrical.miscellaneous.terminal_board`
-- `mxgraph.electrical.miscellaneous.thermal_element`
-- `mxgraph.electrical.miscellaneous.thermistor_1`
-- `mxgraph.electrical.miscellaneous.thermistor_2`
-- `mxgraph.electrical.miscellaneous.thermocouple`
-- `mxgraph.electrical.miscellaneous.thermopile`
-- `mxgraph.electrical.miscellaneous.transducer`
-- `mxgraph.electrical.miscellaneous.transducer_2`
-- `mxgraph.electrical.mosfets1.dual_gate_mosfet`
-- `mxgraph.electrical.mosfets1.dual_gate_mosfet_n`
-- `mxgraph.electrical.mosfets1.dual_gate_mosfet_p`
-- `mxgraph.electrical.mosfets1.mosfet_ic_n`
-- `mxgraph.electrical.mosfets1.mosfet_ic_p`
-- `mxgraph.electrical.mosfets1.mosfet_n_no_bulk`
-- `mxgraph.electrical.mosfets1.mosfet_p_no_bulk`
-- `mxgraph.electrical.mosfets1.n-channel_mosfet_1`
-- `mxgraph.electrical.mosfets1.n-channel_mosfet_2`
-- `mxgraph.electrical.mosfets1.n-channel_mosfet_3`
-- `mxgraph.electrical.mosfets1.n-channel_mosfet_4`
-- `mxgraph.electrical.mosfets1.n-channel_mosfet_5`
-- `mxgraph.electrical.mosfets1.n-channel_mosfet_6`
-- `mxgraph.electrical.mosfets1.p-channel_mosfet_1`
-- `mxgraph.electrical.mosfets1.p-channel_mosfet_2`
-- `mxgraph.electrical.mosfets1.p-channel_mosfet_3`
-- `mxgraph.electrical.mosfets1.p-channel_mosfet_4`
-- `mxgraph.electrical.mosfets1.p-channel_mosfet_5`
-- `mxgraph.electrical.mosfets1.p-channel_mosfet_6`
-- `mxgraph.electrical.mosfets2.dual_gate_mosfet`
-- `mxgraph.electrical.mosfets2.n-channel_mosfet_1`
-- `mxgraph.electrical.mosfets2.n-channel_mosfet_2`
-- `mxgraph.electrical.mosfets2.n-channel_mosfet_3`
-- `mxgraph.electrical.mosfets2.n-channel_mosfet_4`
-- `mxgraph.electrical.mosfets2.n-channel_mosfet_5`
-- `mxgraph.electrical.mosfets2.n-channel_mosfet_6`
-- `mxgraph.electrical.mosfets2.nmos_fet`
-- `mxgraph.electrical.mosfets2.p-channel_mosfet_1`
-- `mxgraph.electrical.mosfets2.p-channel_mosfet_2`
-- `mxgraph.electrical.mosfets2.p-channel_mosfet_3`
-- `mxgraph.electrical.mosfets2.p-channel_mosfet_4`
-- `mxgraph.electrical.mosfets2.p-channel_mosfet_5`
-- `mxgraph.electrical.mosfets2.p-channel_mosfet_6`
-- `mxgraph.electrical.mosfets2.pmos_fet`
-- `mxgraph.electrical.op_amps.comparator`
-- `mxgraph.electrical.op_amps.differentiator`
-- `mxgraph.electrical.op_amps.integrator`
-- `mxgraph.electrical.op_amps.inverting_amplifier`
-- `mxgraph.electrical.op_amps.multivibrator`
-- `mxgraph.electrical.op_amps.non-inverting_amplifier`
-- `mxgraph.electrical.op_amps.regen_comparator`
-- `mxgraph.electrical.op_amps.subtractor`
-- `mxgraph.electrical.op_amps.summing_amplifier`
-- `mxgraph.electrical.op_amps.unity_gain_follower`
-- `mxgraph.electrical.opto_electronics.7_segment_display`
-- `mxgraph.electrical.opto_electronics.7_segment_display_with_dp`
-- `mxgraph.electrical.opto_electronics.9_segment_display`
-- `mxgraph.electrical.opto_electronics.9_segment_display_with_dp`
-- `mxgraph.electrical.opto_electronics.lamp`
-- `mxgraph.electrical.opto_electronics.led_1`
-- `mxgraph.electrical.opto_electronics.led_2`
-- `mxgraph.electrical.opto_electronics.light-activated_scr`
-- `mxgraph.electrical.opto_electronics.opto-coupler`
-- `mxgraph.electrical.opto_electronics.opto-transistor`
-- `mxgraph.electrical.opto_electronics.photo_resistor_1`
-- `mxgraph.electrical.opto_electronics.photo_resistor_2`
-- `mxgraph.electrical.opto_electronics.photo_resistor_3`
-- `mxgraph.electrical.opto_electronics.photodiode`
-- `mxgraph.electrical.opto_electronics.solar_cell`
-- `mxgraph.electrical.plc_ladder.contact`
-- `mxgraph.electrical.plc_ladder.not_contact`
-- `mxgraph.electrical.plc_ladder.not_output_1`
-- `mxgraph.electrical.plc_ladder.not_output_2`
-- `mxgraph.electrical.plc_ladder.output_1`
-- `mxgraph.electrical.plc_ladder.output_2`
-- `mxgraph.electrical.power_semiconductors.bridge_rectifier_1`
-- `mxgraph.electrical.power_semiconductors.bridge_rectifier_2`
-- `mxgraph.electrical.power_semiconductors.bridge_rectifier_3`
-- `mxgraph.electrical.power_semiconductors.diac_1`
-- `mxgraph.electrical.power_semiconductors.diac_2`
-- `mxgraph.electrical.power_semiconductors.gto_scr`
-- `mxgraph.electrical.power_semiconductors.igct_1`
-- `mxgraph.electrical.power_semiconductors.igct_2`
-- `mxgraph.electrical.power_semiconductors.npn_igbt_1`
-- `mxgraph.electrical.power_semiconductors.npn_igbt_2`
-- `mxgraph.electrical.power_semiconductors.npn_igbt_3`
-- `mxgraph.electrical.power_semiconductors.npn_igbt_4`
-- `mxgraph.electrical.power_semiconductors.pnp_igbt_1`
-- `mxgraph.electrical.power_semiconductors.pnp_igbt_2`
-- `mxgraph.electrical.power_semiconductors.pnp_igbt_3`
-- `mxgraph.electrical.power_semiconductors.pnp_igbt_4`
-- `mxgraph.electrical.power_semiconductors.scr_1`
-- `mxgraph.electrical.power_semiconductors.scr_2`
-- `mxgraph.electrical.power_semiconductors.sidac`
-- `mxgraph.electrical.power_semiconductors.triac_1`
-- `mxgraph.electrical.power_semiconductors.triac_2`
-- `mxgraph.electrical.radio.aerial_-_antenna_1`
-- `mxgraph.electrical.radio.aerial_-_antenna_2`
-- `mxgraph.electrical.radio.buzzer`
-- `mxgraph.electrical.radio.chassis`
-- `mxgraph.electrical.radio.dipole`
-- `mxgraph.electrical.radio.earth`
-- `mxgraph.electrical.radio.electret_microphone`
-- `mxgraph.electrical.radio.headphones`
-- `mxgraph.electrical.radio.loop_antenna`
-- `mxgraph.electrical.radio.microphone_1`
-- `mxgraph.electrical.radio.microphone_2`
-- `mxgraph.electrical.resistors.attenuator`
-- `mxgraph.electrical.resistors.magnetoresistor`
-- `mxgraph.electrical.resistors.memristor_1`
-- `mxgraph.electrical.resistors.memristor_2`
-- `mxgraph.electrical.resistors.nonlinear_resistor`
-- `mxgraph.electrical.resistors.potentiometer_1`
-- `mxgraph.electrical.resistors.potentiometer_2`
-- `mxgraph.electrical.resistors.resistor,_adjustable_contact`
-- `mxgraph.electrical.resistors.resistor,_shunt`
-- `mxgraph.electrical.resistors.resistor_1`
-- `mxgraph.electrical.resistors.resistor_2`
-- `mxgraph.electrical.resistors.resistor_3`
-- `mxgraph.electrical.resistors.resistor_4`
-- `mxgraph.electrical.resistors.resistor_with_instrument_or_relay_shunt`
-- `mxgraph.electrical.resistors.symmetrical_photoconductive_transducer`
-- `mxgraph.electrical.resistors.symmetrical_varistor`
-- `mxgraph.electrical.resistors.tapped_resistor`
-- `mxgraph.electrical.resistors.trimmer_pot_1`
-- `mxgraph.electrical.resistors.trimmer_pot_2`
-- `mxgraph.electrical.resistors.trimmer_resistor_1`
-- `mxgraph.electrical.resistors.trimmer_resistor_2`
-- `mxgraph.electrical.resistors.variable_resistor_1`
-- `mxgraph.electrical.resistors.variable_resistor_2`
-- `mxgraph.electrical.rot_mech.armature`
-- `mxgraph.electrical.rot_mech.automatic_return`
-- `mxgraph.electrical.rot_mech.blocking_device`
-- `mxgraph.electrical.rot_mech.clutch`
-- `mxgraph.electrical.rot_mech.clutch_2`
-- `mxgraph.electrical.rot_mech.delayed_action`
-- `mxgraph.electrical.rot_mech.detent`
-- `mxgraph.electrical.rot_mech.field`
-- `mxgraph.electrical.rot_mech.gearing`
-- `mxgraph.electrical.rot_mech.latching_device`
-- `mxgraph.electrical.rot_mech.manual_control`
-- `mxgraph.electrical.rot_mech.mechanical_interlock`
-- `mxgraph.electrical.rot_mech.rotation`
-- `mxgraph.electrical.rot_mech.synchro`
-- `mxgraph.electrical.rot_mech.winding_connection`
-- `mxgraph.electrical.signal_sources.ac_source`
-- `mxgraph.electrical.signal_sources.current_flow`
-- `mxgraph.electrical.signal_sources.current_source`
-- `mxgraph.electrical.signal_sources.dc_source_1`
-- `mxgraph.electrical.signal_sources.dc_source_2`
-- `mxgraph.electrical.signal_sources.dc_source_3`
-- `mxgraph.electrical.signal_sources.dependent_source_1`
-- `mxgraph.electrical.signal_sources.dependent_source_2`
-- `mxgraph.electrical.signal_sources.dependent_source_3`
-- `mxgraph.electrical.signal_sources.equipotential`
-- `mxgraph.electrical.signal_sources.explosive_squib`
-- `mxgraph.electrical.signal_sources.ideal_source`
-- `mxgraph.electrical.signal_sources.noise_source`
-- `mxgraph.electrical.signal_sources.protective_earth`
-- `mxgraph.electrical.signal_sources.signal_ground`
-- `mxgraph.electrical.signal_sources.vdd`
-- `mxgraph.electrical.signal_sources.voltage`
-- `mxgraph.electrical.signal_sources.vss2`
-- `mxgraph.electrical.thermionic_devices.diode`
-- `mxgraph.electrical.thermionic_devices.double_diode`
-- `mxgraph.electrical.thermionic_devices.double_triode`
-- `mxgraph.electrical.thermionic_devices.pentode`
-- `mxgraph.electrical.thermionic_devices.photocell`
-- `mxgraph.electrical.thermionic_devices.tetrode`
-- `mxgraph.electrical.thermionic_devices.triode`
-- `mxgraph.electrical.transistors.complementary_unijunction`
-- `mxgraph.electrical.transistors.darlington_pair`
-- `mxgraph.electrical.transistors.n-channel_jfet_1`
-- `mxgraph.electrical.transistors.n-channel_jfet_2`
-- `mxgraph.electrical.transistors.nigbt`
-- `mxgraph.electrical.transistors.nmos`
-- `mxgraph.electrical.transistors.nmos_bulk`
-- `mxgraph.electrical.transistors.npn_transistor_1`
-- `mxgraph.electrical.transistors.npn_transistor_2`
-- `mxgraph.electrical.transistors.npn_transistor_3`
-- `mxgraph.electrical.transistors.npn_transistor_4`
-- `mxgraph.electrical.transistors.npn_transistor_5`
-- `mxgraph.electrical.transistors.p-channel_jfet_1`
-- `mxgraph.electrical.transistors.p-channel_jfet_2`
-- `mxgraph.electrical.transistors.pigbt`
-- `mxgraph.electrical.transistors.pmos`
-- `mxgraph.electrical.transistors.pmos_bulk`
-- `mxgraph.electrical.transistors.pnp_transistor_1`
-- `mxgraph.electrical.transistors.pnp_transistor_2`
-- `mxgraph.electrical.transistors.pnp_transistor_3`
-- `mxgraph.electrical.transistors.pnp_transistor_4`
-- `mxgraph.electrical.transistors.pnp_transistor_5`
-- `mxgraph.electrical.transistors.unijunction`
-- `mxgraph.electrical.transmission.2_line_bus`
-- `mxgraph.electrical.transmission.3_line_bus`
-- `mxgraph.electrical.transmission.4_line_bus`
-- `mxgraph.electrical.transmission.8_line_bus`
-- `mxgraph.electrical.transmission.anticreepage_device`
-- `mxgraph.electrical.transmission.bus_width`
-- `mxgraph.electrical.transmission.cable_group`
-- `mxgraph.electrical.transmission.line_cable`
-- `mxgraph.electrical.transmission.line_concentrator`
-- `mxgraph.electrical.transmission.optical_fiber`
-- `mxgraph.electrical.transmission.optical_fiber2`
-- `mxgraph.electrical.transmission.overground_enclosure`
-- `mxgraph.electrical.transmission.terminal_3_phase`
-- `mxgraph.electrical.waveforms.data_changing`
-- `mxgraph.electrical.waveforms.data_ending`
-- `mxgraph.electrical.waveforms.data_invalid_1`
-- `mxgraph.electrical.waveforms.data_invalid_2`
-- `mxgraph.electrical.waveforms.data_starting`
-- `mxgraph.electrical.waveforms.data_valid`
-- `mxgraph.electrical.waveforms.down_ramp`
-- `mxgraph.electrical.waveforms.edge`
-- `mxgraph.electrical.waveforms.event`
-- `mxgraph.electrical.waveforms.level`
-- `mxgraph.electrical.waveforms.pulse_1`
-- `mxgraph.electrical.waveforms.pulse_2`
-- `mxgraph.electrical.waveforms.sawtooth`
-- `mxgraph.electrical.waveforms.sine_wave`
-- `mxgraph.electrical.waveforms.slow_square_wave`
-- `mxgraph.electrical.waveforms.square_wave`
-- `mxgraph.electrical.waveforms.step_1`
-- `mxgraph.electrical.waveforms.step_2`
-- `mxgraph.electrical.waveforms.timing_line`
-- `mxgraph.electrical.waveforms.timing_mark_1`
-- `mxgraph.electrical.waveforms.timing_mark_2`
-- `mxgraph.electrical.waveforms.timing_mark_3`
-- `mxgraph.electrical.waveforms.up_ramp`
+- `mxgraph.electrical.abstract.amplifier` (100×90)
+- `mxgraph.electrical.abstract.controlled_amplifier` (100×90)
+- `mxgraph.electrical.abstract.dac` (70×46)
+- `mxgraph.electrical.abstract.delta` (50×50)
+- `mxgraph.electrical.abstract.demux` (60×90)
+- `mxgraph.electrical.abstract.filter` (52×46)
+- `mxgraph.electrical.abstract.function` (50×50)
+- `mxgraph.electrical.abstract.integrator` (50×50)
+- `mxgraph.electrical.abstract.multiplier` (50×50)
+- `mxgraph.electrical.abstract.mux` (60×90)
+- `mxgraph.electrical.abstract.mux-demux` (60×90)
+- `mxgraph.electrical.abstract.operational_amp_1` (98×90)
+- `mxgraph.electrical.abstract.operational_amp_2` (98×90)
+- `mxgraph.electrical.abstract.ota_1` (100×90)
+- `mxgraph.electrical.abstract.ota_2` (100×90)
+- `mxgraph.electrical.abstract.ota_3` (100×90)
+- `mxgraph.electrical.abstract.quantizer` (52×46)
+- `mxgraph.electrical.abstract.sum` (50×50)
+- `mxgraph.electrical.abstract.summation_point` (50×50)
+- `mxgraph.electrical.abstract.thermistor_with_independent_integral_heater` (100×94)
+- `mxgraph.electrical.abstract.voltage_regulator` (70×58)
+- `mxgraph.electrical.capacitors.capacitor_1` (100×60)
+- `mxgraph.electrical.capacitors.capacitor_2` (100×60)
+- `mxgraph.electrical.capacitors.capacitor_3` (100×60)
+- `mxgraph.electrical.capacitors.capacitor_4` (100×60)
+- `mxgraph.electrical.capacitors.capacitor_5` (100×60)
+- `mxgraph.electrical.capacitors.capacitor_6` (100×60)
+- `mxgraph.electrical.capacitors.differential_capacitor` (100×80)
+- `mxgraph.electrical.capacitors.feed_through_capacitor` (90×100)
+- `mxgraph.electrical.capacitors.ganged_capacitor` (100×130)
+- `mxgraph.electrical.capacitors.multiple_capacitor` (100×130)
+- `mxgraph.electrical.capacitors.multiple_electrolytic_capacitor_comm_neg` (100×130)
+- `mxgraph.electrical.capacitors.multiple_electrolytic_capacitor_comm_pos` (100×130)
+- `mxgraph.electrical.capacitors.trimmer_capacitor_1` (100×66)
+- `mxgraph.electrical.capacitors.trimmer_capacitor_2` (100×66)
+- `mxgraph.electrical.capacitors.variable_capacitor_1` (100×60)
+- `mxgraph.electrical.capacitors.variable_capacitor_2` (100×60)
+- `mxgraph.electrical.diodes.diode` (100×60)
+- `mxgraph.electrical.diodes.field_effect_diode` (100×60)
+- `mxgraph.electrical.diodes.four_layer_diode` (100×80)
+- `mxgraph.electrical.diodes.gunn_diode` (100×60)
+- `mxgraph.electrical.diodes.schottky_diode` (100×60)
+- `mxgraph.electrical.diodes.transorb_1` (100×60)
+- `mxgraph.electrical.diodes.transorb_2` (100×60)
+- `mxgraph.electrical.diodes.tunnel_diode` (100×60)
+- `mxgraph.electrical.diodes.tunnel_diode_2` (100×80)
+- `mxgraph.electrical.diodes.varactor_-_varicap` (100×60)
+- `mxgraph.electrical.diodes.zener_diode_1` (100×50)
+- `mxgraph.electrical.diodes.zener_diode_2` (100×50)
+- `mxgraph.electrical.diodes.zener_diode_3` (100×50)
+- `mxgraph.electrical.electro-mechanical.2-way_switch` (75×26)
+- `mxgraph.electrical.electro-mechanical.2_position_switch` (75×70)
+- `mxgraph.electrical.electro-mechanical.3_position_switch` (60×60)
+- `mxgraph.electrical.electro-mechanical.4_position_switch` (75×70)
+- `mxgraph.electrical.electro-mechanical.bell` (47×60)
+- `mxgraph.electrical.electro-mechanical.break_contact` (75×10)
+- `mxgraph.electrical.electro-mechanical.buzzer` (45×60)
+- `mxgraph.electrical.electro-mechanical.changeover_contact` (75×20)
+- `mxgraph.electrical.electro-mechanical.circuit_breaker` (75×20)
+- `mxgraph.electrical.electro-mechanical.dpdt` (75×32)
+- `mxgraph.electrical.electro-mechanical.dpdt2` (58×62)
+- `mxgraph.electrical.electro-mechanical.dpst` (75×26)
+- `mxgraph.electrical.electro-mechanical.flow_actuated` (75×31)
+- `mxgraph.electrical.electro-mechanical.fuse` (75×16)
+- `mxgraph.electrical.electro-mechanical.gas_flow_actuated` (75×32)
+- `mxgraph.electrical.electro-mechanical.inertia_switch` (75×19)
+- `mxgraph.electrical.electro-mechanical.isolator` (75×20)
+- `mxgraph.electrical.electro-mechanical.limit_switch` (75×16)
+- `mxgraph.electrical.electro-mechanical.limit_switch_nc` (75×13)
+- `mxgraph.electrical.electro-mechanical.limit_switch_no` (75×24)
+- `mxgraph.electrical.electro-mechanical.liquid_level_actuated` (75×28)
+- `mxgraph.electrical.electro-mechanical.liquid_level_actuated_2` (75×32)
+- `mxgraph.electrical.electro-mechanical.loudspeaker` (25×50)
+- `mxgraph.electrical.electro-mechanical.make_contact` (75×16)
+- `mxgraph.electrical.electro-mechanical.manual_switch` (75×18)
+- `mxgraph.electrical.electro-mechanical.mercury_switch` (80×80)
+- `mxgraph.electrical.electro-mechanical.mercury_switch_2` (50×90)
+- `mxgraph.electrical.electro-mechanical.motor_1` (100×60)
+- `mxgraph.electrical.electro-mechanical.motor_2` (100×60)
+- `mxgraph.electrical.electro-mechanical.passing_make_contact` (75×23)
+- `mxgraph.electrical.electro-mechanical.piezo_sounder` (100×40)
+- `mxgraph.electrical.electro-mechanical.pilot_light` (100×100)
+- `mxgraph.electrical.electro-mechanical.pressure_actuated` (75×31)
+- `mxgraph.electrical.electro-mechanical.proximity_limit_switch` (75×55)
+- `mxgraph.electrical.electro-mechanical.push_switch_nc` (75×10)
+- `mxgraph.electrical.electro-mechanical.push_switch_no` (75×19)
+- `mxgraph.electrical.electro-mechanical.pushbutton_2_circuit` (75×73)
+- `mxgraph.electrical.electro-mechanical.pushbutton_break` (75×54)
+- `mxgraph.electrical.electro-mechanical.pushbutton_make` (75×53)
+- `mxgraph.electrical.electro-mechanical.reed_switch` (75×20)
+- `mxgraph.electrical.electro-mechanical.relay` (99×50)
+- `mxgraph.electrical.electro-mechanical.relay_changeover_contact` (50×100)
+- `mxgraph.electrical.electro-mechanical.relay_coil` (99×50)
+- `mxgraph.electrical.electro-mechanical.relay_coil_2` (100×70)
+- `mxgraph.electrical.electro-mechanical.relay_contact_nc` (10×100)
+- `mxgraph.electrical.electro-mechanical.relay_contact_no` (20×100)
+- `mxgraph.electrical.electro-mechanical.relay_contacts` (30×24)
+- `mxgraph.electrical.electro-mechanical.relay_pole` (100×5)
+- `mxgraph.electrical.electro-mechanical.resonator` (100×50)
+- `mxgraph.electrical.electro-mechanical.safety_interlock` (75×37)
+- `mxgraph.electrical.electro-mechanical.selector_switch` (75×66)
+- `mxgraph.electrical.electro-mechanical.selector_switch_3_position` (75×46)
+- `mxgraph.electrical.electro-mechanical.selector_switch_6_position` (75×106)
+- `mxgraph.electrical.electro-mechanical.shorting_selector` (60×66)
+- `mxgraph.electrical.electro-mechanical.simple_switch` (75×19)
+- `mxgraph.electrical.electro-mechanical.spring_return` (75×10)
+- `mxgraph.electrical.electro-mechanical.spring_return_2` (75×19)
+- `mxgraph.electrical.electro-mechanical.stay_put` (75×7)
+- `mxgraph.electrical.electro-mechanical.switch_contact` (16×16)
+- `mxgraph.electrical.electro-mechanical.switch_disconnector` (75×19)
+- `mxgraph.electrical.electro-mechanical.temperature_actuated` (75×31)
+- `mxgraph.electrical.electro-mechanical.temperature_switch` (75×18)
+- `mxgraph.electrical.electro-mechanical.thermostat` (75×7)
+- `mxgraph.electrical.electro-mechanical.time_delay_break` (75×32)
+- `mxgraph.electrical.electro-mechanical.time_delay_break_2` (75×30)
+- `mxgraph.electrical.electro-mechanical.time_delay_make` (75×31)
+- `mxgraph.electrical.electro-mechanical.time_delay_make_2` (75×36)
+- `mxgraph.electrical.electro-mechanical.two_way_contact` (75×30)
+- `mxgraph.electrical.iec417.ac-ac_converter` (80×85)
+- `mxgraph.electrical.iec417.ac-dc_converter` (80×85)
+- `mxgraph.electrical.iec417.ad_converter` (80×85)
+- `mxgraph.electrical.iec417.amp` (80×80)
+- `mxgraph.electrical.iec417.amp_bidirectional` (80×80)
+- `mxgraph.electrical.iec417.att` (80×80)
+- `mxgraph.electrical.iec417.bandpass` (80×80)
+- `mxgraph.electrical.iec417.bandstop` (80×80)
+- `mxgraph.electrical.iec417.block` (80×80)
+- `mxgraph.electrical.iec417.block_convert` (80×80)
+- `mxgraph.electrical.iec417.circulator` (80×80)
+- `mxgraph.electrical.iec417.combine` (80×80)
+- `mxgraph.electrical.iec417.corrector` (80×80)
+- `mxgraph.electrical.iec417.da_converter` (80×85)
+- `mxgraph.electrical.iec417.dc-ac_converter` (80×85)
+- `mxgraph.electrical.iec417.dc-dc_converter` (80×85)
+- `mxgraph.electrical.iec417.decrypt` (80×85)
+- `mxgraph.electrical.iec417.delay` (80×80)
+- `mxgraph.electrical.iec417.demodulator` (80×85)
+- `mxgraph.electrical.iec417.detector` (80×80)
+- `mxgraph.electrical.iec417.differential_amp` (80×80)
+- `mxgraph.electrical.iec417.diplexer` (80×80)
+- `mxgraph.electrical.iec417.divide_by_n` (80×80)
+- `mxgraph.electrical.iec417.down_converter` (80×80)
+- `mxgraph.electrical.iec417.encrypt` (80×85)
+- `mxgraph.electrical.iec417.hipass` (80×80)
+- `mxgraph.electrical.iec417.hybrid` (90×80)
+- `mxgraph.electrical.iec417.limiter` (80×80)
+- `mxgraph.electrical.iec417.lopass` (80×80)
+- `mxgraph.electrical.iec417.mixer_1` (80×80)
+- `mxgraph.electrical.iec417.mixer_2` (80×80)
+- `mxgraph.electrical.iec417.modem` (80×85)
+- `mxgraph.electrical.iec417.modulator` (80×85)
+- `mxgraph.electrical.iec417.oscilloscope` (80×80)
+- `mxgraph.electrical.iec417.phase_detector` (80×80)
+- `mxgraph.electrical.iec417.process` (80×80)
+- `mxgraph.electrical.iec417.pulse` (80×80)
+- `mxgraph.electrical.iec417.sampler` (80×80)
+- `mxgraph.electrical.iec417.splitter` (80×80)
+- `mxgraph.electrical.iec417.square-up` (80×80)
+- `mxgraph.electrical.iec417.step` (55×60)
+- `mxgraph.electrical.iec417.transformer` (80×80)
+- `mxgraph.electrical.iec417.trim` (48×66)
+- `mxgraph.electrical.iec417.up_converter` (80×80)
+- `mxgraph.electrical.iec417.var` (40×60)
+- `mxgraph.electrical.iec_logic_gates.and` (60×80)
+- `mxgraph.electrical.iec_logic_gates.nand` (66×80)
+- `mxgraph.electrical.iec_logic_gates.nand_2` (68×80)
+- `mxgraph.electrical.iec_logic_gates.nor` (66×80)
+- `mxgraph.electrical.iec_logic_gates.nor_2` (68×80)
+- `mxgraph.electrical.iec_logic_gates.not` (66×80)
+- `mxgraph.electrical.iec_logic_gates.not_2` (68×80)
+- `mxgraph.electrical.iec_logic_gates.or` (60×80)
+- `mxgraph.electrical.iec_logic_gates.xor` (60×80)
+- `mxgraph.electrical.inductors.1_phase_induction_volt_reg` (100×100)
+- `mxgraph.electrical.inductors.adjustable_transformer` (129×170)
+- `mxgraph.electrical.inductors.choke` (100×200)
+- `mxgraph.electrical.inductors.coaxial_choke` (300×50)
+- `mxgraph.electrical.inductors.compensation_inductor_1` (100×46)
+- `mxgraph.electrical.inductors.compensation_inductor_2` (100×80)
+- `mxgraph.electrical.inductors.current_transformer_1` (13×75)
+- `mxgraph.electrical.inductors.current_transformer_2` (125×175)
+- `mxgraph.electrical.inductors.current_transformer_3` (75×10)
+- `mxgraph.electrical.inductors.ferrite_core` (64×5)
+- `mxgraph.electrical.inductors.half_inductor` (32×23)
+- `mxgraph.electrical.inductors.induction_voltage_regulator` (160×210)
+- `mxgraph.electrical.inductors.inductor` (100×43)
+- `mxgraph.electrical.inductors.inductor_1` (60×15)
+- `mxgraph.electrical.inductors.inductor_10` (64×20)
+- `mxgraph.electrical.inductors.inductor_11` (64×23)
+- `mxgraph.electrical.inductors.inductor_2` (22×60)
+- `mxgraph.electrical.inductors.inductor_3` (100×8)
+- `mxgraph.electrical.inductors.inductor_4` (100×15)
+- `mxgraph.electrical.inductors.inductor_5` (100×14)
+- `mxgraph.electrical.inductors.inductor_6` (100×16)
+- `mxgraph.electrical.inductors.inductor_7` (100×20)
+- `mxgraph.electrical.inductors.inductor_8` (100×23)
+- `mxgraph.electrical.inductors.inductor_9` (100×23)
+- `mxgraph.electrical.inductors.iron_core` (64×5)
+- `mxgraph.electrical.inductors.linear_coupler` (80×20)
+- `mxgraph.electrical.inductors.magnetic_core` (5×100)
+- `mxgraph.electrical.inductors.outdoor_metering_device` (100×100)
+- `mxgraph.electrical.inductors.pot_trans_3_windings` (175×250)
+- `mxgraph.electrical.inductors.potential_transformer` (100×50)
+- `mxgraph.electrical.inductors.potential_transformer_2` (230×100)
+- `mxgraph.electrical.inductors.saturating_transformer` (200×150)
+- `mxgraph.electrical.inductors.transductor` (200×100)
+- `mxgraph.electrical.inductors.transformer` (100×100)
+- `mxgraph.electrical.inductors.transformer_1` (64×60)
+- `mxgraph.electrical.inductors.transformer_2` (64×60)
+- `mxgraph.electrical.inductors.triplex_induction_volt_reg` (100×100)
+- `mxgraph.electrical.inductors.variable_inductor` (100×60)
+- `mxgraph.electrical.inductors.variometer` (150×88)
+- `mxgraph.electrical.instruments.ampermeter` (90×90)
+- `mxgraph.electrical.instruments.galvanometer` (90×90)
+- `mxgraph.electrical.instruments.oscilloscope` (90×90)
+- `mxgraph.electrical.instruments.signal_generator` (90×90)
+- `mxgraph.electrical.instruments.voltmeter` (90×90)
+- `mxgraph.electrical.logic_gates.and` (100×60)
+- `mxgraph.electrical.logic_gates.bandpass_filter` (52×46)
+- `mxgraph.electrical.logic_gates.buffer` (100×60)
+- `mxgraph.electrical.logic_gates.d_type_flip-flop` (100×80)
+- `mxgraph.electrical.logic_gates.d_type_flip-flop_with_clear` (100×90)
+- `mxgraph.electrical.logic_gates.d_type_flip-flop_with_clear_2` (100×94)
+- `mxgraph.electrical.logic_gates.d_type_rs_flip-flop` (100×100)
+- `mxgraph.electrical.logic_gates.highpass_filter` (52×46)
+- `mxgraph.electrical.logic_gates.inverter` (100×60)
+- `mxgraph.electrical.logic_gates.inverter_2` (100×60)
+- `mxgraph.electrical.logic_gates.inverting_contact` (5×5)
+- `mxgraph.electrical.logic_gates.jk_flip-flop` (100×80)
+- `mxgraph.electrical.logic_gates.jk_flip-flop_with_clear` (100×90)
+- `mxgraph.electrical.logic_gates.jk_flip-flop_with_clear_2` (100×94)
+- `mxgraph.electrical.logic_gates.jk_flip-flop_with_sr` (100×100)
+- `mxgraph.electrical.logic_gates.lowpass_filter` (52×46)
+- `mxgraph.electrical.logic_gates.nand` (100×60)
+- `mxgraph.electrical.logic_gates.nor` (100×60)
+- `mxgraph.electrical.logic_gates.or` (100×60)
+- `mxgraph.electrical.logic_gates.rs_latch` (100×80)
+- `mxgraph.electrical.logic_gates.schmitt_trigger` (100×60)
+- `mxgraph.electrical.logic_gates.synchronous_rs_latch` (100×80)
+- `mxgraph.electrical.logic_gates.t_type_flip-flop` (100×80)
+- `mxgraph.electrical.logic_gates.xnor` (100×60)
+- `mxgraph.electrical.logic_gates.xor` (100×60)
+- `mxgraph.electrical.miscellaneous.2_conductor_jack` (100×50)
+- `mxgraph.electrical.miscellaneous.2_conductor_plug` (53×24)
+- `mxgraph.electrical.miscellaneous.3_conductor_jack` (100×50)
+- `mxgraph.electrical.miscellaneous.3_conductor_plug` (53×24)
+- `mxgraph.electrical.miscellaneous.ac_out` (200×100)
+- `mxgraph.electrical.miscellaneous.adapter` (100×40)
+- `mxgraph.electrical.miscellaneous.c_header_connector` (200×75)
+- `mxgraph.electrical.miscellaneous.cable_termination` (100×50)
+- `mxgraph.electrical.miscellaneous.chassis` (65×32)
+- `mxgraph.electrical.miscellaneous.circuit_breaker` (100×13)
+- `mxgraph.electrical.miscellaneous.co-ax` (40×60)
+- `mxgraph.electrical.miscellaneous.coaxial_center_conductor` (300×150)
+- `mxgraph.electrical.miscellaneous.coaxial_jack_plug` (50×100)
+- `mxgraph.electrical.miscellaneous.coaxial_outside_conductor` (300×150)
+- `mxgraph.electrical.miscellaneous.crystal_1` (100×40)
+- `mxgraph.electrical.miscellaneous.crystal_2` (100×40)
+- `mxgraph.electrical.miscellaneous.delay_element` (100×100)
+- `mxgraph.electrical.miscellaneous.f_m_2_conductor_1` (100×100)
+- `mxgraph.electrical.miscellaneous.f_m_2_conductor_2` (100×100)
+- `mxgraph.electrical.miscellaneous.f_m_2_conductor_3` (100×50)
+- `mxgraph.electrical.miscellaneous.f_m_3_conductor_1` (100×100)
+- `mxgraph.electrical.miscellaneous.f_m_3_conductor_2` (100×100)
+- `mxgraph.electrical.miscellaneous.f_m_3_conductor_3` (100×100)
+- `mxgraph.electrical.miscellaneous.f_m_3_conductor_4` (100×100)
+- `mxgraph.electrical.miscellaneous.f_m_3_conductor_5` (100×100)
+- `mxgraph.electrical.miscellaneous.flourescent_lamp` (80×30)
+- `mxgraph.electrical.miscellaneous.fusable_resistor` (100×22)
+- `mxgraph.electrical.miscellaneous.fuse_1` (100×20)
+- `mxgraph.electrical.miscellaneous.fuse_2` (100×20)
+- `mxgraph.electrical.miscellaneous.fuse_3` (100×12)
+- `mxgraph.electrical.miscellaneous.fuse_4` (100×32)
+- `mxgraph.electrical.miscellaneous.generic_component` (60×60)
+- `mxgraph.electrical.miscellaneous.igniter_plug` (72×39)
+- `mxgraph.electrical.miscellaneous.igniter_plug2` (72×39)
+- `mxgraph.electrical.miscellaneous.illuminating_bulb` (60×50)
+- `mxgraph.electrical.miscellaneous.indicator` (60×60)
+- `mxgraph.electrical.miscellaneous.lamp_1` (50×50)
+- `mxgraph.electrical.miscellaneous.lamp_2` (50×50)
+- `mxgraph.electrical.miscellaneous.large_d_connector` (375×75)
+- `mxgraph.electrical.miscellaneous.light_bulb` (60×50)
+- `mxgraph.electrical.miscellaneous.loop_antenna` (100×100)
+- `mxgraph.electrical.miscellaneous.mf_contact_2` (100×10)
+- `mxgraph.electrical.miscellaneous.monocell_battery` (100×60)
+- `mxgraph.electrical.miscellaneous.multicell_battery` (100×60)
+- `mxgraph.electrical.miscellaneous.multicell_battery_tapped` (100×70)
+- `mxgraph.electrical.miscellaneous.neon_lamp` (50×50)
+- `mxgraph.electrical.miscellaneous.neon_lamp_2` (60×50)
+- `mxgraph.electrical.miscellaneous.normalled_jack` (110×65)
+- `mxgraph.electrical.miscellaneous.normalled_jack2` (110×65)
+- `mxgraph.electrical.miscellaneous.normalled_jacks` (230×65)
+- `mxgraph.electrical.miscellaneous.normalled_jacks2` (230×65)
+- `mxgraph.electrical.miscellaneous.permanent_magnet` (20×70)
+- `mxgraph.electrical.miscellaneous.plug_socket_connection` (100×100)
+- `mxgraph.electrical.miscellaneous.sensing_link_squib` (131×41)
+- `mxgraph.electrical.miscellaneous.shielded_jack_plug` (50×100)
+- `mxgraph.electrical.miscellaneous.small_d_connector` (150×75)
+- `mxgraph.electrical.miscellaneous.squib_ignitor` (100×100)
+- `mxgraph.electrical.miscellaneous.surge_protector` (70×20)
+- `mxgraph.electrical.miscellaneous.surge_protector_2` (70×40)
+- `mxgraph.electrical.miscellaneous.terminal_board` (75×150)
+- `mxgraph.electrical.miscellaneous.thermal_element` (100×32)
+- `mxgraph.electrical.miscellaneous.thermistor_1` (100×60)
+- `mxgraph.electrical.miscellaneous.thermistor_2` (100×70)
+- `mxgraph.electrical.miscellaneous.thermocouple` (80×82)
+- `mxgraph.electrical.miscellaneous.thermopile` (80×82)
+- `mxgraph.electrical.miscellaneous.transducer` (70×60)
+- `mxgraph.electrical.miscellaneous.transducer_2` (80×100)
+- `mxgraph.electrical.mosfets1.dual_gate_mosfet` (90×90)
+- `mxgraph.electrical.mosfets1.dual_gate_mosfet_n` (100×110)
+- `mxgraph.electrical.mosfets1.dual_gate_mosfet_p` (100×110)
+- `mxgraph.electrical.mosfets1.mosfet_ic_n` (100×110)
+- `mxgraph.electrical.mosfets1.mosfet_ic_p` (100×110)
+- `mxgraph.electrical.mosfets1.mosfet_n_no_bulk` (100×110)
+- `mxgraph.electrical.mosfets1.mosfet_p_no_bulk` (100×110)
+- `mxgraph.electrical.mosfets1.n-channel_mosfet_1` (100×110)
+- `mxgraph.electrical.mosfets1.n-channel_mosfet_2` (90×90)
+- `mxgraph.electrical.mosfets1.n-channel_mosfet_3` (90×90)
+- `mxgraph.electrical.mosfets1.n-channel_mosfet_4` (90×90)
+- `mxgraph.electrical.mosfets1.n-channel_mosfet_5` (90×90)
+- `mxgraph.electrical.mosfets1.n-channel_mosfet_6` (90×90)
+- `mxgraph.electrical.mosfets1.p-channel_mosfet_1` (100×110)
+- `mxgraph.electrical.mosfets1.p-channel_mosfet_2` (90×90)
+- `mxgraph.electrical.mosfets1.p-channel_mosfet_3` (90×90)
+- `mxgraph.electrical.mosfets1.p-channel_mosfet_4` (90×90)
+- `mxgraph.electrical.mosfets1.p-channel_mosfet_5` (90×90)
+- `mxgraph.electrical.mosfets1.p-channel_mosfet_6` (90×90)
+- `mxgraph.electrical.mosfets2.dual_gate_mosfet` (85×60)
+- `mxgraph.electrical.mosfets2.n-channel_mosfet_1` (85×60)
+- `mxgraph.electrical.mosfets2.n-channel_mosfet_2` (90×60)
+- `mxgraph.electrical.mosfets2.n-channel_mosfet_3` (85×60)
+- `mxgraph.electrical.mosfets2.n-channel_mosfet_4` (90×60)
+- `mxgraph.electrical.mosfets2.n-channel_mosfet_5` (85×60)
+- `mxgraph.electrical.mosfets2.n-channel_mosfet_6` (90×60)
+- `mxgraph.electrical.mosfets2.nmos_fet` (85×60)
+- `mxgraph.electrical.mosfets2.p-channel_mosfet_1` (85×60)
+- `mxgraph.electrical.mosfets2.p-channel_mosfet_2` (90×60)
+- `mxgraph.electrical.mosfets2.p-channel_mosfet_3` (85×60)
+- `mxgraph.electrical.mosfets2.p-channel_mosfet_4` (90×60)
+- `mxgraph.electrical.mosfets2.p-channel_mosfet_5` (85×60)
+- `mxgraph.electrical.mosfets2.p-channel_mosfet_6` (90×60)
+- `mxgraph.electrical.mosfets2.pmos_fet` (85×60)
+- `mxgraph.electrical.op_amps.comparator` (100×62)
+- `mxgraph.electrical.op_amps.differentiator` (100×72)
+- `mxgraph.electrical.op_amps.integrator` (100×77)
+- `mxgraph.electrical.op_amps.inverting_amplifier` (100×72)
+- `mxgraph.electrical.op_amps.multivibrator` (95×92)
+- `mxgraph.electrical.op_amps.non-inverting_amplifier` (100×72)
+- `mxgraph.electrical.op_amps.regen_comparator` (100×47)
+- `mxgraph.electrical.op_amps.subtractor` (100×72)
+- `mxgraph.electrical.op_amps.summing_amplifier` (100×72)
+- `mxgraph.electrical.op_amps.unity_gain_follower` (100×50)
+- `mxgraph.electrical.opto_electronics.7_segment_display` (75×96)
+- `mxgraph.electrical.opto_electronics.7_segment_display_with_dp` (80×97)
+- `mxgraph.electrical.opto_electronics.9_segment_display` (75×96)
+- `mxgraph.electrical.opto_electronics.9_segment_display_with_dp` (80×97)
+- `mxgraph.electrical.opto_electronics.lamp` (50×100)
+- `mxgraph.electrical.opto_electronics.led_1` (100×65)
+- `mxgraph.electrical.opto_electronics.led_2` (100×70)
+- `mxgraph.electrical.opto_electronics.light-activated_scr` (100×70)
+- `mxgraph.electrical.opto_electronics.opto-coupler` (99×60)
+- `mxgraph.electrical.opto_electronics.opto-transistor` (100×110)
+- `mxgraph.electrical.opto_electronics.photo_resistor_1` (100×90)
+- `mxgraph.electrical.opto_electronics.photo_resistor_2` (100×50)
+- `mxgraph.electrical.opto_electronics.photo_resistor_3` (100×90)
+- `mxgraph.electrical.opto_electronics.photodiode` (100×70)
+- `mxgraph.electrical.opto_electronics.solar_cell` (100×70)
+- `mxgraph.electrical.plc_ladder.contact` (100×50)
+- `mxgraph.electrical.plc_ladder.not_contact` (100×50)
+- `mxgraph.electrical.plc_ladder.not_output_1` (100×50)
+- `mxgraph.electrical.plc_ladder.not_output_2` (100×50)
+- `mxgraph.electrical.plc_ladder.output_1` (100×50)
+- `mxgraph.electrical.plc_ladder.output_2` (100×50)
+- `mxgraph.electrical.power_semiconductors.bridge_rectifier_1` (90×90)
+- `mxgraph.electrical.power_semiconductors.bridge_rectifier_2` (90×90)
+- `mxgraph.electrical.power_semiconductors.bridge_rectifier_3` (90×90)
+- `mxgraph.electrical.power_semiconductors.diac_1` (100×90)
+- `mxgraph.electrical.power_semiconductors.diac_2` (100×60)
+- `mxgraph.electrical.power_semiconductors.gto_scr` (100×67)
+- `mxgraph.electrical.power_semiconductors.igct_1` (100×64)
+- `mxgraph.electrical.power_semiconductors.igct_2` (100×64)
+- `mxgraph.electrical.power_semiconductors.npn_igbt_1` (90×90)
+- `mxgraph.electrical.power_semiconductors.npn_igbt_2` (62×71)
+- `mxgraph.electrical.power_semiconductors.npn_igbt_3` (90×90)
+- `mxgraph.electrical.power_semiconductors.npn_igbt_4` (67×71)
+- `mxgraph.electrical.power_semiconductors.pnp_igbt_1` (90×90)
+- `mxgraph.electrical.power_semiconductors.pnp_igbt_2` (62×70)
+- `mxgraph.electrical.power_semiconductors.pnp_igbt_3` (90×90)
+- `mxgraph.electrical.power_semiconductors.pnp_igbt_4` (67×70)
+- `mxgraph.electrical.power_semiconductors.scr_1` (100×64)
+- `mxgraph.electrical.power_semiconductors.scr_2` (100×90)
+- `mxgraph.electrical.power_semiconductors.sidac` (100×90)
+- `mxgraph.electrical.power_semiconductors.triac_1` (100×90)
+- `mxgraph.electrical.power_semiconductors.triac_2` (100×70)
+- `mxgraph.electrical.radio.aerial_-_antenna_1` (80×100)
+- `mxgraph.electrical.radio.aerial_-_antenna_2` (79×100)
+- `mxgraph.electrical.radio.buzzer` (80×50)
+- `mxgraph.electrical.radio.chassis` (100×40)
+- `mxgraph.electrical.radio.dipole` (100×40)
+- `mxgraph.electrical.radio.earth` (50×40)
+- `mxgraph.electrical.radio.electret_microphone` (70×70)
+- `mxgraph.electrical.radio.headphones` (66×56)
+- `mxgraph.electrical.radio.loop_antenna` (64×70)
+- `mxgraph.electrical.radio.microphone_1` (70×70)
+- `mxgraph.electrical.radio.microphone_2` (42×70)
+- `mxgraph.electrical.resistors.attenuator` (100×60)
+- `mxgraph.electrical.resistors.magnetoresistor` (100×60)
+- `mxgraph.electrical.resistors.memristor_1` (100×20)
+- `mxgraph.electrical.resistors.memristor_2` (100×24)
+- `mxgraph.electrical.resistors.nonlinear_resistor` (100×60)
+- `mxgraph.electrical.resistors.potentiometer_1` (100×40)
+- `mxgraph.electrical.resistors.potentiometer_2` (100×40)
+- `mxgraph.electrical.resistors.resistor,_adjustable_contact` (100×40)
+- `mxgraph.electrical.resistors.resistor,_shunt` (100×45)
+- `mxgraph.electrical.resistors.resistor_1` (100×20)
+- `mxgraph.electrical.resistors.resistor_2` (100×20)
+- `mxgraph.electrical.resistors.resistor_3` (100×20)
+- `mxgraph.electrical.resistors.resistor_4` (100×20)
+- `mxgraph.electrical.resistors.resistor_with_instrument_or_relay_shunt` (100×20)
+- `mxgraph.electrical.resistors.symmetrical_photoconductive_transducer` (100×40)
+- `mxgraph.electrical.resistors.symmetrical_varistor` (100×60)
+- `mxgraph.electrical.resistors.tapped_resistor` (100×40)
+- `mxgraph.electrical.resistors.trimmer_pot_1` (100×40)
+- `mxgraph.electrical.resistors.trimmer_pot_2` (100×40)
+- `mxgraph.electrical.resistors.trimmer_resistor_1` (100×66)
+- `mxgraph.electrical.resistors.trimmer_resistor_2` (100×66)
+- `mxgraph.electrical.resistors.variable_resistor_1` (100×60)
+- `mxgraph.electrical.resistors.variable_resistor_2` (100×60)
+- `mxgraph.electrical.rot_mech.armature` (100×100)
+- `mxgraph.electrical.rot_mech.automatic_return` (100×12)
+- `mxgraph.electrical.rot_mech.blocking_device` (100×15)
+- `mxgraph.electrical.rot_mech.clutch` (100×20)
+- `mxgraph.electrical.rot_mech.clutch_2` (90×60)
+- `mxgraph.electrical.rot_mech.delayed_action` (72×50)
+- `mxgraph.electrical.rot_mech.detent` (100×8)
+- `mxgraph.electrical.rot_mech.field` (90×15)
+- `mxgraph.electrical.rot_mech.gearing` (100×64)
+- `mxgraph.electrical.rot_mech.latching_device` (100×22)
+- `mxgraph.electrical.rot_mech.manual_control` (68×50)
+- `mxgraph.electrical.rot_mech.mechanical_interlock` (100×30)
+- `mxgraph.electrical.rot_mech.rotation` (68×54)
+- `mxgraph.electrical.rot_mech.synchro` (80×100)
+- `mxgraph.electrical.rot_mech.winding_connection` (100×100)
+- `mxgraph.electrical.signal_sources.ac_source` (60×60)
+- `mxgraph.electrical.signal_sources.current_flow` (70×10)
+- `mxgraph.electrical.signal_sources.current_source` (40×60)
+- `mxgraph.electrical.signal_sources.dc_source_1` (70×75)
+- `mxgraph.electrical.signal_sources.dc_source_2` (60×60)
+- `mxgraph.electrical.signal_sources.dc_source_3` (60×60)
+- `mxgraph.electrical.signal_sources.dependent_source_1` (60×60)
+- `mxgraph.electrical.signal_sources.dependent_source_2` (60×60)
+- `mxgraph.electrical.signal_sources.dependent_source_3` (60×60)
+- `mxgraph.electrical.signal_sources.equipotential` (90×90)
+- `mxgraph.electrical.signal_sources.explosive_squib` (60×60)
+- `mxgraph.electrical.signal_sources.ideal_source` (60×60)
+- `mxgraph.electrical.signal_sources.noise_source` (60×60)
+- `mxgraph.electrical.signal_sources.protective_earth` (50×40)
+- `mxgraph.electrical.signal_sources.signal_ground` (90×60)
+- `mxgraph.electrical.signal_sources.vdd` (60×40)
+- `mxgraph.electrical.signal_sources.voltage` (10×70)
+- `mxgraph.electrical.signal_sources.vss2` (60×40)
+- `mxgraph.electrical.thermionic_devices.diode` (70×77)
+- `mxgraph.electrical.thermionic_devices.double_diode` (70×77)
+- `mxgraph.electrical.thermionic_devices.double_triode` (70×77)
+- `mxgraph.electrical.thermionic_devices.pentode` (70×77)
+- `mxgraph.electrical.thermionic_devices.photocell` (70×87)
+- `mxgraph.electrical.thermionic_devices.tetrode` (70×77)
+- `mxgraph.electrical.thermionic_devices.triode` (70×77)
+- `mxgraph.electrical.transistors.complementary_unijunction` (90×90)
+- `mxgraph.electrical.transistors.darlington_pair` (90×90)
+- `mxgraph.electrical.transistors.n-channel_jfet_1` (100×110)
+- `mxgraph.electrical.transistors.n-channel_jfet_2` (90×90)
+- `mxgraph.electrical.transistors.nigbt` (70×110)
+- `mxgraph.electrical.transistors.nmos` (70×110)
+- `mxgraph.electrical.transistors.nmos_bulk` (70×110)
+- `mxgraph.electrical.transistors.npn_transistor_1` (100×110)
+- `mxgraph.electrical.transistors.npn_transistor_2` (73×71)
+- `mxgraph.electrical.transistors.npn_transistor_3` (73×70)
+- `mxgraph.electrical.transistors.npn_transistor_4` (90×90)
+- `mxgraph.electrical.transistors.npn_transistor_5` (70×110)
+- `mxgraph.electrical.transistors.p-channel_jfet_1` (100×110)
+- `mxgraph.electrical.transistors.p-channel_jfet_2` (90×90)
+- `mxgraph.electrical.transistors.pigbt` (70×110)
+- `mxgraph.electrical.transistors.pmos` (70×110)
+- `mxgraph.electrical.transistors.pmos_bulk` (70×110)
+- `mxgraph.electrical.transistors.pnp_transistor_1` (100×110)
+- `mxgraph.electrical.transistors.pnp_transistor_2` (73×70)
+- `mxgraph.electrical.transistors.pnp_transistor_3` (73×70)
+- `mxgraph.electrical.transistors.pnp_transistor_4` (90×90)
+- `mxgraph.electrical.transistors.pnp_transistor_5` (70×110)
+- `mxgraph.electrical.transistors.unijunction` (90×90)
+- `mxgraph.electrical.transmission.2_line_bus` (130×25)
+- `mxgraph.electrical.transmission.3_line_bus` (130×30)
+- `mxgraph.electrical.transmission.4_line_bus` (130×75)
+- `mxgraph.electrical.transmission.8_line_bus` (130×224)
+- `mxgraph.electrical.transmission.anticreepage_device` (130×88)
+- `mxgraph.electrical.transmission.bus_width` (130×156)
+- `mxgraph.electrical.transmission.cable_group` (130×130)
+- `mxgraph.electrical.transmission.line_cable` (130×60)
+- `mxgraph.electrical.transmission.line_concentrator` (130×130)
+- `mxgraph.electrical.transmission.optical_fiber` (130×80)
+- `mxgraph.electrical.transmission.optical_fiber2` (130×80)
+- `mxgraph.electrical.transmission.overground_enclosure` (130×136)
+- `mxgraph.electrical.transmission.terminal_3_phase` (130×30)
+- `mxgraph.electrical.waveforms.data_changing` (90×90)
+- `mxgraph.electrical.waveforms.data_ending` (95×90)
+- `mxgraph.electrical.waveforms.data_invalid_1` (100×40)
+- `mxgraph.electrical.waveforms.data_invalid_2` (100×5)
+- `mxgraph.electrical.waveforms.data_starting` (95×90)
+- `mxgraph.electrical.waveforms.data_valid` (100×40)
+- `mxgraph.electrical.waveforms.down_ramp` (90×90)
+- `mxgraph.electrical.waveforms.edge` (5×90)
+- `mxgraph.electrical.waveforms.event` (26×55)
+- `mxgraph.electrical.waveforms.level` (90×5)
+- `mxgraph.electrical.waveforms.pulse_1` (90×90)
+- `mxgraph.electrical.waveforms.pulse_2` (90×90)
+- `mxgraph.electrical.waveforms.sawtooth` (100×100)
+- `mxgraph.electrical.waveforms.sine_wave` (90×88)
+- `mxgraph.electrical.waveforms.slow_square_wave` (90×80)
+- `mxgraph.electrical.waveforms.square_wave` (90×80)
+- `mxgraph.electrical.waveforms.step_1` (90×90)
+- `mxgraph.electrical.waveforms.step_2` (90×90)
+- `mxgraph.electrical.waveforms.timing_line` (98×10)
+- `mxgraph.electrical.waveforms.timing_mark_1` (5×100)
+- `mxgraph.electrical.waveforms.timing_mark_2` (100×100)
+- `mxgraph.electrical.waveforms.timing_mark_3` (100×5)
+- `mxgraph.electrical.waveforms.up_ramp` (90×90)
 
 ## Usage Example
 
 ```drawio
-<mxfile><diagram id="example" name="Example"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="" style="shape=mxgraph.electrical.electro-mechanical.2_position_switch;html=1;fillColor=#000000;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="100" y="100" width="60" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
+<mxfile><diagram id="example" name="Example"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="" style="shape=mxgraph.electrical.abstract.amplifier;html=1;fillColor=#CCCCCC;strokeColor=#6881B3;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="100" y="100" width="60" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
 ```
