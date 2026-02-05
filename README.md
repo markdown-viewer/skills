@@ -49,9 +49,9 @@ Skills are automatically detected when placed in `.github/skills/` directory.
 | 🎨 Mind Map | [canvas](canvas/SKILL.md) | Spatial node-based diagrams with free positioning | Mind maps, knowledge graphs, concept maps |
 | 🕸️ Dependency Graph | [graphviz](graphviz/SKILL.md) | Complex directed/undirected graphs with DOT language | Dependency trees, module relationships, org charts |
 | 🏛️ Layered Architecture | [architecture](architecture/SKILL.md) | HTML/CSS layered architecture with color-coded layers | System architecture, microservices, enterprise apps |
-| 🏗️ Draw.io (General) | [drawio](drawio/SKILL.md) | General-purpose Draw.io with 8900+ stencils | Custom diagrams, pixel-perfect layouts |
-| 🌐 Network Topology | [network](network/SKILL.md) | Network diagrams with Cisco/vendor icons (Draw.io based) | LAN/WAN, enterprise networks, cloud infrastructure |
-| 📐 UML Diagrams | [uml](uml/SKILL.md) | UML diagrams for software modeling (Draw.io based) | Class, sequence, activity, component diagrams |
+| 🏗️ drawio (General) | [drawio](drawio/SKILL.md) | General-purpose drawio with 8900+ stencils | Custom diagrams, pixel-perfect layouts |
+| 🌐 Network Topology | [network](network/SKILL.md) | Network diagrams with Cisco/vendor icons (drawio based) | LAN/WAN, enterprise networks, cloud infrastructure |
+| 📐 UML Diagrams | [uml](uml/SKILL.md) | UML diagrams for software modeling (drawio based) | Class, sequence, activity, component diagrams |
 
 ### Skill Selection Guide
 
@@ -119,7 +119,7 @@ When the agent receives a request involving diagrams or visualizations:
 | Mermaid | ` ```mermaid ` |
 | Vega-Lite | ` ```vega-lite ` |
 | Vega | ` ```vega ` |
-| Draw.io | ` ```drawio ` |
+| drawio | ` ```drawio ` |
 | Architecture | (no fence, use raw HTML) |
 | Canvas | ` ```canvas ` |
 | Infographic | ` ```infographic ` |

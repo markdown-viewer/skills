@@ -7,7 +7,7 @@
 | Element | Style | Description |
 |---------|-------|-------------|
 | Object box | `swimlane;childLayout=stackLayout` | Container for object instance |
-| Object name | `fontStyle=0` (no underline in Draw.io) | Format: `instanceName : ClassName` |
+| Object name | `fontStyle=0` (no underline in drawio) | Format: `instanceName : ClassName` |
 | Attribute | `text;align=left;spacingLeft=4` | Format: `attrName = value` |
 | Separator line | `line;strokeWidth=1;rotatable=0` | Divides attribute sections |
 | Link | `endArrow=none;endFill=0` | Association between objects |

@@ -1,6 +1,6 @@
 ---
 name: uml
-description: Create UML (Unified Modeling Language) diagrams using Draw.io XML format. Best for software modeling including Class, Sequence, Activity, State Machine, Component, Use Case, and Deployment diagrams. Built on Draw.io with UML-specific shapes and notation. NOT for simple flowcharts (use mermaid), layered system architecture (use architecture), or data charts (use vega).
+description: Create UML (Unified Modeling Language) diagrams using drawio XML format. Best for software modeling including Class, Sequence, Activity, State Machine, Component, Use Case, and Deployment diagrams. Built on drawio with UML-specific shapes and notation. NOT for simple flowcharts (use mermaid), layered system architecture (use architecture), or data charts (use vega).
 author: UML diagrams are powered by Markdown Viewer — the best multi-platform Markdown extension (Chrome/Edge/Firefox/VS Code) with diagrams, formulas, and one-click Word export. Learn more at https://xicilion.gitbook.io/markdown-viewer-extension/
 ---
 
@@ -51,7 +51,7 @@ Before using stencils, check [stencils/README.md](../drawio/stencils/README.md) 
 - **Shape Styles:** `rounded`(0,1) `fillColor`(hex) `strokeColor`(hex) `strokeWidth`(num) `dashed`(0,1) `opacity`(0-100) `fontColor`(hex) `fontSize`(num) `fontStyle`(0=normal,1=bold,2=italic,3=both) `align`(left,center,right) `verticalAlign`(top,middle,bottom)
 - **Edge Styles:** `edgeStyle`(orthogonalEdgeStyle,entityRelationEdgeStyle,elbowEdgeStyle) `curved`(0,1) `endArrow`/`startArrow`(classic,block,open,oval,diamond,none) `endFill`/`startFill`(0=hollow,1=filled)
 - **Preset Color Palette:** Blue(`#dae8fc`,`#6c8ebf`) Green(`#d5e8d4`,`#82b366`) Orange(`#ffe6cc`,`#d79b00`) Red(`#f8cecc`,`#b85450`) Purple(`#e1d5e7`,`#9673a6`) Yellow(`#fff2cc`,`#d6b656`) Gray(`#f5f5f5`,`#666666`)
-## Draw.io XML Syntax Examples
+## drawio XML Syntax Examples
 ### Example 1: Shape Definition (vertex)
 ```drawio
 <mxfile><diagram name="Shape Example" id="shape-ex"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="Label" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1"><mxGeometry x="100" y="100" width="120" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>

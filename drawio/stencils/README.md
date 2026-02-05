@@ -1,4 +1,4 @@
-# Draw.io Stencil Reference
+# drawio Stencil Reference
 
 | Category | Count | File |
 |----------|-------|------|

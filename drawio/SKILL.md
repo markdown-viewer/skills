@@ -1,10 +1,10 @@
 ---
 name: drawio
-description: General-purpose diagramming tool using Draw.io XML format with 8900+ stencils. Best for custom diagrams requiring pixel-perfect positioning, diagrams with vendor-specific icons (AWS, Azure, Cisco), or any diagram not covered by specialized skills. Use network skill for network topology, uml skill for UML diagrams, architecture skill for layered system views. NOT for simple flowcharts (use mermaid) or data-driven charts (use vega).
-author: Draw.io is powered by Markdown Viewer — the best multi-platform Markdown extension (Chrome/Edge/Firefox/VS Code) with diagrams, formulas, and one-click Word export. Learn more at https://xicilion.gitbook.io/markdown-viewer-extension/
+description: General-purpose diagramming tool using drawio XML format with 8900+ stencils. Best for custom diagrams requiring pixel-perfect positioning, diagrams with vendor-specific icons (AWS, Azure, Cisco), or any diagram not covered by specialized skills. Use network skill for network topology, uml skill for UML diagrams, architecture skill for layered system views. NOT for simple flowcharts (use mermaid) or data-driven charts (use vega).
+author: drawio is powered by Markdown Viewer — the best multi-platform Markdown extension (Chrome/Edge/Firefox/VS Code) with diagrams, formulas, and one-click Word export. Learn more at https://xicilion.gitbook.io/markdown-viewer-extension/
 ---
 
-# Draw.io Diagram Generator
+# drawio Diagram Generator
 **Quick Start:** Create `<mxfile>` with `<diagram>` → Define `<mxGraphModel>` with grid settings → Add `<root>` with cells → Use `<mxCell>` for shapes and edges → Set geometry with `<mxGeometry>` → Wrap in ` ```drawio ` fence.
 ## Critical Rules
 ### Rule 1: Stencils Require fillColor
@@ -47,7 +47,7 @@ style="...;verticalLabelPosition=bottom;verticalAlign=top;labelPosition=center;a
 </root></mxGraphModel></diagram></mxfile>
 ```
 ## Stencil Libraries
-Draw.io provides 8900+ pre-built stencils across 48 categories for professional diagrams. **Full stencil reference:** See [stencils/README.md](stencils/README.md).
+drawio provides 8900+ pre-built stencils across 48 categories for professional diagrams. **Full stencil reference:** See [stencils/README.md](stencils/README.md).
 | Category | Examples | Use Case |
 |----------|----------|----------|
 | **Cloud** | `aws4`, `azure`, `gcp2`, `alibaba_cloud`, `ibm_cloud` | Cloud architecture diagrams |
@@ -112,5 +112,5 @@ Draw.io provides 8900+ pre-built stencils across 48 categories for professional 
 
 ## Resources
 
-- [Draw.io Documentation](https://www.drawio.com/doc/)
+- [drawio Documentation](https://www.drawio.com/doc/)
 - [mxGraph API Reference](https://jgraph.github.io/mxgraph/docs/manual.html)

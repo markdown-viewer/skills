@@ -47,7 +47,7 @@ When drawing messages between lifelines, **always use absolute coordinates** wit
 <mxCell id="msg1" edge="1"><mxGeometry relative="1" as="geometry"><mxPoint x="70" y="130" as="sourcePoint"/><mxPoint x="205" y="130" as="targetPoint"/></mxGeometry></mxCell>
 ```
 
-**Why?** Activation boxes are nested inside lifeline containers. Using `source`/`target` references causes Draw.io to calculate positions relative to parent containers, often resulting in misaligned message arrows.
+**Why?** Activation boxes are nested inside lifeline containers. Using `source`/`target` references causes drawio to calculate positions relative to parent containers, often resulting in misaligned message arrows.
 
 ## Example
 
