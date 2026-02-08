@@ -4,69 +4,103 @@ Shows a hybrid cloud architecture connecting on-premise infrastructure with clou
 
 ## Key Elements
 
-- **Cloud Provider**: `ellipse;shape=cloud` with provider branding
-- **VPN Gateway**: `shape=mxgraph.cisco.misc.vpn_concentrator`
-- **Data Center**: `shape=mxgraph.cisco19.data_center`
-- **Virtual Servers**: `shape=mxgraph.cisco_safe.design.server_1`
-- **Storage**: `shape=mxgraph.cisco.servers.storage_server`
+| Component | Stencil | fillColor |
+|-----------|---------|-----------|
+| Edge Router | `mxgraph.cisco.routers.router` | `#036897` |
+| PIX Firewall | `mxgraph.cisco.security.pix_firewall` | `#036897` |
+| VPN Concentrator | `mxgraph.cisco_safe.architecture.vpn_concentrator` | `#036897` |
+| Core Switch | `mxgraph.cisco.switches.layer_3_switch` | `#036897` |
+| Server | `mxgraph.cisco.servers.standard_host` | `#036897` |
+| Storage | `mxgraph.cisco.servers.storage_server` | `#036897` |
+| Data Center | `mxgraph.cisco19.data_center` | `#036897` |
+| Internet Cloud | `ellipse;shape=cloud` | `#ffffff` |
+
+- All Cisco device icons: `strokeColor=#ffffff;strokeWidth=2`
+- On-Premise zone: `rounded=1;fillColor=#E6E6E6;strokeColor=none` (gray background)
+- Cloud zone: `rounded=1;dashed=1;dashPattern=8 8;fillColor=none;strokeColor=#0BA5C4` (blue dashed border)
+- Zone labels: separate `text` cell with `fontStyle=1;fontColor=#23445D`
 
 ## Connection Types
 
 | Type | Style | Use Case |
 |------|-------|----------|
-| Site-to-Site VPN | `strokeColor=#036897;dashed=1` | Secure tunnel |
-| Direct Connect | `strokeColor=#036897;strokeWidth=3` | Dedicated line |
-| Internet | `strokeColor=#b85450` | Public access |
+| Site-to-Site VPN | `dashed=1;strokeColor=#036897;strokeWidth=2` | Encrypted tunnel between sites |
+| Direct Connect | `strokeColor=#036897;strokeWidth=3` | Dedicated private link |
+| LAN Link | `strokeColor=#23445D;strokeWidth=2;endArrow=none;endFill=0` | Internal physical link |
+| Internet | `strokeColor=#b85450;strokeWidth=1` | Public access path |
 
 ## Example
 
-Enterprise hybrid cloud with AWS/Azure integration:
+Enterprise hybrid cloud connecting on-premise data center to cloud services via VPN:
 
 ```drawio
-<mxfile><diagram id="hybrid-cloud" name="Hybrid Cloud"><mxGraphModel dx="1000" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="850" math="0" shadow="0"><root><mxCell id="0"/><mxCell id="1" parent="0"/>
-  <mxCell id="zone-onprem" value="On-Premise Data Center" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#dae8fc;opacity=60;fontSize=14;fontColor=#23445D;verticalAlign=top;fontStyle=1;" parent="1" vertex="1"><mxGeometry x="40" y="200" width="280" height="340" as="geometry"/></mxCell>
-  <mxCell id="zone-aws" value="AWS Cloud" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#fff2cc;opacity=60;fontSize=14;fontColor=#23445D;verticalAlign=top;fontStyle=1;" parent="1" vertex="1"><mxGeometry x="480" y="80" width="280" height="220" as="geometry"/></mxCell>
-  <mxCell id="zone-azure" value="Azure Cloud" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#e1d5e7;opacity=60;fontSize=14;fontColor=#23445D;verticalAlign=top;fontStyle=1;" parent="1" vertex="1"><mxGeometry x="480" y="340" width="280" height="200" as="geometry"/></mxCell>
-  <mxCell id="zone-users" value="Remote Users" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#d5e8d4;opacity=60;fontSize=14;fontColor=#23445D;verticalAlign=top;fontStyle=1;" parent="1" vertex="1"><mxGeometry x="40" y="40" width="200" height="120" as="geometry"/></mxCell>
-  <mxCell id="internet" value="Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#b85450;fillColor=#ffffff;fontSize=14;fontColor=#b85450;fontStyle=1;" parent="1" vertex="1"><mxGeometry x="300" y="100" width="140" height="80" as="geometry"/></mxCell>
-  <mxCell id="aws-cloud" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#FF9900;fillColor=#ffffff;" parent="1" vertex="1"><mxGeometry x="560" y="110" width="120" height="60" as="geometry"/></mxCell>
-  <mxCell id="azure-cloud" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#0078D4;fillColor=#ffffff;" parent="1" vertex="1"><mxGeometry x="560" y="370" width="120" height="60" as="geometry"/></mxCell>
-  <mxCell id="dc-building" value="" style="shape=mxgraph.cisco19.data_center;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="60" y="240" width="70" height="60" as="geometry"/></mxCell>
-  <mxCell id="dc-fw" value="" style="shape=mxgraph.cisco.security.firewall;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="160" y="255" width="50" height="30" as="geometry"/></mxCell>
-  <mxCell id="dc-vpn" value="" style="shape=mxgraph.cisco.misc.vpn_concentrator;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="235" y="250" width="60" height="40" as="geometry"/></mxCell>
-  <mxCell id="dc-switch" value="" style="shape=mxgraph.cisco.switches.workgroup_switch;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="100" y="330" width="90" height="30" as="geometry"/></mxCell>
-  <mxCell id="dc-server1" value="" style="shape=mxgraph.cisco.servers.fileserver;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="60" y="390" width="40" height="55" as="geometry"/></mxCell>
-  <mxCell id="dc-server2" value="" style="shape=mxgraph.cisco.servers.fileserver;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="110" y="390" width="40" height="55" as="geometry"/></mxCell>
-  <mxCell id="dc-storage" value="" style="shape=mxgraph.cisco.servers.storage_server;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="160" y="385" width="40" height="60" as="geometry"/></mxCell>
-  <mxCell id="dc-backup" value="" style="shape=mxgraph.cisco.storage.tape_array;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="210" y="385" width="50" height="60" as="geometry"/></mxCell>
-  <mxCell id="aws-vpc" value="VPC" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF9900;strokeWidth=2;fillColor=none;fontSize=11;fontStyle=1;verticalAlign=top;" parent="1" vertex="1"><mxGeometry x="500" y="175" width="240" height="110" as="geometry"/></mxCell>
-  <mxCell id="aws-ec2-1" value="" style="shape=mxgraph.cisco_safe.design.server_1;html=1;fillColor=#FF9900;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="520" y="210" width="40" height="55" as="geometry"/></mxCell>
-  <mxCell id="aws-ec2-2" value="" style="shape=mxgraph.cisco_safe.design.server_1;html=1;fillColor=#FF9900;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="580" y="210" width="40" height="55" as="geometry"/></mxCell>
-  <mxCell id="aws-rds" value="" style="shape=mxgraph.cisco_safe.capability.database;html=1;fillColor=#FF9900;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="640" y="205" width="40" height="60" as="geometry"/></mxCell>
-  <mxCell id="aws-s3" value="" style="shape=mxgraph.cisco19.storage;html=1;fillColor=#FF9900;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="700" y="210" width="30" height="50" as="geometry"/></mxCell>
-  <mxCell id="azure-vnet" value="VNet" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0078D4;strokeWidth=2;fillColor=none;fontSize=11;fontStyle=1;verticalAlign=top;" parent="1" vertex="1"><mxGeometry x="500" y="435" width="240" height="90" as="geometry"/></mxCell>
-  <mxCell id="azure-vm1" value="" style="shape=mxgraph.cisco_safe.design.server_1;html=1;fillColor=#0078D4;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="520" y="460" width="40" height="50" as="geometry"/></mxCell>
-  <mxCell id="azure-vm2" value="" style="shape=mxgraph.cisco_safe.design.server_1;html=1;fillColor=#0078D4;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="580" y="460" width="40" height="50" as="geometry"/></mxCell>
-  <mxCell id="azure-sql" value="" style="shape=mxgraph.cisco_safe.capability.database;html=1;fillColor=#0078D4;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="640" y="455" width="40" height="55" as="geometry"/></mxCell>
-  <mxCell id="azure-blob" value="" style="shape=mxgraph.cisco19.storage;html=1;fillColor=#0078D4;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="700" y="460" width="30" height="50" as="geometry"/></mxCell>
-  <mxCell id="user-laptop" value="" style="shape=mxgraph.cisco.computers_and_peripherals.laptop;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="60" y="80" width="55" height="35" as="geometry"/></mxCell>
-  <mxCell id="user-mobile" value="" style="shape=mxgraph.cisco.modems_and_phones.cell_phone;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="135" y="75" width="25" height="45" as="geometry"/></mxCell>
-  <mxCell id="user-home" value="" style="shape=mxgraph.cisco.buildings.telecommuter_house;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="175" y="70" width="50" height="40" as="geometry"/></mxCell>
-  <mxCell id="link-dc-fw" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#23445D;" parent="1" source="dc-building" target="dc-fw" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-fw-vpn" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#23445D;" parent="1" source="dc-fw" target="dc-vpn" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-fw-sw" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#23445D;" parent="1" source="dc-fw" target="dc-switch" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-sw-srv1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" parent="1" source="dc-switch" target="dc-server1" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-sw-srv2" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" parent="1" source="dc-switch" target="dc-server2" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-sw-sto" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" parent="1" source="dc-switch" target="dc-storage" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-sw-bak" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" parent="1" source="dc-switch" target="dc-backup" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-vpn-inet" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#b85450;" parent="1" source="dc-vpn" target="internet" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-inet-aws" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#FF9900;dashed=1;dashPattern=8 4;" parent="1" source="internet" target="aws-cloud" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-inet-azure" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#0078D4;dashed=1;dashPattern=8 4;" parent="1" source="internet" target="azure-cloud" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-aws-vpc" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#FF9900;" parent="1" source="aws-cloud" target="aws-vpc" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-azure-vnet" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#0078D4;" parent="1" source="azure-cloud" target="azure-vnet" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-user-inet" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#b85450;" parent="1" source="user-laptop" target="internet" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-mobile-inet" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#b85450;" parent="1" source="user-mobile" target="internet" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-home-inet" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#b85450;" parent="1" source="user-home" target="internet" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-</root></mxGraphModel></diagram></mxfile>
+<mxfile>
+  <diagram id="hc-1" name="Hybrid Cloud">
+    <mxGraphModel dx="1100" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="780" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <!-- On-Premise Data Center zone -->
+        <mxCell id="z1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E6E6;strokeColor=none;" parent="1" vertex="1"><mxGeometry x="40" y="280" width="400" height="280" as="geometry"/></mxCell>
+        <mxCell id="z1l" value="On-Premise Data Center" style="text;html=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#23445D;fontStyle=1" parent="1" vertex="1"><mxGeometry x="50" y="285" width="200" height="20" as="geometry"/></mxCell>
+        <!-- Cloud zone -->
+        <mxCell id="z2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#0BA5C4;dashed=1;dashPattern=8 8;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="620" y="280" width="440" height="280" as="geometry"/></mxCell>
+        <mxCell id="z2l" value="Cloud (IaaS)" style="text;html=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#0BA5C4;fontStyle=1" parent="1" vertex="1"><mxGeometry x="630" y="285" width="120" height="20" as="geometry"/></mxCell>
+        <!-- Cloud sub-zones -->
+        <mxCell id="z2a" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D4E1F5;strokeColor=none;opacity=50" parent="1" vertex="1"><mxGeometry x="640" y="320" width="190" height="220" as="geometry"/></mxCell>
+        <mxCell id="z2al" value="Compute" style="text;html=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#23445D;fontStyle=1" parent="1" vertex="1"><mxGeometry x="650" y="325" width="70" height="18" as="geometry"/></mxCell>
+        <mxCell id="z2b" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=none;opacity=50" parent="1" vertex="1"><mxGeometry x="850" y="320" width="190" height="220" as="geometry"/></mxCell>
+        <mxCell id="z2bl" value="Storage / DB" style="text;html=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#23445D;fontStyle=1" parent="1" vertex="1"><mxGeometry x="860" y="325" width="90" height="18" as="geometry"/></mxCell>
+        <!-- Internet cloud -->
+        <mxCell id="n1" value="Internet" style="ellipse;shape=cloud;html=1;strokeColor=#23445D;fillColor=#ffffff;strokeWidth=2;fontSize=16;fontColor=#23445D;fontStyle=1" parent="1" vertex="1"><mxGeometry x="420" y="50" width="200" height="120" as="geometry"/></mxCell>
+        <!-- On-Prem devices -->
+        <mxCell id="n2" value="" style="shape=mxgraph.cisco.routers.router;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="80" y="315" width="78" height="53" as="geometry"/></mxCell>
+        <mxCell id="n3" value="" style="shape=mxgraph.cisco.security.pix_firewall;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="200" y="318" width="77" height="51" as="geometry"/></mxCell>
+        <mxCell id="n4" value="" style="shape=mxgraph.cisco_safe.architecture.vpn_concentrator;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="330" y="315" width="80" height="55" as="geometry"/></mxCell>
+        <mxCell id="n5" value="" style="shape=mxgraph.cisco.switches.layer_3_switch;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="180" y="410" width="64" height="64" as="geometry"/></mxCell>
+        <mxCell id="n6" value="" style="shape=mxgraph.cisco.servers.standard_host;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="80" y="490" width="43" height="50" as="geometry"/></mxCell>
+        <mxCell id="n7" value="" style="shape=mxgraph.cisco.servers.standard_host;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="190" y="490" width="43" height="50" as="geometry"/></mxCell>
+        <mxCell id="n8" value="" style="shape=mxgraph.cisco.servers.storage_server;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="300" y="480" width="54" height="65" as="geometry"/></mxCell>
+        <!-- Cloud devices -->
+        <mxCell id="n9" value="" style="shape=mxgraph.cisco19.data_center;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="670" y="360" width="60" height="60" as="geometry"/></mxCell>
+        <mxCell id="n10" value="" style="shape=mxgraph.cisco.servers.standard_host;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="680" y="455" width="43" height="50" as="geometry"/></mxCell>
+        <mxCell id="n11" value="" style="shape=mxgraph.cisco.servers.standard_host;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="760" y="455" width="43" height="50" as="geometry"/></mxCell>
+        <mxCell id="n12" value="" style="shape=mxgraph.cisco.servers.storage_server;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="880" y="360" width="54" height="65" as="geometry"/></mxCell>
+        <mxCell id="n13" value="" style="shape=mxgraph.cisco.servers.storage_server;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="960" y="360" width="54" height="65" as="geometry"/></mxCell>
+        <mxCell id="n14" value="" style="shape=mxgraph.cisco_safe.architecture.vpn_concentrator;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="880" y="460" width="80" height="55" as="geometry"/></mxCell>
+        <!-- Edges: On-Prem internal (LAN links, no arrows) -->
+        <mxCell id="e1" style="endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=2" parent="1" source="n2" target="n3" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" style="endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=2" parent="1" source="n3" target="n4" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3" style="endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=2" parent="1" source="n3" target="n5" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e4" style="endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=2" parent="1" source="n5" target="n6" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e5" style="endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=2" parent="1" source="n5" target="n7" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e6" style="endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=2" parent="1" source="n5" target="n8" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- Edge: Router to Internet -->
+        <mxCell id="e7" style="endArrow=none;html=1;strokeColor=#b85450;endFill=0;strokeWidth=1" parent="1" source="n2" target="n1" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- Edge: VPN tunnel (dashed) through Internet -->
+        <mxCell id="e8" style="endArrow=blockThin;html=1;strokeColor=#036897;endFill=1;strokeWidth=2;dashed=1" parent="1" source="n4" target="n1" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e9" style="endArrow=blockThin;html=1;strokeColor=#036897;endFill=1;strokeWidth=2;dashed=1" parent="1" source="n1" target="n14" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- Cloud internal links -->
+        <mxCell id="e10" style="endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=2" parent="1" source="n14" target="n9" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e11" style="endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=2" parent="1" source="n9" target="n10" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e12" style="endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=2" parent="1" source="n9" target="n11" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e13" style="endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=2" parent="1" source="n9" target="n12" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e14" style="endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=2" parent="1" source="n9" target="n13" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
 ```
+
+## Pattern Notes
+
+1. **Two contrasting zone styles** distinguish on-premise vs cloud: gray solid fill (`fillColor=#E6E6E6;strokeColor=none`) for on-prem, blue dashed border (`dashed=1;dashPattern=8 8;strokeColor=#0BA5C4;fillColor=none`) for cloud — matching the real-world fixtures pattern
+2. **Cloud sub-zones** use light colored fills with opacity to group compute resources (`fillColor=#D4E1F5;opacity=50`) and storage/DB (`fillColor=#D5E8D4;opacity=50`) within the cloud boundary
+3. **VPN tunnel** uses `dashed=1;strokeColor=#036897;strokeWidth=2` with directional arrows (`endArrow=blockThin;endFill=1`), visually distinct from solid LAN links. The tunnel path goes: on-prem VPN concentrator → Internet cloud → cloud VPN concentrator
+4. **Internet link** uses `strokeColor=#b85450` (red-tinted) to distinguish public Internet access from private VPN and LAN connections
+5. **Internal LAN links** are all `endArrow=none;endFill=0` (no arrows, bidirectional) with `strokeColor=#23445D;strokeWidth=2` — consistent with standard network diagram conventions
+6. **VPN concentrator pair** — one on each side (`mxgraph.cisco_safe.architecture.vpn_concentrator`) at the boundary of on-prem and cloud zones, establishing the site-to-site tunnel endpoints
+7. **On-prem topology**: Edge router → Firewall → VPN concentrator (for cloud) + L3 switch (for internal) → servers/storage. The firewall sits between the router and all internal resources
+8. **Cloud topology**: VPN concentrator → Data center switch (`mxgraph.cisco19.data_center`) → compute servers + storage, keeping a similar hierarchical pattern to on-prem
+9. **Zone labels** use separate `text` cells positioned at the top-left corner of each zone, not the zone cell's `value` attribute — preventing label overlap with child elements
 

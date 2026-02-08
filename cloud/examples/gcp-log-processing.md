@@ -1,89 +1,56 @@
 # GCP Log Processing Pipeline
 
-This example demonstrates a GCP architecture for log processing with batch and streaming paths.
+Log processing architecture with batch and streaming paths using Kubernetes Engine, Pub/Sub, Dataflow, and BigQuery.
 
-Reference: Based on `temp/drawio/gcp/big_data_log_processing.drawio`
+## Key Elements
 
-## Architecture Overview
+| Component | Style / Stencil | Notes |
+|-----------|----------------|-------|
+| GCP Platform | `fillColor=#F6F6F6;strokeColor=none` | Gray background container |
+| GCP Logo | `shape=mxgraph.gcp2.google_cloud_platform` | Relative corner positioning |
+| Service Card | `strokeColor=#dddddd;shadow=1;rounded=1;arcSize=2` | White card with shadow |
+| Dashed Group | `strokeColor=#4284F3;dashed=1;dashPattern=1 2;fillColor=none` | Batch / Streaming |
+| Primary Arrow | `strokeColor=#4284F3;strokeWidth=2;endArrow=blockThin` | Batch data flow |
+| Secondary Arrow | `strokeColor=#9E9E9E;strokeWidth=2;endArrow=blockThin` | Streaming data flow |
 
-Log data flows from microservices through two processing paths:
-- **Batch Path**: Logs → Cloud Storage → Dataflow → BigQuery
-- **Streaming Path**: Logs → Pub/Sub → Dataflow → BigQuery
+**GCP card pattern:** Service cards use white rounded boxes with shadow. Labels show role (black) + service name (gray). Icons use `shape=image;image=data:image/svg+xml,...` for embedded SVG, or `shape=mxgraph.gcp2.<name>` stencils.
 
-## Key Components
+**GCP2 stencil names used:** `container_engine`, `logging`, `cloud_storage`, `cloud_pubsub`, `cloud_dataflow`, `bigquery` — all 172×153, require `fillColor`+`strokeColor`.
 
-| Service | Purpose |
-|---------|---------|
-| Kubernetes Engine | Runs microservices that generate logs |
-| Logging | Collects logs from all services |
-| Cloud Storage | Stores logs for batch processing |
-| Pub/Sub | Streams logs in real-time |
-| Dataflow | Processes logs (both batch and streaming) |
-| BigQuery | Analytics warehouse for log data |
-
-## GCP Stencils Used
-
-This diagram uses `mxgraph.gcp2.*` stencils with embedded SVG icons:
-- Service cards with shadow: `strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;`
-- GCP Platform container: `fillColor=#F6F6F6;strokeColor=none;`
-- Dashed group boxes: `strokeColor=#4284F3;fillColor=none;dashed=1;dashPattern=1 2;strokeWidth=2;`
-- Flow arrows: `strokeColor=#4284F3;strokeWidth=2;endArrow=blockThin;endFill=1;`
-
-## Diagram
+## Example
 
 ```drawio
-<mxfile>
-  <diagram id="gcp-log-processing" name="Log Processing">
-    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="600" background="none" math="0" shadow="0">
-      <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
-        <mxCell id="title" value="Architecture: Big Data &gt; Log Processing" style="fillColor=#4DA1F5;strokeColor=none;shadow=1;fontSize=14;align=left;spacingLeft=50;fontColor=#ffffff;html=1;" vertex="1" parent="1"><mxGeometry x="40" y="40" width="1020" height="40" as="geometry"/></mxCell>
-        <mxCell id="gcp-container" value="Google Cloud Platform" style="fillColor=#F6F6F6;strokeColor=none;shadow=0;fontSize=14;align=left;spacing=10;fontColor=#717171;verticalAlign=top;spacingTop=-4;spacingLeft=40;html=1;rounded=1;" vertex="1" parent="1"><mxGeometry x="60" y="100" width="980" height="450" as="geometry"/></mxCell>
-        <mxCell id="batch-group" value="Batch" style="rounded=1;absoluteArcSize=1;arcSize=2;html=1;strokeColor=#4284F3;fillColor=none;dashed=1;fontSize=12;fontColor=#9E9E9E;align=left;verticalAlign=top;spacing=10;spacingTop=-4;dashPattern=1 2;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="380" y="180" width="280" height="120" as="geometry"/></mxCell>
-        <mxCell id="stream-group" value="Streaming" style="rounded=1;absoluteArcSize=1;arcSize=2;html=1;strokeColor=#4284F3;fillColor=none;dashed=1;fontSize=12;fontColor=#9E9E9E;align=left;verticalAlign=top;spacing=10;spacingTop=-4;dashPattern=1 2;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="380" y="320" width="280" height="120" as="geometry"/></mxCell>
-        <mxCell id="k8s-card" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;fillColor=#ffffff;" vertex="1" parent="1"><mxGeometry x="90" y="200" width="180" height="60" as="geometry"/></mxCell>
-        <mxCell id="k8s-icon" value="Microservices&#xa;Kubernetes Engine" style="shape=mxgraph.gcp2.container_engine_icon;html=1;fillColor=#5184F3;strokeColor=none;verticalLabelPosition=middle;verticalAlign=middle;labelPosition=right;align=left;spacingLeft=10;fontColor=#999999;fontSize=11;" vertex="1" parent="1"><mxGeometry x="105" y="215" width="27" height="30" as="geometry"/></mxCell>
-        <mxCell id="logging-card" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;fillColor=#ffffff;" vertex="1" parent="1"><mxGeometry x="90" y="310" width="180" height="60" as="geometry"/></mxCell>
-        <mxCell id="logging-icon" value="Log Collection&#xa;Logging" style="shape=mxgraph.gcp2.logging;html=1;fillColor=#5184F3;strokeColor=none;verticalLabelPosition=middle;verticalAlign=middle;labelPosition=right;align=left;spacingLeft=10;fontColor=#999999;fontSize=11;" vertex="1" parent="1"><mxGeometry x="105" y="325" width="34" height="30" as="geometry"/></mxCell>
-        <mxCell id="storage-card" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;fillColor=#ffffff;" vertex="1" parent="1"><mxGeometry x="400" y="210" width="160" height="60" as="geometry"/></mxCell>
-        <mxCell id="storage-icon" value="Log Storage&#xa;Cloud Storage" style="shape=mxgraph.gcp2.cloud_storage;html=1;fillColor=#5184F3;strokeColor=none;verticalLabelPosition=middle;verticalAlign=middle;labelPosition=right;align=left;spacingLeft=10;fontColor=#999999;fontSize=11;" vertex="1" parent="1"><mxGeometry x="415" y="225" width="34" height="30" as="geometry"/></mxCell>
-        <mxCell id="pubsub-card" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;fillColor=#ffffff;" vertex="1" parent="1"><mxGeometry x="400" y="350" width="160" height="60" as="geometry"/></mxCell>
-        <mxCell id="pubsub-icon" value="Log Streaming&#xa;Pub/Sub" style="shape=mxgraph.gcp2.cloud_pubsub;html=1;fillColor=#5184F3;strokeColor=none;verticalLabelPosition=middle;verticalAlign=middle;labelPosition=right;align=left;spacingLeft=10;fontColor=#999999;fontSize=11;" vertex="1" parent="1"><mxGeometry x="415" y="365" width="34" height="30" as="geometry"/></mxCell>
-        <mxCell id="dataflow-card" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;fillColor=#ffffff;" vertex="1" parent="1"><mxGeometry x="700" y="280" width="160" height="60" as="geometry"/></mxCell>
-        <mxCell id="dataflow-icon" value="Log Processing&#xa;Dataflow" style="shape=mxgraph.gcp2.cloud_dataflow_icon;html=1;fillColor=#5184F3;strokeColor=none;verticalLabelPosition=middle;verticalAlign=middle;labelPosition=right;align=left;spacingLeft=10;fontColor=#999999;fontSize=11;" vertex="1" parent="1"><mxGeometry x="715" y="295" width="21" height="30" as="geometry"/></mxCell>
-        <mxCell id="bigquery-card" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;fillColor=#ffffff;" vertex="1" parent="1"><mxGeometry x="900" y="280" width="120" height="60" as="geometry"/></mxCell>
-        <mxCell id="bigquery-icon" value="Analytics&#xa;BigQuery" style="shape=mxgraph.gcp2.bigquery;html=1;fillColor=#5184F3;strokeColor=none;verticalLabelPosition=middle;verticalAlign=middle;labelPosition=right;align=left;spacingLeft=10;fontColor=#999999;fontSize=11;" vertex="1" parent="1"><mxGeometry x="910" y="295" width="34" height="30" as="geometry"/></mxCell>
-        <mxCell id="conn1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#4284F3;strokeWidth=2;endArrow=blockThin;endFill=1;endSize=4;" edge="1" parent="1" source="k8s-card" target="logging-card"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="conn2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#4284F3;strokeWidth=2;endArrow=blockThin;endFill=1;endSize=4;" edge="1" parent="1" source="logging-card" target="storage-card"><mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="320" y="340"/>
-              <mxPoint x="320" y="240"/>
-            </Array>
-          </mxGeometry></mxCell>
-        <mxCell id="conn3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#9E9E9E;strokeWidth=2;endArrow=blockThin;endFill=1;endSize=4;" edge="1" parent="1" source="logging-card" target="pubsub-card"><mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="320" y="340"/>
-              <mxPoint x="320" y="380"/>
-            </Array>
-          </mxGeometry></mxCell>
-        <mxCell id="conn4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#4284F3;strokeWidth=2;endArrow=blockThin;endFill=1;endSize=4;" edge="1" parent="1" source="storage-card" target="dataflow-card"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="conn5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#9E9E9E;strokeWidth=2;endArrow=blockThin;endFill=1;endSize=4;" edge="1" parent="1" source="pubsub-card" target="dataflow-card"><mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="640" y="380"/>
-              <mxPoint x="640" y="310"/>
-            </Array>
-          </mxGeometry></mxCell>
-        <mxCell id="conn6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#4284F3;strokeWidth=2;endArrow=blockThin;endFill=1;endSize=4;" edge="1" parent="1" source="dataflow-card" target="bigquery-card"><mxGeometry relative="1" as="geometry"/></mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-</mxfile>
+<mxfile><diagram id="gcp-log" name="GCP Log Processing"><mxGraphModel dx="960" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="960" pageHeight="560" math="0" shadow="0"><root><mxCell id="0"/><mxCell id="1" parent="0"/>
+  <mxCell id="title" value="Architecture: Big Data &amp;gt; Log Processing" style="fillColor=#4DA1F5;strokeColor=none;shadow=1;fontSize=14;align=left;spacingLeft=50;fontColor=#ffffff;html=1;" vertex="1" parent="1"><mxGeometry x="40" y="40" width="880" height="40" as="geometry"/></mxCell>
+  <mxCell id="gcp" value="&lt;b&gt;Google &lt;/b&gt;Cloud Platform" style="fillColor=#F6F6F6;strokeColor=none;shadow=0;gradientColor=none;fontSize=14;align=left;spacing=10;fontColor=#717171;verticalAlign=top;spacingTop=-4;fontStyle=0;spacingLeft=40;html=1;" vertex="1" parent="1"><mxGeometry x="40" y="80" width="880" height="440" as="geometry"/></mxCell>
+  <mxCell id="gcp-logo" value="" style="shape=mxgraph.gcp2.google_cloud_platform;fillColor=#F6F6F6;strokeColor=none;shadow=0;gradientColor=none;" vertex="1" parent="gcp"><mxGeometry width="23" height="20" relative="1" as="geometry"><mxPoint x="20" y="10" as="offset"/></mxGeometry></mxCell>
+  <mxCell id="ke" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" vertex="1" parent="gcp"><mxGeometry x="20" y="100" width="180" height="60" as="geometry"/></mxCell>
+  <mxCell id="ke-icon" value="&lt;font color=&quot;#000000&quot;&gt;Microservices&lt;/font&gt;&lt;br&gt;Kubernetes Engine" style="editableCssRules=.*;html=1;fontColor=#999999;shape=image;verticalLabelPosition=middle;verticalAlign=middle;labelPosition=right;align=left;spacingLeft=20;part=1;points=[];imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnY9Imh0dHBzOi8vdmVjdGEuaW8vbmFubyIgd2lkdGg9IjMyOS45MjU5OTcyMzE3OTM4IiBoZWlnaHQ9IjM3OC4yODQ5OTAzMTEyNzg4IiB2aWV3Qm94PSIwIDAgODcuMjkyOTk5MjY3NTc4MTIgMTAwLjA4Nzk5NzQzNjUyMzQ0Ij4mI3hhOzxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+JiN4YTsJLnN0MHtmaWxsOiNhZWNiZmE7fSYjeGE7CS5zdDF7ZmlsbDojNjY5ZGY2O30mI3hhOwkuc3Qye2ZpbGw6IzQyODVmNDt9JiN4YTs8L3N0eWxlPiYjeGE7CTxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik00My43NTEgMEwwIDI1LjQ2NXYyLjU4OCA0Ni45Mmw0My43NTIgMjUuMTE1IDQzLjU0MS0yNS4xMjFWMjUuNDczem0yLjQzOCAxMS44NTNsMzIuMTAzIDE4Ljc4MlY2OS43N0w0My43MzkgODkuNzA1IDkgNjkuNzYyVjMwLjY0MWwzMi4xOS0xOC43MzZ2MTQuMTU0TDI0LjUwMyAzNi4xNTNsMTkuMTcyIDExLjUwMiAxOC44ODYtMTEuNTU0LTE2LjM3Mi0xMC4wMjR6Ii8+JiN4YTsJPHBhdGggY2xhc3M9InN0MSIgZD0iTTIyLjAyNSA0MC40OTZsLjE2NiAxOS4xNDMtMTMuMjQ3IDcuMzN2Mi43NDJsMi42MzcgMS41MTQgMTIuNjQ4LTYuOTk5IDE2Ljk2MSAxMC42MDJWNTEuOTkzeiIvPiYjeGE7CTxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik02NS4zNDQgNDAuMjZMNDYuMTg5IDUxLjk3OXYyMi44NDdsMTYuODk5LTEwLjU3NiAxMi41MzkgNi45NzQgMi42MDktMS41MDV2LTIuNzY1bC0xMi43ODQtNy4xMTJ6Ii8+JiN4YTs8L3N2Zz4=;" vertex="1" parent="ke"><mxGeometry width="26" height="30" relative="1" as="geometry"><mxPoint x="17" y="15" as="offset"/></mxGeometry></mxCell>
+  <mxCell id="log" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" vertex="1" parent="gcp"><mxGeometry x="20" y="210" width="180" height="60" as="geometry"/></mxCell>
+  <mxCell id="log-icon" value="&lt;font color=&quot;#000000&quot;&gt;Log Collection&lt;/font&gt;&lt;br&gt;Logging" style="editableCssRules=.*;html=1;fontColor=#999999;shape=image;verticalLabelPosition=middle;verticalAlign=middle;labelPosition=right;align=left;spacingLeft=20;part=1;points=[];imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnY9Imh0dHBzOi8vdmVjdGEuaW8vbmFubyIgd2lkdGg9IjIwIiBoZWlnaHQ9IjE5IiB2aWV3Qm94PSIwIDAgMjAgMTkiPiYjeGE7CTxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+JiN4YTsJLnN0MHtmaWxsOiM0Mjg1ZjQ7fSYjeGE7CS5zdDF7ZmlsbDojNjY5ZGY2O30mI3hhOwkuc3Qye2ZpbGw6I2FlY2JmYTt9JiN4YTsJPC9zdHlsZT4mI3hhOwk8ZyBjbGFzcz0ic3QwIj4mI3hhOwkJPHBhdGggZD0iTTQgOWg0djJINHptLTIgN2g2djJIMnoiLz4mI3hhOwkJPHBhdGggZD0iTTQgNEgydjEyaDJ6Ii8+JiN4YTsJPC9nPiYjeGE7CTxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0yMCAxSDd2NGgxM3ptMCA3SDd2NGgxM3ptMCA3SDd2NGgxM3oiLz4mI3hhOwk8cGF0aCBjbGFzcz0ic3QyIiBkPSJNNiAwSDB2Nmg2eiIvPiYjeGE7PC9zdmc+;" vertex="1" parent="log"><mxGeometry width="30" height="28" relative="1" as="geometry"><mxPoint x="15" y="16" as="offset"/></mxGeometry></mxCell>
+  <mxCell id="batch" value="Batch" style="rounded=1;absoluteArcSize=1;arcSize=2;html=1;strokeColor=#4284F3;fillColor=none;shadow=0;dashed=1;fontSize=12;fontColor=#9E9E9E;align=left;verticalAlign=top;spacing=10;spacingTop=-4;dashPattern=1 2;strokeWidth=2;" vertex="1" parent="gcp"><mxGeometry x="260" y="80" width="195" height="100" as="geometry"/></mxCell>
+  <mxCell id="cs" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" vertex="1" parent="gcp"><mxGeometry x="275" y="100" width="165" height="60" as="geometry"/></mxCell>
+  <mxCell id="cs-icon" value="&lt;font color=&quot;#000000&quot;&gt;Log Storage&lt;/font&gt;&lt;br&gt;Cloud Storage" style="editableCssRules=.*;html=1;fontColor=#999999;shape=image;verticalLabelPosition=middle;verticalAlign=middle;labelPosition=right;align=left;spacingLeft=20;part=1;points=[];imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnY9Imh0dHBzOi8vdmVjdGEuaW8vbmFubyIgd2lkdGg9IjIwIiBoZWlnaHQ9IjE2IiB2aWV3Qm94PSIwIDAgMjAgMTYiPiYjeGE7CTxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+JiN4YTsJLnN0MHtmaWxsOiM0Mjg1ZjQ7fSYjeGE7CS5zdDF7ZmlsbDojNjY5ZGY2O30mI3hhOwkuc3Qye2ZpbGw6I2FlY2JmYTt9JiN4YTsJLnN0M3tmaWxsOiNmZmY7fSYjeGE7CTwvc3R5bGU+JiN4YTsJPHBhdGggY2xhc3M9InN0MiIgZD0iTTAgMGgyMHY3SDB6Ii8+JiN4YTsJPHBhdGggY2xhc3M9InN0MSIgZD0iTTE4IDBoMnY3aC0yeiIvPiYjeGE7CTxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xOCA3bDItN2gtMnoiLz4mI3hhOwk8cGF0aCBjbGFzcz0ic3QxIiBkPSJNMCAwaDJ2N0gweiIvPiYjeGE7CTxnIGNsYXNzPSJzdDMiPiYjeGE7CQk8cGF0aCBkPSJNNCAzaDZ2MUg0eiIvPiYjeGE7CQk8cmVjdCB4PSIxMyIgeT0iMiIgd2lkdGg9IjMiIGhlaWdodD0iMyIgcng9IjEuNSIvPiYjeGE7CTwvZz4mI3hhOwk8cGF0aCBjbGFzcz0ic3QyIiBkPSJNMCA5aDIwdjdIMHoiLz4mI3hhOwk8cGF0aCBjbGFzcz0ic3QxIiBkPSJNMTggOWgydjdoLTJ6Ii8+JiN4YTsJPHBhdGggY2xhc3M9InN0MCIgZD0iTTE4IDE2bDItN2gtMnoiLz4mI3hhOwk8cGF0aCBjbGFzcz0ic3QxIiBkPSJNMCA5aDJ2N0gweiIvPiYjeGE7CTxnIGNsYXNzPSJzdDMiPiYjeGE7CQk8cGF0aCBkPSJNNCAxMmg2djFINHoiLz4mI3hhOwkJPHJlY3QgeD0iMTMiIHk9IjExIiB3aWR0aD0iMyIgaGVpZ2h0PSIzIiByeD0iMS41Ii8+JiN4YTsJPC9nPiYjeGE7PC9zdmc+;" vertex="1" parent="cs"><mxGeometry width="30" height="24" relative="1" as="geometry"><mxPoint x="15" y="18" as="offset"/></mxGeometry></mxCell>
+  <mxCell id="stream" value="Streaming" style="rounded=1;absoluteArcSize=1;arcSize=2;html=1;strokeColor=#4284F3;fillColor=none;shadow=0;dashed=1;fontSize=12;fontColor=#9E9E9E;align=left;verticalAlign=top;spacing=10;spacingTop=-4;dashPattern=1 2;strokeWidth=2;" vertex="1" parent="gcp"><mxGeometry x="260" y="210" width="195" height="100" as="geometry"/></mxCell>
+  <mxCell id="ps" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" vertex="1" parent="gcp"><mxGeometry x="275" y="230" width="165" height="60" as="geometry"/></mxCell>
+  <mxCell id="ps-icon" value="&lt;font color=&quot;#000000&quot;&gt;Log Streaming&lt;/font&gt;&lt;br&gt;Pub/Sub" style="editableCssRules=.*;html=1;fontColor=#999999;shape=image;verticalLabelPosition=middle;verticalAlign=middle;labelPosition=right;align=left;spacingLeft=20;part=1;points=[];imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnY9Imh0dHBzOi8vdmVjdGEuaW8vbmFubyIgd2lkdGg9IjE4LjMxOTk5OTY5NDgyNDIyIiBoZWlnaHQ9IjIwLjAwMDAwMTkwNzM0ODYzMyIgdmlld0JveD0iMCAwIDE4LjMxOTk5OTY5NDgyNDIyIDIwLjAwMDAwMTkwNzM0ODYzMyI+JiN4YTsJPHN0eWxlIHR5cGU9InRleHQvY3NzIj4mI3hhOwkuc3Qwe2ZpbGw6IzY2OWRmNjt9JiN4YTsJLnN0MXtmaWxsOiM0Mjg1ZjQ7fSYjeGE7CS5zdDJ7ZmlsbDojYWVjYmZhO30mI3hhOwk8L3N0eWxlPiYjeGE7CTxkZWZzPiYjeGE7CQk8ZmlsdGVyIGlkPSJBIiB4PSI0LjY0IiB5PSI0LjE5IiB3aWR0aD0iMTQuNzMiIGhlaWdodD0iMTIuNzYiIGZpbHRlclVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY29sb3ItaW50ZXJwb2xhdGlvbi1maWx0ZXJzPSJzUkdCIj4mI3hhOwkJCTxmZUZsb29kIGZsb29kLWNvbG9yPSIjZmZmIi8+JiN4YTsJCQk8ZmVCbGVuZCBpbj0iU291cmNlR3JhcGhpYyIvPiYjeGE7CQk8L2ZpbHRlcj4mI3hhOwkJPG1hc2sgaWQ9IkIiIHg9IjQuNjQiIHk9IjQuMTkiIHdpZHRoPSIxNC43MyIgaGVpZ2h0PSIxMi43NiIgbWFza1VuaXRzPSJ1c2VyU3BhY2VPblVzZSI+JiN4YTsJCQk8Y2lyY2xlIGN4PSIxMiIgY3k9IjEyLjIzIiByPSIzLjU4IiBmaWx0ZXI9InVybCgjQSkiLz4mI3hhOwkJPC9tYXNrPiYjeGE7CTwvZGVmcz4mI3hhOwk8ZyBjbGFzcz0ic3QwIj4mI3hhOwkJPGNpcmNsZSBjeD0iMTYuMTMiIGN5PSI2LjIxIiByPSIxLjcyIi8+JiN4YTsJCTxjaXJjbGUgY3g9IjIuMTkiIGN5PSI2LjIxIiByPSIxLjcyIi8+JiN4YTsJCTxjaXJjbGUgY3g9IjkuMTYiIGN5PSIxOC4yOCIgcj0iMS43MiIvPiYjeGE7CTwvZz4mI3hhOwk8ZyBtYXNrPSJ1cmwoI0IpIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMi44NCAtMikiPiYjeGE7CQk8cGF0aCB0cmFuc2Zvcm09Im1hdHJpeCguNSAtLjg3IC44NyAuNSAtNC41OSAyMC41MykiIGQ9Ik0xNC42OSAxMC4yMmgxLjU5djguMDRoLTEuNTl6IiBjbGFzcz0ic3QxIi8+JiN4YTsJCTxwYXRoIHRyYW5zZm9ybT0icm90YXRlKDMzMCA4LjUyMyAxNC4yNDQpIiBkPSJNNC40OSAxMy40NWg4LjA0djEuNTlINC40OXoiIGNsYXNzPSJzdDEiLz4mI3hhOwkJPHBhdGggZD0iTTExLjIgNC4xOWgxLjU5djguMDRIMTEuMnoiIGNsYXNzPSJzdDEiLz4mI3hhOwk8L2c+JiN4YTsJPGcgY2xhc3M9InN0MiI+JiN4YTsJCTxjaXJjbGUgY3g9IjkuMTYiIGN5PSIxMC4yMyIgcj0iMi43OCIvPiYjeGE7CQk8Y2lyY2xlIGN4PSIyLjE5IiBjeT0iMTQuMjUiIHI9IjIuMTkiLz4mI3hhOwkJPGNpcmNsZSBjeD0iMTYuMTMiIGN5PSIxNC4yNSIgcj0iMi4xOSIvPiYjeGE7CQk8Y2lyY2xlIGN4PSI5LjE2IiBjeT0iMi4xOSIgcj0iMi4xOSIvPiYjeGE7CTwvZz4mI3hhOzwvc3ZnPg==;" vertex="1" parent="ps"><mxGeometry width="27" height="30" relative="1" as="geometry"><mxPoint x="16" y="15" as="offset"/></mxGeometry></mxCell>
+  <mxCell id="df" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" vertex="1" parent="gcp"><mxGeometry x="525" y="155" width="160" height="60" as="geometry"/></mxCell>
+  <mxCell id="df-icon" value="&lt;font color=&quot;#000000&quot;&gt;Log Processing&lt;/font&gt;&lt;br&gt;Dataflow" style="editableCssRules=.*;html=1;fontColor=#999999;shape=image;verticalLabelPosition=middle;verticalAlign=middle;labelPosition=right;align=left;spacingLeft=20;part=1;points=[];imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnY9Imh0dHBzOi8vdmVjdGEuaW8vbmFubyIgd2lkdGg9IjE0LjUxOTk5OTUwNDA4OTM1NSIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDE0LjUxOTk5OTUwNDA4OTM1NSAyMCI+JiN4YTsJPHN0eWxlIHR5cGU9InRleHQvY3NzIj4mI3hhOwkuc3Qwe2ZpbGwtcnVsZTpldmVub2RkfSYjeGE7CS5zdDF7ZmlsbDojNjY5ZGY2O30mI3hhOwkuc3Qye2ZpbGw6I2FlY2JmYTt9JiN4YTsJLnN0M3tmaWxsOiM0Mjg1ZjQ7fSYjeGE7CTwvc3R5bGU+JiN4YTsJPGcgY2xhc3M9InN0MCI+JiN4YTsJCTxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik03LjM3IDIuMDNsLTEuNzIuOTYgMS41MiAxLjUtLjAyIDEuNzMgMS4wMi4wMS4wMi0xLjczIDQuMjQgMi41Ni0uMDEgMS4wNyAxLjc3LjAzVjYuMTFMOS4wNSAzLjA0bC0uMjctLjk0eiIvPiYjeGE7CQk8cGF0aCBjbGFzcz0ic3QyIiBkPSJNNy4zNiAyLjAzbC0xLjQyLjM1LS4yOS42MUwuMzkgNS45Mi4zNiA3Ljk3IDIuMTQgOGwuMDItMS4wNyA0LjMxLTIuNDUtLjAyIDEuNzMuODYuMDEuMDYtNC4xOXoiLz4mI3hhOwkJPGcgY2xhc3M9InN0MSI+JiN4YTsJCQk8cGF0aCBkPSJNNy4zNiAyLjAzTDMuOTUgMCAyLjIxLjk1bDMuNDQgMi4wNCAxLjcyLS45NnptLjcxIDExLjc2bC0xLjcyLS4wMi0uMDIgMS43Mi44MiAyLjQ4IDEuNDItLjEyLjI5LS44NSA1LjI3LTIuOTMuMDMtMi4wOS0xLjc5LS4wMi0uMDIgMS4xLTQuMyAyLjQ1eiIvPiYjeGE7CQkJPHBhdGggZD0iTTcuMTUgMTcuOTdsLTMuNDYgMS45NGgtLjA1bC0xLjY2LS45OSAzLjQ5LTEuOTYgMS42OCAxLjAxeiIvPiYjeGE7CQk8L2c+JiN4YTsJCTxwYXRoIGNsYXNzPSJzdDMiIGQ9Ik0xMC44OC4wOWgtLjA1TDcuMzcgMi4wM2wxLjY4IDEuMDEgMy40OS0xLjk2ek0xMC42MiAyMGgtLjA1bC0zLjQyLTIuMDNoMCAwIDBsMS43Mi0uOTYgMy40NCAyLjA0eiIvPiYjeGE7CQk8cGF0aCBjbGFzcz0ic3QyIiBkPSJNLjMzIDEzLjg5di0yaDEuNzZsLS4wMSAxLjA0IDQuMjUgMi41Ni4wMi0xLjcyLjg2LjAxLS4wNiA0LjE4LTEuNjgtMXoiLz4mI3hhOwk8L2c+JiN4YTsJPGNpcmNsZSBjbGFzcz0ic3QyIiBjeD0iMTMuMzgiIGN5PSIxMC4wNCIgcj0iMS4xNCIvPiYjeGE7CTxjaXJjbGUgY2xhc3M9InN0MiIgY3g9IjEuMTQiIGN5PSI5Ljg4IiByPSIxLjE0Ii8+JiN4YTsJPGNpcmNsZSBjbGFzcz0ic3QyIiBjeD0iNy4zMiIgY3k9IjcuOTkiIHI9IjEuMTQiLz4mI3hhOwk8Y2lyY2xlIGNsYXNzPSJzdDIiIGN4PSI3LjIzIiBjeT0iMTIiIHI9IjEuMTQiLz4mI3hhOzwvc3ZnPg==;" vertex="1" parent="df"><mxGeometry width="22" height="30" relative="1" as="geometry"><mxPoint x="19" y="15" as="offset"/></mxGeometry></mxCell>
+  <mxCell id="bq" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" vertex="1" parent="gcp"><mxGeometry x="720" y="155" width="140" height="60" as="geometry"/></mxCell>
+  <mxCell id="bq-icon" value="&lt;font color=&quot;#000000&quot;&gt;Log Analytics&lt;/font&gt;&lt;br&gt;BigQuery" style="editableCssRules=.*;html=1;fontColor=#999999;shape=image;verticalLabelPosition=middle;verticalAlign=middle;labelPosition=right;align=left;spacingLeft=20;part=1;points=[];imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnY9Imh0dHBzOi8vdmVjdGEuaW8vbmFubyIgd2lkdGg9IjIwLjAwMTA0NTIyNzA1MDc4IiBoZWlnaHQ9IjIwLjAwMTA0NTIyNzA1MDc4IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHZpZXdCb3g9IjAgMCAyMC4wMDEwNDUyMjcwNTA3OCAyMC4wMDEwNDUyMjcwNTA3OCI+JiN4YTsJPHN0eWxlIHR5cGU9InRleHQvY3NzIj4mI3hhOwkuc3Qwe2ZpbGw6I2FlY2JmYTt9JiN4YTsJLnN0MXtmaWxsOiM2NjlkZjY7fSYjeGE7CS5zdDJ7ZmlsbDojNDI4NWY0O30mI3hhOwk8L3N0eWxlPiYjeGE7CTxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik00LjczIDguODN2Mi42M2E0LjkxIDQuOTEgMCAwIDAgMS43MSAxLjc0VjguODN6Ii8+JiN4YTsJPHBhdGggY2xhc3M9InN0MSIgZD0iTTcuODkgNi40MXY3LjUzQTcuNjIgNy42MiAwIDAgMCA5IDE0YTggOCAwIDAgMCAxIDBWNi40MXoiLz4mI3hhOwk8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMTEuNjQgOS44NnYzLjI5YTUgNSAwIDAgMCAxLjctMS44MlY5Ljg2eiIvPiYjeGE7CTxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik0xNS43NCAxNC4zMmwtMS40MiAxLjQyYS40Mi40MiAwIDAgMCAwIC42bDMuNTQgMy41NGEuNDIuNDIgMCAwIDAgLjU5IDBsMS40My0xLjQzYS40Mi40MiAwIDAgMCAwLS41OWwtMy41NC0zLjU0YS40Mi40MiAwIDAgMC0uNiAwIi8+JiN4YTsJPHBhdGggY2xhc3M9InN0MSIgZD0iTTkgMGE5IDkgMCAxIDAgMCAxOEE5IDkgMCAxIDAgOSAwbTAgMTUuNjlhNi42OCA2LjY4IDAgMCAxIC4wMDctMTMuMzYgNi42OCA2LjY4IDAgMCAxIDQuNzI3IDExLjQwM0E2LjY4IDYuNjggMCAwIDEgOSAxNS42OSIvPiYjeGE7PC9zdmc+;" vertex="1" parent="bq"><mxGeometry width="30" height="30" relative="1" as="geometry"><mxPoint x="15" y="15" as="offset"/></mxGeometry></mxCell>
+  <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;endSize=4;strokeColor=#4284F3;strokeWidth=2;" edge="1" parent="gcp" source="ke" target="log"><mxGeometry relative="1" as="geometry"/></mxCell>
+  <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;endSize=4;strokeColor=#4284F3;strokeWidth=2;exitX=1;exitY=0.25;entryX=0;entryY=0.5;" edge="1" parent="gcp" source="log" target="cs"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="235" y="229"/><mxPoint x="235" y="128"/></Array></mxGeometry></mxCell>
+  <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;endSize=4;strokeColor=#9E9E9E;strokeWidth=2;exitX=1;exitY=0.75;entryX=0;entryY=0.5;" edge="1" parent="gcp" source="log" target="ps"><mxGeometry relative="1" as="geometry"/></mxCell>
+  <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;endSize=4;strokeColor=#4284F3;strokeWidth=2;exitX=1;exitY=0.5;entryX=0;entryY=0.25;" edge="1" parent="gcp" source="cs" target="df"><mxGeometry relative="1" as="geometry"/></mxCell>
+  <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;endSize=4;strokeColor=#9E9E9E;strokeWidth=2;exitX=1;exitY=0.5;entryX=0;entryY=0.75;" edge="1" parent="gcp" source="ps" target="df"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="495" y="258"/><mxPoint x="495" y="196"/></Array></mxGeometry></mxCell>
+  <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;endSize=4;strokeColor=#4284F3;strokeWidth=2;" edge="1" parent="gcp" source="df" target="bq"><mxGeometry relative="1" as="geometry"/></mxCell>
+</root></mxGraphModel></diagram></mxfile>
 ```
 
 ## Pattern Notes
 
-1. **Service Card Pattern**: GCP diagrams use white cards with shadow containing service icon and label
-2. **Container Pattern**: Platform boundary with gray background, dashed groups for logical separation
-3. **Connection Pattern**: Blue arrows for primary flow, gray for secondary/streaming paths
-4. **Icon Style**: GCP2 stencils use embedded SVG, referenced as `shape=mxgraph.gcp2.<service>`
+1. GCP diagrams use service cards (rounded, shadow) with two-line labels (role in black + service name in gray)
+2. Platform container with gray fill (`#F6F6F6`) and `mxgraph.gcp2.google_cloud_platform` logo at corner
+3. Dashed blue groups (`#4284F3`) for logical separation (Batch/Streaming paths)
+4. Blue arrows (`#4284F3`) for batch flow, gray (`#9E9E9E`) for streaming flow
+ 

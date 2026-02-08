@@ -4,487 +4,491 @@ Stencil library: `mxgraph.pid.*`
 
 Total: 478 stencils
 
-- `mxgraph.pid.agitators.agitator,_stirrer` (80×120)
-- `mxgraph.pid.agitators.agitator_(anchor)` (80×120)
-- `mxgraph.pid.agitators.agitator_(cross-beam)` (80×120)
-- `mxgraph.pid.agitators.agitator_(disc)` (80×135)
-- `mxgraph.pid.agitators.agitator_(flate-blade_paddle)` (80×140)
-- `mxgraph.pid.agitators.agitator_(gat_paddle)` (80×120)
-- `mxgraph.pid.agitators.agitator_(helical)` (80×130)
-- `mxgraph.pid.agitators.agitator_(impeller)` (80×130)
-- `mxgraph.pid.agitators.agitator_(propeller)` (93×132)
-- `mxgraph.pid.agitators.agitator_(turbine)` (80×135)
-- `mxgraph.pid.apparatus_elements.manhole` (100×100)
-- `mxgraph.pid.apparatus_elements.socket,_connection_nozzle` (30×40)
-- `mxgraph.pid.apparatus_elements.support_bracket` (10×10)
-- `mxgraph.pid.apparatus_elements.support_leg` (25×100)
-- `mxgraph.pid.apparatus_elements.support_ring` (100×25)
-- `mxgraph.pid.apparatus_elements.support_skirt` (100×100)
-- `mxgraph.pid.centrifuges.centrifuge,_decanter_(screw,_solid_shell)` (110×100)
-- `mxgraph.pid.centrifuges.centrifuge_(high_speed)` (100×110)
-- `mxgraph.pid.centrifuges.centrifuge_(perforated_shell)` (100×110)
-- `mxgraph.pid.centrifuges.centrifuge_(pusher)` (110×100)
-- `mxgraph.pid.centrifuges.centrifuge_(screw,_perforated_shell)` (110×100)
-- `mxgraph.pid.centrifuges.centrifuge_(separator_disc)` (100×110)
-- `mxgraph.pid.centrifuges.centrifuge_(skimmer)` (110×100)
-- `mxgraph.pid.centrifuges.centrifuge_(solid_shell)` (100×110)
-- `mxgraph.pid.compressors.ac_air_compressor` (102×68)
-- `mxgraph.pid.compressors.centrifugal_compressor` (70×67)
-- `mxgraph.pid.compressors.centrifugal_compressor_-_turbine_driven` (98×67)
-- `mxgraph.pid.compressors.compressor` (100×100)
-- `mxgraph.pid.compressors.compressor_and_silencers` (90×81)
-- `mxgraph.pid.compressors.liquid_ring_compressor` (90×90)
-- `mxgraph.pid.compressors.reciprocating_compressor` (98×40)
-- `mxgraph.pid.compressors.reciprocating_compressor_2` (50×65)
-- `mxgraph.pid.compressors.rotary_compressor` (42×91)
-- `mxgraph.pid.compressors_-_iso.blower,_fan` (100×100)
-- `mxgraph.pid.compressors_-_iso.compressor,_vacuum_pump` (100×100)
-- `mxgraph.pid.compressors_-_iso.compressor_(centrifugal)` (100×100)
-- `mxgraph.pid.compressors_-_iso.compressor_(diaphragm)` (100×100)
-- `mxgraph.pid.compressors_-_iso.compressor_(ejector)` (100×100)
-- `mxgraph.pid.compressors_-_iso.compressor_(piston)` (100×100)
-- `mxgraph.pid.compressors_-_iso.compressor_(ring)` (100×100)
-- `mxgraph.pid.compressors_-_iso.compressor_(roller_vane)` (100×100)
-- `mxgraph.pid.compressors_-_iso.compressor_(rotary)` (100×100)
-- `mxgraph.pid.compressors_-_iso.compressor_(screw)` (100×100)
-- `mxgraph.pid.compressors_-_iso.compressor_(turbo)` (100×100)
-- `mxgraph.pid.crushers_grinding.crusher` (100×60)
-- `mxgraph.pid.crushers_grinding.crusher_(cone)` (100×60)
-- `mxgraph.pid.crushers_grinding.crusher_(hammer)` (100×60)
-- `mxgraph.pid.crushers_grinding.crusher_(impact)` (100×60)
-- `mxgraph.pid.crushers_grinding.crusher_(jaw)` (100×60)
-- `mxgraph.pid.crushers_grinding.crusher_(roller)` (100×60)
-- `mxgraph.pid.crushers_grinding.crushing,_grinding_machine` (100×60)
-- `mxgraph.pid.crushers_grinding.mill,_pulverizer` (100×60)
-- `mxgraph.pid.crushers_grinding.mill,_pulverizer_(hammer)` (100×60)
-- `mxgraph.pid.crushers_grinding.mill,_pulverizer_(impact)` (100×60)
-- `mxgraph.pid.crushers_grinding.mill_(roller)` (100×60)
-- `mxgraph.pid.crushers_grinding.mill_(vibration)` (100×60)
-- `mxgraph.pid.crushers_grinding.mill_(vibration)2` (100×60)
-- `mxgraph.pid.driers.drier` (100×140)
-- `mxgraph.pid.driers.drier_(fluidized_bed)` (100×140)
-- `mxgraph.pid.driers.drier_(roller_conveyor_belt)` (100×140)
-- `mxgraph.pid.driers.drying_oven,_drying_chamber,_shelf_dryer` (100×140)
-- `mxgraph.pid.driers.heat_consumer` (100×100)
-- `mxgraph.pid.driers.rotary_drum_drier,_tumbling_drier` (100×140)
-- `mxgraph.pid.driers.spray_drier` (100×140)
-- `mxgraph.pid.driers.turbo_drier,_disc_drier,_moving_shelf_drier` (100×140)
-- `mxgraph.pid.engines.electric_motor` (100×100)
-- `mxgraph.pid.engines.electric_motor_(ac)` (100×100)
-- `mxgraph.pid.engines.electric_motor_(dc)` (100×100)
-- `mxgraph.pid.engines.gear` (100×100)
-- `mxgraph.pid.engines.generator` (100×100)
-- `mxgraph.pid.engines.generator_(ac)` (100×100)
-- `mxgraph.pid.engines.generator_(dc)` (100×100)
-- `mxgraph.pid.engines.turbine` (70×100)
-- `mxgraph.pid.feeders.feeder_(rotary_table)` (105×100)
-- `mxgraph.pid.feeders.proportional_feeder` (100×100)
-- `mxgraph.pid.feeders.proportional_feeder_(metering)` (300×50)
-- `mxgraph.pid.feeders.proportional_feeder_(rotary_valve)` (100×100)
-- `mxgraph.pid.feeders.spray_nozzle` (100×50)
-- `mxgraph.pid.filters.filter` (50×50)
-- `mxgraph.pid.filters.gas_filter` (50×100)
-- `mxgraph.pid.filters.gas_filter_(bag,_candle,_cartridge)` (50×100)
-- `mxgraph.pid.filters.gas_filter_(belt,_roll)` (50×100)
-- `mxgraph.pid.filters.gas_filter_(fixed_bed)` (50×100)
-- `mxgraph.pid.filters.gas_filter_(hepa)` (50×100)
-- `mxgraph.pid.filters.liquid_filter` (50×100)
-- `mxgraph.pid.filters.liquid_filter_(bag,_candle,_cartridge)` (50×100)
-- `mxgraph.pid.filters.liquid_filter_(belt,_roll)` (50×100)
-- `mxgraph.pid.filters.liquid_filter_(biological)` (50×100)
-- `mxgraph.pid.filters.liquid_filter_(fixed_bed)` (50×100)
-- `mxgraph.pid.filters.liquid_filter_(ion_exchanger)` (50×100)
-- `mxgraph.pid.filters.liquid_filter_(rotary,_drum_or_disc)` (50×100)
-- `mxgraph.pid.filters.liquid_filter_(rotary,_drum_or_disc,_scraper)` (55×100)
-- `mxgraph.pid.filters.press_filter` (100×50)
-- `mxgraph.pid.filters.suction_filter` (50×100)
-- `mxgraph.pid.fittings.blind_disc` (40×140)
-- `mxgraph.pid.fittings.blind_disc2` (40×140)
-- `mxgraph.pid.fittings.breakthrough` (38×100)
-- `mxgraph.pid.fittings.breakthrough2` (38×100)
-- `mxgraph.pid.fittings.clamped_flange_coupling` (50×100)
-- `mxgraph.pid.fittings.compensator` (40×80)
-- `mxgraph.pid.fittings.coupling` (50×100)
-- `mxgraph.pid.fittings.flame_arrestor` (50×100)
-- `mxgraph.pid.fittings.flame_arrestor_(detonation-proof)` (100×100)
-- `mxgraph.pid.fittings.flame_arrestor_(explosion-proof)` (100×100)
-- `mxgraph.pid.fittings.flame_arrestor_(fire-resistant)` (100×100)
-- `mxgraph.pid.fittings.flame_arrestor_(fire-resistant,_detonation-proof)` (100×100)
-- `mxgraph.pid.fittings.flanged_connection` (20×50)
-- `mxgraph.pid.fittings.flanged_dummy_cover` (85×50)
-- `mxgraph.pid.fittings.funnel` (80×140)
-- `mxgraph.pid.fittings.hose` (180×30)
-- `mxgraph.pid.fittings.injector` (80×40)
-- `mxgraph.pid.fittings.interchangeable_disc_(blind_disc)` (40×140)
-- `mxgraph.pid.fittings.interchangeable_disc_(blind_disc)2` (40×140)
-- `mxgraph.pid.fittings.interchangeable_disc_(open_disc_in_function)` (40×140)
-- `mxgraph.pid.fittings.interchangeable_disc_(open_disc_in_function)2` (40×140)
-- `mxgraph.pid.fittings.open_disc` (40×140)
-- `mxgraph.pid.fittings.orifice_plate` (40×140)
-- `mxgraph.pid.fittings.orifice_plate2` (40×140)
-- `mxgraph.pid.fittings.reducer` (70×50)
-- `mxgraph.pid.fittings.rupture_disc` (50×100)
-- `mxgraph.pid.fittings.self-operating_release_valve` (105×105)
-- `mxgraph.pid.fittings.self-operating_release_valve2` (105×105)
-- `mxgraph.pid.fittings.silencer` (140×100)
-- `mxgraph.pid.fittings.single_flange` (5×50)
-- `mxgraph.pid.fittings.strainer` (40×80)
-- `mxgraph.pid.fittings.strainer_(cone)` (40×80)
-- `mxgraph.pid.fittings.vent` (80×140)
-- `mxgraph.pid.fittings.viewing_glass` (100×50)
-- `mxgraph.pid.fittings.viewing_glass_(lighting)` (100×100)
-- `mxgraph.pid.flow_sensors.averging_pitot_tube` (50×50)
-- `mxgraph.pid.flow_sensors.coriolis` (50×50)
-- `mxgraph.pid.flow_sensors.flow_nozzle` (50×25)
-- `mxgraph.pid.flow_sensors.flume` (50×50)
-- `mxgraph.pid.flow_sensors.magnetic` (50×50)
-- `mxgraph.pid.flow_sensors.pitot_tube` (50×50)
-- `mxgraph.pid.flow_sensors.positive_displacement` (50×30)
-- `mxgraph.pid.flow_sensors.rotameter` (75×50)
-- `mxgraph.pid.flow_sensors.target` (50×50)
-- `mxgraph.pid.flow_sensors.turbine` (50×50)
-- `mxgraph.pid.flow_sensors.ultrasonic` (50×50)
-- `mxgraph.pid.flow_sensors.v-cone` (50×50)
-- `mxgraph.pid.flow_sensors.venturi` (50×40)
-- `mxgraph.pid.flow_sensors.vortex` (50×50)
-- `mxgraph.pid.flow_sensors.wedge` (50×50)
-- `mxgraph.pid.flow_sensors.weir` (50×50)
-- `mxgraph.pid.heat_exchangers.condenser` (80×80)
-- `mxgraph.pid.heat_exchangers.double_pipe_heat_exchanger` (90×50)
-- `mxgraph.pid.heat_exchangers.electric_heater` (140×100)
-- `mxgraph.pid.heat_exchangers.fixed_straight_tubes_heat_exchanger` (100×40)
-- `mxgraph.pid.heat_exchangers.hairpin_exchanger` (92×30)
-- `mxgraph.pid.heat_exchangers.heat_exchanger_(coil_tubes)` (100×30)
-- `mxgraph.pid.heat_exchangers.heat_exchanger_(finned_tubes)` (100×30)
-- `mxgraph.pid.heat_exchangers.heat_exchanger_(finned_tubes,_fan)` (100×100)
-- `mxgraph.pid.heat_exchangers.heat_exchanger_(floating_head)` (100×30)
-- `mxgraph.pid.heat_exchangers.heat_exchanger_(plate)` (100×30)
-- `mxgraph.pid.heat_exchangers.heat_exchanger_(spiral)` (100×100)
-- `mxgraph.pid.heat_exchangers.heat_exchanger_(straight_tubes)` (100×30)
-- `mxgraph.pid.heat_exchangers.heater` (80×80)
-- `mxgraph.pid.heat_exchangers.plate_and_frame_heat_exchanger` (100×120)
-- `mxgraph.pid.heat_exchangers.reboiler` (92×33)
-- `mxgraph.pid.heat_exchangers.shell_and_tube_heat_exchanger_1` (60×60)
-- `mxgraph.pid.heat_exchangers.shell_and_tube_heat_exchanger_2` (60×60)
-- `mxgraph.pid.heat_exchangers.shell_and_tube_heat_exchanger_3` (60×60)
-- `mxgraph.pid.heat_exchangers.single_pass_heat_exchanger` (90×30)
-- `mxgraph.pid.heat_exchangers.spiral_heat_exchanger` (100×95)
-- `mxgraph.pid.heat_exchangers.thin-film_evaporator` (80×120)
-- `mxgraph.pid.heat_exchangers.u-tube_heat_exchanger` (92×30)
-- `mxgraph.pid.heat_exchangers.u_shaped_tubes_heat_exchanger` (100×30)
-- `mxgraph.pid.instruments.analyzer_transmitter` (96×96)
-- `mxgraph.pid.instruments.flow_element` (96×96)
-- `mxgraph.pid.instruments.flow_indicator` (96×96)
-- `mxgraph.pid.instruments.flow_recorder` (96×96)
-- `mxgraph.pid.instruments.flow_transmitter` (96×96)
-- `mxgraph.pid.instruments.level_alarm` (96×96)
-- `mxgraph.pid.instruments.level_controller_1` (96×96)
-- `mxgraph.pid.instruments.level_controller_2` (96×96)
-- `mxgraph.pid.instruments.level_gauge` (96×96)
-- `mxgraph.pid.instruments.level_indicator` (96×96)
-- `mxgraph.pid.instruments.level_recorder` (96×96)
-- `mxgraph.pid.instruments.level_transmitter_1` (96×96)
-- `mxgraph.pid.instruments.level_transmitter_2` (96×96)
-- `mxgraph.pid.instruments.pressure_controller` (96×96)
-- `mxgraph.pid.instruments.pressure_indicating_controller` (96×96)
-- `mxgraph.pid.instruments.pressure_indicator` (96×96)
-- `mxgraph.pid.instruments.pressure_recorder` (96×96)
-- `mxgraph.pid.instruments.pressure_recording_controller` (96×96)
-- `mxgraph.pid.instruments.pressure_transmitter_1` (96×96)
-- `mxgraph.pid.instruments.pressure_transmitter_2` (96×96)
-- `mxgraph.pid.instruments.temperature_element` (96×96)
-- `mxgraph.pid.instruments.temperature_indicator` (96×96)
-- `mxgraph.pid.instruments.temperature_recorder` (96×96)
-- `mxgraph.pid.instruments.temperature_transmitter` (96×96)
-- `mxgraph.pid.misc.aerator_with_sparger` (35×97)
-- `mxgraph.pid.misc.air_cooler` (70×20)
-- `mxgraph.pid.misc.air_filter` (40×65)
-- `mxgraph.pid.misc.air_separator` (66×106)
-- `mxgraph.pid.misc.back_draft_damper` (62×32)
-- `mxgraph.pid.misc.back_draft_damper2` (62×32)
-- `mxgraph.pid.misc.bag_filling_machine` (80×100)
-- `mxgraph.pid.misc.bag_filling_machine2` (80×100)
-- `mxgraph.pid.misc.belt_skimmer` (70×98)
-- `mxgraph.pid.misc.bin` (100×65)
-- `mxgraph.pid.misc.boiler_(dome)` (100×120)
-- `mxgraph.pid.misc.boiler_(dome,_hot_liquid)` (100×120)
-- `mxgraph.pid.misc.box_truck` (120×80)
-- `mxgraph.pid.misc.bucket_elevator` (65×200)
-- `mxgraph.pid.misc.chiller` (157×116)
-- `mxgraph.pid.misc.combustion_chamber` (130×100)
-- `mxgraph.pid.misc.conveyor` (200×60)
-- `mxgraph.pid.misc.conveyor2` (200×60)
-- `mxgraph.pid.misc.conveyor_(belt)` (200×50)
-- `mxgraph.pid.misc.conveyor_(belt,_closed)` (240×80)
-- `mxgraph.pid.misc.conveyor_(belt,_closed,_reversible)` (240×80)
-- `mxgraph.pid.misc.conveyor_(belt,_closed,_reversible)2` (240×80)
-- `mxgraph.pid.misc.conveyor_(chain,_closed)` (240×80)
-- `mxgraph.pid.misc.conveyor_(screw,_closed)` (220×80)
-- `mxgraph.pid.misc.conveyor_(vibrating,_closed)` (240×80)
-- `mxgraph.pid.misc.conveyor_(vibrating,_closed)2` (240×80)
-- `mxgraph.pid.misc.cooler` (85×90)
-- `mxgraph.pid.misc.cooling_tower` (100×120)
-- `mxgraph.pid.misc.cooling_tower_(dry,_forced_draught)` (100×120)
-- `mxgraph.pid.misc.cooling_tower_(dry,_induced_draught)` (100×120)
-- `mxgraph.pid.misc.cooling_tower_(dry,_natural_draught)` (100×120)
-- `mxgraph.pid.misc.cooling_tower_(wet,_forced_draught)` (100×120)
-- `mxgraph.pid.misc.cooling_tower_(wet,_induced_draught)` (100×120)
-- `mxgraph.pid.misc.cooling_tower_(wet,_natural_draught)` (100×120)
-- `mxgraph.pid.misc.cooling_tower_(wet-dry,_natural_draught)` (100×120)
-- `mxgraph.pid.misc.covered_gas_vent` (80×100)
-- `mxgraph.pid.misc.crane` (100×100)
-- `mxgraph.pid.misc.curved_gas_vent` (30×70)
-- `mxgraph.pid.misc.cyclone` (100×80)
-- `mxgraph.pid.misc.dryer` (80×100)
-- `mxgraph.pid.misc.elevator_(bucket)` (160×250)
-- `mxgraph.pid.misc.elevator_(bucket,_z-form)` (430×250)
-- `mxgraph.pid.misc.fan` (100×100)
-- `mxgraph.pid.misc.fan_2` (58×8)
-- `mxgraph.pid.misc.filter` (100×100)
-- `mxgraph.pid.misc.filter_2` (100×100)
-- `mxgraph.pid.misc.firing_system,_burner` (100×100)
-- `mxgraph.pid.misc.flame_arrestor` (100×40)
-- `mxgraph.pid.misc.flexible_pipe` (60×16)
-- `mxgraph.pid.misc.forced_flow_air_cooler` (70×30)
-- `mxgraph.pid.misc.forklift_(manual)` (140×100)
-- `mxgraph.pid.misc.forklift_(truck)` (140×100)
-- `mxgraph.pid.misc.funnel` (40×80)
-- `mxgraph.pid.misc.gas_flare` (60×100)
-- `mxgraph.pid.misc.induced_flow_air_cooler` (93×30)
-- `mxgraph.pid.misc.industrial_truck` (120×20)
-- `mxgraph.pid.misc.lift` (100×100)
-- `mxgraph.pid.misc.loading_arm` (120×80)
-- `mxgraph.pid.misc.mixer` (80×100)
-- `mxgraph.pid.misc.palletizer` (80×100)
-- `mxgraph.pid.misc.palletizer2` (80×100)
-- `mxgraph.pid.misc.protective_palette_covering` (80×100)
-- `mxgraph.pid.misc.roller_conveyor` (160×20)
-- `mxgraph.pid.misc.rolling_bin` (100×65)
-- `mxgraph.pid.misc.rotary_screen` (100×65)
-- `mxgraph.pid.misc.screening_device,_sieve,_strainer` (80×120)
-- `mxgraph.pid.misc.screening_device,_sieve,_strainer_(basket_reel)` (80×180)
-- `mxgraph.pid.misc.screening_device,_sieve,_strainer_(coarse_and_fine_screens)` (80×120)
-- `mxgraph.pid.misc.screening_device,_sieve,_strainer_(coarse_rake)` (80×120)
-- `mxgraph.pid.misc.screening_device,_sieve,_strainer_(fine_rake)` (80×120)
-- `mxgraph.pid.misc.screening_device,_sieve,_strainer_(rotating_drum)` (80×120)
-- `mxgraph.pid.misc.screening_device,_sieve,_strainer_(vibrating)` (80×120)
-- `mxgraph.pid.misc.screening_device,_sieve,_strainer_(vibrating)2` (80×120)
-- `mxgraph.pid.misc.ship` (105×60)
-- `mxgraph.pid.misc.silencer` (100×30)
-- `mxgraph.pid.misc.spray_cooler` (100×120)
-- `mxgraph.pid.misc.spraying_device` (60×20)
-- `mxgraph.pid.misc.stack,_chimney` (60×100)
-- `mxgraph.pid.misc.steam_trap` (52×52)
-- `mxgraph.pid.misc.steam_trap2` (52×52)
-- `mxgraph.pid.misc.tank_car,_tank_wagon` (127×80)
-- `mxgraph.pid.misc.viewing_glass` (80×50)
-- `mxgraph.pid.mixers.in-line_rotary_mixer` (190×100)
-- `mxgraph.pid.mixers.in-line_static_mixer` (100×100)
-- `mxgraph.pid.mixers.kneader` (170×100)
-- `mxgraph.pid.mixers.mixing_path` (260×100)
-- `mxgraph.pid.piping.basket_strainer` (50×45)
-- `mxgraph.pid.piping.blank` (20×60)
-- `mxgraph.pid.piping.blank2` (20×60)
-- `mxgraph.pid.piping.breather` (50×30)
-- `mxgraph.pid.piping.cap` (10×20)
-- `mxgraph.pid.piping.closed_figure_8_blind` (20×80)
-- `mxgraph.pid.piping.closed_figure_8_blind2` (20×80)
-- `mxgraph.pid.piping.concentric_reducer` (20×20)
-- `mxgraph.pid.piping.cone_strainer` (30×30)
-- `mxgraph.pid.piping.damper` (50×20)
-- `mxgraph.pid.piping.damper2` (50×20)
-- `mxgraph.pid.piping.desuper_heater` (50×50)
-- `mxgraph.pid.piping.detonation_arrestor` (50×19)
-- `mxgraph.pid.piping.diverter_valve` (50×34)
-- `mxgraph.pid.piping.double_flange` (5×20)
-- `mxgraph.pid.piping.duplex_strainer` (50×40)
-- `mxgraph.pid.piping.eccentric_reducer` (20×15)
-- `mxgraph.pid.piping.excess_flow_valve` (50×25)
-- `mxgraph.pid.piping.excess_flow_valve2` (50×25)
-- `mxgraph.pid.piping.exhaust_head` (50×40)
-- `mxgraph.pid.piping.expansion_joint` (50×20)
-- `mxgraph.pid.piping.flame_arrestor` (50×19)
-- `mxgraph.pid.piping.flange` (5×20)
-- `mxgraph.pid.piping.flange_in` (9×20)
-- `mxgraph.pid.piping.flexible_hose` (50×23)
-- `mxgraph.pid.piping.hose_connection` (20×20)
-- `mxgraph.pid.piping.in-line_mixer` (50×10)
-- `mxgraph.pid.piping.in-line_silencer` (50×19)
-- `mxgraph.pid.piping.open_figure_8_blind` (20×80)
-- `mxgraph.pid.piping.open_figure_8_blind2` (20×80)
-- `mxgraph.pid.piping.orifice_(quick_change)` (10×50)
-- `mxgraph.pid.piping.plug` (10×10)
-- `mxgraph.pid.piping.pulsation_dampener` (50×150)
-- `mxgraph.pid.piping.removable_spool` (50×30)
-- `mxgraph.pid.piping.rotary_valve` (50×20)
-- `mxgraph.pid.piping.spacer` (20×60)
-- `mxgraph.pid.piping.steam_trap` (50×50)
-- `mxgraph.pid.piping.t-type_strainer` (20×34)
-- `mxgraph.pid.piping.temporary_strainer` (30×30)
-- `mxgraph.pid.piping.vent_silencer` (19×80)
-- `mxgraph.pid.piping.welded_connection` (50×20)
-- `mxgraph.pid.piping.welded_connection2` (50×20)
-- `mxgraph.pid.piping.y-type_strainer` (50×34)
-- `mxgraph.pid.pumps.cavity_pump` (124×35)
-- `mxgraph.pid.pumps.centrifugal_pump_1` (70×67)
-- `mxgraph.pid.pumps.centrifugal_pump_2` (62×77)
-- `mxgraph.pid.pumps.centrifugal_pump_3` (70×67)
-- `mxgraph.pid.pumps.feed_pump` (100×40)
-- `mxgraph.pid.pumps.gas_blower` (72×67)
-- `mxgraph.pid.pumps.gas_compressor` (100×55)
-- `mxgraph.pid.pumps.gear_pump` (57×91)
-- `mxgraph.pid.pumps.horizontal_pump` (155×112)
-- `mxgraph.pid.pumps.injector` (80×40)
-- `mxgraph.pid.pumps.peristaltic` (60×69)
-- `mxgraph.pid.pumps.screw_pump` (70×67)
-- `mxgraph.pid.pumps.screw_pump_2` (124×40)
-- `mxgraph.pid.pumps.submersible_pump` (104×74)
-- `mxgraph.pid.pumps.sump_pump` (104×187)
-- `mxgraph.pid.pumps.turbine` (98×60)
-- `mxgraph.pid.pumps.vacuum_pump` (99×50)
-- `mxgraph.pid.pumps.vertical_pump` (120×147)
-- `mxgraph.pid.pumps_-_din.centrifugal` (100×100)
-- `mxgraph.pid.pumps_-_din.diaphragm` (100×100)
-- `mxgraph.pid.pumps_-_din.eccentric_worm` (100×100)
-- `mxgraph.pid.pumps_-_din.electromagnetic` (100×100)
-- `mxgraph.pid.pumps_-_din.gear` (100×100)
-- `mxgraph.pid.pumps_-_din.hydraulic` (100×100)
-- `mxgraph.pid.pumps_-_din.liquid_jet` (100×100)
-- `mxgraph.pid.pumps_-_din.reciprocating` (100×100)
-- `mxgraph.pid.pumps_-_din.rotary_piston` (100×100)
-- `mxgraph.pid.pumps_-_din.screw` (100×100)
-- `mxgraph.pid.pumps_-_iso.jet_pump_(liquid)` (100×100)
-- `mxgraph.pid.pumps_-_iso.pump_(centrifugal)` (100×100)
-- `mxgraph.pid.pumps_-_iso.pump_(diaphragm)` (100×100)
-- `mxgraph.pid.pumps_-_iso.pump_(gear)` (100×100)
-- `mxgraph.pid.pumps_-_iso.pump_(liquid)` (100×100)
-- `mxgraph.pid.pumps_-_iso.pump_(positive_displacement)` (100×100)
-- `mxgraph.pid.pumps_-_iso.pump_(progressive_cavity)` (100×100)
-- `mxgraph.pid.pumps_-_iso.pump_(reciprocating_piston)` (100×100)
-- `mxgraph.pid.pumps_-_iso.pump_(screw)` (100×100)
-- `mxgraph.pid.separators.gravity_separator,_settling_chamber` (80×120)
-- `mxgraph.pid.separators.gravity_separator,_settling_chamber2` (80×120)
-- `mxgraph.pid.separators.impact_separator` (80×120)
-- `mxgraph.pid.separators.separator,_sifter` (80×120)
-- `mxgraph.pid.separators.separator,_sifter2` (80×120)
-- `mxgraph.pid.separators.separator_(cyclone)` (80×120)
-- `mxgraph.pid.separators.separator_(cyclone)2` (80×120)
-- `mxgraph.pid.separators.separator_(electromagnetic)` (80×120)
-- `mxgraph.pid.separators.separator_(electrostatic_precipitator)` (80×120)
-- `mxgraph.pid.separators.separator_(electrostatic_precipitator,_wet)` (80×120)
-- `mxgraph.pid.separators.separator_(permanent_magnet)` (80×120)
-- `mxgraph.pid.separators.separator_(permanent_magnet)2` (80×120)
-- `mxgraph.pid.separators.separator_(venturi_scrubber)` (80×120)
-- `mxgraph.pid.separators.separator_(wet_scrubber)` (80×120)
-- `mxgraph.pid.separators.separator_(wet_scrubber)2` (80×120)
-- `mxgraph.pid.separators.solidifier_(closed)` (80×120)
-- `mxgraph.pid.separators.solidifier_(open)` (80×120)
-- `mxgraph.pid.separators.spray_scrubber` (80×120)
-- `mxgraph.pid.shaping_machines.extruder_(piston)` (110×60)
-- `mxgraph.pid.shaping_machines.extruder_(screw)` (110×60)
-- `mxgraph.pid.shaping_machines.pelletizing_disc` (100×60)
-- `mxgraph.pid.shaping_machines.press_(piston)` (100×60)
-- `mxgraph.pid.shaping_machines.press_(roller)` (100×60)
-- `mxgraph.pid.shaping_machines.shaping_machine_(horizontal)` (100×60)
-- `mxgraph.pid.shaping_machines.shaping_machine_(vertical)` (100×60)
-- `mxgraph.pid.valves.angle` (79×79)
-- `mxgraph.pid.valves.back_pressure_regulator_1` (98×94)
-- `mxgraph.pid.valves.back_pressure_regulator_2` (98×94)
-- `mxgraph.pid.valves.ball_valve` (98×60)
-- `mxgraph.pid.valves.bleeder_valve_1` (25×75)
-- `mxgraph.pid.valves.bleeder_valve_2` (68×72)
-- `mxgraph.pid.valves.butterfly_valve_1` (98×60)
-- `mxgraph.pid.valves.butterfly_valve_2` (98×60)
-- `mxgraph.pid.valves.check_valve_1` (99×62)
-- `mxgraph.pid.valves.check_valve_2` (99×62)
-- `mxgraph.pid.valves.diaphragm` (98×60)
-- `mxgraph.pid.valves.four_way_valve` (98×98)
-- `mxgraph.pid.valves.gate_valve` (98×60)
-- `mxgraph.pid.valves.gauge` (65×90)
-- `mxgraph.pid.valves.globe_valve` (98×60)
-- `mxgraph.pid.valves.hydraulic_valve` (98×89)
-- `mxgraph.pid.valves.knife_valve` (100×85)
-- `mxgraph.pid.valves.manual_operated_valve` (98×65)
-- `mxgraph.pid.valves.motor_operated_valve` (98×89)
-- `mxgraph.pid.valves.needle` (98×60)
-- `mxgraph.pid.valves.orifice` (50×60)
-- `mxgraph.pid.valves.pinch_valve` (98×60)
-- `mxgraph.pid.valves.plug` (98×60)
-- `mxgraph.pid.valves.pneumatic_operated` (98×79)
-- `mxgraph.pid.valves.pneumatic_operated_butterfly_valve` (60×80)
-- `mxgraph.pid.valves.pressure_reducing_valve` (70×60)
-- `mxgraph.pid.valves.relief_prv` (40×59)
-- `mxgraph.pid.valves.rotameter` (75×60)
-- `mxgraph.pid.valves.safety_psv_1` (56×95)
-- `mxgraph.pid.valves.safety_psv_2` (56×95)
-- `mxgraph.pid.valves.solenoid_valve_closed` (98×89)
-- `mxgraph.pid.valves.three-way_valve` (98×79)
-- `mxgraph.pid.vessels.bag` (50×95)
-- `mxgraph.pid.vessels.bag_(iso)` (50×95)
-- `mxgraph.pid.vessels.barrel,_drum` (62×100)
-- `mxgraph.pid.vessels.barrel,_drum_(iso)` (60×100)
-- `mxgraph.pid.vessels.bunker_(conical_bottom)` (100×100)
-- `mxgraph.pid.vessels.concrete_tank` (160×75)
-- `mxgraph.pid.vessels.container,_tank,_cistern` (100×70)
-- `mxgraph.pid.vessels.container,_tank,_cistern_(boot)` (100×80)
-- `mxgraph.pid.vessels.container,_tank,_cistern_(bottom)` (100×100)
-- `mxgraph.pid.vessels.container,_tank,_cistern_(legs)` (100×105)
-- `mxgraph.pid.vessels.container_(solids,_liquids,_gases)` (150×50)
-- `mxgraph.pid.vessels.double_concrete_tank` (160×75)
-- `mxgraph.pid.vessels.drum_or_condenser` (92×30)
-- `mxgraph.pid.vessels.forced-draft_cooling_tower` (99×99)
-- `mxgraph.pid.vessels.furnace` (80×99)
-- `mxgraph.pid.vessels.furnace2` (80×100)
-- `mxgraph.pid.vessels.gas_bottle` (35×95)
-- `mxgraph.pid.vessels.gas_holder` (70×95)
-- `mxgraph.pid.vessels.half_pipe_mixing_vessel` (100×173)
-- `mxgraph.pid.vessels.induced-draft_cooling_tower` (98×70)
-- `mxgraph.pid.vessels.jacketed_mixing_vessel` (100×175)
-- `mxgraph.pid.vessels.knock-out_drum` (51×95)
-- `mxgraph.pid.vessels.mixer` (20×88)
-- `mxgraph.pid.vessels.mixing_reactor` (50×96)
-- `mxgraph.pid.vessels.open_bulk_storage` (100×50)
-- `mxgraph.pid.vessels.pressurized_vessel` (100×200)
-- `mxgraph.pid.vessels.prop_agitator` (20×88)
-- `mxgraph.pid.vessels.reactor` (40×95)
-- `mxgraph.pid.vessels.settling_tank` (100×80)
-- `mxgraph.pid.vessels.spray_drier` (100×80)
-- `mxgraph.pid.vessels.storage_sphere` (80×100)
-- `mxgraph.pid.vessels.tank` (40×95)
-- `mxgraph.pid.vessels.tank,_vessel` (100×70)
-- `mxgraph.pid.vessels.tank_(boot)` (100×91)
-- `mxgraph.pid.vessels.tank_(concrete_base)` (120×91)
-- `mxgraph.pid.vessels.tank_(conical_bottom)` (100×100)
-- `mxgraph.pid.vessels.tank_(conical_roof)` (100×90)
-- `mxgraph.pid.vessels.tank_(conical_roof_and_bottom)` (101×150)
-- `mxgraph.pid.vessels.tank_(covered)` (100×75)
-- `mxgraph.pid.vessels.tank_(covered,_boot)` (100×85)
-- `mxgraph.pid.vessels.tank_(dished_roof)` (100×95)
-- `mxgraph.pid.vessels.tank_(dished_roof,_conical_bottom)` (100×125)
-- `mxgraph.pid.vessels.tank_(false_bottom)` (40×113)
-- `mxgraph.pid.vessels.tank_(floating_roof)` (100×70)
-- `mxgraph.pid.vessels.tank_(floating_roof,_boot)` (100×80)
-- `mxgraph.pid.vessels.tower` (14×97)
-- `mxgraph.pid.vessels.tower_with_packing` (14×97)
-- `mxgraph.pid.vessels.turbine_agitator` (36×93)
-- `mxgraph.pid.vessels.vent_(bent)` (10×20)
-- `mxgraph.pid.vessels.vent_(cover)` (10×20)
-- `mxgraph.pid.vessels.vessel_(different_diameters)` (50×98)
-- `mxgraph.pid.vessels.vessel_(dished_bottom,_surface_indication)` (40×88)
-- `mxgraph.pid.vessels.vessel_(dished_ends,_brackets)` (60×95)
-- `mxgraph.pid.vessels.vessel_(dished_ends,_electrical_heating)` (50×95)
-- `mxgraph.pid.vessels.vessel_(dished_ends,_heating-cooling_jacket)` (52×95)
-- `mxgraph.pid.vessels.vessel_(dished_ends,_legs)` (40×123)
-- `mxgraph.pid.vessels.vessel_(dished_ends,_ring)` (52×95)
-- `mxgraph.pid.vessels.vessel_(dished_ends,_skirts)` (40×123)
-- `mxgraph.pid.vessels.vessel_(dished_ends,_thermal_insulation)` (52×95)
-- `mxgraph.pid.vessels.vessel_(dome)` (95×55)
-- `mxgraph.pid.vessels.vessel_(full-tube_heating-cooling_coil)` (120×70)
-- `mxgraph.pid.vessels.vessel_(pit)` (95×55)
-- `mxgraph.pid.vessels.vessel_(semi-tube_heating-cooling_coil)` (110×70)
+> These are standard schematic symbols — monochrome by industry convention. Color styles are optional.
+
+| Shape | Size | Required Styles |
+|-------|------|-----------------|
+| `mxgraph.pid.agitators.agitator_(anchor)` | 80×120 |  |
+| `mxgraph.pid.agitators.agitator_(cross-beam)` | 80×120 |  |
+| `mxgraph.pid.agitators.agitator_(disc)` | 80×135 |  |
+| `mxgraph.pid.agitators.agitator_(flate-blade_paddle)` | 80×140 |  |
+| `mxgraph.pid.agitators.agitator_(gat_paddle)` | 80×120 |  |
+| `mxgraph.pid.agitators.agitator_(helical)` | 80×130 |  |
+| `mxgraph.pid.agitators.agitator_(impeller)` | 80×130 |  |
+| `mxgraph.pid.agitators.agitator_(propeller)` | 93×132 |  |
+| `mxgraph.pid.agitators.agitator_(turbine)` | 80×135 |  |
+| `mxgraph.pid.agitators.agitator,_stirrer` | 80×120 |  |
+| `mxgraph.pid.apparatus_elements.manhole` | 100×100 |  |
+| `mxgraph.pid.apparatus_elements.socket,_connection_nozzle` | 30×40 |  |
+| `mxgraph.pid.apparatus_elements.support_bracket` | 10×10 |  |
+| `mxgraph.pid.apparatus_elements.support_leg` | 25×100 |  |
+| `mxgraph.pid.apparatus_elements.support_ring` | 100×25 |  |
+| `mxgraph.pid.apparatus_elements.support_skirt` | 100×100 |  |
+| `mxgraph.pid.centrifuges.centrifuge_(high_speed)` | 100×110 |  |
+| `mxgraph.pid.centrifuges.centrifuge_(perforated_shell)` | 100×110 |  |
+| `mxgraph.pid.centrifuges.centrifuge_(pusher)` | 110×100 |  |
+| `mxgraph.pid.centrifuges.centrifuge_(screw,_perforated_shell)` | 110×100 |  |
+| `mxgraph.pid.centrifuges.centrifuge_(separator_disc)` | 100×110 |  |
+| `mxgraph.pid.centrifuges.centrifuge_(skimmer)` | 110×100 |  |
+| `mxgraph.pid.centrifuges.centrifuge_(solid_shell)` | 100×110 |  |
+| `mxgraph.pid.centrifuges.centrifuge,_decanter_(screw,_solid_shell)` | 110×100 |  |
+| `mxgraph.pid.compressors_-_iso.blower,_fan` | 100×100 |  |
+| `mxgraph.pid.compressors_-_iso.compressor_(centrifugal)` | 100×100 |  |
+| `mxgraph.pid.compressors_-_iso.compressor_(diaphragm)` | 100×100 |  |
+| `mxgraph.pid.compressors_-_iso.compressor_(ejector)` | 100×100 |  |
+| `mxgraph.pid.compressors_-_iso.compressor_(piston)` | 100×100 |  |
+| `mxgraph.pid.compressors_-_iso.compressor_(ring)` | 100×100 |  |
+| `mxgraph.pid.compressors_-_iso.compressor_(roller_vane)` | 100×100 |  |
+| `mxgraph.pid.compressors_-_iso.compressor_(rotary)` | 100×100 |  |
+| `mxgraph.pid.compressors_-_iso.compressor_(screw)` | 100×100 |  |
+| `mxgraph.pid.compressors_-_iso.compressor_(turbo)` | 100×100 |  |
+| `mxgraph.pid.compressors_-_iso.compressor,_vacuum_pump` | 100×100 |  |
+| `mxgraph.pid.compressors.ac_air_compressor` | 102×68 |  |
+| `mxgraph.pid.compressors.centrifugal_compressor` | 70×67 |  |
+| `mxgraph.pid.compressors.centrifugal_compressor_-_turbine_driven` | 98×67 |  |
+| `mxgraph.pid.compressors.compressor` | 100×100 |  |
+| `mxgraph.pid.compressors.compressor_and_silencers` | 90×81 |  |
+| `mxgraph.pid.compressors.liquid_ring_compressor` | 90×90 |  |
+| `mxgraph.pid.compressors.reciprocating_compressor` | 98×40 |  |
+| `mxgraph.pid.compressors.reciprocating_compressor_2` | 50×65 |  |
+| `mxgraph.pid.compressors.rotary_compressor` | 42×91 |  |
+| `mxgraph.pid.crushers_grinding.crusher` | 100×60 |  |
+| `mxgraph.pid.crushers_grinding.crusher_(cone)` | 100×60 |  |
+| `mxgraph.pid.crushers_grinding.crusher_(hammer)` | 100×60 |  |
+| `mxgraph.pid.crushers_grinding.crusher_(impact)` | 100×60 |  |
+| `mxgraph.pid.crushers_grinding.crusher_(jaw)` | 100×60 |  |
+| `mxgraph.pid.crushers_grinding.crusher_(roller)` | 100×60 |  |
+| `mxgraph.pid.crushers_grinding.crushing,_grinding_machine` | 100×60 |  |
+| `mxgraph.pid.crushers_grinding.mill_(roller)` | 100×60 |  |
+| `mxgraph.pid.crushers_grinding.mill_(vibration)` | 100×60 |  |
+| `mxgraph.pid.crushers_grinding.mill_(vibration)2` | 100×60 |  |
+| `mxgraph.pid.crushers_grinding.mill,_pulverizer` | 100×60 |  |
+| `mxgraph.pid.crushers_grinding.mill,_pulverizer_(hammer)` | 100×60 |  |
+| `mxgraph.pid.crushers_grinding.mill,_pulverizer_(impact)` | 100×60 |  |
+| `mxgraph.pid.driers.drier` | 100×140 |  |
+| `mxgraph.pid.driers.drier_(fluidized_bed)` | 100×140 |  |
+| `mxgraph.pid.driers.drier_(roller_conveyor_belt)` | 100×140 |  |
+| `mxgraph.pid.driers.drying_oven,_drying_chamber,_shelf_dryer` | 100×140 |  |
+| `mxgraph.pid.driers.heat_consumer` | 100×100 |  |
+| `mxgraph.pid.driers.rotary_drum_drier,_tumbling_drier` | 100×140 |  |
+| `mxgraph.pid.driers.spray_drier` | 100×140 |  |
+| `mxgraph.pid.driers.turbo_drier,_disc_drier,_moving_shelf_drier` | 100×140 |  |
+| `mxgraph.pid.engines.electric_motor` | 100×100 |  |
+| `mxgraph.pid.engines.electric_motor_(ac)` | 100×100 |  |
+| `mxgraph.pid.engines.electric_motor_(dc)` | 100×100 |  |
+| `mxgraph.pid.engines.gear` | 100×100 |  |
+| `mxgraph.pid.engines.generator` | 100×100 |  |
+| `mxgraph.pid.engines.generator_(ac)` | 100×100 |  |
+| `mxgraph.pid.engines.generator_(dc)` | 100×100 |  |
+| `mxgraph.pid.engines.turbine` | 70×100 |  |
+| `mxgraph.pid.feeders.feeder_(rotary_table)` | 105×100 |  |
+| `mxgraph.pid.feeders.proportional_feeder` | 100×100 |  |
+| `mxgraph.pid.feeders.proportional_feeder_(metering)` | 300×50 |  |
+| `mxgraph.pid.feeders.proportional_feeder_(rotary_valve)` | 100×100 |  |
+| `mxgraph.pid.feeders.spray_nozzle` | 100×50 |  |
+| `mxgraph.pid.filters.filter` | 50×50 |  |
+| `mxgraph.pid.filters.gas_filter` | 50×100 |  |
+| `mxgraph.pid.filters.gas_filter_(bag,_candle,_cartridge)` | 50×100 |  |
+| `mxgraph.pid.filters.gas_filter_(belt,_roll)` | 50×100 |  |
+| `mxgraph.pid.filters.gas_filter_(fixed_bed)` | 50×100 |  |
+| `mxgraph.pid.filters.gas_filter_(hepa)` | 50×100 |  |
+| `mxgraph.pid.filters.liquid_filter` | 50×100 |  |
+| `mxgraph.pid.filters.liquid_filter_(bag,_candle,_cartridge)` | 50×100 |  |
+| `mxgraph.pid.filters.liquid_filter_(belt,_roll)` | 50×100 |  |
+| `mxgraph.pid.filters.liquid_filter_(biological)` | 50×100 |  |
+| `mxgraph.pid.filters.liquid_filter_(fixed_bed)` | 50×100 |  |
+| `mxgraph.pid.filters.liquid_filter_(ion_exchanger)` | 50×100 |  |
+| `mxgraph.pid.filters.liquid_filter_(rotary,_drum_or_disc,_scraper)` | 55×100 |  |
+| `mxgraph.pid.filters.liquid_filter_(rotary,_drum_or_disc)` | 50×100 |  |
+| `mxgraph.pid.filters.press_filter` | 100×50 |  |
+| `mxgraph.pid.filters.suction_filter` | 50×100 |  |
+| `mxgraph.pid.fittings.blind_disc` | 40×140 |  |
+| `mxgraph.pid.fittings.blind_disc2` | 40×140 |  |
+| `mxgraph.pid.fittings.breakthrough` | 38×100 |  |
+| `mxgraph.pid.fittings.breakthrough2` | 38×100 |  |
+| `mxgraph.pid.fittings.clamped_flange_coupling` | 50×100 |  |
+| `mxgraph.pid.fittings.compensator` | 40×80 |  |
+| `mxgraph.pid.fittings.coupling` | 50×100 |  |
+| `mxgraph.pid.fittings.flame_arrestor` | 50×100 |  |
+| `mxgraph.pid.fittings.flame_arrestor_(detonation-proof)` | 100×100 |  |
+| `mxgraph.pid.fittings.flame_arrestor_(explosion-proof)` | 100×100 |  |
+| `mxgraph.pid.fittings.flame_arrestor_(fire-resistant,_detonation-proof)` | 100×100 |  |
+| `mxgraph.pid.fittings.flame_arrestor_(fire-resistant)` | 100×100 |  |
+| `mxgraph.pid.fittings.flanged_connection` | 20×50 |  |
+| `mxgraph.pid.fittings.flanged_dummy_cover` | 85×50 |  |
+| `mxgraph.pid.fittings.funnel` | 80×140 |  |
+| `mxgraph.pid.fittings.hose` | 180×30 |  |
+| `mxgraph.pid.fittings.injector` | 80×40 |  |
+| `mxgraph.pid.fittings.interchangeable_disc_(blind_disc)` | 40×140 |  |
+| `mxgraph.pid.fittings.interchangeable_disc_(blind_disc)2` | 40×140 |  |
+| `mxgraph.pid.fittings.interchangeable_disc_(open_disc_in_function)` | 40×140 |  |
+| `mxgraph.pid.fittings.interchangeable_disc_(open_disc_in_function)2` | 40×140 |  |
+| `mxgraph.pid.fittings.open_disc` | 40×140 |  |
+| `mxgraph.pid.fittings.orifice_plate` | 40×140 |  |
+| `mxgraph.pid.fittings.orifice_plate2` | 40×140 |  |
+| `mxgraph.pid.fittings.reducer` | 70×50 |  |
+| `mxgraph.pid.fittings.rupture_disc` | 50×100 |  |
+| `mxgraph.pid.fittings.self-operating_release_valve` | 105×105 |  |
+| `mxgraph.pid.fittings.self-operating_release_valve2` | 105×105 |  |
+| `mxgraph.pid.fittings.silencer` | 140×100 |  |
+| `mxgraph.pid.fittings.single_flange` | 5×50 |  |
+| `mxgraph.pid.fittings.strainer` | 40×80 |  |
+| `mxgraph.pid.fittings.strainer_(cone)` | 40×80 |  |
+| `mxgraph.pid.fittings.vent` | 80×140 |  |
+| `mxgraph.pid.fittings.viewing_glass` | 100×50 |  |
+| `mxgraph.pid.fittings.viewing_glass_(lighting)` | 100×100 |  |
+| `mxgraph.pid.flow_sensors.averging_pitot_tube` | 50×50 |  |
+| `mxgraph.pid.flow_sensors.coriolis` | 50×50 |  |
+| `mxgraph.pid.flow_sensors.flow_nozzle` | 50×25 |  |
+| `mxgraph.pid.flow_sensors.flume` | 50×50 |  |
+| `mxgraph.pid.flow_sensors.magnetic` | 50×50 |  |
+| `mxgraph.pid.flow_sensors.pitot_tube` | 50×50 |  |
+| `mxgraph.pid.flow_sensors.positive_displacement` | 50×30 |  |
+| `mxgraph.pid.flow_sensors.rotameter` | 75×50 |  |
+| `mxgraph.pid.flow_sensors.target` | 50×50 |  |
+| `mxgraph.pid.flow_sensors.turbine` | 50×50 |  |
+| `mxgraph.pid.flow_sensors.ultrasonic` | 50×50 |  |
+| `mxgraph.pid.flow_sensors.v-cone` | 50×50 |  |
+| `mxgraph.pid.flow_sensors.venturi` | 50×40 |  |
+| `mxgraph.pid.flow_sensors.vortex` | 50×50 |  |
+| `mxgraph.pid.flow_sensors.wedge` | 50×50 |  |
+| `mxgraph.pid.flow_sensors.weir` | 50×50 |  |
+| `mxgraph.pid.heat_exchangers.condenser` | 80×80 |  |
+| `mxgraph.pid.heat_exchangers.double_pipe_heat_exchanger` | 90×50 |  |
+| `mxgraph.pid.heat_exchangers.electric_heater` | 140×100 |  |
+| `mxgraph.pid.heat_exchangers.fixed_straight_tubes_heat_exchanger` | 100×40 |  |
+| `mxgraph.pid.heat_exchangers.hairpin_exchanger` | 92×30 |  |
+| `mxgraph.pid.heat_exchangers.heat_exchanger_(coil_tubes)` | 100×30 |  |
+| `mxgraph.pid.heat_exchangers.heat_exchanger_(finned_tubes,_fan)` | 100×100 |  |
+| `mxgraph.pid.heat_exchangers.heat_exchanger_(finned_tubes)` | 100×30 |  |
+| `mxgraph.pid.heat_exchangers.heat_exchanger_(floating_head)` | 100×30 |  |
+| `mxgraph.pid.heat_exchangers.heat_exchanger_(plate)` | 100×30 |  |
+| `mxgraph.pid.heat_exchangers.heat_exchanger_(spiral)` | 100×100 |  |
+| `mxgraph.pid.heat_exchangers.heat_exchanger_(straight_tubes)` | 100×30 |  |
+| `mxgraph.pid.heat_exchangers.heater` | 80×80 |  |
+| `mxgraph.pid.heat_exchangers.plate_and_frame_heat_exchanger` | 100×120 |  |
+| `mxgraph.pid.heat_exchangers.reboiler` | 92×33 |  |
+| `mxgraph.pid.heat_exchangers.shell_and_tube_heat_exchanger_1` | 60×60 |  |
+| `mxgraph.pid.heat_exchangers.shell_and_tube_heat_exchanger_2` | 60×60 |  |
+| `mxgraph.pid.heat_exchangers.shell_and_tube_heat_exchanger_3` | 60×60 |  |
+| `mxgraph.pid.heat_exchangers.single_pass_heat_exchanger` | 90×30 |  |
+| `mxgraph.pid.heat_exchangers.spiral_heat_exchanger` | 100×95 |  |
+| `mxgraph.pid.heat_exchangers.thin-film_evaporator` | 80×120 |  |
+| `mxgraph.pid.heat_exchangers.u_shaped_tubes_heat_exchanger` | 100×30 |  |
+| `mxgraph.pid.heat_exchangers.u-tube_heat_exchanger` | 92×30 |  |
+| `mxgraph.pid.instruments.analyzer_transmitter` | 96×96 |  |
+| `mxgraph.pid.instruments.flow_element` | 96×96 |  |
+| `mxgraph.pid.instruments.flow_indicator` | 96×96 |  |
+| `mxgraph.pid.instruments.flow_recorder` | 96×96 |  |
+| `mxgraph.pid.instruments.flow_transmitter` | 96×96 |  |
+| `mxgraph.pid.instruments.level_alarm` | 96×96 |  |
+| `mxgraph.pid.instruments.level_controller_1` | 96×96 |  |
+| `mxgraph.pid.instruments.level_controller_2` | 96×96 |  |
+| `mxgraph.pid.instruments.level_gauge` | 96×96 |  |
+| `mxgraph.pid.instruments.level_indicator` | 96×96 |  |
+| `mxgraph.pid.instruments.level_recorder` | 96×96 |  |
+| `mxgraph.pid.instruments.level_transmitter_1` | 96×96 |  |
+| `mxgraph.pid.instruments.level_transmitter_2` | 96×96 |  |
+| `mxgraph.pid.instruments.pressure_controller` | 96×96 |  |
+| `mxgraph.pid.instruments.pressure_indicating_controller` | 96×96 |  |
+| `mxgraph.pid.instruments.pressure_indicator` | 96×96 |  |
+| `mxgraph.pid.instruments.pressure_recorder` | 96×96 |  |
+| `mxgraph.pid.instruments.pressure_recording_controller` | 96×96 |  |
+| `mxgraph.pid.instruments.pressure_transmitter_1` | 96×96 |  |
+| `mxgraph.pid.instruments.pressure_transmitter_2` | 96×96 |  |
+| `mxgraph.pid.instruments.temperature_element` | 96×96 |  |
+| `mxgraph.pid.instruments.temperature_indicator` | 96×96 |  |
+| `mxgraph.pid.instruments.temperature_recorder` | 96×96 |  |
+| `mxgraph.pid.instruments.temperature_transmitter` | 96×96 |  |
+| `mxgraph.pid.misc.aerator_with_sparger` | 35×97 |  |
+| `mxgraph.pid.misc.air_cooler` | 70×20 |  |
+| `mxgraph.pid.misc.air_filter` | 40×65 |  |
+| `mxgraph.pid.misc.air_separator` | 66×106 |  |
+| `mxgraph.pid.misc.back_draft_damper` | 62×32 |  |
+| `mxgraph.pid.misc.back_draft_damper2` | 62×32 |  |
+| `mxgraph.pid.misc.bag_filling_machine` | 80×100 |  |
+| `mxgraph.pid.misc.bag_filling_machine2` | 80×100 |  |
+| `mxgraph.pid.misc.belt_skimmer` | 70×98 |  |
+| `mxgraph.pid.misc.bin` | 100×65 |  |
+| `mxgraph.pid.misc.boiler_(dome,_hot_liquid)` | 100×120 |  |
+| `mxgraph.pid.misc.boiler_(dome)` | 100×120 |  |
+| `mxgraph.pid.misc.box_truck` | 120×80 |  |
+| `mxgraph.pid.misc.bucket_elevator` | 65×200 |  |
+| `mxgraph.pid.misc.chiller` | 157×116 |  |
+| `mxgraph.pid.misc.combustion_chamber` | 130×100 |  |
+| `mxgraph.pid.misc.conveyor` | 200×60 |  |
+| `mxgraph.pid.misc.conveyor_(belt,_closed,_reversible)` | 240×80 |  |
+| `mxgraph.pid.misc.conveyor_(belt,_closed,_reversible)2` | 240×80 |  |
+| `mxgraph.pid.misc.conveyor_(belt,_closed)` | 240×80 |  |
+| `mxgraph.pid.misc.conveyor_(belt)` | 200×50 |  |
+| `mxgraph.pid.misc.conveyor_(chain,_closed)` | 240×80 |  |
+| `mxgraph.pid.misc.conveyor_(screw,_closed)` | 220×80 |  |
+| `mxgraph.pid.misc.conveyor_(vibrating,_closed)` | 240×80 |  |
+| `mxgraph.pid.misc.conveyor_(vibrating,_closed)2` | 240×80 |  |
+| `mxgraph.pid.misc.conveyor2` | 200×60 |  |
+| `mxgraph.pid.misc.cooler` | 85×90 |  |
+| `mxgraph.pid.misc.cooling_tower` | 100×120 |  |
+| `mxgraph.pid.misc.cooling_tower_(dry,_forced_draught)` | 100×120 |  |
+| `mxgraph.pid.misc.cooling_tower_(dry,_induced_draught)` | 100×120 |  |
+| `mxgraph.pid.misc.cooling_tower_(dry,_natural_draught)` | 100×120 |  |
+| `mxgraph.pid.misc.cooling_tower_(wet-dry,_natural_draught)` | 100×120 |  |
+| `mxgraph.pid.misc.cooling_tower_(wet,_forced_draught)` | 100×120 |  |
+| `mxgraph.pid.misc.cooling_tower_(wet,_induced_draught)` | 100×120 |  |
+| `mxgraph.pid.misc.cooling_tower_(wet,_natural_draught)` | 100×120 |  |
+| `mxgraph.pid.misc.covered_gas_vent` | 80×100 |  |
+| `mxgraph.pid.misc.crane` | 100×100 |  |
+| `mxgraph.pid.misc.curved_gas_vent` | 30×70 |  |
+| `mxgraph.pid.misc.cyclone` | 100×80 |  |
+| `mxgraph.pid.misc.dryer` | 80×100 |  |
+| `mxgraph.pid.misc.elevator_(bucket,_z-form)` | 430×250 |  |
+| `mxgraph.pid.misc.elevator_(bucket)` | 160×250 |  |
+| `mxgraph.pid.misc.fan` | 100×100 |  |
+| `mxgraph.pid.misc.fan_2` | 58×8 |  |
+| `mxgraph.pid.misc.filter` | 100×100 |  |
+| `mxgraph.pid.misc.filter_2` | 100×100 |  |
+| `mxgraph.pid.misc.firing_system,_burner` | 100×100 |  |
+| `mxgraph.pid.misc.flame_arrestor` | 100×40 |  |
+| `mxgraph.pid.misc.flexible_pipe` | 60×16 |  |
+| `mxgraph.pid.misc.forced_flow_air_cooler` | 70×30 |  |
+| `mxgraph.pid.misc.forklift_(manual)` | 140×100 |  |
+| `mxgraph.pid.misc.forklift_(truck)` | 140×100 |  |
+| `mxgraph.pid.misc.funnel` | 40×80 |  |
+| `mxgraph.pid.misc.gas_flare` | 60×100 |  |
+| `mxgraph.pid.misc.induced_flow_air_cooler` | 93×30 |  |
+| `mxgraph.pid.misc.industrial_truck` | 120×20 |  |
+| `mxgraph.pid.misc.lift` | 100×100 |  |
+| `mxgraph.pid.misc.loading_arm` | 120×80 |  |
+| `mxgraph.pid.misc.mixer` | 80×100 |  |
+| `mxgraph.pid.misc.palletizer` | 80×100 |  |
+| `mxgraph.pid.misc.palletizer2` | 80×100 |  |
+| `mxgraph.pid.misc.protective_palette_covering` | 80×100 |  |
+| `mxgraph.pid.misc.roller_conveyor` | 160×20 |  |
+| `mxgraph.pid.misc.rolling_bin` | 100×65 |  |
+| `mxgraph.pid.misc.rotary_screen` | 100×65 |  |
+| `mxgraph.pid.misc.screening_device,_sieve,_strainer` | 80×120 |  |
+| `mxgraph.pid.misc.screening_device,_sieve,_strainer_(basket_reel)` | 80×180 |  |
+| `mxgraph.pid.misc.screening_device,_sieve,_strainer_(coarse_and_fine_screens)` | 80×120 |  |
+| `mxgraph.pid.misc.screening_device,_sieve,_strainer_(coarse_rake)` | 80×120 |  |
+| `mxgraph.pid.misc.screening_device,_sieve,_strainer_(fine_rake)` | 80×120 |  |
+| `mxgraph.pid.misc.screening_device,_sieve,_strainer_(rotating_drum)` | 80×120 |  |
+| `mxgraph.pid.misc.screening_device,_sieve,_strainer_(vibrating)` | 80×120 |  |
+| `mxgraph.pid.misc.screening_device,_sieve,_strainer_(vibrating)2` | 80×120 |  |
+| `mxgraph.pid.misc.ship` | 105×60 |  |
+| `mxgraph.pid.misc.silencer` | 100×30 |  |
+| `mxgraph.pid.misc.spray_cooler` | 100×120 |  |
+| `mxgraph.pid.misc.spraying_device` | 60×20 |  |
+| `mxgraph.pid.misc.stack,_chimney` | 60×100 |  |
+| `mxgraph.pid.misc.steam_trap` | 52×52 |  |
+| `mxgraph.pid.misc.steam_trap2` | 52×52 |  |
+| `mxgraph.pid.misc.tank_car,_tank_wagon` | 127×80 |  |
+| `mxgraph.pid.misc.viewing_glass` | 80×50 |  |
+| `mxgraph.pid.mixers.in-line_rotary_mixer` | 190×100 |  |
+| `mxgraph.pid.mixers.in-line_static_mixer` | 100×100 |  |
+| `mxgraph.pid.mixers.kneader` | 170×100 |  |
+| `mxgraph.pid.mixers.mixing_path` | 260×100 |  |
+| `mxgraph.pid.piping.basket_strainer` | 50×45 |  |
+| `mxgraph.pid.piping.blank` | 20×60 |  |
+| `mxgraph.pid.piping.blank2` | 20×60 |  |
+| `mxgraph.pid.piping.breather` | 50×30 |  |
+| `mxgraph.pid.piping.cap` | 10×20 |  |
+| `mxgraph.pid.piping.closed_figure_8_blind` | 20×80 |  |
+| `mxgraph.pid.piping.closed_figure_8_blind2` | 20×80 |  |
+| `mxgraph.pid.piping.concentric_reducer` | 20×20 |  |
+| `mxgraph.pid.piping.cone_strainer` | 30×30 |  |
+| `mxgraph.pid.piping.damper` | 50×20 |  |
+| `mxgraph.pid.piping.damper2` | 50×20 |  |
+| `mxgraph.pid.piping.desuper_heater` | 50×50 |  |
+| `mxgraph.pid.piping.detonation_arrestor` | 50×19 |  |
+| `mxgraph.pid.piping.diverter_valve` | 50×34 |  |
+| `mxgraph.pid.piping.double_flange` | 5×20 |  |
+| `mxgraph.pid.piping.duplex_strainer` | 50×40 |  |
+| `mxgraph.pid.piping.eccentric_reducer` | 20×15 |  |
+| `mxgraph.pid.piping.excess_flow_valve` | 50×25 |  |
+| `mxgraph.pid.piping.excess_flow_valve2` | 50×25 |  |
+| `mxgraph.pid.piping.exhaust_head` | 50×40 |  |
+| `mxgraph.pid.piping.expansion_joint` | 50×20 |  |
+| `mxgraph.pid.piping.flame_arrestor` | 50×19 |  |
+| `mxgraph.pid.piping.flange` | 5×20 |  |
+| `mxgraph.pid.piping.flange_in` | 9×20 |  |
+| `mxgraph.pid.piping.flexible_hose` | 50×23 |  |
+| `mxgraph.pid.piping.hose_connection` | 20×20 |  |
+| `mxgraph.pid.piping.in-line_mixer` | 50×10 |  |
+| `mxgraph.pid.piping.in-line_silencer` | 50×19 |  |
+| `mxgraph.pid.piping.open_figure_8_blind` | 20×80 |  |
+| `mxgraph.pid.piping.open_figure_8_blind2` | 20×80 |  |
+| `mxgraph.pid.piping.orifice_(quick_change)` | 10×50 |  |
+| `mxgraph.pid.piping.plug` | 10×10 |  |
+| `mxgraph.pid.piping.pulsation_dampener` | 50×150 |  |
+| `mxgraph.pid.piping.removable_spool` | 50×30 |  |
+| `mxgraph.pid.piping.rotary_valve` | 50×20 |  |
+| `mxgraph.pid.piping.spacer` | 20×60 |  |
+| `mxgraph.pid.piping.steam_trap` | 50×50 |  |
+| `mxgraph.pid.piping.t-type_strainer` | 20×34 |  |
+| `mxgraph.pid.piping.temporary_strainer` | 30×30 |  |
+| `mxgraph.pid.piping.vent_silencer` | 19×80 |  |
+| `mxgraph.pid.piping.welded_connection` | 50×20 |  |
+| `mxgraph.pid.piping.welded_connection2` | 50×20 |  |
+| `mxgraph.pid.piping.y-type_strainer` | 50×34 |  |
+| `mxgraph.pid.pumps_-_din.centrifugal` | 100×100 |  |
+| `mxgraph.pid.pumps_-_din.diaphragm` | 100×100 |  |
+| `mxgraph.pid.pumps_-_din.eccentric_worm` | 100×100 |  |
+| `mxgraph.pid.pumps_-_din.electromagnetic` | 100×100 |  |
+| `mxgraph.pid.pumps_-_din.gear` | 100×100 |  |
+| `mxgraph.pid.pumps_-_din.hydraulic` | 100×100 |  |
+| `mxgraph.pid.pumps_-_din.liquid_jet` | 100×100 |  |
+| `mxgraph.pid.pumps_-_din.reciprocating` | 100×100 |  |
+| `mxgraph.pid.pumps_-_din.rotary_piston` | 100×100 |  |
+| `mxgraph.pid.pumps_-_din.screw` | 100×100 |  |
+| `mxgraph.pid.pumps_-_iso.jet_pump_(liquid)` | 100×100 |  |
+| `mxgraph.pid.pumps_-_iso.pump_(centrifugal)` | 100×100 |  |
+| `mxgraph.pid.pumps_-_iso.pump_(diaphragm)` | 100×100 |  |
+| `mxgraph.pid.pumps_-_iso.pump_(gear)` | 100×100 |  |
+| `mxgraph.pid.pumps_-_iso.pump_(liquid)` | 100×100 |  |
+| `mxgraph.pid.pumps_-_iso.pump_(positive_displacement)` | 100×100 |  |
+| `mxgraph.pid.pumps_-_iso.pump_(progressive_cavity)` | 100×100 |  |
+| `mxgraph.pid.pumps_-_iso.pump_(reciprocating_piston)` | 100×100 |  |
+| `mxgraph.pid.pumps_-_iso.pump_(screw)` | 100×100 |  |
+| `mxgraph.pid.pumps.cavity_pump` | 124×35 |  |
+| `mxgraph.pid.pumps.centrifugal_pump_1` | 70×67 |  |
+| `mxgraph.pid.pumps.centrifugal_pump_2` | 62×77 |  |
+| `mxgraph.pid.pumps.centrifugal_pump_3` | 70×67 |  |
+| `mxgraph.pid.pumps.feed_pump` | 100×40 |  |
+| `mxgraph.pid.pumps.gas_blower` | 72×67 |  |
+| `mxgraph.pid.pumps.gas_compressor` | 100×55 |  |
+| `mxgraph.pid.pumps.gear_pump` | 57×91 |  |
+| `mxgraph.pid.pumps.horizontal_pump` | 155×112 |  |
+| `mxgraph.pid.pumps.injector` | 80×40 |  |
+| `mxgraph.pid.pumps.peristaltic` | 60×69 |  |
+| `mxgraph.pid.pumps.screw_pump` | 70×67 |  |
+| `mxgraph.pid.pumps.screw_pump_2` | 124×40 |  |
+| `mxgraph.pid.pumps.submersible_pump` | 104×74 |  |
+| `mxgraph.pid.pumps.sump_pump` | 104×187 |  |
+| `mxgraph.pid.pumps.turbine` | 98×60 |  |
+| `mxgraph.pid.pumps.vacuum_pump` | 99×50 |  |
+| `mxgraph.pid.pumps.vertical_pump` | 120×147 |  |
+| `mxgraph.pid.separators.gravity_separator,_settling_chamber` | 80×120 |  |
+| `mxgraph.pid.separators.gravity_separator,_settling_chamber2` | 80×120 |  |
+| `mxgraph.pid.separators.impact_separator` | 80×120 |  |
+| `mxgraph.pid.separators.separator_(cyclone)` | 80×120 |  |
+| `mxgraph.pid.separators.separator_(cyclone)2` | 80×120 |  |
+| `mxgraph.pid.separators.separator_(electromagnetic)` | 80×120 |  |
+| `mxgraph.pid.separators.separator_(electrostatic_precipitator,_wet)` | 80×120 |  |
+| `mxgraph.pid.separators.separator_(electrostatic_precipitator)` | 80×120 |  |
+| `mxgraph.pid.separators.separator_(permanent_magnet)` | 80×120 |  |
+| `mxgraph.pid.separators.separator_(permanent_magnet)2` | 80×120 |  |
+| `mxgraph.pid.separators.separator_(venturi_scrubber)` | 80×120 |  |
+| `mxgraph.pid.separators.separator_(wet_scrubber)` | 80×120 |  |
+| `mxgraph.pid.separators.separator_(wet_scrubber)2` | 80×120 |  |
+| `mxgraph.pid.separators.separator,_sifter` | 80×120 |  |
+| `mxgraph.pid.separators.separator,_sifter2` | 80×120 |  |
+| `mxgraph.pid.separators.solidifier_(closed)` | 80×120 |  |
+| `mxgraph.pid.separators.solidifier_(open)` | 80×120 |  |
+| `mxgraph.pid.separators.spray_scrubber` | 80×120 |  |
+| `mxgraph.pid.shaping_machines.extruder_(piston)` | 110×60 |  |
+| `mxgraph.pid.shaping_machines.extruder_(screw)` | 110×60 |  |
+| `mxgraph.pid.shaping_machines.pelletizing_disc` | 100×60 |  |
+| `mxgraph.pid.shaping_machines.press_(piston)` | 100×60 |  |
+| `mxgraph.pid.shaping_machines.press_(roller)` | 100×60 |  |
+| `mxgraph.pid.shaping_machines.shaping_machine_(horizontal)` | 100×60 |  |
+| `mxgraph.pid.shaping_machines.shaping_machine_(vertical)` | 100×60 |  |
+| `mxgraph.pid.valves.angle` | 79×79 |  |
+| `mxgraph.pid.valves.back_pressure_regulator_1` | 98×94 |  |
+| `mxgraph.pid.valves.back_pressure_regulator_2` | 98×94 |  |
+| `mxgraph.pid.valves.ball_valve` | 98×60 |  |
+| `mxgraph.pid.valves.bleeder_valve_1` | 25×75 |  |
+| `mxgraph.pid.valves.bleeder_valve_2` | 68×72 |  |
+| `mxgraph.pid.valves.butterfly_valve_1` | 98×60 |  |
+| `mxgraph.pid.valves.butterfly_valve_2` | 98×60 |  |
+| `mxgraph.pid.valves.check_valve_1` | 99×62 |  |
+| `mxgraph.pid.valves.check_valve_2` | 99×62 |  |
+| `mxgraph.pid.valves.diaphragm` | 98×60 |  |
+| `mxgraph.pid.valves.four_way_valve` | 98×98 |  |
+| `mxgraph.pid.valves.gate_valve` | 98×60 |  |
+| `mxgraph.pid.valves.gauge` | 65×90 |  |
+| `mxgraph.pid.valves.globe_valve` | 98×60 |  |
+| `mxgraph.pid.valves.hydraulic_valve` | 98×89 |  |
+| `mxgraph.pid.valves.knife_valve` | 100×85 |  |
+| `mxgraph.pid.valves.manual_operated_valve` | 98×65 |  |
+| `mxgraph.pid.valves.motor_operated_valve` | 98×89 |  |
+| `mxgraph.pid.valves.needle` | 98×60 |  |
+| `mxgraph.pid.valves.orifice` | 50×60 |  |
+| `mxgraph.pid.valves.pinch_valve` | 98×60 |  |
+| `mxgraph.pid.valves.plug` | 98×60 |  |
+| `mxgraph.pid.valves.pneumatic_operated` | 98×79 |  |
+| `mxgraph.pid.valves.pneumatic_operated_butterfly_valve` | 60×80 |  |
+| `mxgraph.pid.valves.pressure_reducing_valve` | 70×60 |  |
+| `mxgraph.pid.valves.relief_prv` | 40×59 |  |
+| `mxgraph.pid.valves.rotameter` | 75×60 |  |
+| `mxgraph.pid.valves.safety_psv_1` | 56×95 |  |
+| `mxgraph.pid.valves.safety_psv_2` | 56×95 |  |
+| `mxgraph.pid.valves.solenoid_valve_closed` | 98×89 |  |
+| `mxgraph.pid.valves.three-way_valve` | 98×79 |  |
+| `mxgraph.pid.vessels.bag` | 50×95 |  |
+| `mxgraph.pid.vessels.bag_(iso)` | 50×95 |  |
+| `mxgraph.pid.vessels.barrel,_drum` | 62×100 |  |
+| `mxgraph.pid.vessels.barrel,_drum_(iso)` | 60×100 |  |
+| `mxgraph.pid.vessels.bunker_(conical_bottom)` | 100×100 |  |
+| `mxgraph.pid.vessels.concrete_tank` | 160×75 |  |
+| `mxgraph.pid.vessels.container_(solids,_liquids,_gases)` | 150×50 |  |
+| `mxgraph.pid.vessels.container,_tank,_cistern` | 100×70 |  |
+| `mxgraph.pid.vessels.container,_tank,_cistern_(boot)` | 100×80 |  |
+| `mxgraph.pid.vessels.container,_tank,_cistern_(bottom)` | 100×100 |  |
+| `mxgraph.pid.vessels.container,_tank,_cistern_(legs)` | 100×105 |  |
+| `mxgraph.pid.vessels.double_concrete_tank` | 160×75 |  |
+| `mxgraph.pid.vessels.drum_or_condenser` | 92×30 |  |
+| `mxgraph.pid.vessels.forced-draft_cooling_tower` | 99×99 |  |
+| `mxgraph.pid.vessels.furnace` | 80×99 |  |
+| `mxgraph.pid.vessels.furnace2` | 80×100 |  |
+| `mxgraph.pid.vessels.gas_bottle` | 35×95 |  |
+| `mxgraph.pid.vessels.gas_holder` | 70×95 |  |
+| `mxgraph.pid.vessels.half_pipe_mixing_vessel` | 100×173 |  |
+| `mxgraph.pid.vessels.induced-draft_cooling_tower` | 98×70 |  |
+| `mxgraph.pid.vessels.jacketed_mixing_vessel` | 100×175 |  |
+| `mxgraph.pid.vessels.knock-out_drum` | 51×95 |  |
+| `mxgraph.pid.vessels.mixer` | 20×88 |  |
+| `mxgraph.pid.vessels.mixing_reactor` | 50×96 |  |
+| `mxgraph.pid.vessels.open_bulk_storage` | 100×50 |  |
+| `mxgraph.pid.vessels.pressurized_vessel` | 100×200 |  |
+| `mxgraph.pid.vessels.prop_agitator` | 20×88 |  |
+| `mxgraph.pid.vessels.reactor` | 40×95 |  |
+| `mxgraph.pid.vessels.settling_tank` | 100×80 |  |
+| `mxgraph.pid.vessels.spray_drier` | 100×80 |  |
+| `mxgraph.pid.vessels.storage_sphere` | 80×100 |  |
+| `mxgraph.pid.vessels.tank` | 40×95 |  |
+| `mxgraph.pid.vessels.tank_(boot)` | 100×91 |  |
+| `mxgraph.pid.vessels.tank_(concrete_base)` | 120×91 |  |
+| `mxgraph.pid.vessels.tank_(conical_bottom)` | 100×100 |  |
+| `mxgraph.pid.vessels.tank_(conical_roof_and_bottom)` | 101×150 |  |
+| `mxgraph.pid.vessels.tank_(conical_roof)` | 100×90 |  |
+| `mxgraph.pid.vessels.tank_(covered,_boot)` | 100×85 |  |
+| `mxgraph.pid.vessels.tank_(covered)` | 100×75 |  |
+| `mxgraph.pid.vessels.tank_(dished_roof,_conical_bottom)` | 100×125 |  |
+| `mxgraph.pid.vessels.tank_(dished_roof)` | 100×95 |  |
+| `mxgraph.pid.vessels.tank_(false_bottom)` | 40×113 |  |
+| `mxgraph.pid.vessels.tank_(floating_roof,_boot)` | 100×80 |  |
+| `mxgraph.pid.vessels.tank_(floating_roof)` | 100×70 |  |
+| `mxgraph.pid.vessels.tank,_vessel` | 100×70 |  |
+| `mxgraph.pid.vessels.tower` | 14×97 |  |
+| `mxgraph.pid.vessels.tower_with_packing` | 14×97 |  |
+| `mxgraph.pid.vessels.turbine_agitator` | 36×93 |  |
+| `mxgraph.pid.vessels.vent_(bent)` | 10×20 |  |
+| `mxgraph.pid.vessels.vent_(cover)` | 10×20 |  |
+| `mxgraph.pid.vessels.vessel_(different_diameters)` | 50×98 |  |
+| `mxgraph.pid.vessels.vessel_(dished_bottom,_surface_indication)` | 40×88 |  |
+| `mxgraph.pid.vessels.vessel_(dished_ends,_brackets)` | 60×95 |  |
+| `mxgraph.pid.vessels.vessel_(dished_ends,_electrical_heating)` | 50×95 |  |
+| `mxgraph.pid.vessels.vessel_(dished_ends,_heating-cooling_jacket)` | 52×95 |  |
+| `mxgraph.pid.vessels.vessel_(dished_ends,_legs)` | 40×123 |  |
+| `mxgraph.pid.vessels.vessel_(dished_ends,_ring)` | 52×95 |  |
+| `mxgraph.pid.vessels.vessel_(dished_ends,_skirts)` | 40×123 |  |
+| `mxgraph.pid.vessels.vessel_(dished_ends,_thermal_insulation)` | 52×95 |  |
+| `mxgraph.pid.vessels.vessel_(dome)` | 95×55 |  |
+| `mxgraph.pid.vessels.vessel_(full-tube_heating-cooling_coil)` | 120×70 |  |
+| `mxgraph.pid.vessels.vessel_(pit)` | 95×55 |  |
+| `mxgraph.pid.vessels.vessel_(semi-tube_heating-cooling_coil)` | 110×70 |  |
 
 ## Usage Example
 
 ```drawio
-<mxfile><diagram id="example" name="Example"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="" style="shape=mxgraph.pid.agitators.agitator,_stirrer;html=1;fillColor=#CCCCCC;strokeColor=#6881B3;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="100" y="100" width="60" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
+<mxfile><diagram id="example" name="Example"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="" style="shape=mxgraph.pid.agitators.agitator_(anchor);html=1;fillColor=#CCCCCC;strokeColor=#6881B3;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="100" y="100" width="60" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
 ```

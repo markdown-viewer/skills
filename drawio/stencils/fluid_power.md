@@ -4,252 +4,256 @@ Stencil library: `mxgraph.fluid_power.*`
 
 Total: 246 stencils
 
-- `mxgraph.fluid_power.x10010` (21×14)
-- `mxgraph.fluid_power.x10020` (19×21)
-- `mxgraph.fluid_power.x10030` (18×14)
-- `mxgraph.fluid_power.x10040` (9×13)
-- `mxgraph.fluid_power.x10050` (18×20)
-- `mxgraph.fluid_power.x10060` (31×18)
-- `mxgraph.fluid_power.x10070` (33×19)
-- `mxgraph.fluid_power.x10080` (14×9)
-- `mxgraph.fluid_power.x10090` (14×9)
-- `mxgraph.fluid_power.x10100` (14×9)
-- `mxgraph.fluid_power.x10110` (14×9)
-- `mxgraph.fluid_power.x10120` (14×9)
-- `mxgraph.fluid_power.x10130` (14×9)
-- `mxgraph.fluid_power.x10140` (18×28)
-- `mxgraph.fluid_power.x10150` (18×28)
-- `mxgraph.fluid_power.x10160` (18×28)
-- `mxgraph.fluid_power.x10170` (28×9)
-- `mxgraph.fluid_power.x10180` (28×19)
-- `mxgraph.fluid_power.x10190` (16×19)
-- `mxgraph.fluid_power.x10200` (32×27)
-- `mxgraph.fluid_power.x10210` (63×38)
-- `mxgraph.fluid_power.x10220` (63×37)
-- `mxgraph.fluid_power.x10230` (63×37)
-- `mxgraph.fluid_power.x10240` (77×37)
-- `mxgraph.fluid_power.x10250` (84×72)
-- `mxgraph.fluid_power.x10260` (79×37)
-- `mxgraph.fluid_power.x10270` (80×37)
-- `mxgraph.fluid_power.x10280` (63×37)
-- `mxgraph.fluid_power.x10290` (63×37)
-- `mxgraph.fluid_power.x10300` (100×37)
-- `mxgraph.fluid_power.x10310` (93×37)
-- `mxgraph.fluid_power.x10320` (63×37)
-- `mxgraph.fluid_power.x10330` (65×37)
-- `mxgraph.fluid_power.x10340` (82×37)
-- `mxgraph.fluid_power.x10350` (77×37)
-- `mxgraph.fluid_power.x10360` (111×38)
-- `mxgraph.fluid_power.x10370` (84×37)
-- `mxgraph.fluid_power.x10380` (75×38)
-- `mxgraph.fluid_power.x10390` (109×38)
-- `mxgraph.fluid_power.x10400` (73×38)
-- `mxgraph.fluid_power.x10410` (98×38)
-- `mxgraph.fluid_power.x10420` (121×38)
-- `mxgraph.fluid_power.x10430` (95×37)
-- `mxgraph.fluid_power.x10440` (97×37)
-- `mxgraph.fluid_power.x10441` (97×37)
-- `mxgraph.fluid_power.x10442` (97×37)
-- `mxgraph.fluid_power.x10450` (139×38)
-- `mxgraph.fluid_power.x10460` (93×38)
-- `mxgraph.fluid_power.x10470` (130×37)
-- `mxgraph.fluid_power.x10480` (65×38)
-- `mxgraph.fluid_power.x10490` (63×38)
-- `mxgraph.fluid_power.x10500` (40×38)
-- `mxgraph.fluid_power.x10510` (42×38)
-- `mxgraph.fluid_power.x10520` (65×66)
-- `mxgraph.fluid_power.x10530` (54×38)
-- `mxgraph.fluid_power.x10540` (40×38)
-- `mxgraph.fluid_power.x10550` (42×38)
-- `mxgraph.fluid_power.x10560` (54×38)
-- `mxgraph.fluid_power.x10570` (42×38)
-- `mxgraph.fluid_power.x10580` (130×72)
-- `mxgraph.fluid_power.x10590` (79×103)
-- `mxgraph.fluid_power.x10600` (128×116)
-- `mxgraph.fluid_power.x10610` (40×37)
-- `mxgraph.fluid_power.x10620` (56×28)
-- `mxgraph.fluid_power.x10630` (17×38)
-- `mxgraph.fluid_power.x10640` (37×56)
-- `mxgraph.fluid_power.x10650` (69×37)
-- `mxgraph.fluid_power.x10660` (42×75)
-- `mxgraph.fluid_power.x10670` (37×60)
-- `mxgraph.fluid_power.x10680` (46×56)
-- `mxgraph.fluid_power.x10690` (46×56)
-- `mxgraph.fluid_power.x10700` (9×28)
-- `mxgraph.fluid_power.x10710` (9×37)
-- `mxgraph.fluid_power.x10720` (23×47)
-- `mxgraph.fluid_power.x10730` (37×47)
-- `mxgraph.fluid_power.x10740` (56×28)
-- `mxgraph.fluid_power.x10750` (78×37)
-- `mxgraph.fluid_power.x10760` (84×38)
-- `mxgraph.fluid_power.x10770` (63×37)
-- `mxgraph.fluid_power.x10780` (126×47)
-- `mxgraph.fluid_power.x10790` (126×47)
-- `mxgraph.fluid_power.x10800` (112×37)
-- `mxgraph.fluid_power.x10810` (102×79)
-- `mxgraph.fluid_power.x10820` (114×38)
-- `mxgraph.fluid_power.x10830` (53×37)
-- `mxgraph.fluid_power.x10840` (56×37)
-- `mxgraph.fluid_power.x10850` (67×37)
-- `mxgraph.fluid_power.x10860` (81×38)
-- `mxgraph.fluid_power.x10870` (81×37)
-- `mxgraph.fluid_power.x10880` (70×44)
-- `mxgraph.fluid_power.x10890` (63×38)
-- `mxgraph.fluid_power.x10900` (77×38)
-- `mxgraph.fluid_power.x10910` (91×47)
-- `mxgraph.fluid_power.x10920` (30×55)
-- `mxgraph.fluid_power.x10930` (28×47)
-- `mxgraph.fluid_power.x10940` (28×47)
-- `mxgraph.fluid_power.x10950` (28×47)
-- `mxgraph.fluid_power.x10960` (28×47)
-- `mxgraph.fluid_power.x10970` (28×47)
-- `mxgraph.fluid_power.x10980` (28×47)
-- `mxgraph.fluid_power.x10990` (37×54)
-- `mxgraph.fluid_power.x11000` (37×54)
-- `mxgraph.fluid_power.x11010` (28×47)
-- `mxgraph.fluid_power.x11020` (28×47)
-- `mxgraph.fluid_power.x11030` (28×47)
-- `mxgraph.fluid_power.x11040` (28×47)
-- `mxgraph.fluid_power.x11050` (148×28)
-- `mxgraph.fluid_power.x11060` (148×37)
-- `mxgraph.fluid_power.x11070` (178×58)
-- `mxgraph.fluid_power.x11080` (148×37)
-- `mxgraph.fluid_power.x11090` (148×74)
-- `mxgraph.fluid_power.x11100` (148×74)
-- `mxgraph.fluid_power.x11110` (148×75)
-- `mxgraph.fluid_power.x11120` (148×65)
-- `mxgraph.fluid_power.x11130` (148×74)
-- `mxgraph.fluid_power.x11140` (148×74)
-- `mxgraph.fluid_power.x11150` (178×95)
-- `mxgraph.fluid_power.x11160` (149×139)
-- `mxgraph.fluid_power.x11170` (149×139)
-- `mxgraph.fluid_power.x11180` (163×112)
-- `mxgraph.fluid_power.x11190` (177×223)
-- `mxgraph.fluid_power.x11200` (177×167)
-- `mxgraph.fluid_power.x11210` (149×121)
-- `mxgraph.fluid_power.x11220` (149×130)
-- `mxgraph.fluid_power.x11230` (42×47)
-- `mxgraph.fluid_power.x11240` (49×47)
-- `mxgraph.fluid_power.x11250` (49×47)
-- `mxgraph.fluid_power.x11260` (48×47)
-- `mxgraph.fluid_power.x11270` (42×28)
-- `mxgraph.fluid_power.x11280` (37×28)
-- `mxgraph.fluid_power.x11290` (39×28)
-- `mxgraph.fluid_power.x11300` (144×115)
-- `mxgraph.fluid_power.x11310` (149×133)
-- `mxgraph.fluid_power.x11320` (88×103)
-- `mxgraph.fluid_power.x11330` (88×103)
-- `mxgraph.fluid_power.x11340` (93×103)
-- `mxgraph.fluid_power.x11350` (121×105)
-- `mxgraph.fluid_power.x11360` (149×123)
-- `mxgraph.fluid_power.x11370` (111×84)
-- `mxgraph.fluid_power.x11380` (61×63)
-- `mxgraph.fluid_power.x11390` (42×46)
-- `mxgraph.fluid_power.x11400` (42×47)
-- `mxgraph.fluid_power.x11410` (53×46)
-- `mxgraph.fluid_power.x11420` (42×46)
-- `mxgraph.fluid_power.x11430` (47×37)
-- `mxgraph.fluid_power.x11440` (56×28)
-- `mxgraph.fluid_power.x11450` (56×28)
-- `mxgraph.fluid_power.x11460` (98×37)
-- `mxgraph.fluid_power.x11470` (78×30)
-- `mxgraph.fluid_power.x11480` (75×28)
-- `mxgraph.fluid_power.x11490` (51×33)
-- `mxgraph.fluid_power.x11500` (86×33)
-- `mxgraph.fluid_power.x11510` (74×33)
-- `mxgraph.fluid_power.x11520` (42×33)
-- `mxgraph.fluid_power.x11530` (42×37)
-- `mxgraph.fluid_power.x11540` (56×42)
-- `mxgraph.fluid_power.x11550` (56×28)
-- `mxgraph.fluid_power.x11560` (116×42)
-- `mxgraph.fluid_power.x11570` (82×52)
-- `mxgraph.fluid_power.x11580` (42×28)
-- `mxgraph.fluid_power.x11590` (42×36)
-- `mxgraph.fluid_power.x11600` (38×28)
-- `mxgraph.fluid_power.x11610` (47×19)
-- `mxgraph.fluid_power.x11620` (118×47)
-- `mxgraph.fluid_power.x11630` (46×28)
-- `mxgraph.fluid_power.x11640` (46×28)
-- `mxgraph.fluid_power.x11650` (46×28)
-- `mxgraph.fluid_power.x11660` (46×28)
-- `mxgraph.fluid_power.x11670` (20×7)
-- `mxgraph.fluid_power.x11680` (47×25)
-- `mxgraph.fluid_power.x11690` (9×51)
-- `mxgraph.fluid_power.x11700` (9×51)
-- `mxgraph.fluid_power.x11710` (9×51)
-- `mxgraph.fluid_power.x11720` (9×47)
-- `mxgraph.fluid_power.x11730` (9×47)
-- `mxgraph.fluid_power.x11740` (9×47)
-- `mxgraph.fluid_power.x11750` (35×21)
-- `mxgraph.fluid_power.x11760` (23×24)
-- `mxgraph.fluid_power.x11770` (23×14)
-- `mxgraph.fluid_power.x11780` (14×9)
-- `mxgraph.fluid_power.x11790` (23×14)
-- `mxgraph.fluid_power.x11800` (23×14)
-- `mxgraph.fluid_power.x11810` (23×14)
-- `mxgraph.fluid_power.x11820` (19×28)
-- `mxgraph.fluid_power.x11830` (19×37)
-- `mxgraph.fluid_power.x11840` (50×54)
-- `mxgraph.fluid_power.x11850` (19×28)
-- `mxgraph.fluid_power.x11860` (32×35)
-- `mxgraph.fluid_power.x11870` (19×28)
-- `mxgraph.fluid_power.x11880` (33×28)
-- `mxgraph.fluid_power.x11890` (42×33)
-- `mxgraph.fluid_power.x11900` (19×28)
-- `mxgraph.fluid_power.x11910` (19×38)
-- `mxgraph.fluid_power.x11920` (42×38)
-- `mxgraph.fluid_power.x11930` (28×19)
-- `mxgraph.fluid_power.x11940` (37×19)
-- `mxgraph.fluid_power.x11950` (23×14)
-- `mxgraph.fluid_power.x11960` (28×19)
-- `mxgraph.fluid_power.x11970` (89×32)
-- `mxgraph.fluid_power.x11980` (26×45)
-- `mxgraph.fluid_power.x11990` (26×48)
-- `mxgraph.fluid_power.x12000` (26×45)
-- `mxgraph.fluid_power.x12010` (51×47)
-- `mxgraph.fluid_power.x12020` (47×50)
-- `mxgraph.fluid_power.x12030` (49×63)
-- `mxgraph.fluid_power.x12040` (61×74)
-- `mxgraph.fluid_power.x12050` (94×74)
-- `mxgraph.fluid_power.x12060` (123×74)
-- `mxgraph.fluid_power.x12070` (58×64)
-- `mxgraph.fluid_power.x12080` (78×64)
-- `mxgraph.fluid_power.x12090` (45×26)
-- `mxgraph.fluid_power.x12100` (45×36)
-- `mxgraph.fluid_power.x12110` (45×50)
-- `mxgraph.fluid_power.x12120` (45×26)
-- `mxgraph.fluid_power.x12130` (45×26)
-- `mxgraph.fluid_power.x12140` (45×26)
-- `mxgraph.fluid_power.x12150` (98×64)
-- `mxgraph.fluid_power.x12160_detailed` (158×74)
-- `mxgraph.fluid_power.x12160_simplified` (65×28)
-- `mxgraph.fluid_power.x12170` (81×96)
-- `mxgraph.fluid_power.x12180` (45×39)
-- `mxgraph.fluid_power.x12190` (45×39)
-- `mxgraph.fluid_power.x12200` (45×36)
-- `mxgraph.fluid_power.x12210` (45×36)
-- `mxgraph.fluid_power.x12220` (45×36)
-- `mxgraph.fluid_power.x12230` (45×36)
-- `mxgraph.fluid_power.x12240` (56×26)
-- `mxgraph.fluid_power.x12250` (45×39)
-- `mxgraph.fluid_power.x12260` (26×50)
-- `mxgraph.fluid_power.x12270` (44×50)
-- `mxgraph.fluid_power.x12280` (106×65)
-- `mxgraph.fluid_power.x12290` (26×50)
-- `mxgraph.fluid_power.x12300` (50×26)
-- `mxgraph.fluid_power.x12310` (56×36)
-- `mxgraph.fluid_power.x12320` (19×46)
-- `mxgraph.fluid_power.x12330` (19×46)
-- `mxgraph.fluid_power.x12340` (19×46)
-- `mxgraph.fluid_power.x12350` (19×46)
-- `mxgraph.fluid_power.x12360` (54×56)
-- `mxgraph.fluid_power.x12370` (56×19)
-- `mxgraph.fluid_power.x12380` (56×28)
-- `mxgraph.fluid_power.x12390` (56×51)
-- `mxgraph.fluid_power.x12400` (75×47)
-- `mxgraph.fluid_power.x12410` (102×84)
-- `mxgraph.fluid_power.x12420` (19×28)
-- `mxgraph.fluid_power.x12430` (19×28)
+> These are standard schematic symbols — monochrome by industry convention. Color styles are optional.
+
+| Shape | Size | Required Styles |
+|-------|------|-----------------|
+| `mxgraph.fluid_power.x10010` | 21×14 |  |
+| `mxgraph.fluid_power.x10020` | 19×21 |  |
+| `mxgraph.fluid_power.x10030` | 18×14 |  |
+| `mxgraph.fluid_power.x10040` | 9×13 |  |
+| `mxgraph.fluid_power.x10050` | 18×20 |  |
+| `mxgraph.fluid_power.x10060` | 31×18 |  |
+| `mxgraph.fluid_power.x10070` | 33×19 |  |
+| `mxgraph.fluid_power.x10080` | 14×9 |  |
+| `mxgraph.fluid_power.x10090` | 14×9 |  |
+| `mxgraph.fluid_power.x10100` | 14×9 |  |
+| `mxgraph.fluid_power.x10110` | 14×9 |  |
+| `mxgraph.fluid_power.x10120` | 14×9 |  |
+| `mxgraph.fluid_power.x10130` | 14×9 |  |
+| `mxgraph.fluid_power.x10140` | 18×28 |  |
+| `mxgraph.fluid_power.x10150` | 18×28 |  |
+| `mxgraph.fluid_power.x10160` | 18×28 |  |
+| `mxgraph.fluid_power.x10170` | 28×9 |  |
+| `mxgraph.fluid_power.x10180` | 28×19 |  |
+| `mxgraph.fluid_power.x10190` | 16×19 |  |
+| `mxgraph.fluid_power.x10200` | 32×27 |  |
+| `mxgraph.fluid_power.x10210` | 63×38 |  |
+| `mxgraph.fluid_power.x10220` | 63×37 |  |
+| `mxgraph.fluid_power.x10230` | 63×37 |  |
+| `mxgraph.fluid_power.x10240` | 77×37 |  |
+| `mxgraph.fluid_power.x10250` | 84×72 |  |
+| `mxgraph.fluid_power.x10260` | 79×37 |  |
+| `mxgraph.fluid_power.x10270` | 80×37 |  |
+| `mxgraph.fluid_power.x10280` | 63×37 |  |
+| `mxgraph.fluid_power.x10290` | 63×37 |  |
+| `mxgraph.fluid_power.x10300` | 100×37 |  |
+| `mxgraph.fluid_power.x10310` | 93×37 |  |
+| `mxgraph.fluid_power.x10320` | 63×37 |  |
+| `mxgraph.fluid_power.x10330` | 65×37 |  |
+| `mxgraph.fluid_power.x10340` | 82×37 |  |
+| `mxgraph.fluid_power.x10350` | 77×37 |  |
+| `mxgraph.fluid_power.x10360` | 111×38 |  |
+| `mxgraph.fluid_power.x10370` | 84×37 |  |
+| `mxgraph.fluid_power.x10380` | 75×38 |  |
+| `mxgraph.fluid_power.x10390` | 109×38 |  |
+| `mxgraph.fluid_power.x10400` | 73×38 |  |
+| `mxgraph.fluid_power.x10410` | 98×38 |  |
+| `mxgraph.fluid_power.x10420` | 121×38 |  |
+| `mxgraph.fluid_power.x10430` | 95×37 |  |
+| `mxgraph.fluid_power.x10440` | 97×37 |  |
+| `mxgraph.fluid_power.x10441` | 97×37 |  |
+| `mxgraph.fluid_power.x10442` | 97×37 |  |
+| `mxgraph.fluid_power.x10450` | 139×38 |  |
+| `mxgraph.fluid_power.x10460` | 93×38 |  |
+| `mxgraph.fluid_power.x10470` | 130×37 |  |
+| `mxgraph.fluid_power.x10480` | 65×38 |  |
+| `mxgraph.fluid_power.x10490` | 63×38 |  |
+| `mxgraph.fluid_power.x10500` | 40×38 |  |
+| `mxgraph.fluid_power.x10510` | 42×38 |  |
+| `mxgraph.fluid_power.x10520` | 65×66 |  |
+| `mxgraph.fluid_power.x10530` | 54×38 |  |
+| `mxgraph.fluid_power.x10540` | 40×38 |  |
+| `mxgraph.fluid_power.x10550` | 42×38 |  |
+| `mxgraph.fluid_power.x10560` | 54×38 |  |
+| `mxgraph.fluid_power.x10570` | 42×38 |  |
+| `mxgraph.fluid_power.x10580` | 130×72 |  |
+| `mxgraph.fluid_power.x10590` | 79×103 |  |
+| `mxgraph.fluid_power.x10600` | 128×116 |  |
+| `mxgraph.fluid_power.x10610` | 40×37 |  |
+| `mxgraph.fluid_power.x10620` | 56×28 |  |
+| `mxgraph.fluid_power.x10630` | 17×38 |  |
+| `mxgraph.fluid_power.x10640` | 37×56 |  |
+| `mxgraph.fluid_power.x10650` | 69×37 |  |
+| `mxgraph.fluid_power.x10660` | 42×75 |  |
+| `mxgraph.fluid_power.x10670` | 37×60 |  |
+| `mxgraph.fluid_power.x10680` | 46×56 |  |
+| `mxgraph.fluid_power.x10690` | 46×56 |  |
+| `mxgraph.fluid_power.x10700` | 9×28 |  |
+| `mxgraph.fluid_power.x10710` | 9×37 |  |
+| `mxgraph.fluid_power.x10720` | 23×47 |  |
+| `mxgraph.fluid_power.x10730` | 37×47 |  |
+| `mxgraph.fluid_power.x10740` | 56×28 |  |
+| `mxgraph.fluid_power.x10750` | 78×37 |  |
+| `mxgraph.fluid_power.x10760` | 84×38 |  |
+| `mxgraph.fluid_power.x10770` | 63×37 |  |
+| `mxgraph.fluid_power.x10780` | 126×47 |  |
+| `mxgraph.fluid_power.x10790` | 126×47 |  |
+| `mxgraph.fluid_power.x10800` | 112×37 |  |
+| `mxgraph.fluid_power.x10810` | 102×79 |  |
+| `mxgraph.fluid_power.x10820` | 114×38 |  |
+| `mxgraph.fluid_power.x10830` | 53×37 |  |
+| `mxgraph.fluid_power.x10840` | 56×37 |  |
+| `mxgraph.fluid_power.x10850` | 67×37 |  |
+| `mxgraph.fluid_power.x10860` | 81×38 |  |
+| `mxgraph.fluid_power.x10870` | 81×37 |  |
+| `mxgraph.fluid_power.x10880` | 70×44 |  |
+| `mxgraph.fluid_power.x10890` | 63×38 |  |
+| `mxgraph.fluid_power.x10900` | 77×38 |  |
+| `mxgraph.fluid_power.x10910` | 91×47 |  |
+| `mxgraph.fluid_power.x10920` | 30×55 |  |
+| `mxgraph.fluid_power.x10930` | 28×47 |  |
+| `mxgraph.fluid_power.x10940` | 28×47 |  |
+| `mxgraph.fluid_power.x10950` | 28×47 |  |
+| `mxgraph.fluid_power.x10960` | 28×47 |  |
+| `mxgraph.fluid_power.x10970` | 28×47 |  |
+| `mxgraph.fluid_power.x10980` | 28×47 |  |
+| `mxgraph.fluid_power.x10990` | 37×54 |  |
+| `mxgraph.fluid_power.x11000` | 37×54 |  |
+| `mxgraph.fluid_power.x11010` | 28×47 |  |
+| `mxgraph.fluid_power.x11020` | 28×47 |  |
+| `mxgraph.fluid_power.x11030` | 28×47 |  |
+| `mxgraph.fluid_power.x11040` | 28×47 |  |
+| `mxgraph.fluid_power.x11050` | 148×28 |  |
+| `mxgraph.fluid_power.x11060` | 148×37 |  |
+| `mxgraph.fluid_power.x11070` | 178×58 |  |
+| `mxgraph.fluid_power.x11080` | 148×37 |  |
+| `mxgraph.fluid_power.x11090` | 148×74 |  |
+| `mxgraph.fluid_power.x11100` | 148×74 |  |
+| `mxgraph.fluid_power.x11110` | 148×75 |  |
+| `mxgraph.fluid_power.x11120` | 148×65 |  |
+| `mxgraph.fluid_power.x11130` | 148×74 |  |
+| `mxgraph.fluid_power.x11140` | 148×74 |  |
+| `mxgraph.fluid_power.x11150` | 178×95 |  |
+| `mxgraph.fluid_power.x11160` | 149×139 |  |
+| `mxgraph.fluid_power.x11170` | 149×139 |  |
+| `mxgraph.fluid_power.x11180` | 163×112 |  |
+| `mxgraph.fluid_power.x11190` | 177×223 |  |
+| `mxgraph.fluid_power.x11200` | 177×167 |  |
+| `mxgraph.fluid_power.x11210` | 149×121 |  |
+| `mxgraph.fluid_power.x11220` | 149×130 |  |
+| `mxgraph.fluid_power.x11230` | 42×47 |  |
+| `mxgraph.fluid_power.x11240` | 49×47 |  |
+| `mxgraph.fluid_power.x11250` | 49×47 |  |
+| `mxgraph.fluid_power.x11260` | 48×47 |  |
+| `mxgraph.fluid_power.x11270` | 42×28 |  |
+| `mxgraph.fluid_power.x11280` | 37×28 |  |
+| `mxgraph.fluid_power.x11290` | 39×28 |  |
+| `mxgraph.fluid_power.x11300` | 144×115 |  |
+| `mxgraph.fluid_power.x11310` | 149×133 |  |
+| `mxgraph.fluid_power.x11320` | 88×103 |  |
+| `mxgraph.fluid_power.x11330` | 88×103 |  |
+| `mxgraph.fluid_power.x11340` | 93×103 |  |
+| `mxgraph.fluid_power.x11350` | 121×105 |  |
+| `mxgraph.fluid_power.x11360` | 149×123 |  |
+| `mxgraph.fluid_power.x11370` | 111×84 |  |
+| `mxgraph.fluid_power.x11380` | 61×63 |  |
+| `mxgraph.fluid_power.x11390` | 42×46 |  |
+| `mxgraph.fluid_power.x11400` | 42×47 |  |
+| `mxgraph.fluid_power.x11410` | 53×46 |  |
+| `mxgraph.fluid_power.x11420` | 42×46 |  |
+| `mxgraph.fluid_power.x11430` | 47×37 |  |
+| `mxgraph.fluid_power.x11440` | 56×28 |  |
+| `mxgraph.fluid_power.x11450` | 56×28 |  |
+| `mxgraph.fluid_power.x11460` | 98×37 |  |
+| `mxgraph.fluid_power.x11470` | 78×30 |  |
+| `mxgraph.fluid_power.x11480` | 75×28 |  |
+| `mxgraph.fluid_power.x11490` | 51×33 |  |
+| `mxgraph.fluid_power.x11500` | 86×33 |  |
+| `mxgraph.fluid_power.x11510` | 74×33 |  |
+| `mxgraph.fluid_power.x11520` | 42×33 |  |
+| `mxgraph.fluid_power.x11530` | 42×37 |  |
+| `mxgraph.fluid_power.x11540` | 56×42 |  |
+| `mxgraph.fluid_power.x11550` | 56×28 |  |
+| `mxgraph.fluid_power.x11560` | 116×42 |  |
+| `mxgraph.fluid_power.x11570` | 82×52 |  |
+| `mxgraph.fluid_power.x11580` | 42×28 |  |
+| `mxgraph.fluid_power.x11590` | 42×36 |  |
+| `mxgraph.fluid_power.x11600` | 38×28 |  |
+| `mxgraph.fluid_power.x11610` | 47×19 |  |
+| `mxgraph.fluid_power.x11620` | 118×47 |  |
+| `mxgraph.fluid_power.x11630` | 46×28 |  |
+| `mxgraph.fluid_power.x11640` | 46×28 |  |
+| `mxgraph.fluid_power.x11650` | 46×28 |  |
+| `mxgraph.fluid_power.x11660` | 46×28 |  |
+| `mxgraph.fluid_power.x11670` | 20×7 |  |
+| `mxgraph.fluid_power.x11680` | 47×25 |  |
+| `mxgraph.fluid_power.x11690` | 9×51 |  |
+| `mxgraph.fluid_power.x11700` | 9×51 |  |
+| `mxgraph.fluid_power.x11710` | 9×51 |  |
+| `mxgraph.fluid_power.x11720` | 9×47 |  |
+| `mxgraph.fluid_power.x11730` | 9×47 |  |
+| `mxgraph.fluid_power.x11740` | 9×47 |  |
+| `mxgraph.fluid_power.x11750` | 35×21 |  |
+| `mxgraph.fluid_power.x11760` | 23×24 |  |
+| `mxgraph.fluid_power.x11770` | 23×14 |  |
+| `mxgraph.fluid_power.x11780` | 14×9 |  |
+| `mxgraph.fluid_power.x11790` | 23×14 |  |
+| `mxgraph.fluid_power.x11800` | 23×14 |  |
+| `mxgraph.fluid_power.x11810` | 23×14 |  |
+| `mxgraph.fluid_power.x11820` | 19×28 |  |
+| `mxgraph.fluid_power.x11830` | 19×37 |  |
+| `mxgraph.fluid_power.x11840` | 50×54 |  |
+| `mxgraph.fluid_power.x11850` | 19×28 |  |
+| `mxgraph.fluid_power.x11860` | 32×35 |  |
+| `mxgraph.fluid_power.x11870` | 19×28 |  |
+| `mxgraph.fluid_power.x11880` | 33×28 |  |
+| `mxgraph.fluid_power.x11890` | 42×33 |  |
+| `mxgraph.fluid_power.x11900` | 19×28 |  |
+| `mxgraph.fluid_power.x11910` | 19×38 |  |
+| `mxgraph.fluid_power.x11920` | 42×38 |  |
+| `mxgraph.fluid_power.x11930` | 28×19 |  |
+| `mxgraph.fluid_power.x11940` | 37×19 |  |
+| `mxgraph.fluid_power.x11950` | 23×14 |  |
+| `mxgraph.fluid_power.x11960` | 28×19 |  |
+| `mxgraph.fluid_power.x11970` | 89×32 |  |
+| `mxgraph.fluid_power.x11980` | 26×45 |  |
+| `mxgraph.fluid_power.x11990` | 26×48 |  |
+| `mxgraph.fluid_power.x12000` | 26×45 |  |
+| `mxgraph.fluid_power.x12010` | 51×47 |  |
+| `mxgraph.fluid_power.x12020` | 47×50 |  |
+| `mxgraph.fluid_power.x12030` | 49×63 |  |
+| `mxgraph.fluid_power.x12040` | 61×74 |  |
+| `mxgraph.fluid_power.x12050` | 94×74 |  |
+| `mxgraph.fluid_power.x12060` | 123×74 |  |
+| `mxgraph.fluid_power.x12070` | 58×64 |  |
+| `mxgraph.fluid_power.x12080` | 78×64 |  |
+| `mxgraph.fluid_power.x12090` | 45×26 |  |
+| `mxgraph.fluid_power.x12100` | 45×36 |  |
+| `mxgraph.fluid_power.x12110` | 45×50 |  |
+| `mxgraph.fluid_power.x12120` | 45×26 |  |
+| `mxgraph.fluid_power.x12130` | 45×26 |  |
+| `mxgraph.fluid_power.x12140` | 45×26 |  |
+| `mxgraph.fluid_power.x12150` | 98×64 |  |
+| `mxgraph.fluid_power.x12160_detailed` | 158×74 |  |
+| `mxgraph.fluid_power.x12160_simplified` | 65×28 |  |
+| `mxgraph.fluid_power.x12170` | 81×96 |  |
+| `mxgraph.fluid_power.x12180` | 45×39 |  |
+| `mxgraph.fluid_power.x12190` | 45×39 |  |
+| `mxgraph.fluid_power.x12200` | 45×36 |  |
+| `mxgraph.fluid_power.x12210` | 45×36 |  |
+| `mxgraph.fluid_power.x12220` | 45×36 |  |
+| `mxgraph.fluid_power.x12230` | 45×36 |  |
+| `mxgraph.fluid_power.x12240` | 56×26 |  |
+| `mxgraph.fluid_power.x12250` | 45×39 |  |
+| `mxgraph.fluid_power.x12260` | 26×50 |  |
+| `mxgraph.fluid_power.x12270` | 44×50 |  |
+| `mxgraph.fluid_power.x12280` | 106×65 |  |
+| `mxgraph.fluid_power.x12290` | 26×50 |  |
+| `mxgraph.fluid_power.x12300` | 50×26 |  |
+| `mxgraph.fluid_power.x12310` | 56×36 |  |
+| `mxgraph.fluid_power.x12320` | 19×46 |  |
+| `mxgraph.fluid_power.x12330` | 19×46 |  |
+| `mxgraph.fluid_power.x12340` | 19×46 |  |
+| `mxgraph.fluid_power.x12350` | 19×46 |  |
+| `mxgraph.fluid_power.x12360` | 54×56 |  |
+| `mxgraph.fluid_power.x12370` | 56×19 |  |
+| `mxgraph.fluid_power.x12380` | 56×28 |  |
+| `mxgraph.fluid_power.x12390` | 56×51 |  |
+| `mxgraph.fluid_power.x12400` | 75×47 |  |
+| `mxgraph.fluid_power.x12410` | 102×84 |  |
+| `mxgraph.fluid_power.x12420` | 19×28 |  |
+| `mxgraph.fluid_power.x12430` | 19×28 |  |
 
 ## Usage Example
 

@@ -4,83 +4,98 @@ Shows a Citrix Virtual Apps and Desktops infrastructure with NetScaler Gateway.
 
 ## Key Elements
 
-- **NetScaler Gateway**: `shape=mxgraph.citrix.netscaler_gateway`
-- **Delivery Controller**: `shape=mxgraph.citrix2.delivery_controller`
-- **StoreFront**: `shape=mxgraph.citrix2.storefront`
-- **VDA (Virtual Delivery Agent)**: `shape=mxgraph.citrix2.vda`
-- **XenServer**: `shape=mxgraph.citrix.xenserver`
-- **License Server**: `shape=mxgraph.citrix.license_server`
+- **NetScaler Gateway**: `shape=mxgraph.citrix2.netscaler_gateway` (100×89)
+- **StoreFront**: `shape=mxgraph.citrix2.storefront` (100×86)
+- **Delivery Controller**: `shape=mxgraph.citrix2.delivery_controller` (100×100)
+- **VDA (Virtual Delivery Agent)**: `shape=mxgraph.citrix2.vda` (100×82)
+- **Cloud Connector**: `shape=mxgraph.citrix2.cloud_connector` (100×78)
+- **XenServer Hypervisor**: `shape=mxgraph.citrix2.hypervisor_xenserver` (100×62)
+- **Director**: `shape=mxgraph.citrix2.director` (100×86)
+- **License Server**: `shape=mxgraph.citrix2.citrix_license_server` (100×72)
+- **Site Database**: `shape=mxgraph.citrix2.site_database` (91×100)
+- **External Users**: `shape=mxgraph.citrix2.external_users` (98×101)
+- **Laptop**: `shape=mxgraph.citrix2.laptop` (100×77)
+- **Firewall**: `shape=mxgraph.citrix2.firewall` (100×100)
 
-## Citrix Architecture Components
+## Citrix Style
 
-| Component | Icon | Purpose |
+| Property | Value | Description |
 |-----------|------|---------|
-| NetScaler | `mxgraph.citrix.netscaler_gateway` | Load balancing, SSL VPN |
-| StoreFront | `mxgraph.citrix2.storefront` | App/desktop aggregation |
-| Delivery Controller | `mxgraph.citrix2.delivery_controller` | Broker sessions |
-| VDA | `mxgraph.citrix2.vda` | Virtual desktop agent |
-| Director | `mxgraph.citrix2.director` | Monitoring |
+| fillColor | `#000000` | Black (citrix2 standard) |
+| strokeColor | `none` | No outline |
+| gradientColor | `none` | No gradient |
+| aspect | `fixed` | Maintain aspect ratio |
+| Extra props | `sketch=0;outlineConnect=0;pointerEvents=1;` | citrix2 required |
+
+**Recommended colors:** `#452170` (purple) / `#0054A6` (blue) / `#00AEEF` (cyan) / `#95C93F` (green)
+
+**Zone backgrounds:** Color-coded zones with `strokeColor=none;opacity=80;verticalAlign=top`:
+- DMZ / External: `fillColor=#f8cecc` (red)
+- Internal Network: `fillColor=#fff2cc` (gold)
+- Server Farm: `fillColor=#EDEDED` (gray)
+- Cloud: `fillColor=#d5e8d4` (green)
+
+**Edge style:** `endArrow=none;endFill=0;strokeWidth=2` — bidirectional, no arrows.
 
 ## Example
 
-Citrix Virtual Apps and Desktops deployment:
+Citrix Virtual Apps and Desktops deployment with DMZ, internal network, and data center zones:
 
 ```drawio
-<mxfile><diagram id="citrix-network" name="Citrix"><mxGraphModel dx="1000" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="900" math="0" shadow="0"><root><mxCell id="0"/><mxCell id="1" parent="0"/>
-  <mxCell id="zone-users" value="External Users" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#d5e8d4;opacity=60;fontSize=14;fontColor=#23445D;verticalAlign=top;fontStyle=1;" parent="1" vertex="1"><mxGeometry x="40" y="40" width="200" height="160" as="geometry"/></mxCell>
-  <mxCell id="zone-dmz" value="DMZ" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#fff2cc;opacity=60;fontSize=14;fontColor=#23445D;verticalAlign=top;fontStyle=1;" parent="1" vertex="1"><mxGeometry x="300" y="40" width="200" height="160" as="geometry"/></mxCell>
-  <mxCell id="zone-infra" value="Citrix Infrastructure" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#dae8fc;opacity=60;fontSize=14;fontColor=#23445D;verticalAlign=top;fontStyle=1;" parent="1" vertex="1"><mxGeometry x="560" y="40" width="340" height="300" as="geometry"/></mxCell>
-  <mxCell id="zone-vda" value="Virtual Desktops" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#e1d5e7;opacity=60;fontSize=14;fontColor=#23445D;verticalAlign=top;fontStyle=1;" parent="1" vertex="1"><mxGeometry x="560" y="380" width="340" height="160" as="geometry"/></mxCell>
-  <mxCell id="zone-backend" value="Backend Services" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#f8cecc;opacity=60;fontSize=14;fontColor=#23445D;verticalAlign=top;fontStyle=1;" parent="1" vertex="1"><mxGeometry x="40" y="380" width="460" height="160" as="geometry"/></mxCell>
-  <mxCell id="internet" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#23445D;fillColor=#ffffff;" parent="1" vertex="1"><mxGeometry x="250" y="85" width="80" height="50" as="geometry"/></mxCell>
-  <mxCell id="user-laptop" value="" style="shape=mxgraph.citrix.laptop_1;html=1;fillColor=#6D9C36;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="60" y="80" width="55" height="40" as="geometry"/></mxCell>
-  <mxCell id="user-mobile" value="" style="shape=mxgraph.citrix.cell_phone;html=1;fillColor=#6D9C36;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="130" y="75" width="30" height="50" as="geometry"/></mxCell>
-  <mxCell id="user-thin" value="" style="shape=mxgraph.citrix2.thin_client;html=1;fillColor=#6D9C36;strokeColor=none;" parent="1" vertex="1"><mxGeometry x="60" y="140" width="50" height="40" as="geometry"/></mxCell>
-  <mxCell id="user-home" value="" style="shape=mxgraph.citrix.home_office;html=1;fillColor=#6D9C36;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="130" y="135" width="55" height="50" as="geometry"/></mxCell>
-  <mxCell id="netscaler" value="" style="shape=mxgraph.citrix.netscaler_gateway;html=1;fillColor=#F6921E;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="360" y="80" width="80" height="60" as="geometry"/></mxCell>
-  <mxCell id="storefront1" value="" style="shape=mxgraph.citrix2.storefront;html=1;fillColor=#036897;strokeColor=none;" parent="1" vertex="1"><mxGeometry x="590" y="80" width="50" height="50" as="geometry"/></mxCell>
-  <mxCell id="storefront2" value="" style="shape=mxgraph.citrix2.storefront;html=1;fillColor=#036897;strokeColor=none;" parent="1" vertex="1"><mxGeometry x="660" y="80" width="50" height="50" as="geometry"/></mxCell>
-  <mxCell id="controller1" value="" style="shape=mxgraph.citrix2.delivery_controller;html=1;fillColor=#036897;strokeColor=none;" parent="1" vertex="1"><mxGeometry x="590" y="170" width="50" height="50" as="geometry"/></mxCell>
-  <mxCell id="controller2" value="" style="shape=mxgraph.citrix2.delivery_controller;html=1;fillColor=#036897;strokeColor=none;" parent="1" vertex="1"><mxGeometry x="660" y="170" width="50" height="50" as="geometry"/></mxCell>
-  <mxCell id="director" value="" style="shape=mxgraph.citrix2.director;html=1;fillColor=#036897;strokeColor=none;" parent="1" vertex="1"><mxGeometry x="740" y="80" width="50" height="50" as="geometry"/></mxCell>
-  <mxCell id="license" value="" style="shape=mxgraph.citrix.license_server;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="810" y="80" width="50" height="50" as="geometry"/></mxCell>
-  <mxCell id="pvs" value="" style="shape=mxgraph.citrix.provisioning_server;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="740" y="170" width="50" height="50" as="geometry"/></mxCell>
-  <mxCell id="studio" value="" style="shape=mxgraph.citrix2.studio_web_studio;html=1;fillColor=#036897;strokeColor=none;" parent="1" vertex="1"><mxGeometry x="810" y="170" width="50" height="50" as="geometry"/></mxCell>
-  <mxCell id="xenserver1" value="" style="shape=mxgraph.citrix.xenserver;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="590" y="270" width="50" height="50" as="geometry"/></mxCell>
-  <mxCell id="xenserver2" value="" style="shape=mxgraph.citrix.xenserver;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="660" y="270" width="50" height="50" as="geometry"/></mxCell>
-  <mxCell id="vda1" value="" style="shape=mxgraph.citrix2.vda;html=1;fillColor=#8E44AD;strokeColor=none;" parent="1" vertex="1"><mxGeometry x="590" y="420" width="50" height="50" as="geometry"/></mxCell>
-  <mxCell id="vda2" value="" style="shape=mxgraph.citrix2.vda;html=1;fillColor=#8E44AD;strokeColor=none;" parent="1" vertex="1"><mxGeometry x="660" y="420" width="50" height="50" as="geometry"/></mxCell>
-  <mxCell id="vda3" value="" style="shape=mxgraph.citrix2.vda;html=1;fillColor=#8E44AD;strokeColor=none;" parent="1" vertex="1"><mxGeometry x="730" y="420" width="50" height="50" as="geometry"/></mxCell>
-  <mxCell id="vda4" value="" style="shape=mxgraph.citrix2.vda;html=1;fillColor=#8E44AD;strokeColor=none;" parent="1" vertex="1"><mxGeometry x="800" y="420" width="50" height="50" as="geometry"/></mxCell>
-  <mxCell id="desktop1" value="" style="shape=mxgraph.citrix2.virtual_desktop;html=1;fillColor=#8E44AD;strokeColor=none;" parent="1" vertex="1"><mxGeometry x="610" y="490" width="50" height="40" as="geometry"/></mxCell>
-  <mxCell id="desktop2" value="" style="shape=mxgraph.citrix2.virtual_desktop;html=1;fillColor=#8E44AD;strokeColor=none;" parent="1" vertex="1"><mxGeometry x="750" y="490" width="50" height="40" as="geometry"/></mxCell>
-  <mxCell id="ad-server" value="" style="shape=mxgraph.citrix.directory_server;html=1;fillColor=#C0392B;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="70" y="420" width="50" height="50" as="geometry"/></mxCell>
-  <mxCell id="sql-server" value="" style="shape=mxgraph.citrix.database_server;html=1;fillColor=#C0392B;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="150" y="420" width="50" height="55" as="geometry"/></mxCell>
-  <mxCell id="file-server" value="" style="shape=mxgraph.citrix.file_server;html=1;fillColor=#C0392B;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="230" y="420" width="50" height="50" as="geometry"/></mxCell>
-  <mxCell id="dhcp-server" value="" style="shape=mxgraph.citrix.dhcp_server;html=1;fillColor=#C0392B;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="310" y="420" width="50" height="50" as="geometry"/></mxCell>
-  <mxCell id="dns-server" value="" style="shape=mxgraph.citrix.dns_server;html=1;fillColor=#C0392B;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="390" y="420" width="50" height="50" as="geometry"/></mxCell>
-  <mxCell id="link-laptop-inet" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#23445D;" parent="1" source="user-laptop" target="internet" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-mobile-inet" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#23445D;" parent="1" source="user-mobile" target="internet" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-thin-inet" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#23445D;" parent="1" source="user-thin" target="internet" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-home-inet" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#23445D;" parent="1" source="user-home" target="internet" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-inet-ns" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#F6921E;" parent="1" source="internet" target="netscaler" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-ns-sf1" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#036897;" parent="1" source="netscaler" target="storefront1" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-ns-sf2" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#036897;" parent="1" source="netscaler" target="storefront2" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-sf1-ctrl1" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#036897;" parent="1" source="storefront1" target="controller1" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-sf2-ctrl2" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#036897;" parent="1" source="storefront2" target="controller2" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-ctrl1-xs1" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#036897;" parent="1" source="controller1" target="xenserver1" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-ctrl2-xs2" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#036897;" parent="1" source="controller2" target="xenserver2" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-xs1-vda1" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#8E44AD;" parent="1" source="xenserver1" target="vda1" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-xs1-vda2" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#8E44AD;" parent="1" source="xenserver1" target="vda2" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-xs2-vda3" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#8E44AD;" parent="1" source="xenserver2" target="vda3" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-xs2-vda4" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#8E44AD;" parent="1" source="xenserver2" target="vda4" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-vda1-d1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" parent="1" source="vda1" target="desktop1" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-vda2-d1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" parent="1" source="vda2" target="desktop1" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-vda3-d2" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" parent="1" source="vda3" target="desktop2" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-vda4-d2" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" parent="1" source="vda4" target="desktop2" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-ctrl-ad" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#C0392B;dashed=1;" parent="1" source="controller1" target="ad-server" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-ctrl-sql" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#C0392B;dashed=1;" parent="1" source="controller2" target="sql-server" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-pvs-file" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#C0392B;dashed=1;" parent="1" source="pvs" target="file-server" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxfile><diagram id="citrix-network" name="Citrix CVAD"><mxGraphModel dx="1100" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="850" math="0" shadow="0"><root><mxCell id="0"/><mxCell id="1" parent="0"/>
+  <mxCell id="zone-dc" value="Data Center" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EDEDED;fontSize=14;strokeColor=none;verticalAlign=top;fontStyle=1;opacity=80;" vertex="1" parent="1"><mxGeometry x="440" y="40" width="720" height="760" as="geometry"/></mxCell>
+  <mxCell id="zone-dmz" value="DMZ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;fontSize=14;strokeColor=none;verticalAlign=top;fontStyle=1;opacity=80;" vertex="1" parent="1"><mxGeometry x="460" y="80" width="200" height="700" as="geometry"/></mxCell>
+  <mxCell id="zone-internal" value="Internal Network" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;fontSize=14;strokeColor=none;verticalAlign=top;fontStyle=1;opacity=80;" vertex="1" parent="1"><mxGeometry x="700" y="80" width="440" height="700" as="geometry"/></mxCell>
+  <mxCell id="ext-users" value="External&#xa;Users" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix2.external_users;fillColor=#000000;gradientColor=none;fontSize=12;sketch=0;outlineConnect=0;pointerEvents=1;" vertex="1" parent="1"><mxGeometry x="60" y="160" width="59" height="60" as="geometry"/></mxCell>
+  <mxCell id="laptop1" value="Laptop" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix2.laptop;fillColor=#000000;gradientColor=none;fontSize=12;sketch=0;outlineConnect=0;pointerEvents=1;" vertex="1" parent="1"><mxGeometry x="40" y="360" width="80" height="62" as="geometry"/></mxCell>
+  <mxCell id="tablet1" value="Mobile" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix2.tablet;fillColor=#000000;gradientColor=none;fontSize=12;sketch=0;outlineConnect=0;pointerEvents=1;" vertex="1" parent="1"><mxGeometry x="60" y="530" width="44" height="60" as="geometry"/></mxCell>
+  <mxCell id="fw-ext" value="Firewall" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix2.firewall;fillColor=#000000;gradientColor=none;fontSize=12;sketch=0;outlineConnect=0;pointerEvents=1;" vertex="1" parent="1"><mxGeometry x="240" y="340" width="60" height="60" as="geometry"/></mxCell>
+  <mxCell id="nsg" value="NetScaler&#xa;Gateway" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix2.netscaler_gateway;fillColor=#000000;gradientColor=none;fontSize=12;sketch=0;outlineConnect=0;pointerEvents=1;" vertex="1" parent="1"><mxGeometry x="510" y="160" width="60" height="53" as="geometry"/></mxCell>
+  <mxCell id="sf" value="StoreFront" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix2.storefront;fillColor=#000000;gradientColor=none;fontSize=12;sketch=0;outlineConnect=0;pointerEvents=1;" vertex="1" parent="1"><mxGeometry x="510" y="380" width="60" height="52" as="geometry"/></mxCell>
+  <mxCell id="fw-int" value="Firewall" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix2.firewall;fillColor=#000000;gradientColor=none;fontSize=12;sketch=0;outlineConnect=0;pointerEvents=1;" vertex="1" parent="1"><mxGeometry x="510" y="570" width="60" height="60" as="geometry"/></mxCell>
+  <mxCell id="dc1" value="Delivery&#xa;Controller 1" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix2.delivery_controller;fillColor=#000000;gradientColor=none;fontSize=12;sketch=0;outlineConnect=0;pointerEvents=1;" vertex="1" parent="1"><mxGeometry x="730" y="120" width="60" height="60" as="geometry"/></mxCell>
+  <mxCell id="dc2" value="Delivery&#xa;Controller 2" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix2.delivery_controller;fillColor=#000000;gradientColor=none;fontSize=12;sketch=0;outlineConnect=0;pointerEvents=1;" vertex="1" parent="1"><mxGeometry x="860" y="120" width="60" height="60" as="geometry"/></mxCell>
+  <mxCell id="director" value="Director" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix2.director;fillColor=#000000;gradientColor=none;fontSize=12;sketch=0;outlineConnect=0;pointerEvents=1;" vertex="1" parent="1"><mxGeometry x="1000" y="120" width="60" height="52" as="geometry"/></mxCell>
+  <mxCell id="license" value="License&#xa;Server" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix2.citrix_license_server;fillColor=#000000;gradientColor=none;fontSize=12;sketch=0;outlineConnect=0;pointerEvents=1;" vertex="1" parent="1"><mxGeometry x="1000" y="290" width="60" height="43" as="geometry"/></mxCell>
+  <mxCell id="sitedb" value="Site&#xa;Database" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix2.site_database;fillColor=#000000;gradientColor=none;fontSize=12;sketch=0;outlineConnect=0;pointerEvents=1;" vertex="1" parent="1"><mxGeometry x="1000" y="430" width="55" height="60" as="geometry"/></mxCell>
+  <mxCell id="xenhost1" value="XenServer 1" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix2.hypervisor_xenserver;fillColor=#000000;gradientColor=none;fontSize=12;sketch=0;outlineConnect=0;pointerEvents=1;" vertex="1" parent="1"><mxGeometry x="730" y="310" width="80" height="50" as="geometry"/></mxCell>
+  <mxCell id="xenhost2" value="XenServer 2" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix2.hypervisor_xenserver;fillColor=#000000;gradientColor=none;fontSize=12;sketch=0;outlineConnect=0;pointerEvents=1;" vertex="1" parent="1"><mxGeometry x="860" y="310" width="80" height="50" as="geometry"/></mxCell>
+  <mxCell id="vda1" value="VDA" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix2.vda;fillColor=#000000;gradientColor=none;fontSize=12;sketch=0;outlineConnect=0;pointerEvents=1;" vertex="1" parent="1"><mxGeometry x="730" y="460" width="60" height="49" as="geometry"/></mxCell>
+  <mxCell id="vda2" value="VDA" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix2.vda;fillColor=#000000;gradientColor=none;fontSize=12;sketch=0;outlineConnect=0;pointerEvents=1;" vertex="1" parent="1"><mxGeometry x="830" y="460" width="60" height="49" as="geometry"/></mxCell>
+  <mxCell id="vda3" value="VDA" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix2.vda;fillColor=#000000;gradientColor=none;fontSize=12;sketch=0;outlineConnect=0;pointerEvents=1;" vertex="1" parent="1"><mxGeometry x="930" y="460" width="60" height="49" as="geometry"/></mxCell>
+  <mxCell id="winapp" value="Windows&#xa;Apps" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix2.windows_app;fillColor=#000000;gradientColor=none;fontSize=12;sketch=0;outlineConnect=0;pointerEvents=1;" vertex="1" parent="1"><mxGeometry x="730" y="600" width="60" height="60" as="geometry"/></mxCell>
+  <mxCell id="linapp" value="Linux&#xa;Apps" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix2.linux_app;fillColor=#000000;gradientColor=none;fontSize=12;sketch=0;outlineConnect=0;pointerEvents=1;" vertex="1" parent="1"><mxGeometry x="860" y="600" width="60" height="60" as="geometry"/></mxCell>
+  <mxCell id="vdesk" value="Virtual&#xa;Desktop" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix2.virtual_desktop;fillColor=#000000;gradientColor=none;fontSize=12;sketch=0;outlineConnect=0;pointerEvents=1;" vertex="1" parent="1"><mxGeometry x="990" y="600" width="47" height="60" as="geometry"/></mxCell>
+  <mxCell id="link-ext-fw" style="edgeStyle=none;html=1;endArrow=none;endFill=0;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="ext-users" target="fw-ext"><mxGeometry relative="1" as="geometry"/></mxCell>
+  <mxCell id="link-lap-fw" style="edgeStyle=none;html=1;endArrow=none;endFill=0;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="laptop1" target="fw-ext"><mxGeometry relative="1" as="geometry"/></mxCell>
+  <mxCell id="link-tab-fw" style="edgeStyle=none;html=1;endArrow=none;endFill=0;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="tablet1" target="fw-ext"><mxGeometry relative="1" as="geometry"/></mxCell>
+  <mxCell id="link-fw-nsg" style="edgeStyle=none;html=1;endArrow=none;endFill=0;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="fw-ext" target="nsg"><mxGeometry relative="1" as="geometry"/></mxCell>
+  <mxCell id="link-fw-sf" style="edgeStyle=none;html=1;endArrow=none;endFill=0;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="fw-ext" target="sf"><mxGeometry relative="1" as="geometry"/></mxCell>
+  <mxCell id="link-nsg-dc1" style="edgeStyle=none;html=1;endArrow=none;endFill=0;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="nsg" target="dc1"><mxGeometry relative="1" as="geometry"/></mxCell>
+  <mxCell id="link-sf-fwi" style="edgeStyle=none;html=1;endArrow=none;endFill=0;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="sf" target="fw-int"><mxGeometry relative="1" as="geometry"/></mxCell>
+  <mxCell id="link-fwi-dc1" style="edgeStyle=none;html=1;endArrow=none;endFill=0;strokeWidth=2;fontSize=12;dashed=1;" edge="1" parent="1" source="fw-int" target="dc1"><mxGeometry relative="1" as="geometry"/></mxCell>
+  <mxCell id="link-dc1-dc2" style="edgeStyle=none;html=1;endArrow=none;endFill=0;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="dc1" target="dc2"><mxGeometry relative="1" as="geometry"/></mxCell>
+  <mxCell id="link-dc2-dir" style="edgeStyle=none;html=1;endArrow=none;endFill=0;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="dc2" target="director"><mxGeometry relative="1" as="geometry"/></mxCell>
+  <mxCell id="link-dc1-xen1" style="edgeStyle=none;html=1;endArrow=none;endFill=0;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="dc1" target="xenhost1"><mxGeometry relative="1" as="geometry"/></mxCell>
+  <mxCell id="link-dc2-xen2" style="edgeStyle=none;html=1;endArrow=none;endFill=0;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="dc2" target="xenhost2"><mxGeometry relative="1" as="geometry"/></mxCell>
+  <mxCell id="link-dc1-lic" style="edgeStyle=none;html=1;endArrow=none;endFill=0;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="dc1" target="license"><mxGeometry relative="1" as="geometry"/></mxCell>
+  <mxCell id="link-dc1-db" style="edgeStyle=none;html=1;endArrow=none;endFill=0;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="dc2" target="sitedb"><mxGeometry relative="1" as="geometry"/></mxCell>
+  <mxCell id="link-xen1-vda1" style="edgeStyle=none;html=1;endArrow=none;endFill=0;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="xenhost1" target="vda1"><mxGeometry relative="1" as="geometry"/></mxCell>
+  <mxCell id="link-xen1-vda2" style="edgeStyle=none;html=1;endArrow=none;endFill=0;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="xenhost1" target="vda2"><mxGeometry relative="1" as="geometry"/></mxCell>
+  <mxCell id="link-xen2-vda3" style="edgeStyle=none;html=1;endArrow=none;endFill=0;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="xenhost2" target="vda3"><mxGeometry relative="1" as="geometry"/></mxCell>
+  <mxCell id="link-vda1-win" style="edgeStyle=none;html=1;endArrow=none;endFill=0;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="vda1" target="winapp"><mxGeometry relative="1" as="geometry"/></mxCell>
+  <mxCell id="link-vda2-lin" style="edgeStyle=none;html=1;endArrow=none;endFill=0;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="vda2" target="linapp"><mxGeometry relative="1" as="geometry"/></mxCell>
+  <mxCell id="link-vda3-vd" style="edgeStyle=none;html=1;endArrow=none;endFill=0;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="vda3" target="vdesk"><mxGeometry relative="1" as="geometry"/></mxCell>
 </root></mxGraphModel></diagram></mxfile>
 ```
+
+## Pattern Notes
+
+1. **citrix2 black fill**: All `mxgraph.citrix2.*` stencils use `fillColor=#000000;gradientColor=none;strokeColor=none`
+2. **Required extra props**: citrix2 stencils need `sketch=0;outlineConnect=0;pointerEvents=1;`
+3. **No arrows**: Network links use `endArrow=none;endFill=0;strokeWidth=2` — bidirectional connections
+4. **Dashed = secondary path**: Use `dashed=1` for backup/fallback connections
+5. **Color-coded zones**: DMZ (`#f8cecc`), Internal (`#fff2cc`), Server Farm (`#EDEDED`), Cloud (`#d5e8d4`)
+6. **Labels below**: All stencils use `verticalLabelPosition=bottom;verticalAlign=top`
+7. **Layered layout**: Clients → Firewall → DMZ (NetScaler + StoreFront) → Internal Firewall → Delivery Controllers → Hypervisors → VDAs → Apps
 

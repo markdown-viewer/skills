@@ -4,377 +4,385 @@ Stencil library: `mxgraph.mscae.*`
 
 Total: 368 stencils
 
-- `mxgraph.mscae.cloud.active_directory` (40×40)
-- `mxgraph.mscae.cloud.active_directory_b2b` (624×623)
-- `mxgraph.mscae.cloud.active_directory_b2c` (625×625)
-- `mxgraph.mscae.cloud.active_directory_domain_services` (622×623)
-- `mxgraph.mscae.cloud.active_directory_health_monitoring` (712×686)
-- `mxgraph.mscae.cloud.advisor` (50×50)
-- `mxgraph.mscae.cloud.analysis_service` (50×40)
-- `mxgraph.mscae.cloud.api_app` (90×101)
-- `mxgraph.mscae.cloud.api_management` (102×90)
-- `mxgraph.mscae.cloud.app_service` (100×100)
-- `mxgraph.mscae.cloud.application_gateway` (33×33)
-- `mxgraph.mscae.cloud.application_insights` (66×102)
-- `mxgraph.mscae.cloud.azure` (77×50)
-- `mxgraph.mscae.cloud.azure_automatic_load_balancer` (100×66)
-- `mxgraph.mscae.cloud.azure_batch` (94×91)
-- `mxgraph.mscae.cloud.azure_dns` (100×100)
-- `mxgraph.mscae.cloud.azure_files_service` (99×86)
-- `mxgraph.mscae.cloud.azure_load_balancer_feature` (100×101)
-- `mxgraph.mscae.cloud.azure_logo` (50×39)
-- `mxgraph.mscae.cloud.azure_rights_management_rms` (81×100)
-- `mxgraph.mscae.cloud.azure_search` (101×69)
-- `mxgraph.mscae.cloud.azure_storage` (100×86)
-- `mxgraph.mscae.cloud.batch` (49×46)
-- `mxgraph.mscae.cloud.blockchain` (101×76)
-- `mxgraph.mscae.cloud.bot_services` (48×48)
-- `mxgraph.mscae.cloud.building_block` (100×89)
-- `mxgraph.mscae.cloud.c_series` (99×102)
-- `mxgraph.mscae.cloud.central` (42×48)
-- `mxgraph.mscae.cloud.cloud_office_365` (100×61)
-- `mxgraph.mscae.cloud.cloud_service` (43×36)
-- `mxgraph.mscae.cloud.cognitive_services` (50×30)
-- `mxgraph.mscae.cloud.container_registry` (45×39)
-- `mxgraph.mscae.cloud.container_service` (33×24)
-- `mxgraph.mscae.cloud.content_delivery_network` (24×11)
-- `mxgraph.mscae.cloud.content_delivery_network2` (484×226)
-- `mxgraph.mscae.cloud.cortona_management_suite` (76×76)
-- `mxgraph.mscae.cloud.cosmos_db` (102×103)
-- `mxgraph.mscae.cloud.customer_insights` (100×104)
-- `mxgraph.mscae.cloud.data_bricks` (96×100)
-- `mxgraph.mscae.cloud.data_catalog` (32×38)
-- `mxgraph.mscae.cloud.data_factory` (95×95)
-- `mxgraph.mscae.cloud.data_lake` (41×67)
-- `mxgraph.mscae.cloud.data_lake_analytics` (65×65)
-- `mxgraph.mscae.cloud.data_lake_store` (129×101)
-- `mxgraph.mscae.cloud.data_warehouse` (72×70)
-- `mxgraph.mscae.cloud.devtest_labs` (66×66)
-- `mxgraph.mscae.cloud.docdb_account` (14×15)
-- `mxgraph.mscae.cloud.docdb_collections` (14×15)
-- `mxgraph.mscae.cloud.document` (13×15)
-- `mxgraph.mscae.cloud.documentdb` (77×99)
-- `mxgraph.mscae.cloud.dps` (324×338)
-- `mxgraph.mscae.cloud.event_grid` (100×100)
-- `mxgraph.mscae.cloud.event_hubs` (92×95)
-- `mxgraph.mscae.cloud.expressroute` (51×31)
-- `mxgraph.mscae.cloud.functions` (64×59)
-- `mxgraph.mscae.cloud.gateway` (87×100)
-- `mxgraph.mscae.cloud.hdinsight` (100×73)
-- `mxgraph.mscae.cloud.health_monitoring` (90×81)
-- `mxgraph.mscae.cloud.hockeyapp` (38×21)
-- `mxgraph.mscae.cloud.hybrid_connection_manager` (100×70)
-- `mxgraph.mscae.cloud.hybrid_connections` (95×103)
-- `mxgraph.mscae.cloud.iot` (94×93)
-- `mxgraph.mscae.cloud.iot_edge` (99×100)
-- `mxgraph.mscae.cloud.key_vault` (97×100)
-- `mxgraph.mscae.cloud.logic_app` (100×100)
-- `mxgraph.mscae.cloud.logic_apps` (38×29)
-- `mxgraph.mscae.cloud.machine_learning` (94×100)
-- `mxgraph.mscae.cloud.machine_learning2` (25×25)
-- `mxgraph.mscae.cloud.machine_learning_service_plans` (99×100)
-- `mxgraph.mscae.cloud.machine_learning_web_services` (99×100)
-- `mxgraph.mscae.cloud.machine_learning_work_spaces` (98×100)
-- `mxgraph.mscae.cloud.managed_applications` (88×100)
-- `mxgraph.mscae.cloud.managed_discs` (102×94)
-- `mxgraph.mscae.cloud.management_portal` (24×20)
-- `mxgraph.mscae.cloud.microsoft_account` (100×100)
-- `mxgraph.mscae.cloud.microsoft_azure` (100×65)
-- `mxgraph.mscae.cloud.mobile_app` (59×99)
-- `mxgraph.mscae.cloud.mobile_engagement` (61×100)
-- `mxgraph.mscae.cloud.monitor` (50×50)
-- `mxgraph.mscae.cloud.network_watcher` (101×101)
-- `mxgraph.mscae.cloud.nsg` (36×50)
-- `mxgraph.mscae.cloud.office_365` (82×98)
-- `mxgraph.mscae.cloud.office_365_subscription` (100×68)
-- `mxgraph.mscae.cloud.oms_log_analytics` (37×37)
-- `mxgraph.mscae.cloud.operational_insights` (100×100)
-- `mxgraph.mscae.cloud.power_bi_embedded` (53×56)
-- `mxgraph.mscae.cloud.recovery_vault` (35×35)
-- `mxgraph.mscae.cloud.remoteapp` (100×100)
-- `mxgraph.mscae.cloud.resource_group` (100×82)
-- `mxgraph.mscae.cloud.route_filters` (100×84)
-- `mxgraph.mscae.cloud.runbooks` (35×37)
-- `mxgraph.mscae.cloud.security_center` (37×50)
-- `mxgraph.mscae.cloud.service_bus` (38×38)
-- `mxgraph.mscae.cloud.service_bus2` (46×46)
-- `mxgraph.mscae.cloud.service_bus_queues` (38×38)
-- `mxgraph.mscae.cloud.service_bus_relay` (38×38)
-- `mxgraph.mscae.cloud.service_bus_relay2` (448×447)
-- `mxgraph.mscae.cloud.service_bus_topics` (38×38)
-- `mxgraph.mscae.cloud.service_endpoint` (99×18)
-- `mxgraph.mscae.cloud.service_endpoint2` (32×12)
-- `mxgraph.mscae.cloud.service_fabric` (102×100)
-- `mxgraph.mscae.cloud.service_package` (88×99)
-- `mxgraph.mscae.cloud.site_recovery` (37×31)
-- `mxgraph.mscae.cloud.snapshot` (130×111)
-- `mxgraph.mscae.cloud.sql_database_premium` (28×38)
-- `mxgraph.mscae.cloud.sql_datawarehouse` (72×70)
-- `mxgraph.mscae.cloud.sql_elastic_database_pools` (74×74)
-- `mxgraph.mscae.cloud.sql_stretch_database` (78×57)
-- `mxgraph.mscae.cloud.stack` (50×50)
-- `mxgraph.mscae.cloud.storage` (50×43)
-- `mxgraph.mscae.cloud.storage_cs` (50×45)
-- `mxgraph.mscae.cloud.storage_files` (202×175)
-- `mxgraph.mscae.cloud.storage_sync_services` (100×100)
-- `mxgraph.mscae.cloud.stream_analytics` (96×74)
-- `mxgraph.mscae.cloud.tags` (97×100)
-- `mxgraph.mscae.cloud.time_series_insights` (100×100)
-- `mxgraph.mscae.cloud.vhd` (82×100)
-- `mxgraph.mscae.cloud.virtual_machine_container` (97×86)
-- `mxgraph.mscae.cloud.virtual_machines_availability_set` (38×38)
-- `mxgraph.mscae.cloud.vm_scale_set` (37×38)
-- `mxgraph.mscae.cloud.vpn_gateway` (65×100)
-- `mxgraph.mscae.cloud.vpn_gateway2` (45×50)
-- `mxgraph.mscae.cloud.webhooks` (28×26)
-- `mxgraph.mscae.cloud.webjobs` (103×102)
-- `mxgraph.mscae.cloud.work_account` (100×100)
-- `mxgraph.mscae.cloud.worker_pools` (38×38)
-- `mxgraph.mscae.deprecated.application` (100×66)
-- `mxgraph.mscae.deprecated.application_gateway` (50×50)
-- `mxgraph.mscae.deprecated.azure` (131×81)
-- `mxgraph.mscae.deprecated.batch` (43×41)
-- `mxgraph.mscae.deprecated.bot` (31×31)
-- `mxgraph.mscae.deprecated.compute` (33×24)
-- `mxgraph.mscae.deprecated.data_lake` (25×32)
-- `mxgraph.mscae.deprecated.data_lake_analytics` (24×24)
-- `mxgraph.mscae.deprecated.data_lake_store` (24×24)
-- `mxgraph.mscae.deprecated.data_services` (27×35)
-- `mxgraph.mscae.deprecated.poster_arrow` (49×123)
-- `mxgraph.mscae.deprecated.sql_data_warehouse` (28×32)
-- `mxgraph.mscae.deprecated.sql_server_stretch_db` (32×32)
-- `mxgraph.mscae.enterprise.ad_fs` (80×100)
-- `mxgraph.mscae.enterprise.android_phone` (61×100)
-- `mxgraph.mscae.enterprise.app_generic` (100×67)
-- `mxgraph.mscae.enterprise.application` (395×266)
-- `mxgraph.mscae.enterprise.application_blank` (91×79)
-- `mxgraph.mscae.enterprise.application_server` (76×88)
-- `mxgraph.mscae.enterprise.application_server2` (304×352)
-- `mxgraph.mscae.enterprise.backup_local` (98×100)
-- `mxgraph.mscae.enterprise.backup_online` (102×82)
-- `mxgraph.mscae.enterprise.calendar` (412×335)
-- `mxgraph.mscae.enterprise.client_application` (100×63)
-- `mxgraph.mscae.enterprise.cluster_server` (80×100)
-- `mxgraph.mscae.enterprise.code_file` (258×268)
-- `mxgraph.mscae.enterprise.connectors` (100×67)
-- `mxgraph.mscae.enterprise.d` (81×100)
-- `mxgraph.mscae.enterprise.database_generic` (76×103)
-- `mxgraph.mscae.enterprise.database_server` (75×100)
-- `mxgraph.mscae.enterprise.database_synchronization` (78×100)
-- `mxgraph.mscae.enterprise.device` (100×51)
-- `mxgraph.mscae.enterprise.direct_access_feature` (99×89)
-- `mxgraph.mscae.enterprise.document` (80×100)
-- `mxgraph.mscae.enterprise.domain_controller` (73×100)
-- `mxgraph.mscae.enterprise.enterprise_building` (255×405)
-- `mxgraph.mscae.enterprise.filter` (100×90)
-- `mxgraph.mscae.enterprise.firewall` (100×87)
-- `mxgraph.mscae.enterprise.folder` (100×85)
-- `mxgraph.mscae.enterprise.gateway` (100×100)
-- `mxgraph.mscae.enterprise.generic_app` (395×266)
-- `mxgraph.mscae.enterprise.import_generic` (80×100)
-- `mxgraph.mscae.enterprise.internet` (101×62)
-- `mxgraph.mscae.enterprise.internet_hollow` (101×62)
-- `mxgraph.mscae.enterprise.iphone` (28×45)
-- `mxgraph.mscae.enterprise.key_permissions` (52×100)
-- `mxgraph.mscae.enterprise.keyboard` (100×60)
-- `mxgraph.mscae.enterprise.load_testing` (96×100)
-- `mxgraph.mscae.enterprise.lock` (77×101)
-- `mxgraph.mscae.enterprise.lock_unlocked` (74×100)
-- `mxgraph.mscae.enterprise.maintenance` (69×100)
-- `mxgraph.mscae.enterprise.management_console` (100×67)
-- `mxgraph.mscae.enterprise.monitor_running_apps` (100×79)
-- `mxgraph.mscae.enterprise.mouse` (59×101)
-- `mxgraph.mscae.enterprise.network_card` (100×71)
-- `mxgraph.mscae.enterprise.not_allowed` (35×35)
-- `mxgraph.mscae.enterprise.pack` (64×57)
-- `mxgraph.mscae.enterprise.performance` (100×100)
-- `mxgraph.mscae.enterprise.performance_monitor` (100×72)
-- `mxgraph.mscae.enterprise.plug_and_play` (80×100)
-- `mxgraph.mscae.enterprise.protocol_stack` (100×68)
-- `mxgraph.mscae.enterprise.rms_connector` (60×79)
-- `mxgraph.mscae.enterprise.router` (99×76)
-- `mxgraph.mscae.enterprise.secondary_site` (83×100)
-- `mxgraph.mscae.enterprise.secure_virtual_machine` (100×77)
-- `mxgraph.mscae.enterprise.server_directory` (78×100)
-- `mxgraph.mscae.enterprise.server_farm` (100×63)
-- `mxgraph.mscae.enterprise.server_generic` (49×100)
-- `mxgraph.mscae.enterprise.settings` (100×100)
-- `mxgraph.mscae.enterprise.shared_folder` (86×100)
-- `mxgraph.mscae.enterprise.smartcard` (100×64)
-- `mxgraph.mscae.enterprise.storage` (100×83)
-- `mxgraph.mscae.enterprise.stored_procedures` (14×15)
-- `mxgraph.mscae.enterprise.table` (100×100)
-- `mxgraph.mscae.enterprise.tool` (101×94)
-- `mxgraph.mscae.enterprise.triggers` (14×15)
-- `mxgraph.mscae.enterprise.udf_function` (14×15)
-- `mxgraph.mscae.enterprise.unhealthy` (105×86)
-- `mxgraph.mscae.enterprise.usb` (100×46)
-- `mxgraph.mscae.enterprise.user_permissions` (14×15)
-- `mxgraph.mscae.enterprise.web` (100×100)
-- `mxgraph.mscae.enterprise.web_server` (76×100)
-- `mxgraph.mscae.enterprise.website_generic` (95×83)
-- `mxgraph.mscae.enterprise.windows_server` (77×100)
-- `mxgraph.mscae.enterprise.wireless_connection` (83×100)
-- `mxgraph.mscae.enterprise.workstation_client` (100×100)
-- `mxgraph.mscae.enterprise.xml_web_service` (100×99)
-- `mxgraph.mscae.general.audio` (97×99)
-- `mxgraph.mscae.general.bug` (100×100)
-- `mxgraph.mscae.general.cable_settop_tv_box` (97×47)
-- `mxgraph.mscae.general.calendar` (100×81)
-- `mxgraph.mscae.general.chart` (100×96)
-- `mxgraph.mscae.general.checkmark` (92×100)
-- `mxgraph.mscae.general.continuous_cycle` (97×101)
-- `mxgraph.mscae.general.crossout` (79×99)
-- `mxgraph.mscae.general.cut_and_paste` (101×68)
-- `mxgraph.mscae.general.game_controller` (100×70)
-- `mxgraph.mscae.general.gears` (99×84)
-- `mxgraph.mscae.general.graph` (100×98)
-- `mxgraph.mscae.general.like` (100×94)
-- `mxgraph.mscae.general.not_allowed` (100×100)
-- `mxgraph.mscae.general.pointer` (100×100)
-- `mxgraph.mscae.general.slider_bar_horizontal` (96×36)
-- `mxgraph.mscae.general.slider_bar_vertical` (44×100)
-- `mxgraph.mscae.general.task_list` (76×95)
-- `mxgraph.mscae.general.tasks` (76×100)
-- `mxgraph.mscae.general.tunnel` (100×18)
-- `mxgraph.mscae.general.video` (97×100)
-- `mxgraph.mscae.general_symbols.attachments` (7×12)
-- `mxgraph.mscae.general_symbols.clock_time` (100×100)
-- `mxgraph.mscae.general_symbols.ellipses` (100×13)
-- `mxgraph.mscae.general_symbols.favorite` (14×20)
-- `mxgraph.mscae.general_symbols.gears` (53×45)
-- `mxgraph.mscae.general_symbols.num_label_rotate` (100×100)
-- `mxgraph.mscae.general_symbols.premium_star` (12×11)
-- `mxgraph.mscae.general_symbols.slider_bar_horz` (81×30)
-- `mxgraph.mscae.general_symbols.slider_bar_vert` (35×80)
-- `mxgraph.mscae.general_symbols.waiting` (92×100)
-- `mxgraph.mscae.intune.account_portal` (80×92)
-- `mxgraph.mscae.intune.administration` (59×100)
-- `mxgraph.mscae.intune.alerts` (100×100)
-- `mxgraph.mscae.intune.apps` (100×100)
-- `mxgraph.mscae.intune.certificate` (100×89)
-- `mxgraph.mscae.intune.client_software` (105×93)
-- `mxgraph.mscae.intune.company_portal` (94×72)
-- `mxgraph.mscae.intune.computer_inventory` (100×90)
-- `mxgraph.mscae.intune.conditional_access_exchange` (89×100)
-- `mxgraph.mscae.intune.conditional_access_sharepoint` (87×99)
-- `mxgraph.mscae.intune.connector` (93×32)
-- `mxgraph.mscae.intune.dashboard` (100×79)
-- `mxgraph.mscae.intune.data_migration_wizard` (101×98)
-- `mxgraph.mscae.intune.detected_software` (100×88)
-- `mxgraph.mscae.intune.device_group` (100×100)
-- `mxgraph.mscae.intune.device_health` (100×63)
-- `mxgraph.mscae.intune.device_history` (90×100)
-- `mxgraph.mscae.intune.device_os` (98×100)
-- `mxgraph.mscae.intune.end_protection` (96×100)
-- `mxgraph.mscae.intune.exchange_connector` (100×99)
-- `mxgraph.mscae.intune.groups` (100×96)
-- `mxgraph.mscae.intune.hybrid` (100×67)
-- `mxgraph.mscae.intune.intune_certificate_profiles` (80×100)
-- `mxgraph.mscae.intune.intune_connector` (82×59)
-- `mxgraph.mscae.intune.intune_email_profiles` (99×100)
-- `mxgraph.mscae.intune.intune_managed_app` (100×76)
-- `mxgraph.mscae.intune.intune_mobile_application_management` (98×100)
-- `mxgraph.mscae.intune.intune_vpn_profiles` (84×100)
-- `mxgraph.mscae.intune.intune_wifi_profiles` (87×101)
-- `mxgraph.mscae.intune.inventory_license` (100×98)
-- `mxgraph.mscae.intune.inventory_software` (100×98)
-- `mxgraph.mscae.intune.license_group` (100×98)
-- `mxgraph.mscae.intune.license_installation` (100×86)
-- `mxgraph.mscae.intune.microsoft_intune` (96×77)
-- `mxgraph.mscae.intune.mobile_inventory` (88×100)
-- `mxgraph.mscae.intune.noncompliant_apps` (96×99)
-- `mxgraph.mscae.intune.policy` (100×101)
-- `mxgraph.mscae.intune.protection` (96×100)
-- `mxgraph.mscae.intune.reports` (93×100)
-- `mxgraph.mscae.intune.subscription_portal` (90×90)
-- `mxgraph.mscae.intune.terms_and_conditions` (75×100)
-- `mxgraph.mscae.intune.update` (100×104)
-- `mxgraph.mscae.intune.user_group` (99×75)
-- `mxgraph.mscae.intune.user_management` (100×93)
-- `mxgraph.mscae.oms.alerts` (61×74)
-- `mxgraph.mscae.oms.app_with_changes` (73×47)
-- `mxgraph.mscae.oms.assessments` (69×73)
-- `mxgraph.mscae.oms.capacity` (73×58)
-- `mxgraph.mscae.oms.config_assessment` (73×66)
-- `mxgraph.mscae.oms.dashboard` (73×61)
-- `mxgraph.mscae.oms.dependency_monitor` (73×72)
-- `mxgraph.mscae.oms.diagnostics` (73×49)
-- `mxgraph.mscae.oms.jobs` (73×73)
-- `mxgraph.mscae.oms.log_management` (59×73)
-- `mxgraph.mscae.oms.log_search` (75×75)
-- `mxgraph.mscae.oms.malware_assessment` (71×73)
-- `mxgraph.mscae.oms.overview` (73×61)
-- `mxgraph.mscae.oms.security` (72×73)
-- `mxgraph.mscae.oms.server_width_changes` (69×73)
-- `mxgraph.mscae.oms.services` (72×73)
-- `mxgraph.mscae.oms.solutions` (74×73)
-- `mxgraph.mscae.oms.system_update` (72×73)
-- `mxgraph.mscae.oms.track_changes` (61×73)
-- `mxgraph.mscae.oms.wire_data` (74×74)
-- `mxgraph.mscae.opsmanager.advanced_group_policy_management` (95×100)
-- `mxgraph.mscae.opsmanager.app_controller` (100×86)
-- `mxgraph.mscae.opsmanager.application_virtualization` (99×100)
-- `mxgraph.mscae.opsmanager.applications` (98×100)
-- `mxgraph.mscae.opsmanager.configuration_manager` (92×100)
-- `mxgraph.mscae.opsmanager.data_protection_manager` (87×100)
-- `mxgraph.mscae.opsmanager.middleware` (100×69)
-- `mxgraph.mscae.opsmanager.ms_bitlocker_administration_and_management` (93×100)
-- `mxgraph.mscae.opsmanager.ms_diagnostics_and_recovery_toolset` (100×95)
-- `mxgraph.mscae.opsmanager.ms_enterprise_desktop_virtualization` (100×99)
-- `mxgraph.mscae.opsmanager.ms_user_experience_virtualization` (100×96)
-- `mxgraph.mscae.opsmanager.operations_manager` (97×100)
-- `mxgraph.mscae.opsmanager.orchestrator` (100×68)
-- `mxgraph.mscae.opsmanager.pack` (89×100)
-- `mxgraph.mscae.opsmanager.runtime` (100×70)
-- `mxgraph.mscae.opsmanager.service_manager` (100×72)
-- `mxgraph.mscae.opsmanager.ssd` (100×81)
-- `mxgraph.mscae.opsmanager.virtual_machine_manager` (102×79)
-- `mxgraph.mscae.other.access` (100×99)
-- `mxgraph.mscae.other.bi_product_icon` (50×53)
-- `mxgraph.mscae.other.cortana` (76×76)
-- `mxgraph.mscae.other.excel` (89×89)
-- `mxgraph.mscae.other.exchange` (100×95)
-- `mxgraph.mscae.other.lync` (101×96)
-- `mxgraph.mscae.other.microsoft` (100×100)
-- `mxgraph.mscae.other.outlook` (100×100)
-- `mxgraph.mscae.other.powerappsicon` (32×32)
-- `mxgraph.mscae.other.powerpoint` (100×100)
-- `mxgraph.mscae.other.sharepoint` (100×98)
-- `mxgraph.mscae.other.skype` (90×90)
-- `mxgraph.mscae.other.windows` (96×100)
-- `mxgraph.mscae.other.word` (100×100)
-- `mxgraph.mscae.other.xbox` (109×106)
-- `mxgraph.mscae.other.xbox_one` (99×32)
-- `mxgraph.mscae.system_center.admin_console` (100×72)
-- `mxgraph.mscae.system_center.central_administration_site_sql` (76×100)
-- `mxgraph.mscae.system_center.cloud_distribution_point` (93×100)
-- `mxgraph.mscae.system_center.distribution_point` (88×100)
-- `mxgraph.mscae.system_center.management_point` (97×100)
-- `mxgraph.mscae.system_center.primary_site` (75×100)
-- `mxgraph.mscae.system_center.roles` (85×100)
-- `mxgraph.mscae.system_center.secondary_site` (83×100)
-- `mxgraph.mscae.system_center.software_update_point` (100×87)
-- `mxgraph.mscae.vm.active_directory` (38×30)
-- `mxgraph.mscae.vm.active_directory_multi` (42×36)
-- `mxgraph.mscae.vm.application_server` (38×30)
-- `mxgraph.mscae.vm.application_server_multi` (42×36)
-- `mxgraph.mscae.vm.database_server` (38×30)
-- `mxgraph.mscae.vm.database_server_multi` (42×36)
-- `mxgraph.mscae.vm.directory_server` (38×30)
-- `mxgraph.mscae.vm.directory_server_multi` (42×36)
-- `mxgraph.mscae.vm.domain_server` (38×30)
-- `mxgraph.mscae.vm.domain_server_multi` (43×36)
-- `mxgraph.mscae.vm.file_server` (38×30)
-- `mxgraph.mscae.vm.file_server2` (38×30)
-- `mxgraph.mscae.vm.file_server_multi` (42×36)
-- `mxgraph.mscae.vm.web_server` (38×30)
-- `mxgraph.mscae.vm.web_server_multi` (42×35)
-- `mxgraph.mscae.vm.windows_server` (38×30)
-- `mxgraph.mscae.vm.windows_server_multi` (42×36)
+> **Style hints**
+> - 2 shape(s) need `fillColor`+`strokeColor`
+> - 361 shape(s) need `fillColor`
+>
+> **Recommended colors:** fillColor: `#0078D4` / `#50E6FF` / `#773ADC` / `#FF8C00`
+
+| Shape | Size | Required Styles |
+|-------|------|-----------------|
+| `mxgraph.mscae.cloud.active_directory` | 40×40 | `fillColor` |
+| `mxgraph.mscae.cloud.active_directory_b2b` | 624×623 | `fillColor` |
+| `mxgraph.mscae.cloud.active_directory_b2c` | 625×625 | `fillColor` |
+| `mxgraph.mscae.cloud.active_directory_domain_services` | 622×623 | `fillColor` |
+| `mxgraph.mscae.cloud.active_directory_health_monitoring` | 712×686 | `fillColor` |
+| `mxgraph.mscae.cloud.advisor` | 50×50 | `fillColor` |
+| `mxgraph.mscae.cloud.analysis_service` | 50×40 | `fillColor` |
+| `mxgraph.mscae.cloud.api_app` | 90×101 | `fillColor` |
+| `mxgraph.mscae.cloud.api_management` | 102×90 | `fillColor` |
+| `mxgraph.mscae.cloud.app_service` | 100×100 | `fillColor` |
+| `mxgraph.mscae.cloud.application_gateway` | 33×33 | `fillColor` |
+| `mxgraph.mscae.cloud.application_insights` | 66×102 | `fillColor` |
+| `mxgraph.mscae.cloud.azure` | 77×50 | `fillColor` |
+| `mxgraph.mscae.cloud.azure_automatic_load_balancer` | 100×66 | `fillColor` |
+| `mxgraph.mscae.cloud.azure_batch` | 94×91 | `fillColor` |
+| `mxgraph.mscae.cloud.azure_dns` | 100×100 | `fillColor` |
+| `mxgraph.mscae.cloud.azure_files_service` | 99×86 | `fillColor` |
+| `mxgraph.mscae.cloud.azure_load_balancer_feature` | 100×101 | `fillColor` |
+| `mxgraph.mscae.cloud.azure_logo` | 50×39 | `fillColor` |
+| `mxgraph.mscae.cloud.azure_rights_management_rms` | 81×100 | `fillColor` |
+| `mxgraph.mscae.cloud.azure_search` | 101×69 | `fillColor` |
+| `mxgraph.mscae.cloud.azure_storage` | 100×86 | `fillColor` |
+| `mxgraph.mscae.cloud.batch` | 49×46 | `fillColor` |
+| `mxgraph.mscae.cloud.blockchain` | 101×76 | `fillColor` |
+| `mxgraph.mscae.cloud.bot_services` | 48×48 | `fillColor` |
+| `mxgraph.mscae.cloud.building_block` | 100×89 | `fillColor` |
+| `mxgraph.mscae.cloud.c_series` | 99×102 | `fillColor` |
+| `mxgraph.mscae.cloud.central` | 42×48 | `fillColor` |
+| `mxgraph.mscae.cloud.cloud_office_365` | 100×61 | `fillColor` |
+| `mxgraph.mscae.cloud.cloud_service` | 43×36 | `fillColor` |
+| `mxgraph.mscae.cloud.cognitive_services` | 50×30 | `fillColor` |
+| `mxgraph.mscae.cloud.container_registry` | 45×39 | `fillColor` |
+| `mxgraph.mscae.cloud.container_service` | 33×24 | `fillColor` |
+| `mxgraph.mscae.cloud.content_delivery_network` | 24×11 | `fillColor` |
+| `mxgraph.mscae.cloud.content_delivery_network2` | 484×226 | `fillColor` |
+| `mxgraph.mscae.cloud.cortona_management_suite` | 76×76 | `fillColor`+`strokeColor` |
+| `mxgraph.mscae.cloud.cosmos_db` | 102×103 | `fillColor` |
+| `mxgraph.mscae.cloud.customer_insights` | 100×104 | `fillColor` |
+| `mxgraph.mscae.cloud.data_bricks` | 96×100 | `fillColor` |
+| `mxgraph.mscae.cloud.data_catalog` | 32×38 | `fillColor` |
+| `mxgraph.mscae.cloud.data_factory` | 95×95 | `fillColor` |
+| `mxgraph.mscae.cloud.data_lake` | 41×67 | `fillColor` |
+| `mxgraph.mscae.cloud.data_lake_analytics` | 65×65 | `fillColor` |
+| `mxgraph.mscae.cloud.data_lake_store` | 129×101 | `fillColor` |
+| `mxgraph.mscae.cloud.data_warehouse` | 72×70 | `fillColor` |
+| `mxgraph.mscae.cloud.devtest_labs` | 66×66 | `fillColor` |
+| `mxgraph.mscae.cloud.docdb_account` | 14×15 | `fillColor` |
+| `mxgraph.mscae.cloud.docdb_collections` | 14×15 | `fillColor` |
+| `mxgraph.mscae.cloud.document` | 13×15 | `fillColor` |
+| `mxgraph.mscae.cloud.documentdb` | 77×99 | `fillColor` |
+| `mxgraph.mscae.cloud.dps` | 324×338 | `fillColor` |
+| `mxgraph.mscae.cloud.event_grid` | 100×100 | `fillColor` |
+| `mxgraph.mscae.cloud.event_hubs` | 92×95 | `fillColor` |
+| `mxgraph.mscae.cloud.expressroute` | 51×31 | `fillColor` |
+| `mxgraph.mscae.cloud.functions` | 64×59 | `fillColor` |
+| `mxgraph.mscae.cloud.gateway` | 87×100 | `fillColor` |
+| `mxgraph.mscae.cloud.hdinsight` | 100×73 | `fillColor` |
+| `mxgraph.mscae.cloud.health_monitoring` | 90×81 | `fillColor` |
+| `mxgraph.mscae.cloud.hockeyapp` | 38×21 | `fillColor` |
+| `mxgraph.mscae.cloud.hybrid_connection_manager` | 100×70 | `fillColor` |
+| `mxgraph.mscae.cloud.hybrid_connections` | 95×103 | `fillColor` |
+| `mxgraph.mscae.cloud.iot` | 94×93 | `fillColor` |
+| `mxgraph.mscae.cloud.iot_edge` | 99×100 | `fillColor` |
+| `mxgraph.mscae.cloud.key_vault` | 97×100 | `fillColor` |
+| `mxgraph.mscae.cloud.logic_app` | 100×100 | `fillColor` |
+| `mxgraph.mscae.cloud.logic_apps` | 38×29 | `fillColor` |
+| `mxgraph.mscae.cloud.machine_learning` | 94×100 | `fillColor` |
+| `mxgraph.mscae.cloud.machine_learning_service_plans` | 99×100 | `fillColor` |
+| `mxgraph.mscae.cloud.machine_learning_web_services` | 99×100 | `fillColor` |
+| `mxgraph.mscae.cloud.machine_learning_work_spaces` | 98×100 | `fillColor` |
+| `mxgraph.mscae.cloud.machine_learning2` | 25×25 | `fillColor` |
+| `mxgraph.mscae.cloud.managed_applications` | 88×100 | `fillColor` |
+| `mxgraph.mscae.cloud.managed_discs` | 102×94 | `fillColor` |
+| `mxgraph.mscae.cloud.management_portal` | 24×20 | `fillColor` |
+| `mxgraph.mscae.cloud.microsoft_account` | 100×100 | `fillColor` |
+| `mxgraph.mscae.cloud.microsoft_azure` | 100×65 | `fillColor` |
+| `mxgraph.mscae.cloud.mobile_app` | 59×99 | `fillColor` |
+| `mxgraph.mscae.cloud.mobile_engagement` | 61×100 | `fillColor` |
+| `mxgraph.mscae.cloud.monitor` | 50×50 | `fillColor` |
+| `mxgraph.mscae.cloud.network_watcher` | 101×101 | `fillColor` |
+| `mxgraph.mscae.cloud.nsg` | 36×50 | `fillColor` |
+| `mxgraph.mscae.cloud.office_365` | 82×98 | `fillColor` |
+| `mxgraph.mscae.cloud.office_365_subscription` | 100×68 | `fillColor` |
+| `mxgraph.mscae.cloud.oms_log_analytics` | 37×37 | `fillColor` |
+| `mxgraph.mscae.cloud.operational_insights` | 100×100 | `fillColor` |
+| `mxgraph.mscae.cloud.power_bi_embedded` | 53×56 | `fillColor` |
+| `mxgraph.mscae.cloud.recovery_vault` | 35×35 | `fillColor` |
+| `mxgraph.mscae.cloud.remoteapp` | 100×100 | `fillColor` |
+| `mxgraph.mscae.cloud.resource_group` | 100×82 | `fillColor` |
+| `mxgraph.mscae.cloud.route_filters` | 100×84 | `fillColor` |
+| `mxgraph.mscae.cloud.runbooks` | 35×37 | `fillColor` |
+| `mxgraph.mscae.cloud.security_center` | 37×50 | `fillColor` |
+| `mxgraph.mscae.cloud.service_bus` | 38×38 | `fillColor` |
+| `mxgraph.mscae.cloud.service_bus_queues` | 38×38 | `fillColor` |
+| `mxgraph.mscae.cloud.service_bus_relay` | 38×38 | `fillColor` |
+| `mxgraph.mscae.cloud.service_bus_relay2` | 448×447 | `fillColor` |
+| `mxgraph.mscae.cloud.service_bus_topics` | 38×38 | `fillColor` |
+| `mxgraph.mscae.cloud.service_bus2` | 46×46 | `fillColor` |
+| `mxgraph.mscae.cloud.service_endpoint` | 99×18 | `fillColor` |
+| `mxgraph.mscae.cloud.service_endpoint2` | 32×12 | `fillColor` |
+| `mxgraph.mscae.cloud.service_fabric` | 102×100 | `fillColor` |
+| `mxgraph.mscae.cloud.service_package` | 88×99 | `fillColor` |
+| `mxgraph.mscae.cloud.site_recovery` | 37×31 | `fillColor` |
+| `mxgraph.mscae.cloud.snapshot` | 130×111 | `fillColor` |
+| `mxgraph.mscae.cloud.sql_database_premium` | 28×38 | `fillColor` |
+| `mxgraph.mscae.cloud.sql_datawarehouse` | 72×70 | `fillColor` |
+| `mxgraph.mscae.cloud.sql_elastic_database_pools` | 74×74 | `fillColor` |
+| `mxgraph.mscae.cloud.sql_stretch_database` | 78×57 | `fillColor` |
+| `mxgraph.mscae.cloud.stack` | 50×50 | `fillColor` |
+| `mxgraph.mscae.cloud.storage` | 50×43 | `fillColor` |
+| `mxgraph.mscae.cloud.storage_cs` | 50×45 | `fillColor` |
+| `mxgraph.mscae.cloud.storage_files` | 202×175 | `fillColor` |
+| `mxgraph.mscae.cloud.storage_sync_services` | 100×100 | `fillColor` |
+| `mxgraph.mscae.cloud.stream_analytics` | 96×74 | `fillColor` |
+| `mxgraph.mscae.cloud.tags` | 97×100 | `fillColor` |
+| `mxgraph.mscae.cloud.time_series_insights` | 100×100 | `fillColor` |
+| `mxgraph.mscae.cloud.vhd` | 82×100 | `fillColor` |
+| `mxgraph.mscae.cloud.virtual_machine_container` | 97×86 | `fillColor` |
+| `mxgraph.mscae.cloud.virtual_machines_availability_set` | 38×38 | `fillColor` |
+| `mxgraph.mscae.cloud.vm_scale_set` | 37×38 | `fillColor` |
+| `mxgraph.mscae.cloud.vpn_gateway` | 65×100 | `fillColor` |
+| `mxgraph.mscae.cloud.vpn_gateway2` | 45×50 | `fillColor` |
+| `mxgraph.mscae.cloud.webhooks` | 28×26 | `fillColor` |
+| `mxgraph.mscae.cloud.webjobs` | 103×102 | `fillColor` |
+| `mxgraph.mscae.cloud.work_account` | 100×100 | `fillColor` |
+| `mxgraph.mscae.cloud.worker_pools` | 38×38 | `fillColor` |
+| `mxgraph.mscae.deprecated.application` | 100×66 | `fillColor` |
+| `mxgraph.mscae.deprecated.application_gateway` | 50×50 | `fillColor` |
+| `mxgraph.mscae.deprecated.azure` | 131×81 | `fillColor` |
+| `mxgraph.mscae.deprecated.batch` | 43×41 | `fillColor` |
+| `mxgraph.mscae.deprecated.bot` | 31×31 | `fillColor` |
+| `mxgraph.mscae.deprecated.compute` | 33×24 | `fillColor` |
+| `mxgraph.mscae.deprecated.data_lake` | 25×32 | `fillColor` |
+| `mxgraph.mscae.deprecated.data_lake_analytics` | 24×24 | `fillColor` |
+| `mxgraph.mscae.deprecated.data_lake_store` | 24×24 | `fillColor` |
+| `mxgraph.mscae.deprecated.data_services` | 27×35 | `fillColor` |
+| `mxgraph.mscae.deprecated.poster_arrow` | 49×123 | `fillColor` |
+| `mxgraph.mscae.deprecated.sql_data_warehouse` | 28×32 | `fillColor` |
+| `mxgraph.mscae.deprecated.sql_server_stretch_db` | 32×32 | `fillColor` |
+| `mxgraph.mscae.enterprise.ad_fs` | 80×100 | `fillColor` |
+| `mxgraph.mscae.enterprise.android_phone` | 61×100 | `fillColor` |
+| `mxgraph.mscae.enterprise.app_generic` | 100×67 | `fillColor` |
+| `mxgraph.mscae.enterprise.application` | 395×266 | `fillColor` |
+| `mxgraph.mscae.enterprise.application_blank` | 91×79 | `fillColor` |
+| `mxgraph.mscae.enterprise.application_server` | 76×88 | `fillColor` |
+| `mxgraph.mscae.enterprise.application_server2` | 304×352 | `fillColor` |
+| `mxgraph.mscae.enterprise.backup_local` | 98×100 | `fillColor` |
+| `mxgraph.mscae.enterprise.backup_online` | 102×82 | `fillColor` |
+| `mxgraph.mscae.enterprise.calendar` | 412×335 | `fillColor` |
+| `mxgraph.mscae.enterprise.client_application` | 100×63 | `fillColor` |
+| `mxgraph.mscae.enterprise.cluster_server` | 80×100 | `fillColor` |
+| `mxgraph.mscae.enterprise.code_file` | 258×268 | `fillColor` |
+| `mxgraph.mscae.enterprise.connectors` | 100×67 | `fillColor` |
+| `mxgraph.mscae.enterprise.d` | 81×100 | `fillColor` |
+| `mxgraph.mscae.enterprise.database_generic` | 76×103 | `fillColor` |
+| `mxgraph.mscae.enterprise.database_server` | 75×100 | `fillColor` |
+| `mxgraph.mscae.enterprise.database_synchronization` | 78×100 | `fillColor` |
+| `mxgraph.mscae.enterprise.device` | 100×51 | `fillColor` |
+| `mxgraph.mscae.enterprise.direct_access_feature` | 99×89 | `fillColor` |
+| `mxgraph.mscae.enterprise.document` | 80×100 | `fillColor` |
+| `mxgraph.mscae.enterprise.domain_controller` | 73×100 | `fillColor` |
+| `mxgraph.mscae.enterprise.enterprise_building` | 255×405 | `fillColor` |
+| `mxgraph.mscae.enterprise.filter` | 100×90 | `fillColor` |
+| `mxgraph.mscae.enterprise.firewall` | 100×87 | `fillColor` |
+| `mxgraph.mscae.enterprise.folder` | 100×85 | `fillColor` |
+| `mxgraph.mscae.enterprise.gateway` | 100×100 | `fillColor` |
+| `mxgraph.mscae.enterprise.generic_app` | 395×266 | `fillColor` |
+| `mxgraph.mscae.enterprise.import_generic` | 80×100 | `fillColor` |
+| `mxgraph.mscae.enterprise.internet` | 101×62 | `fillColor` |
+| `mxgraph.mscae.enterprise.internet_hollow` | 101×62 | `fillColor` |
+| `mxgraph.mscae.enterprise.iphone` | 28×45 | `fillColor` |
+| `mxgraph.mscae.enterprise.key_permissions` | 52×100 | `fillColor` |
+| `mxgraph.mscae.enterprise.keyboard` | 100×60 | `fillColor` |
+| `mxgraph.mscae.enterprise.load_testing` | 96×100 | `fillColor` |
+| `mxgraph.mscae.enterprise.lock` | 77×101 | `fillColor` |
+| `mxgraph.mscae.enterprise.lock_unlocked` | 74×100 | `fillColor` |
+| `mxgraph.mscae.enterprise.maintenance` | 69×100 | `fillColor` |
+| `mxgraph.mscae.enterprise.management_console` | 100×67 | `fillColor` |
+| `mxgraph.mscae.enterprise.monitor_running_apps` | 100×79 | `fillColor` |
+| `mxgraph.mscae.enterprise.mouse` | 59×101 | `fillColor` |
+| `mxgraph.mscae.enterprise.network_card` | 100×71 | `fillColor` |
+| `mxgraph.mscae.enterprise.not_allowed` | 35×35 | `fillColor` |
+| `mxgraph.mscae.enterprise.pack` | 64×57 | `fillColor` |
+| `mxgraph.mscae.enterprise.performance` | 100×100 | `fillColor` |
+| `mxgraph.mscae.enterprise.performance_monitor` | 100×72 | `fillColor` |
+| `mxgraph.mscae.enterprise.plug_and_play` | 80×100 | `fillColor` |
+| `mxgraph.mscae.enterprise.protocol_stack` | 100×68 | `fillColor` |
+| `mxgraph.mscae.enterprise.rms_connector` | 60×79 | `fillColor` |
+| `mxgraph.mscae.enterprise.router` | 99×76 | `fillColor` |
+| `mxgraph.mscae.enterprise.secondary_site` | 83×100 | `fillColor` |
+| `mxgraph.mscae.enterprise.secure_virtual_machine` | 100×77 | `fillColor` |
+| `mxgraph.mscae.enterprise.server_directory` | 78×100 | `fillColor` |
+| `mxgraph.mscae.enterprise.server_farm` | 100×63 | `fillColor` |
+| `mxgraph.mscae.enterprise.server_generic` | 49×100 | `fillColor` |
+| `mxgraph.mscae.enterprise.settings` | 100×100 | `fillColor` |
+| `mxgraph.mscae.enterprise.shared_folder` | 86×100 | `fillColor` |
+| `mxgraph.mscae.enterprise.smartcard` | 100×64 | `fillColor` |
+| `mxgraph.mscae.enterprise.storage` | 100×83 | `fillColor` |
+| `mxgraph.mscae.enterprise.stored_procedures` | 14×15 | `fillColor` |
+| `mxgraph.mscae.enterprise.table` | 100×100 | `fillColor` |
+| `mxgraph.mscae.enterprise.tool` | 101×94 | `fillColor` |
+| `mxgraph.mscae.enterprise.triggers` | 14×15 | `fillColor` |
+| `mxgraph.mscae.enterprise.udf_function` | 14×15 | `fillColor` |
+| `mxgraph.mscae.enterprise.unhealthy` | 105×86 | `fillColor` |
+| `mxgraph.mscae.enterprise.usb` | 100×46 | `fillColor` |
+| `mxgraph.mscae.enterprise.user_permissions` | 14×15 | `fillColor` |
+| `mxgraph.mscae.enterprise.web` | 100×100 | `fillColor` |
+| `mxgraph.mscae.enterprise.web_server` | 76×100 | `fillColor` |
+| `mxgraph.mscae.enterprise.website_generic` | 95×83 | `fillColor` |
+| `mxgraph.mscae.enterprise.windows_server` | 77×100 | `fillColor` |
+| `mxgraph.mscae.enterprise.wireless_connection` | 83×100 | `fillColor` |
+| `mxgraph.mscae.enterprise.workstation_client` | 100×100 | `fillColor` |
+| `mxgraph.mscae.enterprise.xml_web_service` | 100×99 | `fillColor` |
+| `mxgraph.mscae.general_symbols.attachments` | 7×12 | `fillColor` |
+| `mxgraph.mscae.general_symbols.clock_time` | 100×100 | `fillColor` |
+| `mxgraph.mscae.general_symbols.ellipses` | 100×13 | `fillColor` |
+| `mxgraph.mscae.general_symbols.favorite` | 14×20 | `fillColor` |
+| `mxgraph.mscae.general_symbols.gears` | 53×45 | `fillColor` |
+| `mxgraph.mscae.general_symbols.num_label_rotate` | 100×100 | `fillColor` |
+| `mxgraph.mscae.general_symbols.premium_star` | 12×11 | `fillColor` |
+| `mxgraph.mscae.general_symbols.slider_bar_horz` | 81×30 | `fillColor` |
+| `mxgraph.mscae.general_symbols.slider_bar_vert` | 35×80 | `fillColor` |
+| `mxgraph.mscae.general_symbols.waiting` | 92×100 |  |
+| `mxgraph.mscae.general.audio` | 97×99 | `fillColor` |
+| `mxgraph.mscae.general.bug` | 100×100 | `fillColor` |
+| `mxgraph.mscae.general.cable_settop_tv_box` | 97×47 |  |
+| `mxgraph.mscae.general.calendar` | 100×81 | `fillColor` |
+| `mxgraph.mscae.general.chart` | 100×96 | `fillColor` |
+| `mxgraph.mscae.general.checkmark` | 92×100 | `fillColor` |
+| `mxgraph.mscae.general.continuous_cycle` | 97×101 | `fillColor` |
+| `mxgraph.mscae.general.crossout` | 79×99 | `fillColor` |
+| `mxgraph.mscae.general.cut_and_paste` | 101×68 | `fillColor` |
+| `mxgraph.mscae.general.game_controller` | 100×70 | `fillColor` |
+| `mxgraph.mscae.general.gears` | 99×84 | `fillColor` |
+| `mxgraph.mscae.general.graph` | 100×98 | `fillColor` |
+| `mxgraph.mscae.general.like` | 100×94 | `fillColor` |
+| `mxgraph.mscae.general.not_allowed` | 100×100 | `fillColor` |
+| `mxgraph.mscae.general.pointer` | 100×100 | `fillColor` |
+| `mxgraph.mscae.general.slider_bar_horizontal` | 96×36 | `fillColor` |
+| `mxgraph.mscae.general.slider_bar_vertical` | 44×100 | `fillColor` |
+| `mxgraph.mscae.general.task_list` | 76×95 |  |
+| `mxgraph.mscae.general.tasks` | 76×100 | `fillColor` |
+| `mxgraph.mscae.general.tunnel` | 100×18 | `fillColor` |
+| `mxgraph.mscae.general.video` | 97×100 | `fillColor` |
+| `mxgraph.mscae.intune.account_portal` | 80×92 | `fillColor` |
+| `mxgraph.mscae.intune.administration` | 59×100 | `fillColor` |
+| `mxgraph.mscae.intune.alerts` | 100×100 | `fillColor` |
+| `mxgraph.mscae.intune.apps` | 100×100 | `fillColor` |
+| `mxgraph.mscae.intune.certificate` | 100×89 | `fillColor` |
+| `mxgraph.mscae.intune.client_software` | 105×93 | `fillColor` |
+| `mxgraph.mscae.intune.company_portal` | 94×72 | `fillColor` |
+| `mxgraph.mscae.intune.computer_inventory` | 100×90 | `fillColor` |
+| `mxgraph.mscae.intune.conditional_access_exchange` | 89×100 | `fillColor` |
+| `mxgraph.mscae.intune.conditional_access_sharepoint` | 87×99 | `fillColor` |
+| `mxgraph.mscae.intune.connector` | 93×32 | `fillColor` |
+| `mxgraph.mscae.intune.dashboard` | 100×79 | `fillColor` |
+| `mxgraph.mscae.intune.data_migration_wizard` | 101×98 | `fillColor` |
+| `mxgraph.mscae.intune.detected_software` | 100×88 | `fillColor` |
+| `mxgraph.mscae.intune.device_group` | 100×100 | `fillColor` |
+| `mxgraph.mscae.intune.device_health` | 100×63 | `fillColor` |
+| `mxgraph.mscae.intune.device_history` | 90×100 | `fillColor` |
+| `mxgraph.mscae.intune.device_os` | 98×100 | `fillColor` |
+| `mxgraph.mscae.intune.end_protection` | 96×100 | `fillColor` |
+| `mxgraph.mscae.intune.exchange_connector` | 100×99 | `fillColor` |
+| `mxgraph.mscae.intune.groups` | 100×96 | `fillColor` |
+| `mxgraph.mscae.intune.hybrid` | 100×67 | `fillColor` |
+| `mxgraph.mscae.intune.intune_certificate_profiles` | 80×100 | `fillColor` |
+| `mxgraph.mscae.intune.intune_connector` | 82×59 | `fillColor` |
+| `mxgraph.mscae.intune.intune_email_profiles` | 99×100 | `fillColor` |
+| `mxgraph.mscae.intune.intune_managed_app` | 100×76 | `fillColor` |
+| `mxgraph.mscae.intune.intune_mobile_application_management` | 98×100 | `fillColor` |
+| `mxgraph.mscae.intune.intune_vpn_profiles` | 84×100 | `fillColor` |
+| `mxgraph.mscae.intune.intune_wifi_profiles` | 87×101 | `fillColor` |
+| `mxgraph.mscae.intune.inventory_license` | 100×98 | `fillColor` |
+| `mxgraph.mscae.intune.inventory_software` | 100×98 | `fillColor` |
+| `mxgraph.mscae.intune.license_group` | 100×98 | `fillColor` |
+| `mxgraph.mscae.intune.license_installation` | 100×86 | `fillColor` |
+| `mxgraph.mscae.intune.microsoft_intune` | 96×77 | `fillColor` |
+| `mxgraph.mscae.intune.mobile_inventory` | 88×100 | `fillColor` |
+| `mxgraph.mscae.intune.noncompliant_apps` | 96×99 | `fillColor` |
+| `mxgraph.mscae.intune.policy` | 100×101 | `fillColor` |
+| `mxgraph.mscae.intune.protection` | 96×100 | `fillColor` |
+| `mxgraph.mscae.intune.reports` | 93×100 | `fillColor` |
+| `mxgraph.mscae.intune.subscription_portal` | 90×90 | `fillColor` |
+| `mxgraph.mscae.intune.terms_and_conditions` | 75×100 | `fillColor` |
+| `mxgraph.mscae.intune.update` | 100×104 | `fillColor` |
+| `mxgraph.mscae.intune.user_group` | 99×75 | `fillColor` |
+| `mxgraph.mscae.intune.user_management` | 100×93 | `fillColor` |
+| `mxgraph.mscae.oms.alerts` | 61×74 | `fillColor` |
+| `mxgraph.mscae.oms.app_with_changes` | 73×47 | `fillColor` |
+| `mxgraph.mscae.oms.assessments` | 69×73 | `fillColor` |
+| `mxgraph.mscae.oms.capacity` | 73×58 | `fillColor` |
+| `mxgraph.mscae.oms.config_assessment` | 73×66 | `fillColor` |
+| `mxgraph.mscae.oms.dashboard` | 73×61 | `fillColor` |
+| `mxgraph.mscae.oms.dependency_monitor` | 73×72 | `fillColor` |
+| `mxgraph.mscae.oms.diagnostics` | 73×49 | `fillColor` |
+| `mxgraph.mscae.oms.jobs` | 73×73 | `fillColor` |
+| `mxgraph.mscae.oms.log_management` | 59×73 | `fillColor` |
+| `mxgraph.mscae.oms.log_search` | 75×75 | `fillColor` |
+| `mxgraph.mscae.oms.malware_assessment` | 71×73 | `fillColor` |
+| `mxgraph.mscae.oms.overview` | 73×61 | `fillColor` |
+| `mxgraph.mscae.oms.security` | 72×73 | `fillColor` |
+| `mxgraph.mscae.oms.server_width_changes` | 69×73 | `fillColor` |
+| `mxgraph.mscae.oms.services` | 72×73 | `fillColor` |
+| `mxgraph.mscae.oms.solutions` | 74×73 | `fillColor` |
+| `mxgraph.mscae.oms.system_update` | 72×73 | `fillColor` |
+| `mxgraph.mscae.oms.track_changes` | 61×73 | `fillColor` |
+| `mxgraph.mscae.oms.wire_data` | 74×74 | `fillColor` |
+| `mxgraph.mscae.opsmanager.advanced_group_policy_management` | 95×100 | `fillColor` |
+| `mxgraph.mscae.opsmanager.app_controller` | 100×86 | `fillColor` |
+| `mxgraph.mscae.opsmanager.application_virtualization` | 99×100 | `fillColor` |
+| `mxgraph.mscae.opsmanager.applications` | 98×100 | `fillColor` |
+| `mxgraph.mscae.opsmanager.configuration_manager` | 92×100 | `fillColor` |
+| `mxgraph.mscae.opsmanager.data_protection_manager` | 87×100 | `fillColor` |
+| `mxgraph.mscae.opsmanager.middleware` | 100×69 | `fillColor` |
+| `mxgraph.mscae.opsmanager.ms_bitlocker_administration_and_management` | 93×100 | `fillColor` |
+| `mxgraph.mscae.opsmanager.ms_diagnostics_and_recovery_toolset` | 100×95 | `fillColor` |
+| `mxgraph.mscae.opsmanager.ms_enterprise_desktop_virtualization` | 100×99 | `fillColor` |
+| `mxgraph.mscae.opsmanager.ms_user_experience_virtualization` | 100×96 | `fillColor` |
+| `mxgraph.mscae.opsmanager.operations_manager` | 97×100 | `fillColor` |
+| `mxgraph.mscae.opsmanager.orchestrator` | 100×68 | `fillColor` |
+| `mxgraph.mscae.opsmanager.pack` | 89×100 | `fillColor` |
+| `mxgraph.mscae.opsmanager.runtime` | 100×70 | `fillColor` |
+| `mxgraph.mscae.opsmanager.service_manager` | 100×72 | `fillColor` |
+| `mxgraph.mscae.opsmanager.ssd` | 100×81 | `fillColor` |
+| `mxgraph.mscae.opsmanager.virtual_machine_manager` | 102×79 | `fillColor` |
+| `mxgraph.mscae.other.access` | 100×99 | `fillColor` |
+| `mxgraph.mscae.other.bi_product_icon` | 50×53 | `fillColor` |
+| `mxgraph.mscae.other.cortana` | 76×76 | `fillColor`+`strokeColor` |
+| `mxgraph.mscae.other.excel` | 89×89 | `fillColor` |
+| `mxgraph.mscae.other.exchange` | 100×95 | `fillColor` |
+| `mxgraph.mscae.other.lync` | 101×96 | `fillColor` |
+| `mxgraph.mscae.other.microsoft` | 100×100 |  |
+| `mxgraph.mscae.other.outlook` | 100×100 | `fillColor` |
+| `mxgraph.mscae.other.powerappsicon` | 32×32 | `fillColor` |
+| `mxgraph.mscae.other.powerpoint` | 100×100 | `fillColor` |
+| `mxgraph.mscae.other.sharepoint` | 100×98 | `fillColor` |
+| `mxgraph.mscae.other.skype` | 90×90 | `fillColor` |
+| `mxgraph.mscae.other.windows` | 96×100 | `fillColor` |
+| `mxgraph.mscae.other.word` | 100×100 | `fillColor` |
+| `mxgraph.mscae.other.xbox` | 109×106 | `fillColor` |
+| `mxgraph.mscae.other.xbox_one` | 99×32 |  |
+| `mxgraph.mscae.system_center.admin_console` | 100×72 | `fillColor` |
+| `mxgraph.mscae.system_center.central_administration_site_sql` | 76×100 | `fillColor` |
+| `mxgraph.mscae.system_center.cloud_distribution_point` | 93×100 | `fillColor` |
+| `mxgraph.mscae.system_center.distribution_point` | 88×100 | `fillColor` |
+| `mxgraph.mscae.system_center.management_point` | 97×100 | `fillColor` |
+| `mxgraph.mscae.system_center.primary_site` | 75×100 | `fillColor` |
+| `mxgraph.mscae.system_center.roles` | 85×100 | `fillColor` |
+| `mxgraph.mscae.system_center.secondary_site` | 83×100 | `fillColor` |
+| `mxgraph.mscae.system_center.software_update_point` | 100×87 | `fillColor` |
+| `mxgraph.mscae.vm.active_directory` | 38×30 | `fillColor` |
+| `mxgraph.mscae.vm.active_directory_multi` | 42×36 | `fillColor` |
+| `mxgraph.mscae.vm.application_server` | 38×30 | `fillColor` |
+| `mxgraph.mscae.vm.application_server_multi` | 42×36 | `fillColor` |
+| `mxgraph.mscae.vm.database_server` | 38×30 | `fillColor` |
+| `mxgraph.mscae.vm.database_server_multi` | 42×36 | `fillColor` |
+| `mxgraph.mscae.vm.directory_server` | 38×30 | `fillColor` |
+| `mxgraph.mscae.vm.directory_server_multi` | 42×36 | `fillColor` |
+| `mxgraph.mscae.vm.domain_server` | 38×30 | `fillColor` |
+| `mxgraph.mscae.vm.domain_server_multi` | 43×36 | `fillColor` |
+| `mxgraph.mscae.vm.file_server` | 38×30 | `fillColor` |
+| `mxgraph.mscae.vm.file_server_multi` | 42×36 | `fillColor` |
+| `mxgraph.mscae.vm.file_server2` | 38×30 | `fillColor` |
+| `mxgraph.mscae.vm.web_server` | 38×30 | `fillColor` |
+| `mxgraph.mscae.vm.web_server_multi` | 42×35 | `fillColor` |
+| `mxgraph.mscae.vm.windows_server` | 38×30 | `fillColor` |
+| `mxgraph.mscae.vm.windows_server_multi` | 42×36 | `fillColor` |
 
 ## Usage Example
 
 ```drawio
-<mxfile><diagram id="example" name="Example"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="" style="shape=mxgraph.mscae.cloud.active_directory;html=1;fillColor=#CCCCCC;strokeColor=#6881B3;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="100" y="100" width="60" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
+<mxfile><diagram id="example" name="Example"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="" style="shape=mxgraph.mscae.cloud.active_directory;html=1;fillColor=#0078D4;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="100" y="100" width="60" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
 ```

@@ -4,319 +4,326 @@ Stencil library: `mxgraph.alibaba_cloud.*`
 
 Total: 310 stencils
 
-- `mxgraph.alibaba_cloud.abap_business_application_platform` (182×165)
-- `mxgraph.alibaba_cloud.acms_application_configuration_manangement` (170×158)
-- `mxgraph.alibaba_cloud.acr_cloud_container_registry` (162×188)
-- `mxgraph.alibaba_cloud.actiontrail` (167×167)
-- `mxgraph.alibaba_cloud.adam_advanced_database_and_application_migration` (143×171)
-- `mxgraph.alibaba_cloud.adb_analyticdb_for_mysql` (163×183)
-- `mxgraph.alibaba_cloud.address_purification` (169×179)
-- `mxgraph.alibaba_cloud.afs_fraud_service` (147×166)
-- `mxgraph.alibaba_cloud.agw_aligateway` (157×132)
-- `mxgraph.alibaba_cloud.ahas_application_high_availability_service` (155×179)
-- `mxgraph.alibaba_cloud.airec_artificial_intelligence_recommendation` (200×200)
-- `mxgraph.alibaba_cloud.alb_application_load_balancer_01` (158×134)
-- `mxgraph.alibaba_cloud.alb_application_load_balancer_02` (200×200)
-- `mxgraph.alibaba_cloud.alibaba_cloud_logo` (322×200)
-- `mxgraph.alibaba_cloud.alibaba_cloud_logo_chinese` (512×114)
-- `mxgraph.alibaba_cloud.alibaba_cloud_logo_english` (516×65)
-- `mxgraph.alibaba_cloud.alimail` (192×131)
-- `mxgraph.alibaba_cloud.alimt_machine_translation` (158×159)
-- `mxgraph.alibaba_cloud.aliyun_linux` (175×175)
-- `mxgraph.alibaba_cloud.amqp_advanced_message_queuing_protocol` (153×160)
-- `mxgraph.alibaba_cloud.amscloudapp` (189×132)
-- `mxgraph.alibaba_cloud.analyticdb_for_postgresql` (167×165)
-- `mxgraph.alibaba_cloud.antibot` (185×165)
-- `mxgraph.alibaba_cloud.apigateway` (144×139)
-- `mxgraph.alibaba_cloud.apsara_file_storage_for_hdfs` (160×158)
-- `mxgraph.alibaba_cloud.apsaravideo_vod` (179×130)
-- `mxgraph.alibaba_cloud.arms_application_real-time_monitoring_service` (183×89)
-- `mxgraph.alibaba_cloud.ask_ack_container_service_for_kubernetes` (149×171)
-- `mxgraph.alibaba_cloud.asm_service_mesh` (144×167)
-- `mxgraph.alibaba_cloud.assettech` (144×139)
-- `mxgraph.alibaba_cloud.avds_vulnerability_db_scanning` (183×183)
-- `mxgraph.alibaba_cloud.baas_blockchain_as_a_service` (144×158)
-- `mxgraph.alibaba_cloud.bandwidth_bag` (183×133)
-- `mxgraph.alibaba_cloud.bastionhost` (168×133)
-- `mxgraph.alibaba_cloud.batchcompute` (156×160)
-- `mxgraph.alibaba_cloud.bccluster` (167×124)
-- `mxgraph.alibaba_cloud.beebot` (199×183)
-- `mxgraph.alibaba_cloud.beian` (157×161)
-- `mxgraph.alibaba_cloud.bizdevops` (201×167)
-- `mxgraph.alibaba_cloud.bizworks` (144×139)
-- `mxgraph.alibaba_cloud.bpstudio` (167×121)
-- `mxgraph.alibaba_cloud.cas_ssl_central_authentication_service` (146×165)
-- `mxgraph.alibaba_cloud.cassandra_wide-column_database_01` (146×156)
-- `mxgraph.alibaba_cloud.cassandra_wide-column_database_02` (171×183)
-- `mxgraph.alibaba_cloud.ccc_cloud_call_center` (179×174)
-- `mxgraph.alibaba_cloud.ccn_cloud_connect_network` (187×153)
-- `mxgraph.alibaba_cloud.ccs_customer_service_01` (180×182)
-- `mxgraph.alibaba_cloud.ccs_customer_service_02` (174×184)
-- `mxgraph.alibaba_cloud.cddc_cloud_database_dedicated_cluster` (168×152)
-- `mxgraph.alibaba_cloud.cdn_content_distribution_network` (170×141)
-- `mxgraph.alibaba_cloud.cdp_cloudera_cdp` (183×114)
-- `mxgraph.alibaba_cloud.cdt_cloud_datatransfer` (167×141)
-- `mxgraph.alibaba_cloud.cen_cloud_enterprise_network` (178×183)
-- `mxgraph.alibaba_cloud.cfw_cloud_firewall` (185×130)
-- `mxgraph.alibaba_cloud.cityvisual` (175×123)
-- `mxgraph.alibaba_cloud.clb_classic_load_balancer_01` (158×134)
-- `mxgraph.alibaba_cloud.clb_classic_load_balancer_02` (200×200)
-- `mxgraph.alibaba_cloud.clickhouse` (160×183)
-- `mxgraph.alibaba_cloud.cloud_auth` (200×182)
-- `mxgraph.alibaba_cloud.cloud_config` (159×160)
-- `mxgraph.alibaba_cloud.cloud_display` (183×145)
-- `mxgraph.alibaba_cloud.cloud_governance_center` (167×145)
-- `mxgraph.alibaba_cloud.cloud_security_center` (144×163)
-- `mxgraph.alibaba_cloud.cloud_shield` (152×163)
-- `mxgraph.alibaba_cloud.cloudap` (183×184)
-- `mxgraph.alibaba_cloud.cloudbox` (158×183)
-- `mxgraph.alibaba_cloud.clouddesktop` (183×184)
-- `mxgraph.alibaba_cloud.clouddev` (189×135)
-- `mxgraph.alibaba_cloud.cloudphoto` (150×150)
-- `mxgraph.alibaba_cloud.cloudproc` (144×139)
-- `mxgraph.alibaba_cloud.cloudshell` (158×126)
-- `mxgraph.alibaba_cloud.cmn_cloud_managed_network` (173×126)
-- `mxgraph.alibaba_cloud.cmp_cloud_mobile_push` (164×119)
-- `mxgraph.alibaba_cloud.cms_cloud_monitor_service` (174×138)
-- `mxgraph.alibaba_cloud.codepipeline` (137×174)
-- `mxgraph.alibaba_cloud.codestore` (144×139)
-- `mxgraph.alibaba_cloud.companyreg` (158×175)
-- `mxgraph.alibaba_cloud.computenest` (167×148)
-- `mxgraph.alibaba_cloud.content_security` (156×157)
-- `mxgraph.alibaba_cloud.coo` (146×158)
-- `mxgraph.alibaba_cloud.cpns_cell_phone_number_service` (133×183)
-- `mxgraph.alibaba_cloud.csas_cloud_security_access_service` (144×167)
-- `mxgraph.alibaba_cloud.cvc_cloud_video_conferencing` (133×182)
-- `mxgraph.alibaba_cloud.cwh_cloud_web_hosting` (166×152)
-- `mxgraph.alibaba_cloud.das_database_autonomy_service` (158×158)
-- `mxgraph.alibaba_cloud.databot` (151×174)
-- `mxgraph.alibaba_cloud.datahub` (159×159)
-- `mxgraph.alibaba_cloud.dataphin` (182×182)
-- `mxgraph.alibaba_cloud.dataquotient` (161×161)
-- `mxgraph.alibaba_cloud.datav` (165×148)
-- `mxgraph.alibaba_cloud.dataworks_dataide` (153×175)
-- `mxgraph.alibaba_cloud.dbaudit` (163×163)
-- `mxgraph.alibaba_cloud.dbes_database_expert_service` (158×158)
-- `mxgraph.alibaba_cloud.dbfs_database_file_system` (158×160)
-- `mxgraph.alibaba_cloud.dbs_database_backup` (228×213)
-- `mxgraph.alibaba_cloud.dcdn_dynamic_route_for_cdn` (156×183)
-- `mxgraph.alibaba_cloud.ddh_dedicated_host` (158×158)
-- `mxgraph.alibaba_cloud.ddos-bgp` (158×158)
-- `mxgraph.alibaba_cloud.ddos-dip` (161×184)
-- `mxgraph.alibaba_cloud.ddos-pro` (159×156)
-- `mxgraph.alibaba_cloud.ddos_protection` (138×158)
-- `mxgraph.alibaba_cloud.devops` (200×200)
-- `mxgraph.alibaba_cloud.dg_database_gateway` (133×183)
-- `mxgraph.alibaba_cloud.directmail` (175×116)
-- `mxgraph.alibaba_cloud.disk_block_storage` (172×138)
-- `mxgraph.alibaba_cloud.dlf_data_lake_formation` (178×167)
-- `mxgraph.alibaba_cloud.dms_data_management_service` (153×158)
-- `mxgraph.alibaba_cloud.dns_domain_name_system` (186×183)
-- `mxgraph.alibaba_cloud.dns_privatezone_01` (186×183)
-- `mxgraph.alibaba_cloud.dns_privatezone_02` (166×174)
-- `mxgraph.alibaba_cloud.domain` (183×183)
-- `mxgraph.alibaba_cloud.domain_and_website` (171×138)
-- `mxgraph.alibaba_cloud.drds_distribute_relational_database_service` (148×158)
-- `mxgraph.alibaba_cloud.dsi_data_security_insurance` (146×171)
-- `mxgraph.alibaba_cloud.dts_data_transmission_service` (160×158)
-- `mxgraph.alibaba_cloud.e-mapreduce` (199×199)
-- `mxgraph.alibaba_cloud.eais_elastic_accelerated_computing_instances` (173×120)
-- `mxgraph.alibaba_cloud.eci_elastic_container_instance` (183×128)
-- `mxgraph.alibaba_cloud.ecs_elastic_compute_service` (163×152)
-- `mxgraph.alibaba_cloud.edas_enterprise_distributed_application_service` (155×158)
-- `mxgraph.alibaba_cloud.ehpc_elastic_high_performance_computing` (145×159)
-- `mxgraph.alibaba_cloud.eip_elastic_ip_address` (158×155)
-- `mxgraph.alibaba_cloud.elastic_web_hosting` (178×171)
-- `mxgraph.alibaba_cloud.elasticsearch` (153×167)
-- `mxgraph.alibaba_cloud.emas_enterprise_mobile_application_studio` (144×139)
-- `mxgraph.alibaba_cloud.energyexpert` (144×139)
-- `mxgraph.alibaba_cloud.ens_edge_node_service` (183×183)
-- `mxgraph.alibaba_cloud.enterprise_website` (177×138)
-- `mxgraph.alibaba_cloud.eprofile` (167×144)
-- `mxgraph.alibaba_cloud.esign` (139×153)
-- `mxgraph.alibaba_cloud.ess_elastic_scaling_service` (184×101)
-- `mxgraph.alibaba_cloud.eventbridge` (163×163)
-- `mxgraph.alibaba_cloud.express_connect` (172×158)
-- `mxgraph.alibaba_cloud.face_recognition` (158×156)
-- `mxgraph.alibaba_cloud.fc_function_compute` (172×171)
-- `mxgraph.alibaba_cloud.flow_service` (133×175)
-- `mxgraph.alibaba_cloud.flowbag` (184×118)
-- `mxgraph.alibaba_cloud.fnf_serverless_function_flow` (160×185)
-- `mxgraph.alibaba_cloud.fpga_field_programmable_gate_array` (152×151)
-- `mxgraph.alibaba_cloud.fraud_detection` (158×158)
-- `mxgraph.alibaba_cloud.ga_global_accelerator` (183×183)
-- `mxgraph.alibaba_cloud.gameshield` (171×148)
-- `mxgraph.alibaba_cloud.gdb_graph_database` (183×158)
-- `mxgraph.alibaba_cloud.graphanalytics` (133×166)
-- `mxgraph.alibaba_cloud.graphcompute` (166×167)
-- `mxgraph.alibaba_cloud.gtm_global_traffic_manager` (185×181)
-- `mxgraph.alibaba_cloud.gts_global_transaction_service` (158×160)
-- `mxgraph.alibaba_cloud.gws_graphic_workstation` (158×158)
-- `mxgraph.alibaba_cloud.havip_high-availability_virtual_ip_address` (175×175)
-- `mxgraph.alibaba_cloud.hbase` (152×152)
-- `mxgraph.alibaba_cloud.hbr_hybrid_backup_recovery` (161×183)
-- `mxgraph.alibaba_cloud.hcs-hgw_hybrid_cloud_storage_array` (135×157)
-- `mxgraph.alibaba_cloud.hcs-mgw_hybrid_cloud_storage_datatransport` (169×135)
-- `mxgraph.alibaba_cloud.hcs-sgw_hybrid_cloud_storage_gateway` (170×133)
-- `mxgraph.alibaba_cloud.hdr_hybrid_disaster_recovery` (158×158)
-- `mxgraph.alibaba_cloud.hologres` (183×167)
-- `mxgraph.alibaba_cloud.holowatcher` (144×167)
-- `mxgraph.alibaba_cloud.hsm_hardware_security_module` (155×165)
-- `mxgraph.alibaba_cloud.httpdns` (167×121)
-- `mxgraph.alibaba_cloud.idrsservice` (187×187)
-- `mxgraph.alibaba_cloud.image_recognition` (163×159)
-- `mxgraph.alibaba_cloud.imagesearch` (159×159)
-- `mxgraph.alibaba_cloud.imarketing` (144×139)
-- `mxgraph.alibaba_cloud.imm_intelligent_media_management` (183×182)
-- `mxgraph.alibaba_cloud.imp_intelligent_media_production` (176×122)
-- `mxgraph.alibaba_cloud.imp_low_code_video_factory` (160×162)
-- `mxgraph.alibaba_cloud.indvi_industrial_visual_intelligence` (158×158)
-- `mxgraph.alibaba_cloud.intelligent_advisor` (158×183)
-- `mxgraph.alibaba_cloud.iot_internet_of_things_platform` (188×185)
-- `mxgraph.alibaba_cloud.iot_wireless_connection_service` (142×167)
-- `mxgraph.alibaba_cloud.iotid_identity` (159×159)
-- `mxgraph.alibaba_cloud.iov_iot_vehicle_cloud` (184×110)
-- `mxgraph.alibaba_cloud.ipv6_gateway` (172×199)
-- `mxgraph.alibaba_cloud.isoc_iot_security_operations_center` (165×183)
-- `mxgraph.alibaba_cloud.isu_intelligent_semantic_understanding` (158×156)
-- `mxgraph.alibaba_cloud.ivision` (184×183)
-- `mxgraph.alibaba_cloud.ivpd_intelligent_visual_production` (156×155)
-- `mxgraph.alibaba_cloud.kafka` (189×140)
-- `mxgraph.alibaba_cloud.linkedmall` (144×139)
-- `mxgraph.alibaba_cloud.linkwan` (175×183)
-- `mxgraph.alibaba_cloud.live` (163×149)
-- `mxgraph.alibaba_cloud.livinglink` (146×169)
-- `mxgraph.alibaba_cloud.log_streaming` (158×151)
-- `mxgraph.alibaba_cloud.logic_composer` (179×178)
-- `mxgraph.alibaba_cloud.machine_learning` (166×167)
-- `mxgraph.alibaba_cloud.man_mobile_analytics` (167×138)
-- `mxgraph.alibaba_cloud.mariadb` (170×128)
-- `mxgraph.alibaba_cloud.mas_mobile_acceleration_service` (171×126)
-- `mxgraph.alibaba_cloud.maxcompute` (167×167)
-- `mxgraph.alibaba_cloud.memcache` (167×151)
-- `mxgraph.alibaba_cloud.miniappdev` (164×119)
-- `mxgraph.alibaba_cloud.mns_message_service` (133×133)
-- `mxgraph.alibaba_cloud.mobile_hotfix` (167×167)
-- `mxgraph.alibaba_cloud.mobsec` (170×144)
-- `mxgraph.alibaba_cloud.mongodb` (158×158)
-- `mxgraph.alibaba_cloud.mps-ai` (174×175)
-- `mxgraph.alibaba_cloud.mps-censor` (187×183)
-- `mxgraph.alibaba_cloud.mps-cover` (187×183)
-- `mxgraph.alibaba_cloud.mps-dna` (191×186)
-- `mxgraph.alibaba_cloud.mps-multimod` (202×183)
-- `mxgraph.alibaba_cloud.mps-produce` (202×175)
-- `mxgraph.alibaba_cloud.mps_apsaravideo_media_processing` (145×173)
-- `mxgraph.alibaba_cloud.mq_message_queue` (150×166)
-- `mxgraph.alibaba_cloud.mqc_mobile_quality_center` (165×165)
-- `mxgraph.alibaba_cloud.mse_microservices_engine` (183×183)
-- `mxgraph.alibaba_cloud.multi-cloud_finops` (175×125)
-- `mxgraph.alibaba_cloud.multi-mode_database_lindorm` (158×167)
-- `mxgraph.alibaba_cloud.multimediaai` (200×197)
-- `mxgraph.alibaba_cloud.mysql` (161×150)
-- `mxgraph.alibaba_cloud.nas_network_attached_storage` (165×133)
-- `mxgraph.alibaba_cloud.nat_gateway` (172×139)
-- `mxgraph.alibaba_cloud.network_acl_access_control_list` (158×142)
-- `mxgraph.alibaba_cloud.nlb_network_load_balancer_01` (158×134)
-- `mxgraph.alibaba_cloud.nlb_network_load_balancer_02` (200×200)
-- `mxgraph.alibaba_cloud.nlp-address` (158×158)
-- `mxgraph.alibaba_cloud.nlp-automl` (161×157)
-- `mxgraph.alibaba_cloud.nlp-ie_text_information_extraction` (158×158)
-- `mxgraph.alibaba_cloud.nlp-ke_keyword_extraction` (158×158)
-- `mxgraph.alibaba_cloud.nlp-ner_named_entity_recognition` (158×158)
-- `mxgraph.alibaba_cloud.nlp-pos_part-of-speech_tagging` (158×158)
-- `mxgraph.alibaba_cloud.nlp-ra_reflexive_anaphora` (158×158)
-- `mxgraph.alibaba_cloud.nlp-sa_sentiment_analysis` (158×158)
-- `mxgraph.alibaba_cloud.nlp-tc_text_categorization` (158×158)
-- `mxgraph.alibaba_cloud.nlp-ws_word_segmentation` (158×158)
-- `mxgraph.alibaba_cloud.nlp_natural_language_processing` (167×184)
-- `mxgraph.alibaba_cloud.nls` (183×164)
-- `mxgraph.alibaba_cloud.nls-asrbag` (158×158)
-- `mxgraph.alibaba_cloud.nls-asrcustommodel` (183×183)
-- `mxgraph.alibaba_cloud.nls-filebag` (158×158)
-- `mxgraph.alibaba_cloud.nls-service` (157×158)
-- `mxgraph.alibaba_cloud.nls-shortasrbag` (158×158)
-- `mxgraph.alibaba_cloud.nls-ttsbag` (158×158)
-- `mxgraph.alibaba_cloud.nodejs_performance_platform` (140×158)
-- `mxgraph.alibaba_cloud.oceanbase` (168×148)
-- `mxgraph.alibaba_cloud.ocr_optical_character_recognition` (199×201)
-- `mxgraph.alibaba_cloud.onsmqtt_micro_message_queuing_telemetry_transport` (183×131)
-- `mxgraph.alibaba_cloud.oos_operation_orchestration_service` (166×167)
-- `mxgraph.alibaba_cloud.openanalytics` (183×183)
-- `mxgraph.alibaba_cloud.openapi_explorer` (158×158)
-- `mxgraph.alibaba_cloud.opensearch` (201×200)
-- `mxgraph.alibaba_cloud.oss_object_storage_service` (169×129)
-- `mxgraph.alibaba_cloud.ots_tablestore` (177×142)
-- `mxgraph.alibaba_cloud.outboundbot` (195×195)
-- `mxgraph.alibaba_cloud.pcdn_p2p_cdn` (133×155)
-- `mxgraph.alibaba_cloud.petadata_hybriddb_for_mysql` (189×187)
-- `mxgraph.alibaba_cloud.physical_connection` (181×135)
-- `mxgraph.alibaba_cloud.pnvs_phone_number_verification_service` (118×167)
-- `mxgraph.alibaba_cloud.polardb` (185×192)
-- `mxgraph.alibaba_cloud.porana_portrait_analysis` (164×151)
-- `mxgraph.alibaba_cloud.postgresql` (160×159)
-- `mxgraph.alibaba_cloud.ppas_pay-as-you-go_database` (133×183)
-- `mxgraph.alibaba_cloud.privatelink` (187×189)
-- `mxgraph.alibaba_cloud.prometheus` (163×163)
-- `mxgraph.alibaba_cloud.prophet` (156×159)
-- `mxgraph.alibaba_cloud.pts_performance_test_service` (167×137)
-- `mxgraph.alibaba_cloud.quickbi` (159×160)
-- `mxgraph.alibaba_cloud.ram_resource_access_management` (184×120)
-- `mxgraph.alibaba_cloud.re_recommendation_engine` (165×161)
-- `mxgraph.alibaba_cloud.realtime_compute` (200×200)
-- `mxgraph.alibaba_cloud.redis_kvstore` (175×138)
-- `mxgraph.alibaba_cloud.region` (158×181)
-- `mxgraph.alibaba_cloud.retailir` (158×158)
-- `mxgraph.alibaba_cloud.ros_resource_orchestration_service` (167×145)
-- `mxgraph.alibaba_cloud.route_table` (125×158)
-- `mxgraph.alibaba_cloud.router` (184×192)
-- `mxgraph.alibaba_cloud.rsimganalys` (167×148)
-- `mxgraph.alibaba_cloud.rtc_real-time_communication` (175×176)
-- `mxgraph.alibaba_cloud.sae_serverless_app_engine` (163×183)
-- `mxgraph.alibaba_cloud.sag_smart_access_gateway_01` (158×125)
-- `mxgraph.alibaba_cloud.sag_smart_access_gateway_02` (167×138)
-- `mxgraph.alibaba_cloud.sas_situational_awareness` (155×164)
-- `mxgraph.alibaba_cloud.sca_smart_conversation_analysis_01` (158×158)
-- `mxgraph.alibaba_cloud.sca_smart_conversation_analysis_02` (186×187)
-- `mxgraph.alibaba_cloud.scc_super_computing_cluster` (163×178)
-- `mxgraph.alibaba_cloud.scdn_secure_cdn` (193×199)
-- `mxgraph.alibaba_cloud.scu_storage_capacity_unit` (170×183)
-- `mxgraph.alibaba_cloud.sddp_sensitive_data_protection` (163×193)
-- `mxgraph.alibaba_cloud.shared_bandwidth` (167×167)
-- `mxgraph.alibaba_cloud.shared_flow_bag` (183×117)
-- `mxgraph.alibaba_cloud.shc_shield_hybrid_cloud` (164×151)
-- `mxgraph.alibaba_cloud.slb_server_load_balancer_01` (158×134)
-- `mxgraph.alibaba_cloud.slb_server_load_balancer_02` (200×200)
-- `mxgraph.alibaba_cloud.slb_server_load_balancer_03` (167×142)
-- `mxgraph.alibaba_cloud.sls_simple_log_service` (160×160)
-- `mxgraph.alibaba_cloud.smc_server_migration_center` (183×183)
-- `mxgraph.alibaba_cloud.sms_short_message_service` (166×152)
-- `mxgraph.alibaba_cloud.sos` (155×158)
-- `mxgraph.alibaba_cloud.spark_data_insights` (154×167)
-- `mxgraph.alibaba_cloud.sppc` (168×147)
-- `mxgraph.alibaba_cloud.sqlserver` (132×183)
-- `mxgraph.alibaba_cloud.swas_simple_application_server` (200×200)
-- `mxgraph.alibaba_cloud.tr_transit_router` (175×175)
-- `mxgraph.alibaba_cloud.trademark_service` (158×177)
-- `mxgraph.alibaba_cloud.uis_ultimate_internet_service` (183×181)
-- `mxgraph.alibaba_cloud.user` (200×200)
-- `mxgraph.alibaba_cloud.user_feedback_01` (158×158)
-- `mxgraph.alibaba_cloud.user_feedback_02` (144×167)
-- `mxgraph.alibaba_cloud.vbr_virtual_border_router` (192×192)
-- `mxgraph.alibaba_cloud.vcs_visual_computing_service` (171×175)
-- `mxgraph.alibaba_cloud.vms_voice_messaging_service` (158×152)
-- `mxgraph.alibaba_cloud.voicebot_intelligent_voice_navigation` (196×190)
-- `mxgraph.alibaba_cloud.vpc_virtual_private_cloud` (190×122)
-- `mxgraph.alibaba_cloud.vpn_gateway` (183×183)
-- `mxgraph.alibaba_cloud.vs_video_surveillance` (183×183)
-- `mxgraph.alibaba_cloud.vswitch` (175×125)
-- `mxgraph.alibaba_cloud.waf_web_application_firewall` (164×145)
-- `mxgraph.alibaba_cloud.webplus_web_app_service` (183×183)
-- `mxgraph.alibaba_cloud.xdragon_bare_metal_server` (164×159)
-- `mxgraph.alibaba_cloud.xtrace` (138×167)
-- `mxgraph.alibaba_cloud.yida` (158×158)
+> **Style hints**
+> - 310 shape(s) need `fillColor`
+>
+> **Recommended colors:** fillColor: `#FF6A00` / `#00C1DE` / `#5B5EA6` / `#00B42A` / `#E02020`
+
+| Shape | Size | Required Styles |
+|-------|------|-----------------|
+| `mxgraph.alibaba_cloud.abap_business_application_platform` | 182×165 | `fillColor` |
+| `mxgraph.alibaba_cloud.acms_application_configuration_manangement` | 170×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.acr_cloud_container_registry` | 162×188 | `fillColor` |
+| `mxgraph.alibaba_cloud.actiontrail` | 167×167 | `fillColor` |
+| `mxgraph.alibaba_cloud.adam_advanced_database_and_application_migration` | 143×171 | `fillColor` |
+| `mxgraph.alibaba_cloud.adb_analyticdb_for_mysql` | 163×183 | `fillColor` |
+| `mxgraph.alibaba_cloud.address_purification` | 169×179 | `fillColor` |
+| `mxgraph.alibaba_cloud.afs_fraud_service` | 147×166 | `fillColor` |
+| `mxgraph.alibaba_cloud.agw_aligateway` | 157×132 | `fillColor` |
+| `mxgraph.alibaba_cloud.ahas_application_high_availability_service` | 155×179 | `fillColor` |
+| `mxgraph.alibaba_cloud.airec_artificial_intelligence_recommendation` | 200×200 | `fillColor` |
+| `mxgraph.alibaba_cloud.alb_application_load_balancer_01` | 158×134 | `fillColor` |
+| `mxgraph.alibaba_cloud.alb_application_load_balancer_02` | 200×200 | `fillColor` |
+| `mxgraph.alibaba_cloud.alibaba_cloud_logo` | 322×200 | `fillColor` |
+| `mxgraph.alibaba_cloud.alibaba_cloud_logo_chinese` | 512×114 | `fillColor` |
+| `mxgraph.alibaba_cloud.alibaba_cloud_logo_english` | 516×65 | `fillColor` |
+| `mxgraph.alibaba_cloud.alimail` | 192×131 | `fillColor` |
+| `mxgraph.alibaba_cloud.alimt_machine_translation` | 158×159 | `fillColor` |
+| `mxgraph.alibaba_cloud.aliyun_linux` | 175×175 | `fillColor` |
+| `mxgraph.alibaba_cloud.amqp_advanced_message_queuing_protocol` | 153×160 | `fillColor` |
+| `mxgraph.alibaba_cloud.amscloudapp` | 189×132 | `fillColor` |
+| `mxgraph.alibaba_cloud.analyticdb_for_postgresql` | 167×165 | `fillColor` |
+| `mxgraph.alibaba_cloud.antibot` | 185×165 | `fillColor` |
+| `mxgraph.alibaba_cloud.apigateway` | 144×139 | `fillColor` |
+| `mxgraph.alibaba_cloud.apsara_file_storage_for_hdfs` | 160×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.apsaravideo_vod` | 179×130 | `fillColor` |
+| `mxgraph.alibaba_cloud.arms_application_real-time_monitoring_service` | 183×89 | `fillColor` |
+| `mxgraph.alibaba_cloud.ask_ack_container_service_for_kubernetes` | 149×171 | `fillColor` |
+| `mxgraph.alibaba_cloud.asm_service_mesh` | 144×167 | `fillColor` |
+| `mxgraph.alibaba_cloud.assettech` | 144×139 | `fillColor` |
+| `mxgraph.alibaba_cloud.avds_vulnerability_db_scanning` | 183×183 | `fillColor` |
+| `mxgraph.alibaba_cloud.baas_blockchain_as_a_service` | 144×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.bandwidth_bag` | 183×133 | `fillColor` |
+| `mxgraph.alibaba_cloud.bastionhost` | 168×133 | `fillColor` |
+| `mxgraph.alibaba_cloud.batchcompute` | 156×160 | `fillColor` |
+| `mxgraph.alibaba_cloud.bccluster` | 167×124 | `fillColor` |
+| `mxgraph.alibaba_cloud.beebot` | 199×183 | `fillColor` |
+| `mxgraph.alibaba_cloud.beian` | 157×161 | `fillColor` |
+| `mxgraph.alibaba_cloud.bizdevops` | 201×167 | `fillColor` |
+| `mxgraph.alibaba_cloud.bizworks` | 144×139 | `fillColor` |
+| `mxgraph.alibaba_cloud.bpstudio` | 167×121 | `fillColor` |
+| `mxgraph.alibaba_cloud.cas_ssl_central_authentication_service` | 146×165 | `fillColor` |
+| `mxgraph.alibaba_cloud.cassandra_wide-column_database_01` | 146×156 | `fillColor` |
+| `mxgraph.alibaba_cloud.cassandra_wide-column_database_02` | 171×183 | `fillColor` |
+| `mxgraph.alibaba_cloud.ccc_cloud_call_center` | 179×174 | `fillColor` |
+| `mxgraph.alibaba_cloud.ccn_cloud_connect_network` | 187×153 | `fillColor` |
+| `mxgraph.alibaba_cloud.ccs_customer_service_01` | 180×182 | `fillColor` |
+| `mxgraph.alibaba_cloud.ccs_customer_service_02` | 174×184 | `fillColor` |
+| `mxgraph.alibaba_cloud.cddc_cloud_database_dedicated_cluster` | 168×152 | `fillColor` |
+| `mxgraph.alibaba_cloud.cdn_content_distribution_network` | 170×141 | `fillColor` |
+| `mxgraph.alibaba_cloud.cdp_cloudera_cdp` | 183×114 | `fillColor` |
+| `mxgraph.alibaba_cloud.cdt_cloud_datatransfer` | 167×141 | `fillColor` |
+| `mxgraph.alibaba_cloud.cen_cloud_enterprise_network` | 178×183 | `fillColor` |
+| `mxgraph.alibaba_cloud.cfw_cloud_firewall` | 185×130 | `fillColor` |
+| `mxgraph.alibaba_cloud.cityvisual` | 175×123 | `fillColor` |
+| `mxgraph.alibaba_cloud.clb_classic_load_balancer_01` | 158×134 | `fillColor` |
+| `mxgraph.alibaba_cloud.clb_classic_load_balancer_02` | 200×200 | `fillColor` |
+| `mxgraph.alibaba_cloud.clickhouse` | 160×183 | `fillColor` |
+| `mxgraph.alibaba_cloud.cloud_auth` | 200×182 | `fillColor` |
+| `mxgraph.alibaba_cloud.cloud_config` | 159×160 | `fillColor` |
+| `mxgraph.alibaba_cloud.cloud_display` | 183×145 | `fillColor` |
+| `mxgraph.alibaba_cloud.cloud_governance_center` | 167×145 | `fillColor` |
+| `mxgraph.alibaba_cloud.cloud_security_center` | 144×163 | `fillColor` |
+| `mxgraph.alibaba_cloud.cloud_shield` | 152×163 | `fillColor` |
+| `mxgraph.alibaba_cloud.cloudap` | 183×184 | `fillColor` |
+| `mxgraph.alibaba_cloud.cloudbox` | 158×183 | `fillColor` |
+| `mxgraph.alibaba_cloud.clouddesktop` | 183×184 | `fillColor` |
+| `mxgraph.alibaba_cloud.clouddev` | 189×135 | `fillColor` |
+| `mxgraph.alibaba_cloud.cloudphoto` | 150×150 | `fillColor` |
+| `mxgraph.alibaba_cloud.cloudproc` | 144×139 | `fillColor` |
+| `mxgraph.alibaba_cloud.cloudshell` | 158×126 | `fillColor` |
+| `mxgraph.alibaba_cloud.cmn_cloud_managed_network` | 173×126 | `fillColor` |
+| `mxgraph.alibaba_cloud.cmp_cloud_mobile_push` | 164×119 | `fillColor` |
+| `mxgraph.alibaba_cloud.cms_cloud_monitor_service` | 174×138 | `fillColor` |
+| `mxgraph.alibaba_cloud.codepipeline` | 137×174 | `fillColor` |
+| `mxgraph.alibaba_cloud.codestore` | 144×139 | `fillColor` |
+| `mxgraph.alibaba_cloud.companyreg` | 158×175 | `fillColor` |
+| `mxgraph.alibaba_cloud.computenest` | 167×148 | `fillColor` |
+| `mxgraph.alibaba_cloud.content_security` | 156×157 | `fillColor` |
+| `mxgraph.alibaba_cloud.coo` | 146×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.cpns_cell_phone_number_service` | 133×183 | `fillColor` |
+| `mxgraph.alibaba_cloud.csas_cloud_security_access_service` | 144×167 | `fillColor` |
+| `mxgraph.alibaba_cloud.cvc_cloud_video_conferencing` | 133×182 | `fillColor` |
+| `mxgraph.alibaba_cloud.cwh_cloud_web_hosting` | 166×152 | `fillColor` |
+| `mxgraph.alibaba_cloud.das_database_autonomy_service` | 158×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.databot` | 151×174 | `fillColor` |
+| `mxgraph.alibaba_cloud.datahub` | 159×159 | `fillColor` |
+| `mxgraph.alibaba_cloud.dataphin` | 182×182 | `fillColor` |
+| `mxgraph.alibaba_cloud.dataquotient` | 161×161 | `fillColor` |
+| `mxgraph.alibaba_cloud.datav` | 165×148 | `fillColor` |
+| `mxgraph.alibaba_cloud.dataworks_dataide` | 153×175 | `fillColor` |
+| `mxgraph.alibaba_cloud.dbaudit` | 163×163 | `fillColor` |
+| `mxgraph.alibaba_cloud.dbes_database_expert_service` | 158×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.dbfs_database_file_system` | 158×160 | `fillColor` |
+| `mxgraph.alibaba_cloud.dbs_database_backup` | 228×213 | `fillColor` |
+| `mxgraph.alibaba_cloud.dcdn_dynamic_route_for_cdn` | 156×183 | `fillColor` |
+| `mxgraph.alibaba_cloud.ddh_dedicated_host` | 158×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.ddos_protection` | 138×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.ddos-bgp` | 158×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.ddos-dip` | 161×184 | `fillColor` |
+| `mxgraph.alibaba_cloud.ddos-pro` | 159×156 | `fillColor` |
+| `mxgraph.alibaba_cloud.devops` | 200×200 | `fillColor` |
+| `mxgraph.alibaba_cloud.dg_database_gateway` | 133×183 | `fillColor` |
+| `mxgraph.alibaba_cloud.directmail` | 175×116 | `fillColor` |
+| `mxgraph.alibaba_cloud.disk_block_storage` | 172×138 | `fillColor` |
+| `mxgraph.alibaba_cloud.dlf_data_lake_formation` | 178×167 | `fillColor` |
+| `mxgraph.alibaba_cloud.dms_data_management_service` | 153×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.dns_domain_name_system` | 186×183 | `fillColor` |
+| `mxgraph.alibaba_cloud.dns_privatezone_01` | 186×183 | `fillColor` |
+| `mxgraph.alibaba_cloud.dns_privatezone_02` | 166×174 | `fillColor` |
+| `mxgraph.alibaba_cloud.domain` | 183×183 | `fillColor` |
+| `mxgraph.alibaba_cloud.domain_and_website` | 171×138 | `fillColor` |
+| `mxgraph.alibaba_cloud.drds_distribute_relational_database_service` | 148×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.dsi_data_security_insurance` | 146×171 | `fillColor` |
+| `mxgraph.alibaba_cloud.dts_data_transmission_service` | 160×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.e-mapreduce` | 199×199 | `fillColor` |
+| `mxgraph.alibaba_cloud.eais_elastic_accelerated_computing_instances` | 173×120 | `fillColor` |
+| `mxgraph.alibaba_cloud.eci_elastic_container_instance` | 183×128 | `fillColor` |
+| `mxgraph.alibaba_cloud.ecs_elastic_compute_service` | 163×152 | `fillColor` |
+| `mxgraph.alibaba_cloud.edas_enterprise_distributed_application_service` | 155×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.ehpc_elastic_high_performance_computing` | 145×159 | `fillColor` |
+| `mxgraph.alibaba_cloud.eip_elastic_ip_address` | 158×155 | `fillColor` |
+| `mxgraph.alibaba_cloud.elastic_web_hosting` | 178×171 | `fillColor` |
+| `mxgraph.alibaba_cloud.elasticsearch` | 153×167 | `fillColor` |
+| `mxgraph.alibaba_cloud.emas_enterprise_mobile_application_studio` | 144×139 | `fillColor` |
+| `mxgraph.alibaba_cloud.energyexpert` | 144×139 | `fillColor` |
+| `mxgraph.alibaba_cloud.ens_edge_node_service` | 183×183 | `fillColor` |
+| `mxgraph.alibaba_cloud.enterprise_website` | 177×138 | `fillColor` |
+| `mxgraph.alibaba_cloud.eprofile` | 167×144 | `fillColor` |
+| `mxgraph.alibaba_cloud.esign` | 139×153 | `fillColor` |
+| `mxgraph.alibaba_cloud.ess_elastic_scaling_service` | 184×101 | `fillColor` |
+| `mxgraph.alibaba_cloud.eventbridge` | 163×163 | `fillColor` |
+| `mxgraph.alibaba_cloud.express_connect` | 172×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.face_recognition` | 158×156 | `fillColor` |
+| `mxgraph.alibaba_cloud.fc_function_compute` | 172×171 | `fillColor` |
+| `mxgraph.alibaba_cloud.flow_service` | 133×175 | `fillColor` |
+| `mxgraph.alibaba_cloud.flowbag` | 184×118 | `fillColor` |
+| `mxgraph.alibaba_cloud.fnf_serverless_function_flow` | 160×185 | `fillColor` |
+| `mxgraph.alibaba_cloud.fpga_field_programmable_gate_array` | 152×151 | `fillColor` |
+| `mxgraph.alibaba_cloud.fraud_detection` | 158×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.ga_global_accelerator` | 183×183 | `fillColor` |
+| `mxgraph.alibaba_cloud.gameshield` | 171×148 | `fillColor` |
+| `mxgraph.alibaba_cloud.gdb_graph_database` | 183×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.graphanalytics` | 133×166 | `fillColor` |
+| `mxgraph.alibaba_cloud.graphcompute` | 166×167 | `fillColor` |
+| `mxgraph.alibaba_cloud.gtm_global_traffic_manager` | 185×181 | `fillColor` |
+| `mxgraph.alibaba_cloud.gts_global_transaction_service` | 158×160 | `fillColor` |
+| `mxgraph.alibaba_cloud.gws_graphic_workstation` | 158×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.havip_high-availability_virtual_ip_address` | 175×175 | `fillColor` |
+| `mxgraph.alibaba_cloud.hbase` | 152×152 | `fillColor` |
+| `mxgraph.alibaba_cloud.hbr_hybrid_backup_recovery` | 161×183 | `fillColor` |
+| `mxgraph.alibaba_cloud.hcs-hgw_hybrid_cloud_storage_array` | 135×157 | `fillColor` |
+| `mxgraph.alibaba_cloud.hcs-mgw_hybrid_cloud_storage_datatransport` | 169×135 | `fillColor` |
+| `mxgraph.alibaba_cloud.hcs-sgw_hybrid_cloud_storage_gateway` | 170×133 | `fillColor` |
+| `mxgraph.alibaba_cloud.hdr_hybrid_disaster_recovery` | 158×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.hologres` | 183×167 | `fillColor` |
+| `mxgraph.alibaba_cloud.holowatcher` | 144×167 | `fillColor` |
+| `mxgraph.alibaba_cloud.hsm_hardware_security_module` | 155×165 | `fillColor` |
+| `mxgraph.alibaba_cloud.httpdns` | 167×121 | `fillColor` |
+| `mxgraph.alibaba_cloud.idrsservice` | 187×187 | `fillColor` |
+| `mxgraph.alibaba_cloud.image_recognition` | 163×159 | `fillColor` |
+| `mxgraph.alibaba_cloud.imagesearch` | 159×159 | `fillColor` |
+| `mxgraph.alibaba_cloud.imarketing` | 144×139 | `fillColor` |
+| `mxgraph.alibaba_cloud.imm_intelligent_media_management` | 183×182 | `fillColor` |
+| `mxgraph.alibaba_cloud.imp_intelligent_media_production` | 176×122 | `fillColor` |
+| `mxgraph.alibaba_cloud.imp_low_code_video_factory` | 160×162 | `fillColor` |
+| `mxgraph.alibaba_cloud.indvi_industrial_visual_intelligence` | 158×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.intelligent_advisor` | 158×183 | `fillColor` |
+| `mxgraph.alibaba_cloud.iot_internet_of_things_platform` | 188×185 | `fillColor` |
+| `mxgraph.alibaba_cloud.iot_wireless_connection_service` | 142×167 | `fillColor` |
+| `mxgraph.alibaba_cloud.iotid_identity` | 159×159 | `fillColor` |
+| `mxgraph.alibaba_cloud.iov_iot_vehicle_cloud` | 184×110 | `fillColor` |
+| `mxgraph.alibaba_cloud.ipv6_gateway` | 172×199 | `fillColor` |
+| `mxgraph.alibaba_cloud.isoc_iot_security_operations_center` | 165×183 | `fillColor` |
+| `mxgraph.alibaba_cloud.isu_intelligent_semantic_understanding` | 158×156 | `fillColor` |
+| `mxgraph.alibaba_cloud.ivision` | 184×183 | `fillColor` |
+| `mxgraph.alibaba_cloud.ivpd_intelligent_visual_production` | 156×155 | `fillColor` |
+| `mxgraph.alibaba_cloud.kafka` | 189×140 | `fillColor` |
+| `mxgraph.alibaba_cloud.linkedmall` | 144×139 | `fillColor` |
+| `mxgraph.alibaba_cloud.linkwan` | 175×183 | `fillColor` |
+| `mxgraph.alibaba_cloud.live` | 163×149 | `fillColor` |
+| `mxgraph.alibaba_cloud.livinglink` | 146×169 | `fillColor` |
+| `mxgraph.alibaba_cloud.log_streaming` | 158×151 | `fillColor` |
+| `mxgraph.alibaba_cloud.logic_composer` | 179×178 | `fillColor` |
+| `mxgraph.alibaba_cloud.machine_learning` | 166×167 | `fillColor` |
+| `mxgraph.alibaba_cloud.man_mobile_analytics` | 167×138 | `fillColor` |
+| `mxgraph.alibaba_cloud.mariadb` | 170×128 | `fillColor` |
+| `mxgraph.alibaba_cloud.mas_mobile_acceleration_service` | 171×126 | `fillColor` |
+| `mxgraph.alibaba_cloud.maxcompute` | 167×167 | `fillColor` |
+| `mxgraph.alibaba_cloud.memcache` | 167×151 | `fillColor` |
+| `mxgraph.alibaba_cloud.miniappdev` | 164×119 | `fillColor` |
+| `mxgraph.alibaba_cloud.mns_message_service` | 133×133 | `fillColor` |
+| `mxgraph.alibaba_cloud.mobile_hotfix` | 167×167 | `fillColor` |
+| `mxgraph.alibaba_cloud.mobsec` | 170×144 | `fillColor` |
+| `mxgraph.alibaba_cloud.mongodb` | 158×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.mps_apsaravideo_media_processing` | 145×173 | `fillColor` |
+| `mxgraph.alibaba_cloud.mps-ai` | 174×175 | `fillColor` |
+| `mxgraph.alibaba_cloud.mps-censor` | 187×183 | `fillColor` |
+| `mxgraph.alibaba_cloud.mps-cover` | 187×183 | `fillColor` |
+| `mxgraph.alibaba_cloud.mps-dna` | 191×186 | `fillColor` |
+| `mxgraph.alibaba_cloud.mps-multimod` | 202×183 | `fillColor` |
+| `mxgraph.alibaba_cloud.mps-produce` | 202×175 | `fillColor` |
+| `mxgraph.alibaba_cloud.mq_message_queue` | 150×166 | `fillColor` |
+| `mxgraph.alibaba_cloud.mqc_mobile_quality_center` | 165×165 | `fillColor` |
+| `mxgraph.alibaba_cloud.mse_microservices_engine` | 183×183 | `fillColor` |
+| `mxgraph.alibaba_cloud.multi-cloud_finops` | 175×125 | `fillColor` |
+| `mxgraph.alibaba_cloud.multi-mode_database_lindorm` | 158×167 | `fillColor` |
+| `mxgraph.alibaba_cloud.multimediaai` | 200×197 | `fillColor` |
+| `mxgraph.alibaba_cloud.mysql` | 161×150 | `fillColor` |
+| `mxgraph.alibaba_cloud.nas_network_attached_storage` | 165×133 | `fillColor` |
+| `mxgraph.alibaba_cloud.nat_gateway` | 172×139 | `fillColor` |
+| `mxgraph.alibaba_cloud.network_acl_access_control_list` | 158×142 | `fillColor` |
+| `mxgraph.alibaba_cloud.nlb_network_load_balancer_01` | 158×134 | `fillColor` |
+| `mxgraph.alibaba_cloud.nlb_network_load_balancer_02` | 200×200 | `fillColor` |
+| `mxgraph.alibaba_cloud.nlp_natural_language_processing` | 167×184 | `fillColor` |
+| `mxgraph.alibaba_cloud.nlp-address` | 158×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.nlp-automl` | 161×157 | `fillColor` |
+| `mxgraph.alibaba_cloud.nlp-ie_text_information_extraction` | 158×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.nlp-ke_keyword_extraction` | 158×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.nlp-ner_named_entity_recognition` | 158×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.nlp-pos_part-of-speech_tagging` | 158×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.nlp-ra_reflexive_anaphora` | 158×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.nlp-sa_sentiment_analysis` | 158×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.nlp-tc_text_categorization` | 158×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.nlp-ws_word_segmentation` | 158×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.nls` | 183×164 | `fillColor` |
+| `mxgraph.alibaba_cloud.nls-asrbag` | 158×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.nls-asrcustommodel` | 183×183 | `fillColor` |
+| `mxgraph.alibaba_cloud.nls-filebag` | 158×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.nls-service` | 157×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.nls-shortasrbag` | 158×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.nls-ttsbag` | 158×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.nodejs_performance_platform` | 140×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.oceanbase` | 168×148 | `fillColor` |
+| `mxgraph.alibaba_cloud.ocr_optical_character_recognition` | 199×201 | `fillColor` |
+| `mxgraph.alibaba_cloud.onsmqtt_micro_message_queuing_telemetry_transport` | 183×131 | `fillColor` |
+| `mxgraph.alibaba_cloud.oos_operation_orchestration_service` | 166×167 | `fillColor` |
+| `mxgraph.alibaba_cloud.openanalytics` | 183×183 | `fillColor` |
+| `mxgraph.alibaba_cloud.openapi_explorer` | 158×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.opensearch` | 201×200 | `fillColor` |
+| `mxgraph.alibaba_cloud.oss_object_storage_service` | 169×129 | `fillColor` |
+| `mxgraph.alibaba_cloud.ots_tablestore` | 177×142 | `fillColor` |
+| `mxgraph.alibaba_cloud.outboundbot` | 195×195 | `fillColor` |
+| `mxgraph.alibaba_cloud.pcdn_p2p_cdn` | 133×155 | `fillColor` |
+| `mxgraph.alibaba_cloud.petadata_hybriddb_for_mysql` | 189×187 | `fillColor` |
+| `mxgraph.alibaba_cloud.physical_connection` | 181×135 | `fillColor` |
+| `mxgraph.alibaba_cloud.pnvs_phone_number_verification_service` | 118×167 | `fillColor` |
+| `mxgraph.alibaba_cloud.polardb` | 185×192 | `fillColor` |
+| `mxgraph.alibaba_cloud.porana_portrait_analysis` | 164×151 | `fillColor` |
+| `mxgraph.alibaba_cloud.postgresql` | 160×159 | `fillColor` |
+| `mxgraph.alibaba_cloud.ppas_pay-as-you-go_database` | 133×183 | `fillColor` |
+| `mxgraph.alibaba_cloud.privatelink` | 187×189 | `fillColor` |
+| `mxgraph.alibaba_cloud.prometheus` | 163×163 | `fillColor` |
+| `mxgraph.alibaba_cloud.prophet` | 156×159 | `fillColor` |
+| `mxgraph.alibaba_cloud.pts_performance_test_service` | 167×137 | `fillColor` |
+| `mxgraph.alibaba_cloud.quickbi` | 159×160 | `fillColor` |
+| `mxgraph.alibaba_cloud.ram_resource_access_management` | 184×120 | `fillColor` |
+| `mxgraph.alibaba_cloud.re_recommendation_engine` | 165×161 | `fillColor` |
+| `mxgraph.alibaba_cloud.realtime_compute` | 200×200 | `fillColor` |
+| `mxgraph.alibaba_cloud.redis_kvstore` | 175×138 | `fillColor` |
+| `mxgraph.alibaba_cloud.region` | 158×181 | `fillColor` |
+| `mxgraph.alibaba_cloud.retailir` | 158×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.ros_resource_orchestration_service` | 167×145 | `fillColor` |
+| `mxgraph.alibaba_cloud.route_table` | 125×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.router` | 184×192 | `fillColor` |
+| `mxgraph.alibaba_cloud.rsimganalys` | 167×148 | `fillColor` |
+| `mxgraph.alibaba_cloud.rtc_real-time_communication` | 175×176 | `fillColor` |
+| `mxgraph.alibaba_cloud.sae_serverless_app_engine` | 163×183 | `fillColor` |
+| `mxgraph.alibaba_cloud.sag_smart_access_gateway_01` | 158×125 | `fillColor` |
+| `mxgraph.alibaba_cloud.sag_smart_access_gateway_02` | 167×138 | `fillColor` |
+| `mxgraph.alibaba_cloud.sas_situational_awareness` | 155×164 | `fillColor` |
+| `mxgraph.alibaba_cloud.sca_smart_conversation_analysis_01` | 158×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.sca_smart_conversation_analysis_02` | 186×187 | `fillColor` |
+| `mxgraph.alibaba_cloud.scc_super_computing_cluster` | 163×178 | `fillColor` |
+| `mxgraph.alibaba_cloud.scdn_secure_cdn` | 193×199 | `fillColor` |
+| `mxgraph.alibaba_cloud.scu_storage_capacity_unit` | 170×183 | `fillColor` |
+| `mxgraph.alibaba_cloud.sddp_sensitive_data_protection` | 163×193 | `fillColor` |
+| `mxgraph.alibaba_cloud.shared_bandwidth` | 167×167 | `fillColor` |
+| `mxgraph.alibaba_cloud.shared_flow_bag` | 183×117 | `fillColor` |
+| `mxgraph.alibaba_cloud.shc_shield_hybrid_cloud` | 164×151 | `fillColor` |
+| `mxgraph.alibaba_cloud.slb_server_load_balancer_01` | 158×134 | `fillColor` |
+| `mxgraph.alibaba_cloud.slb_server_load_balancer_02` | 200×200 | `fillColor` |
+| `mxgraph.alibaba_cloud.slb_server_load_balancer_03` | 167×142 | `fillColor` |
+| `mxgraph.alibaba_cloud.sls_simple_log_service` | 160×160 | `fillColor` |
+| `mxgraph.alibaba_cloud.smc_server_migration_center` | 183×183 | `fillColor` |
+| `mxgraph.alibaba_cloud.sms_short_message_service` | 166×152 | `fillColor` |
+| `mxgraph.alibaba_cloud.sos` | 155×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.spark_data_insights` | 154×167 | `fillColor` |
+| `mxgraph.alibaba_cloud.sppc` | 168×147 | `fillColor` |
+| `mxgraph.alibaba_cloud.sqlserver` | 132×183 | `fillColor` |
+| `mxgraph.alibaba_cloud.swas_simple_application_server` | 200×200 | `fillColor` |
+| `mxgraph.alibaba_cloud.tr_transit_router` | 175×175 | `fillColor` |
+| `mxgraph.alibaba_cloud.trademark_service` | 158×177 | `fillColor` |
+| `mxgraph.alibaba_cloud.uis_ultimate_internet_service` | 183×181 | `fillColor` |
+| `mxgraph.alibaba_cloud.user` | 200×200 | `fillColor` |
+| `mxgraph.alibaba_cloud.user_feedback_01` | 158×158 | `fillColor` |
+| `mxgraph.alibaba_cloud.user_feedback_02` | 144×167 | `fillColor` |
+| `mxgraph.alibaba_cloud.vbr_virtual_border_router` | 192×192 | `fillColor` |
+| `mxgraph.alibaba_cloud.vcs_visual_computing_service` | 171×175 | `fillColor` |
+| `mxgraph.alibaba_cloud.vms_voice_messaging_service` | 158×152 | `fillColor` |
+| `mxgraph.alibaba_cloud.voicebot_intelligent_voice_navigation` | 196×190 | `fillColor` |
+| `mxgraph.alibaba_cloud.vpc_virtual_private_cloud` | 190×122 | `fillColor` |
+| `mxgraph.alibaba_cloud.vpn_gateway` | 183×183 | `fillColor` |
+| `mxgraph.alibaba_cloud.vs_video_surveillance` | 183×183 | `fillColor` |
+| `mxgraph.alibaba_cloud.vswitch` | 175×125 | `fillColor` |
+| `mxgraph.alibaba_cloud.waf_web_application_firewall` | 164×145 | `fillColor` |
+| `mxgraph.alibaba_cloud.webplus_web_app_service` | 183×183 | `fillColor` |
+| `mxgraph.alibaba_cloud.xdragon_bare_metal_server` | 164×159 | `fillColor` |
+| `mxgraph.alibaba_cloud.xtrace` | 138×167 | `fillColor` |
+| `mxgraph.alibaba_cloud.yida` | 158×158 | `fillColor` |
 
 ## Usage Example
 
 ```drawio
-<mxfile><diagram id="example" name="Example"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="" style="shape=mxgraph.alibaba_cloud.abap_business_application_platform;html=1;fillColor=#CCCCCC;strokeColor=#6881B3;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="100" y="100" width="60" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
+<mxfile><diagram id="example" name="Example"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="" style="shape=mxgraph.alibaba_cloud.abap_business_application_platform;html=1;fillColor=#FF6A00;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="100" y="100" width="60" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
 ```

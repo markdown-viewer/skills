@@ -4,58 +4,110 @@ Shows a wide area network connecting multiple remote sites through a central bac
 
 ## Key Elements
 
-- **Central Router**: Core routing device connecting all sites
-- **Branch Sites**: Remote office locations
-- **MPLS/VPN Cloud**: WAN backbone representation
-- **Edge Devices**: Routers and firewalls at each site
-- **Building Icons**: `shape=mxgraph.cisco.buildings.generic_building`, `small_business`, `branch_office`
-- **Satellite/Ground Terminal**: `shape=mxgraph.cisco.wireless.ground_terminal`
+| Component | Stencil | fillColor | strokeColor |
+|-----------|---------|-----------|-------------|
+| HQ Building | `mxgraph.cisco.buildings.generic_building` | `#036897` | `#ffffff` |
+| Branch Office | `mxgraph.cisco.buildings.branch_office` | `#036897` | `#ffffff` |
+| Telecommuter House | `mxgraph.cisco.buildings.telecommuter_house` | `#036897` | `#ffffff` |
+| Edge Router | `mxgraph.cisco.routers.router` | `#036897` | `#ffffff` |
+| PIX Firewall | `mxgraph.cisco.security.pix_firewall` | `#036897` | `#ffffff` |
+| Ground Terminal | `mxgraph.cisco.wireless.ground_terminal` | `#036897` | `#ffffff` |
+| Satellite Dish | `mxgraph.cisco.wireless.satellite_dish` | `#036897` | `#ffffff` |
+| Satellite | `mxgraph.cisco.wireless.satellite` | `#036897` | `#ffffff` |
+| VPN Gateway | `mxgraph.cisco.hubs_and_gateways.vpn_gateway` | `#036897` | `#ffffff` |
+| MPLS/Internet Cloud | `mxgraph.cisco.storage.cloud` | `#ffffff` | `#23445D` |
+
+- All Cisco device icons: `fillColor=#036897;strokeColor=#ffffff;strokeWidth=2`
+- Cloud shapes use inverted palette: `fillColor=#ffffff;strokeColor=#23445D;strokeWidth=2`
+- Zone backgrounds: `rounded=1;fillColor=#BAC8D3;strokeColor=none;opacity=60`
+- Zone labels: separate `text` cell with `fillColor=none;strokeColor=none;fontStyle=1;fontColor=#23445D`
 
 ## WAN Connection Types
 
-| Type | Visual | Use Case |
-|------|--------|----------|
-| MPLS | Solid thick line | Primary backbone |
-| Internet VPN | Dashed line | Backup/remote access |
-| Leased Line | Double line | Point-to-point |
-| Satellite | Wave pattern | Remote locations |
+| Type | Style | Use Case |
+|------|-------|----------|
+| MPLS Primary | `endArrow=none;strokeWidth=3;strokeColor=#036897` | Primary backbone |
+| Internet VPN | `endArrow=none;strokeWidth=2;dashed=1;strokeColor=#23445D` | Backup/remote access |
+| Leased Line | `endArrow=none;strokeWidth=2;strokeColor=#23445D` | Point-to-point |
+| Satellite Link | `endArrow=none;strokeWidth=2;dashed=1;dashPattern=8 4;strokeColor=#6881B3` | Remote locations |
 
 ## Example
 
-Enterprise WAN with headquarters, branches, and remote workers:
+Enterprise WAN with headquarters, two branch offices, remote worker, and satellite site:
 
 ```drawio
-<mxfile><diagram id="wan-topology" name="WAN"><mxGraphModel dx="900" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0"><root><mxCell id="0"/><mxCell id="1" parent="0"/>
-  <mxCell id="zone-hq" value="Headquarters" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#d5e8d4;opacity=60;fontSize=14;fontColor=#23445D;verticalAlign=top;fontStyle=1;" parent="1" vertex="1"><mxGeometry x="300" y="40" width="200" height="200" as="geometry"/></mxCell>
-  <mxCell id="zone-dc" value="Data Center" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#dae8fc;opacity=60;fontSize=14;fontColor=#23445D;verticalAlign=top;fontStyle=1;" parent="1" vertex="1"><mxGeometry x="540" y="40" width="200" height="200" as="geometry"/></mxCell>
-  <mxCell id="zone-br1" value="Branch Office A" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#fff2cc;opacity=60;fontSize=14;fontColor=#23445D;verticalAlign=top;fontStyle=1;" parent="1" vertex="1"><mxGeometry x="40" y="380" width="180" height="160" as="geometry"/></mxCell>
-  <mxCell id="zone-br2" value="Branch Office B" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#fff2cc;opacity=60;fontSize=14;fontColor=#23445D;verticalAlign=top;fontStyle=1;" parent="1" vertex="1"><mxGeometry x="310" y="440" width="180" height="160" as="geometry"/></mxCell>
-  <mxCell id="zone-remote" value="Remote Site" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#f8cecc;opacity=60;fontSize=14;fontColor=#23445D;verticalAlign=top;fontStyle=1;" parent="1" vertex="1"><mxGeometry x="580" y="380" width="180" height="160" as="geometry"/></mxCell>
-  <mxCell id="mpls-cloud" value="MPLS / WAN" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#036897;fillColor=#ffffff;fontSize=14;fontColor=#036897;fontStyle=1;" parent="1" vertex="1"><mxGeometry x="310" y="260" width="180" height="120" as="geometry"/></mxCell>
-  <mxCell id="hq-building" value="" style="shape=mxgraph.cisco.buildings.generic_building;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="355" y="70" width="70" height="100" as="geometry"/></mxCell>
-  <mxCell id="dc-server1" value="" style="shape=mxgraph.cisco.servers.fileserver;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="570" y="100" width="40" height="60" as="geometry"/></mxCell>
-  <mxCell id="dc-server2" value="" style="shape=mxgraph.cisco.servers.fileserver;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="620" y="100" width="40" height="60" as="geometry"/></mxCell>
-  <mxCell id="dc-storage" value="" style="shape=mxgraph.cisco.servers.storage_server;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="670" y="90" width="50" height="75" as="geometry"/></mxCell>
-  <mxCell id="hq-router" value="" style="shape=mxgraph.cisco.routers.router;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="355" y="185" width="70" height="45" as="geometry"/></mxCell>
-  <mxCell id="dc-switch" value="" style="shape=mxgraph.cisco.switches.workgroup_switch;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="580" y="185" width="90" height="40" as="geometry"/></mxCell>
-  <mxCell id="br1-building" value="" style="shape=mxgraph.cisco.buildings.small_business;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="95" y="415" width="60" height="50" as="geometry"/></mxCell>
-  <mxCell id="br1-router" value="" style="shape=mxgraph.cisco.routers.router;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="80" y="480" width="65" height="40" as="geometry"/></mxCell>
-  <mxCell id="br2-building" value="" style="shape=mxgraph.cisco.buildings.small_business;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="365" y="475" width="60" height="50" as="geometry"/></mxCell>
-  <mxCell id="br2-router" value="" style="shape=mxgraph.cisco.routers.router;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="350" y="540" width="65" height="40" as="geometry"/></mxCell>
-  <mxCell id="remote-terminal" value="" style="shape=mxgraph.cisco.wireless.ground_terminal;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="640" y="410" width="60" height="70" as="geometry"/></mxCell>
-  <mxCell id="remote-house" value="" style="shape=mxgraph.cisco.buildings.telecommuter_house;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="620" y="490" width="80" height="50" as="geometry"/></mxCell>
-  <mxCell id="link-hq-bld-router" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#23445D;" parent="1" source="hq-building" target="hq-router" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-dc-sw" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#23445D;" parent="1" source="dc-server1" target="dc-switch" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-dc-sw2" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#23445D;" parent="1" source="dc-server2" target="dc-switch" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-dc-sw3" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#23445D;" parent="1" source="dc-storage" target="dc-switch" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-hq-mpls" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#036897;" parent="1" source="hq-router" target="mpls-cloud" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-dc-mpls" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#036897;" parent="1" source="dc-switch" target="mpls-cloud" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-br1-bld-router" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#23445D;" parent="1" source="br1-building" target="br1-router" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-br1-mpls" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#036897;" parent="1" source="br1-router" target="mpls-cloud" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-br2-bld-router" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#23445D;" parent="1" source="br2-building" target="br2-router" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-br2-mpls" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#036897;" parent="1" source="br2-router" target="mpls-cloud" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-remote-sat" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#23445D;dashed=1;" parent="1" source="remote-terminal" target="mpls-cloud" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-remote-house" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#23445D;" parent="1" source="remote-house" target="remote-terminal" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-</root></mxGraphModel></diagram></mxfile>
+<mxfile>
+  <diagram id="wan-1" name="WAN Topology">
+    <mxGraphModel dx="1100" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="780" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <!-- Zone: Headquarters -->
+        <mxCell id="z1" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#BAC8D3;opacity=60;" parent="1" vertex="1"><mxGeometry x="40" y="40" width="260" height="300" as="geometry"/></mxCell>
+        <mxCell id="z1l" value="Headquarters" style="text;html=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#23445D;fontStyle=1" parent="1" vertex="1"><mxGeometry x="50" y="45" width="120" height="20" as="geometry"/></mxCell>
+        <!-- Zone: Branch 1 -->
+        <mxCell id="z2" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#BAC8D3;opacity=60;" parent="1" vertex="1"><mxGeometry x="40" y="530" width="220" height="210" as="geometry"/></mxCell>
+        <mxCell id="z2l" value="Branch Office 1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#23445D;fontStyle=1" parent="1" vertex="1"><mxGeometry x="50" y="535" width="130" height="20" as="geometry"/></mxCell>
+        <!-- Zone: Branch 2 -->
+        <mxCell id="z3" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#BAC8D3;opacity=60;" parent="1" vertex="1"><mxGeometry x="390" y="530" width="220" height="210" as="geometry"/></mxCell>
+        <mxCell id="z3l" value="Branch Office 2" style="text;html=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#23445D;fontStyle=1" parent="1" vertex="1"><mxGeometry x="400" y="535" width="130" height="20" as="geometry"/></mxCell>
+        <!-- Zone: Remote Site -->
+        <mxCell id="z4" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#BAC8D3;opacity=60;" parent="1" vertex="1"><mxGeometry x="800" y="40" width="260" height="300" as="geometry"/></mxCell>
+        <mxCell id="z4l" value="Satellite Site" style="text;html=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#23445D;fontStyle=1" parent="1" vertex="1"><mxGeometry x="810" y="45" width="110" height="20" as="geometry"/></mxCell>
+        <!-- MPLS/VPN Cloud -->
+        <mxCell id="mpls" value="MPLS / VPN" style="shape=mxgraph.cisco.storage.cloud;html=1;strokeColor=#23445D;fillColor=#ffffff;strokeWidth=2;fontSize=16;fontColor=#23445D;fontStyle=1" parent="1" vertex="1"><mxGeometry x="420" y="280" width="200" height="120" as="geometry"/></mxCell>
+        <!-- Internet Cloud -->
+        <mxCell id="inet" value="Internet" style="shape=mxgraph.cisco.storage.cloud;html=1;strokeColor=#23445D;fillColor=#ffffff;strokeWidth=2;fontSize=14;fontColor=#23445D;fontStyle=1" parent="1" vertex="1"><mxGeometry x="730" y="530" width="160" height="90" as="geometry"/></mxCell>
+        <!-- HQ devices -->
+        <mxCell id="hq-bld" value="HQ" style="shape=mxgraph.cisco.buildings.generic_building;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;labelPosition=center;align=center;fontColor=#23445D;fontSize=12;fontStyle=1" parent="1" vertex="1"><mxGeometry x="110" y="80" width="56" height="85" as="geometry"/></mxCell>
+        <mxCell id="hq-fw" value="" style="shape=mxgraph.cisco.security.pix_firewall;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="130" y="210" width="48" height="33" as="geometry"/></mxCell>
+        <mxCell id="hq-rtr" value="" style="shape=mxgraph.cisco.routers.router;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="128" y="270" width="49" height="33" as="geometry"/></mxCell>
+        <!-- Branch 1 devices -->
+        <mxCell id="br1-bld" value="Branch 1" style="shape=mxgraph.cisco.buildings.branch_office;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;labelPosition=center;align=center;fontColor=#23445D;fontSize=12;fontStyle=1" parent="1" vertex="1"><mxGeometry x="80" y="570" width="33" height="48" as="geometry"/></mxCell>
+        <mxCell id="br1-rtr" value="" style="shape=mxgraph.cisco.routers.router;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="130" y="660" width="49" height="33" as="geometry"/></mxCell>
+        <!-- Branch 2 devices -->
+        <mxCell id="br2-bld" value="Branch 2" style="shape=mxgraph.cisco.buildings.branch_office;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;labelPosition=center;align=center;fontColor=#23445D;fontSize=12;fontStyle=1" parent="1" vertex="1"><mxGeometry x="430" y="570" width="33" height="48" as="geometry"/></mxCell>
+        <mxCell id="br2-rtr" value="" style="shape=mxgraph.cisco.routers.router;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="480" y="660" width="49" height="33" as="geometry"/></mxCell>
+        <!-- Satellite site devices -->
+        <mxCell id="sat" value="" style="shape=mxgraph.cisco.wireless.satellite;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="888" y="80" width="85" height="28" as="geometry"/></mxCell>
+        <mxCell id="sat-dish" value="" style="shape=mxgraph.cisco.wireless.satellite_dish;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="900" y="150" width="62" height="46" as="geometry"/></mxCell>
+        <mxCell id="sat-gnd" value="" style="shape=mxgraph.cisco.wireless.ground_terminal;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="880" y="230" width="62" height="76" as="geometry"/></mxCell>
+        <!-- Remote worker -->
+        <mxCell id="remote" value="Remote&#xa;Worker" style="shape=mxgraph.cisco.buildings.telecommuter_house;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;labelPosition=center;align=center;fontColor=#23445D;fontSize=12;fontStyle=1" parent="1" vertex="1"><mxGeometry x="800" y="620" width="65" height="55" as="geometry"/></mxCell>
+        <mxCell id="vpn-gw" value="" style="shape=mxgraph.cisco.hubs_and_gateways.vpn_gateway;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="950" y="640" width="58" height="30" as="geometry"/></mxCell>
+        <!-- Edges: HQ internal -->
+        <mxCell id="e1" style="endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=2" parent="1" source="hq-bld" target="hq-fw" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" style="endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=2" parent="1" source="hq-fw" target="hq-rtr" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- HQ Router → MPLS (primary, thick) -->
+        <mxCell id="e3" style="endArrow=none;html=1;strokeColor=#036897;endFill=0;strokeWidth=3" parent="1" source="hq-rtr" target="mpls" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- Branch 1 → MPLS -->
+        <mxCell id="e4" style="endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=2" parent="1" source="br1-bld" target="br1-rtr" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e5" style="endArrow=none;html=1;strokeColor=#036897;endFill=0;strokeWidth=3" parent="1" source="br1-rtr" target="mpls" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- Branch 2 → MPLS -->
+        <mxCell id="e6" style="endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=2" parent="1" source="br2-bld" target="br2-rtr" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e7" style="endArrow=none;html=1;strokeColor=#036897;endFill=0;strokeWidth=3" parent="1" source="br2-rtr" target="mpls" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- Satellite link (dashed) -->
+        <mxCell id="e8" style="endArrow=none;html=1;strokeColor=#6881B3;endFill=0;strokeWidth=2;dashed=1;dashPattern=8 4" parent="1" source="sat" target="sat-dish" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e9" style="endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=2" parent="1" source="sat-dish" target="sat-gnd" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e10" style="endArrow=none;html=1;strokeColor=#036897;endFill=0;strokeWidth=3" parent="1" source="sat-gnd" target="mpls" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- Internet VPN (dashed) -->
+        <mxCell id="e11" style="endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=2;dashed=1" parent="1" source="remote" target="vpn-gw" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e12" style="endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=2;dashed=1" parent="1" source="vpn-gw" target="inet" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e13" style="endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=2;dashed=1" parent="1" source="inet" target="mpls" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
 ```
+
+## Pattern Notes
+
+1. **Cisco stencil family** — WAN diagrams use `mxgraph.cisco.*` for all device icons. Unified device style: `fillColor=#036897;strokeColor=#ffffff;strokeWidth=2`. Cloud shapes use inverted style: `fillColor=#ffffff;strokeColor=#23445D`
+2. **Zone backgrounds** are drawn first (lowest z-order) — `rounded=1;fillColor=#BAC8D3;opacity=60;strokeColor=none`. Zone labels use separate `text` cells positioned at the zone's top-left corner with `fontStyle=1;fontColor=#23445D`
+3. **MPLS/VPN cloud** at the center represents the WAN backbone using `mxgraph.cisco.storage.cloud`. All site routers connect to this cloud. A separate Internet cloud is used for VPN-based remote access
+4. **Connection line weights** differentiate link types: `strokeWidth=3` for MPLS primary backbone links, `strokeWidth=2` for internal links and secondary connections
+5. **Dashed lines** (`dashed=1`) represent VPN tunnels over the Internet — visually distinguishing logical overlay connections from physical MPLS circuits
+6. **Satellite links** use `dashed=1;dashPattern=8 4` with lighter color `strokeColor=#6881B3` for the wireless segment (satellite ↔ dish), then solid lines for the wired ground segment
+7. **Building stencils** distinguish site types: `generic_building` for HQ, `branch_office` for branches, `telecommuter_house` for remote workers — all with `verticalLabelPosition=bottom` for labels below icons
+8. **All edges are bidirectional** — `endArrow=none;endFill=0`. WAN physical topology links have no directional arrows
 

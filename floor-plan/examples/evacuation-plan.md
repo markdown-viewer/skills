@@ -2,91 +2,106 @@
 
 An emergency evacuation floor plan with exit routes, fire equipment locations, and assembly point.
 
-Based on template: `plans/evacuation_plan_1.drawio`
+Based on templates: `plans/evacuation_plan_1.drawio`, `plans/evacuation_plan_2.drawio`
+
+## Key Elements
+
+| Component | Shape / Stencil | fillColor | strokeColor |
+|-----------|----------------|-----------|-------------|
+| Exterior Wall | `mxgraph.floorplan.wall` | `#000000` | — |
+| Interior Wall | `mxgraph.floorplan.wall` | `#000000` | — |
+| Wall Corner | `mxgraph.floorplan.wallCorner` | `#000000` | — |
+| U-Wall | `mxgraph.floorplan.wallU` | `#000000` | — |
+| Door (left swing) | `mxgraph.floorplan.doorLeft` | `#FFFFFF` | — |
+| Door (right swing) | `mxgraph.floorplan.doorRight` | `#FFFFFF` | — |
+| Window | `mxgraph.floorplan.window` | `#ffffff` | — |
+| Fire Extinguisher | `mxgraph.pid.vessels.gas_bottle` | `#FF0000` | `#FFFFFF` |
+| Fire Alarm | `mxgraph.signs.safety.non-ionizing_radiation` | `#FF0000` | `none` |
+| First Aid Kit | `mxgraph.signs.healthcare.first_aid` | `#FF0000` | `none` |
+| Evacuation Arrow | edge with `endArrow=block;endFill=1` | — | `#FF0000` |
+
+- **Wall style**: `shape=mxgraph.floorplan.wall;fillColor=#000000` — use `direction=south` for vertical walls
+- **Door style**: `shape=mxgraph.floorplan.doorLeft;fillColor=#FFFFFF` — use `rotation` and `flipH`/`flipV` to orient
+- **Evacuation arrows**: `endArrow=block;endFill=1;strokeColor=#FF0000;strokeWidth=6` — thick red arrows pointing toward exits, using `mxPoint` source/target coordinates (no source/target cell IDs)
+- **Safety symbols**: All use `fillColor=#FF0000;strokeColor=none` and 30×30 or similar size
+
+## Safety Symbol Reference
+
+| Symbol | Stencil | Size | Style |
+|--------|---------|------|-------|
+| Fire Extinguisher | `mxgraph.pid.vessels.gas_bottle` | 22×60 | `fillColor=#FF0000;strokeColor=#FFFFFF;strokeWidth=4` |
+| Fire Alarm | `mxgraph.signs.safety.non-ionizing_radiation` | 47×40 | `fillColor=#FF0000;strokeColor=none` |
+| First Aid Kit | `mxgraph.signs.healthcare.first_aid` | 30×30 | `fillColor=#FF0000;strokeColor=none` |
+| Evacuation Route | edge (no shape) | — | `endArrow=block;endFill=1;strokeColor=#FF0000;strokeWidth=6` |
+
+## Example
+
+Small office evacuation plan with 2 exits, fire extinguishers, alarm, and first aid:
 
 ```drawio
-<mxfile>
-  <diagram name="Evacuation Plan" id="evacuation">
-    <mxGraphModel dx="900" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="650" background="#FFFFFF" math="0" shadow="0">
+
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.8" pages="3">
+  <diagram name="Home Network" id="eXQgznGGrTij0EQSsH-2">
+    <mxGraphModel dx="1596" dy="1110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
-        <mxCell id="title" value="EMERGENCY EVACUATION PLAN" style="text;fontSize=20;fontStyle=1;fontColor=#CC0000;align=center;" parent="1" vertex="1"><mxGeometry x="250" y="15" width="400" height="30" as="geometry"/></mxCell>
-        <mxCell id="wall-top" value="" style="rounded=0;fillColor=#808080;strokeColor=#404040;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="100" y="60" width="700" height="15" as="geometry"/></mxCell>
-        <mxCell id="wall-bottom" value="" style="rounded=0;fillColor=#808080;strokeColor=#404040;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="100" y="475" width="700" height="15" as="geometry"/></mxCell>
-        <mxCell id="wall-left" value="" style="rounded=0;fillColor=#808080;strokeColor=#404040;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="100" y="60" width="15" height="430" as="geometry"/></mxCell>
-        <mxCell id="wall-right" value="" style="rounded=0;fillColor=#808080;strokeColor=#404040;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="785" y="60" width="15" height="430" as="geometry"/></mxCell>
-        <mxCell id="floor" value="" style="rounded=0;fillColor=#F5F5F5;strokeColor=none;" parent="1" vertex="1"><mxGeometry x="115" y="75" width="670" height="400" as="geometry"/></mxCell>
-        <mxCell id="div1" value="" style="rounded=0;fillColor=#A0A0A0;strokeColor=#606060;strokeWidth=1;" parent="1" vertex="1"><mxGeometry x="300" y="75" width="10" height="180" as="geometry"/></mxCell>
-        <mxCell id="div2" value="" style="rounded=0;fillColor=#A0A0A0;strokeColor=#606060;strokeWidth=1;" parent="1" vertex="1"><mxGeometry x="115" y="250" width="195" height="10" as="geometry"/></mxCell>
-        <mxCell id="div3" value="" style="rounded=0;fillColor=#A0A0A0;strokeColor=#606060;strokeWidth=1;" parent="1" vertex="1"><mxGeometry x="500" y="75" width="10" height="180" as="geometry"/></mxCell>
-        <mxCell id="div4" value="" style="rounded=0;fillColor=#A0A0A0;strokeColor=#606060;strokeWidth=1;" parent="1" vertex="1"><mxGeometry x="500" y="250" width="285" height="10" as="geometry"/></mxCell>
-        <mxCell id="room1" value="Office A" style="text;fontSize=12;fontStyle=1;fontColor=#333333;align=center;fillColor=#E8E8E8;rounded=1;" parent="1" vertex="1"><mxGeometry x="160" y="150" width="80" height="25" as="geometry"/></mxCell>
-        <mxCell id="room2" value="Office B" style="text;fontSize=12;fontStyle=1;fontColor=#333333;align=center;fillColor=#E8E8E8;rounded=1;" parent="1" vertex="1"><mxGeometry x="360" y="150" width="80" height="25" as="geometry"/></mxCell>
-        <mxCell id="room3" value="Meeting Room" style="text;fontSize=12;fontStyle=1;fontColor=#333333;align=center;fillColor=#E8E8E8;rounded=1;" parent="1" vertex="1"><mxGeometry x="580" y="150" width="100" height="25" as="geometry"/></mxCell>
-        <mxCell id="room4" value="Storage" style="text;fontSize=12;fontStyle=1;fontColor=#333333;align=center;fillColor=#E8E8E8;rounded=1;" parent="1" vertex="1"><mxGeometry x="170" y="340" width="70" height="25" as="geometry"/></mxCell>
-        <mxCell id="room5" value="Open Area" style="text;fontSize=12;fontStyle=1;fontColor=#333333;align=center;fillColor=#E8E8E8;rounded=1;" parent="1" vertex="1"><mxGeometry x="370" y="340" width="80" height="25" as="geometry"/></mxCell>
-        <mxCell id="room6" value="Reception" style="text;fontSize=12;fontStyle=1;fontColor=#333333;align=center;fillColor=#E8E8E8;rounded=1;" parent="1" vertex="1"><mxGeometry x="600" y="340" width="80" height="25" as="geometry"/></mxCell>
-        <mxCell id="exit1" value="" style="rounded=0;fillColor=#00AA00;strokeColor=#006600;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="180" y="475" width="60" height="15" as="geometry"/></mxCell>
-        <mxCell id="exit1-label" value="EXIT 1" style="text;fontSize=10;fontStyle=1;fontColor=#00AA00;align=center;" parent="1" vertex="1"><mxGeometry x="175" y="495" width="70" height="18" as="geometry"/></mxCell>
-        
-        <mxCell id="exit2" value="" style="rounded=0;fillColor=#00AA00;strokeColor=#006600;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="660" y="475" width="60" height="15" as="geometry"/></mxCell>
-        <mxCell id="exit2-label" value="EXIT 2" style="text;fontSize=10;fontStyle=1;fontColor=#00AA00;align=center;" parent="1" vertex="1"><mxGeometry x="655" y="495" width="70" height="18" as="geometry"/></mxCell>
-        
-        <mxCell id="exit3" value="" style="rounded=0;fillColor=#00AA00;strokeColor=#006600;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="785" y="280" width="15" height="50" as="geometry"/></mxCell>
-        <mxCell id="exit3-label" value="EXIT 3" style="text;fontSize=10;fontStyle=1;fontColor=#00AA00;align=center;rotation=-90;" parent="1" vertex="1"><mxGeometry x="800" y="290" width="50" height="18" as="geometry"/></mxCell>
-        <mxCell id="route1" value="" style="endArrow=block;html=1;strokeWidth=4;strokeColor=#00AA00;endFill=1;curved=1;" parent="1" edge="1"><mxGeometry relative="1" as="geometry"><mxPoint x="200" y="170" as="sourcePoint"/><mxPoint x="200" y="470" as="targetPoint"/><Array as="points"><mxPoint x="200" y="300"/></Array></mxGeometry></mxCell>
-        <mxCell id="route2" value="" style="endArrow=block;html=1;strokeWidth=4;strokeColor=#00AA00;endFill=1;curved=1;" parent="1" edge="1"><mxGeometry relative="1" as="geometry"><mxPoint x="400" y="170" as="sourcePoint"/><mxPoint x="690" y="470" as="targetPoint"/><Array as="points"><mxPoint x="400" y="380"/><mxPoint x="600" y="380"/></Array></mxGeometry></mxCell>
-        <mxCell id="route3" value="" style="endArrow=block;html=1;strokeWidth=4;strokeColor=#00AA00;endFill=1;curved=1;" parent="1" edge="1"><mxGeometry relative="1" as="geometry"><mxPoint x="640" y="170" as="sourcePoint"/><mxPoint x="780" y="300" as="targetPoint"/><Array as="points"><mxPoint x="700" y="170"/><mxPoint x="700" y="300"/></Array></mxGeometry></mxCell>
-        <mxCell id="fe1" value="🧯" style="text;fontSize=22;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="125" y="200" width="35" height="35" as="geometry"/></mxCell>
-        <mxCell id="fe2" value="🧯" style="text;fontSize=22;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="470" y="200" width="35" height="35" as="geometry"/></mxCell>
-        <mxCell id="fe3" value="🧯" style="text;fontSize=22;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="470" y="400" width="35" height="35" as="geometry"/></mxCell>
-        <mxCell id="fe4" value="🧯" style="text;fontSize=22;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="750" y="200" width="35" height="35" as="geometry"/></mxCell>
-        <mxCell id="alarm1" value="" style="ellipse;fillColor=#FF0000;strokeColor=#CC0000;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="260" y="440" width="25" height="25" as="geometry"/></mxCell>
-        <mxCell id="alarm1-txt" value="!" style="text;fontSize=14;fontStyle=1;fontColor=#FFFFFF;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="260" y="440" width="25" height="25" as="geometry"/></mxCell>
-        <mxCell id="alarm2" value="" style="ellipse;fillColor=#FF0000;strokeColor=#CC0000;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="580" y="440" width="25" height="25" as="geometry"/></mxCell>
-        <mxCell id="alarm2-txt" value="!" style="text;fontSize=14;fontStyle=1;fontColor=#FFFFFF;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="580" y="440" width="25" height="25" as="geometry"/></mxCell>
-        <mxCell id="firstaid" value="➕" style="rounded=1;fillColor=#FFFFFF;strokeColor=#FF0000;strokeWidth=2;fontSize=18;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="750" y="400" width="30" height="30" as="geometry"/></mxCell>
-        <mxCell id="youarehere" value="" style="ellipse;fillColor=#0066CC;strokeColor=#003366;strokeWidth=2;" parent="1" vertex="1"><mxGeometry x="420" y="300" width="40" height="40" as="geometry"/></mxCell>
-        <mxCell id="youarehere-txt" value="YOU&#xa;ARE&#xa;HERE" style="text;fontSize=7;fontStyle=1;fontColor=#FFFFFF;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="420" y="300" width="40" height="40" as="geometry"/></mxCell>
-        <mxCell id="assembly" value="" style="ellipse;fillColor=#00AA00;strokeColor=#006600;strokeWidth=3;" parent="1" vertex="1"><mxGeometry x="400" y="540" width="100" height="60" as="geometry"/></mxCell>
-        <mxCell id="assembly-icon" value="👥" style="text;fontSize=24;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="430" y="550" width="40" height="40" as="geometry"/></mxCell>
-        <mxCell id="assembly-label" value="ASSEMBLY&#xa;POINT" style="text;fontSize=10;fontStyle=1;fontColor=#006600;align=center;" parent="1" vertex="1"><mxGeometry x="405" y="605" width="90" height="30" as="geometry"/></mxCell>
-        <mxCell id="legend-box" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;" parent="1" vertex="1"><mxGeometry x="20" y="520" width="160" height="120" as="geometry"/></mxCell>
-        <mxCell id="legend-title" value="LEGEND" style="text;fontSize=11;fontStyle=1;fontColor=#333333;align=center;" parent="1" vertex="1"><mxGeometry x="55" y="525" width="90" height="18" as="geometry"/></mxCell>
-        <mxCell id="leg1-icon" value="" style="rounded=0;fillColor=#00AA00;strokeColor=none;" parent="1" vertex="1"><mxGeometry x="30" y="548" width="20" height="12" as="geometry"/></mxCell>
-        <mxCell id="leg1-text" value="Emergency Exit" style="text;fontSize=9;fontColor=#333333;align=left;" parent="1" vertex="1"><mxGeometry x="55" y="545" width="100" height="16" as="geometry"/></mxCell>
-        <mxCell id="leg2-icon" value="🧯" style="text;fontSize=12;align=center;" parent="1" vertex="1"><mxGeometry x="30" y="563" width="20" height="16" as="geometry"/></mxCell>
-        <mxCell id="leg2-text" value="Fire Extinguisher" style="text;fontSize=9;fontColor=#333333;align=left;" parent="1" vertex="1"><mxGeometry x="55" y="565" width="100" height="16" as="geometry"/></mxCell>
-        <mxCell id="leg3-icon" value="" style="ellipse;fillColor=#FF0000;strokeColor=none;" parent="1" vertex="1"><mxGeometry x="33" y="585" width="14" height="14" as="geometry"/></mxCell>
-        <mxCell id="leg3-text" value="Fire Alarm" style="text;fontSize=9;fontColor=#333333;align=left;" parent="1" vertex="1"><mxGeometry x="55" y="585" width="100" height="16" as="geometry"/></mxCell>
-        <mxCell id="leg4-icon" value="➕" style="text;fontSize=10;fontColor=#FF0000;align=center;" parent="1" vertex="1"><mxGeometry x="30" y="603" width="20" height="14" as="geometry"/></mxCell>
-        <mxCell id="leg4-text" value="First Aid Kit" style="text;fontSize=9;fontColor=#333333;align=left;" parent="1" vertex="1"><mxGeometry x="55" y="605" width="100" height="16" as="geometry"/></mxCell>
-        <mxCell id="leg5-icon" value="" style="endArrow=block;strokeWidth=3;strokeColor=#00AA00;endFill=1;" parent="1" edge="1"><mxGeometry relative="1" as="geometry"><mxPoint x="30" y="628" as="sourcePoint"/><mxPoint x="50" y="628" as="targetPoint"/>
-          </mxGeometry></mxCell>
-        <mxCell id="leg5-text" value="Evacuation Route" style="text;fontSize=9;fontColor=#333333;align=left;" parent="1" vertex="1"><mxGeometry x="55" y="622" width="100" height="16" as="geometry"/></mxCell>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0clUI7qCQcyf51FiKUfz-1" parent="1" style="shape=mxgraph.floorplan.wall;html=1;fillColor=#000000;strokeWidth=1;" value="" vertex="1"><mxGeometry height="10" width="600" x="-40" y="-70" as="geometry" /></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-2" parent="1" style="shape=mxgraph.floorplan.wall;html=1;fillColor=#000000;direction=south;strokeWidth=1;" value="" vertex="1"><mxGeometry height="440" width="10" x="-40" y="-70" as="geometry" /></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-3" parent="1" style="shape=mxgraph.floorplan.wall;html=1;fillColor=#000000;direction=south;strokeWidth=1;" value="" vertex="1"><mxGeometry height="440" width="10" x="550" y="-70" as="geometry" /></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-4" parent="1" style="shape=mxgraph.floorplan.wall;html=1;fillColor=#000000;strokeWidth=1;" value="" vertex="1"><mxGeometry height="10" width="60" x="-40" y="360" as="geometry" /></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-5" parent="1" style="shape=mxgraph.floorplan.wall;html=1;fillColor=#000000;strokeWidth=1;" value="" vertex="1"><mxGeometry height="10" width="200" x="100" y="360" as="geometry" /></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-6" parent="1" style="shape=mxgraph.floorplan.wall;html=1;fillColor=#000000;strokeWidth=1;" value="" vertex="1"><mxGeometry height="10" width="180" x="380" y="360" as="geometry" /></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-7" parent="1" style="shape=mxgraph.floorplan.wall;html=1;fillColor=#000000;strokeWidth=1;" value="" vertex="1"><mxGeometry height="10" width="240" x="50" y="170" as="geometry" /></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-8" parent="1" style="shape=mxgraph.floorplan.wall;html=1;fillColor=#000000;direction=south;strokeWidth=1;" value="" vertex="1"><mxGeometry height="60" width="10" x="290" y="-70" as="geometry" /></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-9" parent="1" style="shape=mxgraph.floorplan.wall;html=1;fillColor=#000000;direction=south;strokeWidth=1;" value="" vertex="1"><mxGeometry height="100" width="10" x="290" y="70" as="geometry" /></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-10" parent="1" style="shape=mxgraph.floorplan.doorLeft;html=1;fillColor=#FFFFFF;strokeWidth=1;" value="" vertex="1"><mxGeometry height="85" width="80" x="-30" y="172" as="geometry" /></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-11" parent="1" style="shape=mxgraph.floorplan.doorLeft;html=1;fillColor=#FFFFFF;strokeWidth=1;rotation=-90;flipH=1;" value="" vertex="1"><mxGeometry height="85" width="80" x="295" y="-12" as="geometry" /></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-12" parent="1" style="shape=mxgraph.floorplan.doorLeft;html=1;fillColor=#FFFFFF;strokeWidth=1;" value="" vertex="1"><mxGeometry height="85" width="80" x="20" y="363" as="geometry" /></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-13" parent="1" style="shape=mxgraph.floorplan.doorRight;html=1;fillColor=#FFFFFF;strokeWidth=1;" value="" vertex="1"><mxGeometry height="85" width="80" x="300" y="363" as="geometry" /></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-14" parent="1" style="shape=mxgraph.floorplan.window;html=1;fillColor=#ffffff;strokeWidth=1;" value="" vertex="1"><mxGeometry height="10" width="100" x="60" y="-70" as="geometry" /></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-15" parent="1" style="shape=mxgraph.floorplan.window;html=1;fillColor=#ffffff;strokeWidth=1;" value="" vertex="1"><mxGeometry height="10" width="100" x="360" y="-70" as="geometry" /></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-16" parent="1" style="shape=rect;html=1;fillColor=#ffffff;strokeColor=#000000;" value="" vertex="1"><mxGeometry height="50" width="100" y="-20" as="geometry" /></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-17" parent="1" style="shape=mxgraph.floorplan.office_chair;html=1;fillColor=#ffffff;strokeColor=#000000;rotation=180;" value="" vertex="1"><mxGeometry height="43" width="40" x="30" y="35" as="geometry" /></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-18" parent="1" style="shape=mxgraph.floorplan.workstation;html=1;fillColor=#ffffff;strokeColor=#000000;flipV=1;rotation=180;" value="" vertex="1"><mxGeometry height="40" width="50" x="25" y="-20" as="geometry" /></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-19" parent="1" style="shape=rect;html=1;fillColor=#ffffff;strokeColor=#000000;" value="" vertex="1"><mxGeometry height="50" width="100" x="140" y="-20" as="geometry" /></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-20" parent="1" style="shape=mxgraph.floorplan.office_chair;html=1;fillColor=#ffffff;strokeColor=#000000;rotation=180;" value="" vertex="1"><mxGeometry height="43" width="40" x="170" y="35" as="geometry" /></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-21" parent="1" style="shape=mxgraph.floorplan.workstation;html=1;fillColor=#ffffff;strokeColor=#000000;flipV=1;rotation=180;" value="" vertex="1"><mxGeometry height="40" width="50" x="165" y="-20" as="geometry" /></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-22" parent="1" style="shape=mxgraph.floorplan.table;html=1;fillColor=#ffffff;strokeColor=#000000;" value="" vertex="1"><mxGeometry height="50" width="90" x="410" y="6.5" as="geometry" /></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-23" parent="1" style="shape=mxgraph.floorplan.office_chair;html=1;fillColor=#ffffff;strokeColor=#000000;" value="" vertex="1"><mxGeometry height="33" width="30" x="420" y="-38.5" as="geometry" /></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-24" parent="1" style="shape=mxgraph.floorplan.office_chair;html=1;fillColor=#ffffff;strokeColor=#000000;" value="" vertex="1"><mxGeometry height="33" width="30" x="465" y="-38.5" as="geometry" /></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-25" parent="1" style="shape=mxgraph.floorplan.office_chair;html=1;fillColor=#ffffff;strokeColor=#000000;rotation=180;" value="" vertex="1"><mxGeometry height="33" width="30" x="420" y="66.5" as="geometry" /></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-26" parent="1" style="shape=mxgraph.floorplan.office_chair;html=1;fillColor=#ffffff;strokeColor=#000000;rotation=180;" value="" vertex="1"><mxGeometry height="33" width="30" x="465" y="66.5" as="geometry" /></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-27" parent="1" style="shape=mxgraph.floorplan.dresser;html=1;fillColor=#FFFFFF;strokeColor=#000000;" value="" vertex="1"><mxGeometry height="50" width="120" x="75" y="180" as="geometry" /></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-28" parent="1" style="shape=mxgraph.floorplan.bookcase;html=1;fillColor=#FFFFFF;strokeColor=#000000;flipV=1;" value="" vertex="1"><mxGeometry height="30" width="105" x="440" y="200" as="geometry" /></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-29" parent="1" style="text;html=1;fontSize=14;fontStyle=1;fontColor=#333333;align=center;" value="Office" vertex="1"><mxGeometry height="25" width="80" x="60" y="110" as="geometry" /></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-30" parent="1" style="text;html=1;fontSize=14;fontStyle=1;fontColor=#333333;align=center;" value="Meeting Room" vertex="1"><mxGeometry height="25" width="120" x="390" y="107.5" as="geometry" /></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-31" parent="1" style="text;html=1;fontSize=12;fontStyle=0;fontColor=#666666;align=center;" value="Corridor" vertex="1"><mxGeometry height="20" width="80" x="210" y="250" as="geometry" /></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-32" parent="1" style="text;html=1;fontSize=12;fontStyle=1;fontColor=#00AA00;align=center;" value="EXIT 1" vertex="1"><mxGeometry height="20" width="70" x="25" y="450" as="geometry" /></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-33" parent="1" style="text;html=1;fontSize=12;fontStyle=1;fontColor=#00AA00;align=center;" value="EXIT 2" vertex="1"><mxGeometry height="20" width="70" x="305" y="450" as="geometry" /></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-34" parent="1" style="shape=mxgraph.pid.vessels.gas_bottle;html=1;fillColor=#FF0000;strokeColor=#FFFFFF;strokeWidth=4;" value="" vertex="1"><mxGeometry height="60" width="22" x="255" y="175" as="geometry" /></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-35" parent="1" style="shape=mxgraph.pid.vessels.gas_bottle;html=1;fillColor=#FF0000;strokeColor=#FFFFFF;strokeWidth=4;" value="" vertex="1"><mxGeometry height="60" width="22" x="510" y="80" as="geometry" /></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-36" parent="1" style="shape=mxgraph.signs.safety.non-ionizing_radiation;html=1;fillColor=#FF0000;strokeColor=none;" value="" vertex="1"><mxGeometry height="34" width="40" x="-28" y="230" as="geometry" /></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-37" parent="1" style="shape=mxgraph.signs.safety.non-ionizing_radiation;html=1;fillColor=#FF0000;strokeColor=none;" value="" vertex="1"><mxGeometry height="34" width="40" x="450" y="230" as="geometry" /></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-38" parent="1" style="shape=mxgraph.signs.healthcare.first_aid;html=1;fillColor=#FF0000;strokeColor=none;" value="" vertex="1"><mxGeometry height="30" width="30" x="210" y="200" as="geometry" /></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-39" edge="1" parent="1" style="endArrow=block;html=1;strokeColor=#FF0000;strokeWidth=6;endFill=1;" value=""><mxGeometry relative="1" as="geometry"><mxPoint x="110" y="100" as="sourcePoint" /><mxPoint x="60" y="360" as="targetPoint" /></mxGeometry></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-40" edge="1" parent="1" style="endArrow=block;html=1;strokeColor=#FF0000;strokeWidth=6;endFill=1;" value=""><mxGeometry relative="1" as="geometry"><mxPoint x="440" y="150" as="sourcePoint" /><mxPoint x="340" y="360" as="targetPoint" /></mxGeometry></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-41" edge="1" parent="1" style="endArrow=block;html=1;strokeColor=#FF0000;strokeWidth=6;endFill=1;" value=""><mxGeometry relative="1" as="geometry"><mxPoint x="160" y="280" as="sourcePoint" /><mxPoint x="60" y="360" as="targetPoint" /></mxGeometry></mxCell>
+        <mxCell id="0clUI7qCQcyf51FiKUfz-42" edge="1" parent="1" style="endArrow=block;html=1;strokeColor=#FF0000;strokeWidth=6;endFill=1;" value=""><mxGeometry relative="1" as="geometry"><mxPoint x="360" y="280" as="sourcePoint" /><mxPoint x="340" y="360" as="targetPoint" /></mxGeometry></mxCell>
       </root>
     </mxGraphModel>
   </diagram>
 </mxfile>
+
 ```
 
-## Safety Symbols Used
+## Pattern Notes
 
-| Symbol | Meaning | Style |
-|--------|---------|-------|
-| Green rectangle | Emergency Exit | `fillColor=#00AA00` |
-| Green arrow | Evacuation route | `strokeColor=#00AA00;strokeWidth=4` |
-| 🧯 | Fire extinguisher | Emoji text |
-| Red circle with ! | Fire alarm pull station | `ellipse;fillColor=#FF0000` |
-| ➕ | First aid kit | Red cross symbol |
-| Blue circle | You Are Here marker | `fillColor=#0066CC` |
-| Green oval with 👥 | Assembly point | `fillColor=#00AA00` |
-
-## Emergency Plan Elements
-
-- **3 Emergency Exits**: Exit 1 (South-West), Exit 2 (South-East), Exit 3 (East)
-- **4 Fire Extinguishers**: Distributed throughout the building
-- **2 Fire Alarm Stations**: Near main corridors
-- **1 First Aid Kit**: Reception area
-- **1 Assembly Point**: Outside building, clearly marked
+1. **Walls use `mxgraph.floorplan.*` stencils** — `wall` for straight segments, `wallCorner` for L-shapes, `wallU` for U-shaped enclosures. Fill is `#000000`. Use `direction=south` for vertical walls. Walls are typically 10px thick
+2. **Doors must be placed at wall openings** — split wall segments to leave 80px gaps, then place `doorLeft`/`doorRight` (`fillColor=#FFFFFF`) in the gap so the door aligns with the wall edge. Use `rotation` (90, -90) and `flipH`/`flipV` to orient the swing direction
+3. **Evacuation arrows** are edges (not shapes) with `endArrow=block;endFill=1;strokeColor=#FF0000;strokeWidth=6`. They use `mxPoint` coordinates for source/target instead of cell references — this allows precise freeform routing through corridors toward exits
+4. **Fire extinguishers** use `mxgraph.pid.vessels.gas_bottle` (from PID library, not floorplan) with `fillColor=#FF0000;strokeColor=#FFFFFF;strokeWidth=4` — the white stroke on red fill creates the classic extinguisher silhouette
+5. **Fire alarms** use `mxgraph.signs.safety.non-ionizing_radiation` with `fillColor=#FF0000;strokeColor=none` — placed near corridor intersections and exit doors
+6. **First aid kits** use `mxgraph.signs.healthcare.first_aid` with `fillColor=#FF0000;strokeColor=none` — typically placed in reception or corridor areas
+7. **EXIT labels** use `text` cells with `fontColor=#00AA00;fontStyle=1` (bold green) placed below/beside exit doors
+8. **Spatial diagram** — evacuation plans are spatial (no topology edges between devices). Proximity and arrow direction convey the escape routes. Furniture shapes provide spatial context but are not connected with edges

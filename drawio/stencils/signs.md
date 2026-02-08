@@ -4,378 +4,382 @@ Stencil library: `mxgraph.signs.*`
 
 Total: 369 stencils
 
-- `mxgraph.signs.animals.bear_1` (98×63)
-- `mxgraph.signs.animals.bear_2` (102×67)
-- `mxgraph.signs.animals.deer_1` (83×99)
-- `mxgraph.signs.animals.deer_2` (97×97)
-- `mxgraph.signs.animals.dog_on_leash` (97×92)
-- `mxgraph.signs.animals.duck` (105×74)
-- `mxgraph.signs.animals.fish_hatchery` (98×86)
-- `mxgraph.signs.animals.kennel` (98×95)
-- `mxgraph.signs.animals.moose` (98×66)
-- `mxgraph.signs.animals.no_dogs` (98×98)
-- `mxgraph.signs.animals.seal` (100×93)
-- `mxgraph.signs.animals.sloth` (100×81)
-- `mxgraph.signs.animals.snake` (99×98)
-- `mxgraph.signs.animals.stable` (98×99)
-- `mxgraph.signs.animals.teddy_bear` (70×99)
-- `mxgraph.signs.food.bar` (98×99)
-- `mxgraph.signs.food.cans_and_bottles` (75×99)
-- `mxgraph.signs.food.coffee` (99×62)
-- `mxgraph.signs.food.drinking_water_1` (84×98)
-- `mxgraph.signs.food.drinking_water_2` (76×99)
-- `mxgraph.signs.food.fast_food` (98×88)
-- `mxgraph.signs.food.food_truck` (99×50)
-- `mxgraph.signs.food.knife` (98×12)
-- `mxgraph.signs.food.restaurant_1` (36×99)
-- `mxgraph.signs.food.restaurant_2` (53×104)
-- `mxgraph.signs.healthcare.alternative_medicine` (99×96)
-- `mxgraph.signs.healthcare.anesthesia` (99×85)
-- `mxgraph.signs.healthcare.assistive_listening_system` (87×99)
-- `mxgraph.signs.healthcare.brain` (99×85)
-- `mxgraph.signs.healthcare.cardiology` (98×98)
-- `mxgraph.signs.healthcare.care_staff_area` (97×99)
-- `mxgraph.signs.healthcare.cath_lab` (99×100)
-- `mxgraph.signs.healthcare.chapel` (72×98)
-- `mxgraph.signs.healthcare.deaf` (80×99)
-- `mxgraph.signs.healthcare.dermatology` (99×96)
-- `mxgraph.signs.healthcare.diabetes` (99×56)
-- `mxgraph.signs.healthcare.eye` (99×55)
-- `mxgraph.signs.healthcare.eye_wash` (94×100)
-- `mxgraph.signs.healthcare.family_practice` (99×99)
-- `mxgraph.signs.healthcare.first_aid` (99×99)
-- `mxgraph.signs.healthcare.genetics` (98×99)
-- `mxgraph.signs.healthcare.health_education` (98×99)
-- `mxgraph.signs.healthcare.heart_1` (104×95)
-- `mxgraph.signs.healthcare.heart_2` (98×94)
-- `mxgraph.signs.healthcare.hospital_1` (99×99)
-- `mxgraph.signs.healthcare.hospital_2` (85×98)
-- `mxgraph.signs.healthcare.immunizations` (99×99)
-- `mxgraph.signs.healthcare.infectious_disease` (98×99)
-- `mxgraph.signs.healthcare.inpatient` (96×99)
-- `mxgraph.signs.healthcare.intensive_care` (99×99)
-- `mxgraph.signs.healthcare.internal_medicine` (71×99)
-- `mxgraph.signs.healthcare.kidney` (71×99)
-- `mxgraph.signs.healthcare.lungs` (91×100)
-- `mxgraph.signs.healthcare.mammogram` (99×99)
-- `mxgraph.signs.healthcare.medical_interpreter` (99×85)
-- `mxgraph.signs.healthcare.medical_library` (99×99)
-- `mxgraph.signs.healthcare.medical_records` (99×99)
-- `mxgraph.signs.healthcare.mental_health` (84×99)
-- `mxgraph.signs.healthcare.mri` (99×94)
-- `mxgraph.signs.healthcare.neurology` (84×99)
-- `mxgraph.signs.healthcare.nutrition` (100×99)
-- `mxgraph.signs.healthcare.oncology` (99×99)
-- `mxgraph.signs.healthcare.out_patient` (57×100)
-- `mxgraph.signs.healthcare.pharmacy` (53×99)
-- `mxgraph.signs.healthcare.physical_therapy` (99×89)
-- `mxgraph.signs.healthcare.registration` (96×99)
-- `mxgraph.signs.healthcare.sign_language` (101×84)
-- `mxgraph.signs.healthcare.social_services` (99×99)
-- `mxgraph.signs.healthcare.surgery` (100×99)
-- `mxgraph.signs.healthcare.tdd` (84×99)
-- `mxgraph.signs.healthcare.tooth` (80×101)
-- `mxgraph.signs.healthcare.ultrasound` (90×99)
-- `mxgraph.signs.healthcare.wheelchair_accessible_1` (87×99)
-- `mxgraph.signs.healthcare.wheelchair_accessible_2` (87×99)
-- `mxgraph.signs.healthcare.wheelchair_accessible_3` (77×99)
-- `mxgraph.signs.nature.earth` (99×99)
-- `mxgraph.signs.nature.jupiter` (83×100)
-- `mxgraph.signs.nature.maple_leaf` (89×98)
-- `mxgraph.signs.nature.mars` (99×99)
-- `mxgraph.signs.nature.mercury` (63×99)
-- `mxgraph.signs.nature.moon` (76×99)
-- `mxgraph.signs.nature.neptune` (88×99)
-- `mxgraph.signs.nature.pluto` (63×99)
-- `mxgraph.signs.nature.saturn` (61×99)
-- `mxgraph.signs.nature.snowflake` (87×99)
-- `mxgraph.signs.nature.sun_1` (99×99)
-- `mxgraph.signs.nature.sun_2` (99×99)
-- `mxgraph.signs.nature.sun_3` (99×99)
-- `mxgraph.signs.nature.sun_4` (99×99)
-- `mxgraph.signs.nature.tsunami` (99×88)
-- `mxgraph.signs.nature.uranus` (64×99)
-- `mxgraph.signs.nature.venus` (65×99)
-- `mxgraph.signs.people.baby_1` (77×102)
-- `mxgraph.signs.people.baby_2` (77×99)
-- `mxgraph.signs.people.changing_station` (95×99)
-- `mxgraph.signs.people.construction` (88×99)
-- `mxgraph.signs.people.female` (76×99)
-- `mxgraph.signs.people.male` (103×103)
-- `mxgraph.signs.people.man_1` (37×99)
-- `mxgraph.signs.people.man_2` (36×99)
-- `mxgraph.signs.people.mummy` (35×99)
-- `mxgraph.signs.people.pedestrian` (81×99)
-- `mxgraph.signs.people.shower_1` (101×98)
-- `mxgraph.signs.people.shower_2` (99×92)
-- `mxgraph.signs.people.stroller` (101×86)
-- `mxgraph.signs.people.unisex` (100×94)
-- `mxgraph.signs.people.waiting_room_1` (77×101)
-- `mxgraph.signs.people.waiting_room_2` (90×99)
-- `mxgraph.signs.people.walking` (56×99)
-- `mxgraph.signs.people.woman_1` (48×100)
-- `mxgraph.signs.people.woman_2` (46×99)
-- `mxgraph.signs.safety.biohazard` (106×98)
-- `mxgraph.signs.safety.caution` (99×99)
-- `mxgraph.signs.safety.chemical_weapon` (99×99)
-- `mxgraph.signs.safety.falling_rocks` (99×99)
-- `mxgraph.signs.safety.fallout_shelter` (99×99)
-- `mxgraph.signs.safety.fragile` (74×99)
-- `mxgraph.signs.safety.handle_with_care` (92×99)
-- `mxgraph.signs.safety.high_voltage_1` (50×99)
-- `mxgraph.signs.safety.high_voltage_2` (40×99)
-- `mxgraph.signs.safety.high_voltage_3` (99×89)
-- `mxgraph.signs.safety.keep_dry` (84×99)
-- `mxgraph.signs.safety.no` (99×99)
-- `mxgraph.signs.safety.no_entry` (99×99)
-- `mxgraph.signs.safety.no_smoking` (99×99)
-- `mxgraph.signs.safety.non-ionizing_radiation` (99×83)
-- `mxgraph.signs.safety.pedestrian_crossing` (99×99)
-- `mxgraph.signs.safety.radiation` (102×94)
-- `mxgraph.signs.safety.slip_hazard` (78×100)
-- `mxgraph.signs.safety.store_right_up_1` (71×99)
-- `mxgraph.signs.safety.store_right_up_2` (99×99)
-- `mxgraph.signs.science.laboratory` (99×99)
-- `mxgraph.signs.science.magnet` (74×99)
-- `mxgraph.signs.science.microscope` (64×99)
-- `mxgraph.signs.science.nuclear_1` (99×88)
-- `mxgraph.signs.science.nuclear_2` (99×99)
-- `mxgraph.signs.science.windmill` (73×99)
-- `mxgraph.signs.sports.amphiteater` (96×99)
-- `mxgraph.signs.sports.archery` (73×98)
-- `mxgraph.signs.sports.baseball` (59×100)
-- `mxgraph.signs.sports.binoculars` (99×98)
-- `mxgraph.signs.sports.boardwalk` (97×99)
-- `mxgraph.signs.sports.boat_launch` (99×52)
-- `mxgraph.signs.sports.camper_1` (99×80)
-- `mxgraph.signs.sports.camper_2` (99×59)
-- `mxgraph.signs.sports.campfire` (93×99)
-- `mxgraph.signs.sports.campground` (99×84)
-- `mxgraph.signs.sports.canoe_1` (99×88)
-- `mxgraph.signs.sports.canoe_2` (103×49)
-- `mxgraph.signs.sports.chair_lift` (84×98)
-- `mxgraph.signs.sports.climbing` (99×99)
-- `mxgraph.signs.sports.cross_country_skiing_1` (99×94)
-- `mxgraph.signs.sports.cross_country_skiing_2` (100×92)
-- `mxgraph.signs.sports.cycling` (99×85)
-- `mxgraph.signs.sports.dirt_bike` (99×95)
-- `mxgraph.signs.sports.diving` (94×100)
-- `mxgraph.signs.sports.downhill_skiing_1` (100×98)
-- `mxgraph.signs.sports.downhill_skiing_2` (99×85)
-- `mxgraph.signs.sports.exercise` (99×94)
-- `mxgraph.signs.sports.firewood` (101×91)
-- `mxgraph.signs.sports.fish_cleaning` (99×64)
-- `mxgraph.signs.sports.fishing_1` (100×93)
-- `mxgraph.signs.sports.fishing_2` (99×118)
-- `mxgraph.signs.sports.fishing_pier` (95×99)
-- `mxgraph.signs.sports.golf` (64×99)
-- `mxgraph.signs.sports.golfing` (55×99)
-- `mxgraph.signs.sports.gondola` (99×89)
-- `mxgraph.signs.sports.hang_gliding` (99×67)
-- `mxgraph.signs.sports.hiker` (64×99)
-- `mxgraph.signs.sports.hiking` (99×94)
-- `mxgraph.signs.sports.horseback_trail` (100×99)
-- `mxgraph.signs.sports.ice_fishing` (99×99)
-- `mxgraph.signs.sports.ice_skating` (96×100)
-- `mxgraph.signs.sports.indoor_swimming` (99×89)
-- `mxgraph.signs.sports.jet_ski` (100×86)
-- `mxgraph.signs.sports.kayak` (100×100)
-- `mxgraph.signs.sports.life_jacket` (100×99)
-- `mxgraph.signs.sports.motorboat_1` (99×49)
-- `mxgraph.signs.sports.motorboat_2` (100×37)
-- `mxgraph.signs.sports.picnic_shelter` (99×95)
-- `mxgraph.signs.sports.picnic_table_1` (99×68)
-- `mxgraph.signs.sports.picnic_table_2` (99×87)
-- `mxgraph.signs.sports.ranger_station_1` (92×99)
-- `mxgraph.signs.sports.ranger_station_2` (95×99)
-- `mxgraph.signs.sports.rock_climbing` (76×99)
-- `mxgraph.signs.sports.rock_collection` (93×99)
-- `mxgraph.signs.sports.rollerblading` (94×99)
-- `mxgraph.signs.sports.rowboat` (99×82)
-- `mxgraph.signs.sports.running` (70×99)
-- `mxgraph.signs.sports.rv` (100×63)
-- `mxgraph.signs.sports.sail_boat` (93×99)
-- `mxgraph.signs.sports.sanitary_disposal_station` (99×87)
-- `mxgraph.signs.sports.scenic_viewpoint` (81×99)
-- `mxgraph.signs.sports.scuba_diving` (99×84)
-- `mxgraph.signs.sports.seesaw` (99×55)
-- `mxgraph.signs.sports.self_guiding_trail` (99×99)
-- `mxgraph.signs.sports.shelter` (99×91)
-- `mxgraph.signs.sports.skateboarding` (67×99)
-- `mxgraph.signs.sports.ski_jump` (94×99)
-- `mxgraph.signs.sports.sledding` (99×87)
-- `mxgraph.signs.sports.sleeping_shelter` (99×91)
-- `mxgraph.signs.sports.small_boat_launch` (100×93)
-- `mxgraph.signs.sports.snow_shoeing` (85×99)
-- `mxgraph.signs.sports.snowboarder` (99×100)
-- `mxgraph.signs.sports.snowmobile` (99×81)
-- `mxgraph.signs.sports.surfing` (97×99)
-- `mxgraph.signs.sports.swimming_1` (99×72)
-- `mxgraph.signs.sports.swimming_2` (99×45)
-- `mxgraph.signs.sports.swing` (99×100)
-- `mxgraph.signs.sports.tennis` (99×99)
-- `mxgraph.signs.sports.trail` (100×99)
-- `mxgraph.signs.sports.view` (87×99)
-- `mxgraph.signs.sports.wading` (99×99)
-- `mxgraph.signs.sports.waterskiing` (99×99)
-- `mxgraph.signs.sports.whale_viewing` (99×99)
-- `mxgraph.signs.sports.windsurfing` (99×99)
-- `mxgraph.signs.sports.wood_gathering` (92×99)
-- `mxgraph.signs.tech.at_1` (98×99)
-- `mxgraph.signs.tech.at_2` (99×95)
-- `mxgraph.signs.tech.camera_1` (99×85)
-- `mxgraph.signs.tech.camera_2` (99×72)
-- `mxgraph.signs.tech.cell_phone` (48×99)
-- `mxgraph.signs.tech.command` (99×99)
-- `mxgraph.signs.tech.computer` (99×99)
-- `mxgraph.signs.tech.crop` (99×99)
-- `mxgraph.signs.tech.cut` (101×73)
-- `mxgraph.signs.tech.eject` (99×78)
-- `mxgraph.signs.tech.ethernet` (99×48)
-- `mxgraph.signs.tech.firewire` (93×99)
-- `mxgraph.signs.tech.fullscreen` (100×100)
-- `mxgraph.signs.tech.fullscreen_exit` (100×100)
-- `mxgraph.signs.tech.mail` (99×75)
-- `mxgraph.signs.tech.next` (100×80)
-- `mxgraph.signs.tech.power` (92×99)
-- `mxgraph.signs.tech.previous` (100×80)
-- `mxgraph.signs.tech.radio` (99×56)
-- `mxgraph.signs.tech.rss` (99×99)
-- `mxgraph.signs.tech.telephone_1` (43×100)
-- `mxgraph.signs.tech.telephone_2` (36×99)
-- `mxgraph.signs.tech.telephone_3` (75×101)
-- `mxgraph.signs.tech.telephone_4` (72×99)
-- `mxgraph.signs.tech.telephone_5` (36×99)
-- `mxgraph.signs.tech.usb` (44×99)
-- `mxgraph.signs.tech.video_camera` (99×40)
-- `mxgraph.signs.tech.washing_machine` (76×98)
-- `mxgraph.signs.transportation.4_wheeler` (99×71)
-- `mxgraph.signs.transportation.airbag` (103×96)
-- `mxgraph.signs.transportation.airplane_1` (100×35)
-- `mxgraph.signs.transportation.airplane_2` (102×57)
-- `mxgraph.signs.transportation.airplane_3` (98×99)
-- `mxgraph.signs.transportation.airplane_4` (92×99)
-- `mxgraph.signs.transportation.airplane_5` (95×99)
-- `mxgraph.signs.transportation.airplane_6` (97×101)
-- `mxgraph.signs.transportation.airplane_7` (100×44)
-- `mxgraph.signs.transportation.ambulance` (99×68)
-- `mxgraph.signs.transportation.anchor_1` (92×99)
-- `mxgraph.signs.transportation.anchor_2` (95×99)
-- `mxgraph.signs.transportation.anchor_3` (99×99)
-- `mxgraph.signs.transportation.anchor_4` (99×99)
-- `mxgraph.signs.transportation.bicycle_1` (99×63)
-- `mxgraph.signs.transportation.bicycle_2` (99×57)
-- `mxgraph.signs.transportation.bicycle_3` (99×59)
-- `mxgraph.signs.transportation.bicycle_4` (99×59)
-- `mxgraph.signs.transportation.bicycle_5` (99×54)
-- `mxgraph.signs.transportation.bicycler` (95×99)
-- `mxgraph.signs.transportation.bus_1` (99×99)
-- `mxgraph.signs.transportation.bus_2` (99×26)
-- `mxgraph.signs.transportation.bus_3` (99×33)
-- `mxgraph.signs.transportation.bus_4` (82×101)
-- `mxgraph.signs.transportation.car_1` (99×89)
-- `mxgraph.signs.transportation.car_2` (100×34)
-- `mxgraph.signs.transportation.car_3` (99×38)
-- `mxgraph.signs.transportation.car_4` (99×86)
-- `mxgraph.signs.transportation.car_lock` (99×76)
-- `mxgraph.signs.transportation.divided_highway` (84×99)
-- `mxgraph.signs.transportation.ferry` (99×69)
-- `mxgraph.signs.transportation.firetruck` (99×31)
-- `mxgraph.signs.transportation.forklift` (98×87)
-- `mxgraph.signs.transportation.gas_1` (63×99)
-- `mxgraph.signs.transportation.gas_2` (75×99)
-- `mxgraph.signs.transportation.gas_3` (98×98)
-- `mxgraph.signs.transportation.gas_4` (75×98)
-- `mxgraph.signs.transportation.ground_transportation` (99×63)
-- `mxgraph.signs.transportation.harbor` (98×90)
-- `mxgraph.signs.transportation.helicopter` (100×63)
-- `mxgraph.signs.transportation.highway` (69×98)
-- `mxgraph.signs.transportation.jeep_1` (99×54)
-- `mxgraph.signs.transportation.jeep_2` (99×48)
-- `mxgraph.signs.transportation.lighthouse_1` (99×99)
-- `mxgraph.signs.transportation.lighthouse_2` (55×99)
-- `mxgraph.signs.transportation.moped_1` (99×58)
-- `mxgraph.signs.transportation.moped_2` (99×55)
-- `mxgraph.signs.transportation.motorcycle` (99×67)
-- `mxgraph.signs.transportation.partially_submerged_wreck` (98×76)
-- `mxgraph.signs.transportation.radiator_water` (99×95)
-- `mxgraph.signs.transportation.scooter` (99×64)
-- `mxgraph.signs.transportation.sea_plane` (99×68)
-- `mxgraph.signs.transportation.seat_belt` (82×99)
-- `mxgraph.signs.transportation.ship_1` (99×53)
-- `mxgraph.signs.transportation.ship_2` (99×99)
-- `mxgraph.signs.transportation.tank` (101×51)
-- `mxgraph.signs.transportation.taxi` (99×94)
-- `mxgraph.signs.transportation.tow_away` (99×32)
-- `mxgraph.signs.transportation.tractor_1` (99×76)
-- `mxgraph.signs.transportation.tractor_2` (99×76)
-- `mxgraph.signs.transportation.train_1` (51×99)
-- `mxgraph.signs.transportation.train_2` (66×99)
-- `mxgraph.signs.transportation.train_3` (99×62)
-- `mxgraph.signs.transportation.train_station` (99×99)
-- `mxgraph.signs.transportation.tram_1` (99×51)
-- `mxgraph.signs.transportation.tram_2` (99×52)
-- `mxgraph.signs.transportation.truck_1` (99×51)
-- `mxgraph.signs.transportation.truck_2` (99×50)
-- `mxgraph.signs.transportation.truck_3` (99×44)
-- `mxgraph.signs.transportation.truck_4` (99×33)
-- `mxgraph.signs.transportation.truck_5` (99×27)
-- `mxgraph.signs.transportation.truck_6` (80×99)
-- `mxgraph.signs.transportation.truck_7` (99×41)
-- `mxgraph.signs.transportation.uneven_road` (99×69)
-- `mxgraph.signs.transportation.vehicle_ferry` (99×67)
-- `mxgraph.signs.travel.arriving_flights` (75×103)
-- `mxgraph.signs.travel.arrow_east` (99×84)
-- `mxgraph.signs.travel.arrow_ne` (99×99)
-- `mxgraph.signs.travel.arrow_north` (84×99)
-- `mxgraph.signs.travel.arrow_nw` (99×99)
-- `mxgraph.signs.travel.arrow_se` (99×99)
-- `mxgraph.signs.travel.arrow_south` (84×99)
-- `mxgraph.signs.travel.arrow_sw` (99×99)
-- `mxgraph.signs.travel.arrow_west` (99×84)
-- `mxgraph.signs.travel.baggage` (99×83)
-- `mxgraph.signs.travel.bank` (99×87)
-- `mxgraph.signs.travel.barber_shop` (93×100)
-- `mxgraph.signs.travel.beauty_salon` (96×100)
-- `mxgraph.signs.travel.book_and_souvenir_shop` (99×93)
-- `mxgraph.signs.travel.car_rental` (75×101)
-- `mxgraph.signs.travel.cashier` (99×99)
-- `mxgraph.signs.travel.coat_check` (100×71)
-- `mxgraph.signs.travel.currency_exchange` (99×93)
-- `mxgraph.signs.travel.customs` (99×84)
-- `mxgraph.signs.travel.downstairs` (99×83)
-- `mxgraph.signs.travel.drinking_fountain` (82×102)
-- `mxgraph.signs.travel.driving_tour` (93×99)
-- `mxgraph.signs.travel.elevator` (65×100)
-- `mxgraph.signs.travel.escalator` (99×77)
-- `mxgraph.signs.travel.escalator_down` (100×89)
-- `mxgraph.signs.travel.escalator_up` (99×90)
-- `mxgraph.signs.travel.euro` (86×99)
-- `mxgraph.signs.travel.exit` (99×93)
-- `mxgraph.signs.travel.haircut` (59×100)
-- `mxgraph.signs.travel.hotel` (99×61)
-- `mxgraph.signs.travel.hotel_information` (94×99)
-- `mxgraph.signs.travel.immigration` (95×99)
-- `mxgraph.signs.travel.information_1` (99×99)
-- `mxgraph.signs.travel.information_2` (60×99)
-- `mxgraph.signs.travel.locker` (79×99)
-- `mxgraph.signs.travel.lost_and_found` (99×96)
-- `mxgraph.signs.travel.museum` (99×95)
-- `mxgraph.signs.travel.no_parking` (99×99)
-- `mxgraph.signs.travel.parking_1` (75×99)
-- `mxgraph.signs.travel.parking_2` (99×99)
-- `mxgraph.signs.travel.point_of_interest` (99×100)
-- `mxgraph.signs.travel.pound` (69×99)
-- `mxgraph.signs.travel.present` (77×98)
-- `mxgraph.signs.travel.shops` (99×96)
-- `mxgraph.signs.travel.stairs` (99×83)
-- `mxgraph.signs.travel.ticket_machine` (88×100)
-- `mxgraph.signs.travel.ticket_purchase` (99×96)
-- `mxgraph.signs.travel.tunnel` (86×99)
-- `mxgraph.signs.travel.upstairs` (99×85)
+> These are standard schematic symbols — monochrome by industry convention. Color styles are optional.
+
+| Shape | Size | Required Styles |
+|-------|------|-----------------|
+| `mxgraph.signs.animals.bear_1` | 98×63 |  |
+| `mxgraph.signs.animals.bear_2` | 102×67 |  |
+| `mxgraph.signs.animals.deer_1` | 83×99 |  |
+| `mxgraph.signs.animals.deer_2` | 97×97 |  |
+| `mxgraph.signs.animals.dog_on_leash` | 97×92 |  |
+| `mxgraph.signs.animals.duck` | 105×74 |  |
+| `mxgraph.signs.animals.fish_hatchery` | 98×86 |  |
+| `mxgraph.signs.animals.kennel` | 98×95 |  |
+| `mxgraph.signs.animals.moose` | 98×66 |  |
+| `mxgraph.signs.animals.no_dogs` | 98×98 |  |
+| `mxgraph.signs.animals.seal` | 100×93 |  |
+| `mxgraph.signs.animals.sloth` | 100×81 |  |
+| `mxgraph.signs.animals.snake` | 99×98 |  |
+| `mxgraph.signs.animals.stable` | 98×99 |  |
+| `mxgraph.signs.animals.teddy_bear` | 70×99 |  |
+| `mxgraph.signs.food.bar` | 98×99 |  |
+| `mxgraph.signs.food.cans_and_bottles` | 75×99 |  |
+| `mxgraph.signs.food.coffee` | 99×62 |  |
+| `mxgraph.signs.food.drinking_water_1` | 84×98 |  |
+| `mxgraph.signs.food.drinking_water_2` | 76×99 |  |
+| `mxgraph.signs.food.fast_food` | 98×88 |  |
+| `mxgraph.signs.food.food_truck` | 99×50 |  |
+| `mxgraph.signs.food.knife` | 98×12 |  |
+| `mxgraph.signs.food.restaurant_1` | 36×99 |  |
+| `mxgraph.signs.food.restaurant_2` | 53×104 |  |
+| `mxgraph.signs.healthcare.alternative_medicine` | 99×96 |  |
+| `mxgraph.signs.healthcare.anesthesia` | 99×85 |  |
+| `mxgraph.signs.healthcare.assistive_listening_system` | 87×99 |  |
+| `mxgraph.signs.healthcare.brain` | 99×85 |  |
+| `mxgraph.signs.healthcare.cardiology` | 98×98 |  |
+| `mxgraph.signs.healthcare.care_staff_area` | 97×99 |  |
+| `mxgraph.signs.healthcare.cath_lab` | 99×100 |  |
+| `mxgraph.signs.healthcare.chapel` | 72×98 |  |
+| `mxgraph.signs.healthcare.deaf` | 80×99 |  |
+| `mxgraph.signs.healthcare.dermatology` | 99×96 |  |
+| `mxgraph.signs.healthcare.diabetes` | 99×56 |  |
+| `mxgraph.signs.healthcare.eye` | 99×55 |  |
+| `mxgraph.signs.healthcare.eye_wash` | 94×100 |  |
+| `mxgraph.signs.healthcare.family_practice` | 99×99 |  |
+| `mxgraph.signs.healthcare.first_aid` | 99×99 |  |
+| `mxgraph.signs.healthcare.genetics` | 98×99 |  |
+| `mxgraph.signs.healthcare.health_education` | 98×99 |  |
+| `mxgraph.signs.healthcare.heart_1` | 104×95 |  |
+| `mxgraph.signs.healthcare.heart_2` | 98×94 |  |
+| `mxgraph.signs.healthcare.hospital_1` | 99×99 |  |
+| `mxgraph.signs.healthcare.hospital_2` | 85×98 |  |
+| `mxgraph.signs.healthcare.immunizations` | 99×99 |  |
+| `mxgraph.signs.healthcare.infectious_disease` | 98×99 |  |
+| `mxgraph.signs.healthcare.inpatient` | 96×99 |  |
+| `mxgraph.signs.healthcare.intensive_care` | 99×99 |  |
+| `mxgraph.signs.healthcare.internal_medicine` | 71×99 |  |
+| `mxgraph.signs.healthcare.kidney` | 71×99 |  |
+| `mxgraph.signs.healthcare.lungs` | 91×100 |  |
+| `mxgraph.signs.healthcare.mammogram` | 99×99 |  |
+| `mxgraph.signs.healthcare.medical_interpreter` | 99×85 |  |
+| `mxgraph.signs.healthcare.medical_library` | 99×99 |  |
+| `mxgraph.signs.healthcare.medical_records` | 99×99 |  |
+| `mxgraph.signs.healthcare.mental_health` | 84×99 |  |
+| `mxgraph.signs.healthcare.mri` | 99×94 |  |
+| `mxgraph.signs.healthcare.neurology` | 84×99 |  |
+| `mxgraph.signs.healthcare.nutrition` | 100×99 |  |
+| `mxgraph.signs.healthcare.oncology` | 99×99 |  |
+| `mxgraph.signs.healthcare.out_patient` | 57×100 |  |
+| `mxgraph.signs.healthcare.pharmacy` | 53×99 |  |
+| `mxgraph.signs.healthcare.physical_therapy` | 99×89 |  |
+| `mxgraph.signs.healthcare.registration` | 96×99 |  |
+| `mxgraph.signs.healthcare.sign_language` | 101×84 |  |
+| `mxgraph.signs.healthcare.social_services` | 99×99 |  |
+| `mxgraph.signs.healthcare.surgery` | 100×99 |  |
+| `mxgraph.signs.healthcare.tdd` | 84×99 |  |
+| `mxgraph.signs.healthcare.tooth` | 80×101 |  |
+| `mxgraph.signs.healthcare.ultrasound` | 90×99 |  |
+| `mxgraph.signs.healthcare.wheelchair_accessible_1` | 87×99 |  |
+| `mxgraph.signs.healthcare.wheelchair_accessible_2` | 87×99 |  |
+| `mxgraph.signs.healthcare.wheelchair_accessible_3` | 77×99 |  |
+| `mxgraph.signs.nature.earth` | 99×99 |  |
+| `mxgraph.signs.nature.jupiter` | 83×100 |  |
+| `mxgraph.signs.nature.maple_leaf` | 89×98 |  |
+| `mxgraph.signs.nature.mars` | 99×99 |  |
+| `mxgraph.signs.nature.mercury` | 63×99 |  |
+| `mxgraph.signs.nature.moon` | 76×99 |  |
+| `mxgraph.signs.nature.neptune` | 88×99 |  |
+| `mxgraph.signs.nature.pluto` | 63×99 |  |
+| `mxgraph.signs.nature.saturn` | 61×99 |  |
+| `mxgraph.signs.nature.snowflake` | 87×99 |  |
+| `mxgraph.signs.nature.sun_1` | 99×99 |  |
+| `mxgraph.signs.nature.sun_2` | 99×99 |  |
+| `mxgraph.signs.nature.sun_3` | 99×99 |  |
+| `mxgraph.signs.nature.sun_4` | 99×99 |  |
+| `mxgraph.signs.nature.tsunami` | 99×88 |  |
+| `mxgraph.signs.nature.uranus` | 64×99 |  |
+| `mxgraph.signs.nature.venus` | 65×99 |  |
+| `mxgraph.signs.people.baby_1` | 77×102 |  |
+| `mxgraph.signs.people.baby_2` | 77×99 |  |
+| `mxgraph.signs.people.changing_station` | 95×99 |  |
+| `mxgraph.signs.people.construction` | 88×99 |  |
+| `mxgraph.signs.people.female` | 76×99 |  |
+| `mxgraph.signs.people.male` | 103×103 |  |
+| `mxgraph.signs.people.man_1` | 37×99 |  |
+| `mxgraph.signs.people.man_2` | 36×99 |  |
+| `mxgraph.signs.people.mummy` | 35×99 |  |
+| `mxgraph.signs.people.pedestrian` | 81×99 |  |
+| `mxgraph.signs.people.shower_1` | 101×98 |  |
+| `mxgraph.signs.people.shower_2` | 99×92 |  |
+| `mxgraph.signs.people.stroller` | 101×86 |  |
+| `mxgraph.signs.people.unisex` | 100×94 |  |
+| `mxgraph.signs.people.waiting_room_1` | 77×101 |  |
+| `mxgraph.signs.people.waiting_room_2` | 90×99 |  |
+| `mxgraph.signs.people.walking` | 56×99 |  |
+| `mxgraph.signs.people.woman_1` | 48×100 |  |
+| `mxgraph.signs.people.woman_2` | 46×99 |  |
+| `mxgraph.signs.safety.biohazard` | 106×98 |  |
+| `mxgraph.signs.safety.caution` | 99×99 |  |
+| `mxgraph.signs.safety.chemical_weapon` | 99×99 |  |
+| `mxgraph.signs.safety.falling_rocks` | 99×99 |  |
+| `mxgraph.signs.safety.fallout_shelter` | 99×99 |  |
+| `mxgraph.signs.safety.fragile` | 74×99 |  |
+| `mxgraph.signs.safety.handle_with_care` | 92×99 |  |
+| `mxgraph.signs.safety.high_voltage_1` | 50×99 |  |
+| `mxgraph.signs.safety.high_voltage_2` | 40×99 |  |
+| `mxgraph.signs.safety.high_voltage_3` | 99×89 |  |
+| `mxgraph.signs.safety.keep_dry` | 84×99 |  |
+| `mxgraph.signs.safety.no` | 99×99 |  |
+| `mxgraph.signs.safety.no_entry` | 99×99 |  |
+| `mxgraph.signs.safety.no_smoking` | 99×99 |  |
+| `mxgraph.signs.safety.non-ionizing_radiation` | 99×83 |  |
+| `mxgraph.signs.safety.pedestrian_crossing` | 99×99 |  |
+| `mxgraph.signs.safety.radiation` | 102×94 |  |
+| `mxgraph.signs.safety.slip_hazard` | 78×100 |  |
+| `mxgraph.signs.safety.store_right_up_1` | 71×99 |  |
+| `mxgraph.signs.safety.store_right_up_2` | 99×99 |  |
+| `mxgraph.signs.science.laboratory` | 99×99 |  |
+| `mxgraph.signs.science.magnet` | 74×99 |  |
+| `mxgraph.signs.science.microscope` | 64×99 |  |
+| `mxgraph.signs.science.nuclear_1` | 99×88 |  |
+| `mxgraph.signs.science.nuclear_2` | 99×99 |  |
+| `mxgraph.signs.science.windmill` | 73×99 |  |
+| `mxgraph.signs.sports.amphiteater` | 96×99 |  |
+| `mxgraph.signs.sports.archery` | 73×98 |  |
+| `mxgraph.signs.sports.baseball` | 59×100 |  |
+| `mxgraph.signs.sports.binoculars` | 99×98 |  |
+| `mxgraph.signs.sports.boardwalk` | 97×99 |  |
+| `mxgraph.signs.sports.boat_launch` | 99×52 |  |
+| `mxgraph.signs.sports.camper_1` | 99×80 |  |
+| `mxgraph.signs.sports.camper_2` | 99×59 |  |
+| `mxgraph.signs.sports.campfire` | 93×99 |  |
+| `mxgraph.signs.sports.campground` | 99×84 |  |
+| `mxgraph.signs.sports.canoe_1` | 99×88 |  |
+| `mxgraph.signs.sports.canoe_2` | 103×49 |  |
+| `mxgraph.signs.sports.chair_lift` | 84×98 |  |
+| `mxgraph.signs.sports.climbing` | 99×99 |  |
+| `mxgraph.signs.sports.cross_country_skiing_1` | 99×94 |  |
+| `mxgraph.signs.sports.cross_country_skiing_2` | 100×92 |  |
+| `mxgraph.signs.sports.cycling` | 99×85 |  |
+| `mxgraph.signs.sports.dirt_bike` | 99×95 |  |
+| `mxgraph.signs.sports.diving` | 94×100 |  |
+| `mxgraph.signs.sports.downhill_skiing_1` | 100×98 |  |
+| `mxgraph.signs.sports.downhill_skiing_2` | 99×85 |  |
+| `mxgraph.signs.sports.exercise` | 99×94 |  |
+| `mxgraph.signs.sports.firewood` | 101×91 |  |
+| `mxgraph.signs.sports.fish_cleaning` | 99×64 |  |
+| `mxgraph.signs.sports.fishing_1` | 100×93 |  |
+| `mxgraph.signs.sports.fishing_2` | 99×118 |  |
+| `mxgraph.signs.sports.fishing_pier` | 95×99 |  |
+| `mxgraph.signs.sports.golf` | 64×99 |  |
+| `mxgraph.signs.sports.golfing` | 55×99 |  |
+| `mxgraph.signs.sports.gondola` | 99×89 |  |
+| `mxgraph.signs.sports.hang_gliding` | 99×67 |  |
+| `mxgraph.signs.sports.hiker` | 64×99 |  |
+| `mxgraph.signs.sports.hiking` | 99×94 |  |
+| `mxgraph.signs.sports.horseback_trail` | 100×99 |  |
+| `mxgraph.signs.sports.ice_fishing` | 99×99 |  |
+| `mxgraph.signs.sports.ice_skating` | 96×100 |  |
+| `mxgraph.signs.sports.indoor_swimming` | 99×89 |  |
+| `mxgraph.signs.sports.jet_ski` | 100×86 |  |
+| `mxgraph.signs.sports.kayak` | 100×100 |  |
+| `mxgraph.signs.sports.life_jacket` | 100×99 |  |
+| `mxgraph.signs.sports.motorboat_1` | 99×49 |  |
+| `mxgraph.signs.sports.motorboat_2` | 100×37 |  |
+| `mxgraph.signs.sports.picnic_shelter` | 99×95 |  |
+| `mxgraph.signs.sports.picnic_table_1` | 99×68 |  |
+| `mxgraph.signs.sports.picnic_table_2` | 99×87 |  |
+| `mxgraph.signs.sports.ranger_station_1` | 92×99 |  |
+| `mxgraph.signs.sports.ranger_station_2` | 95×99 |  |
+| `mxgraph.signs.sports.rock_climbing` | 76×99 |  |
+| `mxgraph.signs.sports.rock_collection` | 93×99 |  |
+| `mxgraph.signs.sports.rollerblading` | 94×99 |  |
+| `mxgraph.signs.sports.rowboat` | 99×82 |  |
+| `mxgraph.signs.sports.running` | 70×99 |  |
+| `mxgraph.signs.sports.rv` | 100×63 |  |
+| `mxgraph.signs.sports.sail_boat` | 93×99 |  |
+| `mxgraph.signs.sports.sanitary_disposal_station` | 99×87 |  |
+| `mxgraph.signs.sports.scenic_viewpoint` | 81×99 |  |
+| `mxgraph.signs.sports.scuba_diving` | 99×84 |  |
+| `mxgraph.signs.sports.seesaw` | 99×55 |  |
+| `mxgraph.signs.sports.self_guiding_trail` | 99×99 |  |
+| `mxgraph.signs.sports.shelter` | 99×91 |  |
+| `mxgraph.signs.sports.skateboarding` | 67×99 |  |
+| `mxgraph.signs.sports.ski_jump` | 94×99 |  |
+| `mxgraph.signs.sports.sledding` | 99×87 |  |
+| `mxgraph.signs.sports.sleeping_shelter` | 99×91 |  |
+| `mxgraph.signs.sports.small_boat_launch` | 100×93 |  |
+| `mxgraph.signs.sports.snow_shoeing` | 85×99 |  |
+| `mxgraph.signs.sports.snowboarder` | 99×100 |  |
+| `mxgraph.signs.sports.snowmobile` | 99×81 |  |
+| `mxgraph.signs.sports.surfing` | 97×99 |  |
+| `mxgraph.signs.sports.swimming_1` | 99×72 |  |
+| `mxgraph.signs.sports.swimming_2` | 99×45 |  |
+| `mxgraph.signs.sports.swing` | 99×100 |  |
+| `mxgraph.signs.sports.tennis` | 99×99 |  |
+| `mxgraph.signs.sports.trail` | 100×99 |  |
+| `mxgraph.signs.sports.view` | 87×99 |  |
+| `mxgraph.signs.sports.wading` | 99×99 |  |
+| `mxgraph.signs.sports.waterskiing` | 99×99 |  |
+| `mxgraph.signs.sports.whale_viewing` | 99×99 |  |
+| `mxgraph.signs.sports.windsurfing` | 99×99 |  |
+| `mxgraph.signs.sports.wood_gathering` | 92×99 |  |
+| `mxgraph.signs.tech.at_1` | 98×99 |  |
+| `mxgraph.signs.tech.at_2` | 99×95 |  |
+| `mxgraph.signs.tech.camera_1` | 99×85 |  |
+| `mxgraph.signs.tech.camera_2` | 99×72 |  |
+| `mxgraph.signs.tech.cell_phone` | 48×99 |  |
+| `mxgraph.signs.tech.command` | 99×99 |  |
+| `mxgraph.signs.tech.computer` | 99×99 |  |
+| `mxgraph.signs.tech.crop` | 99×99 |  |
+| `mxgraph.signs.tech.cut` | 101×73 |  |
+| `mxgraph.signs.tech.eject` | 99×78 |  |
+| `mxgraph.signs.tech.ethernet` | 99×48 |  |
+| `mxgraph.signs.tech.firewire` | 93×99 |  |
+| `mxgraph.signs.tech.fullscreen` | 100×100 |  |
+| `mxgraph.signs.tech.fullscreen_exit` | 100×100 |  |
+| `mxgraph.signs.tech.mail` | 99×75 |  |
+| `mxgraph.signs.tech.next` | 100×80 |  |
+| `mxgraph.signs.tech.power` | 92×99 |  |
+| `mxgraph.signs.tech.previous` | 100×80 |  |
+| `mxgraph.signs.tech.radio` | 99×56 |  |
+| `mxgraph.signs.tech.rss` | 99×99 |  |
+| `mxgraph.signs.tech.telephone_1` | 43×100 |  |
+| `mxgraph.signs.tech.telephone_2` | 36×99 |  |
+| `mxgraph.signs.tech.telephone_3` | 75×101 |  |
+| `mxgraph.signs.tech.telephone_4` | 72×99 |  |
+| `mxgraph.signs.tech.telephone_5` | 36×99 |  |
+| `mxgraph.signs.tech.usb` | 44×99 |  |
+| `mxgraph.signs.tech.video_camera` | 99×40 |  |
+| `mxgraph.signs.tech.washing_machine` | 76×98 |  |
+| `mxgraph.signs.transportation.4_wheeler` | 99×71 |  |
+| `mxgraph.signs.transportation.airbag` | 103×96 |  |
+| `mxgraph.signs.transportation.airplane_1` | 100×35 |  |
+| `mxgraph.signs.transportation.airplane_2` | 102×57 |  |
+| `mxgraph.signs.transportation.airplane_3` | 98×99 |  |
+| `mxgraph.signs.transportation.airplane_4` | 92×99 |  |
+| `mxgraph.signs.transportation.airplane_5` | 95×99 |  |
+| `mxgraph.signs.transportation.airplane_6` | 97×101 |  |
+| `mxgraph.signs.transportation.airplane_7` | 100×44 |  |
+| `mxgraph.signs.transportation.ambulance` | 99×68 |  |
+| `mxgraph.signs.transportation.anchor_1` | 92×99 |  |
+| `mxgraph.signs.transportation.anchor_2` | 95×99 |  |
+| `mxgraph.signs.transportation.anchor_3` | 99×99 |  |
+| `mxgraph.signs.transportation.anchor_4` | 99×99 |  |
+| `mxgraph.signs.transportation.bicycle_1` | 99×63 |  |
+| `mxgraph.signs.transportation.bicycle_2` | 99×57 |  |
+| `mxgraph.signs.transportation.bicycle_3` | 99×59 |  |
+| `mxgraph.signs.transportation.bicycle_4` | 99×59 |  |
+| `mxgraph.signs.transportation.bicycle_5` | 99×54 |  |
+| `mxgraph.signs.transportation.bicycler` | 95×99 |  |
+| `mxgraph.signs.transportation.bus_1` | 99×99 |  |
+| `mxgraph.signs.transportation.bus_2` | 99×26 |  |
+| `mxgraph.signs.transportation.bus_3` | 99×33 |  |
+| `mxgraph.signs.transportation.bus_4` | 82×101 |  |
+| `mxgraph.signs.transportation.car_1` | 99×89 |  |
+| `mxgraph.signs.transportation.car_2` | 100×34 |  |
+| `mxgraph.signs.transportation.car_3` | 99×38 |  |
+| `mxgraph.signs.transportation.car_4` | 99×86 |  |
+| `mxgraph.signs.transportation.car_lock` | 99×76 |  |
+| `mxgraph.signs.transportation.divided_highway` | 84×99 |  |
+| `mxgraph.signs.transportation.ferry` | 99×69 |  |
+| `mxgraph.signs.transportation.firetruck` | 99×31 |  |
+| `mxgraph.signs.transportation.forklift` | 98×87 |  |
+| `mxgraph.signs.transportation.gas_1` | 63×99 |  |
+| `mxgraph.signs.transportation.gas_2` | 75×99 |  |
+| `mxgraph.signs.transportation.gas_3` | 98×98 |  |
+| `mxgraph.signs.transportation.gas_4` | 75×98 |  |
+| `mxgraph.signs.transportation.ground_transportation` | 99×63 |  |
+| `mxgraph.signs.transportation.harbor` | 98×90 |  |
+| `mxgraph.signs.transportation.helicopter` | 100×63 |  |
+| `mxgraph.signs.transportation.highway` | 69×98 |  |
+| `mxgraph.signs.transportation.jeep_1` | 99×54 |  |
+| `mxgraph.signs.transportation.jeep_2` | 99×48 |  |
+| `mxgraph.signs.transportation.lighthouse_1` | 99×99 |  |
+| `mxgraph.signs.transportation.lighthouse_2` | 55×99 |  |
+| `mxgraph.signs.transportation.moped_1` | 99×58 |  |
+| `mxgraph.signs.transportation.moped_2` | 99×55 |  |
+| `mxgraph.signs.transportation.motorcycle` | 99×67 |  |
+| `mxgraph.signs.transportation.partially_submerged_wreck` | 98×76 |  |
+| `mxgraph.signs.transportation.radiator_water` | 99×95 |  |
+| `mxgraph.signs.transportation.scooter` | 99×64 |  |
+| `mxgraph.signs.transportation.sea_plane` | 99×68 |  |
+| `mxgraph.signs.transportation.seat_belt` | 82×99 |  |
+| `mxgraph.signs.transportation.ship_1` | 99×53 |  |
+| `mxgraph.signs.transportation.ship_2` | 99×99 |  |
+| `mxgraph.signs.transportation.tank` | 101×51 |  |
+| `mxgraph.signs.transportation.taxi` | 99×94 |  |
+| `mxgraph.signs.transportation.tow_away` | 99×32 |  |
+| `mxgraph.signs.transportation.tractor_1` | 99×76 |  |
+| `mxgraph.signs.transportation.tractor_2` | 99×76 |  |
+| `mxgraph.signs.transportation.train_1` | 51×99 |  |
+| `mxgraph.signs.transportation.train_2` | 66×99 |  |
+| `mxgraph.signs.transportation.train_3` | 99×62 |  |
+| `mxgraph.signs.transportation.train_station` | 99×99 |  |
+| `mxgraph.signs.transportation.tram_1` | 99×51 |  |
+| `mxgraph.signs.transportation.tram_2` | 99×52 |  |
+| `mxgraph.signs.transportation.truck_1` | 99×51 |  |
+| `mxgraph.signs.transportation.truck_2` | 99×50 |  |
+| `mxgraph.signs.transportation.truck_3` | 99×44 |  |
+| `mxgraph.signs.transportation.truck_4` | 99×33 |  |
+| `mxgraph.signs.transportation.truck_5` | 99×27 |  |
+| `mxgraph.signs.transportation.truck_6` | 80×99 |  |
+| `mxgraph.signs.transportation.truck_7` | 99×41 |  |
+| `mxgraph.signs.transportation.uneven_road` | 99×69 |  |
+| `mxgraph.signs.transportation.vehicle_ferry` | 99×67 |  |
+| `mxgraph.signs.travel.arriving_flights` | 75×103 |  |
+| `mxgraph.signs.travel.arrow_east` | 99×84 |  |
+| `mxgraph.signs.travel.arrow_ne` | 99×99 |  |
+| `mxgraph.signs.travel.arrow_north` | 84×99 |  |
+| `mxgraph.signs.travel.arrow_nw` | 99×99 |  |
+| `mxgraph.signs.travel.arrow_se` | 99×99 |  |
+| `mxgraph.signs.travel.arrow_south` | 84×99 |  |
+| `mxgraph.signs.travel.arrow_sw` | 99×99 |  |
+| `mxgraph.signs.travel.arrow_west` | 99×84 |  |
+| `mxgraph.signs.travel.baggage` | 99×83 |  |
+| `mxgraph.signs.travel.bank` | 99×87 |  |
+| `mxgraph.signs.travel.barber_shop` | 93×100 |  |
+| `mxgraph.signs.travel.beauty_salon` | 96×100 |  |
+| `mxgraph.signs.travel.book_and_souvenir_shop` | 99×93 |  |
+| `mxgraph.signs.travel.car_rental` | 75×101 |  |
+| `mxgraph.signs.travel.cashier` | 99×99 |  |
+| `mxgraph.signs.travel.coat_check` | 100×71 |  |
+| `mxgraph.signs.travel.currency_exchange` | 99×93 |  |
+| `mxgraph.signs.travel.customs` | 99×84 |  |
+| `mxgraph.signs.travel.downstairs` | 99×83 |  |
+| `mxgraph.signs.travel.drinking_fountain` | 82×102 |  |
+| `mxgraph.signs.travel.driving_tour` | 93×99 |  |
+| `mxgraph.signs.travel.elevator` | 65×100 |  |
+| `mxgraph.signs.travel.escalator` | 99×77 |  |
+| `mxgraph.signs.travel.escalator_down` | 100×89 |  |
+| `mxgraph.signs.travel.escalator_up` | 99×90 |  |
+| `mxgraph.signs.travel.euro` | 86×99 |  |
+| `mxgraph.signs.travel.exit` | 99×93 |  |
+| `mxgraph.signs.travel.haircut` | 59×100 |  |
+| `mxgraph.signs.travel.hotel` | 99×61 |  |
+| `mxgraph.signs.travel.hotel_information` | 94×99 |  |
+| `mxgraph.signs.travel.immigration` | 95×99 |  |
+| `mxgraph.signs.travel.information_1` | 99×99 |  |
+| `mxgraph.signs.travel.information_2` | 60×99 |  |
+| `mxgraph.signs.travel.locker` | 79×99 |  |
+| `mxgraph.signs.travel.lost_and_found` | 99×96 |  |
+| `mxgraph.signs.travel.museum` | 99×95 |  |
+| `mxgraph.signs.travel.no_parking` | 99×99 |  |
+| `mxgraph.signs.travel.parking_1` | 75×99 |  |
+| `mxgraph.signs.travel.parking_2` | 99×99 |  |
+| `mxgraph.signs.travel.point_of_interest` | 99×100 |  |
+| `mxgraph.signs.travel.pound` | 69×99 |  |
+| `mxgraph.signs.travel.present` | 77×98 |  |
+| `mxgraph.signs.travel.shops` | 99×96 |  |
+| `mxgraph.signs.travel.stairs` | 99×83 |  |
+| `mxgraph.signs.travel.ticket_machine` | 88×100 |  |
+| `mxgraph.signs.travel.ticket_purchase` | 99×96 |  |
+| `mxgraph.signs.travel.tunnel` | 86×99 |  |
+| `mxgraph.signs.travel.upstairs` | 99×85 |  |
 
 ## Usage Example
 
 ```drawio
-<mxfile><diagram id="example" name="Example"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="" style="shape=mxgraph.signs.animals.bear_1;html=1;fillColor=#CCCCCC;strokeColor=#6881B3;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="100" y="100" width="60" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
+<mxfile><diagram id="example" name="Example"><mxGraphModel dx="800" dy="600" grid="1" gridSize="10"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="shape1" value="" style="shape=mxgraph.signs.animals.bear_1;html=1;fillColor=#CCCCCC;strokeWidth=2" parent="1" vertex="1"><mxGeometry x="100" y="100" width="60" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
 ```

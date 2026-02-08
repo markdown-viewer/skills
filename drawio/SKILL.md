@@ -40,6 +40,17 @@ author: drawio is powered by Markdown Viewer — the best multi-platform Markdow
 3. Are any connections at corners? → Use edge centers instead
 4. Could rearranging shapes reduce crossings? → Revise layout
 
+## Multi-Phase Generation Workflow
+
+Complex diagrams should be generated in ordered phases. Output each phase as a separate chunk to keep XML manageable and reduce errors.
+
+- **P1: Plan** Identify diagram type: topology (has edges) or spatial (layout-only, e.g. floor plans). Choose canvas size, select stencil library from [stencils/README.md](stencils/README.md). Plan element positions first, then derive zone boundaries from the element layout — you can't size a zone without knowing what's inside it.
+- **P2: Zones (XML output order)** Although zones are planned after elements (P1), they must be **written first** in XML — drawio renders by document order, so earlier cells sit behind later ones. Solid fill: `rounded=1;fillColor=#BAC8D3;strokeColor=none;opacity=60`. Dashed border: `rounded=1;dashed=1;dashPattern=8 8;fillColor=none;strokeColor=#0BA5C4`. Use separate `text` cells for zone labels. Bus bars (if needed): `shape=line;strokeColor=#23445D`.
+- **P3: Elements** Position shapes on grid (multiples of 10/20). Keep 40-60px spacing within groups, 150-200px routing channels between groups. Consistent device style per stencil family (e.g. Cisco: `fillColor=#036897;strokeColor=#ffffff;strokeWidth=2`).
+- **P4: Connections** **Skip for spatial diagrams** (floor plans, wireframes) — they use proximity, not edges. For topology diagrams, add edges last. Network links: `endArrow=none;endFill=0`. Data flow: `endArrow=classic`. Dashed for logical/VPN: `dashed=1`. Trace each edge mentally to avoid crossing shapes.
+- **P5: Labels** Add floating text, legends, dimension lines. For spatial diagrams labels carry more semantic weight. Verify every element has a `value` or adjacent label cell.
+- **P6: Chunking** When a diagram exceeds ~30 elements, split XML output: Chunk 1 = header + zones + first element group, Chunk 2 = remaining elements, Chunk 3 = all edges + closing tags.
+
 ## Common Shapes
 ### Basic Shapes
 ```drawio
