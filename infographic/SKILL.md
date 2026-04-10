@@ -49,7 +49,7 @@ theme
 | Field | Description | Example |
 |-------|-------------|---------|
 | `label` | Item title/name (required) | `label Q1 Sales` |
-| `desc` | Description text | `desc 12.8 亿元 \| +20%` |
+| `desc` | Description text | `desc $1.28B \| +20%` |
 | `value` | Numeric value (charts/funnels only) | `value 128` |
 | `icon` | Icon: `mdi/icon-name` ([Iconify](https://icon-sets.iconify.design/)) | `icon mdi/star` |
 | `illus` | Illustration name ([unDraw](https://undraw.co/illustrations)) | `illus coding` |
@@ -66,7 +66,7 @@ data
   desc Annual performance overview
   items
     - label Total Revenue
-      desc 12.8 亿元 | YoY +23.5%
+      desc $1.28B | YoY +23.5%
     - label New Customers
       desc 3280 | YoY +45%
     - label Satisfaction

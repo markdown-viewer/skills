@@ -4,86 +4,97 @@ Shows a multi-branch WAN topology using Cisco network icons with firewalls and r
 
 ## Key Elements
 
-- **Internet Cloud**: `ellipse;shape=cloud`
-- **Cisco Router**: `shape=mxgraph.cisco.routers.router` (78×53)
-- **Cisco Firewall**: `shape=mxgraph.cisco.security.firewall` (53×50)
-- **Cisco Layer 3 Switch**: `shape=mxgraph.cisco.switches.layer_3_switch` (55×58)
-- **Cisco Workgroup Switch**: `shape=mxgraph.cisco.switches.workgroup_switch` (55×38)
-- **Cisco Workstation**: `shape=mxgraph.cisco.computers_and_peripherals.workstation` (53×39)
-- **Cisco Laptop**: `shape=mxgraph.cisco.computers_and_peripherals.laptop` (57×38)
-- **Cisco Printer**: `shape=mxgraph.cisco.computers_and_peripherals.printer` (57×22)
-- **Cisco File Server**: `shape=mxgraph.cisco.servers.fileserver` (42×52)
+| Component | Stencil |
+|-----------|---------|
+| Router | `mxgraph.cisco.routers.router` |
+| Firewall | `mxgraph.cisco.security.firewall` |
+| Layer 3 Switch | `mxgraph.cisco.switches.layer_3_switch` |
+| Workgroup Switch | `mxgraph.cisco.switches.workgroup_switch` |
+| Workstation | `mxgraph.cisco.computers_and_peripherals.workstation` |
+| Laptop | `mxgraph.cisco.computers_and_peripherals.laptop` |
+| Printer | `mxgraph.cisco.computers_and_peripherals.printer` |
+| File Server | `mxgraph.cisco.servers.fileserver` |
 
-## Cisco Style
+## Connection Types
 
-| Property | Value | Description |
-|----------|-------|-------------|
-| fillColor | `#036897` | Cisco blue |
-| strokeColor | `#ffffff` | White outline |
-| strokeWidth | `2` | Border width |
-| verticalLabelPosition | `bottom` | Label below icon |
-| verticalAlign | `top` | Align label to top of label area |
-
-**Zone backgrounds:** Use `rounded=1;strokeColor=none;fillColor=#BAC8D3;opacity=60` for site/zone grouping.
-
-**Edge style:** Network links use `endArrow=none;endFill=0;strokeWidth=2` (no arrows, bidirectional). Use `strokeWidth=4;strokeColor=#23445D` for backbone links.
+| Syntax | Use Case |
+|--------|----------|
+| `A -- B` | Physical LAN/WAN link (bidirectional) |
+| `A -- B` (inside zones) | Internal device connections |
 
 ## Example
 
 Multi-branch WAN with Internet core, HQ data center, and two branch offices connected via firewalls and routers:
 
-```drawio
-<mxfile><diagram id="cisco-network" name="Cisco WAN"><mxGraphModel dx="1100" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="800" math="0" shadow="0"><root><mxCell id="0"/><mxCell id="1" parent="0"/>
-  <mxCell id="zone-hq" value="HQ Data Center" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#BAC8D3;opacity=60;fontSize=14;fontColor=#23445D;verticalAlign=top;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="40" y="280" width="400" height="340" as="geometry"/></mxCell>
-  <mxCell id="zone-branch1" value="Branch Office 1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#BAC8D3;opacity=60;fontSize=14;fontColor=#23445D;verticalAlign=top;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="560" y="280" width="260" height="340" as="geometry"/></mxCell>
-  <mxCell id="zone-branch2" value="Branch Office 2" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#BAC8D3;opacity=60;fontSize=14;fontColor=#23445D;verticalAlign=top;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="880" y="280" width="260" height="340" as="geometry"/></mxCell>
-  <mxCell id="internet" value="Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#036897;strokeWidth=2;fontSize=18;fontColor=#036897;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="440" y="40" width="200" height="120" as="geometry"/></mxCell>
-  <mxCell id="fw-hq" value="Firewall" style="shape=mxgraph.cisco.security.firewall;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontSize=12;" vertex="1" parent="1"><mxGeometry x="210" y="300" width="53" height="50" as="geometry"/></mxCell>
-  <mxCell id="router-hq" value="Core Router" style="shape=mxgraph.cisco.routers.router;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontSize=12;" vertex="1" parent="1"><mxGeometry x="200" y="200" width="78" height="53" as="geometry"/></mxCell>
-  <mxCell id="l3switch" value="L3 Switch" style="shape=mxgraph.cisco.switches.layer_3_switch;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontSize=12;" vertex="1" parent="1"><mxGeometry x="205" y="420" width="55" height="58" as="geometry"/></mxCell>
-  <mxCell id="server1" value="File Server" style="shape=mxgraph.cisco.servers.fileserver;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontSize=12;" vertex="1" parent="1"><mxGeometry x="60" y="420" width="42" height="52" as="geometry"/></mxCell>
-  <mxCell id="server2" value="App Server" style="shape=mxgraph.cisco.servers.fileserver;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontSize=12;" vertex="1" parent="1"><mxGeometry x="340" y="420" width="42" height="52" as="geometry"/></mxCell>
-  <mxCell id="ws-hq1" value="User" style="shape=mxgraph.cisco.computers_and_peripherals.workstation;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontSize=12;" vertex="1" parent="1"><mxGeometry x="60" y="540" width="53" height="39" as="geometry"/></mxCell>
-  <mxCell id="ws-hq2" value="User" style="shape=mxgraph.cisco.computers_and_peripherals.workstation;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontSize=12;" vertex="1" parent="1"><mxGeometry x="210" y="540" width="53" height="39" as="geometry"/></mxCell>
-  <mxCell id="printer-hq" value="Printer" style="shape=mxgraph.cisco.computers_and_peripherals.printer;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontSize=12;" vertex="1" parent="1"><mxGeometry x="340" y="548" width="57" height="22" as="geometry"/></mxCell>
-  <mxCell id="fw-b1" value="Firewall" style="shape=mxgraph.cisco.security.firewall;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontSize=12;" vertex="1" parent="1"><mxGeometry x="660" y="300" width="53" height="50" as="geometry"/></mxCell>
-  <mxCell id="router-b1" value="Router" style="shape=mxgraph.cisco.routers.router;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontSize=12;" vertex="1" parent="1"><mxGeometry x="650" y="200" width="78" height="53" as="geometry"/></mxCell>
-  <mxCell id="switch-b1" value="Switch" style="shape=mxgraph.cisco.switches.workgroup_switch;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontSize=12;" vertex="1" parent="1"><mxGeometry x="660" y="420" width="55" height="38" as="geometry"/></mxCell>
-  <mxCell id="laptop-b1" value="User" style="shape=mxgraph.cisco.computers_and_peripherals.laptop;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontSize=12;" vertex="1" parent="1"><mxGeometry x="580" y="530" width="57" height="38" as="geometry"/></mxCell>
-  <mxCell id="ws-b1" value="User" style="shape=mxgraph.cisco.computers_and_peripherals.workstation;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontSize=12;" vertex="1" parent="1"><mxGeometry x="720" y="530" width="53" height="39" as="geometry"/></mxCell>
-  <mxCell id="fw-b2" value="Firewall" style="shape=mxgraph.cisco.security.firewall;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontSize=12;" vertex="1" parent="1"><mxGeometry x="980" y="300" width="53" height="50" as="geometry"/></mxCell>
-  <mxCell id="router-b2" value="Router" style="shape=mxgraph.cisco.routers.router;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontSize=12;" vertex="1" parent="1"><mxGeometry x="970" y="200" width="78" height="53" as="geometry"/></mxCell>
-  <mxCell id="switch-b2" value="Switch" style="shape=mxgraph.cisco.switches.workgroup_switch;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontSize=12;" vertex="1" parent="1"><mxGeometry x="980" y="420" width="55" height="38" as="geometry"/></mxCell>
-  <mxCell id="laptop-b2" value="User" style="shape=mxgraph.cisco.computers_and_peripherals.laptop;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontSize=12;" vertex="1" parent="1"><mxGeometry x="900" y="530" width="57" height="38" as="geometry"/></mxCell>
-  <mxCell id="printer-b2" value="Printer" style="shape=mxgraph.cisco.computers_and_peripherals.printer;html=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontSize=12;" vertex="1" parent="1"><mxGeometry x="1040" y="538" width="57" height="22" as="geometry"/></mxCell>
-  <mxCell id="link-inet-hq" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;endFill=0;strokeWidth=4;strokeColor=#23445D;rounded=1;exitX=0.25;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="internet" target="router-hq"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-inet-b1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;endFill=0;strokeWidth=4;strokeColor=#23445D;rounded=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="internet" target="router-b1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-inet-b2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;endFill=0;strokeWidth=4;strokeColor=#23445D;rounded=1;exitX=0.75;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="internet" target="router-b2"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-hq-rtr-fw" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#23445D;" edge="1" parent="1" source="router-hq" target="fw-hq"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-hq-fw-sw" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#23445D;" edge="1" parent="1" source="fw-hq" target="l3switch"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-sw-srv1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#23445D;" edge="1" parent="1" source="l3switch" target="server1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-sw-srv2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#23445D;" edge="1" parent="1" source="l3switch" target="server2"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-sw-ws1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#23445D;" edge="1" parent="1" source="l3switch" target="ws-hq1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-sw-ws2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#23445D;" edge="1" parent="1" source="l3switch" target="ws-hq2"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-sw-printer" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#23445D;" edge="1" parent="1" source="l3switch" target="printer-hq"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-b1-rtr-fw" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#23445D;" edge="1" parent="1" source="router-b1" target="fw-b1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-b1-fw-sw" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#23445D;" edge="1" parent="1" source="fw-b1" target="switch-b1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-b1-sw-lap" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#23445D;" edge="1" parent="1" source="switch-b1" target="laptop-b1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-b1-sw-ws" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#23445D;" edge="1" parent="1" source="switch-b1" target="ws-b1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-b2-rtr-fw" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#23445D;" edge="1" parent="1" source="router-b2" target="fw-b2"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-b2-fw-sw" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#23445D;" edge="1" parent="1" source="fw-b2" target="switch-b2"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-b2-sw-lap" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#23445D;" edge="1" parent="1" source="switch-b2" target="laptop-b2"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-b2-sw-prt" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#23445D;" edge="1" parent="1" source="switch-b2" target="printer-b2"><mxGeometry relative="1" as="geometry"/></mxCell>
-</root></mxGraphModel></diagram></mxfile>
+```plantuml
+@startuml
+cloud "Internet" as internet
+
+rectangle "HQ Data Center" {
+  mxgraph.cisco.routers.router "Core Router" as router_hq
+  mxgraph.cisco.security.firewall "Firewall" as fw_hq
+  mxgraph.cisco.switches.layer_3_switch "L3 Switch" as l3switch
+  mxgraph.cisco.servers.fileserver "File Server" as server1
+  mxgraph.cisco.servers.fileserver "App Server" as server2
+  mxgraph.cisco.computers_and_peripherals.workstation "User" as ws_hq1
+  mxgraph.cisco.computers_and_peripherals.workstation "User" as ws_hq2
+  mxgraph.cisco.computers_and_peripherals.printer "Printer" as printer_hq
+}
+
+rectangle "Branch Office 1" {
+  mxgraph.cisco.routers.router "Router" as router_b1
+  mxgraph.cisco.security.firewall "Firewall" as fw_b1
+  mxgraph.cisco.switches.workgroup_switch "Switch" as switch_b1
+  mxgraph.cisco.computers_and_peripherals.laptop "User" as laptop_b1
+  mxgraph.cisco.computers_and_peripherals.workstation "User" as ws_b1
+}
+
+rectangle "Branch Office 2" {
+  mxgraph.cisco.routers.router "Router" as router_b2
+  mxgraph.cisco.security.firewall "Firewall" as fw_b2
+  mxgraph.cisco.switches.workgroup_switch "Switch" as switch_b2
+  mxgraph.cisco.computers_and_peripherals.laptop "User" as laptop_b2
+  mxgraph.cisco.computers_and_peripherals.printer "Printer" as printer_b2
+}
+
+internet -- router_hq
+internet -- router_b1
+internet -- router_b2
+router_hq -- fw_hq
+fw_hq -- l3switch
+l3switch -- server1
+l3switch -- server2
+l3switch -- ws_hq1
+l3switch -- ws_hq2
+l3switch -- printer_hq
+router_b1 -- fw_b1
+fw_b1 -- switch_b1
+switch_b1 -- laptop_b1
+switch_b1 -- ws_b1
+router_b2 -- fw_b2
+fw_b2 -- switch_b2
+switch_b2 -- laptop_b2
+switch_b2 -- printer_b2
+@enduml
 ```
 
 ## Pattern Notes
 
-1. **Cisco blue**: All device stencils use `fillColor=#036897;strokeColor=#ffffff;strokeWidth=2`
-2. **No arrows**: Network links use `endArrow=none;endFill=0` — connections are bidirectional
-3. **Backbone links**: WAN/Internet backbone uses thicker `strokeWidth=4;strokeColor=#23445D`
-4. **Zone grouping**: Semi-transparent boxes (`opacity=60;fillColor=#BAC8D3`) define site boundaries
-5. **Labels below**: Device labels use `verticalLabelPosition=bottom;verticalAlign=top`
-6. **Cloud shape**: Internet cloud uses standard `ellipse;shape=cloud` with Cisco blue stroke, not `mxgraph.cisco.storage.cloud`
-7. **Layered layout**: Top-down: Internet → Router → Firewall → Switch → End devices
+1. **Cisco stencil family** — all devices use `mxgraph.cisco.*` icons (routers, switches, firewalls, servers, peripherals)
+2. **No arrows**: Network links use `--` for bidirectional physical connections
+3. **Zone grouping**: `rectangle "Zone Name" { ... }` groups each site's devices — HQ, Branch 1, Branch 2
+4. **Cloud shape**: `cloud "Internet"` for the Internet backbone at the top
+5. **Layered layout**: Top-down: Internet → Router → Firewall → Switch → End devices
+6. **Consistent topology per site**: Each site follows Router → Firewall → Switch → endpoints pattern
+
+## Related Icons
+
+| Icon | Stencil | Use When |
+|------|---------|----------|
+| Access Point | `mxgraph.cisco.misc.access_point` | Wireless connectivity |
+| VPN Gateway | `mxgraph.cisco.hubs_and_gateways.vpn_gateway` | Site-to-site VPN |
+| Standard Host | `mxgraph.cisco.servers.standard_host` | Generic server icon |
+| ASA 5500 | `mxgraph.cisco.misc.asa_5500` | Advanced firewall appliance |
+| Storage Server | `mxgraph.cisco.servers.storage_server` | NAS/SAN storage |
+| Satellite Dish | `mxgraph.cisco.wireless.satellite_dish` | WAN satellite link |
 

@@ -1,95 +1,135 @@
 # Object Diagram
 
-**Purpose**: Shows instances (objects) and their attribute values at a specific point in time.
+Shows instances (objects) and their attribute values at a specific point in time.
 
 ## Key Elements
 
-| Element | Style | Description |
-|---------|-------|-------------|
-| Object box | `swimlane;childLayout=stackLayout` | Container for object instance |
-| Object name | `fontStyle=0` (no underline in drawio) | Format: `instanceName : ClassName` |
-| Attribute | `text;align=left;spacingLeft=4` | Format: `attrName = value` |
-| Separator line | `line;strokeWidth=1;rotatable=0` | Divides attribute sections |
-| Link | `endArrow=none;endFill=0` | Association between objects |
-| Link label | Edge value text | Association name (e.g., "lives at") |
+| Element | Syntax | Description |
+|---|---|---|
+| Object | `object "name : Class" as alias` | Instance with class type |
+| Attribute | `alias : attrName = "value"` | Attribute value assignment |
+| Link | `obj1 --> obj2` | Association between instances |
+| Link label | `obj1 --> obj2 : label` | Named association |
+| Map | `map "Name" as alias { key => value }` | Key-value container |
 
-## Example
+## Recommended Colors
 
-University system snapshot showing students, professors, and their addresses:
+| Element | Color | Usage |
+|---|---|---|
+| Entity object | `#dae8fc` (light blue) | Domain objects |
+| Value object | `#d5e8d4` (light green) | Value types |
+| Reference object | `#fff2cc` (light yellow) | Referenced entities |
+| Collection | `#ffe6cc` (light orange) | Lists/sets |
+| Config object | `#e1d5e7` (light purple) | Configuration |
 
-```drawio
-<mxfile><diagram id="object-diagram-1" name="Page-1"><mxGraphModel dx="900" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="500" math="0" shadow="0"><root><mxCell id="0"/><mxCell id="1" parent="0"/>
-  <mxCell id="addr1" value="Address" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1"><mxGeometry x="20" y="20" width="160" height="156" as="geometry"/></mxCell>
-  <mxCell id="a1-attr1" value="street = 45 Rabin Avenue" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="addr1" vertex="1"><mxGeometry y="26" width="160" height="26" as="geometry"/></mxCell>
-  <mxCell id="a1-attr2" value="city = Clayton" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="addr1" vertex="1"><mxGeometry y="52" width="160" height="26" as="geometry"/></mxCell>
-  <mxCell id="a1-attr3" value="state = Victoria" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="addr1" vertex="1"><mxGeometry y="78" width="160" height="26" as="geometry"/></mxCell>
-  <mxCell id="a1-attr4" value="postalCode = 3168" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="addr1" vertex="1"><mxGeometry y="104" width="160" height="26" as="geometry"/></mxCell>
-  <mxCell id="a1-attr5" value="country = Australia" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="addr1" vertex="1"><mxGeometry y="130" width="160" height="26" as="geometry"/></mxCell>
-  <mxCell id="student1" value="Jay Prezi : Student" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1"><mxGeometry x="220" y="20" width="180" height="140" as="geometry"/></mxCell>
-  <mxCell id="s1-attr1" value="studentNumber = 482906" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="student1" vertex="1"><mxGeometry y="26" width="180" height="26" as="geometry"/></mxCell>
-  <mxCell id="s1-attr2" value="averageMark = 79" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="student1" vertex="1"><mxGeometry y="52" width="180" height="26" as="geometry"/></mxCell>
-  <mxCell id="s1-sep" value="" style="line;strokeWidth=1;rotatable=0;dashed=0;labelPosition=right;align=left;verticalAlign=middle;spacingTop=0;spacingLeft=6;points=[];portConstraint=eastwest;" parent="student1" vertex="1"><mxGeometry y="78" width="180" height="10" as="geometry"/></mxCell>
-  <mxCell id="s1-attr3" value="phoneNumber = str" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="student1" vertex="1"><mxGeometry y="88" width="180" height="26" as="geometry"/></mxCell>
-  <mxCell id="s1-attr4" value="emailAddress = jp89@final.com" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="student1" vertex="1"><mxGeometry y="114" width="180" height="26" as="geometry"/></mxCell>
-  <mxCell id="prof1" value="Karin Trier : Professor" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1"><mxGeometry x="450" y="10" width="190" height="192" as="geometry"/></mxCell>
-  <mxCell id="p1-attr1" value="salary = 79,000" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="prof1" vertex="1"><mxGeometry y="26" width="190" height="26" as="geometry"/></mxCell>
-  <mxCell id="p1-attr2" value="staffNumber = 148799" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="prof1" vertex="1"><mxGeometry y="52" width="190" height="26" as="geometry"/></mxCell>
-  <mxCell id="p1-attr3" value="yearsOfService = 10" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="prof1" vertex="1"><mxGeometry y="78" width="190" height="26" as="geometry"/></mxCell>
-  <mxCell id="p1-attr4" value="numberOfClasses = 5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="prof1" vertex="1"><mxGeometry y="104" width="190" height="26" as="geometry"/></mxCell>
-  <mxCell id="p1-sep" value="" style="line;strokeWidth=1;rotatable=0;dashed=0;labelPosition=right;align=left;verticalAlign=middle;spacingTop=0;spacingLeft=6;points=[];portConstraint=eastwest;" parent="prof1" vertex="1"><mxGeometry y="130" width="190" height="10" as="geometry"/></mxCell>
-  <mxCell id="p1-attr5" value="phoneNumber = 01824524" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="prof1" vertex="1"><mxGeometry y="140" width="190" height="26" as="geometry"/></mxCell>
-  <mxCell id="p1-attr6" value="emailAddress = ktrier@bl.edu" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="prof1" vertex="1"><mxGeometry y="166" width="190" height="26" as="geometry"/></mxCell>
-  <mxCell id="addr3" value="Address" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1"><mxGeometry x="690" y="20" width="160" height="156" as="geometry"/></mxCell>
-  <mxCell id="a3-attr1" value="street = 86 Roy Street" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="addr3" vertex="1"><mxGeometry y="26" width="160" height="26" as="geometry"/></mxCell>
-  <mxCell id="a3-attr2" value="city = Eltham" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="addr3" vertex="1"><mxGeometry y="52" width="160" height="26" as="geometry"/></mxCell>
-  <mxCell id="a3-attr3" value="state = Victoria" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="addr3" vertex="1"><mxGeometry y="78" width="160" height="26" as="geometry"/></mxCell>
-  <mxCell id="a3-attr4" value="postalCode = 3095" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="addr3" vertex="1"><mxGeometry y="104" width="160" height="26" as="geometry"/></mxCell>
-  <mxCell id="a3-attr5" value="country = Australia" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="addr3" vertex="1"><mxGeometry y="130" width="160" height="26" as="geometry"/></mxCell>
-  <mxCell id="addr2" value="Address" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1"><mxGeometry x="20" y="240" width="160" height="156" as="geometry"/></mxCell>
-  <mxCell id="a2-attr1" value="street = 12 Park Lane" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="addr2" vertex="1"><mxGeometry y="26" width="160" height="26" as="geometry"/></mxCell>
-  <mxCell id="a2-attr2" value="city = Melbourne" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="addr2" vertex="1"><mxGeometry y="52" width="160" height="26" as="geometry"/></mxCell>
-  <mxCell id="a2-attr3" value="state = Victoria" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="addr2" vertex="1"><mxGeometry y="78" width="160" height="26" as="geometry"/></mxCell>
-  <mxCell id="a2-attr4" value="postalCode = 3000" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="addr2" vertex="1"><mxGeometry y="104" width="160" height="26" as="geometry"/></mxCell>
-  <mxCell id="a2-attr5" value="country = Australia" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="addr2" vertex="1"><mxGeometry y="130" width="160" height="26" as="geometry"/></mxCell>
-  <mxCell id="student2" value="Rua Dray : Student" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1"><mxGeometry x="220" y="250" width="180" height="140" as="geometry"/></mxCell>
-  <mxCell id="s2-attr1" value="studentNumber = 507608" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="student2" vertex="1"><mxGeometry y="26" width="180" height="26" as="geometry"/></mxCell>
-  <mxCell id="s2-attr2" value="averageMark = 91" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="student2" vertex="1"><mxGeometry y="52" width="180" height="26" as="geometry"/></mxCell>
-  <mxCell id="s2-sep" value="" style="line;strokeWidth=1;rotatable=0;dashed=0;labelPosition=right;align=left;verticalAlign=middle;spacingTop=0;spacingLeft=6;points=[];portConstraint=eastwest;" parent="student2" vertex="1"><mxGeometry y="78" width="180" height="10" as="geometry"/></mxCell>
-  <mxCell id="s2-attr3" value="phoneNumber = 1068592" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="student2" vertex="1"><mxGeometry y="88" width="180" height="26" as="geometry"/></mxCell>
-  <mxCell id="s2-attr4" value="emailAddress = nah@test.com" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="student2" vertex="1"><mxGeometry y="114" width="180" height="26" as="geometry"/></mxCell>
-  <mxCell id="prof2" value="Stef Jacobs : Professor" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1"><mxGeometry x="450" y="230" width="190" height="192" as="geometry"/></mxCell>
-  <mxCell id="p2-attr1" value="salary = 85,000" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="prof2" vertex="1"><mxGeometry y="26" width="190" height="26" as="geometry"/></mxCell>
-  <mxCell id="p2-attr2" value="staffNumber = 167294" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="prof2" vertex="1"><mxGeometry y="52" width="190" height="26" as="geometry"/></mxCell>
-  <mxCell id="p2-attr3" value="yearsOfService = 15" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="prof2" vertex="1"><mxGeometry y="78" width="190" height="26" as="geometry"/></mxCell>
-  <mxCell id="p2-attr4" value="numberOfClasses = 4" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="prof2" vertex="1"><mxGeometry y="104" width="190" height="26" as="geometry"/></mxCell>
-  <mxCell id="p2-sep" value="" style="line;strokeWidth=1;rotatable=0;dashed=0;labelPosition=right;align=left;verticalAlign=middle;spacingTop=0;spacingLeft=6;points=[];portConstraint=eastwest;" parent="prof2" vertex="1"><mxGeometry y="130" width="190" height="10" as="geometry"/></mxCell>
-  <mxCell id="p2-attr5" value="phoneNumber = 01823452" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="prof2" vertex="1"><mxGeometry y="140" width="190" height="26" as="geometry"/></mxCell>
-  <mxCell id="p2-attr6" value="emailAddress = sjacobs@bl.edu" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="prof2" vertex="1"><mxGeometry y="166" width="190" height="26" as="geometry"/></mxCell>
-  <mxCell id="addr4" value="Address" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1"><mxGeometry x="690" y="240" width="160" height="156" as="geometry"/></mxCell>
-  <mxCell id="a4-attr1" value="street = 2B Jan Drive" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="addr4" vertex="1"><mxGeometry y="26" width="160" height="26" as="geometry"/></mxCell>
-  <mxCell id="a4-attr2" value="city = Glen Waverley" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="addr4" vertex="1"><mxGeometry y="52" width="160" height="26" as="geometry"/></mxCell>
-  <mxCell id="a4-attr3" value="state = Victoria" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="addr4" vertex="1"><mxGeometry y="78" width="160" height="26" as="geometry"/></mxCell>
-  <mxCell id="a4-attr4" value="postalCode = 3150" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="addr4" vertex="1"><mxGeometry y="104" width="160" height="26" as="geometry"/></mxCell>
-  <mxCell id="a4-attr5" value="country = Australia" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="addr4" vertex="1"><mxGeometry y="130" width="160" height="26" as="geometry"/></mxCell>
-  <mxCell id="link1" style="endArrow=none;endFill=0;html=1;rounded=0;" parent="1" source="student1" target="addr1" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link2" style="endArrow=none;endFill=0;html=1;rounded=0;" parent="1" source="student2" target="addr2" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link3" style="endArrow=none;endFill=0;html=1;rounded=0;" parent="1" source="prof1" target="student1" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link4" style="endArrow=none;endFill=0;html=1;rounded=0;" parent="1" source="prof2" target="student2" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link5" style="endArrow=none;endFill=0;html=1;rounded=0;" parent="1" source="prof2" target="student1" edge="1"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="420" y="320"/><mxPoint x="420" y="90"/></Array></mxGeometry></mxCell>
-  <mxCell id="link6" style="endArrow=none;endFill=0;html=1;rounded=0;" parent="1" source="prof1" target="addr3" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link7" style="endArrow=none;endFill=0;html=1;rounded=0;" parent="1" source="prof2" target="addr4" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>  
-</root></mxGraphModel></diagram></mxfile>
+## Example 1
+
+University system snapshot showing students, courses, and their relationships:
+
+```plantuml
+@startuml
+skinparam object {
+  BackgroundColor #dae8fc
+  BorderColor #6c8ebf
+  FontName Arial
+  AttributeFontSize 11
+}
+
+object "alice : Student" as alice #dae8fc {
+  studentId = "S2024001"
+  name = "Alice Johnson"
+  gpa = 3.8
+  major = "Computer Science"
+}
+
+object "bob : Student" as bob #dae8fc {
+  studentId = "S2024002"
+  name = "Bob Smith"
+  gpa = 3.5
+  major = "Mathematics"
+}
+
+object "cs101 : Course" as cs101 #d5e8d4 {
+  courseId = "CS-101"
+  title = "Intro to Programming"
+  credits = 3
+  semester = "Fall 2024"
+}
+
+object "math201 : Course" as math201 #d5e8d4 {
+  courseId = "MATH-201"
+  title = "Linear Algebra"
+  credits = 4
+  semester = "Fall 2024"
+}
+
+object "prof1 : Professor" as prof1 #fff2cc {
+  staffId = "P1001"
+  name = "Dr. Carol Lee"
+  department = "Computer Science"
+}
+
+object "addr1 : Address" as addr1 #e1d5e7 {
+  street = "123 Campus Dr"
+  city = "Springfield"
+  zip = "62701"
+}
+
+alice --> cs101 : enrolled
+alice --> math201 : enrolled
+bob --> cs101 : enrolled
+bob --> math201 : enrolled
+prof1 --> cs101 : teaches
+alice --> addr1 : lives at
+bob --> addr1 : lives at
+@enduml
 ```
 
-## Style Patterns
+## Example 2
 
-| Pattern | Style Key |
-|---------|-----------|
-| Object header | `swimlane;fontStyle=0;startSize=26` |
-| Attribute row | `text;align=left;spacingLeft=4;spacingRight=4` |
-| Section separator | `line;strokeWidth=1;rotatable=0;dashed=0` |
-| Student color | `fillColor=#ffe6cc;strokeColor=#d79b00` |
-| Professor color | `fillColor=#fff2cc;strokeColor=#d6b656` |
-| Address color | `fillColor=#dae8fc;strokeColor=#6c8ebf` |
-| Association link | `endArrow=none;endFill=0` |
-| Routed link | Use `Array as="points"` for waypoints |
+E-commerce order snapshot with map and linked objects:
+
+```plantuml
+@startuml
+skinparam object {
+  BackgroundColor #dae8fc
+  BorderColor #6c8ebf
+  FontName Arial
+  AttributeFontSize 11
+}
+
+object "order42 : Order" as order #dae8fc {
+  orderId = "ORD-042"
+  status = "Shipped"
+  total = "$149.97"
+}
+
+object "item1 : LineItem" as item1 #d5e8d4 {
+  product = "Wireless Mouse"
+  qty = 2
+  price = "$24.99"
+}
+
+object "item2 : LineItem" as item2 #d5e8d4 {
+  product = "USB-C Hub"
+  qty = 1
+  price = "$99.99"
+}
+
+map "shipping : ShippingInfo" as ship #ffe6cc {
+  carrier => "FedEx"
+  tracking => "FX123456"
+  eta => "2024-12-20"
+}
+
+object "cust7 : Customer" as cust #fff2cc {
+  name = "Jane Doe"
+  email = "jane@example.com"
+}
+
+order *-- item1
+order *-- item2
+order --> ship : shipped via
+order --> cust : placed by
+@enduml
+```

@@ -274,7 +274,7 @@ IDs must be:
 
 ### Avoid
 ```
-"Node 1" (space), "node@1" (special char), "中文" (non-ASCII)
+"Node 1" (space), "node@1" (special char), "Kanji" (non-ASCII)
 ```
 
 ---

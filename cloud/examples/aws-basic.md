@@ -4,56 +4,70 @@ Three-tier web application with CloudFront, ALB, EC2 Auto Scaling, and RDS in a 
 
 ## Key Elements
 
-| Component | Stencil / grIcon | fillColor |
-|-----------|-----------------|----------|
-| AWS Cloud | `grIcon=mxgraph.aws4.group_aws_cloud_alt` | `strokeColor=#232F3E` |
-| VPC | `grIcon=mxgraph.aws4.group_vpc2` | `strokeColor=#8C4FFF` |
-| Public Subnet | `grIcon=mxgraph.aws4.group_subnet` | `strokeColor=#7AA116` |
-| Private Subnet | `grIcon=mxgraph.aws4.group_subnet` | `strokeColor=#147EBA` |
-| Auto Scaling | `grIcon=mxgraph.aws4.group_auto_scaling_group` | `strokeColor=#ED7100` |
-| CloudFront | `resIcon=mxgraph.aws4.cloudfront` | `#5A30B5` |
-| ALB | `resIcon=mxgraph.aws4.application_load_balancer` | `#ED7100` |
-| EC2 | `resIcon=mxgraph.aws4.ec2` | `#ED7100` |
-| NAT Gateway | `shape=mxgraph.aws4.nat_gateway` | `#8C4FFF` |
-| RDS | `resIcon=mxgraph.aws4.rds` | `#3B48CC` |
-| S3 | `resIcon=mxgraph.aws4.s3` | `#7AA116` |
-
-**Icon pattern:** `shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.<name>` with category `fillColor`/`gradientColor`. Groups use `shape=mxgraph.aws4.group;grIcon=...`.
-
-**Colors:** Compute `#ED7100`, Networking `#8C4FFF`, Database `#3B48CC`, Storage `#7AA116`, Security `#DD344C`, Integration `#E7157B`.
+| Component | Stencil |
+|-----------|---------|
+| Users | `mxgraph.aws4.users` |
+| CloudFront | `mxgraph.aws4.cloudfront` |
+| S3 | `mxgraph.aws4.s3` |
+| ALB | `mxgraph.aws4.application_load_balancer` |
+| NAT Gateway | `mxgraph.aws4.nat_gateway` |
+| EC2 | `mxgraph.aws4.ec2` |
+| RDS | `mxgraph.aws4.rds` |
 
 ## Example
 
-```drawio
-<mxfile><diagram id="aws-basic" name="AWS Basic"><mxGraphModel dx="1100" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="760" math="0" shadow="0"><root><mxCell id="0"/><mxCell id="1" parent="0"/>
-  <mxCell id="aws-cloud" value="AWS Cloud" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud_alt;strokeColor=#232F3E;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#232F3E;dashed=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;" vertex="1" parent="1"><mxGeometry x="160" y="40" width="880" height="680" as="geometry"/></mxCell>
-  <mxCell id="vpc" value="VPC" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc2;strokeColor=#8C4FFF;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#8C4FFF;dashed=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;" vertex="1" parent="aws-cloud"><mxGeometry x="20" y="140" width="840" height="520" as="geometry"/></mxCell>
-  <mxCell id="pub-subnet-1" value="Public Subnet (AZ-1)" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_subnet;strokeColor=#7AA116;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;" vertex="1" parent="vpc"><mxGeometry x="20" y="40" width="390" height="200" as="geometry"/></mxCell>
-  <mxCell id="pub-subnet-2" value="Public Subnet (AZ-2)" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_subnet;strokeColor=#7AA116;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;" vertex="1" parent="vpc"><mxGeometry x="430" y="40" width="390" height="200" as="geometry"/></mxCell>
-  <mxCell id="priv-subnet-1" value="Private Subnet (AZ-1)" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_subnet;strokeColor=#147EBA;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;" vertex="1" parent="vpc"><mxGeometry x="20" y="280" width="390" height="210" as="geometry"/></mxCell>
-  <mxCell id="priv-subnet-2" value="Private Subnet (AZ-2)" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_subnet;strokeColor=#147EBA;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;" vertex="1" parent="vpc"><mxGeometry x="430" y="280" width="390" height="210" as="geometry"/></mxCell>
-  <mxCell id="cloudfront" value="CloudFront" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cloudfront;" vertex="1" parent="aws-cloud"><mxGeometry x="390" y="40" width="60" height="60" as="geometry"/></mxCell>
-  <mxCell id="s3" value="S3&#xa;(Static Assets)" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" vertex="1" parent="aws-cloud"><mxGeometry x="700" y="40" width="60" height="60" as="geometry"/></mxCell>
-  <mxCell id="alb" value="Application&#xa;Load Balancer" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.application_load_balancer;" vertex="1" parent="pub-subnet-1"><mxGeometry x="155" y="60" width="60" height="60" as="geometry"/></mxCell>
-  <mxCell id="nat-gw" value="NAT&#xa;Gateway" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.nat_gateway;" vertex="1" parent="pub-subnet-2"><mxGeometry x="155" y="60" width="60" height="60" as="geometry"/></mxCell>
-  <mxCell id="asg" value="Auto Scaling Group" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.groupCenter;grIcon=mxgraph.aws4.group_auto_scaling_group;grStroke=1;strokeColor=#ED7100;fillColor=none;verticalAlign=top;align=center;fontColor=#ED7100;dashed=1;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;spacingTop=0;" vertex="1" parent="priv-subnet-1"><mxGeometry x="20" y="40" width="350" height="150" as="geometry"/></mxCell>
-  <mxCell id="ec2-1" value="EC2" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ec2;" vertex="1" parent="asg"><mxGeometry x="60" y="45" width="60" height="60" as="geometry"/></mxCell>
-  <mxCell id="ec2-2" value="EC2" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ec2;" vertex="1" parent="asg"><mxGeometry x="230" y="45" width="60" height="60" as="geometry"/></mxCell>
-  <mxCell id="rds-primary" value="RDS&#xa;(Primary)" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3B48CC;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.rds;" vertex="1" parent="priv-subnet-2"><mxGeometry x="60" y="60" width="60" height="60" as="geometry"/></mxCell>
-  <mxCell id="rds-standby" value="RDS&#xa;(Standby)" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3B48CC;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.rds;" vertex="1" parent="priv-subnet-2"><mxGeometry x="260" y="60" width="60" height="60" as="geometry"/></mxCell>
-  <mxCell id="users" value="Users" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3E;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.users;" vertex="1" parent="1"><mxGeometry x="40" y="330" width="60" height="60" as="geometry"/></mxCell>
-  <mxCell id="link-users-cf" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeWidth=2;strokeColor=#232F3E;" edge="1" parent="1" source="users" target="cloudfront"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="130" y="360"/><mxPoint x="130" y="110"/></Array></mxGeometry></mxCell>
-  <mxCell id="link-cf-s3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeWidth=2;strokeColor=#232F3E;" edge="1" parent="1" source="cloudfront" target="s3"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-cf-alb" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeWidth=2;strokeColor=#232F3E;" edge="1" parent="1" source="cloudfront" target="alb"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-alb-ec2-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeWidth=2;strokeColor=#545B64;exitX=0.5;exitY=1;entryX=0.25;entryY=0;" edge="1" parent="1" source="alb" target="asg"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-ec2-rds" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeWidth=2;strokeColor=#3B48CC;" edge="1" parent="1" source="ec2-1" target="rds-primary"><mxGeometry relative="1" as="geometry"/></mxCell>
-  <mxCell id="link-rds-standby" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeWidth=2;strokeColor=#3B48CC;dashed=1;" edge="1" parent="1" source="rds-primary" target="rds-standby"><mxGeometry relative="1" as="geometry"/></mxCell>
-</root></mxGraphModel></diagram></mxfile>
+Three-tier architecture with multi-AZ VPC:
+
+```plantuml
+@startuml
+left to right direction
+mxgraph.aws4.users "Users" as users
+mxgraph.aws4.cloudfront "CloudFront" as cf
+mxgraph.aws4.s3 "S3\n(Static Assets)" as s3
+
+cloud "AWS Cloud" {
+  rectangle "VPC" {
+    rectangle "Public Subnet (AZ-1)" {
+      mxgraph.aws4.application_load_balancer "ALB" as alb
+    }
+    rectangle "Public Subnet (AZ-2)" {
+      mxgraph.aws4.nat_gateway "NAT\nGateway" as nat
+    }
+    rectangle "Private Subnet (AZ-1)" {
+      mxgraph.aws4.ec2 "EC2" as ec2a
+      mxgraph.aws4.ec2 "EC2" as ec2b
+    }
+    rectangle "Private Subnet (AZ-2)" {
+      mxgraph.aws4.rds "RDS\n(Primary)" as rds1
+      mxgraph.aws4.rds "RDS\n(Standby)" as rds2
+    }
+  }
+}
+
+users --> cf
+cf --> s3
+cf --> alb
+alb --> ec2a
+alb --> ec2b
+ec2a --> rds1
+rds1 ..> rds2 : replication
+@enduml
 ```
 
 ## Pattern Notes
 
-1. **Nested containers**: Cloud → VPC → Subnet → ASG. Children use `parent="<container_id>"` with relative coordinates
-2. **Two icon types**: `resourceIcon + resIcon` for services, direct `shape=mxgraph.aws4.<name>` for sub-components (e.g. `nat_gateway`)
-3. **Multi-AZ**: Duplicate subnets and services across availability zones
-4. **Edge colors**: Match `strokeColor` to target service category color
+1. **`left to right direction`** — cloud architectures flow left-to-right: Users → Edge → Compute → Data
+2. **Nested containers**: `cloud "AWS Cloud"` → `rectangle "VPC"` → `rectangle "Subnet"` maps to AWS resource hierarchy
+3. **Multi-AZ**: duplicate subnets and services across availability zones for high availability
+4. **Dashed for replication**: `rds1 ..> rds2` shows async standby replication
+
+## Related Icons
+
+| Icon | Stencil | Use When |
+|------|---------|----------|
+| Auto Scaling | `mxgraph.aws4.auto_scaling2` | EC2 scaling group boundary |
+| WAF | `mxgraph.aws4.waf` | Web application firewall at ALB |
+| ElastiCache | `mxgraph.aws4.elasticache` | In-memory caching layer |
+| Route 53 | `mxgraph.aws4.route_53` | DNS routing to CloudFront |
+| Certificate Mgr | `mxgraph.aws4.certificate_manager` | TLS certificate provisioning |
+| Internet Gateway | `mxgraph.aws4.internet_gateway` | VPC internet entry point |

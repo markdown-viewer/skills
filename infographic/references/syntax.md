@@ -263,8 +263,8 @@ data
 infographic compare-swot
 data
   items
-    - label 优势
-    - label 劣势
+    - label Strengths
+    - label Weaknesses
 
 # ✅ Correct: English labels (Strengths, Weaknesses, Opportunities, Threats)
 infographic compare-swot

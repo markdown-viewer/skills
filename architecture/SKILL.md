@@ -6,18 +6,24 @@ metadata:
 ---
 
 # Architecture Diagram Generator
+
 **Quick Start:** Create HTML structure with flexible layout (single/double/triple column) → Define CSS styles for layers and grids → Add content with categorized panels → Use semantic colors for different layers.
+
 ## Critical Rules
+
 ### Rule 1: Direct HTML Embedding
 **IMPORTANT**: Write architecture diagrams as direct HTML in Markdown. **NEVER** use code blocks (` ```html `). The HTML should be embedded directly in the document without any fencing.
+
 ### Rule 2: No Empty Lines in HTML Structure
 **CRITICAL**: Do NOT add any empty lines within the HTML architecture diagram structure. Keep the entire HTML block continuous to prevent parsing errors.
+
 ### Rule 3: Incremental Creation Approach
 **RECOMMENDED**: Create architecture diagrams in multiple steps:
 1. **First**: Create the overall framework (wrapper, sidebars, main structure) and define all CSS styles
 2. **Second**: Add layer containers with titles
 3. **Third**: Fill in components layer by layer
 4. **Fourth**: Add detailed content and refinements
+
 ### Rule 4: Flexible Layout Structure
 Architecture diagrams can use flexible layouts based on complexity:
 - **Single Column**: Main content only (for simple architectures)
@@ -26,72 +32,60 @@ Architecture diagrams can use flexible layouts based on complexity:
   - **Left Sidebar**: Supporting systems (monitoring, operations, analytics)
   - **Main Content**: Core architecture layers (user, application, data, infrastructure)
   - **Right Sidebar**: Cross-cutting concerns (security, compliance, governance)
+
 ### Rule 5: Layer-Based Organization
 Each layer should have:
 - Clear semantic meaning (User, Application, AI/Logic, Data, Infrastructure)
 - Consistent color coding
 - Grid-based layout for components
 - Appropriate nesting for sub-components
+
 ### Rule 6: Color Semantics
-Use consistent colors for layer types:
-- **User Layer**: Blue gradient (`#dbeafe` to `#bfdbfe`)
-- **Application Layer**: Yellow/Orange gradient (`#fef3c7` to `#fde68a`)
-- **AI/Logic Layer**: Green gradient (`#dcfce7` to `#bbf7d0`)
-- **Data Layer**: Pink gradient (`#fce7f3` to `#fbcfe8`)
-- **Infrastructure Layer**: Purple gradient (`#e0e7ff` to `#c7d2fe`)
-- **External Services**: Gray gradient (`#f1f5f9` to `#e2e8f0`) with dashed border
-## Basic Architecture Template
-**USAGE NOTE**: Copy the HTML below directly into your Markdown document. Do NOT wrap it in code blocks. Remove all empty lines to keep it continuous.
-<div style="width: 1200px; box-sizing: border-box; position: relative;">
-  <style scoped>
-    .arch-wrapper { display: flex; gap: 12px; }.arch-sidebar { width: 165px; flex-shrink: 0; }.arch-main { flex: 1; min-width: 0; }.arch-title { text-align: center; font-size: 22px; font-weight: bold; color: #1e293b; margin-bottom: 16px; }
-    .arch-layer { margin: 10px 0; padding: 14px; border-radius: 10px; box-shadow: 0 2px 8px rgba(15, 23, 42, 0.1); }.arch-layer-title { font-size: 14px; font-weight: bold; color: #1e293b; margin-bottom: 10px; text-align: center; }
-    .arch-grid { display: grid; gap: 8px; }.arch-grid-2 { grid-template-columns: repeat(2, 1fr); }.arch-grid-3 { grid-template-columns: repeat(3, 1fr); }.arch-grid-4 { grid-template-columns: repeat(4, 1fr); }.arch-grid-5 { grid-template-columns: repeat(5, 1fr); }.arch-grid-6 { grid-template-columns: repeat(6, 1fr); }
-    .arch-box { border-radius: 6px; padding: 8px; text-align: center; font-size: 11px; font-weight: 600; line-height: 1.35; color: #0f172a; background: rgba(255, 255, 255, 0.9); border: 1px solid rgba(15, 23, 42, 0.1); }.arch-box.highlight { background: linear-gradient(135deg, #fef08a 0%, #fde047 100%); border: 2px solid #eab308; }.arch-box.tech { font-size: 10px; background: rgba(255, 255, 255, 0.7); }
-    .arch-layer.external { background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%); border: 2px dashed #64748b; }.arch-layer.user { background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%); border: 2px solid #3b82f6; }.arch-layer.application { background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); border: 2px solid #f59e0b; }.arch-layer.ai { background: linear-gradient(135deg, #dcfce7 0%, #bbf7d0 100%); border: 2px solid #22c55e; }.arch-layer.data { background: linear-gradient(135deg, #fce7f3 0%, #fbcfe8 100%); border: 2px solid #ec4899; }.arch-layer.infra { background: linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 100%); border: 2px solid #6366f1; }
-    .arch-sidebar-panel { border-radius: 8px; padding: 10px; background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%); border: 2px solid #9ca3af; margin-bottom: 10px; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05); }.arch-sidebar-title { font-size: 12px; font-weight: bold; text-align: center; color: #374151; margin-bottom: 6px; }.arch-sidebar-item { font-size: 10px; text-align: center; color: #1f2937; background: rgba(255, 255, 255, 0.8); padding: 5px; border-radius: 4px; margin: 3px 0; border: 1px solid rgba(0, 0, 0, 0.05); }.arch-sidebar-item.metric { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border: 1px solid #86efac; font-weight: 600; }
-  </style>
-  <div class="arch-title">System Architecture Overview</div>
-  <div class="arch-wrapper">
-    <div class="arch-sidebar">
-      <div class="arch-sidebar-panel"><div class="arch-sidebar-title">📊 Monitoring</div><div class="arch-sidebar-item">Application Metrics</div><div class="arch-sidebar-item">Performance Tracking</div><div class="arch-sidebar-item">Health Checks</div><div class="arch-sidebar-item">Alert Management</div></div>
-      <div class="arch-sidebar-panel"><div class="arch-sidebar-title">📈 Analytics</div><div class="arch-sidebar-item">User Behavior</div><div class="arch-sidebar-item">Business KPIs</div><div class="arch-sidebar-item">Technical Metrics</div><div class="arch-sidebar-item">Custom Reports</div></div>
-      <div class="arch-sidebar-panel"><div class="arch-sidebar-title">🔄 Operations</div><div class="arch-sidebar-item">CI/CD Pipeline</div><div class="arch-sidebar-item">Deployment</div><div class="arch-sidebar-item">Configuration</div><div class="arch-sidebar-item">Maintenance</div></div>
-    </div>
-    <div class="arch-main">
-      <div class="arch-layer user">
-        <div class="arch-layer-title">User Interface Layer</div>
-        <div class="arch-grid arch-grid-4"><div class="arch-box">Web App<br><small>React/Vue</small></div><div class="arch-box">Mobile App<br><small>React Native</small></div><div class="arch-box">Desktop App<br><small>Electron</small></div><div class="arch-box">API Client<br><small>REST/GraphQL</small></div></div>
-      </div>
-      <div class="arch-layer application">
-        <div class="arch-layer-title">Application Services Layer</div>
-        <div class="arch-grid arch-grid-3"><div class="arch-box">Business Logic<br><small>Core Services</small></div><div class="arch-box highlight">API Gateway<br><small>Routing & Auth</small></div><div class="arch-box">Background Jobs<br><small>Queue Processing</small></div></div>
-      </div>
-      <div class="arch-layer ai">
-        <div class="arch-layer-title">Intelligence Layer</div>
-        <div class="arch-grid arch-grid-2"><div class="arch-box">ML Models<br><small>Inference Engine</small></div><div class="arch-box">Rule Engine<br><small>Business Rules</small></div></div>
-      </div>
-      <div class="arch-layer data">
-        <div class="arch-layer-title">Data Layer</div>
-        <div class="arch-grid arch-grid-4"><div class="arch-box tech">Primary DB<br><small>PostgreSQL</small></div><div class="arch-box tech">Cache<br><small>Redis</small></div><div class="arch-box tech">Search<br><small>Elasticsearch</small></div><div class="arch-box tech">File Storage<br><small>S3/MinIO</small></div></div>
-      </div>
-      <div class="arch-layer infra">
-        <div class="arch-layer-title">Infrastructure Layer</div>
-        <div class="arch-grid arch-grid-5"><div class="arch-box tech">Container<br><small>Docker/K8s</small></div><div class="arch-box tech">Load Balancer<br><small>Nginx</small></div><div class="arch-box tech">Message Queue<br><small>RabbitMQ</small></div><div class="arch-box tech">Logging<br><small>ELK Stack</small></div><div class="arch-box tech">CDN<br><small>CloudFlare</small></div></div>
-      </div>
-      <div class="arch-layer external">
-        <div class="arch-layer-title">External Services</div>
-        <div class="arch-grid arch-grid-4"><div class="arch-box tech">Third-party APIs<br><small>Payment/Auth</small></div><div class="arch-box tech">Cloud Services<br><small>AWS/Azure</small></div><div class="arch-box tech">SaaS Tools<br><small>Analytics</small></div><div class="arch-box tech">Integrations<br><small>Webhooks</small></div></div>
-      </div>
-    </div>
-    <div class="arch-sidebar">
-      <div class="arch-sidebar-panel"><div class="arch-sidebar-title">🔐 Security</div><div class="arch-sidebar-item">Authentication</div><div class="arch-sidebar-item">Authorization</div><div class="arch-sidebar-item">Data Encryption</div><div class="arch-sidebar-item">Network Security</div></div>
-      <div class="arch-sidebar-panel"><div class="arch-sidebar-title">📋 Compliance</div><div class="arch-sidebar-item">Audit Logging</div><div class="arch-sidebar-item">Data Privacy</div><div class="arch-sidebar-item">Regulatory</div><div class="arch-sidebar-item">Standards</div></div>
-      <div class="arch-sidebar-panel"><div class="arch-sidebar-title">💾 Backup</div><div class="arch-sidebar-item">Data Backup</div><div class="arch-sidebar-item">Disaster Recovery</div><div class="arch-sidebar-item">High Availability</div><div class="arch-sidebar-item">Failover</div></div>
-    </div>
-  </div>
-</div>
-```
+Use consistent semantic meaning for layers — the exact color palette varies by style (see examples). The standard semantic mapping:
+- **User Layer** — user-facing interfaces and clients
+- **Application Layer** — business logic and API services
+- **AI/Logic Layer** — intelligence, rules, processing engines
+- **Data Layer** — databases, caches, storage
+- **Infrastructure Layer** — containers, networking, DevOps
+- **External Services** — third-party APIs, cloud services (typically dashed border)
+
+## Style Examples
+
+Choose a visual style that matches your project's tone and audience. Each example contains a complete, copy-ready HTML template.
+
+| # | Style | File | Suitable For |
+|---|---|---|---|
+| 1 | **Steel Blue** | [styles/steel-blue.md](styles/steel-blue.md) | Consulting reports, banking/finance, government projects, RFP proposals |
+| 2 | **Ember Warm** | [styles/ember-warm.md](styles/ember-warm.md) | Retail/e-commerce, education platforms, lifestyle brands, cultural institutions |
+| 3 | **Neon Dark** | [styles/neon-dark.md](styles/neon-dark.md) | Tech talks, developer conferences, gaming platforms, cybersecurity dashboards |
+| 4 | **Stark Block** | [styles/stark-block.md](styles/stark-block.md) | Creative studios, education platforms, indie developers, tech blogs |
+| 5 | **Ocean Teal** | [styles/ocean-teal.md](styles/ocean-teal.md) | Travel platforms, logistics/shipping, green tech, weather/ocean projects |
+| 6 | **Dusk Glow** | [styles/dusk-glow.md](styles/dusk-glow.md) | Social media, entertainment platforms, martech, content creation tools |
+| 7 | **Rose Bloom** | [styles/rose-bloom.md](styles/rose-bloom.md) | Fashion/beauty, luxury brands, wedding platforms, premium memberships |
+| 8 | **Sage Forest** | [styles/sage-forest.md](styles/sage-forest.md) | Healthcare, agritech, clean energy, sustainability, bioinformatics |
+| 9 | **Frost Clean** | [styles/frost-clean.md](styles/frost-clean.md) | Design tools, developer docs, API references, minimalist SaaS |
+| 10 | **Indigo Deep** | [styles/indigo-deep.md](styles/indigo-deep.md) | Brand-consistent systems, enterprise white papers, internal platforms |
+| 11 | **Pastel Mix** | [styles/pastel-mix.md](styles/pastel-mix.md) | SaaS products, startups, general tech architecture, product docs |
+| 12 | **Slate Dark** | [styles/slate-dark.md](styles/slate-dark.md) | Enterprise dark mode, internal tools, developer dashboards |
+
+## Layout Examples
+
+Choose a layout structure that fits your architecture's complexity. Layouts use wireframe style (no colors) to focus on structural patterns. Combine any layout with any style above.
+
+| # | Layout | File | Best For |
+|---|---|---|---|
+| 1 | **Three-Column** | [layouts/three-column.md](layouts/three-column.md) | Complex systems with cross-cutting concerns and monitoring sidebars |
+| 2 | **Single Stack** | [layouts/single-stack.md](layouts/single-stack.md) | Simple services, microservice detail views, focused documentation |
+| 3 | **Left Sidebar** | [layouts/left-sidebar.md](layouts/left-sidebar.md) | Systems with operations/monitoring emphasis, DevOps-centric views |
+| 4 | **Right Sidebar** | [layouts/right-sidebar.md](layouts/right-sidebar.md) | Systems with security/compliance emphasis, governance-focused views |
+| 5 | **Pipeline** | [layouts/pipeline.md](layouts/pipeline.md) | Data pipelines, CI/CD flows, ETL processes, horizontal stage-based flows |
+| 6 | **Two-Column Split** | [layouts/two-column-split.md](layouts/two-column-split.md) | Before/after comparisons, dual-system views, migration architecture |
+| 7 | **Dashboard** | [layouts/dashboard.md](layouts/dashboard.md) | System overviews with KPIs, monitoring dashboards, executive summaries |
+| 8 | **Grid Catalog** | [layouts/grid-catalog.md](layouts/grid-catalog.md) | Service catalogs, component libraries, equal-weight microservices |
+| 9 | **Banner + Center** | [layouts/banner-center.md](layouts/banner-center.md) | Gateway-centric architectures, user-facing systems with shared infrastructure |
+| 10 | **Nested Containers** | [layouts/nested-containers.md](layouts/nested-containers.md) | Cloud deployments, VPC/network topology, environment isolation |
+| 11 | **Layer Layouts** | [layouts/layer-layouts.md](layouts/layer-layouts.md) | Per-layer layout patterns: grid, sub-group, product group, KPI, vertical stack, zones, inline pipeline, mixed width |
+| 12 | **Connectors** | [layouts/connectors.md](layouts/connectors.md) | SVG overlay connectors between components: solid/dashed lines, arrows, labels, curved & orthogonal paths |
 
 ## Advanced Features
 
@@ -106,6 +100,10 @@ Use consistent colors for layer types:
 .arch-subgroup-title { font-size: 10px; font-weight: bold; color: #374151; text-align: center; margin-bottom: 6px; }
 .arch-user-types { display: flex; gap: 4px; justify-content: center; margin-top: 6px; }
 .arch-user-tag { font-size: 9px; padding: 2px 6px; border-radius: 10px; background: rgba(59, 130, 246, 0.15); color: #1d4ed8; }
+/* SVG connector lines between components */
+.arch-conn { stroke: #94a3b8; stroke-width: 1.5; fill: none; }
+.arch-conn-dashed { stroke: #94a3b8; stroke-width: 1.5; fill: none; stroke-dasharray: 6 4; }
+.arch-conn-label { font-size: 9px; fill: #64748b; font-family: sans-serif; }
 ```
 
 ### Custom Product Groups
@@ -154,7 +152,6 @@ For detailed breakdowns within layers:
 ```
 
 ### User Types/Tags
-Add user type indicators:
 
 ```html
 <div class="arch-user-types">
@@ -166,7 +163,6 @@ Add user type indicators:
 ```
 
 ### Metrics and KPIs
-Highlight important metrics in sidebar:
 
 ```html
 <div class="arch-sidebar-item metric">99.9% Uptime</div>
@@ -174,36 +170,49 @@ Highlight important metrics in sidebar:
 <div class="arch-sidebar-item metric">1M+ Users</div>
 ```
 
+### SVG Connectors Between Components
+Use an SVG overlay to draw orthogonal (right-angle) connectors between components. **Always use `<path>` with `M`/`L` commands for strictly horizontal and vertical segments. Do NOT use `<line>`, Bézier curves, or diagonal lines.** See [layouts/connectors.md](layouts/connectors.md) for full reference.
+
+```html
+<!-- Wrap diagram content in a relative container -->
+<div style="position: relative;">
+  <!-- ...layers and components here... -->
+  <!-- SVG overlay as last child -->
+  <svg style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; overflow: visible;">
+    <defs>
+      <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+        <path d="M0,0 L8,3 L0,6" fill="none" stroke="#94a3b8" stroke-width="1"/>
+      </marker>
+    </defs>
+    <!-- Orthogonal solid arrow (vertical → horizontal → vertical) -->
+    <path d="M 200,72 L 200,90 L 400,90 L 400,108" class="arch-conn" marker-end="url(#arrowhead)"/>
+    <!-- Orthogonal dashed line -->
+    <path d="M 600,72 L 600,90 L 600,90 L 600,108" class="arch-conn-dashed" marker-end="url(#arrowhead)"/>
+    <!-- Label -->
+    <text x="420" y="86" class="arch-conn-label">data flow</text>
+  </svg>
+</div>
+```
+
 ## Styling Reference
 
-### Layer Classes
-- `.arch-layer.user` - Blue gradient for user-facing components
-- `.arch-layer.application` - Yellow/Orange for application services  
-- `.arch-layer.ai` - Green for AI/ML/Logic components
-- `.arch-layer.data` - Pink for data storage and processing
-- `.arch-layer.infra` - Purple for infrastructure components
-- `.arch-layer.external` - Gray dashed for external dependencies
-
-### Box Classes
-- `.arch-box` - Standard component box
-- `.arch-box.highlight` - Highlighted/key components (yellow)
-- `.arch-box.tech` - Technical components (smaller text)
-
-### Grid Classes
-- `.arch-grid-2` to `.arch-grid-6` - 2 to 6 column responsive grids
-
-### Sidebar Classes
-- `.arch-sidebar-panel` - Panel container
-- `.arch-sidebar-item` - Regular sidebar item
-- `.arch-sidebar-item.metric` - Highlighted metric item
+### Common Classes (shared across all styles)
+- `.arch-wrapper` — flex container for sidebar + main layout
+- `.arch-sidebar` — fixed-width sidebar column
+- `.arch-main` — flexible main content area
+- `.arch-layer` — layer container (add semantic class: `.user`, `.application`, `.ai`, `.data`, `.infra`, `.external`)
+- `.arch-box` — component box; `.arch-box.highlight` for key items; `.arch-box.tech` for smaller tech items
+- `.arch-grid-2` to `.arch-grid-6` — grid column layouts
+- `.arch-sidebar-panel` — sidebar panel container
+- `.arch-sidebar-item` — sidebar item; `.arch-sidebar-item.metric` for highlighted metrics
 
 ## Best Practices
 
 ### HTML Usage Guidelines
 
-1. **Direct embedding only** - Always embed HTML directly in Markdown, never use ` ```html ` code blocks
-2. **No empty lines in structure** - Keep the entire HTML block continuous without any empty lines
-3. **Incremental development** - Build diagrams step by step:
+1. **Direct embedding only** — Always embed HTML directly in Markdown, never use ` ```html ` code blocks
+2. **No empty lines in structure** — Keep the entire HTML block continuous without any empty lines
+3. **Incremental development** — Build diagrams step by step:
    - Start with basic framework and layout structure (single/two/three column as needed)
    - Add empty layer containers with proper CSS classes
    - Fill in content layer by layer from top to bottom
@@ -211,21 +220,11 @@ Highlight important metrics in sidebar:
 
 ### Architecture Design
 
-1. **Keep layers logically separated** - Each layer should represent a clear architectural tier
-2. **Use consistent naming** - Follow naming conventions for components and services
-3. **Highlight key components** - Use `.highlight` class for critical components
-4. **Add technical details** - Include technology stack info in `<small>` tags
-5. **Balance information density** - Don't overcrowd components with text
-6. **Use icons sparingly** - Add emojis to titles for visual hierarchy
-7. **Maintain color semantics** - Stick to the established color meanings
-8. **Consider responsive design** - Grids automatically adapt to content
-
-## Use Cases
-
-- **Microservices Architecture** - Show service boundaries and dependencies
-- **Enterprise Application Architecture** - Display multi-tier application structure  
-- **Cloud Infrastructure** - Illustrate cloud service dependencies
-- **Data Pipeline Architecture** - Show data flow through processing layers
-- **AI/ML System Architecture** - Highlight ML components and data flows
-- **Security Architecture** - Emphasize security controls across layers
-- **DevOps Architecture** - Show CI/CD and deployment infrastructure
+1. **Keep layers logically separated** — Each layer should represent a clear architectural tier
+2. **Use consistent naming** — Follow naming conventions for components and services
+3. **Highlight key components** — Use `.highlight` class for critical components
+4. **Add technical details** — Include technology stack info in `<small>` tags
+5. **Balance information density** — Don't overcrowd components with text
+6. **Use icons sparingly** — Add emojis to titles for visual hierarchy
+7. **Maintain color semantics** — Stick to the established color meanings
+8. **Consider responsive design** — Grids automatically adapt to content

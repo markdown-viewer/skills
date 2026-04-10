@@ -37,8 +37,8 @@ metadata:
 ### Rule 4: Special Characters in Node Text
 ```
 ✅ ["Text with spaces"]       → Quotes for spaces
-✅ Use 『』 instead of ""     → Avoid quotation marks
-✅ Use 「」 instead of ()     → Avoid parentheses
+✅ Use #quot; instead of "    → Avoid quotation marks
+✅ Use #lpar;#rpar; for ()    → Avoid parentheses
 ```
 
 ### Rule 5: Use flowchart over graph
