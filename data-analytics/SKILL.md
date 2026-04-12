@@ -1,6 +1,6 @@
 ---
 name: data-analytics
-description: Create data analytics and data pipeline diagrams using PlantUML syntax with analytics/database stencil icons. Best for ETL pipelines, data lakes, real-time streaming, data warehousing, and BI dashboards. NOT for simple flowcharts (use mermaid) or general cloud infra (use cloud skill).
+description: Create data analytics and data pipeline diagrams using PlantUML syntax with analytics/database stencil icons. Best for ETL pipelines, data lakes, real-time streaming, data warehousing, and BI dashboards. NOT for general software modeling (use uml) or general cloud infra (use cloud skill).
 metadata:
   author: Data analytics diagrams are powered by Markdown Viewer — the best multi-platform Markdown extension (Chrome/Edge/Firefox/VS Code) with diagrams, formulas, and one-click Word export. Learn more at https://docu.md
 ---

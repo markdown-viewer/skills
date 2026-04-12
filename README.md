@@ -2,7 +2,7 @@
 
 Opinionated skills for AI coding agents to create stunning diagrams and visualizations directly in Markdown. These skills extend agent capabilities across diagram generation, data visualization, and technical documentation.
 
-**15 skills** covering 7 rendering engines — from simple flowcharts to enterprise architecture, data analytics, and editorial-quality content cards.
+**13 skills** covering 5 rendering engines — from software modeling to enterprise architecture, data analytics, and editorial-quality content cards.
 
 Skills follow the [Agent Skills](https://agentskills.io/) format.
 
@@ -47,11 +47,9 @@ Skills are automatically detected when placed in `.github/skills/` directory.
 
 | Category | Skill | Code Fence | Description | Best For |
 |----------|-------|------------|-------------|----------|
-| 🔀 Flowcharts | [mermaid](mermaid/SKILL.md) | ` ```mermaid ` | Flowcharts, sequence diagrams, state machines, Gantt charts (14+ diagram types) | Process flows, API interactions, simple architecture |
-| 📊 Data Charts | [vega](vega/SKILL.md) | ` ```vega-lite ` / ` ```vega ` | Data-driven charts with Vega-Lite and Vega | Bar, line, scatter, heatmap, area charts, radar, word cloud |
+| � Data Charts | [vega](vega/SKILL.md) | ` ```vega-lite ` / ` ```vega ` | Data-driven charts with Vega-Lite and Vega | Bar, line, scatter, heatmap, area charts, radar, word cloud |
 | 📈 Infographic | [infographic](infographic/SKILL.md) | ` ```infographic ` | 70+ pre-designed templates with YAML syntax | KPI cards, timelines, roadmaps, SWOT, funnels, org trees |
 | 🎨 Mind Map | [canvas](canvas/SKILL.md) | ` ```canvas ` | Spatial node-based diagrams with JSON Canvas format | Mind maps, knowledge graphs, concept maps, planning boards |
-| 🕸️ Dependency Graph | [graphviz](graphviz/SKILL.md) | ` ```dot ` | Complex directed/undirected graphs with DOT language | Dependency trees, module relationships, call graphs |
 
 ### HTML/CSS Embedded Skills
 
@@ -81,10 +79,13 @@ These skills use PlantUML as the diagram engine, with domain-specific mxgraph st
 
 | Use Case | Recommended Skill | Reason |
 |----------|-------------------|--------|
-| **Flowcharts & Sequences** | | |
-| Process flow / workflow | `mermaid` | Simple text-based syntax |
-| API sequence diagram | `mermaid` or `uml` | Mermaid for simple, UML for complex |
-| State machine | `mermaid` or `uml` | Mermaid for simple, UML for statechart notation |
+| **Software Modeling** | | |
+| Flowchart / process flow | `uml` | PlantUML activity diagram with auto-layout |
+| Sequence diagram | `uml` | UML lifeline and flow shapes |
+| State machine | `uml` | UML statechart notation |
+| Class / object diagram | `uml` | Standard UML notation |
+| Component / deployment | `uml` | UML component and deployment views |
+| Dependency graph / module relations | `uml` | Package diagram with hierarchical layout |
 | **Data Visualization** | | |
 | Bar / line / scatter chart | `vega` | Data-driven visualization |
 | Heatmap / multi-series | `vega` | Statistical analysis |
@@ -100,8 +101,6 @@ These skills use PlantUML as the diagram engine, with domain-specific mxgraph st
 | **Concept Mapping** | | |
 | Mind map / brainstorm | `canvas` | Free spatial positioning |
 | Knowledge graph | `canvas` | Node-edge with coordinates |
-| Module dependencies | `graphviz` | Complex edge routing |
-| Package relationships | `graphviz` | Hierarchical layouts |
 | **Architecture** | | |
 | System layers (User→App→Data→Infra) | `architecture` | Color-coded HTML/CSS layer templates |
 | Microservices architecture | `architecture` | Grid-based component layout |
@@ -115,10 +114,6 @@ These skills use PlantUML as the diagram engine, with domain-specific mxgraph st
 | Threat model | `security` | Security-specific icons and patterns |
 | Zero-trust architecture | `security` | IAM, firewall, encryption icons |
 | Compliance diagram | `security` | Audit and compliance flows |
-| **Software Modeling** | | |
-| UML class diagram | `uml` | Standard UML notation |
-| UML sequence / activity | `uml` | UML lifeline and flow shapes |
-| Component / deployment | `uml` | UML component and deployment views |
 | **Business Process** | | |
 | BPMN workflow | `bpmn` | BPMN notation with swim lanes |
 | Integration pattern (EIP) | `bpmn` | Enterprise integration patterns |
@@ -143,7 +138,7 @@ skills/
 ├── <skill-name>/
 │   ├── SKILL.md        # Detailed instructions for the agent (with YAML frontmatter)
 │   ├── examples/       # Example diagrams (PlantUML-based skills)
-│   ├── references/     # Syntax specs and examples (mermaid, canvas, graphviz, vega, infographic)
+│   ├── references/     # Syntax specs and examples (canvas, vega, infographic)
 │   ├── layouts/        # Layout templates (architecture, infocard)
 │   └── styles/         # Color style templates (architecture, infocard)
 └── README.md           # This file
@@ -166,11 +161,9 @@ flowchart TD
     plantuml --> dataanalytics["📊 data-analytics<br/><small>ETL/Warehouse/ML</small>"]
     plantuml --> iot["📡 iot<br/><small>Sensors/Edge/Smart systems</small>"]
     
-    standalone --> mermaid["🔀 mermaid<br/><small>Flowcharts/Sequence/Gantt</small>"]
     standalone --> vega["📊 vega<br/><small>Data-driven charts</small>"]
     standalone --> infographic["📈 infographic<br/><small>70+ YAML templates</small>"]
     standalone --> canvas["🎨 canvas<br/><small>JSON Canvas mind maps</small>"]
-    standalone --> graphviz["🕸️ graphviz<br/><small>DOT dependency graphs</small>"]
     
     htmlcss --> architecture["🏛️ architecture<br/><small>12 styles × 13 layouts</small>"]
     htmlcss --> infocard["🃏 infocard<br/><small>14 styles × 13 layouts</small>"]
@@ -201,12 +194,10 @@ When the agent receives a request involving diagrams or visualizations:
 
 | Skill | Code Fence | Output Format |
 |-------|------------|---------------|
-| Mermaid | ` ```mermaid ` | SVG |
 | Vega-Lite | ` ```vega-lite ` | SVG/Canvas |
 | Vega | ` ```vega ` | SVG/Canvas |
 | Infographic | ` ```infographic ` | HTML |
 | Canvas | ` ```canvas ` | SVG |
-| Graphviz | ` ```dot ` | SVG |
 | UML | ` ```plantuml ` / ` ```puml ` | SVG |
 | Cloud | ` ```plantuml ` / ` ```puml ` | SVG |
 | Network | ` ```plantuml ` / ` ```puml ` | SVG |

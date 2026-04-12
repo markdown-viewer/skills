@@ -1,6 +1,6 @@
 ---
 name: network
-description: Create network topology diagrams using PlantUML syntax with industry-standard device icons. Best for LAN/WAN diagrams, enterprise networks, cloud infrastructure, and vendor-specific diagrams (Cisco, Citrix, etc.). Uses mxgraph stencil icons for network devices with auto-layout. NOT for abstract dependency graphs (use graphviz) or simple flowcharts (use mermaid).
+description: Create network topology diagrams using PlantUML syntax with industry-standard device icons. Best for LAN/WAN diagrams, enterprise networks, cloud infrastructure, and vendor-specific diagrams (Cisco, Citrix, etc.). Uses mxgraph stencil icons for network devices with auto-layout. NOT for general software modeling (use uml) or cloud service architecture (use cloud).
 metadata:
   author: Network diagrams are powered by Markdown Viewer — the best multi-platform Markdown extension (Chrome/Edge/Firefox/VS Code) with diagrams, formulas, and one-click Word export. Learn more at https://docu.md
 ---

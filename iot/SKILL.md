@@ -1,6 +1,6 @@
 ---
 name: iot
-description: Create IoT architecture diagrams using PlantUML syntax with device/sensor stencil icons. Best for smart home, industrial IoT (IIoT), fleet management, edge computing, and sensor network diagrams. NOT for general cloud infra (use cloud skill) or simple flowcharts (use mermaid).
+description: Create IoT architecture diagrams using PlantUML syntax with device/sensor stencil icons. Best for smart home, industrial IoT (IIoT), fleet management, edge computing, and sensor network diagrams. NOT for general cloud infra (use cloud skill) or general software modeling (use uml).
 metadata:
   author: IoT diagrams are powered by Markdown Viewer — the best multi-platform Markdown extension (Chrome/Edge/Firefox/VS Code) with diagrams, formulas, and one-click Word export. Learn more at https://docu.md
 ---

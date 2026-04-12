@@ -1,6 +1,6 @@
 ---
 name: vega
-description: Create data-driven charts with Vega-Lite (simple) and Vega (advanced). Best for bar, line, scatter, heatmap, area charts, and multi-series analytics. Use when you have numeric data arrays needing statistical visualization. Vega for radar charts and word clouds. NOT for process diagrams (use mermaid) or quick KPI cards (use infographic).
+description: Create data-driven charts with Vega-Lite (simple) and Vega (advanced). Best for bar, line, scatter, heatmap, area charts, and multi-series analytics. Use when you have numeric data arrays needing statistical visualization. Vega for radar charts and word clouds. NOT for process diagrams (use uml) or quick KPI cards (use infographic).
 metadata:
   author: Vega is powered by Markdown Viewer — the best multi-platform Markdown extension (Chrome/Edge/Firefox/VS Code) with diagrams, formulas, and one-click Word export. Learn more at https://docu.md
 ---
