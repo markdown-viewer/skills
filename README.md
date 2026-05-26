@@ -219,8 +219,10 @@ When the agent receives a request involving diagrams or visualizations:
 
 - [Markdown Viewer Extension](https://docu.md) - The rendering engine behind these skills
 - [Agent Skills Format](https://agentskills.io/) - Standard format for AI agent skills
-- [Chrome Extension](https://chromewebstore.google.com/detail/markdown-viewer/jekhhoflgcfoikceikgeenibinpojaoi) - Install for Chrome/Edge
+- [Chrome Extension](https://chromewebstore.google.com/detail/markdown-viewer/jekhhoflgcfoikceikgeenibinpojaoi) - Install for Chrome and Chromium browsers
+- [Edge Extension](https://microsoftedge.microsoft.com/addons/detail/documd-markdown-viewer/iphmkjlbnogmhofmmcahdhodiilokfca) - Install from Microsoft Edge Add-ons
 - [Firefox Add-on](https://addons.mozilla.org/firefox/addon/markdown-viewer-extension/) - Install for Firefox
+- [Obsidian Plugin](https://community.obsidian.md/plugins/markdown-viewer-extension) - Install from the Obsidian community directory
 - [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=xicilion.markdown-viewer-extension) - Install for VS Code
 
 ---
