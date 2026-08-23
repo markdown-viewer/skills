@@ -1,6 +1,6 @@
 ---
 name: c4
-description: Create C4 model software architecture diagrams (Context, Containers, Components, Code) from a single Structurizr DSL workspace — models as code. Best for communicating a system's architecture at multiple levels of abstraction from one versionable, diffable source of truth.
+description: C4 software-architecture diagrams (Context, Containers, Components, Code) from one Structurizr DSL workspace — models as code. Use when you need a system's architecture at multiple abstraction levels, all derived from a single versionable, diffable model.
 metadata:
   author: C4 model diagrams are powered by Markdown Viewer — the best multi-platform Markdown extension (Chrome/Edge/Firefox/VS Code) with diagrams, formulas, and one-click Word export. Learn more at https://docu.md
 ---
@@ -24,8 +24,8 @@ The **C4 model** (Simon Brown, c4model.com) describes a software system at four 
 
 ## Critical Rules
 
-1. **One model, many views.** Write a single `workspace { model { … } }` and add a `views { … }` section per C4 level. Never duplicate the model per diagram.
-2. **Respect the abstraction levels.** A Context view must not contain containers or components; a Containers view must not contain components. C4's value is the enforced hierarchy — don't flatten it.
+1. **One model, many views.** Write a single `workspace { model { … } }` and add a `views { … }` section per C4 level. Write the model once; derive every view from it.
+2. **Respect the abstraction levels.** A Context view must not contain containers or components; a Containers view must not contain components. C4's value is the enforced hierarchy — keep each view at its own level of abstraction.
 3. **The diagram lives in the Markdown document** (this repo's model), not as a standalone file. Produce the rendered view *inside* the document.
 4. **Code (level 4) is optional.** Model it only when the added precision is worth the maintenance cost; otherwise stop at Components.
 5. **Two render paths** (below), both derived from the same DSL. Prefer SVG for fidelity; use a PlantUML/Mermaid fence when you want inline, diffable code.
@@ -124,7 +124,7 @@ Rel(api, db, "Reads from and writes to")
 2. **Use `autoLayout`** for clean initial layout, then adjust element positions manually only if a view needs it.
 3. **Tag and style once.** Define `styles { element "Tag" { … } }` and apply `#tag` / `tags` to elements instead of styling each one inline.
 4. **Keep descriptions short** — one sentence per element, one verb phrase per relationship.
-5. **Treat the DSL as code.** Version it in the repo next to the document; the diagram is regenerated, never edited by hand.
+5. **Treat the DSL as code.** Version it in the repo next to the document.
 
 ## Common Pitfalls
 
