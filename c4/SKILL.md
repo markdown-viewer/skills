@@ -98,7 +98,7 @@ System(mainframe, "Mainframe Banking System")
 System_Boundary(ibs, "Internet Banking System") {
     Container(spa, "Single-Page App", "Angular")
     Container(api, "API Application", "Java + Spring")
-    Container(db, "Database", "Oracle")
+    ContainerDb(db, "Database", "Oracle")
 }
 Rel(customer, spa, "Visits using HTTPS")
 Rel(spa, api, "Makes API calls to")

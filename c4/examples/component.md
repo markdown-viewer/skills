@@ -55,12 +55,14 @@ structurizr export -workspace workspace.dsl -format plantuml/c4plantuml -output 
 ```plantuml
 @startuml
 !include <C4/C4_Component>
+Person(customer, "Personal Banking Customer", "A customer of the bank.")
 Container_Boundary(api, "API Application") {
     Component(signIn, "Sign In Controller", "Spring MVC Rest Controller", "Allows users to sign in.")
     Component(accounts, "Accounts Summary Controller", "Spring MVC Rest Controller", "Provides account summaries.")
     Component(security, "Security Component", "Spring Security", "Authentication and authorisation.")
 }
 ContainerDb(db, "Database", "Oracle", "User data and access logs.")
+Rel(customer, signIn, "Signs in using", "HTTPS")
 Rel(signIn, security, "Authenticates with")
 Rel(security, db, "Reads from and writes to", "JDBC")
 Rel(accounts, db, "Reads from", "JDBC")

@@ -30,8 +30,8 @@ The `workspace` is the top-level container; `model` holds the elements and relat
 | Container | `c = container "Name" "Description" "Technology" "Tag"` | A deployable/runtime unit (app, DB, service) |
 | Component | `comp = component "Name" "Description" "Technology" "Tag"` | A structural block inside a container |
 | Group | `group "Name" { … }` | A visual grouping of elements |
-| Deployment node | `node = deploymentNode "Name" "Description" "Tag" { … }` | Physical/cloud infrastructure |
-| Infrastructure node | `infra = infrastructureNode "Name" "Description" "Tag"` | A piece of infrastructure (e.g. a database engine) |
+| Deployment node | `node = deploymentNode "Name" "Description" "Technology" { … }` | Physical/cloud infrastructure |
+| Infrastructure node | `infra = infrastructureNode "Name" "Description" "Technology"` | A piece of infrastructure (e.g. a database engine) |
 | Instances | `softwareSystemInstance` / `containerInstance` | Deployment-specific instances of systems/containers |
 
 Elements can be nested to express ownership (a `container` or `component` is declared inside its parent's `{ … }`):
@@ -159,8 +159,9 @@ api = container "API Application" "…" "Java" {
 ## Exporting (Structurizr CLI)
 
 ```bash
-# SVG — native browser-based renderer (needs Chromium/headless browser)
+# SVG / PNG — native browser-based renderer (needs Chromium/headless browser)
 structurizr export -workspace workspace.dsl -format svg -output diagrams
+structurizr export -workspace workspace.dsl -format png -output diagrams
 
 # PlantUML — Structurizr dialect or C4-PlantUML dialect
 structurizr export -workspace workspace.dsl -format plantuml -output diagrams
