@@ -2,7 +2,7 @@
 
 Opinionated skills for AI coding agents to create stunning diagrams and visualizations directly in Markdown. These skills extend agent capabilities across diagram generation, data visualization, and technical documentation.
 
-**14 skills** covering 5 rendering engines — from software modeling to enterprise architecture, data analytics, and editorial-quality content cards.
+**15 skills** covering 6 rendering engines — from software modeling to enterprise architecture, data analytics, and editorial-quality content cards.
 
 Skills follow the [Agent Skills](https://agentskills.io/) format.
 
@@ -76,6 +76,14 @@ These skills use PlantUML as the diagram engine, with domain-specific mxgraph st
 | 📡 IoT | [iot](iot/SKILL.md) | IoT device, sensor, and edge computing diagrams | Smart home/factory, fleet management, digital twins |
 | 🧠 Mind Map | [mindmap](mindmap/SKILL.md) | Native PlantUML mind map syntax with directional branches and rich text | Brainstorming trees, study outlines, decision maps |
 
+### Structurizr-Based Skills
+
+These skills use the [C4 model](https://c4model.com) with **Structurizr DSL** as the authoring engine — models as code, one versionable source of truth. Views render as inline SVG (raw HTML) or a PlantUML/Mermaid code fence.
+
+| Category | Skill | Description | Best For |
+|----------|-------|-------------|----------|
+| 🏗️ C4 Architecture | [c4](c4/SKILL.md) | C4 model (Context → Containers → Components → Code) from Structurizr DSL | Software architecture, system context, container & component views |
+
 ### Skill Selection Guide
 
 | Use Case | Recommended Skill | Reason |
@@ -107,6 +115,7 @@ These skills use PlantUML as the diagram engine, with domain-specific mxgraph st
 | System layers (User→App→Data→Infra) | `architecture` | Color-coded HTML/CSS layer templates |
 | Microservices architecture | `architecture` | Grid-based component layout |
 | Enterprise architecture (ArchiMate) | `archimate` | ArchiMate layered modeling notation |
+| C4 system context / containers / components | `c4` | C4 model from Structurizr DSL — models as code |
 | **Network & Cloud** | | |
 | Network topology (LAN/WAN) | `network` | Cisco/Citrix/industry device icons |
 | AWS architecture | `cloud` | AWS stdlib icons |
@@ -153,6 +162,7 @@ flowchart TD
     plantuml["📐 PlantUML<br/><small>Base: text-based diagramming engine</small>"]
     standalone["🧩 Standalone<br/><small>Independent rendering engines</small>"]
     htmlcss["🎨 HTML/CSS<br/><small>Direct HTML embedding</small>"]
+    structurizr["🏗️ Structurizr<br/><small>C4 models-as-code engine</small>"]
     
     plantuml --> uml["📐 uml<br/><small>14 UML types + 9500 stencils</small>"]
     plantuml --> cloud["☁️ cloud<br/><small>AWS/Azure/GCP/Alibaba/IBM</small>"]
@@ -170,6 +180,7 @@ flowchart TD
     
     htmlcss --> architecture["🏛️ architecture<br/><small>12 styles × 13 layouts</small>"]
     htmlcss --> infocard["🃏 infocard<br/><small>14 styles × 13 layouts</small>"]
+    structurizr --> c4["🏗️ c4<br/><small>Context/Containers/Components/Code</small>"]
 ```
 
 ### SKILL.md Format
@@ -210,6 +221,7 @@ When the agent receives a request involving diagrams or visualizations:
 | Data Analytics | ` ```plantuml ` / ` ```puml ` | SVG |
 | IoT | ` ```plantuml ` / ` ```puml ` | SVG |
 | Mindmap | ` ```plantuml ` / ` ```puml ` | SVG |
+| C4 | (raw HTML `<svg>`) or ` ```plantuml ` / ` ```mermaid ` | SVG |
 | Architecture | (no fence, raw HTML) | HTML |
 | Infocard | (no fence, raw HTML) | HTML |
 
