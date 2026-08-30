@@ -28,7 +28,13 @@ metadata:
   - `*[#Orange] Root`
   - `**[#lightgreen] Child`
 - For reusable themes, define `<style>` and apply stereotypes like `<<green>>`
+- **Put exactly one style property per line.** `node { Padding 8 Margin 6 }` silently
+  mis-parses and renders every box narrower than its text, clipping a character off each
+  edge — see [styling-pitfalls.md](examples/styling-pitfalls.md)
+- To wrap long node text instead of stretching the diagram, set `MaximumWidth` on `node`
 - Rich text/Creole and icon syntax are supported inside node text (see examples)
+- Creole is active inside node text: a wrapped line starting with `=`, `-`, `*`, or `#`
+  turns into a heading or list item. Indent the continuation one space to keep it literal
 
 ## Node Syntax Cheat Sheet
 
@@ -60,6 +66,29 @@ metadata:
 | Reusable class style | `<style> ... .green { ... } </style>` + `<<green>>` | Consistent visual themes |
 | Depth-based style | `:depth(1) { ... }` | Global formatting by hierarchy depth |
 | Node/arrow global style | `node { ... }` / `arrow { ... }` | Unified typography and connectors |
+| Text wrapping | `node { MaximumWidth 320 }` | Long labels that would otherwise stretch the map |
+
+> ⚠️ **One property per line.** The style parser reads a single property per line. Collapsing
+> them (`node { Padding 8 Margin 6 RoundCorner 10 }`) does not error — it mis-parses the values
+> and clips the text of *every* node. See [styling-pitfalls.md](examples/styling-pitfalls.md).
+
+```plantuml
+@startmindmap
+<style>
+mindmapDiagram {
+  node {
+    Padding 8
+    Margin 6
+    RoundCorner 10
+    MaximumWidth 320
+  }
+}
+</style>
+* Styling
+** One property per line
+** MaximumWidth wraps long labels instead of stretching the map
+@endmindmap
+```
 
 ## Recommended Color Palettes
 
@@ -125,6 +154,7 @@ Pick a palette that matches the map's purpose. Use inline `[#hex]` for quick col
 | Direction Control | Vertical or RTL reading direction | [direction-control.md](examples/direction-control.md) |
 | Rich Text Content | Detailed notes with icons and formatting | [rich-text-content.md](examples/rich-text-content.md) |
 | Project Planning | Work breakdown and action map | [project-planning.md](examples/project-planning.md) |
+| Styling Pitfalls | Silent clipping, wrapping, Creole and Unicode traps | [styling-pitfalls.md](examples/styling-pitfalls.md) |
 
 ## Quick Example
 
@@ -156,3 +186,8 @@ right to left direction
 | Multi-line text breaks parser | Use `: ... ;` block syntax, ensure trailing `;` exists |
 | Colors not applied | Verify hex format (`#RRGGBB`) or stereotype class names |
 | Layout direction unexpected | Add explicit `top to bottom direction` or `right to left direction` |
+| **Text clipped on every box** | Two or more style properties share a line — put one per line |
+| One long node stretches the whole map | Set `node { MaximumWidth 320 }` to wrap instead |
+| A wrapped line renders bold/large | It starts with `=` (Creole heading) — indent it one space |
+| A wrapped line gains a bullet or number | It starts with `-`, `*`, or `#` — indent it one space |
+| Accents vanish (`θ̂` loses its hat) | Combining diacritics do not render; use `θ^`, or a precomposed character like `ŷ` |
