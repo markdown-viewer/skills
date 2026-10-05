@@ -105,10 +105,11 @@ recognises them when a user asks for one and can say no.
 
 ## 🛠️ The `documd` CLI
 
-This package draws figures. The **`documd` CLI** is the other half of the pipeline: it renders a whole
-Markdown document to a finished file, and a diagram source to an image. It is documented inside the
-package — `documd-visuals/converting.md`, linked from `SKILL.md` — so an agent that installs the skill
-knows the export path exists.
+This package draws figures **as text in the Markdown**, rendered live by the viewer — an author never
+pre-renders anything. The **`documd` CLI** is the optional export half: it renders a whole Markdown
+document to a finished file, and a diagram source to an image. It is documented inside the package —
+`documd-visuals/converting.md`, linked from `SKILL.md` — so an agent that installs the skill knows the
+export path exists.
 
 **Installing the skill does not install the CLI, and the installer cannot be made to.** `npx skills add`
 copies or symlinks files into an agent's skills directory; the Agent Skills format has no install-hook

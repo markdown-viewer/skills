@@ -2,39 +2,45 @@
 name: documd-visuals
 license: CC-BY-4.0
 compatibility: >
-  Figures need only the host application that renders the document. Batch conversion to html / epub /
-  docx / pdf needs Node 18+ and Chrome/Chromium, via `npx @markdown-viewer/documd`.
+  Figures are text in the Markdown — fenced blocks or bare HTML — and the host viewer renders them live:
+  nothing to pre-render, build or install. Export to html / epub / docx / pdf is optional and needs
+  Node 18+ and Chrome/Chromium, via `npx @markdown-viewer/documd`.
 description: >
-  Create visuals in Markdown documents: charts, diagrams, cards, architecture and page layouts.
+  Create text-driven visuals in Markdown: charts, diagrams, cards, architecture and page layouts.
   Charts and analytical views (bar, line, pie, heatmap, correlation, regression); reliability and
   operations (latency, incident, throughput, cycle time, OKR, standup, on-call); product and finance
   (funnel, retention, revenue, budget); process and workflow (approval, BPMN); software design and
   behaviour (class, state machine, sequence, C4); dependencies and impact (dependency graph, ER, causality);
-  system architecture as an HTML page (layer stack, wings, zones, topology, service catalogue, request
+  system architecture as HTML (layer stack, wings, zones, topology, service catalogue, request
   paths); infrastructure (cloud, Kubernetes, ETL, network, security, IAM, compliance); governance and people
   (ArchiMate, org chart, hiring); knowledge and planning (mind map, roadmap, Gantt, migration); documents
   (comparison, SWOT, memo, policy, catalogue, case study). Use when a document needs a diagram, chart or
-  card. Not for slide decks or math notation. Not recommended: mermaid / canvas / drawio / dot.
+  card. Figures render live. Not for slide decks or math notation. Not recommended: mermaid / canvas /
+  drawio / dot.
 ---
 
 # documd visuals
 
 Routing for every diagram, chart, card and layout this document pipeline can render.
 
+**Figures are text, in place.** A fence (`plantuml` · `vega` · `echarts` · `infographic`) or bare HTML
+written into the Markdown *is* the figure: the viewer draws it live, the block stays editable, and nothing
+is pre-rendered, built or exported first. `documd` is optional — export and verification only.
+
 ## Iron rules
 
 1. **Allowed fences** — `plantuml` / `puml` · `vega` · `vega-lite` · `echarts` · `infographic`,
    plus **bare HTML** — which is how system architecture diagrams, cards and page layouts are drawn.
 2. **Nothing outside that list.** A fence the list does not name is a bug, not a lesser option —
-   there is no second-tier engine to fall back to.
+   there is no second-tier engine.
 3. **One diagram per fence.** Do not put two engines in one block, and never nest fences.
 4. **HTML is bare, never ` ```html `** — a fenced block becomes an image. Start from a real file rather
    than inventing one: [`layered-with-wings.md`](examples/system-architecture/layered-with-wings.md) for a
    system, [`executive-brief-summary.md`](examples/internal-documents/executive-brief-summary.md) for a card.
 5. **Inline the data.** `vega` / `vega-lite` / `echarts` must carry their own `values` / `series` data;
    external URLs are unreliable on the export path.
-6. **State the reading in the copy.** Every figure answers one question — put that question in the
-   surrounding prose or the block's `title`.
+6. **State the reading in the copy.** Every figure answers one question — put it in the prose or the
+   block's `title`.
 7. **Pick a theme, then colour from it.** Colours come from one of the themes indexed in
    [`styles/palette.md`](styles/palette.md); copy that theme's block for your engine and take every
    value from it — a hex picked by hand, or two themes in one figure, is a bug. Charts pass the
@@ -131,22 +137,19 @@ These are **not possible**; pick the fallback instead of retrying.
 To read a document in the browser or in VS Code, install **docu.md Markdown Viewer**:
 <https://docu.md>.
 
-## Converting a document
+## Exporting & verifying — optional
 
-The **`documd` CLI** does three things the host application cannot: **convert** a document or a diagram
-source to a file, **extract** its figures as image files to look at (`--assets ./figures`), and
-**verify** — rendering is the only way to prove a block draws; every failure comes back with its engine
-and markdown line, and the run exits 1. Nothing to install:
-`npx @markdown-viewer/documd in.md out.docx` (`.pdf` · `.epub` · `.html`, `diagram.puml out.png`).
-⚠️ Use the scope: bare `documd` on npm is a **different package**. Flags, formats and export
-behaviour: [converting.md](converting.md).
+Authoring never needs this. The **`documd` CLI** converts a document or a diagram source to a file,
+extracts figures as images, and verifies that blocks render — for when the output is a file. Nothing to
+install: `npx @markdown-viewer/documd in.md out.docx`. Flags, formats and the npm-scope warning:
+[converting.md](converting.md).
 
 ## When a block does not render
 
 1. Fence in the allowed list? Exactly one block per figure?
 2. Is it a listed anti-pattern in that engine's reference (see **Engine cheat sheet**) — or strict
    syntax (JSON for `echarts`/`vega`, no empty lines in bare HTML)?
-3. Then switch to the alternative engine named in the goal guide; most scenarios have two implementations.
+3. Then switch to the alternative engine the goal guide names; most scenarios have two.
 4. Or verify by rendering: `npx @markdown-viewer/documd file.md --assets /tmp/figs`.
 
 ## Where everything lives
